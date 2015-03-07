@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Clock -->
+    <string name="keyguard_domestic_zone_name">Pekinas</string>
+    <!-- GlowPadView -->
+    <!-- PowerOffAlarm -->
+    <string name="every_day">Kasdien</string>
+    <string name="never">"Niekada"</string>
+    <string name="day_concat">", "</string>
+    <string name="default_label">"Signalas"</string>
+    <string name="voiceui_notify_string">Galite pasakyti</string>
+    <string name="voiceui_control_poweroff_alarm">kad valdytumėte išjungimo įspėjimą.</string>
+    <string name="voiceui_comma">,</string>
+    <string name="voiceui_quota_start">"</string>
+    <string name="voiceui_quota_end">"</string>
+    <string name="voiceui_or">arba</string>
+    <string name="keyguard_accessibility_alarm_unlock">Išsijungimo įspėjimas</string>
+    <string name="alarm_alert_dismiss_text">Atmesti</string>
+    <string name="alarm_alert_snooze_text">Snaudimas</string>
+    <!-- Telephony -->
+    <string name="keyguard_password_entering_puk_code">Įveskite PUK kodą</string>
+    <string name="keyguard_password_wrong_puk_code">Neteisingas PUK kodas!</string>
+    <string name="invalidPuk">Įveskite 8 skaitmenis.</string>
+    <string name="pin_pass">Kodas priimtas</string>
+    <string name="keyguard_password_enter_new_pin_code">Įveskite naują PIN</string>
+    <string name="keyguard_password_Confirm_pin_code">"Patvirtinti naują PIN kodą"</string>
+    <string name="sim_permanently_locked">SIM kortelė užblokuota neteisingai įvedus PUK kodą daugiau nei 10 kartų.</string>
+    <string name="retries_left">Liko:<xliff:g id="number">%d</xliff:g></string>
+    <string name="simlock_slot_locked_message">Lizdas visam laikui užrakintas</string>
+    <string name="simlock_entersimmelock">Įveskite SIM ME raktą</string>
+    <string name="slot_id">Lizdas <xliff:g id="number">%d</xliff:g>:</string>
+    <string name="new_simcard">Nauja SIM kortelė</string>
+    <string name="lockscreen_missing_sim_dialog_message">"Išimta SIM kortelė. Patikrinkite, ar tinkamai įdėta SIM kortelė."</string>
+    <string name="puk_pass">PIN atblokuotas</string>
+    <string name="sim_card_changed_dialog_title">SIM kortelė pakeista</string>
+    <string name="change_setting_for_onenewsim">Aptikta nauja SIM kortelė. Ji\s pažymėta kaip</string>
+    <string name="change_setting_for_twonewsim">Aptikta nauja SIM kortelė. Jos pažymėtos kaip</string>
+    <string name="sim_card_removed">SIM kortelė išimta.</string>
+    <string name="sim_card_swapped">SIM kortelė sukeista.</string>
+    <string name="change_settings">Keisti</string>
+    <string name="keyguard_voice_call">Balso skambutis:</string>
+    <string name="keyguard_sms">Pranešimų siuntimas:</string>
+    <string name="keyguard_data">Duomenų ryšys:</string>
+    <string name="dismiss">Atmesti</string>
+    <string name="keyguard_wrong_code_input">Klaidingas kodas.</string>
+    <string name="keyguard_code_length_prompt">Įveskite 4–8 skaitmenis.</string>
+    <string name="keyguard_code_donnot_mismatch">Ne\sutampa.</string>
+    <string name="network_searching">Ieškoma naujo tinklo</string>
+    <string name="searching_simcard">Aptinkama...</string>
+    <string name="keyguard_close">Uždaryti</string>
+    <string name="default_sim_setting_prompt">Dabar numatytieji parametrai yra:</string>
+    <string name="keyguard_video_call">Vaizdo skambutis:</string>
+    <string name="invalid_sim_title">Negaliojanti SIM kortelė</string>
+    <string name="invalid_sim_message">UIM/SIM kortelė neatpažinta.</string>
+    <string name="lockscreen_sim_locked_message_short">SIM kortelės užblokuota</string>
+    <!-- UnreadEvent -->
+    <!-- Utils -->
+    <string name="keyguard_alwaysask">Visada klausti</string>
+    <string name="keyguard_data_none">Išjungti</string>
+    <string name="keyguard_sim_auto">Auto</string>
+    <string name="keyguard_internal_call">Vidinis skambutis</string>
+    <string name="keyguard_not_set">Nenustatyta</string>
+    <!-- VoiceUnlock -->
+    <string name="voice_unlock_service_error">Balso pranešimo klaida!</string>
+    <string name="voice_unlock_password_wrong">Apgailestaujame, nepavyko atpažinti jūsų balso.</string>
+    <string name="voice_unlock_noisy">Per daug triukšminga, todėl ne\aiškiai girdisi.</string>
+    <string name="voice_unlock_weak">Ne\sigirdi jūsų balso.</string>
+    <string name="voice_unlock_media_playing">Leidžiant mediją, atrakinimo balsu funkcija neveikia.</string>
+    <string name="voiceunlock_multiple_failures">Viršytas maksimalus bandymų atrakinti balsu skaičius</string>
+    <!-- DM Lock -->
+    <string name="dm_prompt">Terminalas jau užblokuotas</string>
+    <!-- Tablet -->
+    <string name="sd_accessing_swtich_user_title">Perjungti vartotoją?</string>
+    <string name="sd_accessing_swtich_user_message">Visi savininko paskyroje neišsaugoti duomenys bus prarasti arba sugadinti.</string>
+    <!-- Misc -->
+</resources>

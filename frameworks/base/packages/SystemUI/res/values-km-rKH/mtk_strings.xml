@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <!-- for always ask -->  
+    <string name="gemini_default_sim_always_ask">សួរជានិច្ច</string>  
+    <!-- Name of the status bar as seen in the applications info settings page. [CHAR LIMIT=12] -->  
+    <string name="status_bar_do_not_disturb_button">កុំរំខាន</string>  
+    <!-- The text for the button in the notification window-shade that turns
+         off do not disturb mode.  After clicking this, notifications will be
+         shown again. [CHAR LIMIT=25] -->  
+    <string name="status_bar_please_disturb_button">បង្ហាញការប្រាប់ដំណឹង</string>  
+    <!-- Text to display next to the graphical battery meter.  [CHAR LIMIT=3] -->  
+    <string name="status_bar_settings_battery_meter_format" translatable="false"> 
+        <xliff:g id="number">%d</xliff:g>  
+        <xliff:g id="percent">%%</xliff:g> 
+    </string>  
+
+    <!-- Compatibility mode help screen: header text. [CHAR LIMIT=50] -->  
+    <string name="compat_mode_help_header">ការពង្រីកដែលប្រើបាន</string>  
+    <!-- Compatibility mode help screen: body text. [CHAR LIMIT=150] -->  
+    <string name="compat_mode_help_body">ពេលដែលកម្មវិធីមួយត្រូវបានរចនាឡើង សម្រាប់អេក្រង់តូចៗ មុខងារគ្រប់គ្រងការពង្រីក នឹងបង្ហាញឡើងនៅក្បែរនាឡិកា ។</string>  
+    <!-- Description of the desk dock action that invokes the Android Dreams screen saver feature -->  
+    <string name="dreams_dock_launcher">ធ្វើឲ្យអ្នករក្សាអេក្រង់សកម្ម</string>  
+
+    <!-- Title for the pseudo-notification shown when notifications are disabled (do-not-disturb
+         mode) -->  
+    <string name="notifications_off_title">បិទការប្រាប់ដំណឹង</string>  
+    <!-- Content text for do-not-disturb mode notification -->  
+    <string name="notifications_off_text">ថេបត្រង់នេះ ដើម្បីបើកការប្រាប់ដំណឹងឡើងវិញ ។</string>  
+    <string name="sim_switch_tip">SIM នេះត្រូវបានសិតជាការសិត SIM កាតពីរោងចក្រសម្រាប់  <xliff:g>%s</xliff:g> ។ សង្កត់ឲ្យជាប់ រួចហើយអូសចុះក្រោមទៅកាន់ខ្សែស្ថានភាព ដើម្បីប្តូរ SIM កាតដែលសិតពីរោងចក្រ ។ </string>  
+    <string name="remind_next_time">រំឭកខ្ញុំនាពេលក្រោយ</string>  
+    <string name="voice_call_service">សេវាកម្មការហៅជាសម្លេង</string>  
+    <string name="messages_service">សេវាកម្មសារ</string>  
+    <string name="data_connection_service">សេវាកម្មការភ្ជាប់ទិន្នន័យ</string>  
+    <string name="wifi">"វ៉ាយហ្វាយ"</string>  
+    <string name="bluetooth">"ប៊្លូធូស"</string>  
+    <string name="mobile">ការតភ្ជាប់ទិន្នន័យ ។</string>  
+    <string name="gps">GPS</string>  
+    <string name="autorotate">ការបង្វិលស្វ័យប្រវត្តិ</string>  
+    <string name="normal">ទូទៅ</string>  
+    <string name="meeting">ការប្រជុំ</string>  
+    <string name="mute">ស្ងាត់</string>  
+    <string name="outdoor">ក្រៅផ្ទះ</string>  
+    <string name="offline">"របៀបពេល​​ជិះ​យន្តហោះ"</string>  
+    <string name="brightness">"ពន្លឺ"</string>  
+    <string name="timeout">អស់ម៉ោង</string>  
+    <string name="data_connection_attach_timeout_error_msg">"ការតភ្ជាប់ទិន្នន័យត្រូវបរាជ័យ ឬបណ្តាញបច្ចុប្បន្នជាប់រវល់ ។"</string>  
+    <string name="data_connection_dettach_timeout_error_msg">"ការផ្តាច់ការតភ្ជាប់ទិន្នន័យបរាជ័យ ។"</string>  
+    <string name="data_connection_connected">[  <xliff:g>%s</xliff:g>] ការតភ្ជាប់ទិន្នន័យ SIM កាតត្រូវបានធ្វើឲ្យសកម្ម </string>  
+    <string name="gemini_intenet_call">ការហៅតាមអ៊ិនថឺណិត</string>  
+    <string name="gemini_default_sim_never">បិទ</string>  
+    <string name="gemini_3g_indic" translatable="false">3G</string>  
+    <string name="gemini_3g_disable_warning">"សេវាកម្ម 3G មិនអាចប្រើបានជាមួយនឹង SIM នេះទ ។ វាអាចឡូតទិន្នន័យបានដោយយឺតៗ ។ អ្នកអាចប្តូរការសិតសេវាកម្ម 3G ក្រោម ការសិត &gt; គ្មានខ្សែ &amp; បណ្តាញ &gt; បណ្តាញចល័ត ។ តើអ្នកពិតជាចង់ជ្រើសយក SIM នេះមែនទេ?"</string>  
+    <string name="gemini_3g_disable_warning_cu">"សេវាកម្ម 3G មិនអាចប្រើបានជាមួយនឹង SIM នេះទ ។ វាអាចឡូតទិន្នន័យបានដោយយឺតៗ ។ អ្នកអាចប្តូរការសិតសេវាកម្ម 3G ក្រោម ការសិត &gt; ការចាត់ចែង SIM ។ តើអ្នកពិតជាចង់ជ្រើសយក SIM នេះមែនទេ?"</string>  
+    <string name="gemini_3g_disable_warning_case0">"អ្នកត្រូវធ្វើឲ្យការរ៉ូមិងទិន្នន័យសម្រាប់ SIM មួយនេះសកម្មជាមុនសិន ដែលអ្នកអាចត្រូវចំណាយបន្ថែមលើសេវាម្មរ៉ូមិង! តើអ្នកពិតជាចង់ធ្វើឲ្យការរ៉ូមិងទិន្នន័យសកម្ម ហើយជ្រើសយក SIM នេះមែនទេ?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"សេវាកម្ម 3G មិនអាចប្រើបានជាមួយនឹង SIM នេះទ ។ វាអាចឡូតទិន្នន័យបានដោយយឺតៗ ។ អ្នកអាចប្តូរការសិតសេវាកម្ម 3G ក្រោម ការសិត &gt; គ្មានខ្សែ &amp; បណ្តាញ &gt; បណ្តាញចល័ត ។ តើអ្នកពិតជាចង់ជ្រើសយក SIM នេះមែនទេ?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"សេវាកម្ម 3G មិនអាចប្រើបានជាមួយនឹង SIM នេះទ ។ វាអាចឡូតទិន្នន័យបានដោយយឺតៗ ។ អ្នកអាចប្តូរការសិតសេវាកម្ម 3G ក្រោម ការសិត &gt; ការចាត់ចែង SIM ។ តើអ្នកពិតជាចង់ជ្រើសយក SIM នេះមែនទេ?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"អ្នកត្រូវធ្វើឲ្យការរ៉ូមិងទិន្នន័យសម្រាប់ SIM នេះឲ្យសកម្មជាមុនសិន ដែលអ្នកអាចត្រូវចំណាយបន្ថែមលើសេវាម្មរ៉ូមិង! ក្រៅពីនេះ សេវាកម្ម 3G មិនអាចប្រើបានជាមួយ SIM នេះទេ ។ វាអាចឡូតទិន្នន័យបានដោយយឺតៗ ។ អ្នកអាចប្តូរវាក្រោម ការសិត &gt; គ្មានខ្សែ &amp; បណ្តាញ &gt; បណ្តាញចល័ត ។ តើអ្នកពិតជាចង់ធ្វើឲ្យការរ៉ូមិងទិន្នន័យសកម្ម ហើយជ្រើសយក SIM នេះមែនទេ?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"អ្នកត្រូវធ្វើឲ្យការរ៉ូមិងទិន្នន័យសម្រាប់ SIM នេះឲ្យសកម្មជាមុនសិន ដែលអ្នកអាចត្រូវចំណាយបន្ថែមលើសេវាម្មរ៉ូមិង! ក្រៅពីនេះ សេវាកម្ម 3G មិនអាចប្រើបានជាមួយ SIM នេះទេ ។ វាអាចឡូតទិន្នន័យបានដោយយឺតៗ ។ អ្នកអាចប្តូរវាក្រោម ការសិត &gt; ការចាត់ចែង SIM ។ តើអ្នកពិតជាចង់ធ្វើឲ្យការរ៉ូមិងទិន្នន័យសកម្ម ហើយជ្រើសយក SIM នេះមែនទេ?"</string>  
+    <string name="confirm_radio_title">SIM បានបិទ</string>  
+    <string name="confirm_radio_msg">  <xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> ឥឡូវបានបិទហើយ ។ តើអ្នកចង់បើក SIM កាតនេះទេ? </string>  
+    <string name="confirm_radio_msg_single">ម៉ូដជិះយន្តហោះត្រូវបើក ឥឡូវតើអ្នកចង់បិទទេ?</string>  
+    <string name="confirm_radio_lbutton">បើក</string>  
+    <string name="builtin_installer_title_message">CD-ROM នៅជាប់នឹងម៉ាស៊ីន</string>  
+    <string name="builtin_installer_dlg_message">បើក CD-ROM ដែលនៅជាប់នឹងម៉ាស៊ីនទេ?</string>  
+    <string name="builtin_installer_always_allowed">លើកក្រោយ កុំ\បង្ហាញ</string>  
+    <string name="dlg_no">ទេ</string>  
+    <string name="dlg_yes">បាទ</string> 
+    <string name="OK">"យល់​ព្រម"</string>  
+    <string name="application_guide_title">ប្តូរស៊ិមកាតកំណត់ពីនាយ</string>  
+    <string name="application_guide_content">បង្អូសបញ្ជីប្រាប់ដំណឹងចុះក្រោម ដើម្បីប្តូរស៊ិមកាតកំណត់ពីនាយ</string> 
+    <string name="audio_profile">ទម្រង់អូឌីអូ</string>
+    <string name="data_usage">ការប្រើទិន្នន័យ</string>
+    <string name="user_owner">ម្ចាស់</string>
+    <string name="close_universe">បិទ</string>
+    <string name="jelly_bean_dream_name">BeanFlinger</string>
+    <string name="status_bar_help_title">ការប្រាប់ដំណឹងបង្ហាញទីនេះ</string>
+    <string name="status_bar_help_text">ចូលបើកមើលបានគ្រប់ពេលដោយការរំកិលចុះក្រោម ។\nរំអិលចុះក្រោមម្តងទៀតដើម្បីការគ្រប់គ្រងប្រព័ន្ធ ។</string>
+    <string name="eco_backlight_title">សន្សំសំចៃភ្លើងខាងក្រោយ</string>
+    <string name="eco_backlight_summary">តម្រូវទៅតាមភ្លើងខាងក្រោយដោយស្វ័យប្រវត្តិ ដើម្បីសន្សំសំចៃថ្ម</string>
+    <string name="phone_battery_low_subtitle">ថ្ម​ទូរសព្ទ​កំពុង​ចុះ​ខ្សោយ។</string>
+    <string name="smartbook_battery_low_subtitle">ថ្ម​ស្មាត​ប៊ុក ​កំពុង​ចុះ​ខ្សោយ។</string>
+    <string name="gemini_default_sim_auto">"ស្វ័យប្រវត្តិ"</string>
+    <string name="accessibility_phone_four_bars">រលកសញ្ញាទូរស័ព្ទបួនកាំ ។</string>
+    <string name="plmn_searching">កំពុងរាវរក</string>
+    <string name="apn">ចំណុចចូលប្រើ</string>
+    <string name="sim_management">ការរៀបចំគ្រប់គ្រង UIM/SIM</string>
+    <string name="network_selection_settings">ការជ្រើសរើសបណ្ដាញ</string>
+    <string name="quick_settings_roam_data">ដាតារ៉ូម</string>
+</resources>

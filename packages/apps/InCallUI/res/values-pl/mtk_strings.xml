@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    
+    <string name="onscreenHangupAll">Rozłącz wszystkie</string>
+    <string name="onscreenHangupHolding">Rozłącz zawieszone</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Rozłącz aktywne, odbierz oczekujące</string>
+    <string name="onscreenECT">Transfer</string>
+    
+    <string name="dm_lock">Blokada DM</string>
+    <string name="dm_unlock">Odblokowanie DM</string>
+    
+    <string name="start_record">Rozpocznij nagrywanie</string>
+    <string name="stop_record">Zatrzymaj nagrywanie</string>
+    <string name="str_db_playlist_name">"Moje nagrania"</string>
+    <string name="alert_device_error">Wystąpił błąd w urządzeniu audio</string>
+    <string name="ext_media_badremoval_notification_title">"Karta SD została nieoczekiwanie wyjęta"</string>
+    <string name="error_sdcard_access">Nie można uzyskać dostępu do karty SD</string>
+    <string name="confirm_device_info_full">Brak miejsca na karcie SD; nagranie zostało zapisane.</string>
+    <string name="confirm_save_info_saved">Nagranie zostało zapisane</string>
+    <string name="confirm_save_info_saved_to">Nagranie zostało zapisane w</string>
+    
+	<string name="sim_toolkit">"Zestaw narzędzi karty SIM"</string>
+    <string name="activity_not_found">"Aplikacja nie jest zainstalowana na telefonie."</string>
+    <string name="no_sim_card_inserted" product="default">Włóż kartę SIM, aby uruchomić zestaw narzędzi karty SIM.</string>
+    <string name="airplane_mode_on" product="default">Nie można uruchomić zestawu narzędzi karty SIM, ponieważ włączony jest tryb samolotowy.</string>
+    <string name="lable_sim_not_ready" product="default">Zestaw narzędzi karty SIM jest niegotowy lub nieobsługiwany</string>
+    <string name="gemini_3g_indic">3G</string>
+    
+    
+    <string name="callFailed_dsac_vt_incompatible_destination">Nie można skonfigurować połączenia wideo. Telefon wideo nie jest obsługiwany przez telefon, z którym nawiązywane jest połączenie; wybrać numer połączenia głosowego?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">Nie można skonfigurować połączenia wideo. Telefon, z którym nawiązywane jest połączenie, znajduje się poza obszarem usługi 3G; wybrać numer połączenia głosowego?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">Nie można skonfigurować połączenia wideo. Wybrać numer połączenia głosowego?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">Telefon znajduje się poza obszarem usługi 3G; wybrać numer połączenia głosowego?</string>
+    <string name="callFailed_dsac_vt_bear_not_authorized">Nie można skonfigurować połączenia wideo. Usługa telefonu wideo nie została uaktywniona dla tej karty SIM; wybrać numer połączenia głosowego?</string>
+    
+    <string name="notification_voicemail">"Poczta głosowa"</string>
+    <string name="turn_on_3g_service_message">Usługa 3G jest teraz wyłączona; czy chcesz ją włączyć?</string>
+    <string name="associate_sim_missing_message">"Karta SIM %1$s jest niedostępna. Czy chcesz nawiązać połączenie przez %2$s"</string>
+    <string name="associate_sim_missing_other">"Inny"</string>
+    
+    <string name="vt_incoming_call">Przychodzące połączenie wideo</string>
+    <string name="vt_settings">Ustawienia wideo</string>
+    <string name="vt_local_video_zoom">Zoom wideo lokalnego</string>
+    <string name="vt_local_video_brightness">Jasność wideo lokalnego</string>
+    <string name="vt_local_video_effect">Efekt wideo lokalnego</string>
+    <string name="vt_local_video_nightmode">Tryb nocny wideo lokalnego</string>
+    <string name="vt_peer_video_quality">Jakość wideo równorzędnego</string>
+    <string name="vt_enable_back_camera">Włącz tylny aparat</string>
+    <string name="vt_enable_back_camera_description">Możliwość przełączania aparatów po włączeniu</string>
+    <string name="vt_peer_video_bigger">Większe wideo równorzędne</string>
+    <string name="vt_peer_video_bigger_description">Włącz, aby wideo równorzędne było większe od wideo lokalnego</string>
+    <string name="vt_outgoing_call">Wychodzące połączenie wideo</string>
+    <string name="vt_outgoing_call_description">Wyświetl wideo lokalne po nawiązaniu połączenia wideo</string>
+    <string name="vt_incoming_call_description">Wyświetl wideo lokalne po zaakceptowaniu przychodzącego połączenia wideo</string>
+    <string name="vt_incoming_showme_always">Zawsze</string>
+    <string name="vt_incoming_showme_ask">"Zapytaj"</string>
+    <string name="vt_incoming_showme_disable">"Wyłącz"</string>
+    <string name="vt_pic_replace_local_default">Obraz domyślny</string>
+    <string name="vt_pic_replace_local_freezeme">Zablokuj mój obraz</string>
+    <string name="vt_pic_replace_local_mypic">Mój obraz</string>
+    <string name="vt_local_video_display">Wyświetlenie wideo lokalnego</string>
+    <string name="vt_sd_null">Karta SD jest\nniedostępna</string>
+    <string name="vt_sd_not_enough">Kończy się miejsce\nna karcie SD</string>
+    <string name="vt_peer_video_quality_normal">Normalny</string>
+    <string name="vt_peer_video_quality_sharp">Ostry</string>
+    <string name="vt_ask_show_local">Pokazać wideo lokalne w elemencie równorzędnym?</string>
+    <string name="vt_ask_show_local_yes">"Tak"</string>
+    <string name="vt_ask_show_local_no">"Nie"</string>
+    <string name="vt_change_my_pic">Zmień</string>
+    <string name="vt_pic_saved_to_sd">Zdjęcie zostało zapisane na karcie SD</string>
+    <string name="vt_pic_saved_to_sd_fail">Nie można zapisać zdjęcia</string>
+    <string name="vt_error_network">Sieć jest nieosiągalna. Połączenie wideo zostanie rozłączone.</string>
+    <string name="vt_error_media">Nie można prawidłowo wyświetlić wideo. Połączenie wideo zostanie rozłączone.</string>
+    <string name="vt_swap_video">Zamień klipy wideo</string>
+    <string name="vt_local_video_contrast">Kontrast wideo lokalnego</string>
+    <string name="vt_menu_switch">Przełącz aparat</string>
+    <string name="vt_menu_hide_me">Ukryj wideo lokalne</string>
+    <string name="vt_menu_show_me">Pokaż wideo lokalne</string>
+    <string name="vt_menu_snapshot">Zdjęcie równorzędne</string>
+    <string name="vt_dis_peer_rep">Wyświetl wideo równorzędne</string>
+    <string name="vt_dis_peer_rep_des">Wyświetl obraz zamiast wideo równorzędnego, gdy nie jest ono dostępne</string>
+    <string name="vt_peer_video_rep">Zamiana wideo równorzędnego</string>
+    <string name="vt_peer_video_rep_des">Ustaw obraz, który ma być wyświetlany, gdy wideo równorzędne jest niedostępne</string>
+    <string name="vt_vocie_answer">Odpowiedź głosowa</string>
+    <string name="vt_wait_voice">Oczekiwanie na nawiązanie połączenia głosowego</string>
+    <string name="vt_voice_connecting">Nawiązywanie połączenia głosowego</string>
+    <string name="vt_auto_dropback">Automatyczny powrót</string>
+    <string name="vt_auto_dropback_des">Automatycznie wróć do nawiązywania połączenia głosowego</string>
+    <string name="vt_cannot_support_setting">Bieżący aparat nie obsługuje tego ustawienia</string>
+    <string name="vt_network_unreachable">Sieć jest nieosiągalna.</string>
+    <string name="vt_iot_error_01">Nie można skonfigurować połączenia wideo</string>
+    <string name="vt_iot_error_02">Telefon jest zajęty</string>
+    <string name="vt_iot_error_03">Brak odpowiedzi</string>
+    <string name="vt_iot_error_04">Sieć jest zajęta</string>
+    <string name="pref_camera_coloreffect_entry_none">"Brak"</string>
+    <string name="pref_camera_coloreffect_entry_mono">Mono</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"Sepia"</string>
+    <string name="pref_camera_coloreffect_entry_negative">Negatyw</string>
+    <string name="pref_camera_coloreffect_entry_solarize">Solaryzacja</string>
+    <string name="pref_camera_coloreffect_entry_posterize">Posteryzacja</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">Tablica biała</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">Tablica czarna</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Akwamaryna</string>
+    <string name="pref_camera_coloreffect_entry_pastel">Pastele</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">Mozaika</string>
+    <string name="pref_camera_coloreffect_entry_redtint">Odcień czerwieni</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">Odcień niebieskiego</string>
+    <string name="pref_camera_coloreffect_entry_greentint">Odcień zieleni</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Sepia niebieska</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Sepia zielona</string>
+    
+    
+    <string name="vt_peer_camera_open">Aparat zdalny jest otwarty</string>
+    <string name="vt_peer_camera_close">Aparat zdalny jest zamknięty</string>
+    <string name="vt_recorder_start">Rozpocznij nagrywanie</string>
+    <string name="vt_recorder_voice_and_peer_video">Głos i wideo równorzędne</string>
+    <string name="vt_recorder_only_voice">Tylko głos</string>
+    <string name="vt_recorder_only_peer_video">Tylko wideo równorzędne</string>
+    <string name="vt_recording_saved">Nagranie zostało zapisane.</string>
+    <string name="vt_recording_saved_sd_full">Brak miejsca na karcie SD; nagranie zostało zapisane.</string>
+    <string name="vt_recording_error">Błąd nagrywania.</string>
+    <string name="start_record_vt">Rozpocznij nagrywanie</string>
+    <string name="stop_record_vt">Zatrzymaj nagrywanie</string>
+    
+    
+    <string name="cannot_answered_Video_Call">Nie można odebrać połączenia wideo, ponieważ trwa już połączenie głosowe</string>
+    <string name="cannot_answered_Voice_Call">Nie można odebrać połączenia głosowego, ponieważ trwa już połączenie wideo</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> min <xliff:g id="seconds" example="28">%2$s</xliff:g> s</string>
+    <string name="reminder">Przypomnienie</string>
+    <string name="vt_media_occupied">Nie można nawiązać połączenia wideo, ponieważ aparat jest niedostępny. Sprawdź, czy inna aplikacja nie korzysta z aparatu.</string>
+    <string name="vt_media_video_fail">Nie można prawidłowo wyświetlić wideo. Połączenie wideo zostało rozłączone.</string>
+    <string name="incall_toast_unhold">Zakończ zawieszenie</string>
+    
+    <string name="dualtalk_tip_accept_disconnect_current" tools:ignore="MissingTranslation">Zaakceptowanie tego połączenia spowoduje zakończenie bieżącego połączenia.</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing" tools:ignore="MissingTranslation">Zaakceptowanie tego połączenia spowoduje zakończenie połączenia wychodzącego.</string>
+    <string name="dualtalk_tip_accept_disconnect_incoming" tools:ignore="MissingTranslation">Zaakceptowanie tego połączenia spowoduje odrzucenie innego połączenia przychodzącego.</string>
+    <string name="dualtalk_tip_accept_disconnect_voice">Zaakceptowanie tego połączenia spowoduje zakończenie połączeń głosowych.</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing_reject_incoming">Zaakceptowanie tego połączenia spowoduje zakończenie połączenia wychodzącego i odrzucenie innego połączenia przychodzącego.</string>
+    <string name="dualtalk_tip_accept_disconnect_current_reject_incoming">Zaakceptowanie tego połączenia spowoduje zakończenie bieżącego połączenia i odrzucenie innego połączenia przychodzącego.</string>
+    
+    <string name="end_call_because_can_not_hold">Zakończ bieżące połączenie, ponieważ nie można go zawiesić.</string>
+    <string name="ring_only_once_title">Zadzwoń tylko raz</string>
+    <string name="ring_only_once_summary">Zadzwoń tylko raz w przypadku odbierania połączenia wideo w trybie połączenia głosowego</string>
+    
+    
+    <string name="fdn_contact_name_number_invalid">Nazwa i numer nie mogą być jednocześnie puste.</string>
+    
+    <string name="fdn_contact_number_invalid">Nieprawidłowy numer kontaktu.</string>
+    <string name="fdn_phone_book_busy">Książka telefoniczna jest teraz zajęta; spróbuj później.</string>
+    
+    <string name="cdma_not_support">Funkcja ta nie jest obsługiwana przez CDMA</string>
+    <string name="cdma_cfu_title">China Telecom</string>
+    <string name="labelCFC">Anuluj całe przekazywanie dalej</string>
+    <string name="cdma_cfu_dialog_sum">"Zawsze używaj tego numeru"</string>
+        
+    <string name="dual_mic_title">Redukcja szumów</string>
+    <string name="dual_mic_summary">Tłumienie szumu w tle podczas rozmów telefonicznych</string>
+    
+    <string name="minutereminder_title">Przypomnienie minutowe</string>
+    <string name="minutereminder_summary">Przypomnij w 50 s każdej minuty</string>
+    <string name="voice_call_settings">Ustawienia połączenia głosowego</string>
+    
+    <string name="enable_sip_dialog_message">Funkcja rozmów telefonicznych przez Internet jest wyłączona; czy chcesz ją włączyć?</string>
+    
+    <string name="ip_prefix_setting">Numer prefiksu IP</string>
+    <string name="ip_prefix_setting_sum">Ustawienia numeru prefiksu IP</string>
+    <string name="enter_ip_prefix_number">Wprowadź numer prefiksu</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Wprowadź najpierw numer prefiksu IP w ustawieniach połączenia głosowego.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">Funkcja wybierania numerów IP nie dotyczy rozmów telefonicznych przez Internet.</string>
+    <string name="ip_prefix_edit_default_sum">Wprowadź numer prefiksu dla wybierania numerów IP</string>
+    
+    <string name="vt_cf_call_description">Ustawienia przekazywania połączeń wideo</string>
+    <string name="vt_cb_call_description">Ustawienia blokady połączeń wideo</string>
+    <string name="vt_addtional_call_description">Ustawienia numeru telefonu i połączeń oczekujących</string>
+    <string name="others">Inne ustawienia</string>
+    
+    <string name="confirm_3g_switch">Czy na pewno chcesz ustawić usługę 3G dla tej karty SIM? Spowoduje to także automatyczne ustawienie tej karty SIM jako domyślnej karty SIM dla połączeń wideo.</string>
+    <string name="modem_switching">Przełączenie kart SIM zajmie około 10 sekund. Czekaj...</string>
+    <string name="confirm_3g_switch_to_off">Czy na pewno chcesz wyłączyć usługę 3G? Spowoduje to także automatyczne wyłączenie usługi połączeń wideo.</string>
+    <string name="service_3g_off">"wyłączona"</string>
+    <string name="enable_3G_service">Włącz usługę 3G</string>
+    <string name="setting_for_3G_service">Usługa 3G</string>
+    
+    
+    <string name="network_forbidden">zabroniona</string>
+    <string name="voice_mail_dialog_text">Masz nową wiadomość głosową od <xliff:g id="voicemail_sim_display_name">%s</xliff:g>. Czy chcesz pobrać ją teraz?</string>
+    <string name="lable_call_barring">"Blokada dzwonienia"</string>
+    <string name="lable_all_outgoing">Wszystkie połączenia wychodzące</string>
+    <string name="lable_all_outgoing_international">Międzynarodowe połączenia wychodzące</string>
+    <string name="lable_all_out_except">Międzynarodowe połączenia wychodzące poza połączeniami z macierzystą siecią abonenta</string>
+    <string name="lable_all_incoming">Wszystkie połączenia przychodzące</string>
+    <string name="lable_incoming_calls_except">Połączenia przychodzące w roamingu</string>
+    <string name="deactivate_all">Anuluj wszystko</string>
+    <string name="change_password">Zmień hasło blokady</string>
+    <string name="call_barring_sum">Ustawienia blokady połączeń głosowych</string>
+    
+    <string name="lable_disable">"Wyłączony"</string>
+    <string name="lable_enable">Włączono</string>
+    <string name="old_password_label">Stare hasło (4 cyfry)</string>
+    <string name="new_password_label">Nowe hasło (4 cyfry)</string>
+    <string name="invalid_password">Wpisz hasło składające się z 4 cyfr.</string>
+    <string name="confirm_password_label">Potwierdź nowe hasło</string>
+    <string name="mismatch_password">Wprowadzone hasło nie jest zgodne. Spróbuj ponownie.</string>
+    <string name="password_changed">Hasło zostało pomyślnie zmienione</string>
+    <string name="enter_callbarring_password">Wprowadź hasło blokady połączeń (4 cyfry)</string>
+    <string name="wrong_password">Błąd hasła</string>
+    <string name="error_title">"Błąd"</string>
+    <string name="cell_broadcast">Nadawanie komórkowe</string>
+    <string name="cell_broadcast_settings">Ustawienia nadawania komórkowego</string>
+    <string name="cb_menu_language">"Język"</string>
+    <string name="cb_menu_add_channel">Dodaj kanał</string>
+    <string name="cb_menu_channel_list">Lista kanałów</string>
+    <string name="cb_dialog_title_language_choice">Wybierz język</string>
+    <string name="cb_channel_dialog_channel_name">Nazwa kanału (0–10 znaków)</string>
+    <string name="cb_channel_dialog_channel_number">Numer kanału (0–65534)</string>
+    <string name="cb_channel_dialog_channel_state">Włącz kanał</string>
+    <string name="cb_channel_dialog_edit_channel">Edytuj kanał</string>
+    <string name="cb_menu_edit">"Edytuj"</string>
+    <string name="cb_menu_delete">"Delete"</string>
+    <string name="cb_error_channel_num">Wpisz numer kanału (0–65534).</string>
+    <string name="cb_error_channel_name">Długość nazwy kanału jest nieprawidłowa (1–10 znaków).</string>
+    <string name="cb_error_language_select">Wybierz co najmniej jeden język.</string>
+    <string name="cb_error_channel_id_exist">Identyfikator kanału już istnieje.</string>
+    <string name="cb_all_languages">"Wszystkie języki"</string>
+    <string name="cb_default_new_channel_name">Nowy kanał</string>
+    <string name="fdn_errorcode_unknown_info">Niepowodzenie, wystąpił nieznany błąd; spróbuj później.</string>
+    <string name="fdn_errorcode_number_info">Niepowodzenie, numer kontaktu jest zbyt długi.</string>
+    <string name="fdn_errorcode_name_info">Niepowodzenie, nazwa kontaktu jest zbyt długa.</string>
+    <string name="fdn_errorcode_storage_info">Niepowodzenie, pamięć jest zapełniona.</string>
+    <string name="fdn_errorcode_phb_info">Niepowodzenie, książka telefoniczna nie jest teraz dostępna; spróbuj później.</string>
+    <string name="fdn_errorcode_pin2_info">Niepowodzenie, nieprawidłowy kod PIN2.</string>
+    <string name="net_or_simcard_busy">Sieć lub karta SIM jest zajęta; spróbuj później.</string>
+    
+    <string name="gsm_umts_network_preferences_title">Tryb sieci</string>
+    <string name="gsm_umts_network_preferneces_summary">Jeszcze nie zaimplementowano!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">Tryb sieci</string>
+    <string name="umts_preferred_network_mode_dialogtitle">Tryb sieci</string>
+    
+    <string name="voice_call">Połączenie głosowe</string>
+    <string name="video_call">"Rozmowa wideo"</string>
+    <string name="internet_call">Rozmowa telefoniczna przez Internet</string>
+    <string name="sum_voice_call">Ustawienia dotyczące połączeń głosowych</string>
+    <string name="sum_video_call">Ustawienia dotyczące połączeń wideo</string>
+    <string name="sum_internet_call">Ustawienia dotyczące rozmów telefonicznych przez Internet</string>
+    <string name="voice_mail">"Poczta głosowa"</string>
+    <string name="sum_voice_mail">Usługa i numer poczty głosowej</string>
+    <string name="sum_cell_broadcast_control_on">Włącz nadawanie komórkowe</string>
+    <string name="sum_cell_broadcast_control_off">Wyłącz nadawanie komórkowe</string>
+    <string name="sum_cell_broadcast_setting">Ustawienia języka i kanału dla nadawania komórkowego</string>
+    <string name="call_additional_sum">Ustawienia numeru telefonu i połączeń oczekujących</string>
+    <string name="vt_call_settings">Ustawienia połączeń wideo</string>
+    <string name="vt_local_video_rep">Zamiana wideo lokalnego</string>
+    <string name="vt_pic_replace_local_description">Ustaw obraz, który ma być wyświetlany w razie nieużywania aparatu</string>
+
+    
+    <string name="mo_code_unconditional_cf_active">Uaktywniono bezwarunkowe\nprzekazywanie połączenia</string>
+    <string name="mo_code_some_cf_active">Warunkowe\nprzekazywanie połączenia</string>
+    <string name="mo_code_call_forwarded">Połączenie zostało przekazane</string>
+    <string name="mo_code_call_is_waiting">Połączenie oczekujące</string>
+    <string name="mo_code_cug_call">Zamknięta grupa użytkowników</string>
+    <string name="mo_code_outgoing_calls_barred">Połączenie wychodzące zostało zablokowane</string>
+    <string name="mo_code_incoming_calls_barred">Połączenie przychodzące zostało zablokowane po drugiej stronie</string>
+    <string name="mo_code_clir_suppression_rejected">Sprawdź usługę wysyłania identyfikatora osoby dzwoniącej</string>
+    <string name="mo_code_call_deflected">Zadzwoń przeniesione</string>
+    
+    <string name="mt_code_forwarded_call">Jest to połączenie przekazane</string>
+    <string name="mt_code_cug_call">Zamknięta grupa użytkowników</string>
+    <string name="mt_code_call_on_hold">Połączenie zostało zawieszone</string>
+    <string name="mt_code_call_retrieved">Połączenie zostało przywrócone</string>
+    <string name="mt_code_multi_party_call">Połączenie konferencyjne</string>
+    <string name="mt_code_on_hold_call_released">Połączenie zawieszone zostało zwolnione</string>
+    <string name="mt_code_forward_check_received">Odebrano wiadomość SS dotyczącą sprawdzenia przekazywania</string>
+    <string name="mt_code_call_connecting_ect">Przenoszenie połączenia</string>
+    <string name="mt_code_call_connected_ect">Aktywne przenoszenie połączeń</string>
+    <string name="mt_code_deflected_call">Jest to połączenie odbite</string>
+    <string name="mt_code_additional_call_forwarded">Dodatkowe połączenie przychodzące zostało przekazane</string>
+    <string name="mt_code_forwarded_cf">Połączenie zostało przekazane</string>
+    <string name="mt_code_forwarded_cf_uncond">Połączenie zostało przekazane bezwarunkowo</string>
+    <string name="mt_code_forwarded_cf_cond">Połączenie zostało przekazane warunkowo</string>
+    <string name="mt_code_forwarded_cf_busy">Połączenie zajęte zostało przekazane</string>
+    <string name="mt_code_forwarded_cf_no_reply">Połączenie zostało przekazane z powodu braku odpowiedzi</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Połączenie zostało przekazane z powodu braku osiągalności</string>
+    <string name="sim_manage_sipcall">Rozmowa telefoniczna przez Internet</string>
+    <string name="sim_manage_call_via">Połączenie przez</string>
+    
+    
+	
+    <string name="manual_select_title">Wybierz ręcznie</string>    
+	<string name="manual_select_dialog_msg">W trybie wybierania ręcznego telefon komórkowy nie wybierze innych operatorów. W przypadku utraty usługi wybranego operatora może być czasem konieczne ponowne wykonanie wybierania ręcznego lub powrót do trybu wybierania automatycznego. Zalecane jest skorzystanie z pozycji \"Wybierz automatycznie\". Czy chcesz wybrać sieć ręcznie?</string>    
+	<string name="no_service_msg_gemini">Wybrany operator nie zapewnia aktualnie żadnej usługi dla karty SIM \"<xliff:g id="operator">%s</xliff:g>\".\nZalecane jest skorzystanie z pozycji \"Wybierz automatycznie\" lub ręczne wybranie innego operatora.</string>    
+	<string name="no_service_msg">Wybrany operator nie zapewnia aktualnie żadnej usługi.\nZalecane jest skorzystanie z pozycji \"Wybierz automatycznie\" lub ręczne wybranie innego operatora.</string>    
+	<string name="show_always_title">Nie powiadamiaj ponownie</string>    
+	<string name="no_service_msg_title_gemini">Brak usługi dla \"<xliff:g id="operator">%s</xliff:g>\"</string>    
+	<string name="no_service_msg_title">"Brak usługi"</string>    
+    <string name="gemini_data_connection">Połączenie danych</string>
+	
+    <string name="plmn_list_setting_title">Preferowane sieci</string>
+    <string name="network_id">Identyfikator sieci</string>
+    <string name="dialog_network_priority_title">Priorytet</string>
+    <string name="plmn_list_setting_add_plmn">Nowa sieć PLMN</string>
+    
+    <string name="international_dialing_title">Pomoc w wybieraniu numerów międzynarodowych</string>
+    <string name="international_dialing_select_country">Wykryto nawiązywanie połączenia międzynarodowego. Wybierz miejsce docelowe.</string>
+    <string name="international_dialing_add_country_code">Wykryto wybieranie numeru dla <xliff:g id="country_name">%s</xliff:g>. Czy chcesz dodać kod kraju (+<xliff:g id="country_code">%s</xliff:g>)?</string>
+    <string name="international_dialing_add_country_code_and_area_code">Wykryto wybieranie numeru w <xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g>. Czy chcesz dodać kod kraju i numer kierunkowy (+<xliff:g id="prefix">%3$s</xliff:g>)?</string>
+    <string name="international_dialing_change_country_prefix">Wykryto wybieranie numeru z <xliff:g id="country_name">%s</xliff:g>. Zmienić prefiks połączenia międzynarodowego na \'+\'?</string>
+    <string name="international_dialing_add_country_code_input_area_code">Wykryto wybieranie numeru w <xliff:g id="country_name">%s</xliff:g>. Wprowadź numer kierunkowy.</string>
+    <string name="international_dialing_add_country_code_default_input_area_code">Wykryto wybieranie numeru w <xliff:g id="country_name">%s</xliff:g>. Jeśli miastem docelowym nie jest <xliff:g id="area_name">%s</xliff:g>, wprowadź numer kierunkowy.</string>
+    <string name="international_dialing_need_area_code">Dla tego połączenia konieczny jest numer kierunkowy miasta docelowego.</string>
+    <string name="international_dialing_input_area_code">Wpisz tutaj numer kierunkowy</string>
+    <string name="international_dialing_dialed_number">Wybieranie numeru:</string>
+    <string name="international_dialing_confirm_area_code">Jeśli miastem docelowym nie jest <xliff:g id="area_name">%s</xliff:g>, wpisz poniżej numer kierunkowy miasta docelowego.</string>
+    <string name="international_dialing_click_below_button">Kliknij poniższy przycisk, aby zmienić numer kodu kraju.</string>
+    <string name="international_dialing_yes">Tak. Użyj poniższego numeru:</string>
+    <string name="international_dialing_no">Nie. Użyj oryginalnego numeru:</string>
+    <string name="international_dialing_call_button">"Zadzwoń"</string>
+    <string name="international_dialing_area_code">numer kierunkowy</string>
+    <string name="international_dialing_invalid_number">Numer jest nieprawidłowy. Czy chcesz mimo to kontynuować wybieranie numeru?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">Czy chcesz dodać kod kraju i numer kierunkowy?</string>
+    <string name="no_search_result">Brak wyników wyszukiwania</string>
+    <string name="which_call_to_activate">Które połączenie uaktywnić?</string>
+    <string name="gemini_3g_disable_warning_case0">"Należy najpierw włączyć roaming danych dla tej karty SIM, co może wiązać się ze znacznymi opłatami za roaming! Czy na pewno chcesz włączyć roaming danych i wybrać tę kartę SIM?"</string>
+    <string name="gemini_3g_disable_warning_case1">"Wybrana karta SIM nie obsługuje usługi 3G. Może to spowodować wolniejsze ładowanie danych. Ustawienie usługi 3G można zmienić w pozycji Ustawienia &gt; Sieci bezprzewodowe i zwykłe &gt; Sieci komórkowe. Czy na pewno chcesz wybrać tę kartę SIM?"</string>
+    <string name="gemini_3g_disable_warning_case2">"Należy najpierw włączyć roaming danych dla tej karty SIM, co może wiązać się ze znacznymi opłatami za roaming! Ponadto wybrana karta SIM nie obsługuje usługi 3G. Może to spowodować wolniejsze ładowanie danych. Można to zmienić w pozycji Ustawienia &gt; Sieci bezprzewodowe i zwykłe &gt; Sieci komórkowe. Czy na pewno chcesz włączyć roaming danych i wybrać tę kartę SIM?"</string>
+    <string name="disable_data_connection_msg">Wyszukiwanie wszystkich dostępnych sieci spowoduje rozłączenie używanego połączenia danych. Czy chcesz kontynuować?</string>
+    
+    <string name="voice_command_notification_ticker">Możesz powiedzieć \"<xliff:g id="first_voice">%s</xliff:g>\" lub \"<xliff:g id="second_voice">%s</xliff:g>\", aby odebrać lub zignorować połączenie przychodzące</string>
+    <string name="voice_command_notification_title">Sterowanie głosowe</string>
+    <string name="voice_command_notification_message">Sterowanie głosowe zostało uaktywnione do obsługi telefonu</string>
+
+    <string name="callFailed_simError_cdma">Brak karty UIM/SIM lub błąd karty UIM/SIM</string>
+
+    
+    <string name="callFailed_simError_slotNumber">Brak karty SIM lub błąd karty SIM w gnieździe <xliff:g id="slotNumber">%s</xliff:g></string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="callFailed_cdma_notEmergency">"Możliwe jest wykonywanie tylko połączeń alarmowych."</string>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="buttonTxtContinue">"Dalej"</string>
+
+    <string name="fdn_only_error">Operacje są dozwolone tylko w przypadku numerów wybierania ustalonego.</string>
+
+    <string name="network_setting_all_forbidden_dialog">Brak dostępnych sieci. Spróbuj przełączyć usługę 3G lub kliknij sieć zabronioną w celu ręcznej rejestracji.</string>
+
+    
+    <string name="reset_data_usage">Zresetuj ilość danych</string>
+
+    
+    <string name="simContacts_emptyLoading_ex">Trwa odczytywanie kontaktów z %s\u2026</string>
+
+    <string name="one_retry_left">Pozostała 1 ponowna próba</string>
+    <string name="retries_left">Liczba pozostałych ponownych prób: <xliff:g id="number">%d</xliff:g></string>
+    <string name="pin2_unblocked">Pomyślnie odblokowano kodem PIN2</string>
+    <string name="unblock_pin2">"Odblokuj PIN2"</string>
+    <string name="sim_permanently_locked">Wprowadzono nieprawidłowy kod PUK2 więcej niż 10 razy; karta SIM została trwale zablokowana</string>
+    <string name="pin_length_indicate">"(4-8 cyfr)"</string>
+    <string name="puk_length_indicate">"(8 cyfr)"</string>
+
+    
+    <string name="caller_manage_manage_done_text">"Powrót do połączenia"</string>
+
+    
+    <string name="card_title_incoming_vt_call">Przychodzące połączenie wideo</string>
+
+    
+    <string name="voicemail_settings_for">Ustawienia dla <xliff:g id="provider_name">%s</xliff:g></string>
+
+    
+    <string name="sip_call_options_title_single_sim">Opcje rozmów telefonicznych przez Internet</string>
+
+    
+    <string name="description_search_button">"Szukaj"</string>
+
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (automat.)</item>
+        <item>Tylko 3G</item>
+        <item>Tylko 2G</item>
+    </string-array>
+    
+
+    <string-array name="umts_network_preferences_choices">
+        <item>2G/3G (automat.)</item>
+        <item>Tylko 3G</item>
+    </string-array>
+
+    
+
+    
+    
+    
+    
+    <string-array name="lte_usim_prefer_network_mode_choices">
+        <item>4G/3G/2G (automat.)</item>
+        <item>3G/2G (automat.)</item>
+        <item>Tylko 2G</item>
+    </string-array>
+        <string-array name="lte_usim_prefer_network_mode_values">
+        <item>"9"</item>
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+
+    <string-array name="lte_sim_prefer_network_mode_choices">
+        <item>3G/2G (automat.)</item>
+        <item>Tylko 2G</item>
+    </string-array>
+        <string-array name="lte_sim_prefer_network_mode_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <string name="cipher_indication_notification_title">Brak szyfrowania głosu</string>
+    <string name="cipher_indication_notification_message">Szyfrowanie głosu jest wyłączone przez sieć</string>
+
+    
+    <string name="network_type">Typ sieci</string>
+    <string name="network_type_2g">2G</string>
+    <string name="network_type_3g">3G</string>
+    <string name="network_type_4g">"4G"</string>
+    
+    
+
+    <string name="cancel">"Anuluj"</string>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2007 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>Pirmie 4 cipari</item>
+        <item>Pēdējie 4 cipari</item>
+        <item>Nerādīt</item>
+    </string-array>
+
+    <string-array name="gemini_sim_roaming_reminder_entries">
+        <item>Vienreiz</item>
+        <item>Vienmēr</item>
+        <item>"Nekad"</item>
+    </string-array>
+
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (automātiskais režīms)</item>
+        <item>Tikai WCDMA</item>
+        <item>"Tikai GSM"</item>
+    </string-array>
+
+    <string-array name="wifi_ap_channel_width">
+        <item>20 MHz</item>
+        <item>Auto 20/40 MHz</item>
+    </string-array>
+
+    <string-array name="auto_time_entries">
+        <item>"Izmantot tīkla nodrošināto laiku"</item>
+        <item>Izmantot GPS nodrošināto laiku</item>
+        <item>"izslēgts"</item>
+    </string-array>
+
+    <string-array name="hdmi_video_mode_entries">
+        <item>Pilnekrāna</item>
+        <item>Maksimālā atbilstība</item>
+        <item>Sākotnējais lielums</item>
+    </string-array>
+
+    <string-array name="hdmi_deep_color_entries">
+        <item>8 bit</item>
+        <item>"automātisks"</item>
+        <item>10 biti</item>
+        <item>12 biti</item>
+    </string-array>
+
+    <string-array name="sim_slot">
+        <item>"(nav norādīts)"</item>
+        <item>1. SIM atvere</item>
+        <item>2. SIM atvere</item>
+    </string-array>
+
+    <string-array name="wifi_WEP_security_type">
+        <item>"automātisks"</item>
+        <item>WEP ASCII</item>
+        <item>WEP heksadecimāls</item>
+    </string-array>
+
+    <string-array name="wifi_hotspot_disable_policy_entries">
+        <item>Vienmēr</item>
+        <item>Izslēgt, kad dīkstāve ilgusi 5 min</item>
+        <item>Izslēgt, kad dīkstāve ilgusi 10 min</item>
+    </string-array>
+
+    <string-array name="wifi_ap_wps_mode_entries">
+        <item>"Spiedpoga"</item>
+        <item>PIN no klienta</item>
+    </string-array>
+
+    <string-array name="wifi_ap_max_connection_entries">
+        <item>1 lietotājs</item>
+        <item>2 lietotājiem</item>
+        <item>3 lietotājiem</item>
+        <item>4 lietotājiem</item>
+        <item>5 lietotājiem</item>
+        <item>6 lietotājiem</item>
+        <item>7 lietotājiem</item>
+        <item>8 lietotājiem</item>
+    </string-array>
+
+    <string-array name="mouse_primary_button_titles">
+        <item>Labās rokas pele</item>
+        <item>Kreisās rokas pele</item>
+    </string-array>
+
+    <string-array name="wfd_720p_resolution_entry">
+        <item>720p (60 kadri/s)</item>
+        <item>﻿720p (30 kadri/s)</item>
+    </string-array>
+
+    <string-array name="wfd_1080p_resolution_entry">
+        <item>1080p (30 kadri/s)</item>
+        <item>720p (60 kadri/s)</item>
+        <item>720p (30 kadri/s)</item>
+    </string-array>
+</resources>

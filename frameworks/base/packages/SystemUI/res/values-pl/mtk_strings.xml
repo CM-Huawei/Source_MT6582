@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="gemini_default_sim_always_ask">Zawsze pytaj</string>
+    <string name="gemini_default_sim_auto">"AUTOMATYCZNA"</string>
+    
+    <string name="accessibility_phone_four_bars">Telefon — cztery kreski.</string>
+    
+    <string name="sim_switch_tip">Ta karta SIM została ustawiona jako domyślna karta SIM dla <xliff:g>%s</xliff:g>. Przytrzymaj i przeciągnij w dół pasek stanu, aby zmienić domyślną kartę SIM.</string>
+    <string name="remind_next_time">Przypomnij mi następnym razem</string>
+    <string name="voice_call_service">usługa połączeń głosowych</string>
+    <string name="messages_service">usługa wiadomości</string>
+    <string name="data_connection_service">usługa połączenia danych</string>
+
+    <string name="plmn_searching">"Wyszukiwanie"</string>
+
+    <string name="wifi">"Wi-Fi"</string>
+    <string name="bluetooth">"Bluetooth"</string>
+    <string name="mobile">Połączenie danych</string>
+    <string name="gps">"GPS"</string>
+    <string name="autorotate">Automatyczne obracanie</string>
+    <string name="normal">Ogólne</string>
+    <string name="meeting">Spotkanie</string>
+    <string name="mute">"Wyciszony"</string>
+    <string name="outdoor">Poza domem</string>
+
+    <string name="offline">"Tryb samolotowy"</string>
+    <string name="brightness">"Jasność"</string>
+    <string name="timeout">"Przekroczono czas oczekiwania"</string>
+
+    <string name="data_connection_attach_timeout_error_msg">"Niepowodzenie połączenia danych lub sieć jest aktualnie zajęta."</string>
+    <string name="data_connection_dettach_timeout_error_msg">"Rozłączenie połączenia danych nie powiodło się."</string>
+    <string name="data_connection_connected">Włączono połączenie danych karty SIM [<xliff:g>%s</xliff:g>]</string>
+
+    <string name="gemini_intenet_call">Rozmowa telefoniczna przez Internet</string>  
+    <string name="gemini_default_sim_never">"wyłączona"</string>
+    
+    <string name="gemini_3g_disable_warning">"Wybrana karta SIM nie obsługuje usługi 3G. Może to spowodować wolniejsze ładowanie danych. Ustawienie usługi 3G można zmienić w pozycji Ustawienia &gt; Sieci bezprzewodowe i zwykłe &gt; Sieci komórkowe. Czy na pewno chcesz wybrać tę kartę SIM?"</string>
+    <string name="gemini_3g_disable_warning_cu">"Wybrana karta SIM nie obsługuje usługi 3G. Może to spowodować wolniejsze ładowanie danych. Ustawienie usługi 3G można zmienić w pozycji Ustawienia &gt; Zarządzanie kartą SIM. Czy na pewno chcesz wybrać tę kartę SIM?"</string>
+    <string name="gemini_3g_disable_warning_case0">"Należy najpierw włączyć roaming danych dla tej karty SIM, co może wiązać się ze znacznymi opłatami za roaming! Czy na pewno chcesz włączyć roaming danych i wybrać tę kartę SIM?"</string>
+    <string name="gemini_3g_disable_warning_case1">"Wybrana karta SIM nie obsługuje usługi 3G. Może to spowodować wolniejsze ładowanie danych. Ustawienie usługi 3G można zmienić w pozycji Ustawienia &gt; Sieci bezprzewodowe i zwykłe &gt; Sieci komórkowe. Czy na pewno chcesz wybrać tę kartę SIM?"</string>
+    <string name="gemini_3g_disable_warning_case2">"Wybrana karta SIM nie obsługuje usługi 3G. Może to spowodować wolniejsze ładowanie danych. Ustawienie usługi 3G można zmienić w pozycji Ustawienia &gt; Zarządzanie kartą SIM. Czy na pewno chcesz wybrać tę kartę SIM?"</string>
+    <string name="gemini_3g_disable_warning_case3">"Należy najpierw włączyć roaming danych dla tej karty SIM, co może wiązać się ze znacznymi opłatami za roaming! Ponadto wybrana karta SIM nie obsługuje usługi 3G. Może to spowodować wolniejsze ładowanie danych. Można to zmienić w pozycji Ustawienia &gt; Sieci bezprzewodowe i zwykłe &gt; Sieci komórkowe. Czy na pewno chcesz włączyć roaming danych i wybrać tę kartę SIM?"</string>
+    <string name="gemini_3g_disable_warning_case4">"Należy najpierw włączyć roaming danych dla tej karty SIM, co może wiązać się ze znacznymi opłatami za roaming! Ponadto wybrana karta SIM nie obsługuje usługi 3G. Może to spowodować wolniejsze ładowanie danych. Można to zmienić w pozycji Ustawienia &gt; Zarządzanie kartą SIM. Czy na pewno chcesz włączyć roaming danych i wybrać tę kartę SIM?"</string>
+
+    <string name="confirm_radio_title">Karta SIM jest wyłączona</string>
+    <string name="confirm_radio_msg">Karta <xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> jest teraz wyłączona. Czy chcesz włączyć teraz tę kartę SIM?</string>
+    <string name="confirm_radio_msg_single">Tryb samolotowy jest teraz włączony; czy chcesz go wyłączyć?</string>
+    <string name="confirm_radio_lbutton">Włącz</string>
+
+    <string name="builtin_installer_title_message">Wbudowany CD-ROM</string>
+    <string name="builtin_installer_dlg_message">Włączyć wbudowany CD-ROM?</string>
+    <string name="builtin_installer_always_allowed">Nie pokazuj następnym razem</string>
+    <string name="dlg_no">"Nie"</string>
+    <string name="dlg_yes">"Tak"</string>
+
+    <string name="OK">"OK"</string>
+    <string name="application_guide_title">﻿Switch to default SIM card</string>
+    <string name="application_guide_content">Przesuń w dół listę powiadomień w celu przełączenia na domyślną kartę SIM</string>
+    
+    <string name="data_usage">"Użycie danych"</string>
+    <string name="audio_profile">Profile dźwięku</string>
+    <string name="user_owner">"Właściciel"</string>
+
+    <string name="phone_battery_low_subtitle">Niski poziom naładowania baterii telefonu.</string>
+    <string name="smartbook_battery_low_subtitle">Niski poziom naładowania baterii smartbooka.</string>
+
+    <string name="apn">PUNKT DOSTĘPU</string>
+    <string name="sim_management">ZARZĄDZANIE KARTĄ UIM/SIM</string>
+    <string name="network_selection_settings">Wybór sieci</string>
+    <string name="quick_settings_roam_data">Roaming danych</string>
+
+    <string name="eco_backlight_title">Ekonomiczne podświetlenie</string>
+    <string name="eco_backlight_summary">Automatyczne dostosowanie podświetlenia w celu oszczędzania energii</string> 
+</resources>

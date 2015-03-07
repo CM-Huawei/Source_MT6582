@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="onscreenHangupAll">Tümünü kapat</string>
+    <string name="onscreenHangupHolding">Beklemede olanı kapat</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Aktif olanı kapat, bekleyeni yanıtla</string>
+    <string name="onscreenECT">Aktar</string>
+
+    <string name="dm_lock">DM Kilitli</string>
+    <string name="dm_unlock">DM Kilidi Açık</string>
+
+    <string name="mo_code_unconditional_cf_active">Koşulsuz arama yönlendirme\netkinleştirildi</string>
+    <string name="mo_code_some_cf_active">Koşullu arama yönlendirme\netkinleştirildi</string>
+    <string name="mo_code_call_forwarded">Arama yönlendirildi</string>
+    <string name="mo_code_call_is_waiting">Bekleyen çağrı</string>
+    <string name="mo_code_cug_call">Kapalı Kullanıcı Grubu</string>
+    <string name="mo_code_outgoing_calls_barred">Giden arama engellendi</string>
+    <string name="mo_code_incoming_calls_barred">Gelen arama diğer tarafta engellendi</string>
+    <string name="mo_code_clir_suppression_rejected">Arayanın kimlik hizmetini kontrol et</string>
+    <string name="mo_code_call_deflected">Aktarılan numarayı ara</string>
+    <string name="mt_code_forwarded_call">Bu yönlendirilmiş bir çağrıdır</string>
+    <string name="mt_code_cug_call">Kapalı Kullanıcı Grubu</string>
+    <string name="mt_code_call_on_hold">Tutulan arama</string>
+    <string name="mt_code_call_retrieved">Alınan arama</string>
+    <string name="mt_code_multi_party_call">Konferans görüşmesi</string>
+    <string name="mt_code_on_hold_call_released">Tutulan arama bırakıldı</string>
+    <string name="mt_code_forward_check_received">Yönlendirme kontrolü SS mesajı alındı</string>
+    <string name="mt_code_call_connecting_ect">Arama aktarılıyor</string>
+    <string name="mt_code_call_connected_ect">Arama aktarma aktif</string>
+    <string name="mt_code_deflected_call">Bu yönlendirilmiş bir çağrıdır</string>
+    <string name="mt_code_additional_call_forwarded">Yönlendirilen diğer gelen aramalar</string>
+    <string name="mt_code_forwarded_cf">Arama yönlendirildi</string>
+    <string name="mt_code_forwarded_cf_uncond">Koşulsuz bir şekilde yönlendirilen arama</string>
+    <string name="mt_code_forwarded_cf_cond">Koşullu bir şekilde yönlendirilen arama</string>
+    <string name="mt_code_forwarded_cf_busy">Meşgul olduğundan yönlendirilen arama</string>
+    <string name="mt_code_forwarded_cf_no_reply">Yanıtlanmadığından yönlendirilen arama</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Ulaşılamadığında yönlendirilen arama</string>
+    
+    <string name="start_record">Kaydetmeye başla</string>
+    <string name="stop_record">"Kaydı durdur"</string>
+    <string name="str_db_playlist_name">Kayıtlarım</string>
+    <string name="alert_device_error">Ses cihazında bir hata oluştu</string>
+    <string name="ext_media_badremoval_notification_title">SD kart beklenmedik bir şekilde çıkartıldı</string>
+    <string name="error_sdcard_access">"SD karta erişilemiyor"</string>
+    <string name="confirm_device_info_full">SD kartında alan kalmadı; kayıt kaydedildi.</string>
+    <string name="confirm_save_info_saved">Kayıt kaydedildi.</string>
+    <string name="confirm_save_info_saved_to">Kayıt saklandı</string>
+    
+    <string name="confirm_3g_switch">"Bu SIM'de 3G hizmeti başlatmak istediğinizden emin misiniz? Bu işlem, Görüntülü aramalar açısından bu SIM'i otomatik olarak varsayılan olarak ayarlayacaktır."</string>
+    <string name="modem_switching">SIM\'in değiştirilmesi yaklaşık 10 saniye sürecektir. Lütfen bekleyin…</string>
+    <string name="confirm_3g_switch_to_off">3G servisini kapatmak istediğinizden emin misiniz? Bu aynı zamanda görüntülü arama servisini otomatik olarak kapatacaktır.</string>
+    <string name="enable_3G_service">"3G'yi etkinleştir"</string>
+    <string name="network_forbidden">Devre dışı bırak</string>
+    <string name="plmn_list_setting_title">Tercihler</string>
+    <string name="plmn_list_setting_add_plmn">Yeni PLMN ekle</string>
+    <string name="callFailed_dsac_vt_incompatible_destination" product="tablet">Görüntülü arama ayarlanamıyor. Aradığınız aygıtta görüntülü telefon desteklenmiyor; sesli arama yapılsın mı?</string>
+    <string name="callFailed_dsac_vt_incompatible_destination" product="default">Video araması kurulamıyor. Video telefonu aradığınız telefonda desteklenmiyor, sesli arama yapmak ister misiniz?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">Video araması kurulamıyor. Aradığınız telefon 3G hizmet alanının dışında, sesli arama yapmak ister misiniz?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">Video araması kurulamıyor. Sesli arama yapmak ister misiniz?</string>
+    <string name="notification_voicemail">Sesli mesaj</string>
+    <string name="turn_on_3g_service_message">3G servisi kapatıldı, açmak ister misiniz?</string>
+    <string name="associate_sim_missing_message">"%1$s SIM kullanılamıyor. Aramayı %2$s üzerinden yapmak ister misiniz"</string>
+    <string name="associate_sim_missing_other">Diğer</string>
+    
+    <string name="vt_settings">Görüntülü ayarları</string>
+    <string name="vt_local_video_zoom">Yerel görüntü yakınlaştırma</string>
+    <string name="vt_local_video_brightness">Yerel görüntü parlaklık</string>
+    <string name="vt_local_video_effect">Yerel görüntü efekt</string>
+    <string name="vt_local_video_nightmode">Yerel görüntü gece modu</string>
+    <string name="vt_peer_video_quality">Eş düzey görüntü kalitesi</string>
+    <string name="vt_incoming_showme_ask">Sor</string>
+    <string name="vt_call_settings">Görüntülü arama ayarları</string>
+    <string name="vt_pic_replace_local_default">Varsayılan resim</string>
+    <string name="vt_pic_replace_local_freezeme">Görüntümü dondur</string>
+    <string name="vt_pic_replace_local_mypic">Resmim</string>
+    <string name="vt_sd_null">SD kartı yok</string>
+    <string name="vt_sd_not_enough">SD kartında yer yok</string>
+    <string name="vt_peer_video_quality_normal">Norma</string>
+    <string name="vt_ask_show_local">Yerel video dikkate alınsın mı?</string>
+    <string name="vt_change_my_pic">Değiştir</string>
+    <string name="vt_pic_saved_to_sd">Anlık görüntü SD karta kaydedildi</string>
+    <string name="vt_pic_saved_to_sd_fail">Anlık görüntü kaydedilemedi</string>
+    <string name="vt_error_network">Ağa ulaşılamıyor. Görüntülü arama bağlantısı kesilecek.</string>
+    <string name="vt_error_media">Video düzgün görüntülenemiyor. Görüntülü arama bağlantısı kesilecek.</string>
+    <string name="vt_swap_video">Görüntü türünü değiştir</string>
+    <string name="vt_local_video_contrast">Yerel video kontrastı</string>
+    <string name="vt_menu_switch">Kamerayı değiştir</string>
+    <string name="vt_menu_hide_me">Yerel videoyu gizle</string>
+    <string name="vt_menu_show_me">Yerel videoyu göster</string>
+    <string name="vt_menu_snapshot">Denk enstantane</string>
+    <string name="vt_vocie_answer">Sesli yanıt</string>
+    <string name="vt_wait_voice">Sesli arama bağlantısı bekleniyor</string>
+    <string name="vt_voice_connecting">Sesli arama bağlanıyor</string>
+    <string name="vt_cannot_support_setting">Geçerli kamera bu ayarı desteklemiyor</string>
+    <string name="vt_network_unreachable">Şebekeye erişilemiyor</string>
+    <string name="vt_iot_error_01">Video araması kurulamıyor</string>
+    <string name="vt_iot_error_02">Telefon meşgul</string>
+    <string name="vt_iot_error_03">Yanıt yok</string>
+    <string name="vt_iot_error_04">Şebeke meşgul</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"Pozlama"</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">"Beyaz Tahta"</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">"Siyah Tahta"</string>
+    <string name="pref_camera_coloreffect_entry_aqua">"Su"</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">"Sepia Mavisi"</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">"Sepia Yeşili"</string>
+    <string name="vt_peer_camera_open">Uzak kamera açık</string>
+    <string name="vt_peer_camera_close">Uzak kamera kapalı</string>
+    <string name="vt_recorder_start">Kaydetmeye başla</string>
+    <string name="vt_recorder_voice_and_peer_video">Sesli ve görüntülü</string>
+    <string name="vt_recorder_only_voice">Sadece sesli</string>
+    <string name="vt_recorder_only_peer_video">Sadece görüntülü</string>
+    <string name="vt_recording_saved">Kaydınız kaydedildi.</string>
+    <string name="vt_recording_saved_sd_full">SD kartında alan kalmadı; kayıt kaydedildi.</string>
+    <string name="vt_recording_error">Kayıt hatası.</string>
+    <string name="start_record_vt">Kaydetmeye başla</string>
+    <string name="stop_record_vt">"Kaydı durdur"</string>
+    <string name="enable_sip_dialog_message">"Internet araması devre dışı; etkinleştirmek ister misiniz?"</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">IP çevirme işlevi internet araması için kullanılamaz.</string>
+    <string name="vt_addtional_call_description">Telefon numarası ve arama bekletme ayarları</string>
+    <string name="sim_manage_sipcall">"Internet"</string>
+    <string name="sim_manage_call_via">Aracılığıyla ara</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> dakika <xliff:g id="seconds" example="28">%2$s</xliff:g> saniye</string>
+    <string name="reminder">Anımsatıcı</string>
+    <string name="vt_media_occupied">Kamera kullanılamadığından, videolu arama bağlanamıyor. Lütfen kamerayı başka bir uygulamanın kullanıp kullanmadığını kontrol edin.</string>
+    <string name="vt_media_video_fail">Video düzgün gösterilemiyor. Videolu arama bağlantısı kesildi</string>
+    <string name="incall_toast_unhold">Devam ettir</string>
+
+</resources>

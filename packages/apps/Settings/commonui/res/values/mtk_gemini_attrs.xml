@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SimSelectDialogPreference">
+        <attr name="paddingStart" format="dimension"/>
+        <attr name="paddingEnd" format="dimension"/>
+    </declare-styleable>
+</resources>

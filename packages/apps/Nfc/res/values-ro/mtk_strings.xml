@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="mtk_notification_string">Atingeţi pentru a vedea setările detaliate</string>
+    <string name="mtk_beam_cancel_title">Anulare transfer</string>    
+    <string name="mtk_beam_cancel">Sigur doriţi să anulaţi transferul primit?</string>
+    <string name="mtk_yes">"Da"</string>
+    <string name="mtk_no">"Nu"</string>
+    <string name="mtk_se_sim1">SIM1</string>
+    <string name="mtk_se_sim2">SIM2</string>
+    <string name="mtk_se_ssd">Card SD inteligent</string>
+    <string name="mtk_se_ese">SE încorporat</string>
+    <string name="mtk_se_na">"Nu există elemente de securitate disponibile. Caracteristica de emulare a plăcii NFC va fi dezactivată."</string>
+    <string name="mtk_se_alt">" nu este disponibil(ă). Doriţi să comutaţi la "</string>
+    <string name="mtk_nfc_card_emulation">Emulare placă NFC</string>
+    
+<string name="mtk_disallow_in_wfd">Această operaţie nu se poate realiza în timpul utilizării funcţiei de afişare wireless.</string>
+    <string name="mtk_disallow_in_wfd_KK">Această operaţie nu se poate realiza în timpul utilizării funcţiei Reflectare ecran.</string>
+    </resources>

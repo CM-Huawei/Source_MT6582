@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_advanced_settings">"Avancerade inställningar"</string>
+    <string name="bluetooth_profile_ftp">"Filöverföring"</string>
+    <string name="bluetooth_ftp_profile_summary_use_for">"ใช้สำหรับถ่ายโอนไฟล์"</string>
+    <string name="bluetooth_ftp_profile_summary_connected">"เชื่อมต่อไปยังการถ่ายโอนไฟล์"</string>
+    <string name="mtp_transfer_unmount_error_text">SD-kortet kan inte avmonteras under filöverföring.</string>
+    <string name="mtp_transfer_erase_error_text">SD-kortet kan inte raderas under filöverföring.</string>    
+    <string name="launch_error">"Kunde inte starta programmet!"</string>
+    <string name="dlg_confirm_unmount_usb_title" product="default">Avmontera USB-lagring?</string>
+    <string name="dlg_confirm_unmount_usb_text" product="default">Om du avmonterar USB-lagringen kommer vissa program som används att stoppas och kan vara otillgängliga tills du återmonterar USB-lagringen.</string>
+    <string name="dlg_error_unmount_usb_title" product="default"/>
+    <string name="dlg_error_unmount_usb_text" product="default">"Det går inte att ta bort USB-lagringsenheten. Försök igen senare."</string>   
+    <string name="unmount_usb_inform_text" product="default">USB-lagring kommer att avmonteras.</string>
+    <string name="sd_eject_usbstorage" product="default">"Demontera USB-enhet"</string>
+    <string name="sd_eject_usbstorage_summary" product="default">Avmontera USB-lagringen så den är säker att koppla från</string>
+    <string name="sd_mount_usbstorage" product="default">"Sätt i USB-enheten"</string>
+    <string name="sd_insert_usb_summary" product="default">"Sätt i USB om du vill montera"</string>
+    <string name="usb_ums_title">"USB-lagring"</string>
+    <string name="usb_ums_summary">"XP rekommenderas. Låter dig överföra filer mellan din dator och din Android-enhet."</string>
+    <string name="usb_charge_title">Endast laddning</string>
+    <string name="usb_charge_summary">Stoppa alla USB-funktioner. USB-laddningens snabbhet ökar och strömförbrukningen minskar.</string>
+    <string name="NI_Request_ID">Begärande-ID</string>
+    <string name="NI_Request_ClientName">Klientnamn</string>
+    <string name="agps_str_verify">Verifikation</string>
+    <string name="agps_str_notify">Meddelande</string>
+    <string name="agps_OK">"OK"</string>
+    <string name="agps_str_allow">"Tillåt"</string>
+    <string name="agps_str_deny">"Avvisa"</string>
+    <string name="AGPS_DEFAULT_STRING">A-GPS standardsträng</string>
+    <string name="AGPS_NOTIFY_ONLY">Meddelande om platsbegäran</string>
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">Platsbegäran (tillåt om inget svar)</string>
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">Platsbegäran (neka om inget svar)</string>
+    <string name="AGPS_NOTIFY_PRIVACY">Platsbegäran (sekretess)</string>    
+    <string name="ring_summary">Ring</string>
+    <string name="ring_vibrate_summary">Ring och vibrera</string>
+    <string name="silent_summary">Endast tyst</string>
+    <string name="meeting_summary">Endast vibration</string>
+    <string name="outdoor_summary">Högsta ringsignal och vibrera</string>
+    <string name="audio_profile_reset">"Återställ"</string>
+    <string name="audio_profile_add">"Lägg till"</string>
+    <string name="audio_profile_enable">"Aktivera"</string>
+    <string name="audio_profile_rename">"BYT NAMN"</string>
+    <string name="audio_profile_delete">"Delete"</string>
+    <string name="audio_profile_message_reset">Alla ljudprofilsinställningar kommer att återställas till standard.</string>
+    <string name="audio_profile_message_rename">Ange ett nytt profilnamn</string>
+    <string name="audio_profile_message_name_error">Angivet namn finns redan</string>  
+    <string name="audio_profile_message_name_length_wrong">Namnet måste innehålla minst ett tecken</string>
+    <string name="audio_profile_message_delete">Profilen <xliff:g id="profile">%s</xliff:g> kommer att raderas</string>
+    <string name="audio_profile_message_overflow">Du kan endast lägga till 6 anpassade profiler</string>
+    <string name="ok">"OK"</string>
+    <string name="audio_profile_category_custom_title">Användardefinierade profiler</string>
+    <string name="audio_profile_category_predefine_title">Fördefinierade profiler</string>
+    <string name="general_settings_title">"Allmänt"</string>
+    <string name="silent_settings_title">"Tyst"</string>
+    <string name="meeting_settings_title">Möte</string>
+    <string name="outdoor_settings_title">Utomhus</string>
+    <string name="apn_predefine_change_dialog_notice">Är du säker på att du vill spara? Ändringar på standard-APN kan orsaka anslutningsproblem!"</string>    
+    <string name="sound_category_feedback_title">"System"</string>
+    <string name="sound_category_calls_title">Inkommande samtal</string>
+    <string name="voice_call_title">Ringsignal för röstsamtal</string>
+    <string name="voice_call_summary">"Ställ in standardsignal för videosamtal"</string>
+    <string name="video_call_title">Ringsignal för videosamtal</string>
+    <string name="video_call_summary">Ställ in standardsignal för videosamtal</string>
+    <string name="sip_call_title">Ringsignal för SIP-samtal</string>
+    <string name="sip_call_summary">Ställ in standardsignal för SIP-samtal</string>
+    <string name="Phone_vibrate_summary">Enheterna vibrerar för inkommande samtal</string>
+    <string name="vibrate_title">"Vibration"</string>
+    <string name="audio_profile_settings_title">Ljudprofiler</string>
+    <string name="sim_status_title">SIM-status</string>
+    <string name="sim_status_summary">SIM-relaterad information</string>
+    <string name="status_imei_slot1">IMEI (kortplats1)</string>
+    <string name="status_imei_sv_slot1">IMEI SV (kortplats1)</string>
+    <string name="status_imei_slot2">IMEI (kortplats2)</string>
+    <string name="status_imei_sv_slot2">IMEI SV (kortplats2)</string>
+    <string name="status_min_number_slot1">MIN (kortplats1)</string>
+    <string name="status_prl_version_slot1">PRL-version (kortplats1)</string>
+    <string name="status_meid_number_slot1">MEID (kortplats1)</string>
+    <string name="status_min_number_slot2">MIN (kortplats2)</string>
+    <string name="status_prl_version_slot2">PRL-version (kortplats2)</string>
+    <string name="status_meid_number_slot2">MEID (kortplats2)</string>
+    <string name="slot_status_title">"IMEI-information"</string>
+    <string name="slot_status_summary">"IMEI-relaterad information"</string> 
+    <string name="custom_build_version">Anpassad build-version</string>
+    <string name="software_update">Uppdateringstjänst för programvara</string>
+    <string name="mota_system_update_summary">"Sök efter systemuppdateringar på servern"</string>
+    <string name="software_updates_more_title">Programuppdateringar</string>
+    <string name="software_updates_more_summary">Sök efter ny programversion</string>
+    <string name="software_updates_scomo_summary">Sök efter ny version för programvara</string>
+    <string name="scomo_settings_title">Uppdateringstjänst för programvara</string>
+    <string name="screen_timeout_CU">Skärmens tidsbegränsning</string>
+    <string name="landscape_launcher_title">Landscape-startare</string>
+    <string name="landscape_launcher_none">"Inga"</string>
+    <string name="tvout_settings">TV-ut</string>
+    <string name="tvout_settings_summary">TV-ut inställningar</string>
+    <string name="tv_system_title">TV-system</string>
+    <string name="hdmi_settings">HDMI-inställningar</string>
+    <string name="hdmi_settings_summary">Klicka för att konfigurera HDMI</string>
+    <string name="hdmi_audio_toggler">Ljud</string>
+    <string name="hdmi_video_toggler">"Video"</string>
+    <string name="hdmi_video_resolution">Videoupplösning</string>
+    <string name="hdmi_auto">"automatiskt"</string>
+    <string name="display_settings_scences_title">Scener</string>
+    <string name="mtk_thememanager_title">Tema</string>
+    <string name="default_name">"Standard"</string>
+    <string name="custom_theme_name">Ny [%1$s]</string>
+    <string name="loading">Laddar…</string>
+    <string name="sim_enter_pin_hints">(Ange 4-8 siffror)</string>
+    <string name="sim_remain">(Återstående:<xliff:g id="remains">%d</xliff:g>)</string>  
+    <string name="gps_time_sync_attention_gps_on">Det tar högst 1 minut att erhålla en GPS-fixering. Dessutom kan GPS:n tappa tiden på grund av svag täckning.\n\nÄr du säker på att du vill använda GPS-försedd tid?</string>
+    <string name="gps_time_sync_attention_gps_off">För att använda GPS-försedd tid måste du först aktivera GPS:n. Det tar sedan högst 1 minut att erhålla en GPS-fixering. Dessutom kan GPS:n tappa tiden på grund av svag täckning. \n\nÄr du säker på att du vill aktivera GPS:n och vänta på GPS-försedd tid?</string>
+    <string name="drm_settings_title">DRM-återställning</string>
+    <string name="drm_settings_summary">Raderar alla DRM-licenser</string>
+    <string name="drm_reset_dialog_msg">Denna åtgärd raderar alla licenser på denna enhet. Vill du fortsätta?</string>
+    <string name="drm_reset_toast_msg">Licenserna har raderats.</string>
+    <string name="gemini_sim_management_title">SIM-hantering</string>
+    <string name="gemini_sim_info_title">SIM-INFORMATION</string>  
+    <string name="gemini_default_sim_title">"Standardinställningar"</string>  
+    <string name="gemini_general_settings_title">"Allmänna inställningar"</string>
+    <string name="gemini_roaming_settings_title">"Roaming"</string>    
+    <string name="gemini_data_roaming_title">"Dataroaming"</string>  
+    <string name="gemini_data_roaming_summary">Anslut till datatjänster vid roaming</string>  
+    <string name="gemini_roaming_reminder_title">Visa påminnelser för roaming</string>  
+    <string name="gemini_roaming_reminder_summary">Visa SIM-förslag baserat på SIM-användning</string>      
+    <string name="gemini_contacts_sim_title">"Kontaktbindning"</string>      
+    <string name="gemini_contacts_sim_summary">Binder kontakter till ett specifikt SIM-kort</string> 
+    <string name="gemini_voice_call">Röstsamtal</string>        
+    <string name="gemini_video_call">Videosamtal</string>   
+    <string name="gemini_data_connection">Dataanslutning</string>   
+    <string name="gemini_msg">Meddelanden</string>       
+    <string name="gemini_default_sim_always_ask">Fråga alltid</string>    
+    <string name="gemini_intenet_call">Internetsamtal</string>    
+    <string name="gemini_default_sim_never">"av"</string>       
+    <string name="gemini_default_sim_3g_off">"av"</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Nätverksläge</string>
+    <string name="gemini_gsm_umts_network_preferneces_summary">Inte implementerat ännu!</string>
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">Nätverksläge</string>
+    <string name="gemini_3g_service_settings">3G-tjänst</string>
+    <string name="gemini_sim_mode_progress_activating_message">Aktiverar\u2026</string>
+    <string name="gemini_sim_mode_progress_deactivating_message">Inaktiverar\u2026</string>
+    <string name="gemini_sim_mode_change_failed_message">Misslyckades, nätverksfel</string>
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">"Flygplansläge"</string>
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">Telefonen försätts i flygplansläge. Alla trådlösa anslutningar inaktiveras. Vill du fortsätta?</string>
+    <string name="gemini_sim_info_editor_name">Redigera SIM-namn</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Sparning misslyckades</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Duplicera namn för SIM-kort</string>  
+    <string name="gemini_sim_info_editor_number">Ange telefonnummer</string>  
+    <string name="gemini_sim_info_editor_color">Ställ in bakgrundsfärg</string> 
+    <string name="gemini_sim_info_editor_number_display_format">Visa nummer</string>    
+    <string name="gemini_no_sim_indicator">"Inget SIM-kort"</string>     
+    <string name="gemini_sim_list_default_title">SIM-kortlista</string>       
+    <string name="gemini_data_connection_progress_message">"Växla SIM tar ungefär 10 sekunder att slutföra. Vänligen vänta…"</string>
+    <string name="gemini_3g_modem_switching_message">"Växla SIM tar ungefär 10 sekunder att slutföra. Vänligen vänta…"</string>
+    <string name="gemini_3g_modem_switch_confirm_message">"Detta växlar även 3G-tjänsten till detta SIM-kort. Vill du fortsätta? Kontrollera att det valda SIM-kortet har stöd för 3G-tjänsten."</string>
+    <string name="gemini_3g_disable_warning">"3G-tjänsten är inte tillgänglig med detta SIM-kort. Det innebär att data kan laddas långsamt. Du kan ändra 3G-tjänstens inställningar i Inställningar &gt; Trådlöst och nätverk &gt; Mobila nätverk."</string>
+    <string name="gemini_3g_disable_warning_cu">"3G-tjänsten är inte tillgänglig med detta SIM-kort. Det innebär att data kan laddas långsamt. Du kan ändra 3G-tjänstens inställningar i Inställningar &gt; SIM-hantering."</string>  
+    <string name="gemini_wap_push_permission_head">När Auto-push-tjänsten är aktiverad kan du ta emot pushade meddelanden, köra lokala program och producera datatrafik. De vanliga auto-push-tjänsterna inkluderar e-postmeddelanden, enhetshantering, tjänsteindikation, tjänsteladdning och etablerar push.</string>      
+    <string name="gemini_wap_push_permission_tail">Acceptera detta avtal?</string>  
+    <string name="gemini_wap_push_permission_title">Avtal för auto-push-tjänsten</string>   
+    <string name="gemini_wap_push_permission">Auto-push-tjänst</string>   
+    <string name="gemini_3g_disable_warning_case0">"Du måste först aktivera dataroaming för detta SIM-kort, vilket kan medföra betydande roamingkostnader! Är du säker på att du vill aktivera dataroaming och välja detta SIM-kort?"</string>
+    <string name="gemini_3g_disable_warning_case1">"3G-tjänsten är inte tillgänglig med detta SIM-kort. Det innebär att data kan laddas långsamt. Du kan ändra 3G-tjänstens inställningar i Inställningar &gt; Trådlöst och nätverk &gt; Mobila nätverk. Är du säker på att du vill välja detta SIM-kort?"</string>
+    <string name="gemini_3g_disable_warning_case2">"3G-tjänsten är inte tillgänglig med detta SIM-kort. Det innebär att data kan laddas långsamt. Du kan ändra 3G-tjänstens inställningar i Inställningar &gt; SIM-hantering. Är du säker på att du vill välja detta SIM-kort?"</string>
+    <string name="gemini_3g_disable_warning_case3">"Du måste först aktivera dataroaming för detta SIM-kort, vilket kan medföra betydande roamingkostnader! Dessutom är 3G-tjänsten inte tillgänglig med detta SIM-kort. Det kan innebära att data laddas långsammare. Du kan ändra det i Inställningar &gt; Trådlöst och nätverk &gt; Mobila nätverk. Är du säker på att du vill aktivera dataroaming och välja detta SIM-kort?"</string>
+    <string name="gemini_3g_disable_warning_case4">"Du måste först aktivera dataroaming för detta SIM-kort, vilket kan medföra betydande roamingkostnader! Dessutom är 3G-tjänsten inte tillgänglig med detta SIM-kort. Det kan innebära att data laddas långsammare. Du kan ändra det i Inställningar &gt; SIM-hantering. Är du säker på att du vill aktivera dataroaming och välja detta SIM-kort?"</string>
+    <string name="gemini_sim_tether_info_title">Kontakter och SIM-kort</string>
+	<string name="gemini_sim_tether_add_record">Lägg till kontakter</string>
+    <string name="gemini_sim_add_title">"Kontakter"</string>
+    <string name="gemini_sim_tether_norecord">"Du har inga kontaktnummer som förknippas med nuvarande SIM-kort.\n\nTryck på Lägg till kontakter-knappen för att välja de kontakter som du vill binda till detta SIM-kort".</string>
+    <string name="gemini_sim_tether_nocontacts">"Inga tillgängliga kontakter på din telefon. Lägg till nya kontakter eller importera kontakter."</string>
+    <string name="gemini_sim_tether_no_assc_contacts">"Kontakter är bundna utan problem." </string>
+    <string name="gemini_sim_tether_disassociate">Avassociera</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> markerade</string>
+    <string name="gemini_sim_tether_unselect_all">Avmarkera alla</string>
+    <string name="gemini_sim_tether_nocontact_confirm">"OK"</string>
+    <string name="gemini_sim_tether_select_all">"Markera alla"</string>
+    <string name="gemini_sim_tether_select_ok">"Spara"</string>
+    <string name="gemini_sim_tether_select_cancel">"Avbryt"</string>
+    <string name="gemini_sim_tether_revert_title">"Obs!"</string>
+    <string name="gemini_sim_tether_revert_message">Dina konfigurationer har ändrats men inte sparats. Är du säker på att du vill lämna utan att spara?</string>
+    <string name="gemini_tether_saving_progress_message">Sparar…</string>
+    <string name="gemini_sim_lock_sim1_tab_tag">SIM1</string>
+    <string name="gemini_sim_lock_sim1_tab_label">SIM1</string>
+    <string name="gemini_sim_lock_sim2_tab_tag">SIM2</string>
+    <string name="gemini_sim_lock_sim2_tab_label">SIM2</string>
+    <string name="gemini_sim_lock_simid_error">Misslyckades, felaktigt SIM-id</string>
+    <string name="gemini_sim_lock_no_insert_message_sim">SIM-kort är inte isatt.</string>
+    <string name="gemini_sim_lock_radio_off_message_sim1">Radio1 är av.</string>
+    <string name="gemini_sim_lock_radio_off_message_sim2">Radio2 är av.</string>
+    <string name="akp_installer_settings_title">APK-installationsprogram</string>
+    <string name="akp_installer_settings_summary">Installera din APK från telefonens minne eller SD-kort</string>
+    <string name="launch_main_label">Starta program</string>
+    <string name="launch_main">Starta programmet via huvudaktivitet.</string>
+    <string name="launch_activitie">Starta</string>
+    <string name="move_app_to_where">Flytta till <xliff:g id="location">%s</xliff:g></string>
+    <string name="wifi_no_cert_for_wapi">Kunde inte hitta certifiering för befintligt ansluten AP</string>
+    <string name="sim_slot">SIM-kortplats</string>
+    <string name="eap_sim_slot_0">SIM-kortplats1</string>
+    <string name="eap_sim_slot_1">SIM-kortplats2</string>
+    <string name="eap_sim_aka_airplanemode">Stäng av flygplansläget för att använda EAP-SIM/AKA</string>
+    <string name="eap_sim_aka_no_sim_error">Du måste sätta in ett SIM-kort för att använda EAP-SIM/AKA</string>	
+    <string name="eap_sim_aka_no_sim_slot_selected">Du måste välja en SIM-kortplats för att använda EAP-SIM/AKA</string>
+    <string name="wifi_security_wapi_certificate">WAPI-certifikat</string>
+    <string name="wapi_user_certificate">"Användarcertifikat"</string>
+    <string name="wapi_as_certificate">ASE-certifikat</string>   
+    <string name="wifi_hex_password">Hexadecimalt lösenord.</string>
+    <string name="wifi_WEP_transmit_key">Överföringsnyckel</string>
+    <string name="wifi_WEP_secury_key">Säkerhetsnyckel</string>
+    <string name="wifi_tether_auto_disable_title">Behåll Wi-Fi-hotspot på</string>
+    <string name="wifi_tether_auto_channel_text">"automatiskt"</string>
+    <string name="wifi_tether_auto_channel_width_text">Auto 20/40 MHz</string>
+    <string name="wifi_channel">Önskad kanal</string>
+    <string name="wifi_channel_width">Kanalbredd</string>
+    <string name="pch_toggle_title">Önskat GPRS-överföringsläge</string>
+    <string name="pch_data_prefer_summary_off">Önskad data</string>
+    <string name="pch_call_prefer_summary_on">Önskat samtal</string>
+    <string name="pch_warning_message">Dataöverföringshastigheten kommer att minska.</string> 
+    <string name="schedule_power_on_off_settings_title">Schemalagd på- och avslagning</string>
+    <string name="usb_bicr_title">Inbyggd CD-ROM</string>
+    <string name="usb_bicr_summary">Visa en virtuell CD-ROM som innehåller användbar programvara.</string>
+    <string name="select_memory">Standard lässkiva</string>
+    <string name="ipo_title">Snabb uppstart</string>
+    <string name="ipo_summary_on">Inaktivera snabb uppstart</string>
+    <string name="ipo_summary_off">Aktivera snabb uppstart</string>
+    <string name="agps_profile_select_Title">SUPL-profil</string>
+    <string name="location_settings_label">Läge för platsingenjör</string>
+    <string name="audio_profile_error">"Fel"</string>  
+    <string name="battery_percent">Batteriprocent</string>
+    <string name="rcse_settings_title">Joyn settings</string>
+    <string name="MobileNetwork_SIM1_Active">SIM1 är aktiv</string>
+    <string name="MobileNetwork_SIM2_Active">SIM2 är aktiv</string>
+    <string name="dlg_mount_external_sd_title" product="default">Montera SD-kort?</string>
+    <string name="dlg_mount_external_sd_summary" product="default">Om du monterar SD-kortet kommer vissa program som används att stoppas.</string>
+    <string name="tethered_ipv6_title">Inställningar för surfpunkt och Internetdelning</string>
+    <string name="tethered_ipv4v6">(IPv6 tillgängligt)</string>
+    <string name="tethered_ipv6">(Endast IPv6 tillgängligt)</string>
+    <string name="tethered_ipv4">(IPv6 ej tillgänligt)</string>
+    <string name="tethering_apn_settings_title">APN-inställningar</string>
+    <string name="tethering_apn_settings_summary">Konfigurera APN för Internetdelning</string> 
+    <string name="usb_tether_type_title">Typ av USB-Internetdelning</string> 
+    <string name="usb_connect_as_cdrom_category">"Anslut som CD-ROM"</string>
+    <string name="wifi_tether_setting_title">Allmänna inställningar</string>
+    <string name="wifi_tether_wps_connect_title">Anslut WPS</string>
+    <string name="wifi_tether_wps_connect_summary">Välj skyddat läge för Wi-Fi-konfiguration för att fortsätta</string>
+    <string name="wifi_tether_wps_pin_error">Ogiltig PIN-kod</string>
+    <string name="wifi_tethering_title">Wi-Fi-hotspot</string>
+    <string name="wifi_ap_wps_dialog_title">Anslut WPS</string>
+    <string name="wifi_ap_wps_mode_title">WPS-läge</string>
+    <string name="wifi_ap_wps_pin_title">Ange PIN-kod från klient</string>
+    <string name="wifi_ap_reset_OOB_title">Återställ nätverks-SSID och lösenord till standardinställningen (fabrikskonfiguration för WPS)</string>
+    <string name="wifi_ap_reset_OOB">Återställ OOB</string>
+    <string name="wifi_ap_max_connection_title">Högsta antal anslutningar</string>
+    <string name="wifi_ap_connected_title">Anslutna användare</string>
+    <string name="wifi_ap_blocked_title">Blockerade användare</string>
+    <string name="wifi_ap_client_block_title">Blockera</string>
+    <string name="wifi_ap_client_unblock_title">Häv blockering</string>
+    <string name="wifi_ap_client_details_title">Information</string>
+    <string name="wifi_ap_client_mac_label">MAC-adress:</string>
+    <string name="wifi_ap_client_ip_label">IP-adress:</string>
+    <string name="usb_sharing_title">USB-Internet</string>
+    <string name="usb_sharing_summary">Dela Windows PC-Internet via USB-kabel</string>
+    <string name="usb_sharing_info_title">Internetpassage</string>
+    <string name="usb_sharing_info_step_1">"1. Öppna nätverksanslutningar på din Windows PC."</string>
+    <string name="usb_sharing_info_step_2">"2. Högerklicka på de anslutningar som du vill dela, klicka sedan på egenskaper."</string>
+    <string name="usb_sharing_info_step_3">"3. Klicka på delningsfliken och välj 'Tillåt att andra nätverksanvändare ansluter genom den här datorns Internetanslutning'(välj ett nyligt tillagt nätverk som representerar USB-Internet om 'Hemnätverksanslutning' visas)."</string>
+    <string name="wifi_ap_bandwidth_title">Bandbreddsanvändning</string>
+    <string name="wifi_ap_bandwidth_enable">Aktivera bandbreddsbegränsning</string>
+    <string name="wifi_ap_bandwidth_chart_title">Datahastighet i realtid</string>
+    <string name="wifi_ap_bandwidth_chart_summary">Mäts av din telefon, din mobiloperatörs datahastighet kan däremot skilja sig.</string>
+    <string name="wifi_wps_fail_error">Wi-FI-protokoll (Wi-Fi protected setup) misslyckades, försök igen.</string>
+    <string name="wifi_ap_title">Statistik</string>
+    <string name="wifi_ap_time_duration">Tid för varaktighet:<xliff:g id="time">%1$s</xliff:g></string>
+    <string name="wifi_ap_total_data">Totalt använd data:<xliff:g id="time">%1$s</xliff:g></string>
+    <string name="wifi_ap_bandwidth_megabyteShort">MB/s</string>
+    <string name="wifi_ap_bandwidth_KbyteShort">KB/s</string>
+    <string name="cpu_dtm_title">CPU-energisparläge</string>
+    <string name="cpu_dtm_summary">Begränsa den maximala CPU-prestandan för att spara batteri och sänka enhetstemperaturen.</string>      
+    <string name="wifi_advanced_ipv4_address_title">IPv4-adress</string>
+    <string name="wifi_advanced_ipv6_address_title">IPv6-adress</string>
+    <string name="wifi_ipv4_address">IPv4-adress</string>
+    <string name="wifi_ipv6_address">IPv6-adress</string> 
+    <string name="mtk_datausage_show_on_lockscreen">Visa på låsskärm</string>
+    <string name="mtk_datausage_update">Uppdatera dataanvändning</string>
+    <string name="mtk_datausage_update_set">"Uppdatera"</string>
+    <string name="mtk_datausage_amount_editor_title">Använd datamängd</string>
+    <string name="mtk_datausage_usage_list">Dataanvändning av program</string>
+    <string name="mtk_datausage_diff_byte">Diff dataanvändning</string>
+    <string name="mtk_datausage_overview_tab">Översikt</string>
+    <string name="mtk_datausage_overview_wifi_today">"Idag"</string>
+    <string name="mtk_datausage_overview_wifi_total">Totalt</string>
+    <string name="mtk_datausage_overview_mobile_title">"Mobil"</string>
+    <string name="mtk_datausage_overview_mobile_usage"><xliff:g id="actual">%s</xliff:g> av <xliff:g id="limit">%s</xliff:g></string>
+    <string name="mtk_datausage_overview_mobile_usage_warning">Out of limit <xliff:g>%s</xliff:g></string>
+    <string name="display_personalize">Personanpassa</string>
+    <string name="display_default">"Skärm"</string>
+    <string name="sound_enhancement_title">Ljudförbättring</string> 
+    <string name="music_plus_summary">Ljudförbättring för hörlurar</string> 
+    <string name="auto_backlight_title">Ekonomisk bakgrundsbelysning</string>
+    <string name="auto_backlight_summary">Anpassar bakgrunden automatiskt för att spara ström</string> 
+    <string name="beam_mgmt_tab_download_title">SS-meddelande för vidarekoppling har tagits emot</string>
+    <string name="beam_mgmt_tab_upload_title">"Nu hämtas information om aktuell status för enheten, som sedan skickas i ett e-postmeddelade. Det tar en liten stund innan felrapporten är färdig och kan skickas, så vi ber dig ha tålamod."</string>
+    <string name="beam_share_mgmt_notification_ticker">Beam-delning historik</string>
+	<string name="beam_share_mgmt_notification_title">Beam-delning historik</string>
+	<string name="beam_share_mgmt_notification_message">"Välj för att visa Beam-delningens historik"</string>
+    <string name="beam_share_mgmt_tab_menu_clear">Rensa all historik</string>
+    <string name="beam_share_open_file_dialog_title">Kan inte öppna filen</string>
+    <string name="beam_share_open_file_unsupported_message">Filformatet stöds inte</string>
+	<string name="beam_share_open_file_not_found_message">"Filen hittades inte: <xliff:g id="file_name">%1$s</xliff:g></string>
+	<string name="beam_share_transfer_fail_dialog_title">"Beam misslyckades"</string>
+	<string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> skickades inte."</string>
+	<string name="beam_share_resend_dialog_ok_button">"Försök igen"</string>
+	<string name="beam_share_show_received_files_menu">"Visa mottagna filer"</string>
+	<string name="beam_share_history_title">Beam-delning historik</string>
+    <string name="beam_share_clear_confirm_dialog_title">Rensa alla</string>
+    <string name="beam_share_clear_confirm_dialog_message">Rensa all historik</string>
+    <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> skickades inte."</string>        
+    <string name="beam_share_clear_item_dailog_title">"Delete"</string>
+    <string name="beam_share_clear_item_dailog_message">Objektet kommer att raderas</string>
+    <string name="nfc_p2p_mode">P2P-läge</string>
+    <string name="nfc_p2p_mode_summary">Skicka eller ta emot programinnehåll</string>
+    <string name="nfc_tag_mode_category">Taggläge</string>
+    <string name="nfc_rw_tag_title">Taggläsning och taggskrivning</string>
+    <string name="nfc_rw_tag_summary">Läs från eller skriv till en tagg</string>
+    <string name="nfc_card_emulation_category_title">Kortemuleringsläge</string>
+    <string name="nfc_card_emulation">Kortemulering</string>
+    <string name="card_emulation_settings_category_title">tillgängliga säkerhetselement</string>
+    <string name="card_emulation_settings_no_element_found">Inga tillgängliga säkerhetselement.</string>
+    <string name="card_emulation_settings_off_text">Aktivera kortemulering för att visa tillgängliga säkerhetselement.</string>
+    <string name="card_emulation_turning_off_text">Inaktiverar kortemulering…</string>
+    <string name="card_emulation_turning_on_text">Aktiverar kortemulering…</string>
+    <string name="card_emulation_switch_error_title">"Fel"</string>
+    <string name="card_emulation_switch_error_message">Kunde inte växla till <xliff:g id="card_mode">%1$s</xliff:g>.</string>
+    <string name="card_emulation_sim_not_supported_message"><xliff:g id="sim_description">%1$s</xliff:g> stöder inte funktionen NFC-kortemulering.</string>
+    <string name="card_emulation_two_sim_not_supported_message">SIM1,SIM2 do not support NFC Card emulation function.</string>
+    <string name="voice_unlock_backup_info_summary">När upplåsning via röst inte känner igen dig, hur vill du låsa upp enheten?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">Röstupplåsning</string>
+    <string name="voice_ui_title">"Röststyrning"</string>
+    <string name="voice_ui_app_category">"För program"</string>
+    <string name="voice_ui_setting_category">"Allmänna inställningar"</string>
+    <string name="voice_ui_language_title">"Språk för röststyrning"</string>
+    <string name="incoming_call_app_name">"Inkommande samtal"</string>
+    <string name="alarm_app_name">"Alarm"</string>
+    <string name="camera_app_name">Möjlighet att växla kamera om aktiverad</string>
+    <string name="music_app_name">"Ritar ljudvågen för spåret som spelas."</string>
+    <string name="incomming_command_summary_format">Du kan säga <xliff:g id="first">%1$s</xliff:g> eller <xliff:g id="second">%2$s</xliff:g> för att svara eller avvisa inkommande samtal.</string>
+    <string name="alarm_command_summary_format">Du kan säga <xliff:g id="first">%1$s</xliff:g> eller <xliff:g id="second">%2$s</xliff:g> för att kontrollera alarmet.</string>
+    <string name="camera_command_summary_format">Du kan säga <xliff:g id="first">%1$s</xliff:g> eller <xliff:g id="second">%2$s</xliff:g> för att fånga in.</string>
+    <string name="music_command_summary_format">Du kan säga <xliff:g id="first">%1$s</xliff:g> och <xliff:g id="second">%2$s</xliff:g> för att kontrollera musikuppspelningen.</string>
+    <string name="lock_screen_notifications_title">Meddelanden på låsskärmen</string>
+    <string name="lock_screen_notifications_summary">Visa meddelanden på låsskärmen</string>
+    <string name="lock_screen_style_title">Låsskärmens stil</string>	
+    <string name="current_suffix">"(Nuvarande)"</string>
+	<string name="lockscreen_style_set">"Ställ in låsskärm"</string>
+	<string name="lockscreen_style_default_desc">"Snabbåtkomst till program på låsskärmen"</string>
+    <string name="security_not_set">Säkerhet har inte ställts in</string>
+    <string name="status_imei_slot3">IMEI (kortplats3)</string>
+    <string name="status_imei_sv_slot3">IMEI SV (kortplats3)</string>
+    <string name="status_min_number_slot3">MIN (kortplats3)</string>
+    <string name="status_prl_version_slot3">PRL-version (kortplats3)</string>
+    <string name="status_meid_number_slot3">MEID (kortplats3)</string>
+    <string name="lockdown_vpn_already_connected">Alltid på för VPN har redan aktiverats vid anslutning.</string> 
+    <string name="wifi_ap_no_connected">0 anslutna användare</string>
+    <string name="wifi_ap_no_blocked">0 blockerade användare</string>
+    <string name="mouse_primary_button_title">Växla primära och sekundära knappar</string>
+    <string name="mouse_primary_button_dialog_title">Växla primär knapp</string>
+    <string name="double_click_title">Hastighet för dubbelklick</string>
+    <string name="test_area">TESTOMRÅDE:</string>
+    <string name="double_click_tip">Dubbelklicka här</string>
+    <string name="apn_port_warning">Portvärdet måste vara 1-65535!</string>
+    <string name="usb_tethering_select_version">Välj PC-systemversion</string>
+    <string name="oobe_sim_info_title">Hantera SIM-kort</string>
+    <string name="oobe_default_sim_title">Ställ in SIM-kort som standard</string>
+    <string name="wfd_change_resolution_menu_title">Ändra upplösning</string>
+    <string name="wifi_hotspot_suspend_optimizations">Optimera Wi-Fi-hotspot</string>
+    <string name="wifi_hotspot_suspend_optimizations_summary">Minimera batterianvändning när Wi-Fi-hotspot är aktiverat</string>
+    <string name="clear_motion_summary">Förstärkare för videoflöde</string>
+    <string name="hotknot_explained_description">Tillåt datautbyte när skärmen vidrör en annan enhet</string>
+    <string name="card_emulation_two_sim_not_supported_message">SIM1, SIM2 stöder inte NFC-kortemulering.</string>
+
+    <string name="passpoint_summary">Anslut automatiskt till passpoint-aktiverade åtkomstpunkter</string>
+    <string name="passpoint_append_summary">(via Passpoint)</string>
+    <string name="passpoint_config_credential_type">Typ av autentiseringsuppgift</string>
+    <string name="passpoint_config_eap_method">"EAP-metod"</string>
+    <string name="passpoint_supported">Stöds</string>
+    <string name="passpoint_username_pw">Användarnamn/lösenord</string>
+    <string name="passpoint_certificate">Certifikat</string>
+
+    <string name="audio_profile_bes_loudness_title">BesLoudness</string>
+    <string name="audio_profile_bes_loudness_summary">Volume booster för högtalare</string>
+</resources>

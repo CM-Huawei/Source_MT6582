@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="gemini_default_sim_always_ask">Spør alltid</string>
+    <string name="gemini_default_sim_auto">"AUTO"</string>
+    
+    <string name="accessibility_phone_four_bars">Telefon fire streker.</string>
+    
+    <string name="sim_switch_tip">Dette SIM-kortet ble satt som standard SIM-kort for <xliff:g>%s</xliff:g>. Hold og dra ned statuslinjen for å endre standard SIM-kort.</string>
+    <string name="remind_next_time">Minn meg på det neste gang</string>
+    <string name="voice_call_service">taleanropstjeneste</string>
+    <string name="messages_service">meldingstjeneste</string>
+    <string name="data_connection_service">datatilkoblingstjeneste</string>
+
+    <string name="plmn_searching">"Søker"</string>
+
+    <string name="wifi">"Wi-Fi"</string>
+    <string name="bluetooth">"Bluetooth"</string>
+    <string name="mobile">Datatilkobling</string>
+    <string name="gps">"GPS"</string>
+    <string name="autorotate">Automatisk rotering</string>
+    <string name="normal">Generelt</string>
+    <string name="meeting">Møte</string>
+    <string name="mute">"Stille"</string>
+    <string name="outdoor">Utendørs</string>
+
+    <string name="offline">"Flymodus"</string>
+    <string name="brightness">"Lysstyrke"</string>
+    <string name="timeout">"Tidsavbrudd"</string>
+
+    <string name="data_connection_attach_timeout_error_msg">"Datatilkoblingen sviktet, eller nettverket er opptatt for tiden."</string>
+    <string name="data_connection_dettach_timeout_error_msg">"Datatilkoblingen kunne ikke fjernes."</string>
+    <string name="data_connection_connected">[<xliff:g>%s</xliff:g>] SIM-kortets datatilkobling er aktivert</string>
+
+    <string name="gemini_intenet_call">Internettanrop</string>  
+    <string name="gemini_default_sim_never">"Av"</string>
+    
+    <string name="gemini_3g_disable_warning">"3G-tjeneste er ikke tilgjengelig med valgt SIM-kort. Dette kan laste data tregere. Du kan endre innstillingen for 3G-tjeneste under Innstillinger &gt; Trådløst og nettverk &gt; Mobile nettverk. Er du sikker på at du vil velge dette SIM-kortet?"</string>
+    <string name="gemini_3g_disable_warning_cu">"3G-tjeneste er ikke tilgjengelig med valgt SIM-kort. Dette kan laste data tregere. Du kan endre innstillingen for 3G-tjeneste under Innstillinger &gt; SIM-kortbehandling. Er du sikker på at du vil velge dette SIM-kortet?"</string>
+    <string name="gemini_3g_disable_warning_case0">"Du må aktivere dataroaming for dette SIM-kortet først. Dette kan være ekstremt dyrt! Er du sikker på at du vil aktivere dataroaming og velge dette SIM-kortet?"</string>
+    <string name="gemini_3g_disable_warning_case1">"3G-tjeneste er ikke tilgjengelig med valgt SIM-kort. Dette kan laste data tregere. Du kan endre innstillingen for 3G-tjeneste under Innstillinger &gt; Trådløst og nettverk &gt; Mobile nettverk. Er du sikker på at du vil velge dette SIM-kortet?"</string>
+    <string name="gemini_3g_disable_warning_case2">"3G-tjeneste er ikke tilgjengelig med valgt SIM-kort. Dette kan laste data tregere. Du kan endre innstillingen for 3G-tjeneste under Innstillinger &gt; SIM-kortbehandling. Er du sikker på at du vil velge dette SIM-kortet?"</string>
+    <string name="gemini_3g_disable_warning_case3">"Du må aktivere dataroaming for dette SIM-kortet først. Dette kan være ekstremt dyrt! Dessuten er ikke 3G-tjeneste ikke tilgjengelig med dette SIM-kortet. Dette kan laste data tregere. Du kan endre innstillingen under Innstillinger &gt; Trådløst og nettverk &gt; Mobile nettverk. Er du sikker på at du vil aktivere dataroaming og velge dette SIM-kortet?"</string>
+    <string name="gemini_3g_disable_warning_case4">"Du må aktivere dataroaming for dette SIM-kortet først. Dette kan være ekstremt dyrt! Dessuten er ikke 3G-tjeneste ikke tilgjengelig med dette SIM-kortet. Dette kan laste data tregere. Du kan endre innstillingen under Innstillinger &gt; SIM-kortbehandling. Er du sikker på at du vil aktivere dataroaming og velge dette SIM-kortet?"</string>
+
+    <string name="confirm_radio_title">SIM-kort slått av</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> er nå slått av. Vil du slå på dette SIM-kortet?</string>
+    <string name="confirm_radio_msg_single">Flymodus er nå slått på. Vil du slå det av?</string>
+    <string name="confirm_radio_lbutton">Slå på</string>
+
+    <string name="builtin_installer_title_message">Innebygd CD-ROM</string>
+    <string name="builtin_installer_dlg_message">Slå på innebygd CD-ROM?</string>
+    <string name="builtin_installer_always_allowed">Ikke vis neste gang</string>
+    <string name="dlg_no">"Nei"</string>
+    <string name="dlg_yes">"Ja"</string>
+
+    <string name="OK">"OK"</string>
+    <string name="application_guide_title">﻿Switch to default SIM card</string>
+    <string name="application_guide_content">Skyv nedover varslingslisten for å bytte til standard SIM-kort</string>
+    
+    <string name="data_usage">"Databruk"</string>
+    <string name="audio_profile">Lydprofiler</string>
+    <string name="user_owner">"Eier"</string>
+
+    <string name="phone_battery_low_subtitle">Telefonbatteriet har lite strøm.</string>
+    <string name="smartbook_battery_low_subtitle">Smartbook-batteriet har lite strøm.</string>
+
+    <string name="apn">TILGANGSPUNKT</string>
+    <string name="sim_management">UIM-/SIM-BEHANDLING</string>
+    <string name="network_selection_settings">Nettverksvalg</string>
+    <string name="quick_settings_roam_data">Dataroaming</string>
+
+    <string name="eco_backlight_title">Økonomisk bakgrunnsbelysning</string>
+    <string name="eco_backlight_summary">Tilpass bakgrunnsbelysningen automatisk for å spare strøm</string> 
+</resources>

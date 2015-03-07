@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_advanced_settings">"Advanced settings"</string>
+    <string name="bluetooth_profile_ftp">"File transfer"</string>
+    <string name="bluetooth_ftp_profile_summary_use_for">Use for file transfer</string>
+    <string name="bluetooth_ftp_profile_summary_connected">"Connected to file transfer"</string>
+    <string name="mtp_transfer_unmount_error_text">SD card cannot be unmounted during file transfer.</string>
+    <string name="mtp_transfer_erase_error_text">SD card cannot be erased during file transferring</string>    
+    <string name="launch_error">"Could not launch the application!"</string>
+    <string name="dlg_confirm_unmount_usb_title" product="default">Unmount USB storage?</string>
+    <string name="dlg_confirm_unmount_usb_text" product="default">If USB storage is unmounted, some apps being used will stop and may be unavailable until USB storage is remounted.</string>
+    <string name="dlg_error_unmount_usb_title" product="default"/>
+    <string name="dlg_error_unmount_usb_text" product="default">"Cannot unmount USB storage. Try again later."</string>   
+    <string name="unmount_usb_inform_text" product="default">USB storage will be unmounted.</string>
+    <string name="sd_eject_usbstorage" product="default">"Unmount USB storage"</string>
+    <string name="sd_eject_usbstorage_summary" product="default">Unmount USB storage so it can be removed safely.</string>
+    <string name="sd_mount_usbstorage" product="default">"Mount USB storage"</string>
+    <string name="sd_insert_usb_summary" product="default">"Insert USB storage for mounting"</string>
+    <string name="usb_ums_title">"USB storage"</string>
+    <string name="usb_ums_summary">"XP recommended. Allows transfer of files between the computer and an Android device."</string>
+    <string name="usb_charge_title">Charge only</string>
+    <string name="usb_charge_summary">Stop all USB functions. Speeds up USB charging and decreases power consumption.</string>
+    <string name="NI_Request_ID">Requestor ID</string>
+    <string name="NI_Request_ClientName">Client Name</string>
+    <string name="agps_str_verify">Verification</string>
+    <string name="agps_str_notify">Notification</string>
+    <string name="agps_OK">"OK"</string>
+    <string name="agps_str_allow">"Allow"</string>
+    <string name="agps_str_deny">"Deny"</string>
+    <string name="AGPS_DEFAULT_STRING">A-GPS Default String</string>
+    <string name="AGPS_NOTIFY_ONLY">Location Request Notification</string>
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">Location Request (Allow if no Answer)</string>
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">Location Request (Deny if no Answer)</string>
+    <string name="AGPS_NOTIFY_PRIVACY">Location Request (Privacy)</string>    
+    <string name="ring_summary">Ring</string>
+    <string name="ring_vibrate_summary">Ring and vibrate</string>
+    <string name="silent_summary">Silent only</string>
+    <string name="meeting_summary">Vibrate only</string>
+    <string name="outdoor_summary">Loudest ring and vibrate</string>
+    <string name="audio_profile_reset">"Reset"</string>
+    <string name="audio_profile_add">"Add"</string>
+    <string name="audio_profile_enable">"Enable"</string>
+    <string name="audio_profile_rename">"RENAME"</string>
+    <string name="audio_profile_delete">"Delete"</string>
+    <string name="audio_profile_message_reset">All the audio profile settings will be reset to the default</string>
+    <string name="audio_profile_message_rename">Please input the new profile name</string>
+    <string name="audio_profile_message_name_error">That name already exists</string>  
+    <string name="audio_profile_message_name_length_wrong">Name must consist of at least one character</string>
+    <string name="audio_profile_message_delete">Profile <xliff:g id="profile">%s</xliff:g> will be deleted</string>
+    <string name="audio_profile_message_overflow">Only 6 custom profiles are allowed</string>
+    <string name="ok">"OK"</string>
+    <string name="audio_profile_category_custom_title">User defined profiles</string>
+    <string name="audio_profile_category_predefine_title">Predefined profiles</string>
+    <string name="general_settings_title">"General"</string>
+    <string name="silent_settings_title">"Silent"</string>
+    <string name="meeting_settings_title">Meeting</string>
+    <string name="outdoor_settings_title">Outdoor</string>
+    <string name="apn_predefine_change_dialog_notice">Are you sure? Modifications to default APNs may cause connection problems!"</string>    
+    <string name="sound_category_feedback_title">"System"</string>
+    <string name="sound_category_calls_title">Incoming calls</string>
+    <string name="voice_call_title">Voice call ringtone</string>
+    <string name="voice_call_summary">"Set your default voice call ringtone"</string>
+    <string name="video_call_title">Video call ringtone</string>
+    <string name="video_call_summary">Set your default video call ringtone</string>
+    <string name="sip_call_title">SIP call ringtone</string>
+    <string name="sip_call_summary">Set your default SIP call ringtone</string>
+    <string name="Phone_vibrate_summary">Vibrate devices for incoming calls</string>
+    <string name="vibrate_title">"Vibrate"</string>
+    <string name="audio_profile_settings_title">Audio profiles</string>
+    <string name="sim_status_title">SIM status</string>
+    <string name="sim_status_summary">SIM related information</string>
+    <string name="status_imei_slot1">IMEI (Slot1)</string>
+    <string name="status_imei_sv_slot1">IMEI SV (Slot1)</string>
+    <string name="status_imei_slot2">IMEI (Slot2)</string>
+    <string name="status_imei_sv_slot2">IMEI SV (Slot2)</string>
+    <string name="status_min_number_slot1">MIN (Slot1)</string>
+    <string name="status_prl_version_slot1">PRL Version (Slot1)</string>
+    <string name="status_meid_number_slot1">MEID (Slot1)</string>
+    <string name="status_min_number_slot2">MIN (Slot2)</string>
+    <string name="status_prl_version_slot2">PRL Version (Slot2)</string>
+    <string name="status_meid_number_slot2">MEID (Slot2)</string>
+    <string name="slot_status_title">"IMEI information"</string>
+    <string name="slot_status_summary">"IMEI relative information"</string> 
+    <string name="custom_build_version">Custom built version</string>
+    <string name="software_update">Software update service</string>
+    <string name="mota_system_update_summary">"Check system update on server"</string>
+    <string name="software_updates_more_title">Software updates</string>
+    <string name="software_updates_more_summary">Check for new software version</string>
+    <string name="software_updates_scomo_summary">Check for new application version</string>
+    <string name="scomo_settings_title">Software update service</string>
+    <string name="screen_timeout_CU">Screen timeout</string>
+    <string name="landscape_launcher_title">Landscape Launcher</string>
+    <string name="landscape_launcher_none">"None"</string>
+    <string name="tvout_settings">TV out</string>
+    <string name="tvout_settings_summary">TV out settings</string>
+    <string name="tv_system_title">TV system</string>
+    <string name="hdmi_settings">HDMI settings</string>
+    <string name="hdmi_settings_summary">Click to configure HDMI</string>
+    <string name="hdmi_audio_toggler">Audio</string>
+    <string name="hdmi_video_toggler">"Video"</string>
+    <string name="hdmi_video_resolution">Video resolution</string>
+    <string name="hdmi_auto">"auto"</string>
+    <string name="display_settings_scences_title">Scenes</string>
+    <string name="mtk_thememanager_title">Theme</string>
+    <string name="default_name">"Default"</string>
+    <string name="custom_theme_name">New [%1$s]</string>
+    <string name="loading">Loading...</string>
+    <string name="sim_enter_pin_hints">(Input 4-8 digits)</string>
+    <string name="sim_remain">(Remains:<xliff:g id="remains">%d</xliff:g>)</string>  
+    <string name="gps_time_sync_attention_gps_on">It will take one minute at the most to obtain a GPS fix. However, GPS may not give the correct time if the local signal is weak.\n\nAre you sure you want to use GPS provided time?</string>
+    <string name="gps_time_sync_attention_gps_off">To use GPS provided time, you must first enable GPS. It will take one minute at the most to obtain a GPS fix. However, GPS may not give the correct time if the local signal is weak for any reason.\n\nAre you sure you want to enable GPS and wait for GPS time?</string>
+    <string name="drm_settings_title">DRM reset</string>
+    <string name="drm_settings_summary">Deletes all DRM licences</string>
+    <string name="drm_reset_dialog_msg">This operation will delete all the licences on this device. Continue?</string>
+    <string name="drm_reset_toast_msg">Licences have been deleted successfully.</string>
+    <string name="gemini_sim_management_title">SIM management</string>
+    <string name="gemini_sim_info_title">SIM INFORMATION</string>  
+    <string name="gemini_default_sim_title">"default settings"</string>  
+    <string name="gemini_general_settings_title">"General settings"</string>
+    <string name="gemini_roaming_settings_title">"Roaming"</string>    
+    <string name="gemini_data_roaming_title">"Data roaming"</string>  
+    <string name="gemini_data_roaming_summary">Connect to data services when roaming</string>  
+    <string name="gemini_roaming_reminder_title">Show roaming reminder</string>  
+    <string name="gemini_roaming_reminder_summary">Show SIM suggestion based on SIM usage</string>      
+    <string name="gemini_contacts_sim_title">"Contact binding"</string>      
+    <string name="gemini_contacts_sim_summary">Bind contacts to a specific SIM card</string> 
+    <string name="gemini_voice_call">Voice call</string>        
+    <string name="gemini_video_call">Video call</string>   
+    <string name="gemini_data_connection">Data connection</string>   
+    <string name="gemini_msg">Messaging</string>       
+    <string name="gemini_default_sim_always_ask">Always ask</string>    
+    <string name="gemini_intenet_call">Internet Call</string>    
+    <string name="gemini_default_sim_never">"off"</string>       
+    <string name="gemini_default_sim_3g_off">"off"</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Network Mode</string>
+    <string name="gemini_gsm_umts_network_preferneces_summary">Not implemented yet!</string>
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">Network Mode</string>
+    <string name="gemini_3g_service_settings">3G service</string>
+    <string name="gemini_sim_mode_progress_activating_message">Activating\u2026</string>
+    <string name="gemini_sim_mode_progress_deactivating_message">Deactivating\u2026</string>
+    <string name="gemini_sim_mode_change_failed_message">Failed, network error.</string>
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">"Aeroplane mode"</string>
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">Phone will enter Airplane mode. All wireless connections will be disabled. Continue?</string>
+    <string name="gemini_sim_info_editor_name">Edit SIM name</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Save failed</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Duplicate name for SIM card</string>  
+    <string name="gemini_sim_info_editor_number">Enter phone number</string>  
+    <string name="gemini_sim_info_editor_color">Set background colour</string> 
+    <string name="gemini_sim_info_editor_number_display_format">Display numbers</string>    
+    <string name="gemini_no_sim_indicator">"No SIM card"</string>     
+    <string name="gemini_sim_list_default_title">SIM cards list</string>       
+    <string name="gemini_data_connection_progress_message">"Switching SIM will take about 10 seconds. Please wait..."</string>
+    <string name="gemini_3g_modem_switching_message">"Switching SIM will take about 10 seconds. Please wait..."</string>
+    <string name="gemini_3g_modem_switch_confirm_message">"This will also switch 3G service to this SIM. Continue? Please make sure selected SIM supports 3G service."</string>
+    <string name="gemini_3g_disable_warning">"The selected SIM does not support 3G service. This may make data loading slower. You can change the 3G service setting under Settings &gt; Wireless &amp; networks &gt; Mobile networks."</string>
+    <string name="gemini_3g_disable_warning_cu">"The selected SIM does not support 3G service. This may make data loading slower. You can change the 3G service setting under Settings &gt; SIM management."</string>
+    <string name="gemini_wap_push_permission_head">Pushed messages can be received, local applications will run and data can be tranferred if the Auto-push service is enabled. The usual auto-push services include email notification, device management, service indication, service loading and provisioning push.</string>      
+    <string name="gemini_wap_push_permission_tail">Accept this agreement?</string>  
+    <string name="gemini_wap_push_permission_title">Auto-push service agreement</string>   
+    <string name="gemini_wap_push_permission">Auto-push service</string>   
+    <string name="gemini_3g_disable_warning_case0">"You must first enable data roaming (for this SIM) and this may incur significant roaming charges! Are you sure you want to enable and select data roaming for this SIM?"</string>
+    <string name="gemini_3g_disable_warning_case1">"The selected SIM does not support 3G service. This may make data loading slower. You can change the 3G service setting under Settings &gt; Wireless &amp; networks &gt; Mobile networks. Are you sure you want to select this SIM?"</string>
+    <string name="gemini_3g_disable_warning_case2">"The selected SIM does not support 3G service. This may cause data to load slower. You can change the 3G service setting under Settings &gt; SIM management. Are you sure you want to select this SIM?"</string>
+    <string name="gemini_3g_disable_warning_case3">"You must first enable data roaming for this SIM. This may incur significant roaming charges! However, 3G service is not available with this SIM. This may cause data to load slower. You can change this under Settings &gt; Wireless &amp; networks &gt; Mobile networks. Are you sure you want to enable and select data roaming for this SIM?"</string>
+    <string name="gemini_3g_disable_warning_case4">"You must first enable data roaming for this SIM. This may incur significant roaming charges! However, 3G service is not available with this SIM. This may cause data to load slower. You can change this under Settings &gt; SIM management. Are you sure you want to enable and select data roaming for this SIM?"</string>
+    <string name="gemini_sim_tether_info_title">Contacts &amp; SIM</string>
+	<string name="gemini_sim_tether_add_record">Add Contacts</string>
+    <string name="gemini_sim_add_title">"Contacts"</string>
+    <string name="gemini_sim_tether_norecord">"There are no contact numbers associated with the current SIM.\n\nTouch the Add contacts button to select the contacts you want to bind to this SIM"</string>
+    <string name="gemini_sim_tether_nocontacts">"No available contacts on your phone. Please add new contacts or import contacts first"</string>
+    <string name="gemini_sim_tether_no_assc_contacts">"Contacts all bound successfully"</string>
+    <string name="gemini_sim_tether_disassociate">Disassociate</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> selected</string>
+    <string name="gemini_sim_tether_unselect_all">Unselect all</string>
+    <string name="gemini_sim_tether_nocontact_confirm">"OK"</string>
+    <string name="gemini_sim_tether_select_all">"Select all"</string>
+    <string name="gemini_sim_tether_select_ok">"Save"</string>
+    <string name="gemini_sim_tether_select_cancel">"Cancel"</string>
+    <string name="gemini_sim_tether_revert_title">"Attention"</string>
+    <string name="gemini_sim_tether_revert_message">Your configurations were changed but have not been saved. Are you sure you want to leave without saving?</string>
+    <string name="gemini_tether_saving_progress_message">Saving...</string>
+    <string name="gemini_sim_lock_sim1_tab_tag">SIM1</string>
+    <string name="gemini_sim_lock_sim1_tab_label">SIM1</string>
+    <string name="gemini_sim_lock_sim2_tab_tag">SIM2</string>
+    <string name="gemini_sim_lock_sim2_tab_label">SIM2</string>
+    <string name="gemini_sim_lock_simid_error">Failed, invalid sim id.</string>
+    <string name="gemini_sim_lock_no_insert_message_sim">SIM is not plugged in.</string>
+    <string name="gemini_sim_lock_radio_off_message_sim1">Radio1 is off.</string>
+    <string name="gemini_sim_lock_radio_off_message_sim2">Radio2 is off.</string>
+    <string name="akp_installer_settings_title">APK installer</string>
+    <string name="akp_installer_settings_summary">Install your APK from Phone storage and SD card</string>
+    <string name="launch_main_label">Launch application</string>
+    <string name="launch_main">Launch the application by main activity</string>
+    <string name="launch_activitie">Launch</string>
+    <string name="move_app_to_where">Move to <xliff:g id="location">%s</xliff:g></string>
+    <string name="wifi_no_cert_for_wapi">Could not find certification for current connecting AP</string>
+    <string name="sim_slot">SIM Slot</string>
+    <string name="eap_sim_slot_0">Sim Slot 1</string>
+    <string name="eap_sim_slot_1">Sim Slot 2</string>
+    <string name="eap_sim_aka_airplanemode">Please turn off Airplane mode to use EAP-SIM/AKA</string>
+    <string name="eap_sim_aka_no_sim_error">You must insert a SIM card to use EAP-SIM/AKA</string>	
+    <string name="eap_sim_aka_no_sim_slot_selected">You must select a SIM slot to use EAP-SIM/AKA</string>
+    <string name="wifi_security_wapi_certificate">WAPI Certificate</string>
+    <string name="wapi_user_certificate">"User certificate"</string>
+    <string name="wapi_as_certificate">ASE certificate</string>   
+    <string name="wifi_hex_password">Hexadecimal password.</string>
+    <string name="wifi_WEP_transmit_key">Transmit Key</string>
+    <string name="wifi_WEP_secury_key">Security Key</string>
+    <string name="wifi_tether_auto_disable_title">Keep Wi-Fi hotspot on</string>
+    <string name="wifi_tether_auto_channel_text">"auto"</string>
+    <string name="wifi_tether_auto_channel_width_text">Auto 20/40 MHz</string>
+    <string name="wifi_channel">Preferred Channel</string>
+    <string name="wifi_channel_width">Channel Width</string>
+    <string name="pch_toggle_title">GPRS transfer prefer mode</string>
+    <string name="pch_data_prefer_summary_off">Data prefer</string>
+    <string name="pch_call_prefer_summary_on">Call prefer</string>
+    <string name="pch_warning_message">Data transmission rate will degrade.</string> 
+    <string name="schedule_power_on_off_settings_title">Scheduled power on &amp; off</string>
+    <string name="usb_bicr_title">Built-in CD-ROM</string>
+    <string name="usb_bicr_summary">Show a virtual CD-ROM containing some useful software.</string>
+    <string name="select_memory">Default write disk</string>
+    <string name="ipo_title">Quick boot</string>
+    <string name="ipo_summary_on">Disable quick boot</string>
+    <string name="ipo_summary_off">Enable quick boot</string>
+    <string name="agps_profile_select_Title">SUPL Profile</string>
+    <string name="location_settings_label">Location Engineer Mode</string>
+    <string name="audio_profile_error">"Error"</string>  
+    <string name="battery_percent">Battery Percentage</string>
+    <string name="rcse_settings_title">Joyn settings</string>
+    <string name="MobileNetwork_SIM1_Active">SIM1 is Active</string>
+    <string name="MobileNetwork_SIM2_Active">SIM2 is Active</string>
+    <string name="dlg_mount_external_sd_title" product="default">Mount SD card?</string>
+    <string name="dlg_mount_external_sd_summary" product="default">If you mount the SD card, some apps you are using will stop.</string>
+    <string name="tethered_ipv6_title">Hotspot &amp; tethering settings</string>
+    <string name="tethered_ipv4v6">(IPv6 available)</string>
+    <string name="tethered_ipv6">(Only IPv6 available)</string>
+    <string name="tethered_ipv4">(IPv6 unavailable)</string>
+    <string name="tethering_apn_settings_title">APN settings</string>
+    <string name="tethering_apn_settings_summary">Configure APN for tethering</string> 
+    <string name="usb_tether_type_title">USB tethering type</string> 
+    <string name="usb_connect_as_cdrom_category">"Connect as CD-ROM"</string>
+    <string name="wifi_tether_setting_title">Basic settings</string>
+    <string name="wifi_tether_wps_connect_title">WPS connect</string>
+    <string name="wifi_tether_wps_connect_summary">Select Wi-Fi protected setup mode to proceed</string>
+    <string name="wifi_tether_wps_pin_error">Invalid PIN</string>
+    <string name="wifi_tethering_title">Wi-Fi hotspot</string>
+    <string name="wifi_ap_wps_dialog_title">WPS connect</string>
+    <string name="wifi_ap_wps_mode_title">WPS mode</string>
+    <string name="wifi_ap_wps_pin_title">Type PIN from client</string>
+    <string name="wifi_ap_reset_OOB_title">Reset network SSID, security and password to default (out-of-the-box configuration for WPS)</string>
+    <string name="wifi_ap_reset_OOB">Reset OOB</string>
+    <string name="wifi_ap_max_connection_title">Maximum connections</string>
+    <string name="wifi_ap_connected_title">Connected users</string>
+    <string name="wifi_ap_blocked_title">Blocked users</string>
+    <string name="wifi_ap_client_block_title">Block</string>
+    <string name="wifi_ap_client_unblock_title">Unblock</string>
+    <string name="wifi_ap_client_details_title">Details</string>
+    <string name="wifi_ap_client_mac_label">MAC address:</string>
+    <string name="wifi_ap_client_ip_label">IP address:</string>
+    <string name="usb_sharing_title">USB Internet</string>
+    <string name="usb_sharing_summary">Sharing Windows PC Internet via USB cable</string>
+    <string name="usb_sharing_info_title">Internet pass-through</string>
+    <string name="usb_sharing_info_step_1">"1. Open network connections on your Windows PC."</string>
+    <string name="usb_sharing_info_step_2">"2. Right-click the connection that you want to share, and then click properties."</string>
+    <string name="usb_sharing_info_step_3">"3. Click the sharing tab, and select 'Allow other network users to connect through this computer's Internet connection'(choose newly added network which represents USB Internet if 'Home networking connection' appears)."</string>
+    <string name="wifi_ap_bandwidth_title">Bandwidth usage</string>
+    <string name="wifi_ap_bandwidth_enable">Enable bandwidth throttling</string>
+    <string name="wifi_ap_bandwidth_chart_title">Real-time data speed</string>
+    <string name="wifi_ap_bandwidth_chart_summary">The data speed measured by your phone may differ from that displayed by the carrier.</string>
+    <string name="wifi_wps_fail_error">Wi-Fi protected setup failed, try again.</string>
+    <string name="wifi_ap_title">Statistics</string>
+    <string name="wifi_ap_time_duration">Duration time:<xliff:g id="time">%1$s</xliff:g></string>
+    <string name="wifi_ap_total_data">Used data total:<xliff:g id="time">%1$s</xliff:g></string>
+    <string name="wifi_ap_bandwidth_megabyteShort">MB/s</string>
+    <string name="wifi_ap_bandwidth_KbyteShort">KB/s</string>
+    <string name="cpu_dtm_title">CPU power saving mode</string>
+    <string name="cpu_dtm_summary">Limit maximum CPU performance to increase battery life and lower device temperature.</string>      
+    <string name="wifi_advanced_ipv4_address_title">IPv4 address</string>
+    <string name="wifi_advanced_ipv6_address_title">IPv6 address</string>
+    <string name="wifi_ipv4_address">IPv4 address</string>
+    <string name="wifi_ipv6_address">IPv6 address</string> 
+    <string name="mtk_datausage_show_on_lockscreen">Show on lockscreen</string>
+    <string name="mtk_datausage_update">Update data usage</string>
+    <string name="mtk_datausage_update_set">"Update"</string>
+    <string name="mtk_datausage_amount_editor_title">Amount of data used</string>
+    <string name="mtk_datausage_usage_list">Data usage by app</string>
+    <string name="mtk_datausage_diff_byte">Data Usage Diff</string>
+    <string name="mtk_datausage_overview_tab">Overview</string>
+    <string name="mtk_datausage_overview_wifi_today">"Today"</string>
+    <string name="mtk_datausage_overview_wifi_total">Total</string>
+    <string name="mtk_datausage_overview_mobile_title">"Mobile"</string>
+    <string name="mtk_datausage_overview_mobile_usage"><xliff:g id="actual">%s</xliff:g> out of <xliff:g id="limit">%s</xliff:g></string>
+    <string name="mtk_datausage_overview_mobile_usage_warning">Out of limit <xliff:g>%s</xliff:g></string>
+    <string name="display_personalize">Personalize</string>
+    <string name="display_default">"Display"</string>
+    <string name="sound_enhancement_title">Sound enhancement</string> 
+    <string name="music_plus_summary">Audio enhancer for earphone</string> 
+    <string name="auto_backlight_title">Economical backlight</string>
+    <string name="auto_backlight_summary">Automatically adjust backlight to save power</string> 
+    <string name="beam_mgmt_tab_download_title">Forward check SS message received</string>
+    <string name="beam_mgmt_tab_upload_title">"This will collect information about your current device state, to send as an email message. It will take a little time from starting the bug report until it is ready to be sent. Please be patient."</string>
+    <string name="beam_share_mgmt_notification_ticker">Beam share history</string>
+	<string name="beam_share_mgmt_notification_title">Beam share history</string>
+	<string name="beam_share_mgmt_notification_message">"Select to view Beam share history."</string>
+    <string name="beam_share_mgmt_tab_menu_clear">Clear all history?</string>
+    <string name="beam_share_open_file_dialog_title">Cannot open file</string>
+    <string name="beam_share_open_file_unsupported_message">File format is not supported.</string>
+	<string name="beam_share_open_file_not_found_message">"File not found: <xliff:g id="file_name">%1$s</xliff:g></string>
+	<string name="beam_share_transfer_fail_dialog_title">"Beam failed"</string>
+	<string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> was not sent successfully."</string>
+	<string name="beam_share_resend_dialog_ok_button">"Try again"</string>
+	<string name="beam_share_show_received_files_menu">"Show files received"</string>
+	<string name="beam_share_history_title">Beam share history</string>
+    <string name="beam_share_clear_confirm_dialog_title">Clear all</string>
+    <string name="beam_share_clear_confirm_dialog_message">Clear all history?</string>
+    <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> was not received successfully."</string>        
+    <string name="beam_share_clear_item_dailog_title">"Delete"</string>
+    <string name="beam_share_clear_item_dailog_message">The item will be deleted.</string>
+    <string name="nfc_p2p_mode">P2P mode</string>
+    <string name="nfc_p2p_mode_summary">Send or receive App content</string>
+    <string name="nfc_tag_mode_category">Tag mode</string>
+    <string name="nfc_rw_tag_title">Tag reading  &amp; writing</string>
+    <string name="nfc_rw_tag_summary">Read from or write to a tag</string>
+    <string name="nfc_card_emulation_category_title">card emulation mode</string>
+    <string name="nfc_card_emulation">Card emulation</string>
+    <string name="card_emulation_settings_category_title">available security element</string>
+    <string name="card_emulation_settings_no_element_found">No available security element.</string>
+    <string name="card_emulation_settings_off_text">To see available security elements, turn Card emulation on.</string>
+    <string name="card_emulation_turning_off_text">Turning Card emulation off...</string>
+    <string name="card_emulation_turning_on_text">Turning Card emulation on...</string>
+    <string name="card_emulation_switch_error_title">"Error"</string>
+    <string name="card_emulation_switch_error_message">Failed to switch to <xliff:g id="card_mode">%1$s</xliff:g>.</string>
+    <string name="card_emulation_sim_not_supported_message"><xliff:g id="sim_description">%1$s</xliff:g> does not support NFC Card emulation function.</string>
+    <string name="card_emulation_two_sim_not_supported_message">SIM1,SIM2 do not support NFC Card emulation function.</string>
+    <string name="voice_unlock_backup_info_summary">How do you want to unlock, when Voice Unlock does not recognize you?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">Voice Unlock</string>
+    <string name="voice_ui_title">"Voice Control"</string>
+    <string name="voice_ui_app_category">"For apps"</string>
+    <string name="voice_ui_setting_category">"General settings"</string>
+    <string name="voice_ui_language_title">"Language for Voice Control"</string>
+    <string name="incoming_call_app_name">"Incoming call"</string>
+    <string name="alarm_app_name">"Alarms"</string>
+    <string name="camera_app_name">Turn on to allow switching cameras</string>
+    <string name="music_app_name">"Draws the soundwave of any music track currently playing."</string>
+    <string name="incomming_command_summary_format">You can say <xliff:g id="first">%1$s</xliff:g> or <xliff:g id="second">%2$s</xliff:g> to answer or reject incoming calls.</string>
+    <string name="alarm_command_summary_format">You can say <xliff:g id="first">%1$s</xliff:g> or <xliff:g id="second">%2$s</xliff:g> to control the alarm.</string>
+    <string name="camera_command_summary_format">You can say <xliff:g id="first">%1$s</xliff:g> or <xliff:g id="second">%2$s</xliff:g> to capture.</string>
+    <string name="music_command_summary_format">You can say <xliff:g id="first">%1$s</xliff:g> and <xliff:g id="second">%2$s</xliff:g> to control music playing.</string>
+    <string name="lock_screen_notifications_title">Lock screen notifications</string>
+    <string name="lock_screen_notifications_summary">Show notifications on lock screen</string>
+    <string name="lock_screen_style_title">Lock screen style</string>	
+    <string name="current_suffix">"(Current)"</string>
+	<string name="lockscreen_style_set">"Set lock screen"</string>
+	<string name="lockscreen_style_default_desc">"Quick access to applications in lock screen"</string>
+    <string name="security_not_set">Security is not set</string>
+    <string name="status_imei_slot3">IMEI (Slot3)</string>
+    <string name="status_imei_sv_slot3">IMEI SV (Slot3)</string>
+    <string name="status_min_number_slot3">MIN (Slot3)</string>
+    <string name="status_prl_version_slot3">PRL Version (Slot3)</string>
+    <string name="status_meid_number_slot3">MEID (Slot3)</string>
+    <string name="lockdown_vpn_already_connected">Always on VPN has already been enabled for this connection.</string> 
+    <string name="wifi_ap_no_connected">0 connected user</string>
+    <string name="wifi_ap_no_blocked">0 blocked user</string>
+    <string name="mouse_primary_button_title">Switch primary and secondary buttons</string>
+    <string name="mouse_primary_button_dialog_title">Switch primary button</string>
+    <string name="double_click_title">Double-click speed</string>
+    <string name="test_area">TEST AREA:</string>
+    <string name="double_click_tip">Double click here</string>
+    <string name="apn_port_warning">The port value must be 1 - 65535!</string>
+    <string name="usb_tethering_select_version">Select PC system version</string>
+    <string name="oobe_sim_info_title">Manage SIM</string>
+    <string name="oobe_default_sim_title">Set default SIM</string>
+    <string name="wfd_change_resolution_menu_title">Change resolution</string>
+    <string name="wifi_hotspot_suspend_optimizations">Wi-Fi hotspot optimization</string>
+    <string name="wifi_hotspot_suspend_optimizations_summary">Minimize battery usage when Wi-Fi hotspot is on</string>
+    <string name="clear_motion_summary">Video fluency enhancer</string>
+
+    <string name="passpoint_summary">Auto connect to passpoint-enabled APs</string>
+    <string name="passpoint_append_summary">(via Passpoint)</string>
+    <string name="passpoint_config_credential_type">Credential type</string>
+    <string name="passpoint_config_eap_method">"EAP method"</string>
+    <string name="passpoint_supported">Supported</string>
+    <string name="passpoint_username_pw">Username/Password</string>
+    <string name="passpoint_certificate">Certificate</string>
+
+    <string name="audio_profile_bes_loudness_title">BesLoudness</string>
+    <string name="audio_profile_bes_loudness_summary">Volume booster for speaker</string>
+</resources>

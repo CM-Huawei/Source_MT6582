@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="mtk_notification_string">تفصیلی ترتیبات دیکھنے کیلئے چھوئیں</string>
+    <string name="mtk_beam_cancel_title">منتقلی منسوخ کریں</string>    
+    <string name="mtk_beam_cancel">کیا آپ واقعی اس آرہی منتقلی کو منسوخ کرنا چاہتے ہیں؟</string>
+    <string name="mtk_yes">"ہاں"</string>
+    <string name="mtk_no">نہیں</string>
+    <string name="mtk_se_sim1">SIM1</string>
+    <string name="mtk_se_sim2">SIM2</string>
+    <string name="mtk_se_ssd">اسمارٹ SD کارڈ</string>
+    <string name="mtk_se_ese">سرایت کردہ SE</string>
+    <string name="mtk_se_na">"کوئی حفاظتی عناصر دستیاب نہیں ہیں۔ NFC کارڈ ایمولیشن بند ہوجائے گا۔"</string>
+    <string name="mtk_se_alt">" دستیاب نہیں ہے۔ کیا آپ اس میں تبدیل کرنا چاہتے ہیں "</string>
+    <string name="mtk_nfc_card_emulation">NFC کارڈ ایمولیشن</string>
+    
+<string name="mtk_disallow_in_wfd">وائرلیس ڈسپلے کے دوران یہ عمل انجام نہیں دیا جاسکتا</string>
+    <string name="mtk_disallow_in_wfd_KK">کاسٹ اسکرین کے دوران یہ عمل انجام نہیں دیا جاسکتا</string>
+    </resources>

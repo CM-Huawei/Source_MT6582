@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Clock -->
+    <string name="keyguard_domestic_zone_name">"베이징"</string>
+    <!-- GlowPadView -->
+    <!-- PowerOffAlarm -->
+    <string name="every_day">매일</string>
+    <string name="never">사용 안 함</string>
+    <string name="day_concat">", "</string>
+    <string name="default_label">알람</string>
+    <string name="voiceui_notify_string">알람 전원 끄기를 제어하려면</string>
+    <string name="voiceui_control_poweroff_alarm">말하십시오.</string>
+    <string name="voiceui_or">또는</string>
+    <string name="keyguard_accessibility_alarm_unlock">알람 전원 끄기</string>
+    <string name="alarm_alert_dismiss_text">무시</string>
+    <string name="alarm_alert_snooze_text">스누즈</string>
+    <!-- Telephony -->
+    <string name="keyguard_password_entering_puk_code">PUK 코드 입력</string>
+    <string name="keyguard_password_wrong_puk_code">잘못된 PUK 코드</string>
+    <string name="invalidPuk">8 자릿수를 입력하십시오.</string>
+    <string name="pin_pass">수락된 코드</string>
+    <string name="keyguard_password_enter_new_pin_code">새 PIN 입력</string>
+    <string name="keyguard_password_Confirm_pin_code">새 PIN 확인</string>
+    <string name="sim_permanently_locked">잘못된 PUK 코드를 10회 이상 입력하면, SIM 카드가 영구적으로 잠가집니다.</string>
+    <string name="retries_left">남은 횟수: 
+        <xliff:g id="number">%d</xliff:g> 
+    </string>
+    <string name="simlock_slot_locked_message">슬롯이 영구적으로 잠가졌습니다.</string>
+    <string name="simlock_entersimmelock">"SIM ME 잠금 입력"</string>
+    <string name="slot_id">슬롯 <xliff:g id="number">%d</xliff:g>:</string>
+    <string name="new_simcard">새 SIM 카드</string>
+    <string name="lockscreen_missing_sim_dialog_message">"SIM 카드가 분리되었습니다. SIM 카드가 제대로 연결되었는지 확인하십시오."</string>
+    <string name="puk_pass">차단되지 않은 PIN</string>
+    <string name="sim_card_changed_dialog_title">SIM 카드가 변경되었습니다</string>
+    <string name="change_setting_for_onenewsim">새 SIM 카드가 감지되었습니다. 라벨을 다음과 같습니다</string>
+    <string name="change_setting_for_twonewsim">새 SIM 카드가 감지되었습니다. 라벨을 다음과 같습니다</string>
+    <string name="sim_card_removed">SIM 카드가 제거되었습니다.</string>
+    <string name="sim_card_swapped">SIM 카드가 교체되었습니다.</string>
+    <string name="change_settings">변경</string>
+    <string name="keyguard_voice_call">음성 통화:</string>
+    <string name="keyguard_sms">메시징:</string>
+    <string name="keyguard_data">데이터 연결:</string>
+    <string name="dismiss">무시</string>
+    <string name="keyguard_wrong_code_input">잘못된 코드.</string>
+    <string name="keyguard_code_length_prompt">4-8 자릿수를 입력하십시오.</string>
+    <string name="keyguard_code_donnot_mismatch">일치하지 않습니다.</string>
+    <string name="network_searching">새 네트워크 검색</string>
+    <string name="searching_simcard">검색하는 중…</string>
+    <string name="keyguard_close">닫기</string>
+    <string name="default_sim_setting_prompt">기본 SIM 설정:</string>
+    <string name="keyguard_video_call">화상 통화:</string>
+    <string name="invalid_sim_title">잘못된 SIM 카드</string>
+    <string name="invalid_sim_message">UIM/SIM 카드가 인식되지 않았습니다</string>
+    <string name="lockscreen_sim_locked_message_short">SIM 카드가 잠가짐</string>
+    <!-- UnreadEvent -->
+    <!-- Utils -->
+    <string name="keyguard_alwaysask">항상 묻기</string>
+    <string name="keyguard_data_none">끄기</string>
+    <string name="keyguard_sim_auto">"자동"</string>
+    <string name="keyguard_internal_call">내부 통화</string>
+    <string name="keyguard_not_set">설정되지 않음</string>
+    <!-- VoiceUnlock -->
+    <string name="voice_unlock_service_error">음성 잠금해제 서비스 오류.</string>
+    <string name="voice_unlock_password_wrong">죄송합니다. 음성을 인식할 수 없습니다.</string>
+    <string name="voice_unlock_noisy">너무 시끄러워 음성이 잘 들리지 않습니다.</string>
+    <string name="voice_unlock_weak">음성을 들을 수 없습니다.</string>
+    <string name="voice_unlock_media_playing">미디어 재생 중 음성 잠금해제가 비활성화됩니다.</string>
+    <string name="voiceunlock_multiple_failures">최대 음성 잠금해제 시도가 초과되었습니다.</string>
+    <!-- DM Lock -->
+    <string name="dm_prompt">단말기가 이미 잠가졌습니다</string>
+    <!-- Tablet -->
+    <string name="sd_accessing_swtich_user_title">사용자를 전환하시겠습니까?</string>
+    <string name="sd_accessing_swtich_user_message">소유자 계정에 저장되지 않은 모든 데이터는 손실되거나 손상됩니다.</string>
+    <!-- Misc -->
+</resources>

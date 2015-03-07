@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Clock -->
+    <string name="keyguard_domestic_zone_name">Пекін</string>
+    <!-- GlowPadView -->
+    <!-- PowerOffAlarm -->
+    <string name="every_day">Щодня</string>
+    <string name="never">"Ніколи"</string>
+    <string name="day_concat">", "</string>
+    <string name="default_label">"Сигнал"</string>
+    <string name="voiceui_notify_string">Можна сказати</string>
+    <string name="voiceui_control_poweroff_alarm">щоб контролювати сигналізацію вимкнення живлення.</string>
+    <string name="voiceui_comma">,</string>
+    <string name="voiceui_quota_start">"</string>
+    <string name="voiceui_quota_end">"</string>
+    <string name="voiceui_or">або</string>
+    <string name="keyguard_accessibility_alarm_unlock">Вимкнення живлення сигналізації</string>
+    <string name="alarm_alert_dismiss_text">Відхилити</string>
+    <string name="alarm_alert_snooze_text">Відкласти</string>
+    <!-- Telephony -->
+    <string name="keyguard_password_entering_puk_code">Введіть код PUK</string>
+    <string name="keyguard_password_wrong_puk_code">Неправильний код PUK!</string>
+    <string name="invalidPuk">Введіть 8 цифр.</string>
+    <string name="pin_pass">Код прийнято</string>
+    <string name="keyguard_password_enter_new_pin_code">Введіть новий PIN</string>
+    <string name="keyguard_password_Confirm_pin_code">"Підтвердьте новий PIN-код"</string>
+    <string name="sim_permanently_locked">Якщо ввести неправильний PUK більше 10 разів, SIM картка буде назавжди заблокована.</string>
+    <string name="retries_left">Лишилося:<xliff:g id="number">%d</xliff:g> </string>
+    <string name="simlock_slot_locked_message">Отвір назавжди заблокований</string>
+    <string name="simlock_entersimmelock">Введіть блокування МЕ SIM</string>
+    <string name="slot_id">Отвір <xliff:g id="number">%d</xliff:g></string>
+    <string name="new_simcard">Нова карта SIM</string>
+    <string name="lockscreen_missing_sim_dialog_message">"Вийнято карту SIM. Будь ласка, переконайтеся, що карта SIM правильно вставлена."</string>
+    <string name="puk_pass">Розблоковано PIN</string>
+    <string name="sim_card_changed_dialog_title">Змінено карту SIM</string>
+    <string name="change_setting_for_onenewsim">Визначено нову карту SIM, позначену як</string>
+    <string name="change_setting_for_twonewsim">Визначено нову карту SIM. Вони позначені як</string>
+    <string name="sim_card_removed">Знято карту SIM</string>
+    <string name="sim_card_swapped">Обміняно карту SIM</string>
+    <string name="change_settings">Змінити</string>
+    <string name="keyguard_voice_call">Голосовий виклик:</string>
+    <string name="keyguard_sms">Повідомлення:</string>
+    <string name="keyguard_data">Підключення даних:</string>
+    <string name="dismiss">Відхилити</string>
+    <string name="keyguard_wrong_code_input">Неправильний код</string>
+    <string name="keyguard_code_length_prompt">Введіть 4-8 цифр.</string>
+    <string name="keyguard_code_donnot_mismatch">Не підходить.</string>
+    <string name="network_searching">Пошук нової мережі</string>
+    <string name="searching_simcard">Визначення...</string>
+    <string name="keyguard_close">Закрити</string>
+    <string name="default_sim_setting_prompt">Тепер налаштування за промовчанням:</string>
+    <string name="keyguard_video_call">Відео-виклик:</string>
+    <string name="invalid_sim_title">Недійсна карта SIM</string>
+    <string name="invalid_sim_message">Карта UIM/SIM не розпізнана.</string>
+    <string name="lockscreen_sim_locked_message_short">Блокована карта SIM</string>
+    <!-- UnreadEvent -->
+    <!-- Utils -->
+    <string name="keyguard_alwaysask">Завжди питати</string>
+    <string name="keyguard_data_none">Вимкн.</string>
+    <string name="keyguard_sim_auto">Авто</string>
+    <string name="keyguard_internal_call">Внутрішній виклик</string>
+    <string name="keyguard_not_set">Не встановлено</string>
+    <!-- VoiceUnlock -->
+    <string name="voice_unlock_service_error">Помилка голосової служби!</string>
+    <string name="voice_unlock_password_wrong">Вибачте, не може розпізнати ваш голос.</string>
+    <string name="voice_unlock_noisy">Надто шумно, і вас не чути.</string>
+    <string name="voice_unlock_weak">Не чути вашого голосу.</string>
+    <string name="voice_unlock_media_playing">Вимкнено голосове розблокування під час відтворення медія.</string>
+    <string name="voiceunlock_multiple_failures">Перевищено макс. кількість спроб голосових розблокувань</string>
+    <!-- DM Lock -->
+    <string name="dm_prompt">Термінал вже заблокований</string>
+    <!-- Tablet -->
+    <string name="sd_accessing_swtich_user_title">Увімкнути користувача?</string>
+    <string name="sd_accessing_swtich_user_message">Всі незбережені дані в обліковому записі користувача будуть втрачені або пошкоджені.</string>
+    <!-- Misc -->
+</resources>

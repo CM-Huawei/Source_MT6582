@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    
+    <string name="onscreenHangupAll">Legg på alle</string>
+    <string name="onscreenHangupHolding">Legg på vent</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Legg på aktiv, svar ventende</string>
+    <string name="onscreenECT">Overfør</string>
+    
+    <string name="dm_lock">DM låst</string>
+    <string name="dm_unlock">DM opplåst</string>
+    
+    <string name="start_record">Start opptak</string>
+    <string name="stop_record">Stopp opptak</string>
+    <string name="str_db_playlist_name">"Mine opptak"</string>
+    <string name="alert_device_error">Det oppstod en feil på lydenhet</string>
+    <string name="ext_media_badremoval_notification_title">"Minnekortet ble tatt ut uventet"</string>
+    <string name="error_sdcard_access">Får ikke tilgang til SD-kortet</string>
+    <string name="confirm_device_info_full">SD-kortet er tom for plass. Opptaket er lagret.</string>
+    <string name="confirm_save_info_saved">Opptaket er lagret</string>
+    <string name="confirm_save_info_saved_to">Opptaket er lagret til</string>
+    
+	<string name="sim_toolkit">"SIM-verktøy"</string>
+    <string name="activity_not_found">"Appen er ikke installert på telefonen din."</string>
+    <string name="no_sim_card_inserted" product="default">Sett inn SIM-kortet for å åpne SIM-verktøy.</string>
+    <string name="airplane_mode_on" product="default">Kan ikke starte SIM-verktøy siden flymodus er på.</string>
+    <string name="lable_sim_not_ready" product="default">SIM-verktøy er ikke klart eller støttes ikke</string>
+    <string name="gemini_3g_indic">3G</string>
+    
+    
+    <string name="callFailed_dsac_vt_incompatible_destination">Videoanrop kan ikke startes. Videotelefon støttes ikke av telefonen du ringer. Vil du ringe med taleanrop?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">Videoanrop kan ikke startes. Telefonen du har ringt er ute av 3G-tjenesteområde. Vil du ringe med taleanrop?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">Videoanrop kan ikke startes. Vil du ringe med taleanrop?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">Telefonen din er ute av 3G-tjenesteområde. Vil du ringe med taleanrop?</string>
+    <string name="callFailed_dsac_vt_bear_not_authorized">Videoanrop kan ikke startes. Videotelefontjenesten er ikke aktivert på dette SIM-kortet. Vil du ringe med taleanrop?</string>
+    
+    <string name="notification_voicemail">"Telefonsvarer"</string>
+    <string name="turn_on_3g_service_message">3G-tjenesten er av nå. Vil du slå den på?</string>
+    <string name="associate_sim_missing_message">"SIM-kortet %1$s er utilgjengelig. Vil du ringe via %2$s?"</string>
+    <string name="associate_sim_missing_other">"Annen"</string>
+    
+    <string name="vt_incoming_call">Innkommende videoanrop</string>
+    <string name="vt_settings">Videoinnstillinger</string>
+    <string name="vt_local_video_zoom">Zoom for lokal video</string>
+    <string name="vt_local_video_brightness">Lysstyrke for lokal video</string>
+    <string name="vt_local_video_effect">Effekt for lokal video</string>
+    <string name="vt_local_video_nightmode">Nattmodus for lokal video</string>
+    <string name="vt_peer_video_quality">Videokvalitet for motpart</string>
+    <string name="vt_enable_back_camera">Aktiver kameraet på baksiden</string>
+    <string name="vt_enable_back_camera_description">Slå på for å ha muligheten til å bytte kamera</string>
+    <string name="vt_peer_video_bigger">Større video fra motpart</string>
+    <string name="vt_peer_video_bigger_description">Slå på å gjøre videoen fra motparten større enn lokal video</string>
+    <string name="vt_outgoing_call">Utgående videoanrop</string>
+    <string name="vt_outgoing_call_description">Vise lokal video under videoanrop</string>
+    <string name="vt_incoming_call_description">Vis lokal video når du tar en innkommende videoanrop</string>
+    <string name="vt_incoming_showme_always">Alltid</string>
+    <string name="vt_incoming_showme_ask">"Spør"</string>
+    <string name="vt_incoming_showme_disable">"Deaktiver"</string>
+    <string name="vt_pic_replace_local_default">Standard bilde</string>
+    <string name="vt_pic_replace_local_freezeme">Frys meg</string>
+    <string name="vt_pic_replace_local_mypic">Mitt bilde</string>
+    <string name="vt_local_video_display">Lokal videovisning</string>
+    <string name="vt_sd_null">SD-kortet er\nutilgjengelig</string>
+    <string name="vt_sd_not_enough">SD-kortet er i ferd\nmed å bli fullt.</string>
+    <string name="vt_peer_video_quality_normal">Normal</string>
+    <string name="vt_peer_video_quality_sharp">Skarp</string>
+    <string name="vt_ask_show_local">Vise lokal video til motpart?</string>
+    <string name="vt_ask_show_local_yes">"Ja"</string>
+    <string name="vt_ask_show_local_no">"Nei"</string>
+    <string name="vt_change_my_pic">Endre</string>
+    <string name="vt_pic_saved_to_sd">Stillbilde lagret på SD-kort</string>
+    <string name="vt_pic_saved_to_sd_fail">Kunne ikke lagre stillbilde</string>
+    <string name="vt_error_network">Nettverk kan ikke nås. Videoanropet kobles fra.</string>
+    <string name="vt_error_media">Video kan ikke vises riktig. Videoanropet blir frakoblet.</string>
+    <string name="vt_swap_video">Bytt videoer</string>
+    <string name="vt_local_video_contrast">Kontrast for lokal video</string>
+    <string name="vt_menu_switch">Bytt kamera</string>
+    <string name="vt_menu_hide_me">Skjul lokal video</string>
+    <string name="vt_menu_show_me">Vis lokal video</string>
+    <string name="vt_menu_snapshot">Motpartstillbilde</string>
+    <string name="vt_dis_peer_rep">Vis motparts video</string>
+    <string name="vt_dis_peer_rep_des">Vis bilde i stedet for video når motpartens video ikke er tilgjengelig</string>
+    <string name="vt_peer_video_rep">Erstatning for motpartvideo</string>
+    <string name="vt_peer_video_rep_des">Sett et bilde som skal vises når motpartens video ikke er tilgjengelig</string>
+    <string name="vt_vocie_answer">Talesvar</string>
+    <string name="vt_wait_voice">Venter på koble til taleanrop</string>
+    <string name="vt_voice_connecting">Kobler til taleanrop</string>
+    <string name="vt_auto_dropback">Automatisk tilbakefall</string>
+    <string name="vt_auto_dropback_des">Fall tilbake til taleanrop automatisk</string>
+    <string name="vt_cannot_support_setting">Kamera støtter ikke denne innstillingen</string>
+    <string name="vt_network_unreachable">Nettverket er ikke tilgjengelig.</string>
+    <string name="vt_iot_error_01">Videoanrop kan ikke startes</string>
+    <string name="vt_iot_error_02">Telefonen er opptatt</string>
+    <string name="vt_iot_error_03">Det er ingen svar</string>
+    <string name="vt_iot_error_04">Nettverket er opptatt</string>
+    <string name="pref_camera_coloreffect_entry_none">"Ingen"</string>
+    <string name="pref_camera_coloreffect_entry_mono">Mono</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"Sepia"</string>
+    <string name="pref_camera_coloreffect_entry_negative">Negativ</string>
+    <string name="pref_camera_coloreffect_entry_solarize">Solariser</string>
+    <string name="pref_camera_coloreffect_entry_posterize">Plakateffekt</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">Tavle</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">Tavle</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Vann</string>
+    <string name="pref_camera_coloreffect_entry_pastel">Pastell</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">Mosaikk</string>
+    <string name="pref_camera_coloreffect_entry_redtint">Rød fargetone</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">Blå fargetone</string>
+    <string name="pref_camera_coloreffect_entry_greentint">Grønn fargetone</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Sepia blå</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Sepia grønn</string>
+    
+    
+    <string name="vt_peer_camera_open">Eksternt kamera er åpent</string>
+    <string name="vt_peer_camera_close">Eksternt kamera er stengt</string>
+    <string name="vt_recorder_start">Start opptak</string>
+    <string name="vt_recorder_voice_and_peer_video">Lyd og motpartvideo</string>
+    <string name="vt_recorder_only_voice">Bare stemme</string>
+    <string name="vt_recorder_only_peer_video">Bare motpartvideo</string>
+    <string name="vt_recording_saved">Opptaket er lagret</string>
+    <string name="vt_recording_saved_sd_full">SD-kortet er tom for plass. Opptaket er lagret.</string>
+    <string name="vt_recording_error">Feil med opptak.</string>
+    <string name="start_record_vt">Start opptak</string>
+    <string name="stop_record_vt">Stopp opptak</string>
+    
+    
+    <string name="cannot_answered_Video_Call">Videoanrop kan ikke besvares, siden det allerede er en taleanrop</string>
+    <string name="cannot_answered_Voice_Call">Taleanrop kan ikke besvares, siden det allerede er et videoanrop</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> min. <xliff:g id="seconds" example="28">%2$s</xliff:g> sek.</string>
+    <string name="reminder">Påminnelse</string>
+    <string name="vt_media_occupied">Siden kameraet ikke er tilgjengelig, kan videoanrop ikke kobles til. Kontroller om noen andre programmer bruker kameraet.</string>
+    <string name="vt_media_video_fail">Video kan ikke vises riktig. Videoanropet kobles fra.</string>
+    <string name="incall_toast_unhold">Opphev venting</string>
+    
+    <string name="dualtalk_tip_accept_disconnect_current" tools:ignore="MissingTranslation">Godtar du anropet vil det aktuelle anropet avsluttes.</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing" tools:ignore="MissingTranslation">Godtar du anropet vil det utgående anropet avsluttes.</string>
+    <string name="dualtalk_tip_accept_disconnect_incoming" tools:ignore="MissingTranslation">Godtar du anropet vil det innkommende anropet avvises.</string>
+    <string name="dualtalk_tip_accept_disconnect_voice">Godtar du anropet vil taleanrop avsluttes.</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing_reject_incoming">Godtar du anropet vil utgående anrop avsluttes og innkommende anrop avvises.</string>
+    <string name="dualtalk_tip_accept_disconnect_current_reject_incoming">Godtar du anropet vil anropet avsluttes og innkommende anrop vil avvises.</string>
+    
+    <string name="end_call_because_can_not_hold">Avslutt aktivt anrop, fordi det ikke kan settes på vent.</string>
+    <string name="ring_only_once_title">Ring bare én gang</string>
+    <string name="ring_only_once_summary">Ring bare én gang når du velger å motta et videoanrop som taleanrop</string>
+    
+    
+    <string name="fdn_contact_name_number_invalid">Navn og nummer kan ikke være begge deler være tomme.</string>
+    
+    <string name="fdn_contact_number_invalid">Ugyldig kontaktnummer.</string>
+    <string name="fdn_phone_book_busy">Telefonboken er opptatt nå. Prøv på nytt senere.</string>
+    
+    <string name="cdma_not_support">CDMA støtter ikke denne funksjonen</string>
+    <string name="cdma_cfu_title">China Telecom</string>
+    <string name="labelCFC">Avbryt all viderekobling</string>
+    <string name="cdma_cfu_dialog_sum">"Alltid bruk dette nummeret"</string>
+        
+    <string name="dual_mic_title">Støyreduksjon</string>
+    <string name="dual_mic_summary">Reduser bakgrunnsstøy under anropr</string>
+    
+    <string name="minutereminder_title">Minuttpåminnelse</string>
+    <string name="minutereminder_summary">Minn på ved 50 sek. av hvert minutt</string>
+    <string name="voice_call_settings">Innstillinger for taleanrop</string>
+    
+    <string name="enable_sip_dialog_message">Internett-anrop er deaktivert. Vil du aktivere det?</string>
+    
+    <string name="ip_prefix_setting">IP-retningsnummer</string>
+    <string name="ip_prefix_setting_sum">IP-retningsnummerinnstillinger</string>
+    <string name="enter_ip_prefix_number">Angi retningsnummer</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Skriv inn IP-retningsnummer først i taleanropsinnstillinger.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">IP-oppringingsfunksjonen gjelder ikke for Internett-anrop.</string>
+    <string name="ip_prefix_edit_default_sum">Tast inn retningsnummer for IP dial</string>
+    
+    <string name="vt_cf_call_description">Innstillinger for viderekobling av videoanrop</string>
+    <string name="vt_cb_call_description">Innstillinger for sperring av videoanropr</string>
+    <string name="vt_addtional_call_description">Innstillinger for telefonnummer og anrop venter</string>
+    <string name="others">Andre innstillinger</string>
+    
+    <string name="confirm_3g_switch">Er du sikker på at du vil stille 3G-tjenesten til dette SIM-kortet? Dette vil også sette standard SIM-kort for videoanrop til dette SIM-kortet automatisk.</string>
+    <string name="modem_switching">Bytte av SIM-kort vil ta rundt 10 sekunder å fullføre. Vent litt …</string>
+    <string name="confirm_3g_switch_to_off">Er du sikker på at du vil slå av 3G-tjenesten? Dette vil også slå av tjenesten for videoanrop automatisk.</string>
+    <string name="service_3g_off">"av"</string>
+    <string name="enable_3G_service">Aktiver 3G</string>
+    <string name="setting_for_3G_service">3G-tjeneste</string>
+    
+    
+    <string name="network_forbidden">forbudt</string>
+    <string name="voice_mail_dialog_text">Du har ny talemelding fra <xliff:g id="voicemail_sim_display_name">%s</xliff:g>. Vil du hente dette nå?</string>
+    <string name="lable_call_barring">"Samtaleblokkering"</string>
+    <string name="lable_all_outgoing">Alle utgående samtaler</string>
+    <string name="lable_all_outgoing_international">Internasjonale utgående anrop</string>
+    <string name="lable_all_out_except">Internasjonale utgående anrop unntatt til hjem-PLMN</string>
+    <string name="lable_all_incoming">Alle innkommende anrop</string>
+    <string name="lable_incoming_calls_except">Innkommende anrop under roaming</string>
+    <string name="deactivate_all">Avbryt alle</string>
+    <string name="change_password">Endre sperrepassord</string>
+    <string name="call_barring_sum">Innstillinger for taleanropsperring</string>
+    
+    <string name="lable_disable">"Deaktivert"</string>
+    <string name="lable_enable">Aktivert</string>
+    <string name="old_password_label">Gammelt passord (4 siffer)</string>
+    <string name="new_password_label">Nytt passord (4 siffer)</string>
+    <string name="invalid_password">Skriv inn et passord med 4 siffer.</string>
+    <string name="confirm_password_label">Bekreft nytt passord</string>
+    <string name="mismatch_password">De angitte passordene stemmer ikke overens. Prøv på nytt.</string>
+    <string name="password_changed">Passordet ble endret</string>
+    <string name="enter_callbarring_password">Angi anropsperringspassord (4 siffer)</string>
+    <string name="wrong_password">Feil med passord</string>
+    <string name="error_title">"Feil"</string>
+    <string name="cell_broadcast">Cellekringkasting</string>
+    <string name="cell_broadcast_settings">Cellekringkastingsinnstillinger</string>
+    <string name="cb_menu_language">"Språk"</string>
+    <string name="cb_menu_add_channel">Legg til kanal</string>
+    <string name="cb_menu_channel_list">Kanalliste</string>
+    <string name="cb_dialog_title_language_choice">Velg språk</string>
+    <string name="cb_channel_dialog_channel_name">Kanalnavn (0–10 tegn)</string>
+    <string name="cb_channel_dialog_channel_number">Kanalnummer (0–65534)</string>
+    <string name="cb_channel_dialog_channel_state">Aktiver kanalen</string>
+    <string name="cb_channel_dialog_edit_channel">Rediger kanal</string>
+    <string name="cb_menu_edit">"Rediger"</string>
+    <string name="cb_menu_delete">"Slett"</string>
+    <string name="cb_error_channel_num">Skriv inn kanalnummer (0–65534).</string>
+    <string name="cb_error_channel_name">Lengden på kanalnavnet er ikke korrekt (1–10 tegn).</string>
+    <string name="cb_error_language_select">Velg minst ett språk</string>
+    <string name="cb_error_channel_id_exist">Kanal-ID finnes allerede.</string>
+    <string name="cb_all_languages">"Alle språk"</string>
+    <string name="cb_default_new_channel_name">Ny kanal</string>
+    <string name="fdn_errorcode_unknown_info">Ukjent feil oppstod. Prøv senere.</string>
+    <string name="fdn_errorcode_number_info">Feil. Lengden av kontaktnummeret er for lang.</string>
+    <string name="fdn_errorcode_name_info">Feil. Kontaktnavnet er for lang.</string>
+    <string name="fdn_errorcode_storage_info">Feil. Lagringsområdet er fult.</string>
+    <string name="fdn_errorcode_phb_info">Feil. Telefonboken er ikke klar. Prov senere.</string>
+    <string name="fdn_errorcode_pin2_info">Feil. Ugyldig PIN2.</string>
+    <string name="net_or_simcard_busy">Nettverk eller SIM-kortet er opptatt. Prøv senere.</string>
+    
+    <string name="gsm_umts_network_preferences_title">Nettverksmodus</string>
+    <string name="gsm_umts_network_preferneces_summary">Ikke implementert ennå!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">Nettverksmodus</string>
+    <string name="umts_preferred_network_mode_dialogtitle">Nettverksmodus</string>
+    
+    <string name="voice_call">Taleanrop</string>
+    <string name="video_call">"Videosamtale"</string>
+    <string name="internet_call">Internett-anrop</string>
+    <string name="sum_voice_call">Taleanrop-relaterte innstillinger</string>
+    <string name="sum_video_call">Videoanrop-relaterte innstillinger</string>
+    <string name="sum_internet_call">Internettanrop-relaterte innstillinger</string>
+    <string name="voice_mail">"Telefonsvarer"</string>
+    <string name="sum_voice_mail">Mobilsvartjeneste og nummer</string>
+    <string name="sum_cell_broadcast_control_on">Aktiver cellekringkasting</string>
+    <string name="sum_cell_broadcast_control_off">Deaktiver cellekringkasting</string>
+    <string name="sum_cell_broadcast_setting">Språk og kanalinnstillinger for cellekringkasting</string>
+    <string name="call_additional_sum">Innstillinger for telefonnummer og anrop venter</string>
+    <string name="vt_call_settings">Videoanropinnstillinger</string>
+    <string name="vt_local_video_rep">Lokal videoerstatning</string>
+    <string name="vt_pic_replace_local_description">Sett et bilde som skal vises når kameraet ikke brukes</string>
+
+    
+    <string name="mo_code_unconditional_cf_active">Viderekobling\nubetinget aktivert</string>
+    <string name="mo_code_some_cf_active">Viderekobling\npå betinget</string>
+    <string name="mo_code_call_forwarded">Anrop viderekoblet</string>
+    <string name="mo_code_call_is_waiting">Anrop venter</string>
+    <string name="mo_code_cug_call">Lukket brukergruppe</string>
+    <string name="mo_code_outgoing_calls_barred">Utgående anrop sperret</string>
+    <string name="mo_code_incoming_calls_barred">Innkommende anrop sperret på den andre siden</string>
+    <string name="mo_code_clir_suppression_rejected">Sjekk nummervisningstjeneste</string>
+    <string name="mo_code_call_deflected">Anrop overført</string>
+    
+    <string name="mt_code_forwarded_call">Det er en viderekoblet anrop</string>
+    <string name="mt_code_cug_call">Lukket brukergruppe</string>
+    <string name="mt_code_call_on_hold">Anrop på vent</string>
+    <string name="mt_code_call_retrieved">Anrop hentet</string>
+    <string name="mt_code_multi_party_call">Telefonkonferanse</string>
+    <string name="mt_code_on_hold_call_released">Ventende anrop løslatt</string>
+    <string name="mt_code_forward_check_received">Videre sjekk SS-melding mottatt</string>
+    <string name="mt_code_call_connecting_ect">Anropsoverføring</string>
+    <string name="mt_code_call_connected_ect">Anropoverføring aktiv</string>
+    <string name="mt_code_deflected_call">Det er et viderekoblet anrop</string>
+    <string name="mt_code_additional_call_forwarded">Ytterligere viderekoblede innkommende anrop</string>
+    <string name="mt_code_forwarded_cf">Anrop viderekoblet</string>
+    <string name="mt_code_forwarded_cf_uncond">Anrop viderekoblet på ubetinget</string>
+    <string name="mt_code_forwarded_cf_cond">Anrop viderekoblet på betinget</string>
+    <string name="mt_code_forwarded_cf_busy">Anrop opptatt viderekoblet</string>
+    <string name="mt_code_forwarded_cf_no_reply">Anrop viderekoblet grunnet ingen svar</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Anrop videresendt grunnet kunne ikke nås</string>
+    <string name="sim_manage_sipcall">Internettanrop</string>
+    <string name="sim_manage_call_via">Anrop via</string>
+    
+    
+	
+    <string name="manual_select_title">Velg manuelt</string>    
+	<string name="manual_select_dialog_msg">Mobiltelefonen vil ikke velge andre operatører for deg i manuelt valgmodus. Noen ganger må du velge manuelt på nytt eller endre tilbake til automatisk valgmodus når du mister tjenesten for den valgte operatøren. Vi anbefaler at du bruker \"Velg automatisk\". Vil du velge nettverk manuelt?</string>    
+	<string name="no_service_msg_gemini">Nå er det ingen tjeneste fra den valgte operatøren for SIM-kortet \"<xliff:g id="operator">%s</xliff:g>\".\nVi anbefaler at du bruker \"Velg automatisk\", eller så kan du velge en annen operatør manuelt.</string>    
+	<string name="no_service_msg">Nå er det ingen tjeneste fra den valgte operatøren.\nVi anbefaler at du bruker \"Velg automatisk\", eller så kan du velge en annen operatør manuelt.</string>    
+	<string name="show_always_title">Ikke varsle meg igjen</string>    
+	<string name="no_service_msg_title_gemini">Ingen tjeneste for \"<xliff:g id="operator">%s</xliff:g>\"</string>    
+	<string name="no_service_msg_title">"Ingen tjeneste"</string>    
+    <string name="gemini_data_connection">Datatilkobling</string>
+	
+    <string name="plmn_list_setting_title">Foretrukne nettverk</string>
+    <string name="network_id">Nettverks-ID</string>
+    <string name="dialog_network_priority_title">Prioritet</string>
+    <string name="plmn_list_setting_add_plmn">Ny PLMN</string>
+    
+    <string name="international_dialing_title">Internasjonal anropsassistent</string>
+    <string name="international_dialing_select_country">Det ser ut til at du ringer til utlandet. Velg din destinasjon.</string>
+    <string name="international_dialing_add_country_code">Det ser ut til at du ringer et nummer i <xliff:g id="country_name">%s</xliff:g>. Vil du legge til landskoden (+<xliff:g id="country_code">%s</xliff:g>)?</string>
+    <string name="international_dialing_add_country_code_and_area_code">Det ser ut til at du ringer et nummer i <xliff:g id="area_name">%1$s</xliff:g> (<xliff:g id="country_name">%2$s</xliff:g>). Vil du legge til landskoden og retningsnummeret (+<xliff:g id="prefix">%3$s</xliff:g>)?</string>
+    <string name="international_dialing_change_country_prefix">Det ser ut til at du ringer fra <xliff:g id="country_name">%s</xliff:g>. Endre prefiks for internasjonale anrop til \"+\"?</string>
+    <string name="international_dialing_add_country_code_input_area_code">Det ser ut til at du ringer et nummer i <xliff:g id="country_name">%s</xliff:g>. Hvis det stemmer, taster du inn retningsnummer.</string>
+    <string name="international_dialing_add_country_code_default_input_area_code">Det ser ut til at du ringer et nummer i <xliff:g id="country_name">%s</xliff:g>. Hvis byen du ringer ikke er <xliff:g id="area_name">%s</xliff:g>, skriver du inn retningsnummer.</string>
+    <string name="international_dialing_need_area_code">Retningsnummeret til din byen er nødvendig for anropet.</string>
+    <string name="international_dialing_input_area_code">Skriv retningsnummer her</string>
+    <string name="international_dialing_dialed_number">Nummer som ringes:</string>
+    <string name="international_dialing_confirm_area_code">Hvis byen du ringer ikke er <xliff:g id="area_name">%s</xliff:g>, legger du inn retningsnummeret til byen nedenfor.</string>
+    <string name="international_dialing_click_below_button">Klikk på knappen under for å endre landskodenummeret.</string>
+    <string name="international_dialing_yes">Ja. Bruk nummeret nedenfor:</string>
+    <string name="international_dialing_no">Nei. Bruk originalnummer:</string>
+    <string name="international_dialing_call_button">"Ring"</string>
+    <string name="international_dialing_area_code">retningsnummer</string>
+    <string name="international_dialing_invalid_number">Nummeret er ugyldig. Vil du fortsette anropet likevel?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">Vil du legge til landskoden og retningsnummeret?</string>
+    <string name="no_search_result">Ingen treff</string>
+    <string name="which_call_to_activate">Hvilket anrop skal aktiveres?</string>
+    <string name="gemini_3g_disable_warning_case0">"Du må aktivere dataroaming for dette SIM-kortet først. Dette kan være ekstremt dyrt! Er du sikker på at du vil aktivere dataroaming og velge dette SIM-kortet?"</string>
+    <string name="gemini_3g_disable_warning_case1">"3G-tjeneste er ikke tilgjengelig med valgt SIM-kort. Dette kan laste data tregere. Du kan endre innstillingen for 3G-tjeneste under Innstillinger &gt; Trådløst og nettverk &gt; Mobile nettverk. Er du sikker på at du vil velge dette SIM-kortet?"</string>
+    <string name="gemini_3g_disable_warning_case2">"Du må aktivere dataroaming for dette SIM-kortet først. Dette kan være ekstremt dyrt! Dessuten er ikke 3G-tjeneste ikke tilgjengelig med dette SIM-kortet. Dette kan laste data tregere. Du kan endre innstillingen under Innstillinger &gt; Trådløst og nettverk &gt; Mobile nettverk. Er du sikker på at du vil aktivere dataroaming og velge dette SIM-kortet?"</string>
+    <string name="disable_data_connection_msg">Søker du etter alle tilgjengelige nettverk vil datatilkoblingen som er i bruk kobles fra. Vil du fortsette?</string>
+    
+    <string name="voice_command_notification_ticker">Du kan si \"<xliff:g id="first_voice">%s</xliff:g>\" eller \"<xliff:g id="second_voice">%s</xliff:g>\" for å besvare eller ignorere et innkommende anrop</string>
+    <string name="voice_command_notification_title">Talestyring</string>
+    <string name="voice_command_notification_message">Talestyring fungerer for Telefon</string>
+
+    <string name="callFailed_simError_cdma">Ikke noe UIM/SIM, eller UIM/SIM-feil</string>
+
+    
+    <string name="callFailed_simError_slotNumber">Mangler SIM-kort, eller SIM-kortfeil i spor <xliff:g id="slotNumber">%s</xliff:g></string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="callFailed_cdma_notEmergency">"Kun nødsamtaler er mulig."</string>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="buttonTxtContinue">"Fortsett"</string>
+
+    <string name="fdn_only_error">Handlingene kan kun utføres på numre med anropsbegrensning.</string>
+
+    <string name="network_setting_all_forbidden_dialog">Ingen tilgjengelige nettverk. Prøv å skru på 3G-tjeneste, eller klikk på et forbudt nett for å registrere manuelt.</string>
+
+    
+    <string name="reset_data_usage">Tilbakestill datamengde</string>
+
+    
+    <string name="simContacts_emptyLoading_ex">Leser kontakter fra %s\u2026</string>
+
+    <string name="one_retry_left">1 forsøk gjenstår</string>
+    <string name="retries_left"><xliff:g id="number">%d</xliff:g> forsøk gjenstår</string>
+    <string name="pin2_unblocked">PIN2-koden ble avblokkert</string>
+    <string name="unblock_pin2">Opphev blokkering av PIN2-koden</string>
+    <string name="sim_permanently_locked">Feil PUK2-kode er lagt inn mer enn 10 ganger. SIM-kortet er permanent låst.</string>
+    <string name="pin_length_indicate">(4–8 sifre)</string>
+    <string name="puk_length_indicate">(8 sifre)</string>
+
+    
+    <string name="caller_manage_manage_done_text">"Tilbake til samtale"</string>
+
+    
+    <string name="card_title_incoming_vt_call">Innkommende videoanrop</string>
+
+    
+    <string name="voicemail_settings_for">Innstillinger for <xliff:g id="provider_name">%s</xliff:g></string>
+
+    
+    <string name="sip_call_options_title_single_sim">Internettanropsalternativer</string>
+
+    
+    <string name="description_search_button">"Søk"</string>
+
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (auto)</item>
+        <item>Kun 3G</item>
+        <item>Kun 2G</item>
+    </string-array>
+    
+
+    <string-array name="umts_network_preferences_choices">
+        <item>2G/3G (auto)</item>
+        <item>Kun 3G</item>
+    </string-array>
+
+    
+
+    
+    
+    
+    
+    <string-array name="lte_usim_prefer_network_mode_choices">
+        <item>4G/3G/2G (Auto)</item>
+        <item>3G/2G (Auto)</item>
+        <item>Kun 2G</item>
+    </string-array>
+        <string-array name="lte_usim_prefer_network_mode_values">
+        <item>"9"</item>
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+
+    <string-array name="lte_sim_prefer_network_mode_choices">
+        <item>3G/2G (Auto)</item>
+        <item>Kun 2G</item>
+    </string-array>
+        <string-array name="lte_sim_prefer_network_mode_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <string name="cipher_indication_notification_title">Ingen talekryptering</string>
+    <string name="cipher_indication_notification_message">Talekryptering er slått av etter nettverk</string>
+
+    
+    <string name="network_type">Nettverkstype</string>
+    <string name="network_type_2g">2G</string>
+    <string name="network_type_3g">3G</string>
+    <string name="network_type_4g">"4G"</string>
+    
+    
+
+    <string name="cancel">"Avbryt"</string>
+</resources>

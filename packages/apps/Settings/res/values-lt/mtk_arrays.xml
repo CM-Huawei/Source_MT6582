@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2007 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>Prime 4 cifre</item>
+        <item>Ultime 4 cifre</item>
+        <item>Non visualizzare</item>
+    </string-array>
+
+    <string-array name="gemini_sim_roaming_reminder_entries">
+        <item>Una volta</item>
+        <item>Visada</item>
+        <item>"Niekada"</item>
+    </string-array>
+
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (automatinis režimas)</item>
+        <item>Tik WCDMA</item>
+        <item>"Tik GSM"</item>
+    </string-array>
+
+    <string-array name="wifi_ap_channel_width">
+        <item>20 MHz</item>
+        <item>Automatinis 20/ 40 MHz</item>
+    </string-array>
+    
+    <string-array name="auto_time_entries">
+        <item>"Naudoti tinklo pateiktą laiką"</item>
+        <item>Naudoti GPS pateiktą laiką</item>
+        <item>"išjungta"</item>
+    </string-array>
+
+    <string-array name="hdmi_video_mode_entries">
+        <item>Visas ekranas</item>
+        <item>Geriausias pritaikymas</item>
+        <item>Originalus dydis</item>
+    </string-array>
+
+    <string-array name="hdmi_deep_color_entries">
+        <item>8 bit</item>
+        <item>"automatinis"</item>
+        <item>10 bitų</item>
+        <item>12 bitų</item>
+    </string-array>
+
+    <string-array name="sim_slot">
+        <item>"(nenurodyta)"</item>
+        <item>1 SIM lizdas</item>
+        <item>2 SIM lizdas</item>
+    </string-array>
+
+    <string-array name="wifi_WEP_security_type">
+        <item>"automatinis"</item>
+        
+        <item>WEP ASCII</item>
+        <item>WEP šešioliktainė sistema</item>
+    </string-array>
+
+    <string-array name="wifi_hotspot_disable_policy_entries">
+        <item>Visada</item>
+        <item>Išjungti nenaudojant 5 min.</item>
+        <item>Išjungti nenaudojant 10 min.</item>
+    </string-array>
+
+    <string-array name="wifi_ap_wps_mode_entries">
+        <item>"Mygtuko paspaudimas"</item>
+        <item>PIN kodas klientui</item>
+    </string-array>
+
+    <string-array name="wifi_ap_max_connection_entries">
+        <item>1 vartotojas</item>
+        <item>2 Vartotojų</item>
+        <item>3 Vartotojų</item>
+        <item>4 Vartotojų</item>
+        <item>5 Vartotojų</item>
+        <item>6 Vartotojų</item>
+        <item>7 Vartotojų</item>
+        <item>8 Vartotojų</item>
+    </string-array>
+
+    <string-array name="mouse_primary_button_titles">
+        <item>Dešinysis pelės klavišas</item>
+        <item>Kairysis pelės klavišas</item>
+    </string-array>
+
+    <string-array name="wfd_720p_resolution_entry">
+        <item>720p (60 kadr./sek.)</item>
+        <item>﻿720p (30 kadr./sek.)</item>
+    </string-array>
+
+    <string-array name="wfd_1080p_resolution_entry">
+        <item>1080p (30 kadr./sek.)</item>
+        <item>720p (60 kadr./sek.)</item>
+        <item>720p (30 kadr./sek.)</item>
+    </string-array>
+</resources>

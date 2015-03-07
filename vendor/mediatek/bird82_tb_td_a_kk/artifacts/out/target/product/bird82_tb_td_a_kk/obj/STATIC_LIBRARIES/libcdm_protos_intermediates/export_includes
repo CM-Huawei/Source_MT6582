@@ -1,0 +1,2 @@
+-I out/target/product/bird82_tb_td_a_kk/obj/STATIC_LIBRARIES/libcdm_protos_intermediates/proto
+-I out/target/product/bird82_tb_td_a_kk/obj/STATIC_LIBRARIES/libcdm_protos_intermediates/proto/mediatek/protect-bsp/frameworks/opt/widevine/libwvdrmengine/cdm/core/src

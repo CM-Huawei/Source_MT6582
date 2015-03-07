@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    
+    <string name="onscreenHangupAll">Atvienot visus zvanus</string>
+    <string name="onscreenHangupHolding">Nolikt klausuli, atvienojot aizturēto zvanu</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Nolikt klausuli, atvienojot aktīvo zvanu vai zvanu, kas gaida</string>
+    <string name="onscreenECT">Pārsūtīt</string>
+    
+    <string name="dm_lock">DM bloķēts</string>
+    <string name="dm_unlock">DM atbloķēts</string>
+    
+    <string name="start_record">Sākt ierakstīšanu</string>
+    <string name="stop_record">Pārtraukt ierakstīšanu</string>
+    <string name="str_db_playlist_name">"Mani ieraksti"</string>
+    <string name="alert_device_error">Kļūda radās audio ierīcē</string>
+    <string name="ext_media_badremoval_notification_title">"SD karte tika negaidīti izņemta."</string>
+    <string name="error_sdcard_access">Nevar piekļūt SD kartei</string>
+    <string name="confirm_device_info_full">SD kartē nav vietas, ieraksts ir saglabāts.</string>
+    <string name="confirm_save_info_saved">Ieraksts ir saglabāts</string>
+    <string name="confirm_save_info_saved_to">Ieraksts ir saglabāts:</string>
+    
+	<string name="sim_toolkit">"SIM rīkkopa"</string>
+    <string name="activity_not_found">"Lietojumprogramma jūsu tālrunī nav instalēta."</string>
+    <string name="no_sim_card_inserted" product="default">Lai palaistu SIM rīkkopu, ievietojiet SIM karti.</string>
+    <string name="airplane_mode_on" product="default">Neizdevās palaist SIM rīkkopu, jo ir ieslēgts lidojuma režīms.</string>
+    <string name="lable_sim_not_ready" product="default">SIM rīkkopa nav gatava vai netiek atbalstīta</string>
+    <string name="gemini_3g_indic">3G</string>
+    
+    
+    <string name="callFailed_dsac_vt_incompatible_destination">Nevar iestatīt video zvanu. Video tālruni neatbalsta tālrunis, kuram zvanāt. Vai veikt balss zvanu?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">Nevar iestatīt video zvanu. Tālrunis, kuram zvanāt, atrodas ārpus 3G pakalpojumu zonas. Vai veikt balss zvanu?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">Nevar iestatīt video zvanu. Vai veikt balss zvanu?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">Tālrunis atrodas ārpus 3G pakalpojuma zonas. Vai veikt balss zvanu?</string>
+    <string name="callFailed_dsac_vt_bear_not_authorized">Nevar iestatīt video zvanu. Video tālruņa pakalpojums nav aktivizēts šai SIM kartei. Vai veikt balss zvanu?</string>
+    
+    <string name="notification_voicemail">"Balss pasts"</string>
+    <string name="turn_on_3g_service_message">3G pakalpojums pašlaik ir izslēgts. Vai vēlaties to ieslēgt?</string>
+    <string name="associate_sim_missing_message">"%1$s SIM nav pieejama. Vai vēlaties veikt zvanu, izmantojot %2$s?"</string>
+    <string name="associate_sim_missing_other">"Cits"</string>
+    
+    <string name="vt_incoming_call">Ienākošais video zvans</string>
+    <string name="vt_settings">Video iestatījumi</string>
+    <string name="vt_local_video_zoom">Lokālā video tālummaiņa</string>
+    <string name="vt_local_video_brightness">Lokālā video spilgtums</string>
+    <string name="vt_local_video_effect">Lokālā video efekts</string>
+    <string name="vt_local_video_nightmode">Lokālā video nakts režīms</string>
+    <string name="vt_peer_video_quality">Vienādranga video kvalitāte</string>
+    <string name="vt_enable_back_camera">Iespējot aizmugures kameru</string>
+    <string name="vt_enable_back_camera_description">Iespējams pārslēgt kameras, ja ieslēgts</string>
+    <string name="vt_peer_video_bigger">Lielāks vienādranga video</string>
+    <string name="vt_peer_video_bigger_description">Ieslēgt, lai vienādranga video padarītu lielāku par lokālo video</string>
+    <string name="vt_outgoing_call">Izejošais video zvans</string>
+    <string name="vt_outgoing_call_description">Rādīt lokālo video, kad tiek veikts video zvans</string>
+    <string name="vt_incoming_call_description">Rādīt lokālo video, ja tiek atbildēts uz ienākošo video zvanu</string>
+    <string name="vt_incoming_showme_always">Vienmēr</string>
+    <string name="vt_incoming_showme_ask">"Vaicāt"</string>
+    <string name="vt_incoming_showme_disable">"Atspējot"</string>
+    <string name="vt_pic_replace_local_default">Noklusējuma attēls</string>
+    <string name="vt_pic_replace_local_freezeme">Iesaldēt mani</string>
+    <string name="vt_pic_replace_local_mypic">Mans attēls</string>
+    <string name="vt_local_video_display">Lokālā video demonstrēšana</string>
+    <string name="vt_sd_null">SD karte nav\npieejama</string>
+    <string name="vt_sd_not_enough">SD kartē sākt trūkt\nvietas</string>
+    <string name="vt_peer_video_quality_normal">Parasts</string>
+    <string name="vt_peer_video_quality_sharp">Ass</string>
+    <string name="vt_ask_show_local">Vai rādīt lokālo video vienādrangam?</string>
+    <string name="vt_ask_show_local_yes">"Jā"</string>
+    <string name="vt_ask_show_local_no">"Nē"</string>
+    <string name="vt_change_my_pic">Mainīt</string>
+    <string name="vt_pic_saved_to_sd">Momentuzņēmums saglabāts SD kartē</string>
+    <string name="vt_pic_saved_to_sd_fail">Neizdevās saglabāt momentuzņēmumu</string>
+    <string name="vt_error_network">Tīkls nav sasniedzams. Video zvans tiks atvienots.</string>
+    <string name="vt_error_media">Video nevar parādīt atbilstoši. Video zvans tiks atvienots.</string>
+    <string name="vt_swap_video">Pārslēgt video</string>
+    <string name="vt_local_video_contrast">Lokālā video kontrasts</string>
+    <string name="vt_menu_switch">Pārslēgt kameru</string>
+    <string name="vt_menu_hide_me">Slēpt lokālo video</string>
+    <string name="vt_menu_show_me">Rādīto lokālo video</string>
+    <string name="vt_menu_snapshot">Vienādranga momentuzņēmums</string>
+    <string name="vt_dis_peer_rep">Rādīt vienādranga video</string>
+    <string name="vt_dis_peer_rep_des">Rādīt attēlu vienādranga video aizstāšanai, kad tas nav pieejams</string>
+    <string name="vt_peer_video_rep">Vienādranga video aizstāšana</string>
+    <string name="vt_peer_video_rep_des">Iestatīt attēlu rādīšanai, ja vienādranga video nav pieejams</string>
+    <string name="vt_vocie_answer">Balss atbilde</string>
+    <string name="vt_wait_voice">Gaida balss zvana savienojumu</string>
+    <string name="vt_voice_connecting">Veido balss zvana savienojumu</string>
+    <string name="vt_auto_dropback">Automātiski atgriezt</string>
+    <string name="vt_auto_dropback_des">Atgriezt uz video zvanu automātiskai savienošanai</string>
+    <string name="vt_cannot_support_setting">Pašreizējā kamera nevar atbalstīt šo iestatījumu</string>
+    <string name="vt_network_unreachable">Tīkls nav sasniedzams.</string>
+    <string name="vt_iot_error_01">Nevar iestatīt video zvanu.</string>
+    <string name="vt_iot_error_02">Tālrunis ir aizņemts.</string>
+    <string name="vt_iot_error_03">Nav atbildes</string>
+    <string name="vt_iot_error_04">Tīkls ir veido maģistrāli</string>
+    <string name="pref_camera_coloreffect_entry_none">"Nav"</string>
+    <string name="pref_camera_coloreffect_entry_mono">Vienkrāsains</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"Sēpija"</string>
+    <string name="pref_camera_coloreffect_entry_negative">Negatīvs</string>
+    <string name="pref_camera_coloreffect_entry_solarize">Pārgaismot</string>
+    <string name="pref_camera_coloreffect_entry_posterize">Izveidot plakātu</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">Baltā tāfele</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">Melnā tāfele</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Akvamarīna</string>
+    <string name="pref_camera_coloreffect_entry_pastel">Pasteļtoņi</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">Mozaīka</string>
+    <string name="pref_camera_coloreffect_entry_redtint">Sarkans tonis</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">Zils tonis</string>
+    <string name="pref_camera_coloreffect_entry_greentint">Zaļš tonis</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Zila sēpija</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Zaļa sēpija</string>
+    
+    
+    <string name="vt_peer_camera_open">Attālā kamera ir atvērta</string>
+    <string name="vt_peer_camera_close">Attālā kamera ir aizvērta</string>
+    <string name="vt_recorder_start">Sākt ierakstīšanu</string>
+    <string name="vt_recorder_voice_and_peer_video">Balss un vienādranga video</string>
+    <string name="vt_recorder_only_voice">Tikai balss</string>
+    <string name="vt_recorder_only_peer_video">Tikai vienādranga video</string>
+    <string name="vt_recording_saved">Ieraksts ir saglabāts</string>
+    <string name="vt_recording_saved_sd_full">SK kartē nav vietas, ieraksts ir saglabāts.</string>
+    <string name="vt_recording_error">Ieraksta kļūda.</string>
+    <string name="start_record_vt">Sākt ierakstīšanu</string>
+    <string name="stop_record_vt">Pārtraukt ierakstīšanu</string>
+    
+    
+    <string name="cannot_answered_Video_Call">Nevar atbildēt uz video zvanu, jo notiek arī balss zvans</string>
+    <string name="cannot_answered_Voice_Call">Nevar atbildēt uz video zvanu, jo notiek arī balss zvans</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> min <xliff:g id="seconds" example="28">%2$s</xliff:g> s</string>
+    <string name="reminder">Atgādinājums</string>
+    <string name="vt_media_occupied">Tā kā kamera nav pieejama, video zvanu nevar pievienot. Pārbaudiet, vai cita lietojumprogramma izmanto kameru.</string>
+    <string name="vt_media_video_fail">Video nevar parādīt atbilstoši. Video zvans tiks atvienots</string>
+    <string name="incall_toast_unhold">Noņemt aizturēšanu</string>
+    
+    <string name="dualtalk_tip_accept_disconnect_current" tools:ignore="MissingTranslation">Apstiprinot šo zvanu, tiks beigts pašreizējais zvans.</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing" tools:ignore="MissingTranslation">Apstiprinot šo zvanu, tiks beigts izejošais zvans.</string>
+    <string name="dualtalk_tip_accept_disconnect_incoming" tools:ignore="MissingTranslation">Apstiprinot šo zvanu, tiks noraidīts cits ienākošais zvans.</string>
+    <string name="dualtalk_tip_accept_disconnect_voice">Apstiprinot šo zvanu, tiks beigts(-i) balss zvans(-i).</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing_reject_incoming">Apstiprinot šo zvanu, tiks beigts izejošais zvans un noraidīts cits ienākošais zvans.</string>
+    <string name="dualtalk_tip_accept_disconnect_current_reject_incoming">Apstiprinot šo zvanu, tiks beigts pašreizējais zvans un noraidīts cits ienākošais zvans.</string>
+    
+    <string name="end_call_because_can_not_hold">Beidziet pašreizējo zvanu, jo to nevar atlikt.</string>
+    <string name="ring_only_once_title">Zvanīt tikai vienreiz</string>
+    <string name="ring_only_once_summary">Zvanīt tikai vienreiz, kad balss zvana režīmā izvēlēts apstiprināt video zvanu</string>
+    
+    
+    <string name="fdn_contact_name_number_invalid">Nosaukuma un numura lauks nevar būt vienlaikus tukšs.</string>
+    
+    <string name="fdn_contact_number_invalid">Nederīgs kontaktnumurs.</string>
+    <string name="fdn_phone_book_busy">Tālruņa grāmata ir aizņemta, mēģiniet vēlāk.</string>
+    
+    <string name="cdma_not_support">CDMA neatbalsta šo funkciju</string>
+    <string name="cdma_cfu_title">China Telecom</string>
+    <string name="labelCFC">Atcelt visu zvanu pāradresāciju</string>
+    <string name="cdma_cfu_dialog_sum">"Vienmēr izmantot šo numuru"</string>
+        
+    <string name="dual_mic_title">Trokšņu mazināšana</string>
+    <string name="dual_mic_summary">Apslāpēt fona troksni zvanu laikā</string>
+    
+    <string name="minutereminder_title">Minūšu atgādinājums</string>
+    <string name="minutereminder_summary">Atgādināt katras minūtes 50s</string>
+    <string name="voice_call_settings">Balss zvanu iestatījumi</string>
+    
+    <string name="enable_sip_dialog_message">Interneta zvanīšana ir atspējota. Vai iespējot to?</string>
+    
+    <string name="ip_prefix_setting">IP prefiksa numurs</string>
+    <string name="ip_prefix_setting_sum">IP prefiksa numuru iestatījumi</string>
+    <string name="enter_ip_prefix_number">Ievadiet prefiksa numuru</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Vispirms balss zvana iestatījumos ievadiet IP prefiksa numuru.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">IP numura sastādīšanas funkcija nav iespējama interneta zvaniem.</string>
+    <string name="ip_prefix_edit_default_sum">Ievadiet prefiksa numuru IP zvanīšanai</string>
+    
+    <string name="vt_cf_call_description">Video zvanu pāradresēšanas iestatījumi</string>
+    <string name="vt_cb_call_description">Video zvanu lieguma iestatījumi</string>
+    <string name="vt_addtional_call_description">Tālruņu numuru un zvanu gaidīšanas iestatījumi</string>
+    <string name="others">Citi iestatījumi</string>
+    
+    <string name="confirm_3g_switch">Vai tiešām vēlaties šai SIM kartei iestatīt 3G pakalpojumu? Tā rīkojoties, šai SIM kartei automātiski tiks iestatīta video zvana noklusējuma SIM karte.</string>
+    <string name="modem_switching">SIM kartes pārslēgšana aizņems aptuveni 10 sekundes. Lūdzu, uzgaidiet...</string>
+    <string name="confirm_3g_switch_to_off">Vai tiešām vēlaties izslēgt 3G pakalpojumu? Tā rīkojoties, automātiski tiks izslēgts arī video zvans.</string>
+    <string name="service_3g_off">"izslēgts"</string>
+    <string name="enable_3G_service">Iespējot 3G</string>
+    <string name="setting_for_3G_service">3G pakalpojums</string>
+    
+    
+    <string name="network_forbidden">aizliegts</string>
+    <string name="voice_mail_dialog_text">Jums ir jauns balss pasts no kontakta <xliff:g id="voicemail_sim_display_name">%s</xliff:g>. Vai vēlaties to saņemt tūlīt?</string>
+    <string name="lable_call_barring">"Zvanu aizliegšana"</string>
+    <string name="lable_all_outgoing">Visi izejošie zvani</string>
+    <string name="lable_all_outgoing_international">Starptautiskie izejošie zvani</string>
+    <string name="lable_all_out_except">Starptautiskie izejošie zvani, izņemot uz mājas PLMN</string>
+    <string name="lable_all_incoming">Visi ienākošie zvani</string>
+    <string name="lable_incoming_calls_except">Ienākošie zvani viesabonēšanas laikā</string>
+    <string name="deactivate_all">Atcelt visu</string>
+    <string name="change_password">Mainīt lieguma paroli</string>
+    <string name="call_barring_sum">Balss zvanu ierobežojuma iestatījumi</string>
+    
+    <string name="lable_disable">"Atspējots"</string>
+    <string name="lable_enable">Iespējots</string>
+    <string name="old_password_label">Vecā parole (4 cipari)</string>
+    <string name="new_password_label">Jauna parole (4 cipari)</string>
+    <string name="invalid_password">Ievadiet paroli, kas sastāv no 4 cipariem.</string>
+    <string name="confirm_password_label">Apstipriniet jauno paroli</string>
+    <string name="mismatch_password">Ievadītā parole nesakrīt. Mēģiniet vēlreiz.</string>
+    <string name="password_changed">Paroles maiņa izdevās</string>
+    <string name="enter_callbarring_password">Ievadiet zvanu ierobežošanas paroli (4 cipari)</string>
+    <string name="wrong_password">Paroles kļūda</string>
+    <string name="error_title">"Kļūda"</string>
+    <string name="cell_broadcast">Mobilā apraide</string>
+    <string name="cell_broadcast_settings">Mobilās apraides iestatījumi</string>
+    <string name="cb_menu_language">"Valoda"</string>
+    <string name="cb_menu_add_channel">Pievienot kanālu</string>
+    <string name="cb_menu_channel_list">Kanālu saraksts</string>
+    <string name="cb_dialog_title_language_choice">Atlasīt valodu</string>
+    <string name="cb_channel_dialog_channel_name">Kanāla nosaukums (0-10 rakstzīmes)</string>
+    <string name="cb_channel_dialog_channel_number">Kanāla numurs (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">Iespējot kanālu</string>
+    <string name="cb_channel_dialog_edit_channel">Rediģēt kanālu</string>
+    <string name="cb_menu_edit">"Rediģēt"</string>
+    <string name="cb_menu_delete">"Dzēšanas taustiņš"</string>
+    <string name="cb_error_channel_num">Ievadiet kanāla numuru (0-65534).</string>
+    <string name="cb_error_channel_name">Kanāla nosaukums garums nav pareizs (1–10 rakstzīmes).</string>
+    <string name="cb_error_language_select">Lūdzu, atlasiet vismaz vienu valodu.</string>
+    <string name="cb_error_channel_id_exist">Kanāla ID jau pastāv.</string>
+    <string name="cb_all_languages">"Visas valodas"</string>
+    <string name="cb_default_new_channel_name">Jauns kanāls</string>
+    <string name="fdn_errorcode_unknown_info">Neizdevās, radās nezināma kļūda, vēlāk mēģiniet vēlreiz.</string>
+    <string name="fdn_errorcode_number_info">Neizdevās, kontaktnumura garums pārāk garš.</string>
+    <string name="fdn_errorcode_name_info">Neizdevās, kontakta nosaukuma garums pārāk garš.</string>
+    <string name="fdn_errorcode_storage_info">Neizdevās, atmiņa pilna.</string>
+    <string name="fdn_errorcode_phb_info">Neizdevās, tālruņa grāmata nav tagad gatava, vēlāk mēģiniet vēlreiz.</string>
+    <string name="fdn_errorcode_pin2_info">Neizdevās, nederīgs PIN2.</string>
+    <string name="net_or_simcard_busy">Tīkla vai SIM karte ir aizņemta, vēlāk mēģiniet vēlreiz.</string>
+    
+    <string name="gsm_umts_network_preferences_title">Tīkla režīms</string>
+    <string name="gsm_umts_network_preferneces_summary">Vēl nav ieviests.</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">Tīkla režīms</string>
+    <string name="umts_preferred_network_mode_dialogtitle">Tīkla režīms</string>
+    
+    <string name="voice_call">Balss zvans</string>
+    <string name="video_call">"Videozvans"</string>
+    <string name="internet_call">Interneta zvans</string>
+    <string name="sum_voice_call">Ar balss zvanu saistītie iestatījumi</string>
+    <string name="sum_video_call">Ar video zvanu saistītie iestatījumi</string>
+    <string name="sum_internet_call">Ar interneta zvanu saistītie iestatījumi</string>
+    <string name="voice_mail">"Balss pasts"</string>
+    <string name="sum_voice_mail">Balsta pasta pakalpojums un numurs</string>
+    <string name="sum_cell_broadcast_control_on">Iespējot mobilo apraidi</string>
+    <string name="sum_cell_broadcast_control_off">Atspējot mobilo apraidi</string>
+    <string name="sum_cell_broadcast_setting">Valodu un kanālu iestatījumi mobilajai apraidei</string>
+    <string name="call_additional_sum">Tālruņu numuru un zvanu gaidīšanas iestatījumi</string>
+    <string name="vt_call_settings">Video zvanu iestatījumi</string>
+    <string name="vt_local_video_rep">Lokālā video aizstāšana</string>
+    <string name="vt_pic_replace_local_description">Iestatīt attēlu, lai rādīt, kad kamera izslēgta</string>
+
+    
+    <string name="mo_code_unconditional_cf_active">Zvanu pāradresācija\naktivizēta bez nosacījuma</string>
+    <string name="mo_code_some_cf_active">Zvanu pāradresācija\nAr nosacījumu</string>
+    <string name="mo_code_call_forwarded">Zvans pāradresēts</string>
+    <string name="mo_code_call_is_waiting">Zvana gaidīšana</string>
+    <string name="mo_code_cug_call">Slēgta lietotāju grupa</string>
+    <string name="mo_code_outgoing_calls_barred">Liegts izejošais zvans</string>
+    <string name="mo_code_incoming_calls_barred">Ienākošais zvans liegts otrā pusē</string>
+    <string name="mo_code_clir_suppression_rejected">Pārbaudīt zvanītāja ID sūtīšanas pakalpojumu</string>
+    <string name="mo_code_call_deflected">Zvans pāradresēts</string>
+    
+    <string name="mt_code_forwarded_call">Tas ir pāradresēts zvans</string>
+    <string name="mt_code_cug_call">Slēgta lietotāju grupa</string>
+    <string name="mt_code_call_on_hold">Aizturēts zvans</string>
+    <string name="mt_code_call_retrieved">Atjaunots zvans</string>
+    <string name="mt_code_multi_party_call">Konferences zvans</string>
+    <string name="mt_code_on_hold_call_released">Atvienots aizturētais zvans</string>
+    <string name="mt_code_forward_check_received">Pārsūtīta pārbaudes SS īsziņa saņemta</string>
+    <string name="mt_code_call_connecting_ect">Zvana pāradresācija</string>
+    <string name="mt_code_call_connected_ect">Zvanu pāradresācija ir aktīva</string>
+    <string name="mt_code_deflected_call">Tas ir novirzīts zvans</string>
+    <string name="mt_code_additional_call_forwarded">Papildu ienākošais zvans novirzīts</string>
+    <string name="mt_code_forwarded_cf">Zvans pāradresēts</string>
+    <string name="mt_code_forwarded_cf_uncond">Zvans pāradresēts bez nosacījuma</string>
+    <string name="mt_code_forwarded_cf_cond">Zvans pāradresēts ar nosacījumu</string>
+    <string name="mt_code_forwarded_cf_busy">Aizņemts zvans pāradresēts</string>
+    <string name="mt_code_forwarded_cf_no_reply">Zvans pāradresēts, jo nav atbildes</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Zvans pāradresēts, jo nav sasniedzams</string>
+    <string name="sim_manage_sipcall">Interneta zvans</string>
+    <string name="sim_manage_call_via">Zvanīt, izmantojot</string>
+    
+    
+	
+    <string name="manual_select_title">Atlasīt manuāli</string>    
+	<string name="manual_select_dialog_msg">Manuālās atlases režīmā mobilais tālrunis neatlasīs citu operatoru. Dažreiz jums vēlreiz jāveic manuālā atlasei vai jāmaina uz automātiskās atlases režīmu, ja zaudējat atlasītā operatora pakalpojumu. Iesakām izmantot \"Atlasīt automātiski\". Vai vēlies atlasīt tīklu manuāli?</string>    
+	<string name="no_service_msg_gemini">Šobrīd \"<xliff:g id="operator">%s</xliff:g>\" SIM kartei atlasītajam operatoram nav neviena pakalpojuma.\nIesakām izmantot \"Atlasīt automātiski\", vai varat manuāli atlasīt citu operatoru.</string>    
+	<string name="no_service_msg">Pašreiz atlasītajam operatoram nav pakalpojuma.\nIesakām izmantot \"Atlasīt automātiski\", vai varat manuāli atlasīt citu operatoru.</string>    
+	<string name="show_always_title">Vairs nebridināt</string>    
+	<string name="no_service_msg_title_gemini">Nav pakalpojuma operatoram \"<xliff:g id="operator">%s</xliff:g>\"</string>    
+	<string name="no_service_msg_title">"Nav pakalpojuma"</string>    
+    <string name="gemini_data_connection">Datu savienojums</string>
+	
+    <string name="plmn_list_setting_title">Vēlamie tīkli</string>
+    <string name="network_id">Tīkla ID</string>
+    <string name="dialog_network_priority_title">Prioritāte</string>
+    <string name="plmn_list_setting_add_plmn">Jauns PLMN</string>
+    
+    <string name="international_dialing_title">Starptautiskas numura sastādīšanas palīdzība</string>
+    <string name="international_dialing_select_country">Tika noteikts, ka veicat starptautisku zvanu. Izvēlieties mērķa vietu.</string>
+    <string name="international_dialing_add_country_code">Konstatēts, ka zvanāt uz <xliff:g id="country_name">%s</xliff:g> numuru. Vai vēlaties pievienot valsts kodu (+<xliff:g id="country_code">%s</xliff:g>)?</string>
+    <string name="international_dialing_add_country_code_and_area_code">Konstatēts, ka zvanāt uz numuru valstī <xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g>. Vai vēlaties pievienot valsts kodu un apgabala kodu (+<xliff:g id="prefix">%3$s</xliff:g>)?</string>
+    <string name="international_dialing_change_country_prefix">Konstatēts, ka zvanāt no <xliff:g id="country_name">%s</xliff:g>. Vai mainīt starptautiskā zvana prefiksu uz \'+\'?</string>
+    <string name="international_dialing_add_country_code_input_area_code">Konstatēts, ka zvanāt uz numuru valstī <xliff:g id="country_name">%s</xliff:g>. Ja jā, ievadiet apgabala kodu.</string>
+    <string name="international_dialing_add_country_code_default_input_area_code">Konstatēts, ka zvanāt uz numuru valstī <xliff:g id="country_name">%s</xliff:g>. Ja mērķa valsts ir <xliff:g id="area_name">%s</xliff:g>, ievadiet apgabala kodu.</string>
+    <string name="international_dialing_need_area_code">Zvanam ir nepieciešams mērķa pilsētas apgabala kods.</string>
+    <string name="international_dialing_input_area_code">Apgabala kodu ievadiet šeit</string>
+    <string name="international_dialing_dialed_number">Iezvanes numurs:</string>
+    <string name="international_dialing_confirm_area_code">Ja mērķa valsts ir <xliff:g id="area_name">%s</xliff:g>, tālāk ievadiet mērķa pilsētas apgabala kodu.</string>
+    <string name="international_dialing_click_below_button">Noklikšķiniet uz pogas tālāk, lai mainītu valsts koda numuru.</string>
+    <string name="international_dialing_yes">Jā. Lietot numuru tālāk:</string>
+    <string name="international_dialing_no">Nē. Lietot sākotnējo numuru:</string>
+    <string name="international_dialing_call_button">"Zvanīt"</string>
+    <string name="international_dialing_area_code">apgabala kods</string>
+    <string name="international_dialing_invalid_number">Numurs nav derīgs. Vai vienalga vēlaties turpināt ar zvanu?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">Vai vēlaties pievienot valsts kodu un apgabala kodu?</string>
+    <string name="no_search_result">Nav meklēšanas rezultātu</string>
+    <string name="which_call_to_activate">Kuru zvanu aktivizēt?</string>
+    <string name="gemini_3g_disable_warning_case0">"Vispirms jums ir jāiespējo datu viesabonēšana šai SIM kartei, kā rezultātā var rasties ievērojamas viesabonēšanas izmaksas. Vai tiešām vēlaties iespējot datu viesabonēšanu un atlasīt šo SIM karti?"</string>
+    <string name="gemini_3g_disable_warning_case1">"3G pakalpojums nav pieejams atlasītajai SIM kartei. Tas var radīt lēnāku datu ielādi. 3G pakalpojuma iestatījumu varat mainīt sadaļā Iestatījumi &gt; Bezvadu pakalpojums un tīkli &gt; Mobilie tīkli. Vai tiešām vēlaties atlasīt šo SIM karti?"</string>
+    <string name="gemini_3g_disable_warning_case2">"Vispirms jums ir jāiespējo datu viesabonēšana šai SIM kartei, kā rezultātā var rasties ievērojamas viesabonēšanas izmaksas. Turklāt 3G pakalpojumi nav pieejami atlasītajai SIM kartei. Tas var radīt lēnāku datu ielādi. Tos varat mainīt sadaļā Iestatījumi &gt; Bezvadu pakalpojums un tīkli &gt; Mobilie tīkli. Vai tiešām vēlaties iespējot datu viesabonēšanu un atlasīt šo SIM karti?"</string>
+    <string name="disable_data_connection_msg">Kamēr tiek meklēti visi pieejamie tīkli, lietotais datu savienojums tiek atvienots. Vai vēlaties turpināt?</string>
+    
+    <string name="voice_command_notification_ticker">Lai atbildētu uz ienākošo zvanu vai ignorētu to, varat izrunāt \"<xliff:g id="first_voice">%s</xliff:g>\" vai \"<xliff:g id="second_voice">%s</xliff:g>\"</string>
+    <string name="voice_command_notification_title">Balss vadība</string>
+    <string name="voice_command_notification_message">Tālrunim iespējota balss vadība</string>
+
+    <string name="callFailed_simError_cdma">Nav UIM/SIM vai UIM/SIM kļūda</string>
+
+    
+    <string name="callFailed_simError_slotNumber">Nav SIM vai SIM kļūdas atverē <xliff:g id="slotNumber">%s</xliff:g></string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="callFailed_cdma_notEmergency">"Iespējami ir tikai ārkārtas zvani."</string>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="buttonTxtContinue">"Turpināt"</string>
+
+    <string name="fdn_only_error">Darbības ir atļautas, tikai zvanot uz fiksētajiem numuriem.</string>
+
+    <string name="network_setting_all_forbidden_dialog">Nav pieejamu tīklu. Pamēģiniet pārslēgties uz 3G pakalpojumu vai noklikšķiniet uz aizliegta tīkla, lai reģistrētu manuāli.</string>
+
+    
+    <string name="reset_data_usage">Atiestatīt datu apjomu</string>
+
+    
+    <string name="simContacts_emptyLoading_ex">Nolasa kontaktus no %s\u2026</string>
+
+    <string name="one_retry_left">Atlicis 1 mēģinājums</string>
+    <string name="retries_left">Atlikuši <xliff:g id="number">%d</xliff:g> mēģinājumi</string>
+    <string name="pin2_unblocked">PIN2 atbloķēšana sekmīga</string>
+    <string name="unblock_pin2">Atbloķēt PIN2</string>
+    <string name="sim_permanently_locked">Vairāk nekā 10 reizes ievadot nepareizu PUK2 kodu, SIM karte tiks neatgriezeniski bloķēta.</string>
+    <string name="pin_length_indicate">(4-8 cipari)</string>
+    <string name="puk_length_indicate">(8 cipari)</string>
+
+    
+    <string name="caller_manage_manage_done_text">"Atpakaļ pie zvana"</string>
+
+    
+    <string name="card_title_incoming_vt_call">Ienākošais video zvans</string>
+
+    
+    <string name="voicemail_settings_for"><xliff:g id="provider_name">%s</xliff:g> iestatījumi</string>
+
+    
+    <string name="sip_call_options_title_single_sim">Interneta zvanīšanas opcijas</string>
+
+    
+    <string name="description_search_button">"Meklēt"</string>
+
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (automātiski)</item>
+        <item>Tikai 3G</item>
+        <item>Tikai 2G</item>
+    </string-array>
+    
+
+    <string-array name="umts_network_preferences_choices">
+        <item>2G/3G (automātiski)</item>
+        <item>Tikai 3G</item>
+    </string-array>
+
+    
+
+    
+    
+    
+    
+    <string-array name="lte_usim_prefer_network_mode_choices">
+        <item>4G/3G/2G (automātiski)</item>
+        <item>3G/2G (automātiski)</item>
+        <item>Tikai 2G</item>
+    </string-array>
+        <string-array name="lte_usim_prefer_network_mode_values">
+        <item>"9"</item>
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+
+    <string-array name="lte_sim_prefer_network_mode_choices">
+        <item>3G/2G (automātiski)</item>
+        <item>Tikai 2G</item>
+    </string-array>
+        <string-array name="lte_sim_prefer_network_mode_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <string name="cipher_indication_notification_title">Bez balss šifrēšanas</string>
+    <string name="cipher_indication_notification_message">Tīkls izslēdzis balss šifrēšanu</string>
+
+    
+    <string name="network_type">Tīkla veids</string>
+    <string name="network_type_2g">2G</string>
+    <string name="network_type_3g">3G</string>
+    <string name="network_type_4g">"4G"</string>
+    
+    
+
+    <string name="cancel">"Atcelt"</string>
+</resources>

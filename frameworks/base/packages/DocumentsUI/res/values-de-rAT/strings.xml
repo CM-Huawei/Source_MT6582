@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="app_label">Dokumente</string>
+
+    
+    <string name="title_open">Öffnen von</string>
+    
+    <string name="title_save">Speichern unter</string>
+
+    
+    <string name="menu_create_dir">Ordner erstellen</string>
+    
+    <string name="menu_grid">Rasteransicht</string>
+    
+    <string name="menu_list">Listenansicht</string>
+    
+    <string name="menu_sort">Sortieren nach</string>
+    
+    <string name="menu_search">Suchen</string>
+    
+    <string name="menu_settings">Einstellungen</string>
+
+    
+    <string name="menu_open">Offen</string>
+    
+    <string name="menu_save">Speichern</string>
+    
+    <string name="menu_share">Teilen</string>
+    
+    <string name="menu_delete">Löschen</string>
+
+    
+    <string name="mode_selected_count"><xliff:g id="count" example="3">%1$d</xliff:g> ausgewählt</string>
+
+    
+    <string name="sort_name">Nach Name</string>
+    
+    <string name="sort_date">Nach Änderungsdatum</string>
+    
+    <string name="sort_size">Nach Größe</string>
+
+    
+    <string name="drawer_open">Quellen anzeigen</string>
+    
+    <string name="drawer_close">Quellen verbergen</string>
+
+    
+    <string name="save_error">Dokument kann nicht gespeichert werden.</string>
+    
+    <string name="create_error">Ordner kann nicht erstellt werden</string>
+    
+    <string name="query_error">Dokument kann nicht abgefragt werden.</string>
+
+    
+    <string name="root_recent">Kürzlich</string>
+    
+    <string name="root_available_bytes"><xliff:g id="size" example="3GB">%1$s</xliff:g> frei</string>
+
+    
+    <string name="root_type_service">Speicherdienst</string>
+    
+    <string name="root_type_shortcut">Verknüpfung</string>
+    
+    <string name="root_type_device">Geräte</string>
+    
+    <string name="root_type_apps">Weitere Apps</string>
+
+    
+    <string name="pref_advanced_devices">Erweiterte Geräte anzeigen</string>
+    
+    <string name="pref_file_size">Dateigröße anzeigen</string>
+    <string name="pref_device_size">Gerätegröße anzeigen</string>
+
+    
+    <string name="empty">Keine Elemente</string>
+
+    
+    <string name="toast_no_application">Kann Datei nicht öffnen.</string>
+    
+    <string name="toast_failed_delete">Kann einige Dokumente nicht löschen.</string>
+
+    
+    <string name="share_via">Teilen über</string>
+
+</resources>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="onscreenHangupAll">Alles ophangen</string>
+    <string name="onscreenHangupHolding">In wachtstand ophangen</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Actief ophangen, in wachtstand beantwoorden</string>
+    <string name="onscreenECT">Overdragen</string>
+
+    <string name="dm_lock">DM vergrendeld</string>
+    <string name="dm_unlock">DM ontgrendelen</string>
+
+    <string name="mo_code_unconditional_cf_active">Gesprek doorverbinden\nonvoorwaardelijk geactiveerd</string>
+    <string name="mo_code_some_cf_active">Oproep doorschakelen\nVoorwaardelijk</string>
+    <string name="mo_code_call_forwarded">Oproep doorgeschakeld</string>
+    <string name="mo_code_call_is_waiting">Gesprek in wacht</string>
+    <string name="mo_code_cug_call">Gesloten gebruikersgroep</string>
+    <string name="mo_code_outgoing_calls_barred">Uitgaande oproep geblokkeerd</string>
+    <string name="mo_code_incoming_calls_barred">Binnenkomend gesprek geblokkeerd aan de andere kant</string>
+    <string name="mo_code_clir_suppression_rejected">Beller-ID verzendservice controleren</string>
+    <string name="mo_code_call_deflected">Oproep doorgeschakeld</string>
+    <string name="mt_code_forwarded_call">Dit is een omgeleide oproep</string>
+    <string name="mt_code_cug_call">Gesloten gebruikersgroep</string>
+    <string name="mt_code_call_on_hold">Oproep in de wacht</string>
+    <string name="mt_code_call_retrieved">Oproep opgehaald</string>
+    <string name="mt_code_multi_party_call">Vergadergesprek</string>
+    <string name="mt_code_on_hold_call_released">Gesprek in wacht vrijgegeven</string>
+    <string name="mt_code_forward_check_received">Doorschakelen controle ontvangen SS-bericht</string>
+    <string name="mt_code_call_connecting_ect">Oproep overdragen</string>
+    <string name="mt_code_call_connected_ect">Oproepoverdracht actief</string>
+    <string name="mt_code_deflected_call">Dit is een omgeleide oproep</string>
+    <string name="mt_code_additional_call_forwarded">Extra binnenkomende oproep doorgeschakeld</string>
+    <string name="mt_code_forwarded_cf">Oproep doorgeschakeld</string>
+    <string name="mt_code_forwarded_cf_uncond">Oproep doorgeschakeld op onvoorwaardelijk</string>
+    <string name="mt_code_forwarded_cf_cond">Oproep doorgeschakeld op voorwaardelijk</string>
+    <string name="mt_code_forwarded_cf_busy">Oproep bezet doorgeschakeld</string>
+    <string name="mt_code_forwarded_cf_no_reply">Oproep doorgeschakeld bij geen antwoord</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Oproep doorgeschakeld bij niet bereikbaar</string>
+    
+    <string name="start_record">Opname starten</string>
+    <string name="stop_record">Opname stoppen</string>
+    <string name="str_db_playlist_name">Mijn opnamen</string>
+    <string name="alert_device_error">Fout op audio-apparaat</string>
+    <string name="ext_media_badremoval_notification_title">SD-kaart onverwacht verwijderd</string>
+    <string name="error_sdcard_access">"Geen toegang tot SD-kaart"</string>
+    <string name="confirm_device_info_full">SD-kaart is vol. De opname is opgeslagen.</string>
+    <string name="confirm_save_info_saved">De opname is opgeslagen</string>
+    <string name="confirm_save_info_saved_to">De opname is opgeslagen op</string>
+    
+    <string name="activity_not_found">"Deze toepassing is niet geïnstalleerd op uw telefoon."</string>
+    <string name="confirm_3g_switch">Weet u zeker dat u de 3G-dienst op deze SIM wilt zetten? Dit stelt ook automatisch de standaard SIM voor videogesprekken op deze SIM in.</string>
+    <string name="modem_switching">Het schakelen naar een SIM duurt ongeveer 10 seconden. Een ogenblik geduld…</string>
+    <string name="confirm_3g_switch_to_off">Weet u zeker dat u deze 3G-service wilt uitschakelen? Hierdoor wordt de service voor videogesprekken automatisch uitgeschakeld.</string>
+    <string name="enable_3G_service">3G inschakelen</string>
+    <string name="network_forbidden">Uitschakelen</string>
+    <string name="plmn_list_setting_title">Voorkeuren</string>
+    <string name="plmn_list_setting_add_plmn">Nieuwe PLMN toevoegen</string>
+    <string name="callFailed_dsac_vt_incompatible_destination">Video-gesprek kan niet worden ingesteld. Video-telefonie wordt niet ondersteund op de telefoon die u belt, in plaats daarvan met spraak bellen?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">Het videogesprek kan niet worden ingesteld. De telefoon die u hebt gebeld ligt buiten het 3G-servicegebied. Bellen met spraakoproep?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">Het videogesprek kan niet worden ingesteld. Bellen met spraakoproep?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">Uw telefoon ligt buiten het 3G-servicegebied. Bellen met spraakoproep?</string>
+    <string name="notification_voicemail">Voicemail</string>
+    <string name="turn_on_3g_service_message">3G-dienst is nu uitgeschakeld, wilt u deze inschakelen?</string>
+    <string name="associate_sim_missing_message">"SIM %1$s is niet beschikbaar. Wilt u de oproep plaatsen via %2$s"</string>
+    <string name="associate_sim_missing_other">Overig</string>
+
+    <string name="vt_settings">Video-instellingen</string>
+    <string name="vt_local_video_zoom">Zoom lokale video</string>
+    <string name="vt_local_video_brightness">Helderheid lokale video</string>
+    <string name="vt_local_video_effect">Effect lokale video</string>
+    <string name="vt_local_video_nightmode">Nachtmodus lokale video</string>
+    <string name="vt_peer_video_quality">Videokwaliteit peer</string>
+    <string name="vt_incoming_showme_ask">Vragen</string>
+    <string name="vt_call_settings">Instellingen videogesprek</string>
+    <string name="vt_pic_replace_local_default">Standaardafbeelding</string>
+    <string name="vt_pic_replace_local_freezeme">Mij bevriezen</string>
+    <string name="vt_pic_replace_local_mypic">Mijn afbeelding</string>
+    <string name="vt_sd_null">SD-kaart is\nniet beschikbaar</string>
+    <string name="vt_sd_not_enough">SD-kaart is bijna\nvol</string>
+    <string name="vt_peer_video_quality_normal">Normaal</string>
+    <string name="vt_ask_show_local">Lokale video aan peer tonen?</string>
+    <string name="vt_change_my_pic">Wijzigen</string>
+    <string name="vt_pic_saved_to_sd">Snapshot opgeslagen op SD-kaart</string>
+    <string name="vt_pic_saved_to_sd_fail">Kan snapshot niet opslaan</string>
+    <string name="vt_error_network">Netwerk niet bereikbaar. Het videogesprek wordt verbroken.</string>
+    <string name="vt_error_media">Video wordt niet goed weergegeven. Het videogesprek wordt verbroken.</string>
+    <string name="vt_swap_video">Video\'s wisselen</string>
+    <string name="vt_local_video_contrast">Contrast lokale video</string>
+    <string name="vt_menu_switch">Camera schakelen</string>
+    <string name="vt_menu_hide_me">Lokale video verbergen</string>
+    <string name="vt_menu_show_me">Lokale video weergeven</string>
+    <string name="vt_menu_snapshot">Peer-opname</string>
+    <string name="vt_vocie_answer">Spraakantwoord</string>
+    <string name="vt_wait_voice">Wachten op verbinding spraakoproep</string>
+    <string name="vt_voice_connecting">Spraakoproep wordt verbonden</string>
+    <string name="vt_cannot_support_setting">De huidige camera kan deze instelling niet ondersteunen</string>
+    <string name="vt_network_unreachable">Netwerk niet bereikbaar</string>
+    <string name="vt_iot_error_01">Videogesprek kan niet worden ingesteld</string>
+    <string name="vt_iot_error_02">De telefoon is bezet</string>
+    <string name="vt_iot_error_03">Er is geen antwoord</string>
+    <string name="vt_iot_error_04">Het netwerk is bezet</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"Belichting"</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">Whiteboard</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">Blackboard</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Aqua</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Sepia blauw</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Sepia groen</string>
+    <string name="vt_peer_camera_open">Externe camera geopend</string>
+    <string name="vt_peer_camera_close">Externe camera gesloten</string>
+    <string name="vt_recorder_start">Opname starten</string>
+    <string name="vt_recorder_voice_and_peer_video">Stem en peer-video</string>
+    <string name="vt_recorder_only_voice">Alleen spraak</string>
+    <string name="vt_recorder_only_peer_video">Alleen peer-video</string>
+    <string name="vt_recording_saved">De opname is opgeslagen.</string>
+    <string name="vt_recording_saved_sd_full">SD-kaart is vol. De opname is opgeslagen.</string>
+    <string name="vt_recording_error">Opnamefout.</string>
+    <string name="start_record_vt">Opname starten</string>
+    <string name="stop_record_vt">Opname stoppen</string>
+    <string name="enable_sip_dialog_message">Internetgesprek is uitgeschakeld. Wilt u het inschakelen?</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">De functie IP kiezen is niet van toepassing op bedoelde oproep.</string>
+    <string name="sim_manage_sipcall">Internet</string>
+    <string name="sim_manage_call_via">Bellen via</string>
+    <string name="voice_call_settings">Instellingen spraakoproep</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> min. <xliff:g id="seconds" example="28">%2$s</xliff:g> sec.</string>
+    <string name="reminder">Herinnering</string>
+    <string name="vt_media_occupied">Wegens ontbreken van camera geen videogesprek mogelijk. Controleer of een andere toepassing de camera gebruikt.</string>
+    <string name="vt_media_video_fail">Video kan niet correct worden weergegeven. Het videogesprek is afgebroken</string>
+    <string name="incall_toast_unhold">Hervatten</string>
+
+</resources>

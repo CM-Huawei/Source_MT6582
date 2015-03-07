@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="accessibility_switch_to_mav">Режим багатокутового перегляду</string>
+    <string name="accessibility_switch_to_hdr">Режим HDR</string>
+    <string name="accessibility_switch_to_face_beauty">Режим красиве обличчя</string>
+    <string name="accessibility_switch_to_asd">Режим автовизначення сцени</string>
+    <string name="accessibility_switch_to_smile">Режим фото поспішки</string>
+    <string name="accessibility_switch_to_best">Режим кращого фото</string>
+    <string name="accessibility_switch_to_ev">Режим фото рамки EV</string>
+    
+    <string name="accessibility_switch_to_camera">Звичайний режим</string>
+    
+    <string name="accessibility_switch_to_video">Режим відео</string>
+    
+    <string name="accessibility_switch_to_panorama">Режим панорами</string>
+    <string name="accessibility_switch_to_live_photo">Режим Фото наживо</string>
+    <string name="accessibility_switch_to_motion_track">Режим відстеження руху</string>
+    <string name="accessibility_video_shutter_button">Кнопка відео-спуску</string>
+    
+    <string name="bg_replacement_message">"Розташуйте пристрій на стійкій поверхні і переконайтеся, що у попередньому перегляді нема руху.\nКоли у попередньому перегляді з'являться ефекти наживо, можна записувати відео."</string>
+    
+    <string name="capture_memory_not_enough">"Бракує пам'яті, будь ласка, закрийте інші застосунки."</string>    
+    
+    <string name="camera_continuous_not_supported">" не підтримує тривалу зйомку."</string>
+    <string name="camera_saving_busy">Збереження зображень, будь ласка, почекайте.</string>
+        <string name="continuous_saving_pictures">Збереження <xliff:g id="numbers" example="10">%1$d</xliff:g> зображень</string>
+    
+    <string name="hdr_guide_capture">Не переміщуйте пристрій під час зйомки HDR</string>
+    
+    
+    <string name="mav_dialog_save_failed">Неможливо зберегти зображення.</string>
+    <string name="mav_dialog_title">Багатокутовий перегляд</string>
+    <string name="mav_guide_shutter">Натисніть спуск, щоб почати зйомку багатокутового зображення</string>
+    <string name="motion_track_guide_shutter">Натисніть і утримуйте спуск, щоб робити послідовні знімки. Відпустіть, щоб зупинити зйомку. Під час зйомки тримайте камеру нерухомо.</string>
+    <string name="motion_track_required_more">Потрібно хоча б 2 послідовні знімки. Будь ласка, повторіть спробу.</string>
+    <string name="motion_track_blended_failed">Помилка відстеження руху - розмите зображення.</string>
+    <string name="motion_track_move">Під час зйомки тримайте камеру нерухомо.</string>
+    <string name="mav_guide_move">Рухайте камерою довкола цілі.</string>
+    <string name="normal_camera_continuous_not_supported">"Не підтримує тривалу зйомку."</string>
+
+    <string name="wfd_normal_camera_continuous_not_supported">"WFD не підтримує тривалу зйомку."</string>
+    
+    <string name="wfd_motion_track_not_supported">"WFD не підтримує тривалу відстеження руху."</string>
+    <string name="wfd_live_photo_not_supported">"WFD не підтримує фото наживо."</string>
+    
+    
+    <string name="pref_video_quality_entry_low">"Низьк."</string>
+    <string name="pref_video_quality_entry_medium">"Середній"</string>
+    <string name="pref_video_quality_entry_high">"Високий"</string>
+    <string name="pref_video_quality_entry_fine">Тонке</string>
+    <string name="pref_camera_picturesize_entry_4096x3072">12М пікселів</string>
+    <string name="pref_camera_picturesize_entry_3672x2754">10М пікселів</string>
+    <string name="pref_camera_picturesize_entry_3600x2700">9,5М пікселів</string>
+    <string name="pref_camera_picturesize_entry_3264x2448">8М пікселів</string>
+    <string name="pref_camera_picturesize_entry_1280x720">"1 Мпікс"</string>
+    <string name="pref_camera_picturesize_entry_1280x768">"1 Мпікс"</string>
+    <string name="pref_camera_picturesize_entry_2560x1440">4М пікселів</string>
+    <string name="pref_camera_picturesize_entry_3328x1872">6М пікселів</string>
+    <string name="pref_camera_whitebalance_entry_twilight">Сутінки</string>
+    <string name="pref_camera_whitebalance_entry_shade">Тінь</string>
+    <string name="pref_camera_whitebalance_entry_warm_fluorescent">Тепле люмінісцентне</string>
+    <string name="pref_camera_whitebalance_entry_tungsten">Лампочка розжарювання</string>
+    
+    <string name="pref_camera_capturemode_entry_normal">"Звичайний"</string>
+    <string name="pref_camera_capturemode_enrty_fb">Красиве обличчя</string>
+    <string name="pref_camera_capturemode_entry_bestshot">Найкраще фото</string>
+    <string name="pref_camera_capturemode_entry_evbracketshot">Фото рамки EV</string>
+    <string name="pref_camera_capturemode_entry_smileshot">Фото посмішки</string>
+    <string name="pref_camera_capturemode_entry_gestureshot">Знімок-жест</string>
+
+    
+
+    
+    
+    
+    <string name="pref_camera_iso_entry_auto">"Автом."</string>
+    
+    
+    
+    
+    
+
+    
+    
+    <string name="pref_camera_edge_title">"Різкість"</string>
+
+    
+    <string name="pref_camera_hue_title">"Тон"</string>
+
+    
+    <string name="pref_camera_saturation_title">"Насиченість"</string>
+
+    
+    <string name="pref_camera_brightness_title">"Яскравість"</string>
+
+    
+    <string name="pref_camera_contrast_title">"Контраст"</string>
+
+    <string name="pref_camera_dip_entry_low">"Низьк."</string>
+    <string name="pref_camera_dip_entry_middle">"Середній"</string>
+    <string name="pref_camera_dip_entry_high">"Високий"</string>
+
+    
+    
+
+    
+    <string name="pref_camera_coloreffect_title">Кольоровий ефект</string>
+
+    
+    <string name="pref_camera_coloreffect_entry_none">"Нічого"</string>
+    <string name="pref_camera_coloreffect_entry_mono">Моно</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"Сепія"</string>
+    <string name="pref_camera_coloreffect_entry_negative">Негатив</string>
+    
+    <string name="pref_camera_coloreffect_entry_solarize">Перетримано</string>
+    <string name="pref_camera_coloreffect_entry_posterize">Ефект плаката</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">Біла дошка</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">Чорна дошка</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Аква</string>
+    <string name="pref_camera_coloreffect_entry_pastel">Пастель</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">Мозаїка</string>
+    <string name="pref_camera_coloreffect_entry_redtint">Червоний відтінок</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">Блакитний відтінок</string>
+    <string name="pref_camera_coloreffect_entry_greentint">Зелений відтінок</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Блакитна сепія</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Зелена сепія</string>
+
+    
+
+    
+    
+    <string name="pref_camera_selftimer_title">Автоспуск</string>
+    <string name="pref_camera_selftimer_entry_off">"Вимк."</string>
+    <string name="pref_camera_selftimer_entry_2">"2 сек."</string>
+    <string name="pref_camera_selftimer_entry_10">"10 сек."</string>
+
+    
+    <string name="pref_camera_focusmode_entry_continuous">тривала</string>
+
+    
+    <string name="pref_camera_capturemode_entry_asd">Автовизначення сцени</string>
+
+    
+    
+    <string name="pref_camera_antibanding_title">Проти мерехтіння</string>
+    <string name="pref_camera_antibanding_entry_auto">"Автом."</string>
+    <string name="pref_camera_antibanding_entry_50hz">50 Гц</string>
+    <string name="pref_camera_antibanding_entry_60hz">60 Гц</string>
+
+    
+    
+    <string name="pref_camera_scenemode_entry_portrait">Портрет</string>
+    
+    <string name="pref_camera_scenemode_entry_landscape">Пейзаж</string>
+    
+    <string name="pref_camera_scenemode_entry_night_portrait">Нічний портрет</string>
+    
+    <string name="pref_camera_scenemode_entry_theatre">Театр</string>
+    
+    <string name="pref_camera_scenemode_entry_beach">Пляж</string>
+    
+    <string name="pref_camera_scenemode_entry_snow">Сніг</string>
+    
+    <string name="pref_camera_scenemode_entry_steadyphoto">Непорушне фото</string>
+    
+    <string name="pref_camera_scenemode_entry_fireworks">Феєрверки</string>
+    <string name="pref_camera_scenemode_entry_sports">Спорт</string>
+    <string name="pref_camera_scenemode_entry_candlelight">Світло свічки</string>
+    
+    
+    
+    
+    
+    
+    
+    <string name="pref_camera_eis_on">"Увімк."</string>
+    <string name="pref_camera_eis_off">"Вимк."</string>
+    
+    
+    
+    <string name="pref_camera_recordaudio_title">"Мікрофон"</string>
+    <string name="pref_camera_recordaudio_entry_off">"Вимк."</string>
+    <string name="pref_camera_recordaudio_entry_on">"Увімк."</string>
+
+     
+    
+    <string name="pref_camera_video_hd_recording_title">Режим аудіо</string> 
+    <string name="pref_camera_video_hd_recording_normal_ics">"Звичайний"</string>
+    <string name="pref_camera_video_hd_recording_indoor_ics">Зустріч</string>
+
+    
+    
+    
+
+    
+    <string name="pref_camera_continuous_number_title">Зняти номер</string>
+    
+    <string name="pref_camera_continuous_number_normal">40 знімків</string>
+    <string name="pref_camera_continuous_number_large">99 знімків</string>
+
+    <string name="panorama_guide_shutter">Натисніть спуск, щоб почати зйомку панорами</string>
+    <string name="panorama_guide_capture">Пересуньте пристрій, щоб накладалися 2 лінії</string>
+
+     
+    <string name="pref_camera_image_properties_default">"За умовчанням"</string> 
+    <string name="pref_camera_image_properties_title">Властивості зображення</string>
+    
+    
+    
+    <string name="pref_camera_picturesize_ratio_entry_16_9">Повний екран</string>    
+    
+    
+    <string name="pref_camera_picturesize_ratio_entry_4_3">Стандарт (4:3)</string>
+    <string name="pref_camera_picturesize_ratio_title">Розмір попереднього перегляду</string>
+    
+    <string name="pref_voice_capture">Запис голосу</string>
+    
+    
+    
+    
+    <string name="pref_video_hdr_title">Відео HDR</string>
+    
+    
+    
+    
+     
+    <string name="pref_camera_facebeauty_properties_default">"За умовчанням"</string> 
+    <string name="pref_camera_facebeauty_properties_title">Красиве обличчя</string>
+    
+    <string name="pref_facebeauty_smooth_title">Видалення зморшок</string>
+    
+    <string name="pref_facebeauty_skin_color_title">Відбілювання</string>
+    
+    <string name="pref_facebeauty_sharp_title">Форма</string>
+
+     
+    <string name="pref_camera_face_detect_title">Визначення обличчя</string>
+    
+    <string name="pref_camera_face_detect_entry_off">"Вимк."</string>
+    <string name="pref_camera_face_detect_entry_on">"Увімк."</string>
+
+    <string name="pref_camera_record_location_title">"Місце зберігання"</string>
+    
+    
+    <string name="pref_video_time_lapse_frame_interval_entry_1000">"1 сек."</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_1500">1,5 сек.</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_2000">"2 сек."</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_2500">2,5 сек.</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_3000">"3 сек."</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_5000">"5 сек."</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_10000">"10 сек."</string>
+    
+    
+    
+    
+    
+    <string name="livephoto_dialog_title">Фото наживо</string>
+    <string name="saving_livephoto">Збереження фото наживо\u2026</string>
+    <string name="smileshot_guide_capture">Автозйомка, коли визначено посмішку</string>
+    <string name="toast_video_recording_not_available">Будь ласка, зупиніть інші застосунки запису перед користуванням відеокамерою.</string>
+
+    
+    <string name="video_bad_performance_auto_stop">"Мало пам'яті, автозупинка запису."</string>
+    <string name="video_bad_performance_drop_quality">"Мало пам'яті, автозміна якості."</string>
+    <string name="video_encoder_error">Помилка кодувальника!</string>
+    
+    <string name="voice_guide">Можна сказати \"%1$s\" або \"%2$s\", щоб зробити фото</string>
+    <string name="video_live_effect_error">Помилка під час запису!</string>
+
+    
+    
+    
+    
+    
+    <string name="stereo3d_convert2d_dialog_title">Конвертувати в 2D</string>
+    <string name="stereo3d_convert2d_progress_text">Конверта в 2D...</string>
+    <string name="stereo3d_share_convert_text_multiple">Вибрані зображення включають 3D. Щоб продовжити спільне користування, вони перетворяться на 2D.</string>
+    <string name="stereo3d_share_dialog_text_multiple">Вибрані зображення включають 3D. Отримувач може неправильно їх побачити.</string>
+    <string name="stereo3d_attach_dialog_title">Приєднати як 3D або 2D</string>
+    <string name="stereo3d_attach_dialog_button_2d">Приєднати як 2D</string>
+    <string name="stereo3d_attach_dialog_button_3d">Приєднати як 3D</string>
+
+    <string name="single3d_guide_shutter">Натисніть спуск, щоб почати зйомку 3D-зображення</string>
+    <string name="single3d_guide_move">Пересуньте пристрій вправо, щоб накласти на рамку</string>
+    <string name="panorama3d_guide_shutter">Натисніть спуск, щоб почати зйомку 3D-панорами</string>
+    <string name="panorama_guide_choose_direction">Пересувайте пристрій у напрямку зйомки</string>
+    <string name="panorama3d_guide_move">Пересувайте пристрій вправо</string>
+    <string name="panorama3d_guide_capture">Пересуньте пристрій вправо, щоб накласти на 2 лінії</string>
+    
+    
+    
+    
+    <string name="pref_camera_picturesize_stereo3d_title">Розмір зображення стерео3D</string>
+        
+    
+    <string name="pref_stereo3d_mode_title">Перемикач 3D</string>
+    <string name="pref_stereo3d_mode_entry_off">"Вимк."</string>
+    <string name="pref_stereo3d_mode_entry_on">"Увімк."</string>
+    
+    
+    <string name="object_track_enable_toast">"Натисніть і утримуйте об'єкт на екрані, щоб активувати відстеження предмету."</string>
+     
+    <string name="pref_camera_hdr_title">HDR</string>
+    
+    <string name="pref_camera_hdr_entry_off">"Вимк."</string>
+    <string name="pref_camera_hdr_entry_on">"Увімк."</string>
+    
+     
+    <string name="pref_smile_shot_title">Зйомка посмішки</string>
+    
+    <string name="pref_smile_shot_entry_off">"Вимк."</string>
+    <string name="pref_smile_shot_entry_on">"Увімк."</string>
+    
+     
+    <string name="pref_asd_title">Автовизначення сцени</string>
+    
+    <string name="pref_asd_entry_off">"Вимк."</string>
+    <string name="pref_asd_entry_on">"Увімк."</string>
+</resources>

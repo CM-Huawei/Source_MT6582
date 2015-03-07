@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2007 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>Primeros 4 dígitos</item>
+        <item>Últimos 4 dígitos</item>
+        <item>No mostrar</item>
+    </string-array>
+
+    <string-array name="gemini_sim_roaming_reminder_entries">
+        <item>Una vez</item>
+        <item>Siempre</item>
+        <item>"Nunca"</item>
+    </string-array>
+
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (modo automático)</item>
+        <item>Solo WCDMA </item>
+        <item>"GSM solamente"</item>
+    </string-array>
+
+    <string-array name="wifi_ap_channel_width">
+        <item>20 MHz</item>
+        <item>20/40 MHz automático</item>
+    </string-array>
+
+    <string-array name="auto_time_entries">
+        <item>"Usar hora proporcionada por la red"</item>
+        <item>Usar el tiempo provisto por GPS</item>
+        <item>"desactivado"</item>
+    </string-array>
+
+    <string-array name="hdmi_video_mode_entries">
+        <item>Pantalla completa</item>
+        <item>Mejor ajuste</item>
+        <item>Tamaño original</item>
+    </string-array>
+
+    <string-array name="hdmi_deep_color_entries">
+        <item>8 bit</item>
+        <item>"automático"</item>
+        <item>10 bits</item>
+        <item>12 bits</item>
+    </string-array>
+
+    <string-array name="sim_slot">
+        <item>"(sin especificar)"</item>
+        <item>Ranura Sim 1</item>
+        <item>Ranura Sim 2</item>
+    </string-array>
+
+    <string-array name="wifi_WEP_security_type">
+        <item>"automático"</item>
+        
+        <item>WEP ASCII</item>
+        <item>WEP hexadecimal</item>
+    </string-array>
+    
+    <string-array name="wifi_hotspot_disable_policy_entries">
+        <item>Siempre</item>
+        <item>Apagar cuando no esté activo durante 5 minutos</item>
+        <item>Apagar cuando no esté activo durante 10 minutos</item>
+    </string-array>
+
+    <string-array name="wifi_ap_wps_mode_entries">
+        <item>"Presionar botón"</item>
+        <item>PIN del cliente</item>
+    </string-array>
+
+    <string-array name="wifi_ap_max_connection_entries">
+        <item>1 usuario</item>
+        <item>2 usuarios</item>
+        <item>3 usuarios</item>
+        <item>4 usuarios</item>
+        <item>5 usuarios</item>
+        <item>6 usuarios</item>
+        <item>7 usuarios</item>
+        <item>8 usuarios</item>
+    </string-array>
+
+    <string-array name="mouse_primary_button_titles">
+        <item>Mouse para diestro</item>
+        <item>Mouse para zurdo</item>
+    </string-array>
+
+    <string-array name="wfd_720p_resolution_entry">
+        <item>720p (60 fotogramas/segundo)</item>
+        <item>﻿720p (30 fotogramas/segundo)</item>
+    </string-array>
+
+    <string-array name="wfd_1080p_resolution_entry">
+        <item>1080p (30 fotogramas/segundo)</item>
+        <item>720p (60 fotogramas/segundo)</item>
+        <item>720p (30 fotogramas/segundo)</item>
+    </string-array>
+</resources>

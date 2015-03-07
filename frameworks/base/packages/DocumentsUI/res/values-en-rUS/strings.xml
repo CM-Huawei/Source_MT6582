@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="app_label">Documents</string>
+
+    
+    <string name="title_open">Open from</string>
+    
+    <string name="title_save">Save to</string>
+
+    
+    <string name="menu_create_dir">Create folder</string>
+    
+    <string name="menu_grid">Grid view</string>
+    
+    <string name="menu_list">List view</string>
+    
+    <string name="menu_sort">Sort by</string>
+    
+    <string name="menu_search">Search</string>
+    
+    <string name="menu_settings">Settings</string>
+
+    
+    <string name="menu_open">Open</string>
+    
+    <string name="menu_save">Save</string>
+    
+    <string name="menu_share">Share</string>
+    
+    <string name="menu_delete">Delete</string>
+
+    
+    <string name="mode_selected_count"><xliff:g id="count" example="3">%1$d</xliff:g> selected</string>
+
+    
+    <string name="sort_name">By name</string>
+    
+    <string name="sort_date">By date modified</string>
+    
+    <string name="sort_size">By size</string>
+
+    
+    <string name="drawer_open">Show roots</string>
+    
+    <string name="drawer_close">Hide roots</string>
+
+    
+    <string name="save_error">Failed to save document</string>
+    
+    <string name="create_error">Failed to create folder</string>
+    
+    <string name="query_error">Failed to query documents</string>
+
+    
+    <string name="root_recent">Recent</string>
+    
+    <string name="root_available_bytes"><xliff:g id="size" example="3GB">%1$s</xliff:g> free</string>
+
+    
+    <string name="root_type_service">Storage services</string>
+    
+    <string name="root_type_shortcut">Shortcuts</string>
+    
+    <string name="root_type_device">Devices</string>
+    
+    <string name="root_type_apps">More apps</string>
+
+    
+    <string name="pref_advanced_devices">Display advanced devices</string>
+    
+    <string name="pref_file_size">Display file size</string>
+    <string name="pref_device_size">Display device size</string>
+
+    
+    <string name="empty">No items</string>
+
+    
+    <string name="toast_no_application">Can\'t open file</string>
+    
+    <string name="toast_failed_delete">Unable to delete some documents</string>
+
+    
+    <string name="share_via">Share via</string>
+
+</resources>

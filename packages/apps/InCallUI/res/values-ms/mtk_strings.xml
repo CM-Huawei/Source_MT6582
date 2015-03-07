@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+
+    <string name="onscreenHangupAll">Tamatkan semua</string>
+    <string name="onscreenHangupHolding">Tamatkan panggilan ditahan</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Tamatkan panggilan aktif, jawab panggilan menunggu</string>
+    <string name="onscreenECT">Pindahkan</string>
+
+    <string name="dm_lock">DM Dikunci</string>
+    <string name="dm_unlock">DM Dibuka Kunci</string>
+
+    <string name="start_record">Mula merakam</string>
+    <string name="stop_record">Henti rakaman</string>
+    <string name="str_db_playlist_name">Rakaman saya</string>
+    <string name="alert_device_error">Ralat berlaku pada peranti audio</string>
+    <string name="ext_media_badremoval_notification_title">Kad SD dihapuskan tanpa diduga</string>
+    <string name="error_sdcard_access">"Tidak dapat mengakses kad SD"</string>
+    <string name="confirm_device_info_full">Tiada ruang pada kad SD, rakaman telah disimpan.</string>
+    <string name="confirm_save_info_saved">Rakaman telah disimpan.</string>
+    <string name="confirm_save_info_saved_to">Rakaman telah disimpan pada</string>
+    
+    <string name="vt_settings">Tetapan video</string>
+    <string name="vt_local_video_zoom">Zum video tempatan</string>
+    <string name="vt_local_video_brightness">Kecerahan video tempatan</string>
+    <string name="vt_local_video_effect">Kesan video tempatan</string>
+    <string name="vt_local_video_nightmode">Mod malam video tempatan</string>
+    <string name="vt_peer_video_quality">Kualiti video setara</string>
+    <string name="vt_incoming_showme_ask">Tanya</string>
+    <string name="vt_call_settings">Tetapan panggilan video</string>
+    <string name="vt_pic_replace_local_default">Gambar lalai</string>
+    <string name="vt_pic_replace_local_freezeme">Bekukan saya</string>
+    <string name="vt_pic_replace_local_mypic">Gambar saya</string>
+    <string name="vt_sd_null">Kad SD tidak tersedia</string>
+    <string name="vt_sd_not_enough">Kad SD kehabisan ruang</string>
+    <string name="vt_peer_video_quality_normal">Biasa</string>
+    <string name="vt_ask_show_local">Tunjuk video tempatan kepada rakan?</string>
+    <string name="vt_change_my_pic">Tukar</string>
+    <string name="vt_pic_saved_to_sd">Tangkapan gambar disimpan ke kad SD</string>
+    <string name="vt_pic_saved_to_sd_fail">Gagal untuk menyimpan tangkapan gambar</string>
+    <string name="vt_error_network">Rangkaian tidak dapat dicapai. Panggilan video akan memutuskan sambungan.</string>
+    <string name="vt_error_media">Video tidak boleh dipaparkan dengan betul. Panggilan video akan memutuskan sambungan.</string>
+    <string name="vt_swap_video">Tukar video</string>
+    <string name="vt_local_video_contrast">Kontras video tempatan</string>
+    <string name="vt_menu_switch">Tukar kamera</string>
+    <string name="vt_menu_hide_me">Sembunyikan video tempatan</string>
+    <string name="vt_menu_show_me">Tunjukkan video tempatan</string>
+    <string name="vt_menu_snapshot">Tangkapan setara</string>
+    <string name="vt_vocie_answer">Jawapan suara</string>
+    <string name="vt_wait_voice">Menunggu untuk penyambungan panggilan suara</string>
+    <string name="vt_voice_connecting">Penyambungan panggilan suara</string>
+    <string name="vt_cannot_support_setting">Kamera semasa tidak menyokong tetapan ini</string>
+    <string name="vt_network_unreachable">Rangkaian tidak dapat dicapai</string>
+    <string name="vt_iot_error_01">Panggilan video tidak boleh disediakan</string>
+    <string name="vt_iot_error_02">Telefon sibuk</string>
+    <string name="vt_iot_error_03">Tiada jawapan</string>
+    <string name="vt_iot_error_04">Rangkaian sibuk</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"Dedahan"</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">Papan putih</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">Papan hitam</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Akua</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Biru Sepia</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Hijau Sepia</string>
+    <string name="vt_peer_camera_open">Kamera jauh dibuka</string>
+    <string name="vt_peer_camera_close">Kamera jauh ditutup</string>
+    <string name="vt_recorder_start">Mula merakam</string>
+    <string name="vt_recorder_voice_and_peer_video">Suara dan video rakan</string>
+    <string name="vt_recorder_only_voice">Suara sahaja</string>
+    <string name="vt_recorder_only_peer_video">Video rakan sahaja</string>
+    <string name="vt_recording_saved">Rakaman telah disimpan.</string>
+    <string name="vt_recording_saved_sd_full">Tiada ruang pada kad SD, rakaman telah disimpan.</string>
+    <string name="vt_recording_error">Ralat rakaman.</string>
+    <string name="start_record_vt">Mula merakam</string>
+    <string name="stop_record_vt">Henti rakaman</string>
+    <string name="enable_sip_dialog_message">"Panggilan Internet dinyahdayakan, adakah anda mahu mendayakannya?"</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">Fungsi dial IP tidak boleh digunakan untuk Mulakan pangilan</string>
+    <string name="vt_addtional_call_description">Tetapan nombor telefon dan panggilan menunggu</string>
+    <string name="sim_manage_sipcall">"Internet"</string>
+    <string name="sim_manage_call_via">Panggil melalui</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> min <xliff:g id="seconds" example="28">%2$s</xliff:g> saat</string>
+    <string name="reminder">Peringatan</string>
+    <string name="vt_media_occupied">Oleh kerana kamera tidak tersedia, panggilan video tidak dapat disambungkan. Sila semak sekiranya terdapat mana-mana aplikasi lain yang sedang menggunakan kamera.</string>
+    <string name="vt_media_video_fail">Video tidak dapat dipaparkan dengan betul. Panggilan video diputuskan sambungan</string>
+    <string name="incall_toast_unhold">Sambung</string>
+
+</resources>

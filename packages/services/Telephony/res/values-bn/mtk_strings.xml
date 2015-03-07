@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">সব কল শেষ করুন</string>
+    <string name="onscreenHangupHolding">হ্যাঙ্গ-আপ স্থগিত</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">হ্যাঙ্গ-আপ সক্রিয়, অপেক্ষামানে উত্তর দিন</string>
+    <string name="onscreenECT">স্থানান্তর করুন</string>
+    <!-- dm lock -->
+    <string name="dm_lock">ডিএম লক করা</string>
+    <string name="dm_unlock">ডিএম আনলক করা</string>
+    <!-- voice recorder -->
+    <string name="start_record">রেকর্ডিং শুরু করুন</string>
+    <string name="stop_record">রেকর্ড করা বন্ধ করুন</string>
+    <string name="str_db_playlist_name">আমার রেকডিং</string>
+    <string name="alert_device_error">অডিও ডিভাইসে ত্রুটি হয়েছে</string>
+    <string name="ext_media_badremoval_notification_title">এসডি কার্ড অপ্রত্যাশিতভাবে সরিয়ে ফেলা হয়েছে</string>
+    <string name="error_sdcard_access">এসডি কার্ডে প্রবেশ করতে অক্ষম</string>
+    <string name="confirm_device_info_full">এসডি কার্ডে স্পেস নেই, রেকর্ড করা বিষয় সংরক্ষণ করা হয়েছে। </string>
+    <string name="confirm_save_info_saved">রেকর্ড করা বিষয় সংরক্ষণ করা হয়েছে</string>
+    <string name="confirm_save_info_saved_to">রেকর্ডিং সংরক্ষণ করা হয়েছে</string>
+    <!-- temp added string begin -->
+    <string name="sim_toolkit">"সিম টুলকিট"</string>
+    <string name="activity_not_found">আপনার কম্পিউটারে অ্যাপ্লিকেশন ইন্সটল করা নেই।</string>
+    <string name="no_sim_card_inserted" product="default">সিম টুলকিট চালু করার জন্য সিম প্রবেশ করান।</string>
+    <string name="airplane_mode_on" product="default">উড়োজাহাজ মোড চালু থাকায় সিম টুলকিট চালু করা যাচ্ছে না।</string>
+    <string name="lable_sim_not_ready" product="default">সিম টুলকিট প্রস্তুত নয় বা অসমর্থিত</string>
+    <string name="gemini_3g_indic">3G</string>
+    <!-- temp added string end -->
+    <!-- video call drop back -->
+    <string name="callFailed_dsac_vt_incompatible_destination">ভিডিও কল সেটআপ করা যাবে না। আপনি যে ফোনে কল করছেন তাতে ভিডিও টেলিফোন সমর্থন করে না, ভয়েস কল করবেন?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">ভিডিও কল সেটআপ করা যায়নি। আপনি যে ফোনে ডায়াল করেছেন তা থ্রিজি সেবা অঞ্চলের আওতার বাইরে, ভয়েস কলের মাধ্যমে ডায়াল করবেন?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">ভিডিও কল সেটআপ করা যায়নি। ভয়েস কলের মাধ্যমে ডায়াল করবেন?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">আপনার ফোন থ্রিজি সেবা এলাকার আওতার বাইরে, ভয়েস কলের মাধ্যমে ডায়াল করবেন?</string>
+    <string name="callFailed_dsac_vt_bear_not_authorized">ভিডিও কল সেট আপ করা যাবে না।ভিডিও টেলিফোন সার্ভিস এই সিম কার্ডে সক্রিয় নয়, ভয়েস কল দিয়ে ডায়াল করবেন?</string>
+    <!-- voicemail notifications -->
+    <string name="notification_voicemail">ভয়েসমেইল</string>
+    <string name="turn_on_3g_service_message">"থ্রিজি সেবা এখন বন্ধ রয়েছে, আপনি কি তা চালু করতে চান?"</string>
+    <string name="associate_sim_missing_message">"%1$s সিম নেই। আপনি কি %2$s দ্বারা কল করতে চান"</string>
+    <string name="associate_sim_missing_other">অন্যান্য</string>
+    <!-- video call -->
+    <string name="vt_incoming_call">ভিডিও ইনকামিং কল</string>
+    <string name="vt_settings">ভিডিও সেটিং</string>
+    <string name="vt_local_video_zoom">লোকাল ভিডিও জুম</string>
+    <string name="vt_local_video_brightness">"লোকাল ভিডিও'র উজ্জলতা"</string>
+    <string name="vt_local_video_effect">"লোকাল ভিডিও'র ইফেক্ট"</string>
+    <string name="vt_local_video_nightmode">"লোকাল ভিডিও'র রাতের মোড"</string>
+    <string name="vt_peer_video_quality">পিয়ার ভিডিও মান</string>
+    <string name="vt_enable_back_camera">ক্যামেরায ফেরত যাওয়া সক্রিয় করুন</string>
+    <string name="vt_enable_back_camera_description">খুললে ক্যামেরায় যাওয়া যায়</string>
+    <string name="vt_peer_video_bigger">বড় পিয়ার ভিডিও</string>
+    <string name="vt_peer_video_bigger_description">"পিয়ার ভিডিওকে লোকাল ভিডিও'র চেয়ে বড় করার জন্য চালু করুন"</string>
+    <string name="vt_outgoing_call">আউটগোয়িং ভিডিও কল</string>
+    <string name="vt_outgoing_call_description">ভিডিও কল করার সময় লোকাল ভিডিও প্রদর্শন করুন</string>
+    <string name="vt_incoming_call_description">কোন ইনকামিং ভিডিও গ্রহণ করার সময় লোকাল ভিডিও প্রদর্শন করুন</string>
+    <string name="vt_incoming_showme_always">সবসময়</string>
+    <string name="vt_incoming_showme_ask">জিজ্ঞাসা করে</string>
+    <string name="vt_incoming_showme_disable">নিষ্ক্রিয় করুন</string>
+    <string name="vt_pic_replace_local_default">ডিফল্ট ছবি</string>
+    <string name="vt_pic_replace_local_freezeme">আমাকে থামান</string>
+    <string name="vt_pic_replace_local_mypic">আমার ছবি</string>
+    <string name="vt_local_video_display">লোকাল ভিডিও প্রদর্শন</string>
+    <string name="vt_sd_null">এসডি কার্ড\n পাওয়া যাচ্ছে না </string>
+    <string name="vt_sd_not_enough"> এসডি কার্ডের\nজায়গা ফুরিয়ে আসছে</string>
+    <string name="vt_peer_video_quality_normal">সাধারণ</string>
+    <string name="vt_peer_video_quality_sharp">জোরালো</string>
+    <string name="vt_ask_show_local">সতীর্থকে লোকাল ভিডিও দেখাবেন?</string>
+    <string name="vt_ask_show_local_yes">হ্যা</string>
+    <string name="vt_ask_show_local_no">না </string>
+    <string name="vt_change_my_pic">পরিবর্তন করুন</string>
+    <string name="vt_pic_saved_to_sd">এসডি কার্ডে স্ন্যাপশট সংরক্ষণ করা হয়েছে</string>
+    <string name="vt_pic_saved_to_sd_fail">স্ন্যাপশট সংরক্ষণ করতে ব্যর্থ হয়েছে</string>
+    <string name="vt_error_network">নেটওয়ার্ক পাওয়া যাচ্ছে না।ভিডিও কলের সংযোগ বিচ্ছিন্ন হয়ে যাবে।</string>
+    <string name="vt_error_media">ভিডিও যথাযথভাবে প্রদর্শন করা যাচ্ছে না। ভিডিও কলের সংযোগ বিছিন্ন হয়ে যাবে।</string>
+    <string name="vt_swap_video">ভিডিওগুলো অদলবদল করুন</string>
+    <string name="vt_local_video_contrast">লোকাল ভিডিও কন্ট্রাস্ট</string>
+    <string name="vt_menu_switch">ক্যামেরায় সুইচ করুন</string>
+    <string name="vt_menu_hide_me">স্থানীয় ভিডিও লুকান</string>
+    <string name="vt_menu_show_me">স্থানীয় ভিডিও দেখান</string>
+    <string name="vt_menu_snapshot">পিয়ার স্ন্যাপশট</string>
+    <string name="vt_dis_peer_rep">পিয়ার ভিডিও প্রদর্শন</string>
+    <string name="vt_dis_peer_rep_des">যখন সতীর্থ ভিডিও পাওয়া যাবে না তখন তা প্রতিস্থাপনের জন্য ছবি প্রদর্শন করুন</string>
+    <string name="vt_peer_video_rep">সতীর্থ ভিডিও প্রতিস্থাপন</string>
+    <string name="vt_peer_video_rep_des">যখন সতীর্থ ভিডিও পাওয়া যাবে না তখন প্রদর্শনের জন্য একটি ছবি সেট করুন</string>
+    <string name="vt_vocie_answer">কণ্ঠ উত্তর</string>
+    <string name="vt_wait_voice">ভয়েস কল সংযুক্ত হবার জন্য অপেক্ষা করছে</string>
+    <string name="vt_voice_connecting">ভয়েস কল সংযুক্ত হচ্ছে</string>
+    <string name="vt_auto_dropback">স্বয়ংক্রিয় ড্রপ ব্যাক</string>
+    <string name="vt_auto_dropback_des">স্বয়ংক্রিয়ভাবে ভয়েস কল সংযুক্তকরণে ড্রপ ব্যাক করুন</string>
+    <string name="vt_cannot_support_setting">বর্তমান ক্যামেরা এই সেটিংকে সমর্থন দিতে পারে না</string>
+    <string name="vt_network_unreachable">নেটওয়ার্কে পৌঁছানো সম্ভব নয়</string>
+    <string name="vt_iot_error_01">ভিডিও কল সেটআপ করা যায়নি</string>
+    <string name="vt_iot_error_02">ফোন ব্যস্ত</string>
+    <string name="vt_iot_error_03">কোন জবাব নেই</string>
+    <string name="vt_iot_error_04">নেটওয়ার্কে ব্যস্ত আছে</string>
+    <string name="pref_camera_coloreffect_entry_none">কখনও নয়</string>
+    <string name="pref_camera_coloreffect_entry_mono">মনো</string>
+    <string name="pref_camera_coloreffect_entry_sepia">সেপিয়া</string>
+    <string name="pref_camera_coloreffect_entry_negative">ঋণাত্বক</string>
+    <string name="pref_camera_coloreffect_entry_solarize">সোলারাইজ</string>
+    <string name="pref_camera_coloreffect_entry_posterize">পোস্টারাইজ</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">হোয়াইটবোর্ড</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">ব্ল্যাকবোর্ড</string>
+    <string name="pref_camera_coloreffect_entry_aqua">একুয়া</string>
+    <string name="pref_camera_coloreffect_entry_pastel">পাসটেল</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">মোজাইক</string>
+    <string name="pref_camera_coloreffect_entry_redtint">লাল পিন্ট</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">নীল পিন্ট</string>
+    <string name="pref_camera_coloreffect_entry_greentint">সবুজ পিন্ট</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">সেপিয়া নীল</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">সেপিয়া সবুজ</string>
+    <!-- Currently below 2 bluetooth string only used in VT option menu -->
+    <!-- Added for CMCC Phase 2 of VT -->
+    <string name="vt_peer_camera_open">রিমোট ক্যামেরা খোলা</string>
+    <string name="vt_peer_camera_close">রিমোট ক্যামেরা বন্ধ</string>
+    <string name="vt_recorder_start">রেকর্ডিং শুরু করুন</string>
+    <string name="vt_recorder_voice_and_peer_video">ভয়েস এবং পিয়ার ভিডিও</string>
+    <string name="vt_recorder_only_voice">কেবল ভয়েস</string>
+    <string name="vt_recorder_only_peer_video">কেবল পিয়ার ভিডিও</string>
+    <string name="vt_recording_saved">রেকর্ডিং সংরক্ষণ করা হয়েছে।</string>
+    <string name="vt_recording_saved_sd_full">এসডি কার্ডে জায়গা নেই,রেকর্ড সংরক্ষণ করা হয়েছে।</string>
+    <string name="vt_recording_error">রেকর্ডিংয়ে ত্রুটি</string>
+    <string name="start_record_vt">রেকর্ডিং শুরু করুন</string>
+    <string name="stop_record_vt">রেকর্ড করা বন্ধ করুন</string>
+    <!--Video call or voice call cannot be answered -->
+    <string name="cannot_answered_Video_Call">যেহেতু ইতিমধ্যেই একটি ভয়েস কল রয়েছে তাই ভিডিও কলের উত্তর দেয়া যাবে না</string>
+    <string name="cannot_answered_Voice_Call">যেহেতু ইতিমধ্যেই একটি ভিডিও কল রয়েছে তাই ভয়েস কলের উত্তর দেয়া যাবে না</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> mins <xliff:g id="seconds" example="28">%2$s</xliff:g> সেকেন্ড</string>
+    <string name="reminder">রিমাইন্ডার</string>
+    <string name="vt_media_occupied">যেহেতু ক্যামেরা উপলব্ধ নয়, ভিডিও কল সংযোগ করা যাবে না। অন্য কোনো অ্যাপ্লিকেশন ক্যামেরা ব্যবহার করছে কিনা তা অনুগ্রহ করে পরীক্ষা করুন।   </string>
+    <string name="vt_media_video_fail">ভিডিও যথাযথ ভাবে দেখানো যাচ্ছে না। ভিডিও কলের সংযোগ বিছিন্ন হয়েছে</string>
+    <string name="incall_toast_unhold">পুনরায় শুরু করুন</string>
+    <!-- DualTalk String -->
+    <string name="dualtalk_tip_accept_disconnect_current">এই কল গ্রহণ করলে বর্তমান কল শেষ হয়ে যাবে।</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing">এই কল গ্রহণ করলে আউটগোয়িং কল শেষ হয়ে যাবে।</string>
+    <string name="dualtalk_tip_accept_disconnect_incoming">এই কল গ্রহণ করলে অপর ইনকামিং কল প্রত্যাখ্যাত হয়ে যাবে।</string>
+    <string name="dualtalk_tip_accept_disconnect_voice">এই কল গ্রহণ করলে ভয়েস কল শেষ হয়ে যাবে।</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing_reject_incoming">এই কল গ্রহণ করলে আউটগোয়িং কল শেষ হয়ে যাবে এবং অপর ইনকামিং কল প্রত্যাখাত হবে।</string>
+    <string name="dualtalk_tip_accept_disconnect_current_reject_incoming">এই কল গ্রহণ করলে বর্তমান কল শেষ হয়ে যাবে এবং অপর ইনকামিং কল প্রত্যাখাত হবে।</string>  
+    <!-- DualTalk String -->
+    <string name="end_call_because_can_not_hold">বর্তমান কল সমাপ্ত করুন, কারণ এটিকে হোল্ড করা যাচ্ছে না ।</string>
+    <string name="ring_only_once_title">শুধুমাত্র একবার রিং</string>
+    <string name="ring_only_once_summary">ভয়েস কল মোডের মাধ্যমে একটি ভিডিও কল গ্রহণ করা বেছে নেয়ার জন্য শুধুমাত্র একবার রিং বাজবে </string>
+    <!-- M: add for Call Settings -->
+    <!-- FDN settings: error message displayed in a popup (toast) -->
+    <string name="fdn_contact_name_number_invalid">একই সময়ে নাম এবং নম্বর খালি থাকতে পারবে না।</string>
+    <!-- FDN settings: error message displayed in a popup (toast) -->
+    <string name="fdn_contact_number_invalid">অকার্যকর পরিচিতজনের নম্বর।</string>
+    <string name="fdn_phone_book_busy">ফোনবুক এখন ব্যস্ত, পরে আবার চেষ্টা করুন।</string>
+    <!-- support for evdo call settings -->
+    <string name="cdma_not_support">সিডিএমএ এ বৈশিষ্ট্য সমর্থন করে না</string>
+    <string name="cdma_cfu_title">চায়না টেলিকম</string>
+    <string name="labelCFC">সব ফরওয়ার্ডিং বাতিল করুন</string>
+    <string name="cdma_cfu_dialog_sum">সবসময় এই নম্বর ব্যবহার করুন</string>
+    <!-- Dual mic setting -->
+    <string name="dual_mic_title">শব্দ কমানো</string>
+    <string name="dual_mic_summary">কলের সময় ব্যাকগ্রাউন্ডের কোলাহল থামিয়ে রাখুন</string>
+    <!-- Minute Reminder strings -->
+    <string name="minutereminder_title">মাইনুট রিমাইন্ডার</string>
+    <string name="minutereminder_summary">প্রতি মিনিটের ৫০সে. স্মরণ করিয়ে দিন</string>
+    <string name="voice_call_settings">ভয়েস কল সেটিং</string>
+    <!-- voip -->
+    <string name="enable_sip_dialog_message">ইন্টারনেট কল নিষ্ক্রিয় করা আছে, আপনি কি তা সক্রিয় করতে চান?</string>
+    <!-- ip dial -->
+    <string name="ip_prefix_setting">আইপি প্রিফিক্স নম্বর</string>
+    <string name="ip_prefix_setting_sum">আইপি প্রেফিক্স নম্বর সেটিং</string>
+    <string name="enter_ip_prefix_number">প্রেফিক্স নম্বর প্রবেশ করান</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">ভয়েস কল সেটিংয়ে প্রথমে আইপি প্রেফিক্স নম্বর প্রবেশ করান</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">ইন্টারনেট কলের ক্ষেত্রে আইপি ডায়াল কার্যক্রম প্রযোজ্য নয়</string>
+    <string name="ip_prefix_edit_default_sum">আইপি ডায়ালের জন্য প্রেফিক্স নম্বর প্রবেশ করান</string>
+    <!-- settings -->
+    <string name="vt_cf_call_description">ভিডিও কল ফরওয়ার্ড করার সেটিং</string>
+    <string name="vt_cb_call_description">ভিডিও কলে বাধাপ্রদানের সেটিং</string>
+    <string name="vt_addtional_call_description">ফোন নম্বর এবং অপেক্ষমান কল সেটিং</string>
+    <string name="others">অন্যান্য সেটিং</string>
+    <!-- 3G switch begin -->
+    <string name="confirm_3g_switch">আপনি কি নিশ্চিত আপনি এই সিমে থ্রিজি সেবা সেট করতে চান? এটি ভিডিও কলের জন্য ডিফল্ট সিমকেও এই সিমে স্বয়ংক্রিয়ভাবে সেট করে ফেলবে</string>
+    <string name="modem_switching">সিম পরিবর্তন সম্পন্ন হতে প্রায় ১০ সেকেন্ড সময় লাগবে। অপেক্ষা করুন…</string>
+    <string name="confirm_3g_switch_to_off">আপনি কি নিশ্চিত আপনি থ্রিজি সেবা বন্ধ করতে চান? এটি ভিডিও কল সেবাকেও স্বয়ংক্রিয়ভাবে বন্ধ করে ফেলবে?</string>
+    <string name="service_3g_off">বন্ধ করুন</string>
+    <string name="enable_3G_service">থ্রিজি সক্রিয় করুন</string>
+    <string name="setting_for_3G_service">থ্রিজি সেবা</string>
+    <!-- 3G switch end -->
+    <!-- the network is forbidden -->
+    <string name="network_forbidden">নিষ্ক্রিয় করুন</string>
+    <!-- call reject -->
+    <string name="voice_mail_dialog_text"><xliff:g id="voicemail_sim_display_name">%s</xliff:g>-এর কাছ থেকে আপনার জন্য নতুন ভয়েসমেইল আছে। আপনি কি সেগুলো এখন পেতে চান?</string>
+
+    <string name="lable_call_barring">কল বারিং</string>
+    <string name="lable_all_outgoing">সব আউটগোয়িং কল</string>
+    <string name="lable_all_outgoing_international">আন্তর্জাতিক আউটগোয়িং কল</string>
+    <string name="lable_all_out_except">হোম পিএলএমএন ছাড়া সব আন্তর্জাতিক আউটগোয়িং কল</string>
+    <string name="lable_all_incoming">সব ইনকামিং কল</string>
+    <string name="lable_incoming_calls_except">রোমিংয়ের সময় ইনকামিং কল</string>
+    <string name="deactivate_all">সব বাতিল করুন</string>
+    <string name="change_password">বাধাপ্রদানের পাসওয়ার্ড পরিবর্তন করুন</string>
+    <string name="call_barring_sum">ভয়েসমেইলে বাধাপ্রদানের সেটিং</string>
+    <!-- Call barring settings screen, setting option name -->
+    <string name="lable_disable">নিষ্ক্রিয় করুন</string>
+    <string name="lable_enable">সক্রিয় করুন</string>
+    <string name="old_password_label">পুরাতন পাসওয়ার্ড(৪ অংকবিশিষ্ট)</string>
+    <string name="new_password_label">নতুন পাসওয়ার্ড(৪ অংকবিশিষ্ট)</string>
+    <string name="invalid_password">৪ অংকবিশিষ্ট একটি পাসওয়ার্ড টাইপ করুন।</string>
+    <string name="confirm_password_label">নতুন পাসওয়ার্ড নিশ্চিত করুন</string>
+    <string name="mismatch_password">আপনি যে পাসওয়ার্ড প্রবেশ করেছেন তা মিলছে না। আবার চেষ্টা করুন।</string>
+    <string name="password_changed">সফলভাবে পাসওয়ার্ড পরিবর্তন করা হয়েছে</string>
+    <string name="enter_callbarring_password">কলে বাধাদান পাসওয়ার্ড প্রবেশ করান (চার অংকবিশিষ্ট)</string>
+    <string name="wrong_password">পাসওয়ার্ড ত্রুটি</string>
+    <string name="error_title">"ত্রুটি"</string>
+    <string name="cell_broadcast">সেল সম্প্রচার</string>
+    <string name="cell_broadcast_settings">সেল সম্প্রচার সেটিং</string>
+    <string name="cb_menu_language">ভাষা</string>
+    <string name="cb_menu_add_channel">চ্যানেল যোগ করুন</string>
+    <string name="cb_menu_channel_list">চ্যানেলের তালিকা</string>
+    <string name="cb_dialog_title_language_choice">ভাষা নির্বাচন করুন</string>
+    <string name="cb_channel_dialog_channel_name">চ্যানেলের নাম (০ থেকে ১০ ক্যারেক্টারের)</string>
+    <string name="cb_channel_dialog_channel_number">চ্যানেল নম্বর (০-৬৫৫৩৪)</string>
+    <string name="cb_channel_dialog_channel_state">চ্যানেলকে সক্রিয় করুন</string>
+    <string name="cb_channel_dialog_edit_channel">চ্যানেল সম্পাদনা</string>
+    <string name="cb_menu_edit">সম্পাদনা করুন</string>
+    <string name="cb_menu_delete">মুছুন</string>
+    <string name="cb_error_channel_num">চ্যানেল নম্বর প্রবেশ করান (০-৬৫৫৩৪)</string>
+    <string name="cb_error_channel_name">চ্যানেলের নামের দৈর্ঘ্য সঠিক নয় (১-১০ ক্যারেক্টারের)।</string>
+    <string name="cb_error_language_select">অন্তত একটি ভাষা নির্বাচন করুন।</string>
+    <string name="cb_error_channel_id_exist">চ্যানেল আইডি রয়েছে।</string>
+    <string name="cb_all_languages">সব ভাষা</string>
+    <string name="cb_default_new_channel_name">নতুন চ্যানেল</string>
+    <string name="fdn_errorcode_unknown_info">অসফল হয়েছে, অজানা ত্রুটি ঘটেছে, পরে আবার চেষ্টা করুন।</string>
+    <string name="fdn_errorcode_number_info">অসফল হয়েছে, পরিচিকজনের নম্বরের দৈর্ঘ্য অনেক বেশি লম্বা।</string>
+    <string name="fdn_errorcode_name_info">অসফল হয়েছে, পরিচিকজনের নাম অনেক বেশি লম্বা।</string>
+    <string name="fdn_errorcode_storage_info">অসফল হয়েছে, স্টোরেজ পূর্ণ।</string>
+    <string name="fdn_errorcode_phb_info">ব্যর্থ হয়েছে, ফোনবই এখন প্রস্তুত নয়, পরে আবার চেষ্টা করুন।</string>
+    <string name="fdn_errorcode_pin2_info">ব্যর্থ হয়েছে,অকার্যকর পিন২।</string>
+    <string name="net_or_simcard_busy">নেটওয়ার্ক অথবা সিম কার্ড ব্যস্ত, পরে আবার চেষ্টা করুন।</string>
+    <!-- GSM/UMTS Options strings -->
+    <string name="gsm_umts_network_preferences_title">নেটওয়ার্ক মোড</string>
+    <string name="gsm_umts_network_preferneces_summary">এখনও বাস্তবায়িত হয়নি</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">নেটওয়ার্ক মোড</string>
+    <string name="umts_preferred_network_mode_dialogtitle">নেটওয়ার্ক মোড</string>
+    <!-- Gemini enhancement string-->
+    <string name="voice_call">ভয়েস কল</string>
+    <string name="video_call">ভিডিও কল</string>
+    <string name="internet_call">ইন্টারনেট কল</string>
+    <string name="sum_voice_call">ভয়েসকল সংশ্লিষ্ট সেটিং</string>
+    <string name="sum_video_call">ভিডিও কল সংশ্লিষ্ট সেটিং</string>
+    <string name="sum_internet_call">ইন্টারনেট কল সংশ্লিষ্ট সেটিং</string>
+    <string name="voice_mail">ভয়েসমেইল</string>
+    <string name="sum_voice_mail">ভয়েসমেইল সেবা ও নম্বর </string>
+    <string name="sum_cell_broadcast_control_on">সেল সম্প্রচার সক্রিয় করুন</string>
+    <string name="sum_cell_broadcast_control_off">সেল সম্প্রচার নিষ্ক্রিয় করুন</string>
+    <string name="sum_cell_broadcast_setting">সেল সম্প্রচারের জন্য ভাষা এবং চ্যানেল সেটিং</string>
+    <string name="call_additional_sum">অন্যান্য </string>
+    <string name="vt_call_settings">ভিডিও কল সেটিং</string>
+    <string name="vt_local_video_rep">স্থানীয় ভিডিও প্রতিস্থাপন </string>
+    <string name="vt_pic_replace_local_description">যখন ক্যামেরা বন্ধ ব্যবহার করা হবে তখন ডিসপ্লে করার জন্য ছবি সেট করুন</string>
+    <!-- auto reject -->
+    <!-- call settings toast, MO -->
+    <string name="mo_code_unconditional_cf_active">কল ফরওয়ার্ডিং\n নিঃশর্ত সক্রিয়</string>
+    <string name="mo_code_some_cf_active">কল ফরওয়ার্ড করা\nশর্তযুক্ত সক্রিয় করা হয়েছে</string>
+    <string name="mo_code_call_forwarded">কল ফরওয়ার্ড করা হয়েছে</string>
+    <string name="mo_code_call_is_waiting">অপেক্ষমান কল</string>
+    <string name="mo_code_cug_call">বন্ধ ব্যবহারকারী দল</string>
+    <string name="mo_code_outgoing_calls_barred">আউটগোয়িং কল নিষিদ্ধ</string>
+    <string name="mo_code_incoming_calls_barred">অন্য প্রান্তে ইনকামিং কল বাধাগ্রস্ত</string>
+    <string name="mo_code_clir_suppression_rejected">কলার আইডি পাঠানোর সেবা চেক করুন</string>
+    <string name="mo_code_call_deflected">কল ট্রান্সফারে কল করুন</string>
+    <!-- call settings toast, MT -->
+    <string name="mt_code_forwarded_call">এটি একটি ফরওয়ার্ড করা কল</string>
+    <string name="mt_code_cug_call">বন্ধ ব্যবহারকারী দল</string>
+    <string name="mt_code_call_on_hold">কল ধরা আছে</string>
+    <string name="mt_code_call_retrieved">কল পুনরুদ্ধার করা হয়েছে</string>
+    <string name="mt_code_multi_party_call">কনফারেন্স কল</string>
+    <string name="mt_code_on_hold_call_released">ধরে রাখা কল ছেড়ে দেয়া হয়েছে</string>
+    <string name="mt_code_forward_check_received">ফরওয়ার্ড চেক করার এসএস বার্তা পেয়েছে</string>
+    <string name="mt_code_call_connecting_ect">কল ট্রান্সফার করা হয়েছে</string>
+    <string name="mt_code_call_connected_ect">কল ট্রান্সফার সক্রিয় </string>
+    <string name="mt_code_deflected_call">এটি একটি ডিফ্লেকটেড কল</string>
+    <string name="mt_code_additional_call_forwarded">অতিরিক্ত ইনকামিং কল ফরওয়ার্ড করা হয়েছে</string>
+    <string name="mt_code_forwarded_cf">কল ফরওয়ার্ড করা হয়েছে</string>
+    <string name="mt_code_forwarded_cf_uncond">শর্তহীনভাবে কল ফরওয়ার্ড করা হয়েছে</string>
+    <string name="mt_code_forwarded_cf_cond">শর্তযুক্তভাবে কল ফরওয়ার্ড করা হয়েছে</string>
+    <string name="mt_code_forwarded_cf_busy">কল ব্যস্ত ফরওয়ার্ড করা হয়েছে</string>
+    <string name="mt_code_forwarded_cf_no_reply">জবাব না পেলে কল ফরওয়ার্ড করা হয়েছে</string>
+    <string name="mt_code_forwarded_cf_not_reachable">কল না গেলে কল ফরওয়ার্ড করা হয়েছে</string>
+    <string name="sim_manage_sipcall">ইন্টারনেট কল</string>
+    <string name="sim_manage_call_via">কল ভায়া</string>
+    <!-- for network setting reminder feature -->
+    <string name="manual_select_title">ম্যানুয়েলি নির্বাচন করুন</string>
+    <string name="manual_select_dialog_msg">ম্যানুয়েল নির্বাচন মোডে মোবাইল ফোন আপনার জন্য অন্য অপারেটর নির্বাচন করবে না। যখন আপনি মনোনীত অপারেটরের সেবা হারান তখন আপনাকে অনেকসময় পুনরায় ম্যানুয়ালি নির্বাচন করতে হতে পারে বা পরিবর্তন করে স্বয়ংক্রিয় নির্বাচন মোডে ফেরত যেতে হতে পারে। আমরা আপনাকে পরামর্শ দেব  \"স্বয়ংক্রিয়ভাবে নির্বাচন করুন \" ব্যবহার করতে। আপনি কি ম্যানুয়ালি নেটওয়ার্ক নির্বাচন করতে চান? </string>
+    <string name="no_service_msg_gemini"> নির্বাচিত অপারেটরের কাছ থেকে বর্তমানে \"<xliff:g id="operator">%s</xliff:g>\"সিম কার্ডের জন্য কোন সেবা নেই।\n আমরা আপনাকে \"স্বয়ংক্রিয়ভাবে নির্বাচন করুন \" ব্যবহারের পরামর্শ দেব, বা আপনি ম্যানুয়ালি অন্য আরেকজন অপারেটর নির্বাচন করতে পারেন।</string>
+    <string name="no_service_msg">নির্বাচিত অপারেটরের কাছ থেকে বর্তমানে কোন সেবা নেই।\n আমরা আপনাকে \"স্বয়ংক্রিয়ভাবে নির্বাচন করুন \" ব্যবহারের পরামর্শ দেব, বা আপনি ম্যানুয়ালি অন্য আরেকজন অপারেটর নির্বাচন করতে পারেন।</string>
+    <string name="show_always_title">আমাকে আরেকবার সতর্ক করবেন না</string>
+    <string name="no_service_msg_title_gemini">কোন সেবা নেই \"<xliff:g id="operator">%s</xliff:g>\" জন্য</string>
+    <string name="no_service_msg_title">কোন সেবা নেই</string>
+    <string name="gemini_data_connection">ডাটা সংযোগ</string>
+    <!-- PLMN Prefer -->
+    <string name="plmn_list_setting_title">অগ্রাধিকার</string>
+    <string name="network_id">নেটওয়ার্ক আইডি</string>
+    <string name="dialog_network_priority_title">অগ্রাধিকার</string>
+    <string name="plmn_list_setting_add_plmn">নতুন পিএলএমএন যোগ করুন</string>
+    <!-- Add for international dialing assistance -->
+    <string name="international_dialing_title">আন্তর্জাতিক ডায়ালিং সহায়তা</string>
+    <string name="international_dialing_select_country">এটি সনাক্ত করেছে যে আপনি একটি আন্তর্জাতিক কল করছেন। আপনার গন্তব্য বেছে নিন।</string>
+    <string name="international_dialing_add_country_code">এটি সনাক্ত করেছে যে আপনি একটি <xliff:g id="country_name">%s</xliff:g> নম্বর ডায়াল করছেন। আপনি কি দেশের কোড নম্বর  (+<xliff:g id="country_code">%s</xliff:g>) যোগ করতে চান?</string>
+    <string name="international_dialing_add_country_code_and_area_code">এটি সনাক্ত করেছে যে আপনি <xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g>এর একটি নম্বর ডায়াল করছেন। আপনি কি দেশের ও অঞ্চলের কোড(+<xliff:g id="prefix">%3$s</xliff:g>) যোগ করতে চান?</string> 
+    <string name="international_dialing_change_country_prefix">এটি সনাক্ত করেছে যে আপনি <xliff:g id="country_name">%s</xliff:g> থেকে ডায়াল করছেন। আন্তর্জাতিক কলের প্রেফিক্স \'+\'তে পরিবর্তন করবেন?</string>
+    <string name="international_dialing_add_country_code_input_area_code">এটি সনাক্ত করেছে যে আপনি <xliff:g id="country_name">%s</xliff:g>এর একটি নম্বর ডায়াল করছেন। যদি তাই হয়, তাহলে অঞ্চলের কোড প্রবেশ করান।</string>   
+    <string name="international_dialing_add_country_code_default_input_area_code">এটি সনাক্ত করেছে যে আপনি <xliff:g id="country_name">%s</xliff:g>এর একটি নম্বর ডায়াল করছেন।আপনার গন্তব্য শহর যদি  <xliff:g id="area_name">%s</xliff:g> না হয়, তাহলে অঞ্চলের কোড প্রবেশ করান।</string>
+    <string name="international_dialing_need_area_code">কলের জন্য আপনার গন্তব্য শহরের অঞ্চল কোড প্রয়োজন।</string>
+    <string name="international_dialing_input_area_code">এখানে অঞ্চল কোড লিখুন</string>
+    <string name="international_dialing_dialed_number">ডায়ালকৃত নম্বর:</string>
+    <string name="international_dialing_confirm_area_code">আপনার গন্তব্য শহর যদি  <xliff:g id="area_name">%s</xliff:g> না হয় তাহলে নিম্নে আপনার গন্তব্য শহরের অঞ্চল কোড প্রবেশ করান।</string>
+    <string name="international_dialing_click_below_button">দেশের কোড নম্বর পরিবর্তন করতে নিচের বাটনে ক্লিক করুন</string>
+    <string name="international_dialing_yes">হ্যা। নিচে আপনার নম্বর ব্যবহার করুন:</string>
+    <string name="international_dialing_no">না। মূল নম্বর ব্যবহার করুন:</string>
+    <string name="international_dialing_call_button">ফোন করুন</string>
+    <string name="international_dialing_area_code">অঞ্চল কোড</string>
+    <string name="international_dialing_invalid_number">নম্বর অকার্যকর। আপনি কি তবুও ডায়াল অব্যাহত রাখতে চান?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">আপনি কি দেশ ও অঞ্চল কোড যোগ করতে চান?</string>
+    <string name="no_search_result">অনুসন্ধানের কোন ফলাফল নেই</string>
+    <string name="which_call_to_activate">কোন কল সক্রিয় করবেন?</string> 
+    <string name="gemini_3g_disable_warning_case0">" এই সিমের জন্য আপনাকে অবশ্যই প্রথমে ডাটা রোমিং সক্রিয় করতে হবে যার জন্য আপনাকে অনেক রোমিং চার্জ দিতে হতে পারে! আপনি কি নিশ্চিত আপনি ডাটা রোমিং সক্রিয় করতে এবং এই সিম নির্বাচন করতে চান?"</string>  
+    <string name="gemini_3g_disable_warning_case1">" নির্বাচিত এই সিমটি দিয়ে থ্রিজি সেবা পাওয়া যায় না। এটি ডাটার লোডের গতি ধীর করতে পারে। আপনি সেটিং&gt;ওয়্যারলেস এবং নেটওয়ার্ক&gt; মোবাইল নেটওয়ার্কের অধীনে থ্রিজি সেবার সেটিং পরিবর্তন করতে পারেন।"</string>  
+    <string name="gemini_3g_disable_warning_case2">"আপনাকে প্রথমে এই সিমের জন্য ডাটা রোমিং সক্রিয় করতে হবে যাতে আপনার প্রচুর রোমিং চার্জ লাগতে পারে! এছাড়া থ্রিজি নির্বাচিত সিমের সাথে থ্রিজি সেবা নেই। এতে ডাটা লোড ধীরগতির হতে পারে। আপনি থ্রিজি সেবা সেটিং পরিবর্তন করতে পারেন সেটিং&gt;সেটিং&gt;ওয়্যারলেস ও নেটওয়ার্ক&gt; মোবাইল নেটওয়ার্ক। আপনি কি নিশ্চিত আপনি ডাটা রোমিং সক্রিয় করবেন এবং এই সিম নির্বাচন করবেন?"</string>
+    <string name="disable_data_connection_msg">সব লভ্য নেটওয়ার্কের জন্য অনুসন্ধান ব্যবহৃত হতে থাকা ডাটা সংযোগ বিচ্ছিন্ন করবে। আপনি কি অব্যাহত রাখতে চান?</string>
+    <!-- Add for voice command -->
+    <string name="voice_command_notification_ticker">কোন ইনকামিং কলের উত্তর দিতে বা অগ্রাহ্য করতে আপনি \"<xliff:g id="first_voice">%s</xliff:g>\" বা \"<xliff:g id="second_voice">%s</xliff:g>\" বলতে পারেন।</string>
+    <string name="voice_command_notification_title">শব্দ নিয়ন্ত্রণ</string>
+    <string name="voice_command_notification_message">ফোনের জন্য ভয়েস কন্ট্রোল সক্রিয় করা আছে</string>
+    <string name="callFailed_simError_cdma">কোন ইউআইএম/সিম নেই বা ইউআইএম/সিমে ভুল</string>
+
+    <string-array name="language_list_values" translatable="false">
+        <item>সব ভাষা</item>
+        <item>জার্মান </item>
+        <item>ইংরেজি </item>
+        <item>ইতালিয়ান</item>
+        <item>ফরাসি</item>
+        <item>স্প্যানিশ</item>
+        <item>পর্তুগীজ</item>
+        <item>সুইডিশ</item>
+        <item>ডেনিস</item>
+        <item>পর্তুগিজ</item>
+        <item>ফিনিস</item>
+        <item>নরওয়েজিয়ান</item>
+        <item>গ্রিক</item>
+        <item>তুর্কি</item>
+        <item>হাঙ্গেরিয়ান</item>
+        <item>পলিশ</item>
+        <item>অন্যান্য</item>
+        <item>চেক</item>
+        <item>হিব্রু</item>
+        <item>আরবি</item>
+        <item>রাশিয়ান </item>
+        <item>আইসল্যান্ডিক</item>
+    </string-array>
+
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item msgid="935612021902787683">2G/3G (স্বয়ংক্রিয় মোড)</item>
+        <item msgid="8912042051809329533">কেবল 3G </item>
+        <item msgid="8776934131146642662">কেবল 2G </item>
+    </string-array>
+
+    <string-array name="umts_network_preferences_choices">
+        <item>2G/3G (স্বয়ংক্রিয় মোড)</item>
+        <item>কেবল 3G</item>
+    </string-array>
+
+    <!-- Add for LTE FDD Begin -->
+    <string-array name="lte_prefer_network_mode_choices">
+        <item>4G/3G/2G (স্বয়ংক্রিয় মোড)</item>
+        <item>3G/2G (স্বয়ংক্রিয় মোড)</item>
+        <item>কেবল 3G</item>
+        <item>কেবল 2G</item>
+    </string-array>
+    <!-- Add for LTE FDD End -->
+
+    <!-- Cipher Indication -->
+    <string name="cipher_indication_notification_title">কোন ভয়েস এনক্রিপন নয়</string>
+    <string name="cipher_indication_notification_message">নেটওয়ার্কের মাধ্যমে ভয়েস এনক্রিপশন বন্ধ আছে</string>
+
+    <!-- LTE Prefered Network begin -->
+    <string name="network_type">নেটওয়ার্কের ধরন</string>
+    <!-- LTE Prefered Network end -->
+    <!-- Add for CSG -->
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">অনুসন্ধান করুন...</string>
+    <string name="sum_search_femtocell_networks">ম্যানুয়েলি ফেমটোসেল নির্বাচন করুন</string>
+    <string name="register_femtocell_point_wait_tip"><xliff:g id="femto_cell_info">%s</xliff:g> ...নিবন্ধন করা হচ্ছে</string>
+    <string name="register_femtocell_point_result_fail_tip">এই নেটওয়ার্কের সাথে এখনই সংযুক্ত হতে পারবে না। পরবর্তীতে আবার চেষ্টা করুন।</string>
+</resources>

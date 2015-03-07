@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- dialog preference padding -->
+    <dimen name="sim_dialog_preference_padding_start">16dip</dimen>
+    <dimen name="sim_dialog_preference_padding_end">16dip</dimen>
+</resources>

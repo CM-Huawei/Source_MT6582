@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="data_connection_connected">[<xliff:g>%s</xliff:g>] Η σύνδεση δεδομένων κάρτας SIM έχει ενεργοποιηθεί</string>
+    <string name="brightness">"Φωτεινότητα"</string>
+    <string name="timeout">Χρονικό όριο</string>
+    <string name="wifi">"Wi-Fi"</string>
+    <string name="bluetooth">"Bluetooth"</string>
+    <string name="mobile">Σύνδ. δεδομ.</string>
+    <string name="gps">GPS</string>
+    <string name="autorotate">Αυτόματη περιστροφή</string>
+    <string name="normal">Γενικές</string>
+    <string name="meeting">Λειτουργία συνεδρίου</string>
+    <string name="mute">Λειτουργία σίγασης</string>
+    <string name="outdoor">Λειτουργία εξωτερικού χώρου</string>
+    <string name="offline">"Λειτουργία πτήσης"</string>
+    <string name="sim_switch_tip">Αυτή η SIM είχε οριστεί ως η προεπιλεγμένη κάρτα SIM για το <xliff:g>%s</xliff:g> . Κρατήστε και σύρετε προς τα κάτω τη Γραμμή κατάστασης για αλλαγή της προεπιλεγμένης κάρτας SIM.</string>
+    <string name="remind_next_time">Υπενθύμιση την επόμενη φορά</string>
+    <string name="gemini_default_sim_always_ask">Πάντα ερώτηση</string>
+    <string name="gemini_3g_disable_warning">"Η υπηρεσία 3G δεν είναι διαθέσιμη με την επιλεγμένη SIM. Ενδέχεται να προκαλείται καθυστέρηση φόρτωσης δεδομένων. Μπορείτε να αλλάξετε τη ρύθμιση υπηρεσίας 3G στην περιοχή Ρυθμίσεις &gt; Ασύρματο και δίκτυα &gt; Δίκτυα κινητής τηλεφωνίας. Είστε βέβαιοι ότι θέλετε να επιλέξετε αυτήν την κάρτα SIM;"</string>
+    <string name="gemini_3g_disable_warning_cu">"Η υπηρεσία 3G δεν είναι διαθέσιμη με την επιλεγμένη SIM. Ενδέχεται να προκαλείται καθυστέρηση φόρτωσης δεδομένων. Μπορείτε να αλλάξετε τη ρύθμιση υπηρεσίας 3G στην περιοχή Ρυθμίσεις &gt; Διαχείριση κάρτας SIM. Είστε βέβαιοι ότι θέλετε να επιλέξετε αυτήν την κάρτα SIM;"</string>
+    <string name="gemini_3g_disable_warning_case0">"Πρώτα πρέπει να ενεργοποιήσετε την περιαγωγή δεδομένων για αυτήν την κάρτα SIM, γεγονός το οποίο ενδέχεται να σας επιβαρύνει με σημαντικά έξοδα περιαγωγής! Είστε βέβαιοι ότι θέλετε να ενεργοποιήσετε την περιαγωγή δεδομένων και να επιλέξετε αυτήν την κάρτα SIM;"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Η υπηρεσία 3G δεν είναι διαθέσιμη με την επιλεγμένη SIM. Ενδέχεται να προκαλείται καθυστέρηση φόρτωσης δεδομένων. Μπορείτε να αλλάξετε τη ρύθμιση υπηρεσίας 3G στην περιοχή Ρυθμίσεις &gt; Ασύρματο και δίκτυα &gt; Δίκτυα κινητής τηλεφωνίας. Είστε βέβαιοι ότι θέλετε να επιλέξετε αυτήν την κάρτα SIM;"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Η υπηρεσία 3G δεν είναι διαθέσιμη με την επιλεγμένη SIM. Ενδέχεται να προκαλείται καθυστέρηση φόρτωσης δεδομένων. Μπορείτε να αλλάξετε τη ρύθμιση υπηρεσίας 3G στην περιοχή Ρυθμίσεις &gt; Διαχείριση κάρτας SIM. Είστε βέβαιοι ότι θέλετε να επιλέξετε αυτήν την κάρτα SIM;"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Πρώτα πρέπει να ενεργοποιήσετε την περιαγωγή δεδομένων για αυτήν την κάρτα SIM, γεγονός το οποίο ενδέχεται να σας επιβαρύνει με σημαντικά έξοδα περιαγωγής! Επίσης, η υπηρεσία 3G δεν είναι διαθέσιμη με αυτήν την κάρτα SIM. Ενδέχεται να προκαλείται καθυστέρηση φόρτωσης δεδομένων. Μπορείτε να αλλάξετε τη ρύθμιση στην περιοχή Ρυθμίσεις &gt; Ασύρματο και δίκτυα &gt; Δίκτυα κινητής τηλεφωνίας. Είστε βέβαιοι ότι θέλετε να ενεργοποιήσετε την περιαγωγή δεδομένων και να επιλέξετε αυτήν την κάρτα SIM;"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Πρώτα πρέπει να ενεργοποιήσετε την περιαγωγή δεδομένων για αυτήν την κάρτα SIM, γεγονός το οποίο ενδέχεται να σας επιβαρύνει με σημαντικά έξοδα περιαγωγής! Επίσης, η υπηρεσία 3G δεν είναι διαθέσιμη με αυτήν την κάρτα SIM. Ενδέχεται να προκαλείται καθυστέρηση φόρτωσης δεδομένων. Μπορείτε να αλλάξετε τη ρύθμιση στην περιοχή Ρυθμίσεις &gt; Ασύρματο και δίκτυα &gt; Διαχείριση κάρτας SIM. Είστε βέβαιοι ότι θέλετε να ενεργοποιήσετε την περιαγωγή δεδομένων και να επιλέξετε αυτήν την κάρτα SIM;"</string>  
+    <string name="dlg_no">"Όχι"</string>  
+    <string name="dlg_yes">"Ναι"</string>  
+    <string name="builtin_installer_title_message">Ενσωματωμένο CD-ROM</string>  
+    <string name="builtin_installer_dlg_message">Ενεργοποίηση ενσωματωμένου CD-ROM;</string>  
+    <string name="builtin_installer_always_allowed">Να μην εμφανιστεί την επόμενη φορά</string>
+    <string name="OK">"ΟΚ"</string>  
+    <string name="application_guide_title">Εναλλαγή της προεπιλεγμένης κάρτας SIM</string>  
+    <string name="application_guide_content">Κύλιση προς τα κάτω στη λίστα ειδοποιήσεων για εναλλαγή της προεπιλεγμένης κάρτας SIM</string> 
+    <string name="audio_profile">Προφίλ ήχου</string>
+    <string name="data_usage">"Χρήση δεδομένων"</string>
+    <string name="user_owner">"Κάτοχος"</string>
+    <string name="eco_backlight_title">Οικονομικός φωτισμός φόντου</string>
+    <string name="eco_backlight_summary">Αυτόματη προσαρμογή φωτισμού φόντου για εξοικονόμηση ενέργειας</string>
+    <string name="phone_battery_low_subtitle">Η μπαταρία του τηλεφώνου εξαντλείται.</string>
+    <string name="smartbook_battery_low_subtitle">Η μπαταρία του smartbook εξαντλείται.</string>
+    <string name="gemini_default_sim_auto">"ΑΥΤΟΜΑΤΗ"</string>
+    <string name="accessibility_phone_four_bars">Τέσσερις γραμμές σήματος.</string>
+    <string name="voice_call_service">υπηρεσία φωνητικής κλήσης</string>
+    <string name="messages_service">υπηρεσία μηνυμάτων</string>
+    <string name="data_connection_service">υπηρεσία σύνδεσης δεδομένων</string>
+    <string name="plmn_searching">Αναζήτηση</string>
+    <string name="data_connection_attach_timeout_error_msg">"Η σύνδεση δεδομένων απέτυχε ή το δίκτυο είναι απασχολημένο αυτή τη στιγμή."</string>
+    <string name="data_connection_dettach_timeout_error_msg">"Η απόσπαση σύνδεσης δεδομένων απέτυχε."</string>
+    <string name="gemini_intenet_call">Κλήση Internet</string>
+    <string name="gemini_default_sim_never">"απενεργοποιημένη"</string>
+    <string name="confirm_radio_title">Η κάρτα SIM είναι απενεργοποιημένη</string>
+    <string name="confirm_radio_msg">Η υπηρεσία παροχής <xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> είναι τώρα απενεργοποιημένη. Θέλετε να ενεργοποιήσετε αυτή την κάρτα SIM;</string>
+    <string name="confirm_radio_msg_single">Η λειτουργία πτήσης είναι τώρα ενεργοποιημένη, θέλετε να την απενεργοποιήσετε;</string>
+    <string name="confirm_radio_lbutton">Ενεργοποίηση</string>
+    <string name="apn">ΣΗΜΕΙΟ ΠΡΟΣΒΑΣΗΣ</string>
+    <string name="sim_management">ΔΙΑΧΕΙΡΙΣΗ UIM/SIM</string>
+    <string name="network_selection_settings">Επιλογή δικτύου</string>
+    <string name="quick_settings_roam_data">Περιαγωγή δεδομένων</string>
+</resources>

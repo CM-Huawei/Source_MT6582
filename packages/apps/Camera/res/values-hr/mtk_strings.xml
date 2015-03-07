@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="accessibility_switch_to_mav">Način pregleda u više kutova</string>
+    <string name="accessibility_switch_to_hdr">HDR način</string>
+    <string name="accessibility_switch_to_face_beauty">Način estetike lica</string>
+    <string name="accessibility_switch_to_asd">Način automatskog otkrivanja prizora</string>
+    <string name="accessibility_switch_to_smile">Način snimka osmijeha</string>
+    <string name="accessibility_switch_to_best">Način najboljeg snimka</string>
+    <string name="accessibility_switch_to_ev">Snimanje s više različitih ekspozicija</string>
+    
+    <string name="accessibility_switch_to_camera">Normalni način</string>
+    
+    <string name="accessibility_switch_to_video">Video način</string>
+    
+    <string name="accessibility_switch_to_panorama">Panoramski način</string>
+    <string name="accessibility_switch_to_live_photo">Način fotografije uživo</string>
+    <string name="accessibility_switch_to_motion_track">Način praćenja pokreta</string>
+    <string name="accessibility_video_shutter_button">Gumb video zatvarača</string>
+    
+    <string name="bg_replacement_message">Postavite uređaj na mirnu površinu i pobrinite se da u pregledu nema pomicanja.\nKada se u pregledu pojave efekti, video se može snimati.</string>
+    
+    <string name="capture_memory_not_enough">Memorija nije dostatna, zatvorite ostale aplikacije.</string>    
+    
+    <string name="camera_continuous_not_supported">" ne podržava kontinuirani snimak."</string>
+    <string name="camera_saving_busy">Spremaju se slike, pričekajte.</string>
+        <string name="continuous_saving_pictures">Sprema se <xliff:g id="numbers" example="10">%1$d</xliff:g> slika</string>
+    
+    <string name="hdr_guide_capture">Nemojte pomicati uređaj za vrijeme HDR snimanja</string>
+    
+    
+    <string name="mav_dialog_save_failed">Ne može se spremiti slika.</string>
+    <string name="mav_dialog_title">Pogled u više kutova</string>
+    <string name="mav_guide_shutter">Pritisnite zatvarač za početak snimanja slike u više kutova</string>
+    <string name="motion_track_guide_shutter">Pritisnite i zadržite zatvarač za snimanje uzastopnih snimaka. Otpustite za prestanak snimanja. Držite fotoaparat mirnim za vrijeme snimanja.</string>
+    <string name="motion_track_required_more">Potrebna su barem 2 uzastopna snimka. Pokušajte ponovno.</string>
+    <string name="motion_track_blended_failed">Pokretanje blendera za praćenje pokreta nije uspjelo. Pokušajte ponovno.</string>
+    <string name="motion_track_move">Držite fotoaparat mirnim za vrijeme snimanja.</string>
+    <string name="mav_guide_move">Pomičite fotoaparat oko vašeg cilja.</string>
+    <string name="normal_camera_continuous_not_supported">"Ne podržava kontinuirani snimak."</string>
+
+    <string name="wfd_normal_camera_continuous_not_supported">"WFD ne podržava kontinuirani snimak."</string>
+    
+    <string name="wfd_motion_track_not_supported">"WFD ne podržava praćenje pokreta."</string>
+    <string name="wfd_live_photo_not_supported">"WFD ne podržava fotografiju uživo."</string>
+    
+    
+    <string name="pref_video_quality_entry_low">"Niski"</string>
+    <string name="pref_video_quality_entry_medium">"Srednji"</string>
+    <string name="pref_video_quality_entry_high">"Visoki"</string>
+    <string name="pref_video_quality_entry_fine">Precizno</string>
+    <string name="pref_camera_picturesize_entry_4096x3072">12M piksela</string>
+    <string name="pref_camera_picturesize_entry_3672x2754">10M piksela</string>
+    <string name="pref_camera_picturesize_entry_3600x2700">9,5M piksela</string>
+    <string name="pref_camera_picturesize_entry_3264x2448">8M piksela</string>
+    <string name="pref_camera_picturesize_entry_1280x720">"1 megapiksela"</string>
+    <string name="pref_camera_picturesize_entry_1280x768">"1 megapiksela"</string>
+    <string name="pref_camera_picturesize_entry_2560x1440">4M piksela</string>
+    <string name="pref_camera_picturesize_entry_3328x1872">6M piksela</string>
+    <string name="pref_camera_whitebalance_entry_twilight">Sumrak</string>
+    <string name="pref_camera_whitebalance_entry_shade">Sjena</string>
+    <string name="pref_camera_whitebalance_entry_warm_fluorescent">Toplo fluorescentno</string>
+    <string name="pref_camera_whitebalance_entry_tungsten">Žarulja</string>
+    
+    <string name="pref_camera_capturemode_entry_normal">"Uobičajeni"</string>
+    <string name="pref_camera_capturemode_enrty_fb">Estetika lica</string>
+    <string name="pref_camera_capturemode_entry_bestshot">Najbolji snimak</string>
+    <string name="pref_camera_capturemode_entry_evbracketshot">Snimanje s više različitih ekspozicija</string>
+    <string name="pref_camera_capturemode_entry_smileshot">Snimak osmijeha</string>
+    <string name="pref_camera_capturemode_entry_gestureshot">Snimka gestom</string>
+
+    
+
+    
+    
+    
+    <string name="pref_camera_iso_entry_auto">"Automatski"</string>
+    
+    
+    
+    
+    
+
+    
+    
+    <string name="pref_camera_edge_title">"Oštrina"</string>
+
+    
+    <string name="pref_camera_hue_title">"Ton"</string>
+
+    
+    <string name="pref_camera_saturation_title">"Zasićenost"</string>
+
+    
+    <string name="pref_camera_brightness_title">"Svjetlina"</string>
+
+    
+    <string name="pref_camera_contrast_title">"S kontrastom"</string>
+
+    <string name="pref_camera_dip_entry_low">"Niski"</string>
+    <string name="pref_camera_dip_entry_middle">"Srednji"</string>
+    <string name="pref_camera_dip_entry_high">"Visoki"</string>
+
+    
+    
+
+    
+    <string name="pref_camera_coloreffect_title">Efekt boje</string>
+
+    
+    <string name="pref_camera_coloreffect_entry_none">"Ništa"</string>
+    <string name="pref_camera_coloreffect_entry_mono">Mono</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"Sepija"</string>
+    <string name="pref_camera_coloreffect_entry_negative">Negativ</string>
+    
+    <string name="pref_camera_coloreffect_entry_solarize">Solariziraj</string>
+    <string name="pref_camera_coloreffect_entry_posterize">Posteriziraj</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">Bijela ploča</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">Crna ploča</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Voda</string>
+    <string name="pref_camera_coloreffect_entry_pastel">Pastela</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">Mozaik</string>
+    <string name="pref_camera_coloreffect_entry_redtint">Crvena nijansa</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">Plava nijansa</string>
+    <string name="pref_camera_coloreffect_entry_greentint">Zelena nijansa</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Sepija plava</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Sepija zelena</string>
+
+    
+
+    
+    
+    <string name="pref_camera_selftimer_title">Automatski tajmer</string>
+    <string name="pref_camera_selftimer_entry_off">"Isključeno"</string>
+    <string name="pref_camera_selftimer_entry_2">"2 sekunde"</string>
+    <string name="pref_camera_selftimer_entry_10">"10 sekundi"</string>
+
+    
+    <string name="pref_camera_focusmode_entry_continuous">kontinuirano</string>
+
+    
+    <string name="pref_camera_capturemode_entry_asd">Automatsko otkrivanje prizora</string>
+
+    
+    
+    <string name="pref_camera_antibanding_title">Onemogućavanje treperenja</string>
+    <string name="pref_camera_antibanding_entry_auto">"Automatski"</string>
+    <string name="pref_camera_antibanding_entry_50hz">50 Hz</string>
+    <string name="pref_camera_antibanding_entry_60hz">60 Hz</string>
+
+    
+    
+    <string name="pref_camera_scenemode_entry_portrait">Portret</string>
+    
+    <string name="pref_camera_scenemode_entry_landscape">Pejzaž</string>
+    
+    <string name="pref_camera_scenemode_entry_night_portrait">Noćni portret</string>
+    
+    <string name="pref_camera_scenemode_entry_theatre">Kazalište</string>
+    
+    <string name="pref_camera_scenemode_entry_beach">Plaža</string>
+    
+    <string name="pref_camera_scenemode_entry_snow">Snijeg</string>
+    
+    <string name="pref_camera_scenemode_entry_steadyphoto">Mirna fotografija</string>
+    
+    <string name="pref_camera_scenemode_entry_fireworks">Vatromet</string>
+    <string name="pref_camera_scenemode_entry_sports">Sport</string>
+    <string name="pref_camera_scenemode_entry_candlelight">Svjetlo svijeće</string>
+    
+    
+    
+    
+    
+    
+    
+    <string name="pref_camera_eis_on">"Uključeno"</string>
+    <string name="pref_camera_eis_off">"Isključeno"</string>
+    
+    
+    
+    <string name="pref_camera_recordaudio_title">"Mikrofon"</string>
+    <string name="pref_camera_recordaudio_entry_off">"Isključeno"</string>
+    <string name="pref_camera_recordaudio_entry_on">"Uključeno"</string>
+
+     
+    
+    <string name="pref_camera_video_hd_recording_title">Audio način</string> 
+    <string name="pref_camera_video_hd_recording_normal_ics">"Uobičajeni"</string>
+    <string name="pref_camera_video_hd_recording_indoor_ics">Sastanak</string>
+
+    
+    
+    
+
+    
+    <string name="pref_camera_continuous_number_title">Broj snimaka</string>
+    
+    <string name="pref_camera_continuous_number_normal">40 snimaka</string>
+    <string name="pref_camera_continuous_number_large">99 snimaka</string>
+
+    <string name="panorama_guide_shutter">Pritisnite zatvarač za početak snimanja panorame</string>
+    <string name="panorama_guide_capture">Pomaknite uređaj ako želite preklapanje dvije linije</string>
+
+     
+    <string name="pref_camera_image_properties_default">"Zadano"</string> 
+    <string name="pref_camera_image_properties_title">Svojstva slike</string>
+    
+    
+    
+    <string name="pref_camera_picturesize_ratio_entry_16_9">Cijeli zaslon</string>    
+    
+    
+    <string name="pref_camera_picturesize_ratio_entry_4_3">Standardan (4:3)</string>
+    <string name="pref_camera_picturesize_ratio_title">Veličina pregleda</string>
+    
+    <string name="pref_voice_capture">Snimanje glasa</string>
+    
+    
+    
+    
+    <string name="pref_video_hdr_title">Video HDR</string>
+    
+    
+    
+    
+     
+    <string name="pref_camera_facebeauty_properties_default">"Zadano"</string> 
+    <string name="pref_camera_facebeauty_properties_title">Estetika lica</string>
+    
+    <string name="pref_facebeauty_smooth_title">Uklanjanje bora</string>
+    
+    <string name="pref_facebeauty_skin_color_title">Izbijeli</string>
+    
+    <string name="pref_facebeauty_sharp_title">Oblik</string>
+
+     
+    <string name="pref_camera_face_detect_title">Otkrivanje lica</string>
+    
+    <string name="pref_camera_face_detect_entry_off">"Isključeno"</string>
+    <string name="pref_camera_face_detect_entry_on">"Uključeno"</string>
+
+    <string name="pref_camera_record_location_title">"Lokacija pohranjivanja"</string>
+    
+    
+    <string name="pref_video_time_lapse_frame_interval_entry_1000">"1 sekunda"</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_1500">1,5 sekundi</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_2000">"2 sekunde"</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_2500">2,5 sekundi</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_3000">"3 sekunde"</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_5000">"5 sekundi"</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_10000">"10 sekundi"</string>
+    
+    
+    
+    
+    
+    <string name="livephoto_dialog_title">Fotografija uživo</string>
+    <string name="saving_livephoto">Spremanje fotografije uživo\u2026</string>
+    <string name="smileshot_guide_capture">Automatsko snimanje nakon otkrivanja osmijeha</string>
+    <string name="toast_video_recording_not_available">Zaustavite ostale aplikacije za snimanje prije korištenje video kamere.</string>
+
+    
+    <string name="video_bad_performance_auto_stop">Malo memorije, automatsko zaustavljanje snimanja.</string>
+    <string name="video_bad_performance_drop_quality">Malo memorije, automatska promjena kvalitete.</string>
+    <string name="video_encoder_error">Greška kodera!</string>
+    
+    <string name="voice_guide">Izgovorite \"%1$s\" or \"%2$s\" ako želite snimiti fotografiju</string>
+    <string name="video_live_effect_error">Greška tijekom snimanja!</string>
+
+    
+    
+    
+    
+    
+    <string name="stereo3d_convert2d_dialog_title">Pretvori u 2D</string>
+    <string name="stereo3d_convert2d_progress_text">Pretvaranje u 2D...</string>
+    <string name="stereo3d_share_convert_text_multiple">U odabrane slike uključene su 3D slike. Za nastavak dijeljenja one će se pretvoriti u 2D.</string>
+    <string name="stereo3d_share_dialog_text_multiple">U odabrane slike uključene su 3D slike. Primatelj ih neće moći pravilno vidjeti.</string>
+    <string name="stereo3d_attach_dialog_title">Priloži kao 3D ili 2D</string>
+    <string name="stereo3d_attach_dialog_button_2d">Priloži kao 2D</string>
+    <string name="stereo3d_attach_dialog_button_3d">Priloži kao 3D</string>
+
+    <string name="single3d_guide_shutter">Pritisnite zatvarač za početak snimanja 3D slike</string>
+    <string name="single3d_guide_move">Pomaknite uređaj udesno za preklapanje sličica</string>
+    <string name="panorama3d_guide_shutter">Pritisnite zatvarač za početak snimanja 3D panorame</string>
+    <string name="panorama_guide_choose_direction">Pomaknite uređaj prema smjeru snimanja</string>
+    <string name="panorama3d_guide_move">Pomaknite uređaj udesno</string>
+    <string name="panorama3d_guide_capture">Pomaknite uređaj ulijevo ako želite preklapanje dvije linije</string>
+    
+    
+    
+    
+    <string name="pref_camera_picturesize_stereo3d_title">Veličina Stereo3D slike</string>
+        
+    
+    <string name="pref_stereo3d_mode_title">3D prijelaz</string>
+    <string name="pref_stereo3d_mode_entry_off">"Isključeno"</string>
+    <string name="pref_stereo3d_mode_entry_on">"Uključeno"</string>
+    
+    
+    <string name="object_track_enable_toast">Dodirnite i zadržite predmet na zaslonu da aktivirate njegovo praćenje.</string>
+     
+    <string name="pref_camera_hdr_title">HDR</string>
+    
+    <string name="pref_camera_hdr_entry_off">"Isključeno"</string>
+    <string name="pref_camera_hdr_entry_on">"Uključeno"</string>
+    
+     
+    <string name="pref_smile_shot_title">Snimak osmijeha</string>
+    
+    <string name="pref_smile_shot_entry_off">"Isključeno"</string>
+    <string name="pref_smile_shot_entry_on">"Uključeno"</string>
+    
+     
+    <string name="pref_asd_title">Automatsko otkrivanje prizora</string>
+    
+    <string name="pref_asd_entry_off">"Isključeno"</string>
+    <string name="pref_asd_entry_on">"Uključeno"</string>
+</resources>

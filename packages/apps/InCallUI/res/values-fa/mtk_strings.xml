@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    
+    <string name="vt_incoming_showme_always">نمایش</string>
+    <string name="vt_incoming_showme_disable">نمایش داده نشود</string>
+    <string name="vt_peer_video_quality_sharp">بالا</string>
+    <string name="vt_ask_show_local_yes">نمایش</string>
+    <string name="vt_ask_show_local_no">نمایش داده نشود</string>
+    <string name="pref_camera_coloreffect_entry_none">"هیچکدام"</string>
+    <string name="pref_camera_coloreffect_entry_mono">"مونو"</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"سپیا"</string>
+    <string name="pref_camera_coloreffect_entry_negative">"نگاتیو"</string>
+    <string name="pref_camera_coloreffect_entry_posterize">"پوستری کردن"</string>
+    <string name="pref_camera_coloreffect_entry_pastel">"پاستل"</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">"موزائیکی"</string>
+    <string name="pref_camera_coloreffect_entry_redtint">"ته رنگ قرمز"</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">"ته رنگ آبی"</string>
+    <string name="pref_camera_coloreffect_entry_greentint">"ته رنگ سبز"</string>
+    <string name="cannot_answered_Video_Call">پاسخ دادن به تماس ویدئویی امکان پذیر نیست چراکه قبلا یک تماس صوتی وجود دارد</string>
+    <string name="cannot_answered_Voice_Call">پاسخ دادن به تماس صوتی امکان پذیر نیست چراکه قبلا یک تماس ویدئویی وجود دارد</string>
+
+    <string name="onscreenHangupAll">قطع کردن همه</string>
+    <string name="onscreenHangupHolding">قطع کردن انتظار</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">قطع فعال، پاسخ در حال انتظار</string>
+    <string name="onscreenECT">انتقال</string>
+
+    <string name="dm_lock">DM قفل شد</string>
+    <string name="dm_unlock">باز کردن DM</string>
+
+    <string name="mo_code_unconditional_cf_active">انتقال تماس/فعال شده غیر مشروط</string>
+    <string name="mo_code_some_cf_active">هدايت تماس\nغير شرطی</string>
+    <string name="mo_code_call_forwarded">تماس هدايت شد</string>
+    <string name="mo_code_call_is_waiting">تماس در انتظار</string>
+    <string name="mo_code_cug_call">گروه کاربری بسته</string>
+    <string name="mo_code_outgoing_calls_barred">تماس خروجی مسدود شد</string>
+    <string name="mo_code_incoming_calls_barred">تماس ورودی از سمت فرد مقابل، مسدود شده است</string>
+    <string name="mo_code_clir_suppression_rejected">سرويس ارسال شناسه تماس گيرنده را بررسی کنيد</string>
+    <string name="mo_code_call_deflected">تماس هدايت شد</string>
+    <string name="mt_code_forwarded_call">اين يک تماس منتقل شده است</string>
+    <string name="mt_code_cug_call">گروه کاربری بسته</string>
+    <string name="mt_code_call_on_hold">تماس نگه داشته شد</string>
+    <string name="mt_code_call_retrieved">تماس بازيابی شد</string>
+    <string name="mt_code_multi_party_call">تماس کنفرانسی</string>
+    <string name="mt_code_on_hold_call_released">تماس منتظر آزاد شد</string>
+    <string name="mt_code_forward_check_received">پيام SS بررسی هدايت دريافت شد</string>
+    <string name="mt_code_call_connecting_ect">انتقال تماس</string>
+    <string name="mt_code_call_connected_ect">انتقال تماس فعال است</string>
+    <string name="mt_code_deflected_call">اين يک تماس منتقل شده است</string>
+    <string name="mt_code_additional_call_forwarded">تماس ورودی ديگری هدايت شد</string>
+    <string name="mt_code_forwarded_cf">تماس هدايت شد</string>
+    <string name="mt_code_forwarded_cf_uncond">هدايت تماس غيرشرطی فعال شد</string>
+    <string name="mt_code_forwarded_cf_cond">هدايت تماس شرطی فعال شد</string>
+    <string name="mt_code_forwarded_cf_busy">تماس در صورت اشغال بودن هدايت شد</string>
+    <string name="mt_code_forwarded_cf_no_reply">تماس در صورت بی پاسخ ماندن هدايت شد</string>
+    <string name="mt_code_forwarded_cf_not_reachable">تماس در صورت غيرقابل دسترسی بودن شبکه هدايت شد</string>
+    
+    <string name="start_record">شروع ضبط</string>
+    <string name="stop_record">توقف ضبط</string>
+    <string name="str_db_playlist_name">ضبط های من</string>
+    <string name="alert_device_error">در دستگاه صوتی خطا رخ داد</string>
+    <string name="ext_media_badremoval_notification_title">کارت SD ناگهان برداشته شد</string>
+    <string name="error_sdcard_access">دسترسی به کارت SD ممکن نيست</string>
+    <string name="confirm_device_info_full">فضای کارت SD کم است؛ مورد ضبط شده ذخيره شد.</string>
+    <string name="confirm_save_info_saved">مورد ضبط شده ذخيره شد.</string>
+    <string name="confirm_save_info_saved_to">ضبط ذخیره شده است در</string>
+
+    <string name="activity_not_found">"برنامه کاربردی در گوشی شما نصب نشد."</string>
+    <string name="confirm_3g_switch">آیا مطمئنید که می خواهید سرویس 3G را برای این سیم کارت تنظیم کنید؟ این کار همچنین سیم کارت پیش فرض برای تماس ویدیویی را به صورت خودکار روی این سیم کارت تنظیم می کند.</string>
+    <string name="modem_switching">جابجايی سيم کارت حدوداً 10 ثانيه طول می کشد. لطفاً صبر کنيد...</string>
+    <string name="confirm_3g_switch_to_off">آيا از غيرفعال کردن سرويس 3G مطمئن هستيد؟ بدين ترتيب سرويس تماس تصويری نيز به طور خودکار غيرفعال می شود.</string>
+    <string name="enable_3G_service">فعالسازی 3G</string>
+    <string name="network_forbidden">غيرفعال</string>
+    <string name="plmn_list_setting_title">ترجیحات</string>
+    <string name="plmn_list_setting_add_plmn">افزودن PLMN جدید</string>
+    <string name="callFailed_dsac_vt_incompatible_destination">تماس ویدیویی را نمی توان برقرار کرد. تلفن ویدیویی در تلفنی که با آن تماس می گیرید پشتیبانی نمی شود؛ تماس صوتی برقرار شود؟</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">امکان برقراری تماس تصويری وجود ندارد. مخاطب شما خارج از محدوده سرويس 3G است؛ تماس صوتی برقرار شود؟</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">امکان برقراری تماس تصويری وجود ندارد. تماس صوتی برقرار شود؟</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">تلفن شما خارج از ناحيه خدمات 3G قرار دارد؛ تماس صوتی برقرار شود؟</string>
+    <string name="notification_voicemail">پست صوتی</string>
+    <string name="turn_on_3g_service_message">سرویس 3G هم اکنون خاموش است، می خواهید آن را روشن کنید؟</string>
+    <string name="associate_sim_missing_message">"سیم کارت %1$s در دسترس نیست. می خواهید با سیم کارت %2$s تماس بگیرید؟"</string>
+    <string name="associate_sim_missing_other">سایر</string>
+
+    <string name="vt_settings">تنظيمات تصوير</string>
+    <string name="vt_local_video_zoom">زوم تصوير محلی</string>
+    <string name="vt_local_video_brightness">روشنايی تصوير محلی</string>
+    <string name="vt_local_video_effect">جلوه تصوير محلی</string>
+    <string name="vt_local_video_nightmode">حالت شب تصوير محلی</string>
+    <string name="vt_peer_video_quality">کيفيت تصوير جفت</string>
+    <string name="vt_incoming_showme_ask">سوال کن</string>
+    <string name="vt_call_settings">تنظيمات تماس تصويری</string>
+    <string name="vt_pic_replace_local_default">عکس پيش فرض</string>
+    <string name="vt_pic_replace_local_freezeme">من را ثابت کن</string>
+    <string name="vt_pic_replace_local_mypic">عکس من</string>
+    <string name="vt_local_video_display">نمايش تصوير محلی</string>
+    <string name="vt_sd_null">کارت SD\nموجود نيست</string>
+    <string name="vt_sd_not_enough">فضای کارت SD\nکم است</string>
+    <string name="vt_peer_video_quality_normal">معمولی</string>
+    <string name="vt_ask_show_local">تصوير محلی برای جفت نمايش داده شود؟</string>
+    <string name="vt_change_my_pic">تغيير</string>
+    <string name="vt_pic_saved_to_sd">تصوير لحظه ای در کارت SD ذخيره شد</string>
+    <string name="vt_pic_saved_to_sd_fail">بروز اشکال در ذخيره سازی تصوير لحظه ای</string>
+    <string name="vt_error_network">شبکه قابل دسترسی نيست.تماس تصويری قطع می شود.</string>
+    <string name="vt_error_media">امکان نمايش تصوير به طور مناسب وجود ندارد.تماس تصويری قطع می شود.</string>
+    <string name="vt_swap_video">جابجايی تصاوير</string>
+    <string name="vt_local_video_contrast">کنتراست فیلم محلی</string>
+    <string name="vt_menu_switch">جابجايی دوربين</string>
+    <string name="vt_menu_hide_me">مخفی کردن فیلم محلی</string>
+    <string name="vt_menu_show_me">نمایش فیلم محلی</string>
+    <string name="vt_menu_snapshot">عکس فوری جفت</string>
+    <string name="vt_vocie_answer">پاسخ صوتی</string>
+    <string name="vt_wait_voice">انتظار برای اتصال تماس صوتی</string>
+    <string name="vt_voice_connecting">اتصال تماس صوتی</string>
+    <string name="vt_auto_dropback">برگشت خودکار</string>
+    <string name="vt_auto_dropback_des">برگشت به اتصال تماس صوتی به صورت خودکار</string>
+    <string name="vt_cannot_support_setting">دوربين جاری نمی تواند از اين تنظيم پشتيبانی کند</string>
+    <string name="vt_network_unreachable">شبکه غيرقابل دسترسی است</string>
+    <string name="vt_iot_error_01">امکان برقراری تماس تصويری وجود ندارد</string>
+    <string name="vt_iot_error_02">تلفن مشغول است</string>
+    <string name="vt_iot_error_03">پاسخی دريافت نمی شود</string>
+    <string name="vt_iot_error_04">شبکه مشغول است</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"نوردهی"</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">تخته سفيد</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">تخته سياه</string>
+    <string name="pref_camera_coloreffect_entry_aqua">آبی</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">سوبيايی آبی</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">سوبيايی سبز</string>
+    <string name="vt_peer_camera_open">دوربین از راه دور باز است</string>
+    <string name="vt_peer_camera_close">دوربین از راه دور بسته است</string>
+    <string name="vt_recorder_start">شروع ضبط</string>
+    <string name="vt_recorder_voice_and_peer_video">صدا و ویدیویی همتا</string>
+    <string name="vt_recorder_only_voice">فقط صدا</string>
+    <string name="vt_recorder_only_peer_video">فقط ویدیوی همتا</string>
+    <string name="vt_recording_saved">ضبط ذخیره شده است.</string>
+    <string name="vt_recording_saved_sd_full">فضای کارت SD کم است؛ مورد ضبط شده ذخيره شد.</string>
+    <string name="vt_recording_error">خطا در ضبط.</string>
+    <string name="start_record_vt">شروع ضبط</string>
+    <string name="stop_record_vt">توقف ضبط</string>
+    <string name="enable_sip_dialog_message">تماس اينترنتی غيرفعال است؛ آيا مايليد آن را فعال کنيد؟</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">عملکرد شماره گيری IP در تماس اينترنتی کاربرد ندارد.</string>
+    <string name="sim_manage_sipcall">اينترنت</string>
+    <string name="sim_manage_call_via">تماس از طریق</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> دقیقه <xliff:g id="seconds" example="28">%2$s</xliff:g> ثانیه</string>
+    <string name="reminder">يادآور</string>
+    <string name="vt_media_occupied">وقتی که دوربین در دسترس نیست، تماس ویدیویی نمی تواند متصل شود. لطفا بررسی که آیا برنامه دیگری در حال استفاده از دوربین است.</string>
+    <string name="vt_media_video_fail">ویدیو به طور مناسب نمایش داده نمی شود. تماس ویدیویی قطع شد</string>
+    <string name="incall_toast_unhold">ادامه</string>
+
+</resources>

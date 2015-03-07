@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Clock -->
+    <string name="keyguard_domestic_zone_name">"بكين"</string>
+    <!-- GlowPadView -->
+    <!-- PowerOffAlarm -->
+    <string name="every_day">"كل يوم"</string>
+    <string name="never">"مطلقًا"</string>
+    <string name="day_concat">"، "</string>
+    <string name="default_label">"المنبه"</string>
+    <string name="voiceui_notify_string">يمكنك قول</string>
+    <string name="voiceui_control_poweroff_alarm">للتحكم في تنبيه إيقاف التشغيل.</string>
+    <string name="voiceui_or">أو</string>
+    <string name="keyguard_accessibility_alarm_unlock">تنبيه إيقاف التشغيل</string>
+    <string name="alarm_alert_dismiss_text">رفض</string>
+    <string name="alarm_alert_snooze_text">"غفوة"</string>
+    <!-- Telephony -->
+    <string name="keyguard_password_entering_puk_code">أدخل مفتاح فك الإقفال الشخصي </string>
+    <string name="keyguard_password_wrong_puk_code">رقم الإقفال الشخصي غير صحيح!</string>
+    <string name="invalidPuk">أدخل 8 أرقام.</string>
+    <string name="pin_pass">قبول الرمز</string>
+    <string name="keyguard_password_enter_new_pin_code">أدخل رقم التعريف الشخصي الجديد</string>
+    <string name="keyguard_password_Confirm_pin_code">تأكيد رقم التعريف الشخصي</string>
+    <string name="sim_permanently_locked">تم إدخال مفتاح الإقفال الشخصي أكثر من 10 مرات، وقد تم إقفال شريحة البطاقة نهائياً. </string>
+    <string name="retries_left">متبقي:%d</string>
+    <string name="simlock_slot_locked_message">تم قفل الفتحة بشكل دائم</string>
+    <string name="simlock_entersimmelock">"أدخل قفل SIM ME"</string>
+    <string name="slot_id">فتحة <xliff:g id="number">%d</xliff:g>:</string>
+    <string name="new_simcard">بطاقة SIM جديدة</string>
+    <string name="lockscreen_missing_sim_dialog_message">"بطاقة SIM غير متصلة، لذا يرجى التأكد من اتصال بطاقة SIM بطريقة مناسبة."</string>
+    <string name="puk_pass">إلغاء حظر رمز PIN</string>
+    <string name="sim_card_changed_dialog_title">تم تغيير بطاقة SIM</string>
+    <string name="change_setting_for_onenewsim">تم اكتشاف بطاقة SIM جديدة. الآن إعدادات SIM الافتراضية هي:</string>
+    <string name="change_setting_for_twonewsim">تم اكتشاف بطاقة SIM جديدة. الآن إعدادات SIM الافتراضية هي:</string>
+    <string name="sim_card_removed">تم إزالة بطاقة SIM.</string>
+    <string name="sim_card_swapped">تم تبديل بطاقة SIM.</string>
+    <string name="change_settings">تغيير</string>
+    <string name="keyguard_voice_call">مكالمة صوتية:</string>
+    <string name="keyguard_sms">SMS:</string>
+    <string name="keyguard_data">اتصال البيانات:</string>
+    <string name="dismiss">رفض</string>
+    <string name="keyguard_wrong_code_input">رمز خاطئ.</string>
+    <string name="keyguard_code_length_prompt">أدخل 4-8 أرقام.</string>
+    <string name="keyguard_code_donnot_mismatch">غير متطابق.</string>
+    <string name="network_searching">بحث عن شبكة جديدة</string>
+    <string name="searching_simcard">جار الكشف...</string>
+    <string name="keyguard_close">إغلاق</string>
+    <string name="default_sim_setting_prompt"> الآن إعدادات SIM الافتراضية هي:</string>
+    <string name="keyguard_video_call">مكالمة فيديو:</string>
+    <string name="invalid_sim_title">بطاقة SIM غير صالحة</string>
+    <string name="invalid_sim_message">لم يتم التعرف على بطاقة UIM/SIM</string>
+    <string name="lockscreen_sim_locked_message_short">إقفال شريحة البطاقة</string>
+    <!-- UnreadEvent -->
+    <!-- Utils -->
+    <string name="keyguard_alwaysask">السؤال دائمًا</string>
+    <string name="keyguard_data_none">إيقاف</string>
+    <string name="keyguard_sim_auto">"تلقائي"</string>
+    <string name="keyguard_internal_call">مكالمة عبر الإنترنت</string>
+    <string name="keyguard_not_set">غير معين</string>
+    <!-- VoiceUnlock -->
+    <string name="voice_unlock_service_error">خطأ في خدمة إلغاء القفل بالأوامر الصوتية.</string>
+    <string name="voice_unlock_password_wrong">نأسف؛ يتعذر التعرف على صوتك.</string>
+    <string name="voice_unlock_noisy">يتعذر \سماع صوتك بوضوح لوجود ضوضاء.</string>
+    <string name="voice_unlock_weak">يتعذر سماع صوتك.</string>
+    <string name="voice_unlock_media_playing">يتم تعطيل خدمة إلغاء القفل بالأوامر الصوتية عند تشغيل الوسائط.</string>
+    <string name="voiceunlock_multiple_failures">تم تجاوز الحد الأقصى لمحاولات إلغاء القفل بالأوامر الصوتية</string>
+    <!-- DM Lock -->
+    <string name="dm_prompt">تم قفل طرف التوصيل بالفعل</string>
+    <!-- Tablet -->
+    <string name="sd_accessing_swtich_user_title">تبديل المستخدم؟</string>
+    <string name="sd_accessing_swtich_user_message">سيؤدي هذا إلى فقد أو إتلاف كل البيانات غير المحفوظة في حساب المالك.</string>
+    <!-- Misc -->
+</resources>

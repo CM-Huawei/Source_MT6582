@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="accessibility_switch_to_mav">Visningsläge för flera vinklar</string>
+    <string name="accessibility_switch_to_hdr">HDR-läge</string>
+    <string name="accessibility_switch_to_face_beauty">Ansiktsförsköning</string>
+    <string name="accessibility_switch_to_asd">Automatiskt detektering av temaläge</string>
+    <string name="accessibility_switch_to_smile">Leende-läge</string>
+    <string name="accessibility_switch_to_best">Bästa foto-läge</string>
+    <string name="accessibility_switch_to_ev">Fotoläge för EV-sammanförning</string>
+    
+    <string name="accessibility_switch_to_camera">Normalt läge</string>
+    
+    <string name="accessibility_switch_to_video">Videoläge</string>
+    
+    <string name="accessibility_switch_to_panorama">Panoramaläge</string>
+    <string name="accessibility_switch_to_live_photo">Live-fotoläge</string>
+    <string name="accessibility_switch_to_motion_track">Rörelsespårning</string>
+    <string name="accessibility_video_shutter_button">Slutarknapp för video</string>
+    
+    <string name="bg_replacement_message">Placera enhten på en stadig yta och se till att det inte förekommer någon rörelse inom förhandsgranskningen.\nNär live-effekterna visas i förhandsgranskningen kan video spelas in.</string>
+    
+    <string name="capture_memory_not_enough">Minnet räcker inte till, stäng ner övriga program.</string>    
+    
+    <string name="camera_continuous_not_supported">" stöder inte kontinuerligt foto."</string>
+    <string name="camera_saving_busy">Sparar bilder, vänligen vänta.</string>
+        <string name="continuous_saving_pictures">Sparar <xliff:g id="numbers" example="10">%1$d</xliff:g> bilder</string>
+    
+    <string name="hdr_guide_capture">Flytta inte enheten under HDR-inspelning.</string>
+    
+    
+    <string name="mav_dialog_save_failed">Kunde inte spara bilden.</string>
+    <string name="mav_dialog_title">Visning från flera vinklar</string>
+    <string name="mav_guide_shutter">Tryck ner slutaren för att starta visning av bild från flera vinklar</string>
+    <string name="motion_track_guide_shutter">Håll ner slutaren för att ta bilder i följd. Släpp upp den för att stoppa bildtagningen. Håll kameran stadig under fotograferingen.</string>
+    <string name="motion_track_required_more">Minst 2 kontinuerliga bilder krävs. Försök igen.</string>
+    <string name="motion_track_blended_failed">Blandning av rörelsepårning misslyckades. Försök igen.</string>
+    <string name="motion_track_move">Håll kameran stadig under fotograferingen.</string>
+    <string name="mav_guide_move">Flytta kameran runt ditt objekt.</string>
+    <string name="normal_camera_continuous_not_supported">"Stöder inte kontinuerlig fotografering."</string>
+
+    <string name="wfd_normal_camera_continuous_not_supported">"WFD stöder inte kontinuerlig fotografering."</string>
+    
+    <string name="wfd_motion_track_not_supported">"WFD stöder inte rörelsespårning."</string>
+    <string name="wfd_live_photo_not_supported">"WFD stöder inte live-foto."</string>
+    
+    
+    <string name="pref_video_quality_entry_low">"Låg"</string>
+    <string name="pref_video_quality_entry_medium">"Medium"</string>
+    <string name="pref_video_quality_entry_high">"Hög"</string>
+    <string name="pref_video_quality_entry_fine">Fin</string>
+    <string name="pref_camera_picturesize_entry_4096x3072">12M pixlar</string>
+    <string name="pref_camera_picturesize_entry_3672x2754">10M pixlar</string>
+    <string name="pref_camera_picturesize_entry_3600x2700">9,5M pixlar</string>
+    <string name="pref_camera_picturesize_entry_3264x2448">8M pixlar</string>
+    <string name="pref_camera_picturesize_entry_1280x720">"1 megapixel"</string>
+    <string name="pref_camera_picturesize_entry_1280x768">"1 megapixel"</string>
+    <string name="pref_camera_picturesize_entry_2560x1440">4M pixlar</string>
+    <string name="pref_camera_picturesize_entry_3328x1872">6M pixlar</string>
+    <string name="pref_camera_whitebalance_entry_twilight">Skymning</string>
+    <string name="pref_camera_whitebalance_entry_shade">Skugga</string>
+    <string name="pref_camera_whitebalance_entry_warm_fluorescent">Varm fluorescerande</string>
+    <string name="pref_camera_whitebalance_entry_tungsten">Volfram</string>
+    
+    <string name="pref_camera_capturemode_entry_normal">"Normal"</string>
+    <string name="pref_camera_capturemode_enrty_fb">Ansiktsförsköning</string>
+    <string name="pref_camera_capturemode_entry_bestshot">Bästa foto</string>
+    <string name="pref_camera_capturemode_entry_evbracketshot">Sammanfört EV-foto</string>
+    <string name="pref_camera_capturemode_entry_smileshot">Leendefoto</string>
+    <string name="pref_camera_capturemode_entry_gestureshot">Gestbild</string>
+
+    
+
+    
+    
+    
+    <string name="pref_camera_iso_entry_auto">"Automatiskt"</string>
+    
+    
+    
+    
+    
+
+    
+    
+    <string name="pref_camera_edge_title">"Skärpa"</string>
+
+    
+    <string name="pref_camera_hue_title">"Nyans"</string>
+
+    
+    <string name="pref_camera_saturation_title">"Mättnad"</string>
+
+    
+    <string name="pref_camera_brightness_title">"Ljusstyrka"</string>
+
+    
+    <string name="pref_camera_contrast_title">"Kontrast"</string>
+
+    <string name="pref_camera_dip_entry_low">"Låg"</string>
+    <string name="pref_camera_dip_entry_middle">"Medium"</string>
+    <string name="pref_camera_dip_entry_high">"Hög"</string>
+
+    
+    
+
+    
+    <string name="pref_camera_coloreffect_title">Färgeffekt</string>
+
+    
+    <string name="pref_camera_coloreffect_entry_none">"Inga"</string>
+    <string name="pref_camera_coloreffect_entry_mono">Mono</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"Sepia"</string>
+    <string name="pref_camera_coloreffect_entry_negative">Negativ</string>
+    
+    <string name="pref_camera_coloreffect_entry_solarize">Solarisera</string>
+    <string name="pref_camera_coloreffect_entry_posterize">Färgreduktion</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">Vita tavlan</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">Svarta tavlan</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Turkos</string>
+    <string name="pref_camera_coloreffect_entry_pastel">Pastell</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">Mosaik</string>
+    <string name="pref_camera_coloreffect_entry_redtint">Röd nyans</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">Blå nyans</string>
+    <string name="pref_camera_coloreffect_entry_greentint">Grön nyans</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Sepia blå</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Sepia grön</string>
+
+    
+
+    
+    
+    <string name="pref_camera_selftimer_title">Självtimer</string>
+    <string name="pref_camera_selftimer_entry_off">"Av"</string>
+    <string name="pref_camera_selftimer_entry_2">"2 sekunder"</string>
+    <string name="pref_camera_selftimer_entry_10">"10 sekunder"</string>
+
+    
+    <string name="pref_camera_focusmode_entry_continuous">kontinuerlig</string>
+
+    
+    <string name="pref_camera_capturemode_entry_asd">Upptäck tema automatiskt</string>
+
+    
+    
+    <string name="pref_camera_antibanding_title">Antiflimmer</string>
+    <string name="pref_camera_antibanding_entry_auto">"Automatiskt"</string>
+    <string name="pref_camera_antibanding_entry_50hz">50 Hz</string>
+    <string name="pref_camera_antibanding_entry_60hz">60 Hz</string>
+
+    
+    
+    <string name="pref_camera_scenemode_entry_portrait">Stående</string>
+    
+    <string name="pref_camera_scenemode_entry_landscape">Liggande</string>
+    
+    <string name="pref_camera_scenemode_entry_night_portrait">Nattporträtt</string>
+    
+    <string name="pref_camera_scenemode_entry_theatre">Teater</string>
+    
+    <string name="pref_camera_scenemode_entry_beach">Stranden</string>
+    
+    <string name="pref_camera_scenemode_entry_snow">Snö</string>
+    
+    <string name="pref_camera_scenemode_entry_steadyphoto">Stadigt foto</string>
+    
+    <string name="pref_camera_scenemode_entry_fireworks">Fyrverkerier</string>
+    <string name="pref_camera_scenemode_entry_sports">Sport</string>
+    <string name="pref_camera_scenemode_entry_candlelight">Levande ljus</string>
+    
+    
+    
+    
+    
+    
+    
+    <string name="pref_camera_eis_on">"På"</string>
+    <string name="pref_camera_eis_off">"Av"</string>
+    
+    
+    
+    <string name="pref_camera_recordaudio_title">"Mikrofon"</string>
+    <string name="pref_camera_recordaudio_entry_off">"Av"</string>
+    <string name="pref_camera_recordaudio_entry_on">"På"</string>
+
+     
+    
+    <string name="pref_camera_video_hd_recording_title">Ljudläge</string> 
+    <string name="pref_camera_video_hd_recording_normal_ics">"Normal"</string>
+    <string name="pref_camera_video_hd_recording_indoor_ics">Möte</string>
+
+    
+    
+    
+
+    
+    <string name="pref_camera_continuous_number_title">Fångstnummer</string>
+    
+    <string name="pref_camera_continuous_number_normal">40 bilder</string>
+    <string name="pref_camera_continuous_number_large">99 bilder</string>
+
+    <string name="panorama_guide_shutter">Tryck ner slutaren för att starta panoramafoto</string>
+    <string name="panorama_guide_capture">Flytta enheten för att överlappa de två linjerna</string>
+
+     
+    <string name="pref_camera_image_properties_default">"Standard"</string> 
+    <string name="pref_camera_image_properties_title">Bildegenskaper</string>
+    
+    
+    
+    <string name="pref_camera_picturesize_ratio_entry_16_9">Fullskärm</string>    
+    
+    
+    <string name="pref_camera_picturesize_ratio_entry_4_3">Standard (4:3)</string>
+    <string name="pref_camera_picturesize_ratio_title">Förhandsgranskningsstorlek</string>
+    
+    <string name="pref_voice_capture">Fånga in röst</string>
+    
+    
+    
+    
+    <string name="pref_video_hdr_title">Video-HDR</string>
+    
+    
+    
+    
+     
+    <string name="pref_camera_facebeauty_properties_default">"Standard"</string> 
+    <string name="pref_camera_facebeauty_properties_title">Ansiktsförsköning</string>
+    
+    <string name="pref_facebeauty_smooth_title">Rynkborttagning</string>
+    
+    <string name="pref_facebeauty_skin_color_title">Blek</string>
+    
+    <string name="pref_facebeauty_sharp_title">Form</string>
+
+     
+    <string name="pref_camera_face_detect_title">Ansiktsigenkänning</string>
+    
+    <string name="pref_camera_face_detect_entry_off">"Av"</string>
+    <string name="pref_camera_face_detect_entry_on">"På"</string>
+
+    <string name="pref_camera_record_location_title">"Spara plats"</string>
+    
+    
+    <string name="pref_video_time_lapse_frame_interval_entry_1000">"1 sekund"</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_1500">1,5 sekunder</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_2000">"2 sekunder"</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_2500">2,5 sekunder</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_3000">"3 sekunder"</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_5000">"5 sekunder"</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_10000">"10 sekunder"</string>
+    
+    
+    
+    
+    
+    <string name="livephoto_dialog_title">live-foto</string>
+    <string name="saving_livephoto">Sparar live-foto\u2026</string>
+    <string name="smileshot_guide_capture">Automatiskt fotografering när leende upptäcks</string>
+    <string name="toast_video_recording_not_available">Stoppa övriga inspelningsprogram innan du använder videokameran.</string>
+
+    
+    <string name="video_bad_performance_auto_stop">Lågt minne, inspelningen stoppas automatiskt.</string>
+    <string name="video_bad_performance_drop_quality">Lågt minne, kvaliteten ändras automatiskt.</string>
+    <string name="video_encoder_error">Avkodningsfel!</string>
+    
+    <string name="voice_guide">Du kan säga \"%1$s\" eller \"%2$s\" för att ta ett foto.</string>
+    <string name="video_live_effect_error">Ett fel inträffade vid inspelningen!</string>
+
+    
+    
+    
+    
+    
+    <string name="stereo3d_convert2d_dialog_title">Konvertera till 2D</string>
+    <string name="stereo3d_convert2d_progress_text">Konverterar till 2D…</string>
+    <string name="stereo3d_share_convert_text_multiple">Valda bilder innehåller 3D-bilder. För att fortsätta dela den måste den konverteras till 2D.</string>
+    <string name="stereo3d_share_dialog_text_multiple">Valda bilder innehåller 3D-bilder. Mottagaren kanske inte kan visa den korrekt.</string>
+    <string name="stereo3d_attach_dialog_title">Bifoga som 3D eller 2D</string>
+    <string name="stereo3d_attach_dialog_button_2d">Bifoga som 2D</string>
+    <string name="stereo3d_attach_dialog_button_3d">Bifoga som 3D</string>
+
+    <string name="single3d_guide_shutter">Tryck ner slutaren för att börja ta 3D-bilden</string>
+    <string name="single3d_guide_move">Flytta enheten åt höger för att överlappa ramen</string>
+    <string name="panorama3d_guide_shutter">Tryck ner slutaren för att börja ta 3D-panoramabilden</string>
+    <string name="panorama_guide_choose_direction">Flytta enheten mot fångstriktningen</string>
+    <string name="panorama3d_guide_move">Flytta enheten åt höger</string>
+    <string name="panorama3d_guide_capture">Flytta enheten åt höger för att överlappa de två linjerna</string>
+    
+    
+    
+    
+    <string name="pref_camera_picturesize_stereo3d_title">Stereo3D-bildstorlek</string>
+        
+    
+    <string name="pref_stereo3d_mode_title">3D-växling</string>
+    <string name="pref_stereo3d_mode_entry_off">"Av"</string>
+    <string name="pref_stereo3d_mode_entry_on">"På"</string>
+    
+    
+    <string name="object_track_enable_toast">Håll intryckt på ett objekt på skärmen för att aktivera objektspårning.</string>
+     
+    <string name="pref_camera_hdr_title">HDR</string>
+    
+    <string name="pref_camera_hdr_entry_off">"Av"</string>
+    <string name="pref_camera_hdr_entry_on">"På"</string>
+    
+     
+    <string name="pref_smile_shot_title">Leendefoto</string>
+    
+    <string name="pref_smile_shot_entry_off">"Av"</string>
+    <string name="pref_smile_shot_entry_on">"På"</string>
+    
+     
+    <string name="pref_asd_title">Automatisk scendetektering</string>
+    
+    <string name="pref_asd_entry_off">"Av"</string>
+    <string name="pref_asd_entry_on">"På"</string>
+</resources>

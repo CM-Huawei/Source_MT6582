@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    
+    <string name="onscreenHangupAll">Lägg på alla</string>
+    <string name="onscreenHangupHolding">Lägg på parkerade</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Nedkoppling aktiv, svar väntas</string>
+    <string name="onscreenECT">Överför</string>
+    
+    <string name="dm_lock">DM-låst</string>
+    <string name="dm_unlock">DM-upplåsning</string>
+    
+    <string name="start_record">Starta inspelning</string>
+    <string name="stop_record">Stoppa inspelning</string>
+    <string name="str_db_playlist_name">"Mina inspelningar"</string>
+    <string name="alert_device_error">Ett fel har inträffat på ljudenheten</string>
+    <string name="ext_media_badremoval_notification_title">"SD-kort togs oväntat bort"</string>
+    <string name="error_sdcard_access">Det går inte att komma åt SD-kortet</string>
+    <string name="confirm_device_info_full">SD-kortet har slut utrymme, inspelningen har sparats.</string>
+    <string name="confirm_save_info_saved">Inspelningen har sparats.</string>
+    <string name="confirm_save_info_saved_to">Inspelningen har sparats på</string>
+    
+	<string name="sim_toolkit">"SIM-verktyg"</string>
+    <string name="activity_not_found">"Appen är inte installerad på mobilen."</string>
+    <string name="no_sim_card_inserted" product="default">Sätt in SIM-kort för att starta SIM-verktyg.</string>
+    <string name="airplane_mode_on" product="default">Kunde inte starta SIM-verktyg eftersom flygplansläget är aktiverat.</string>
+    <string name="lable_sim_not_ready" product="default">SIM-verktyg är inte redo eller stöds inte</string>
+    <string name="gemini_3g_indic">3G</string>
+    
+    
+    <string name="callFailed_dsac_vt_incompatible_destination">Videosamtal kan inte konfigureras. Videotelefoni stöds inte på telefonen du ringer till. Vill du ringa ett röstsamtal?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">Videosamtal kan inte konfigureras. Telefonen du ringer till är utanför 3G-täckningen. Vill du ringa ett röstsamtal?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">Videosamtal kan inte konfigureras. Vill du ringa ett röstsamtal?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">Din telefon är utanför 3G-täckningen. Vill du ringa ett röstsamtal?</string>
+    <string name="callFailed_dsac_vt_bear_not_authorized">Videosamtal kan inte konfigureras. Videotelefoni stöds inte på detta SIM-kort. Vill du ringa ett röstsamtal?</string>
+    
+    <string name="notification_voicemail">"Röstbrevlåda"</string>
+    <string name="turn_on_3g_service_message">3G-tjänsten är avstängd. Vill du aktivera den?</string>
+    <string name="associate_sim_missing_message">"SIM-kortet %1$s är inte tillgängligt. Vill du ringa via %2$s"</string>
+    <string name="associate_sim_missing_other">"Övrigt"</string>
+    
+    <string name="vt_incoming_call">Inkommande videosamtal</string>
+    <string name="vt_settings">Videoinställningar</string>
+    <string name="vt_local_video_zoom">Lokal videozoom</string>
+    <string name="vt_local_video_brightness">Lokal ljusstyrka för video</string>
+    <string name="vt_local_video_effect">Lokal videoeffekt</string>
+    <string name="vt_local_video_nightmode">Lokalt nattläge för video</string>
+    <string name="vt_peer_video_quality">Peer-video kvalitet</string>
+    <string name="vt_enable_back_camera">Aktivera bakre kamera</string>
+    <string name="vt_enable_back_camera_description">Möjlighet att växla kamera om aktiverad</string>
+    <string name="vt_peer_video_bigger">Större peer-video</string>
+    <string name="vt_peer_video_bigger_description">Aktivera för att göra peer-video större än lokal video</string>
+    <string name="vt_outgoing_call">Utgående videosamtal</string>
+    <string name="vt_outgoing_call_description">Visa lokal video när ett videosamtal utförs</string>
+    <string name="vt_incoming_call_description">Visa lokal video när ett inkommande videosamtal besvaras</string>
+    <string name="vt_incoming_showme_always">Alltid</string>
+    <string name="vt_incoming_showme_ask">"Fråga"</string>
+    <string name="vt_incoming_showme_disable">"Inaktivera"</string>
+    <string name="vt_pic_replace_local_default">Standardbild</string>
+    <string name="vt_pic_replace_local_freezeme">Frys mig</string>
+    <string name="vt_pic_replace_local_mypic">Min bild</string>
+    <string name="vt_local_video_display">Lokal videovisning</string>
+    <string name="vt_sd_null">SD-kort ej\ntillgängligt</string>
+    <string name="vt_sd_not_enough">SD-kortet har snart\nslut utrymme</string>
+    <string name="vt_peer_video_quality_normal">Normal</string>
+    <string name="vt_peer_video_quality_sharp">Skarp</string>
+    <string name="vt_ask_show_local">Visa lokal video till peer?</string>
+    <string name="vt_ask_show_local_yes">"Ja"</string>
+    <string name="vt_ask_show_local_no">"Nej"</string>
+    <string name="vt_change_my_pic">Ändra</string>
+    <string name="vt_pic_saved_to_sd">Ögonblicksbild sparad på SD-kortet</string>
+    <string name="vt_pic_saved_to_sd_fail">Kunde inte spara ögonblicksbild</string>
+    <string name="vt_error_network">Nätverket kan inte nås. Videosamtalet kopplas från.</string>
+    <string name="vt_error_media">Video kan inte visas korrekt. Videosamtalet kopplas från.</string>
+    <string name="vt_swap_video">Byt video</string>
+    <string name="vt_local_video_contrast">Lokal videokontrast</string>
+    <string name="vt_menu_switch">Växla kamera</string>
+    <string name="vt_menu_hide_me">Dölj lokal video</string>
+    <string name="vt_menu_show_me">Visa lokal video</string>
+    <string name="vt_menu_snapshot">Peer-ögonblicksbild</string>
+    <string name="vt_dis_peer_rep">Visa peer-video</string>
+    <string name="vt_dis_peer_rep_des">Visa bild istället för peer-video när det inte är tillgängligt.</string>
+    <string name="vt_peer_video_rep">Bildersättning för peer-video</string>
+    <string name="vt_peer_video_rep_des">Ställ in en bild som ska visas när peer-video inte är tillgänligt</string>
+    <string name="vt_vocie_answer">Röstsvar</string>
+    <string name="vt_wait_voice">Väntar på anslutning av röstsamtal</string>
+    <string name="vt_voice_connecting">Röstsamtal ansluts</string>
+    <string name="vt_auto_dropback">Automatiskt återgång</string>
+    <string name="vt_auto_dropback_des">Återgå automatiskt till anslutning av röstsamtal</string>
+    <string name="vt_cannot_support_setting">Nuvarande kamera har inte stöd för denna inställning</string>
+    <string name="vt_network_unreachable">Nätverket kan inte nås.</string>
+    <string name="vt_iot_error_01">Videosamtal kan inte konfigureras</string>
+    <string name="vt_iot_error_02">Telefonen är upptagen</string>
+    <string name="vt_iot_error_03">Inget svar</string>
+    <string name="vt_iot_error_04">Nätverket är upptaget</string>
+    <string name="pref_camera_coloreffect_entry_none">"Inga"</string>
+    <string name="pref_camera_coloreffect_entry_mono">Mono</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"Sepia"</string>
+    <string name="pref_camera_coloreffect_entry_negative">Negativ</string>
+    <string name="pref_camera_coloreffect_entry_solarize">Solarisera</string>
+    <string name="pref_camera_coloreffect_entry_posterize">Färgreduktion</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">Vita tavlan</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">Svarta tavlan</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Turkos</string>
+    <string name="pref_camera_coloreffect_entry_pastel">Pastell</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">Mosaik</string>
+    <string name="pref_camera_coloreffect_entry_redtint">Röd nyans</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">Blå nyans</string>
+    <string name="pref_camera_coloreffect_entry_greentint">Grön nyans</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Sepia blå</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Sepia grön</string>
+    
+    
+    <string name="vt_peer_camera_open">Fjärrstyrd kamera är öppen</string>
+    <string name="vt_peer_camera_close">Fjärrstyrd kamera är stängd</string>
+    <string name="vt_recorder_start">Starta inspelning</string>
+    <string name="vt_recorder_voice_and_peer_video">Röst- och peer-video</string>
+    <string name="vt_recorder_only_voice">Endast röst</string>
+    <string name="vt_recorder_only_peer_video">Endast peer-video</string>
+    <string name="vt_recording_saved">Inspelningen har sparats.</string>
+    <string name="vt_recording_saved_sd_full">SD-kortet har slut utrymme, inspelningen har sparats.</string>
+    <string name="vt_recording_error">Inspelningsfelet.</string>
+    <string name="start_record_vt">Starta inspelning</string>
+    <string name="stop_record_vt">Stoppa inspelning</string>
+    
+    
+    <string name="cannot_answered_Video_Call">Videosamtalet kan inte besvaras eftersom ett röstsamtal pågår</string>
+    <string name="cannot_answered_Voice_Call">Röstsamtalet kan inte besvaras eftersom det pågår ett videosamtal</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> minuter <xliff:g id="seconds" example="28">%2$s</xliff:g> sekunder</string>
+    <string name="reminder">Påminnelse</string>
+    <string name="vt_media_occupied">Eftersom kameran inte är tillgänglig kan videosamtal inte anslutas. Kontrollera om något annat program använder kameran.</string>
+    <string name="vt_media_video_fail">Video kan inte visas korrekt. Videosamtalet kopplas från.</string>
+    <string name="incall_toast_unhold">Parkera inte</string>
+    
+    <string name="dualtalk_tip_accept_disconnect_current" tools:ignore="MissingTranslation">Om detta samtal accepteras så avslutas det nuvarande samtalet.</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing" tools:ignore="MissingTranslation">Om detta samtal accepteras så avslutas det utgående samtalet.</string>
+    <string name="dualtalk_tip_accept_disconnect_incoming" tools:ignore="MissingTranslation">Om detta samtal accepteras så avvisas det andra inkommande samtalet.</string>
+    <string name="dualtalk_tip_accept_disconnect_voice">Om detta samtal accepteras så avslutas alla röstsamtal.</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing_reject_incoming">Om detta samtal accepteras så avslutas det utgående samtalet och övriga inkommande samtal avvisas.</string>
+    <string name="dualtalk_tip_accept_disconnect_current_reject_incoming">Om detta samtal accepteras så avslutas det nuvarande samtalet och övriga inkommande samtal avvisas.</string>
+    
+    <string name="end_call_because_can_not_hold">Avsluta nuvarande samtal eftersom det inte kan parkeras.</string>
+    <string name="ring_only_once_title">Ring endast en gång</string>
+    <string name="ring_only_once_summary">Ring endast en gång när ett videosamtal accepterats med röstsamtalsläget.</string>
+    
+    
+    <string name="fdn_contact_name_number_invalid">Namn och nummer kan inte båda vara tomma.</string>
+    
+    <string name="fdn_contact_number_invalid">Ogiltigt kontaktnummer.</string>
+    <string name="fdn_phone_book_busy">Telefonboken är upptagen, försök igen senare.</string>
+    
+    <string name="cdma_not_support">CDMA har inte stöd för denna funktion</string>
+    <string name="cdma_cfu_title">China Telecom</string>
+    <string name="labelCFC">Avbryt all vidarekoppling</string>
+    <string name="cdma_cfu_dialog_sum">"Använd alltid detta nummer"</string>
+        
+    <string name="dual_mic_title">Brusreducering</string>
+    <string name="dual_mic_summary">Dämpar ditt bakgrundsljud under samtal</string>
+    
+    <string name="minutereminder_title">Minutpåminnelse</string>
+    <string name="minutereminder_summary">Påminn vid 50s av varje minut</string>
+    <string name="voice_call_settings">Inställningar för röstsamtal</string>
+    
+    <string name="enable_sip_dialog_message">Internetsamtal är inaktiverat. Vill du aktivera det?</string>
+    
+    <string name="ip_prefix_setting">IP-prefixnummer</string>
+    <string name="ip_prefix_setting_sum">Inställningar för IP-prefixnummer</string>
+    <string name="enter_ip_prefix_number">Ange prefixnummer</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Ange IP-prefixnummer först i inställningarna för röstsamtal.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">IP-uppringningsfunktionen är inte tillämplig för Internetsamtal.</string>
+    <string name="ip_prefix_edit_default_sum">Ange prefixnummer för IP-uppringning</string>
+    
+    <string name="vt_cf_call_description">Inställningar för vidarekoppling av videosamtal</string>
+    <string name="vt_cb_call_description">Samtalsspärr för videosamtal</string>
+    <string name="vt_addtional_call_description">Inställningar för telefonnummer och samtal väntar</string>
+    <string name="others">Övriga inställningar</string>
+    
+    <string name="confirm_3g_switch">Är du säker på att du vill ställa in 3G-tjänsten på detta SIM-kort? Detta alternativ ställer även automatiskt in detta SIM-kort som standardkort för videosamtal.</string>
+    <string name="modem_switching">Växla SIM-kort tar ungefär 10 sekunder att slutföra. Vänligen vänta…</string>
+    <string name="confirm_3g_switch_to_off">Är du säker på att du vill inaktivera 3G-tjänsten? Detta alternativ inaktiverar även videosamtal automatiskt.</string>
+    <string name="service_3g_off">"av"</string>
+    <string name="enable_3G_service">Aktivera 3G</string>
+    <string name="setting_for_3G_service">3G-tjänst</string>
+    
+    
+    <string name="network_forbidden">förbjudet</string>
+    <string name="voice_mail_dialog_text">Du har ett nytt röstmeddelande från <xliff:g id="voicemail_sim_display_name">%s</xliff:g>. Vill du hämta dem nu?</string>
+    <string name="lable_call_barring">"Samtalsspärr"</string>
+    <string name="lable_all_outgoing">Alla utgående samtal</string>
+    <string name="lable_all_outgoing_international">Internationellt utgående samtal</string>
+    <string name="lable_all_out_except">Internationellt utgående samtal förutom till hem-PLMN</string>
+    <string name="lable_all_incoming">Alla inkommande samtal</string>
+    <string name="lable_incoming_calls_except">Inkommande samtal vid roaming</string>
+    <string name="deactivate_all">Avbryt alla</string>
+    <string name="change_password">Ändra lösenord för samtalsspärr</string>
+    <string name="call_barring_sum">Inställningar för samtalsspärr för videosamtal</string>
+    
+    <string name="lable_disable">"Inaktiverad"</string>
+    <string name="lable_enable">Aktiverad</string>
+    <string name="old_password_label">Gammalt lösenord (4 siffror)</string>
+    <string name="new_password_label">Nytt lösenord (4 siffror)</string>
+    <string name="invalid_password">Ange ett lösenord på 4 siffror.</string>
+    <string name="confirm_password_label">Bekräfta nytt lösenord</string>
+    <string name="mismatch_password">Lösenorden stämmer inte överns. Försök igen.</string>
+    <string name="password_changed">Lösenordet har ändrats.</string>
+    <string name="enter_callbarring_password">Ange lösenordet för samtalsspärr (4 siffror)</string>
+    <string name="wrong_password">Lösenordsfel</string>
+    <string name="error_title">"Fel"</string>
+    <string name="cell_broadcast">Cellsändning</string>
+    <string name="cell_broadcast_settings">Inställningar för cellsändning</string>
+    <string name="cb_menu_language">"Språk"</string>
+    <string name="cb_menu_add_channel">Lägg till kanal</string>
+    <string name="cb_menu_channel_list">Kanallista</string>
+    <string name="cb_dialog_title_language_choice">Välj språk</string>
+    <string name="cb_channel_dialog_channel_name">Kanalnamn (0-10 tecken)</string>
+    <string name="cb_channel_dialog_channel_number">Kanalnummer (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">Aktivera kanal</string>
+    <string name="cb_channel_dialog_edit_channel">Redigera kanal</string>
+    <string name="cb_menu_edit">"Redigera"</string>
+    <string name="cb_menu_delete">"Delete"</string>
+    <string name="cb_error_channel_num">Ange kanalnummer (0-65534).</string>
+    <string name="cb_error_channel_name">Kanalnamnets längd är inte korrekt (1-10 tecken).</string>
+    <string name="cb_error_language_select">Välj minst ett språk.</string>
+    <string name="cb_error_channel_id_exist">Kanal-ID finns.</string>
+    <string name="cb_all_languages">"Alla språk"</string>
+    <string name="cb_default_new_channel_name">Ny kanal</string>
+    <string name="fdn_errorcode_unknown_info">Misslyckades, ett okänt fel har inträffat. Försök igen senare.</string>
+    <string name="fdn_errorcode_number_info">Misslyckades, kontaktnumrets längd är för lång.</string>
+    <string name="fdn_errorcode_name_info">Misslyckades, kontaktnumret är för långt.</string>
+    <string name="fdn_errorcode_storage_info">Misslyckades, lagringsutrymmet är fullt.</string>
+    <string name="fdn_errorcode_phb_info">Misslyckades, telefonboken är inte redo. Försök igen senare.</string>
+    <string name="fdn_errorcode_pin2_info">Misslyckades, ogiltig PIN2.</string>
+    <string name="net_or_simcard_busy">Nätverket eller SIM-kortet är upptaget. Försök igen senare.</string>
+    
+    <string name="gsm_umts_network_preferences_title">Nätverksläge</string>
+    <string name="gsm_umts_network_preferneces_summary">Inte implementerat ännu!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">Nätverksläge</string>
+    <string name="umts_preferred_network_mode_dialogtitle">Nätverksläge</string>
+    
+    <string name="voice_call">Röstsamtal</string>
+    <string name="video_call">"Videosamtal"</string>
+    <string name="internet_call">Internetsamtal</string>
+    <string name="sum_voice_call">Relaterade inställningar för röstsamtal</string>
+    <string name="sum_video_call">Relaterade inställningar för videosamtal</string>
+    <string name="sum_internet_call">Relaterade inställningar för Internetsamtal</string>
+    <string name="voice_mail">"Röstbrevlåda"</string>
+    <string name="sum_voice_mail">Röstmeddelandetjänst och nummer</string>
+    <string name="sum_cell_broadcast_control_on">Aktivera cellsändning</string>
+    <string name="sum_cell_broadcast_control_off">Inaktivera cellsändning</string>
+    <string name="sum_cell_broadcast_setting">Språk och kanalinställningar för cellsändning</string>
+    <string name="call_additional_sum">Inställningar för telefonnummer och samtal väntar</string>
+    <string name="vt_call_settings">Inställningar för videosamtal</string>
+    <string name="vt_local_video_rep">Bildersättning för lokal video</string>
+    <string name="vt_pic_replace_local_description">Ställ in en bild som ska visas när kameran är av</string>
+
+    
+    <string name="mo_code_unconditional_cf_active">Samtal vidarebefordrat\nvillkorslöst aktiverat</string>
+    <string name="mo_code_some_cf_active">Samtal vidarebefordrat\npå villkorligt</string>
+    <string name="mo_code_call_forwarded">Samtal vidarekopplat</string>
+    <string name="mo_code_call_is_waiting">Väntande samtal</string>
+    <string name="mo_code_cug_call">Sluten användargrupp</string>
+    <string name="mo_code_outgoing_calls_barred">Utgående samtal spärrat</string>
+    <string name="mo_code_incoming_calls_barred">Inkommande samtal spärrat från andra sidan</string>
+    <string name="mo_code_clir_suppression_rejected">Kontrollera nummerpresentationen</string>
+    <string name="mo_code_call_deflected">ringa samtal överförs</string>
+    
+    <string name="mt_code_forwarded_call">Det är ett vidarekopplat samtal</string>
+    <string name="mt_code_cug_call">Sluten användargrupp</string>
+    <string name="mt_code_call_on_hold">Samtal parkerat</string>
+    <string name="mt_code_call_retrieved">Samtal hämtat</string>
+    <string name="mt_code_multi_party_call">Konferenssamtal</string>
+    <string name="mt_code_on_hold_call_released">Parkerat samtal släppt</string>
+    <string name="mt_code_forward_check_received">SS-meddelande för vidarekoppling har tagits emot</string>
+    <string name="mt_code_call_connecting_ect">Samtal överförs</string>
+    <string name="mt_code_call_connected_ect">Samtalsöverföring aktiv</string>
+    <string name="mt_code_deflected_call">Det är ett avvisat samtal</string>
+    <string name="mt_code_additional_call_forwarded">Ytterligare inkommande samtal vidarekopplat</string>
+    <string name="mt_code_forwarded_cf">Samtal vidarekopplat</string>
+    <string name="mt_code_forwarded_cf_uncond">Samtal vidarekopplat på villkorslöst</string>
+    <string name="mt_code_forwarded_cf_cond">Samtal vidarekopplat på villkorligt</string>
+    <string name="mt_code_forwarded_cf_busy">Upptaget samtal vidarekopplat</string>
+    <string name="mt_code_forwarded_cf_no_reply">Samtal vidarekopplat pga inget svar</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Samtal vidarekopplat pga ej anträffbar</string>
+    <string name="sim_manage_sipcall">Internetsamtal</string>
+    <string name="sim_manage_call_via">Ring via</string>
+    
+    
+	
+    <string name="manual_select_title">Välj manuellt</string>    
+	<string name="manual_select_dialog_msg">Mobiltelefonen kommer inte att välja andra operatörer i manuellt valläge. Ibland måste du utföra ett manuellt val igen eller ändra tillbaka till automatiskt valläge om du tappat tjänsten hos vald operatör. Vi rekommenderar att du använder \"Välj automatiskt\". Vill du välja nätverk manuellt?</string>    
+	<string name="no_service_msg_gemini">Det finns för närvarande ingen tjänst från vald operatör för \"<xliff:g id="operator">%s</xliff:g>\" SIM-kortet.\nVi rekommenderar att du använder \"Välj automatiskt\" eller väljer en annan operatör manuellt.</string>    
+	<string name="no_service_msg">Det finns för närvarande ingen tjänst från vald operatör.\nVi rekommenderar att du använder \"Välj automatiskt\" eller väljer en annan operatör manuellt.</string>    
+	<string name="show_always_title">Varna mig inte igen</string>    
+	<string name="no_service_msg_title_gemini">Ingen tjänst för \"<xliff:g id="operator">%s</xliff:g>\"</string>    
+	<string name="no_service_msg_title">"Ingen tjänst"</string>    
+    <string name="gemini_data_connection">Dataanslutning</string>
+	
+    <string name="plmn_list_setting_title">Önskade nätverk</string>
+    <string name="network_id">Nätverks-ID</string>
+    <string name="dialog_network_priority_title">Prioritet</string>
+    <string name="plmn_list_setting_add_plmn">Ny PLMN</string>
+    
+    <string name="international_dialing_title">Internationell uppringningshjälp</string>
+    <string name="international_dialing_select_country">Det har upptäckts att du ringer ett internationellt samtal. Välj din destination.</string>
+    <string name="international_dialing_add_country_code">Det har upptäcks att du ringer ett nummer i <xliff:g id="country_name">%s</xliff:g>. Vill du lägga till landskoden (+<xliff:g id="country_code">%s</xliff:g>)?</string>
+    <string name="international_dialing_add_country_code_and_area_code">Det har upptäckts att du ringer ett nummer i <xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g>. Vill du lägga till landskod och riktnummer (+<xliff:g id="prefix">%3$s</xliff:g>)?</string>
+    <string name="international_dialing_change_country_prefix">Det har upptäckts att du ringer ett nummer från <xliff:g id="country_name">%s</xliff:g>. Vill du ändra utlandsprefix till \'+\'?</string>
+    <string name="international_dialing_add_country_code_input_area_code">Det har upptäckts att du ringer ett nummer i <xliff:g id="country_name">%s</xliff:g>. Ange i så fall ett riktnummer.</string>
+    <string name="international_dialing_add_country_code_default_input_area_code">Det har upptäckts att du ringer ett nummer i <xliff:g id="country_name">%s</xliff:g>. Om din destinationsort inte är <xliff:g id="area_name">%s</xliff:g>, ange riktnumret.</string>
+    <string name="international_dialing_need_area_code">Riktnumret för din destinationsort behövs för att ringa samtalet.</string>
+    <string name="international_dialing_input_area_code">Ange riktnummer här</string>
+    <string name="international_dialing_dialed_number">Uppringningsnummer:</string>
+    <string name="international_dialing_confirm_area_code">Om din stad inte är <xliff:g id="area_name">%s</xliff:g>, ange riktnumret för din destinationsort nedan.</string>
+    <string name="international_dialing_click_below_button">Klicka på knappen nedan för att ändra landskoden.</string>
+    <string name="international_dialing_yes">Ja. Använd numret nedan:</string>
+    <string name="international_dialing_no">Nej. Använd det ursprungliga numret:</string>
+    <string name="international_dialing_call_button">"Ring"</string>
+    <string name="international_dialing_area_code">riktnummer</string>
+    <string name="international_dialing_invalid_number">Numret är ogiltigt. Vill du fortsätta ringa ändå?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">Vill du lägga till landskod och riktnummer?</string>
+    <string name="no_search_result">Inga sökresultat</string>
+    <string name="which_call_to_activate">Vilket samtal vill du aktivera?</string>
+    <string name="gemini_3g_disable_warning_case0">"Du måste först aktivera dataroaming för detta SIM-kort, vilket kan medföra betydande roamingkostnader! Är du säker på att du vill aktivera dataroaming och välja detta SIM-kort?"</string>
+    <string name="gemini_3g_disable_warning_case1">"3G-tjänsten är inte tillgänglig med det markerade SIM-kortet. Data kommer att laddas långsammare. Du kan ändra 3G-tjänsteinställningen i Inställningar &gt; Trådlöst och nätverk &gt; Mobila nätverk. Är du säker på att du vill välja detta SIM-kort?"</string>
+    <string name="gemini_3g_disable_warning_case2">"Du måste först aktivera dataroaming för detta SIM-kort, vilket kan medföra betydande roamingkostnader! Dessutom är 3G-tjänsten inte tillgänglig på detta SIM-kort. Data kommer att laddas långsammare. Du kan ändra inställningen i Inställningar &gt; Trådlöst och nätverk &gt; Mobila nätverk. Är du säker på att du vill aktivera dataroaming och välja detta SIM-kort?"</string>
+    <string name="disable_data_connection_msg">Om du söker efter alla tillgängliga nätverk kommer dataanslutningen som används att koppla från. Vill du fortsätta?</string>
+    
+    <string name="voice_command_notification_ticker">Du kan säga \"<xliff:g id="first_voice">%s</xliff:g>\" eller \"<xliff:g id="second_voice">%s</xliff:g>\" för att svara eller ignorera inkommande samtal</string>
+    <string name="voice_command_notification_title">Röststyrning</string>
+    <string name="voice_command_notification_message">Röststyrning är aktiverad för telefonen</string>
+
+    <string name="callFailed_simError_cdma">Inget UIM/SIM-kort eller UIM/SIM-kortsfel</string>
+
+    
+    <string name="callFailed_simError_slotNumber">No SIM or SIM error in slot <xliff:g id="slotNumber">%s</xliff:g></string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="callFailed_cdma_notEmergency">"Det går bara att ringa nödsamtal."</string>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="buttonTxtContinue">"Fortsätt"</string>
+
+    <string name="fdn_only_error">Användning är endast tillåten på fasta uppringningsnummer.</string>
+
+    <string name="network_setting_all_forbidden_dialog">Inga tillgängliga nätverk. Försök att växla 3G-tjänst eller klicka på ett förbjudet nätverk för att registrera manuellt.</string>
+
+    
+    <string name="reset_data_usage">Återställ datamängd</string>
+
+    
+    <string name="simContacts_emptyLoading_ex">Läser kontakter från %s\u2026</string>
+
+    <string name="one_retry_left">1 försök kvar</string>
+    <string name="retries_left"><xliff:g id="number">%d</xliff:g> försök kvar</string>
+    <string name="pin2_unblocked">PIN2-blockering har hävts</string>
+    <string name="unblock_pin2">Häv PIN2-blockering</string>
+    <string name="sim_permanently_locked">En felaktig PUK2-kod har matats in mer än 10 gånger. SIM-kortet är permanent låst.</string>
+    <string name="pin_length_indicate">(4-8 siffror)</string>
+    <string name="puk_length_indicate">(8 siffror)</string>
+
+    
+    <string name="caller_manage_manage_done_text">"Tillbaka till samtal"</string>
+
+    
+    <string name="card_title_incoming_vt_call">Inkommande videosamtal</string>
+
+    
+    <string name="voicemail_settings_for">Inställningar för <xliff:g id="provider_name">%s</xliff:g></string>
+
+    
+    <string name="sip_call_options_title_single_sim">Alternativ för Internetsamtal</string>
+
+    
+    <string name="description_search_button">"Sök"</string>
+
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (auto)</item>
+        <item>Endast 3G</item>
+        <item>Endast 2G</item>
+    </string-array>
+    
+
+    <string-array name="umts_network_preferences_choices">
+        <item>2G/3G (auto)</item>
+        <item>Endast 3G</item>
+    </string-array>
+
+    
+
+    
+    
+    
+    
+    <string-array name="lte_usim_prefer_network_mode_choices">
+        <item>4G/3G/2G (auto)</item>
+        <item>3G/2G (auto)</item>
+        <item>Endast 2G</item>
+    </string-array>
+        <string-array name="lte_usim_prefer_network_mode_values">
+        <item>"9"</item>
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+
+    <string-array name="lte_sim_prefer_network_mode_choices">
+        <item>3G/2G (auto)</item>
+        <item>Endast 2G</item>
+    </string-array>
+        <string-array name="lte_sim_prefer_network_mode_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <string name="cipher_indication_notification_title">Ingen röstkryptering</string>
+    <string name="cipher_indication_notification_message">Röstkryptering stängs av utav nätverket</string>
+
+    
+    <string name="network_type">Nätverkstyp</string>
+    <string name="network_type_2g">2G</string>
+    <string name="network_type_3g">3G</string>
+    <string name="network_type_4g">"4G"</string>
+    
+    
+
+    <string name="cancel">"Avbryt"</string>
+</resources>

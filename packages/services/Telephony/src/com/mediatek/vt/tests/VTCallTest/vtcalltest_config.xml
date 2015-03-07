@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+<string name="phone_number">865</string>
+<int name="duration" value="20000" />
+<int name="iteration" value="3" />
+</map>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <!-- Add for CSG -->
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">جار البحث...</string>
+    <string name="sum_search_femtocell_networks">اختر Femtocell من يدويا</string>
+    <string name="register_femtocell_point_wait_tip">جار تسجيل <xliff:g id="femto_cell_info">%s</xliff:g> …</string>
+    <string name="register_femtocell_point_result_fail_tip">تعذر الاتصال بالشبكة الآن. أعد المحاولة لاحقًا.</string>
+</resources>

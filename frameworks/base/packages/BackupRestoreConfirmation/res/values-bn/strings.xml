@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="backup_confirm_title">পূর্ণ ব্যাক আপ</string>
+    
+    <string name="restore_confirm_title">পূর্ণ পুনঃপ্রতিষ্ঠা</string>
+
+    
+    <string name="backup_confirm_text">সংযুক্ত ডেস্কটপ কম্পিউটারে সব ডাটার পূর্ণাঙ্গ ব্যাকআপের জন্য অনুরোধ করা হয়েছে। আপনি কি তা ঘটতে দিতে চান \?\n\n আপনি যদি নিজেই ব্যাকআপের জন্য অনুরোধ না করেন, তাহলে এ কার্যক্রমকে অগ্রসর হতে অনুমতি দেবেন না।</string>
+    
+    <string name="allow_backup_button_label">আমার ডাটার ব্যাকআপ রাখুন</string>
+    
+    <string name="deny_backup_button_label">ব্যাক আপ নিবেন না</string>
+
+    
+    <string name="restore_confirm_text">সংযুক্ত ডেস্কটপ কম্পিউটারে সব ডাটার পূর্ণাঙ্গ পুনঃপ্রতিষ্ঠার জন্য অনুরোধ করা হয়েছে। আপনি কি তা ঘটতে দিতে চান \?\n\n আপনি যদি নিজেই পুনঃপ্রতিষ্ঠার জন্য অনুরোধ না করেন, তাহলে এ কার্যক্রমকে অগ্রসর হতে অনুমতি দেবেন না। এটি ডিভাইসে বিদ্যমান যে কোনো ডাটা প্রতিস্থাপন করে দিতে পারে!</string>
+    
+    <string name="allow_restore_button_label">আমার ডাটা পুনঃপ্রতিষ্ঠা করুন</string>
+    
+    <string name="deny_restore_button_label">পুনঃপ্রতিষ্ঠা করবেন না</string>
+
+    
+    <string name="current_password_text">আপনার বর্তমান ব্যাপআপ পাসওয়ার্ড নিচে প্রবেশ করান:</string>
+    
+    <string name="device_encryption_restore_text">আপনার ডিভাইস এনক্রিপশন পাসওয়ার্ড নিচে প্রবেশ করান।</string>
+    
+    <string name="device_encryption_backup_text">আপনার ডিভাইস এনক্রিপশন পাসওয়ার্ড নিচে প্রবেশ করান। ব্যাপআপ আর্কাইভ এনক্রিপ্ট করতেও এটি ব্যবহৃত হবে।</string>
+
+    
+    <string name="backup_enc_password_text">পূর্ণাঙ্গ ব্যাপআপ ডাটা একক্রিপ্ট করার জন্য ব্যবহার করতে এটি পাসওয়ার্ড ব্যবহার করুন। যদি এটা খালি থাকে, তাহলে আপনার বর্তমান ব্যাপআপ পাসওয়ার্ড ব্যবহার হবে: </string>
+    
+    <string name="backup_enc_password_optional">আপনি পূর্ণাঙ্গ ব্যাকআপ ডাটা এনক্রিপ্ত করতে চাইলে নিচে পাসওয়ার্ড প্রবেশ করান:</string>
+
+    
+    <string name="restore_enc_password_text">পুনঃপ্রতিষ্ঠা করা ডাটা যদি এনক্রিপ্ট করা হয়, তাহলে নিচে পাসওয়ার্ড প্রবেশ করান:</string>
+
+    
+    <string name="toast_backup_started">ব্যাক আপ শুরু হচ্ছে...</string>
+    
+    <string name="toast_backup_ended">ব্যাক আপ নেয়া শেষ হয়েছে</string>
+    
+    <string name="toast_restore_started">রিস্টোর শুরু হচ্ছে...</string>
+    
+    <string name="toast_restore_ended">রিস্টোর সমাপ্ত</string>
+    
+    <string name="toast_timeout">অপারেশনের সময় শেষ</string>
+</resources>

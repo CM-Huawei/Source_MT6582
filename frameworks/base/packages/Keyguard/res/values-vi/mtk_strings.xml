@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Clock -->
+    <string name="keyguard_domestic_zone_name">"Bắc Kinh"</string>
+    <!-- GlowPadView -->
+    <!-- PowerOffAlarm -->
+    <string name="every_day">"Hàng ngày"</string>
+    <string name="never">"Chưa bao giờ"</string>
+    <string name="day_concat">", "</string>
+    <string name="default_label">"Báo thức"</string>
+    <string name="voiceui_notify_string">Bạn có thể nói</string>
+    <string name="voiceui_control_poweroff_alarm">để k.soát b.động tắt nguồn.</string>
+    <string name="voiceui_or">hoặc</string>
+    <string name="keyguard_accessibility_alarm_unlock">B.động tắt nguồn</string>
+    <string name="alarm_alert_dismiss_text">Hủy bỏ</string>
+    <string name="alarm_alert_snooze_text">"Báo lại"</string>
+    <!-- Telephony -->
+    <string name="keyguard_password_entering_puk_code">Nhập mã PUK</string>
+    <string name="keyguard_password_wrong_puk_code">Mã PUK không đúng!</string>
+    <string name="invalidPuk">Nhập 8 số.</string>
+    <string name="pin_pass">Mã được chấp nhận</string>
+    <string name="keyguard_password_enter_new_pin_code">Nhập mã PIN mới</string>
+    <string name="keyguard_password_Confirm_pin_code">X.nhận mã PIN mới</string>
+    <string name="sim_permanently_locked">Nhập sai mã PUK hơn 10 lần, thẻ SIM sẽ bị khóa vĩnh viễn.</string>
+    <string name="retries_left">Còn lại: <xliff:g id="number">%d</xliff:g></string>
+    <string name="simlock_slot_locked_message">"Khe cắm đã bị khóa vĩnh viễn."</string>
+    <string name="simlock_entersimmelock">"Nhập khóa SIM ME"</string>
+    <string name="slot_id">Khe <xliff:g id="number">%d</xliff:g>:</string>
+    <string name="new_simcard">SIM mới</string>
+    <string name="lockscreen_missing_sim_dialog_message">"Thẻ SIM đã bị ngắt kết nối. Đảm bảo thẻ SIM đã được kết nối thích hợp."</string>
+    <string name="puk_pass">Đã mở khóa PIN</string>
+    <string name="sim_card_changed_dialog_title">Đã đổi thẻ SIM</string>
+    <string name="change_setting_for_onenewsim">Đã tìm thấy thẻ SIM mới. 
+Cài đặt SIM mặc định hiện là:</string>
+    <string name="change_setting_for_twonewsim">Đã tìm thấy thẻ SIM mới. 
+Cài đặt SIM mặc định hiện là:</string>
+    <string name="sim_card_removed">Đã tháo thẻ SIM.</string>
+    <string name="sim_card_swapped">Đã chuyển thẻ SIM.</string>
+    <string name="change_settings">Đổi</string>
+    <string name="keyguard_voice_call">Gọi thoại:</string>
+    <string name="keyguard_sms">SMS:</string>
+    <string name="keyguard_data">Kết nối dữ liệu:</string>
+    <string name="dismiss">Hủy bỏ</string>
+    <string name="keyguard_wrong_code_input">Mã không đúng.</string>
+    <string name="keyguard_code_length_prompt">Nhập 4-8 số.</string>
+    <string name="keyguard_code_donnot_mismatch">Don\'t match.</string>
+    <string name="network_searching">Đang dò tìm mạng mới</string>
+    <string name="searching_simcard">Detecting...</string>
+    <string name="keyguard_close">"Đóng"</string>
+    <string name="default_sim_setting_prompt">Now default SIM settings are:</string>
+    <string name="keyguard_video_call">Gọi video:</string>
+    <string name="invalid_sim_title">SIM không hợp lệ</string>
+    <string name="invalid_sim_message">Không thể nhận dạng thẻ UIM/SIM</string>
+    <string name="lockscreen_sim_locked_message_short">Đã khóa SIM</string>
+    <!-- UnreadEvent -->
+    <!-- Utils -->
+    <string name="keyguard_alwaysask">Luôn hỏi</string>
+    <string name="keyguard_data_none">Tắt</string>
+    <string name="keyguard_sim_auto">"tự động"</string>
+    <string name="keyguard_internal_call">Gọi internet</string>
+    <string name="keyguard_not_set">Chưa cài đặt</string>
+    <!-- VoiceUnlock -->
+    <string name="voice_unlock_service_error">Lỗi d.vụ mở khóa thoại.</string>
+    <string name="voice_unlock_password_wrong">Rất tiếc, ko thể n.dạng giọng nói của bạn.</string>
+    <string name="voice_unlock_noisy">Ồn đến nỗi ko thể nghe rõ giọng nói của bạn.</string>
+    <string name="voice_unlock_weak">Ko thể nghe giọng nói của bạn.</string>
+    <string name="voice_unlock_media_playing">Đã tắt mở khóa thoại trong khi phát media.</string>
+    <string name="voiceunlock_multiple_failures">Đã quá số lần thử Mở Khóa Thoại tối đa</string>
+    <!-- DM Lock -->
+    <string name="dm_prompt">Thiết bị cuối đã bị khóa</string>
+    <!-- Tablet -->
+    <string name="sd_accessing_swtich_user_title">Chuyển người dùng?</string>
+    <string name="sd_accessing_swtich_user_message">Mọi dữ liệu chưa lưu trong tài khoản người dùng sẽ bị mất hoặc thiệt hại.</string>
+    <!-- Misc -->
+</resources>

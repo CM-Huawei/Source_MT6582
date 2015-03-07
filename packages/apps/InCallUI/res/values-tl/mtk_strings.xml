@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="onscreenHangupAll">Ibaba</string>
+    <string name="onscreenHangupHolding">Ibaba ang pag-hold</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Aktibo ang pagbaba, hinihintay ang sagot</string>
+    <string name="onscreenECT">Ilipat</string>
+
+    <string name="dm_lock">DM Naka-lock</string>
+    <string name="dm_unlock">DM Hindi Naka-lock</string>
+
+    <string name="mo_code_unconditional_cf_active">Call forwarding\nwalang kundisyong gumagana</string>
+    <string name="mo_code_some_cf_active">Call Forwarding\nNaka Kundisyon</string>
+    <string name="mo_code_call_forwarded">Ipinasa ang tawag</string>
+    <string name="mo_code_call_is_waiting">Nakahintay na tawag</string>
+    <string name="mo_code_cug_call">Saradong Pangkat ng Gumagamit</string>
+    <string name="mo_code_outgoing_calls_barred">Hinarangan ang papalabas na tawag</string>
+    <string name="mo_code_incoming_calls_barred">Hinarangan ang papasok na tawag sa kabilang panig</string>
+    <string name="mo_code_clir_suppression_rejected">Suriin ang serbisyong pagpapadala ng caller ID</string>
+    <string name="mo_code_call_deflected">niliat ang Tawag sa cell</string>
+    <string name="mt_code_forwarded_call">Ipinasang tawag ito</string>
+    <string name="mt_code_cug_call">Saradong Pangkat ng Gumagamit</string>
+    <string name="mt_code_call_on_hold">Naka-hold ang tawag</string>
+    <string name="mt_code_call_retrieved">Kinuha ang tawag</string>
+    <string name="mt_code_multi_party_call">Conference call</string>
+    <string name="mt_code_on_hold_call_released">Pinakawalan ang naka-hold na tawag</string>
+    <string name="mt_code_forward_check_received">Natanggap ang mensaheng ipinasang check SS</string>
+    <string name="mt_code_call_connecting_ect">Nililipat ang tawag</string>
+    <string name="mt_code_call_connected_ect">Aktibo ang paglipat ng tawag</string>
+    <string name="mt_code_deflected_call">Deflected na tawag ito</string>
+    <string name="mt_code_additional_call_forwarded">Karagdagang papasok na tawag pinasa</string>
+    <string name="mt_code_forwarded_cf">Ipinasa ang tawag</string>
+    <string name="mt_code_forwarded_cf_uncond">Pinasa ang tawag nang walang kundisyon</string>
+    <string name="mt_code_forwarded_cf_cond">Pinasa ang tawag nang may kundisyon</string>
+    <string name="mt_code_forwarded_cf_busy">Pinasa pag busy ang tawag</string>
+    <string name="mt_code_forwarded_cf_no_reply">Pinasa ang tawag pag walang tugon</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Pinasa ang tawag pag hindi maabot</string>
+    
+    <string name="start_record">Simulan ang recording</string>
+    <string name="stop_record">Ihinto ang recording</string>
+    <string name="str_db_playlist_name">Aking mga recording</string>
+    <string name="alert_device_error">May naganap na error sa audio device</string>
+    <string name="ext_media_badremoval_notification_title">Hindi inaasahang alisin ang SD card</string>
+    <string name="error_sdcard_access">Hindi ma-access ang SD card</string>
+    <string name="confirm_device_info_full">Walang espasyo ang SD card, ang pag-record ay nai-save.</string>
+    <string name="confirm_save_info_saved">Ang pag-record ay nai-save</string>
+    <string name="confirm_save_info_saved_to">Nai-save ang recording sa</string>
+    
+    <string name="activity_not_found">"Hindi naka-install ang application sa iyong telepono."</string>
+    <string name="confirm_3g_switch">Sigurado ka bang nais mong i-set ang 3G na serbisyo sa SIM na ito? Ise-set din nito ang default na SIM para sa Video na pagtawag sa SIM na ito awtomatiko.</string>
+    <string name="modem_switching">Ang pagpalit ng SIM ay aabutin ng tinatayang 10 segundo para makumpleto. Pakihintay…</string>
+    <string name="confirm_3g_switch_to_off">Sigurado ka bang nais mong i-off ang 3G na serbisyo? Awtomatiko din nitong io-off din nito ang serbisyong Video na pagtawag.</string>
+    <string name="enable_3G_service">Paganahin ang 3G</string>
+    <string name="network_forbidden">bawal</string>
+    <string name="plmn_list_setting_title">Mga kagustuhan</string>
+    <string name="plmn_list_setting_add_plmn">Magdagdag ng bagong PLMN</string>
+    <string name="callFailed_dsac_vt_incompatible_destination">Hindi mai-set up ang video na tawag. Hindi suportado ang teleponong video sa tinatawagan mong telepono, mag-dial gamit ang voice call?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">Hindi mai-set up ang video na tawag. Ang teleponong tinawagan mo ay nasa labas ng lugar ng serbisyong 3G, mag-dial gamit ang voice call?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">Hindi mai-set up ang video na tawag. Mag-dial gamit ang voice call?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">Ang telepono mo ay nasa labas ng lugar ng serbisong 3G, mag-dial gamit ang voice call?</string>
+    <string name="notification_voicemail">Voicemail</string>
+    <string name="turn_on_3g_service_message">Naka-off ngayon ang 3G na serbisyo, nais mo ba itong i-on?</string>
+    <string name="associate_sim_missing_message">"Wala ang %1$s SIM. Nais mo bang tumawag gamit ang %2$s"</string>
+    <string name="associate_sim_missing_other">Iba pa</string>
+    
+    <string name="vt_incoming_call">Papasok na video call</string>
+    <string name="vt_settings">Mga setting ng video</string>
+    <string name="vt_local_video_zoom">Lokal na video zoom</string>
+    <string name="vt_local_video_brightness">Lokal na liwanag ng video</string>
+    <string name="vt_local_video_effect">Lokal na video effect</string>
+    <string name="vt_local_video_nightmode">Lokal na video panggabing mode</string>
+    <string name="vt_peer_video_quality">Kalidad ng video ng kasamahan</string>
+    <string name="vt_pic_replace_local_description">Itakda ang larawan para ipakita kapag ang camera ay nagaka-off</string>
+    <string name="vt_enable_back_camera">Paganahin ang camera sa likuran</string>
+    <string name="vt_enable_back_camera_description">Malilipat ang mga camera kung naka-on</string>
+    <string name="vt_peer_video_bigger">Mas malaki sa lokal na video ang peer video</string>
+    <string name="vt_peer_video_bigger_description">I-on para gawing mas malaki ang peer video sa lokal na video</string>
+    <string name="vt_outgoing_call">Isinasagawang video call</string>
+    <string name="vt_outgoing_call_description">Ipakita ang lokal na video kapag gumagawa ng video call</string>
+    <string name="vt_incoming_call_description">Ipakita ang lokal na video kapag tumatanggap ng papasok na video call</string>
+    <string name="vt_incoming_showme_ask">Magtanong</string>
+    <string name="vt_call_settings">Mga setting ng video call</string>
+    <string name="vt_pic_replace_local_default">Default na larawan</string>
+    <string name="vt_pic_replace_local_freezeme">I-freeze ako</string>
+    <string name="vt_pic_replace_local_mypic">Larawan ko</string>
+    <string name="vt_local_video_display">Lokal na pagpapakita sa video</string>
+    <string name="vt_sd_null">Ang SD card ay\nhindi magagamit</string>
+    <string name="vt_sd_not_enough">Nauubusan ng espasyo ang\nSD card</string>
+    <string name="vt_peer_video_quality_normal">Normal</string>
+    <string name="vt_ask_show_local">Ipakita sa peer ang lokal na video?</string>
+    <string name="vt_change_my_pic">Palitan</string>
+    <string name="vt_pic_saved_to_sd">Nai-save ang snapshot sa SD card</string>
+    <string name="vt_pic_saved_to_sd_fail">Nabigong i-save ang snapshot</string>
+    <string name="vt_error_network">Hindi maabot ang network. Ang video call ay magdidiskonekta.</string>
+    <string name="vt_error_media">Hindi maayos na maipakita ang video. Magdidiskonekta ang video call.</string>
+    <string name="vt_swap_video">Pagpalitin ang mga video</string>
+    <string name="vt_local_video_contrast">Contrast ng lokal na video</string>
+    <string name="vt_menu_switch">Pagpalitin ang camera</string>
+    <string name="vt_menu_hide_me">Itago ang lokal na video</string>
+    <string name="vt_menu_show_me">Ipakita ang lokal na video</string>
+    <string name="vt_menu_snapshot">Snapshot ng peer</string>
+    <string name="vt_local_video_rep">Pampalit ng lokal na video</string>
+    <string name="vt_dis_peer_rep">Ipakita ang kapalit na peer</string>
+    <string name="vt_dis_peer_rep_des">Ipakita ang larawang pampalit sa peer na video kung hindi ito magagamit</string>
+    <string name="vt_peer_video_rep">Pampalit ng peer na video</string>
+    <string name="vt_peer_video_rep_des">Magtakda ng ipapakitang larawan kapag ang peer na video ay wala</string>
+    <string name="vt_vocie_answer">Boses na sagot</string>
+    <string name="vt_wait_voice">Naghihintay sa pagkinekta ng voice call</string>
+    <string name="vt_voice_connecting">Kinikonekta ang voice call</string>
+    <string name="vt_auto_dropback">Auto na drop back</string>
+    <string name="vt_auto_dropback_des">Awtomatikong mag drop back sa pagkonekta sa voice call</string>
+    <string name="vt_cannot_support_setting">Ang kasalukuyang camera ay hindi makakasuporta sa setting na ito</string>
+    <string name="vt_network_unreachable">Hindi maabot ang network.</string>
+    <string name="vt_iot_error_01">Hindi ma-set up ang video call</string>
+    <string name="vt_iot_error_02">Busy ang telepono</string>
+    <string name="vt_iot_error_03">Walang sagot</string>
+    <string name="vt_iot_error_04">Busing ang network</string>
+    <string name="pref_camera_coloreffect_entry_solarize">Aqua</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">Bluetooth on</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">Bluetooth off</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Aqua</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Sepia na Asul</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Sepia na Berde</string>
+    <string name="vt_peer_camera_open">Bukas ang malayuang camera</string>
+    <string name="vt_peer_camera_close">Sarado ang malayuang camera</string>
+    <string name="vt_recorder_start">Simulan ang recording</string>
+    <string name="vt_recorder_voice_and_peer_video">Boses at peer video</string>
+    <string name="vt_recorder_only_voice">Boses lang</string>
+    <string name="vt_recorder_only_peer_video">Peer video lang</string>
+    <string name="vt_recording_saved">Na-save ang recording na ito.</string>
+    <string name="vt_recording_saved_sd_full">Walang espasyo ang SD card, ang pag-record ay nai-save.</string>
+    <string name="vt_recording_error">Error sa recording.</string>
+    <string name="start_record_vt">Simulan ang recording</string>
+    <string name="stop_record_vt">Ihinto ang recording</string>
+    <string name="enable_sip_dialog_message">Hindi gumagana ang internet call, nais mo bang paganahin ito?</string>
+    <string name="ip_prefix_setting">Numero ng IP prefix</string>
+    <string name="ip_prefix_setting_sum">Mga setting ng numero ng IP prefix</string>
+    <string name="enter_ip_prefix_number">Ipasok ang numero ng prefix</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Pakipasok ng numero ng IP prefix muna sa mga setting ng voice call.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">Ang IP dial na paggamit ay hindi angkop sa internet call.</string>
+    <string name="ip_prefix_edit_default_sum">Ipasok ang prefix para sa IP dial</string>
+    <string name="vt_cf_call_description">Mga setting ng pagpasa ng video call</string>
+    <string name="vt_cb_call_description">Mga setting ng pagharang sa video call</string>
+    <string name="vt_addtional_call_description">Mga setting ng numero ng telepono at paghihintay ng tawag</string>
+    <string name="others">Ibang mga setting</string>
+    <string name="sim_manage_sipcall">Internet call</string>
+    <string name="sim_manage_call_via">Tumawag gamit ang</string>
+    <string name="dual_mic_title">Dalawang Mic Pagbawas ng Ingay</string>
+    <string name="dual_mic_summary">Pigilin ang iyong ingay sa background kapag tumatawag</string>
+    <string name="minutereminder_title">Paalala sa minuto</string>
+    <string name="minutereminder_summary">Ipaalala sa 50s ng bawat minuto</string>
+    <string name="voice_call_settings">Mga setting ng voice call</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> min <xliff:g id="seconds" example="28">%2$s</xliff:g> seg</string>
+    <string name="reminder">Paalala</string>
+    <string name="vt_media_occupied">Dahil ang camera ay hindi magagamit, and video call ay hindi makonekta. Pakisuri ang anumang ibang aplikasyon gamit ang camera.</string>
+    <string name="vt_media_video_fail">Ang video ay hindi maaayos maipapakita. Ang video call ay diskonektado</string>
+    <string name="incall_toast_unhold">Alisin ang pagkapigil</string>
+
+</resources>

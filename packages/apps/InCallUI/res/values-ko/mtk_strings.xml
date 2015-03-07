@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">모두 끊기</string>
+    <string name="onscreenHangupHolding">대기 중 끊기</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">현지, 대기 중 응답 끊기</string>
+    <string name="onscreenECT">전송</string>
+    <!-- dm lock -->
+    <string name="dm_lock">DM 잠금</string>
+    <string name="dm_unlock">DM 잠금 해제</string>
+    <!-- voice recorder -->
+    <string name="start_record">녹음 시작</string>
+    <string name="stop_record">녹음 정지</string>
+    <string name="str_db_playlist_name">내 녹음</string>
+    <string name="alert_device_error">오디오 장치에서 오류 발생</string>
+    <string name="ext_media_badremoval_notification_title">SD 카드가 예기치 않게 제거됨</string>
+    <string name="error_sdcard_access">SD 카드에 액세스할 수 없음</string>
+    <string name="confirm_device_info_full">SD 카드 공간이 부족합니다. 녹음이 저장되었습니다.</string>
+    <string name="confirm_save_info_saved">녹음이 저장되었습니다.</string>
+    <string name="confirm_save_info_saved_to">녹화가 다음 위치에 저장되었습니다</string>
+    <!-- temp added string begin -->
+    <string name="sim_toolkit">"SIM 툴키트"</string>
+    <string name="activity_not_found">전화기에 애플리케이션이 설치되지 않았습니다.</string>
+    <string name="gemini_3g_indic">3G</string>
+    <!-- temp added string end -->
+    <!-- video call drop back -->
+    <string name="callFailed_dsac_vt_incompatible_destination">화상 통화를 설정할 수 없습니다. 사용 중인 전화기에서 화상 전화가 지원되지 않습니다. 음성 전화로 거시겠습니까?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">화상 통화를 설정할 수 없습니다. 다이얼링한 전화기가 3G 서비스 지역을 벗어났습니다. 음성 전화로 거시겠습니까?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">화상 통화를 설정할 수 없습니다. 음성 전화로 거시겠습니까?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">전화기가 3G 서비스 지역을 벗어났습니다. 음성 전화로 거시겠습니까?</string>
+    <!-- voicemail notifications -->
+    <string name="notification_voicemail">"음성사서함"</string>
+    <string name="turn_on_3g_service_message">지금 3G 서비스가 꺼져 있습니다. 서비스를 켜시겠습니까?</string>
+    <string name="associate_sim_missing_message">"%1$s SIM은 사용할 수 없습니다. %2$s을(를) 통해 전화를 거시겠습니까?"</string>
+    <string name="associate_sim_missing_other">"기타"</string>
+    <!-- video call -->
+    <string name="vt_incoming_call">수신 화상 통화</string>
+    <string name="vt_settings">동영상 설정</string>
+    <string name="vt_local_video_zoom">로컬 동영상 줌</string>
+    <string name="vt_local_video_brightness">로컬 동영상 밝기</string>
+    <string name="vt_local_video_effect">로컬 동영상 효과</string>
+    <string name="vt_local_video_nightmode">로컬 동영상 야경 모드</string>
+    <string name="vt_peer_video_quality">피어 동영상 화질</string>
+    <string name="vt_enable_back_camera">백 카메라 사용</string>
+    <string name="vt_enable_back_camera_description">켜 있는 경우 카메라 전환 가능</string>
+    <string name="vt_peer_video_bigger">대용량 피어 동영상</string>
+    <string name="vt_peer_video_bigger_description">피어 동영상을 로컬 동영상보다 크게 만들기 켜기</string>
+    <string name="vt_outgoing_call">발신 화상 통화</string>
+    <string name="vt_outgoing_call_description">화상 통화 시 로컬 동영상 표시</string>
+    <string name="vt_incoming_call_description">수신 화상 통화 수락 시 로컬 동영상 표시</string>
+    <string name="vt_incoming_showme_always">항상</string>
+    <string name="vt_incoming_showme_ask">묻기</string>
+    <string name="vt_incoming_showme_disable">사용 안함</string>
+    <string name="vt_pic_replace_local_default">기본 사진</string>
+    <string name="vt_pic_replace_local_freezeme">고정</string>
+    <string name="vt_pic_replace_local_mypic">내 사진</string>
+    <string name="vt_local_video_display">로컬 동영상 디스플레이</string>
+    <string name="vt_sd_null">SD 카드를\n사용할 수 없음</string>
+    <string name="vt_sd_not_enough">SD 카드\n공간 부족</string>
+    <string name="vt_peer_video_quality_normal">"보통"</string>
+    <string name="vt_peer_video_quality_sharp">선명하게</string>
+    <string name="vt_ask_show_local">로컬 동영상을 피어에게 표시하시겠습니까?</string>
+    <string name="vt_ask_show_local_yes">예</string>
+    <string name="vt_ask_show_local_no">아니요</string>
+    <string name="vt_change_my_pic">변경</string>
+    <string name="vt_pic_saved_to_sd">SD 카드에 저장된 스냅샷</string>
+    <string name="vt_pic_saved_to_sd_fail">스냅샷 저장에 실패했습니다</string>
+    <string name="vt_error_network">네트워크에 접속할 수 없습니다. 화상 통화가 끊깁니다.</string>
+    <string name="vt_error_media">동영상을 제대로 표시할 수 없습니다. 화상 통화가 끊깁니다.</string>
+    <string name="vt_swap_video">동영상 스왑</string>
+    <string name="vt_local_video_contrast">로컬 동영상 명암</string>
+    <string name="vt_menu_switch">카메라 전환</string>
+    <string name="vt_menu_hide_me">로컬 동영상 숨기기</string>
+    <string name="vt_menu_show_me">로컬 동영상 표시</string>
+    <string name="vt_menu_snapshot">피어 스냅샷</string>
+    <string name="vt_dis_peer_rep">피어 동영상 표시</string>
+    <string name="vt_dis_peer_rep_des">피어 동영상을 사용할 수 없는 경우 이를 대체하는 사진 표시</string>
+    <string name="vt_peer_video_rep">피어 동영상 대체</string>
+    <string name="vt_peer_video_rep_des">피어 동영상을 사용할 수 없는 경우 표시할 사진 설정</string>
+    <string name="vt_vocie_answer">음성 응답</string>
+    <string name="vt_wait_voice">음성 전화 연결 대기</string>
+    <string name="vt_voice_connecting">음성 전화 연결 중</string>
+    <string name="vt_auto_dropback">자동 재라우팅</string>
+    <string name="vt_auto_dropback_des">화상 통화 자동 연결로 재라우팅</string>
+    <string name="vt_cannot_support_setting">현재 카메라가 이 설정을 지원할 수 없습니다</string>
+    <string name="vt_network_unreachable">네트워크에 접속할 수 없습니다.</string>
+    <string name="vt_iot_error_01">화상 통화를 설정할 수 없습니다</string>
+    <string name="vt_iot_error_02">전화기가 통화 중입니다</string>
+    <string name="vt_iot_error_03">응답이 없습니다</string>
+    <string name="vt_iot_error_04">네트워크가 사용 중입니다</string>
+    <string name="pref_camera_coloreffect_entry_none">없음</string>
+    <string name="pref_camera_coloreffect_entry_mono">모노</string>
+    <string name="pref_camera_coloreffect_entry_sepia">세피아</string>
+    <string name="pref_camera_coloreffect_entry_negative">네거티브</string>
+    <string name="pref_camera_coloreffect_entry_solarize">과다 노출</string>
+    <string name="pref_camera_coloreffect_entry_posterize">포스터화</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">화이트보드</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">블랙보드</string>
+    <string name="pref_camera_coloreffect_entry_aqua">아쿠아</string>
+    <string name="pref_camera_coloreffect_entry_pastel">파스텔</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">모자이크</string>
+    <string name="pref_camera_coloreffect_entry_redtint">빨간 색조</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">파란 색조</string>
+    <string name="pref_camera_coloreffect_entry_greentint">녹색 색조</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">세피아 블루</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">세피아 그린</string>
+    <!-- Currently below 2 bluetooth string only used in VT option menu -->
+    <!-- Added for CMCC Phase 2 of VT -->
+    <string name="vt_peer_camera_open">원격 카메라가 열렸습니다</string>
+    <string name="vt_peer_camera_close">원격 카메라가 닫혔습니다</string>
+    <string name="vt_recorder_start">녹화 시작</string>
+    <string name="vt_recorder_voice_and_peer_video">음성 및 피어 동영상</string>
+    <string name="vt_recorder_only_voice">음성만</string>
+    <string name="vt_recorder_only_peer_video">피어 동영상만</string>
+    <string name="vt_recording_saved">녹화가 저장되었습니다.</string>
+    <string name="vt_recording_saved_sd_full">SD 카드 공간이 부족합니다. 녹음이 저장되었습니다.</string>
+    <string name="vt_recording_error">녹화 오류.</string>
+    <string name="start_record_vt">녹화 시작</string>
+    <string name="stop_record_vt">녹음 정지</string>
+    <!--Video call or voice call cannot be answered -->
+    <string name="cannot_answered_Video_Call">이미 음성 통화가 있기 때문에 화상 통화로 응답할 수 없습니다</string>
+    <string name="cannot_answered_Voice_Call">이미 화상 통화가 있기 때문에 화상 통화로 응답할 수 없습니다</string>
+    <string name="callDurationFormat">
+        <xliff:g id="minutes" example="42">%1$s</xliff:g>분 
+        <xliff:g id="seconds" example="28">%2$s</xliff:g>초
+    </string>
+    <string name="reminder">알림</string>
+    <string name="vt_media_occupied">카메라를 사용할 수 없기 때문에 화상 통화를 연결할 수 없습니다. 다른 애플리케이션이 카메라를 사용하고 있는지 확인하세요.</string>
+    <string name="vt_media_video_fail">동영상을 제대로 표시할 수 없습니다. 화상 통화가 끊깁니다</string>
+    <string name="incall_toast_unhold">대기 해제</string>
+
+</resources>

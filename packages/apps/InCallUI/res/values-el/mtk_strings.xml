@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">Διακοπή όλων</string>
+    <string name="onscreenHangupHolding">Διακοπή αναμονής</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Διακοπή ενεργής, απάντηση σε αναμονή</string>
+    <string name="onscreenECT">Μεταφορά</string>
+    <!-- dm lock -->
+    <string name="dm_lock">Κλειδωμένο DM</string>
+    <string name="dm_unlock">Ξεκλείδωμα DM</string>
+
+    <string name="mo_code_unconditional_cf_active">Η προώθηση κλήσεων\nχωρίς όρους είναι ενεργοποιημένη</string>
+    <string name="mo_code_some_cf_active">Προώθηση κλήσεων\nχωρίς όρους</string>
+    <string name="mo_code_call_forwarded">Η κλήση έχει προωθηθεί</string>
+    <string name="mo_code_call_is_waiting">Κλήση σε αναμονή</string>
+    <string name="mo_code_cug_call">Κλειστή ομάδα χρηστών</string>
+    <string name="mo_code_outgoing_calls_barred">Οι εισερχόμενες κλήσεις έχουν αποκλειστεί</string>
+    <string name="mo_code_incoming_calls_barred">Η εισερχόμενη κλήση έχει αποκλειστεί από την άλλη πλευρά</string>
+    <string name="mo_code_clir_suppression_rejected">Υπηρεσία αποστολής ελέγχου αναγνώρισης κλήσης</string>
+    <string name="mo_code_call_deflected">Η κλήση μεταβιβάστηκε</string>
+    <string name="mt_code_forwarded_call">Πρόκειται για κλήση που έχει προωθηθεί</string>
+    <string name="mt_code_cug_call">Κλειστή ομάδα χρηστών</string>
+    <string name="mt_code_call_on_hold">Κρατημένη κλήση</string>
+    <string name="mt_code_call_retrieved">Έγινε ανάκτηση κλήσης</string>
+    <string name="mt_code_multi_party_call">Κλήση συνδιάσκεψης</string>
+    <string name="mt_code_on_hold_call_released">Τερματίστηκε κρατημένη κλήση</string>
+    <string name="mt_code_forward_check_received">Έγινε λήψη μηνύματος SS ελέγχου προώθησης</string>
+    <string name="mt_code_call_connecting_ect">Μεταβίβαση κλήσης</string>
+    <string name="mt_code_call_connected_ect">Μεταβίβαση κλήσης ενεργή</string>
+    <string name="mt_code_deflected_call">Πρόκειται για εκτρεπόμενη κλήση</string>
+    <string name="mt_code_additional_call_forwarded">Έχει προωθηθεί πρόσθετη εισερχόμενη κλήση</string>
+    <string name="mt_code_forwarded_cf">Η κλήση έχει προωθηθεί</string>
+    <string name="mt_code_forwarded_cf_uncond">Η κλήση έχει προωθηθεί χωρίς όρους</string>
+    <string name="mt_code_forwarded_cf_cond">Η κλήση έχει προωθηθεί με όρους</string>
+    <string name="mt_code_forwarded_cf_busy">Η κλήση έχει προωθηθεί λόγου κατειλημμένου</string>
+    <string name="mt_code_forwarded_cf_no_reply">Η κλήση έχει προωθηθεί επειδή δεν υπάρχει απάντηση</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Η κλήση έχει προωθηθεί επειδή δεν είναι εφικτή η σύνδεση</string>
+    
+    <!-- voice recorder -->
+    <string name="start_record">Έναρξη εγγραφής</string>
+    <string name="stop_record">Διακοπή εγγραφής</string>
+    <string name="str_db_playlist_name">Οι εγγραφές μου</string>
+    <string name="alert_device_error">Παρουσιάστηκε σφάλμα στη συσκευή ήχου</string>
+    <string name="ext_media_badremoval_notification_title">Μη αναμενόμενη αποσύνδεση κάρτας SD</string>
+    <string name="error_sdcard_access">"Δεν είναι δυνατή η πρόσβαση στην κάρτα SD"</string>
+    <string name="confirm_device_info_full">Δεν υπάρχει χώρος στην κάρτα SD, η εγγραφή έχει αποθηκευτεί.</string>
+    <string name="confirm_save_info_saved">Η εγγραφή έχει αποθηκευτεί</string>
+    <string name="confirm_save_info_saved_to">Η εγγραφή έχει αποθηκευτεί σε</string>
+    
+    <string name="activity_not_found">"Η εφαρμογή δεν έχει εγκατασταθεί στο τηλέφωνό σας."</string>
+    <string name="confirm_3g_switch">Είστε βέβαιοι ότι θέλετε να ορίσετε την υπηρεσία 3G σε αυτή την κάρτα SIM; Αυτό θα ορίσει, επίσης, αυτόματα την προεπιλεγμένη κάρτα SIM για κλήση βίντεο σε αυτή την κάρτα SIM.</string>
+    <string name="modem_switching">Η εναλλαγή SIM θα χρειαστεί περίπου 10 δευτερόλεπτα για να ολοκληρωθεί. Περιμένετε...</string>
+    <string name="confirm_3g_switch_to_off">Είστε βέβαιοι ότι θέλετε να απενεργοποιήσετε την υπηρεσία 3G; Αυτό θα απενεργοποιήσει, επίσης, αυτόματα την υπηρεσία κλήσης βίντεο.</string>
+    <string name="enable_3G_service">Ενεργοποίηση 3G</string>
+    <string name="network_forbidden">δεν επιτρέπεται</string>
+    <string name="plmn_list_setting_title">Προτιμήσεις</string>
+    <string name="plmn_list_setting_add_plmn">Προσθήκη νέου PLMN</string>
+    <string name="callFailed_dsac_vt_incompatible_destination">Δεν είναι δυνατή η ρύθμιση κλήσης βίντεο. Η συσκευή που καλείτε δεν υποστηρίζει εικονοτηλέφωνο, να γίνει φωνητική κλήση;</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">Δεν είναι δυνατή η ρύθμιση κλήσης βίντεο. Η συσκευή που καλέσατε βρίσκεται εκτός περιοχής κάλυψης 3G, να γίνει φωνητική κλήση;</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">Δεν είναι δυνατή η ρύθμιση κλήσης βίντεο. Να γίνει φωνητική κλήση;</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">Η συσκευή σας βρίσκεται εκτός περιοχής κάλυψης 3G, να γίνει φωνητική κλήση;</string>
+    <string name="notification_voicemail">Τηλεφωνητής</string>
+    <string name="turn_on_3g_service_message">Η υπηρεσία 3G είναι απενεργοποιημένη τώρα, θέλετε να την ενεργοποιήσετε;</string>
+    <string name="associate_sim_missing_message">"Η κάρτα SIM %1$s δεν είναι διαθέσιμη. Θέλετε να πραγματοποιήσετε την κλήση μέσω %2$s;"</string>
+    <string name="associate_sim_missing_other">Άλλο</string>
+
+    <!-- video call -->
+    <string name="vt_incoming_call">Εισερχόμενη κλήση βίντεο</string>
+    <string name="vt_settings">Ρυθμίσεις βίντεο</string>
+    <string name="vt_local_video_zoom">Ζουμ τοπικού βίντεο</string>
+    <string name="vt_local_video_brightness">Φωτεινότητα τοπικού βίντεο</string>
+    <string name="vt_local_video_effect">Εφέ τοπικού βίντεο</string>
+    <string name="vt_local_video_nightmode">Νυχτερινή λειτουργία τοπικού βίντεο</string>
+    <string name="vt_peer_video_quality">Ποιότητα ομότιμου βίντεο</string>
+    <string name="vt_pic_replace_local_description">Ορισμός εικόνας για εμφάνιση όταν δεν χρησιμοποιείται η φωτογραφική μηχανή</string>
+    <string name="vt_enable_back_camera">Ενεργοποίηση πίσω φωτογραφικής μηχανής</string>
+    <string name="vt_enable_back_camera_description">Διαθέσιμο για εναλλαγή φωτογραφικών μηχανών όταν είναι ενεργοποιημένο</string>
+    <string name="vt_peer_video_bigger">Το ομότιμο βίντεο είναι μεγαλύτερο από το τοπικό βίντεο</string>
+    <string name="vt_peer_video_bigger_description">Ενεργοποίηση για να γίνει το ομότιμο βίντεο μεγαλύτερο από το τοπικό βίντεο</string>
+    <string name="vt_outgoing_call">Εξερχόμενη κλήση βίντεο</string>
+    <string name="vt_outgoing_call_description">Εμφάνιση τοπικού βίντεο κατά τη βίντεο κλήση</string>
+    <string name="vt_incoming_call_description">Εμφάνιση τοπικού βίντεο κατά την αποδοχή εισερχόμενης βίντεο κλήσης</string>
+    <string name="vt_incoming_showme_ask">Ερώτηση</string>
+    <string name="vt_call_settings">Ρυθμίσεις κλήσης βίντεο</string>
+    <string name="vt_pic_replace_local_default">Προεπιλεγμένη εικόνα</string>
+    <string name="vt_pic_replace_local_freezeme">Πάγωμα</string>
+    <string name="vt_pic_replace_local_mypic">Η εικόνα μου</string>
+    <string name="vt_local_video_display">Εμφάνιση τοπικού βίντεο</string>
+    <string name="vt_sd_null">Η κάρτα SD δεν\nείναι διαθέσιμη</string>
+    <string name="vt_sd_not_enough">Ο διαθέσιμος χώρος στην\nκάρτα SD είναι ελάχιστος</string>
+    <string name="vt_peer_video_quality_normal">Κανονικά</string>
+    <string name="vt_ask_show_local">Εμφάνιση τοπικού βίντεο σε ομότιμο;</string>
+    <string name="vt_change_my_pic">Αλλαγή</string>
+    <string name="vt_pic_saved_to_sd">Το στιγμιότυπο αποθηκεύτηκε στην κάρτα SD</string>
+    <string name="vt_pic_saved_to_sd_fail">Αποτυχία αποθήκευσης στιγμιότυπου</string>
+    <string name="vt_error_network">Το δίκτυο δεν είναι προσβάσιμο. Η κλήση βίντεο θα αποσυνδεθεί.</string>
+    <string name="vt_error_media">Δεν είναι δυνατή η σωστή εμφάνιση του βίντεο. Η κλήση βίντεο θα αποσυνδεθεί.</string>
+    <string name="vt_swap_video">Εναλλαγή βίντεο</string>
+    <string name="vt_local_video_contrast">Αντίθεση τοπικού βίντεο</string>
+    <string name="vt_menu_switch">Εναλλαγή φωτογραφικής μηχανής</string>
+    <string name="vt_menu_hide_me">Απόκρυψη τοπικού βίντεο</string>
+    <string name="vt_menu_show_me">Εμφάνιση τοπικού βίντεο</string>
+    <string name="vt_menu_snapshot">Στιγμιότυπο ομότιμου</string>
+    <string name="vt_local_video_rep">Αντικατάσταση τοπικού βίντεο</string>
+    <string name="vt_dis_peer_rep">Οθόνη αντικατάστασης ομότιμου</string>
+    <string name="vt_dis_peer_rep_des">Εικόνα οθόνης για αντικατάσταση ομότιμου βίντεο όταν δεν είναι διαθέσιμο</string>
+    <string name="vt_peer_video_rep">Αντικατάσταση ομότιμου βίντεο</string>
+    <string name="vt_peer_video_rep_des">Ορισμός εικόνας για εμφάνιση όταν δεν είναι διαθέσιμο το ομότιμο βίντεο</string>
+    <string name="vt_vocie_answer">Απόκριση μέσω ομιλίας</string>
+    <string name="vt_wait_voice">Αναμονή για σύνδεση φωνητικής κλήσης</string>
+    <string name="vt_voice_connecting">Σύνδεση φωνητικής κλήσης</string>
+    <string name="vt_auto_dropback">Αυτόματη επιστροφή</string>
+    <string name="vt_auto_dropback_des">Επιστροφή σε σύνδεση φωνητικής κλήσης αυτόματα</string>
+    <string name="vt_cannot_support_setting">Η τρέχουσα φωτογραφική μηχανή δεν μπορεί να υποστηρίξει αυτήν τη ρύθμιση</string>
+    <string name="vt_network_unreachable">Το δίκτυο δεν είναι προσβάσιμο.</string>
+    <string name="vt_iot_error_01">Δεν είναι δυνατή η ρύθμιση κλήσης βίντεο</string>
+    <string name="vt_iot_error_02">Το τηλέφωνο είναι κατειλημμένο</string>
+    <string name="vt_iot_error_03">Δεν απαντά</string>
+    <string name="vt_iot_error_04">Το δίκτυο είναι απασχολημένο</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"Έκθεση"</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">Ασπροπίνακας</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">Μαυροπίνακας</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Γαλάζιο</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Μπλε σέπια</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Πράσινο σέπια</string>
+    <string name="vt_peer_camera_open">Η απομακρυσμένη φωτογραφική μηχανή είναι ανοιχτή</string>
+    <string name="vt_peer_camera_close">Η απομακρυσμένη φωτογραφική μηχανή είναι κλειστή</string>
+    <string name="vt_recorder_start">Έναρξη εγγραφής</string>
+    <string name="vt_recorder_voice_and_peer_video">Φωνή και ομότιμο βίντεο</string>
+    <string name="vt_recorder_only_voice">Μόνο φωνή</string>
+    <string name="vt_recorder_only_peer_video">Μόνο ομότιμο βίντεο</string>
+    <string name="vt_recording_saved">Η εγγραφή έχει αποθηκευτεί.</string>
+    <string name="vt_recording_saved_sd_full">Δεν υπάρχει χώρος στην κάρτα SD, η εγγραφή έχει αποθηκευτεί.</string>
+    <string name="vt_recording_error">Σφάλμα εγγραφής.</string>
+    <string name="start_record_vt">Έναρξη εγγραφής</string>
+    <string name="stop_record_vt">Διακοπή εγγραφής</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> λεπτά <xliff:g id="seconds" example="28">%2$s</xliff:g> δευτ.</string>
+    <string name="reminder">Υπενθύμιση</string>
+    <string name="vt_media_occupied">Δεν είναι δυνατή η σύνδεση κλήσης βίντεο, επειδή η φωτογραφική μηχανή δεν είναι διαθέσιμη. Ελέγξτε εάν η φωτογραφική μηχανή χρησιμοποιείται από τυχόν άλλη εφαρμογή.</string>
+    <string name="vt_media_video_fail">Δεν είναι δυνατή η σωστή εμφάνιση του βίντεο. Η κλήση βίντεο αποσυνδέθηκε</string>
+    <string name="incall_toast_unhold">Διακοπή αναμονής</string>
+</resources>

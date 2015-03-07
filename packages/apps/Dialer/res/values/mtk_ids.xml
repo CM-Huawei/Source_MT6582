@@ -1,0 +1,23 @@
+<resources>
+    <!-- IDS for DialpadFragment -->
+    <item type="id" name="one" />
+    <item type="id" name="two" />
+    <item type="id" name="three" />
+    <item type="id" name="four" />
+    <item type="id" name="five" />
+    <item type="id" name="six" />
+    <item type="id" name="seven" />
+    <item type="id" name="eight" />
+    <item type="id" name="nine" />
+    <item type="id" name="zero" />
+    <item type="id" name="star" />
+    <item type="id" name="pound" />
+    <item type="id" name="dialpadButton" />
+    <item type="id" name="dialButton" />
+    <item type="id" name="overflow_menu" />
+    <item type="id" name="videoDialButton" />
+    <item type="id" name="sendMessage" />
+    <item type="id" name="left_divider" />
+    <item type="id" name="right_divider" />
+    <item type="id" name="addToContact" />
+</resources>

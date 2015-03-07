@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_advanced_settings">"Разширени настройки"</string>
+    <string name="bluetooth_profile_ftp">"Прехвърляне на файл"</string>
+    <string name="bluetooth_ftp_profile_summary_use_for">Използване за трансфер на файлове</string>
+    <string name="bluetooth_ftp_profile_summary_connected">"Свързано към трансфера на файлове"</string>
+    <string name="mtp_transfer_unmount_error_text">SD картата не трябва да се изважда по време на трансфера</string>
+    <string name="mtp_transfer_erase_error_text">SD картата не трябва да се изтрива по време на трансфера</string>    
+    <string name="launch_error">"Не мога да стартирам приложението!"</string>
+    <string name="dlg_confirm_unmount_usb_title" product="default">Откачане на USB памет?</string>
+    <string name="dlg_confirm_unmount_usb_text" product="default">Ако откачите USB паметта, някои приложения ще спрат и няма да са достъпни, докато не я поставите обратно.</string>
+    <string name="dlg_error_unmount_usb_title" product="default"/>
+    <string name="dlg_error_unmount_usb_text" product="default">"USB хранилището не можа да бъде спряно. Опитайте отново по-късно."</string>   
+    <string name="unmount_usb_inform_text" product="default">USB паметта ще бъде откачена.</string>
+    <string name="sd_eject_usbstorage" product="default">"Спиране на USB"</string>
+    <string name="sd_eject_usbstorage_summary" product="default">USB паметта е откачена, за да я извадите сигурно</string>
+    <string name="sd_mount_usbstorage" product="default">"Свързване на USB"</string>
+    <string name="sd_insert_usb_summary" product="default">"Вмъкнете USB за свързване"</string>
+    <string name="usb_ums_title">"USB хранилище"</string>
+    <string name="usb_ums_summary">"Препоръчва се ХР. Позволява трансфер на файлове между компютъра и у-вото с Android."</string>
+    <string name="usb_charge_title">Само зареждане</string>
+    <string name="usb_charge_summary">Спиране на всички USB функции. Позволява ускоряване на USB зареждането и намалява консумацията на енергия.</string>
+    <string name="NI_Request_ID">ИД на запитващия</string>
+    <string name="NI_Request_ClientName">Име на клиента</string>
+    <string name="agps_str_verify">Потвърждение</string>
+    <string name="agps_str_notify">Известяване</string>
+    <string name="agps_OK">"OK"</string>
+    <string name="agps_str_allow">"Разрешаване"</string>
+    <string name="agps_str_deny">"Отказ"</string>
+    <string name="AGPS_DEFAULT_STRING">A-GPS низ по подразбиране</string>
+    <string name="AGPS_NOTIFY_ONLY">Известие за искане за местоположение</string>
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">Искане за местоположение (разрешаване при липса на отговор)</string>
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">Искане за местоположение (отказ при липса на отговор)</string>
+    <string name="AGPS_NOTIFY_PRIVACY">Искане за местоположение (конфиденциалност)</string>    
+    <string name="ring_summary">Звънене</string>
+    <string name="ring_vibrate_summary">Звънене и вибриране</string>
+    <string name="silent_summary">Само беззвучно</string>
+    <string name="meeting_summary">Само вибриране</string>
+    <string name="outdoor_summary">Силен звън и вибриране</string>
+    <string name="audio_profile_reset">"Повторно задаване"</string>
+    <string name="audio_profile_add">"Добавяне"</string>
+    <string name="audio_profile_enable">"Активиране"</string>
+    <string name="audio_profile_rename">"ПРЕИМЕНУВАНЕ"</string>
+    <string name="audio_profile_delete">"Изтриване"</string>
+    <string name="audio_profile_message_reset">Връщане на всички настройки на аудио профили към началните</string>
+    <string name="audio_profile_message_rename">Въведете ново имен на профила</string>
+    <string name="audio_profile_message_name_error">Въведеното име съществува</string>  
+    <string name="audio_profile_message_name_length_wrong">Името трябва да има поне един символ</string>
+    <string name="audio_profile_message_delete">Профилът <xliff:g id="profile">%s</xliff:g> ще бъде изтрит</string>
+    <string name="audio_profile_message_overflow">Разрешено е да добавите само 6 потребителски профила</string>
+    <string name="ok">"OK"</string>
+    <string name="audio_profile_category_custom_title">Зададени от потребителя профили</string>
+    <string name="audio_profile_category_predefine_title">Пре-настроени профили</string>
+    <string name="general_settings_title">"Общи"</string>
+    <string name="silent_settings_title">"Тих режим"</string>
+    <string name="meeting_settings_title">Събрание</string>
+    <string name="outdoor_settings_title">Навън</string>
+    <string name="apn_predefine_change_dialog_notice">Настоявате ли да запазите? Измененията на APN по подразбиране могат да причинят проблеми при свързване!"</string>
+    <string name="sound_category_feedback_title">"Система"</string>
+    <string name="sound_category_calls_title">Входящи повиквания</string>
+    <string name="voice_call_title">Звънене за гласови повиквания</string>
+    <string name="voice_call_summary">"Задайте мелодия на звънене по подразбиране за гласови повиквания"</string>
+    <string name="video_call_title">Звънене за видео повиквания</string>
+    <string name="video_call_summary">Задайте мелодия на звънене по подразбиране за видео повиквания</string>
+    <string name="sip_call_title">Мелодия на звънене за SIP повиквания</string>
+    <string name="sip_call_summary">Задайте мелодия на звънене по подразбиране за SIP повиквания</string>
+    <string name="Phone_vibrate_summary">Вибриране за входящи повиквания</string>
+    <string name="vibrate_title">"Вибриране"</string>
+    <string name="audio_profile_settings_title">Аудио профили</string>
+    <string name="sim_status_title">Статус на SIM</string>
+    <string name="sim_status_summary">Информация за SIM</string>
+    <string name="status_imei_slot1">IMEI(гнездо1)</string>
+    <string name="status_imei_sv_slot1">IMEI SV(гнездо1)</string>
+    <string name="status_imei_slot2">IMEI(гнездо2)</string>
+    <string name="status_imei_sv_slot2">IMEI SV(гнездо2)</string>
+    <string name="status_min_number_slot1">MIN(гнездо1)</string>
+    <string name="status_prl_version_slot1">Версия PRL(гнездо1)</string>
+    <string name="status_meid_number_slot1">MEID(гнездо1)</string>
+    <string name="status_min_number_slot2">MIN(гнездо2)</string>
+    <string name="status_prl_version_slot2">Версия PRL(гнездо2)</string>
+    <string name="status_meid_number_slot2">MEID(гнездо2)</string>
+    <string name="slot_status_title">"Информация ІМЕІ"</string>
+    <string name="slot_status_summary">"Информация за ІМЕІ"</string> 
+    <string name="custom_build_version">Версия, създадена от потребител</string>
+    <string name="software_update">Услуга актуализиране на софтуер</string>
+    <string name="mota_system_update_summary">"Проверете за системни актуализации на сървъра"</string>
+    <string name="software_updates_more_title">Актуализации на софтуер</string>
+    <string name="software_updates_more_summary">Проверете за нова версия на софтуера</string>
+    <string name="software_updates_scomo_summary">Проверете за нова версия на приложението</string>
+    <string name="scomo_settings_title">Услуга актуализиране на софтуер</string>
+    <string name="screen_timeout_CU">Интервал на екрана</string>
+    <string name="landscape_launcher_title">Стартер на ландшафт</string>
+    <string name="landscape_launcher_none">"Няма"</string>
+    <string name="tvout_settings">Изход ТV</string>
+    <string name="tvout_settings_summary">Настройки на изход ТV</string>
+    <string name="tv_system_title">Система ТV</string>
+    <string name="hdmi_settings">Настройки HDMI</string>
+    <string name="hdmi_settings_summary">Щракнете за конфигуриране на HDMI</string>
+    <string name="hdmi_audio_toggler">Аудио</string>
+    <string name="hdmi_video_toggler">"Видео"</string>
+    <string name="hdmi_video_resolution">Разрешителна способност</string>
+    <string name="hdmi_auto">"автоматична"</string>
+    <string name="display_settings_scences_title">Сцени</string>
+    <string name="mtk_thememanager_title">Тема</string>
+    <string name="default_name">"По подразбиране"</string>
+    <string name="custom_theme_name">Нова [%1$s]</string>
+    <string name="loading">Зареждане…</string>
+    <string name="sim_enter_pin_hints">(въвеждане 4-8 символа)</string>
+    <string name="sim_remain">Остават:<xliff:g id="remains">%d</xliff:g>)</string>  
+    <string name="gps_time_sync_attention_gps_on">Получаването на GPS засечка трае макс. 1 минута. Обаче GPS може да не успее да осигури време поради слаб сигнал.\n\nНастоявате ли да използвате времето от GPS?</string>
+    <string name="gps_time_sync_attention_gps_off">За използване на осигуреното от GPS време първо трябва да разрешите GPS. След това трябва макс. 1 минута за получаване на GPS засечка. Обаче GPS може да не успее да осигури време поради слаб сигнал.\n\nНастоявате ли сега да разрешитеGPS и да използвате времето от GPS?</string>
+    <string name="drm_settings_title">Възстановяване на DRM</string>
+    <string name="drm_settings_summary">Изтриване на всички DRM лицензи</string>
+    <string name="drm_reset_dialog_msg">Тази операция ще изтрие всички лицензи от у-вото. Да продължаваме ли?</string>
+    <string name="drm_reset_toast_msg">Успешно изтриване на лицензите.</string>
+    <string name="gemini_sim_management_title">Управление на SIM</string>
+    <string name="gemini_sim_info_title">ИНФОРМАЦИЯ SIM</string>  
+    <string name="gemini_default_sim_title">"Стандартни настройки"</string>  
+    <string name="gemini_general_settings_title">"Общи настройки"</string>
+    <string name="gemini_roaming_settings_title">"Роуминг"</string>    
+    <string name="gemini_data_roaming_title">"Роуминг на данни"</string>  
+    <string name="gemini_data_roaming_summary">Свързване към услуги за данни при роуминг</string>  
+    <string name="gemini_roaming_reminder_title">Показване на роуминг напомняне</string>  
+    <string name="gemini_roaming_reminder_summary">Показване на съвети за SIM въз основа на използването на SIM</string>      
+    <string name="gemini_contacts_sim_title">"Свързване на контакти"</string>      
+    <string name="gemini_contacts_sim_summary">Свързва контактите съм определена SIM</string> 
+    <string name="gemini_voice_call">Гласово повикване</string>        
+    <string name="gemini_video_call">Видео повикване</string>   
+    <string name="gemini_data_connection">Връзка за данни</string>   
+    <string name="gemini_msg">Обмяна на съобщения</string>       
+    <string name="gemini_default_sim_always_ask">Винаги питай</string>    
+    <string name="gemini_intenet_call">Интернет повикване</string>    
+    <string name="gemini_default_sim_never">"изключена"</string>       
+    <string name="gemini_default_sim_3g_off">"изключена"</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Мрежов режим</string>
+    <string name="gemini_gsm_umts_network_preferneces_summary">Не е внедрено още!</string>
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">Мрежов режим</string>
+    <string name="gemini_3g_service_settings">Услуга 3G</string>
+    <string name="gemini_sim_mode_progress_activating_message">Активиране\u2026</string>
+    <string name="gemini_sim_mode_progress_deactivating_message">Деактивиране\u2026</string>
+    <string name="gemini_sim_mode_change_failed_message">Неуспешно. Грешка за мрежата</string>
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">"Самолетен режим"</string>
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">Телефонът ще включи режим самолет. Всички безжични връзки ще бъдат блокирани. Да продължаваме ли?</string>
+    <string name="gemini_sim_info_editor_name">Редактиране име на SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Неуспешно запаметяване</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Дублиране име на SIM карта</string>  
+    <string name="gemini_sim_info_editor_number">Въвеждане на тел. номер</string>  
+    <string name="gemini_sim_info_editor_color">Задаване на фонов цвят</string> 
+    <string name="gemini_sim_info_editor_number_display_format">Показване на номера</string>    
+    <string name="gemini_no_sim_indicator">"Няма SIM карта"</string>     
+    <string name="gemini_sim_list_default_title">Списък на SIM карта</string>       
+    <string name="gemini_data_connection_progress_message">"Превключването на SIM трае около 10 секунди. Изчакайте…"</string>
+    <string name="gemini_3g_modem_switching_message">"Превключването на SIM трае около 10 секунди. Изчакайте…"</string>
+    <string name="gemini_3g_modem_switch_confirm_message">"С това се превключва услуга 3G за тази SIM. Продължаваме ли? Проверете също дали избраната SIM поддържа услуга 3G."</string>
+    <string name="gemini_3g_disable_warning">"Услугата 3G не е достъпна с избраната SIM. Продължаваме ли? Проверете също дали избраната SIM поддържа услуга 3G."</string>
+    <string name="gemini_3g_disable_warning_cu">"Услугата 3G не е достъпна с избраната SIM. Данните ще се зареждат по-бавно. Можете да промените настройките за услуга 3G чрез Настройки &gt; Управление на SIM."</string> 
+    <string name="gemini_wap_push_permission_head">След разрешаване на услуга Auto-push ще получавате циркулярни съобщения, ще се подлагате да действието на местни приложения и ще създавате трафик на данни. Обикновено услугите Auto-push включват известия по е-мейл, управление на у-ва, указания за услуги, зареждане на услуги и осигуряване на натиск.</string>      
+    <string name="gemini_wap_push_permission_tail">Приемате ли споразумението?</string>  
+    <string name="gemini_wap_push_permission_title">Споразумение за услуга Auto-push</string>   
+    <string name="gemini_wap_push_permission">Услуга Auto-push</string>   
+    <string name="gemini_3g_disable_warning_case0">"Трябва да разрешите първо роуминг на данни за тази SIM, което може да причини значителни разходи за роуминг! Настоявате ли да разрешите роуминг на данни и да изберете тази SIM?"</string>
+    <string name="gemini_3g_disable_warning_case1">"Услугата 3G не е достъпна за избраната SIM. Данните ще се зареждат по-бавно. Можете да промените настройките за услуга 3G чрез Настройки &gt; Безжични и мрежи &gt; Мобилни мрежи. Настоявате ли да изберете тази SIM?"</string>
+    <string name="gemini_3g_disable_warning_case2">"Услугата 3G не е достъпна за избраната SIM. Данните ще се зареждат по-бавно. Можете да промените настройките за услуга 3G чрез Настройки &gt; Управление на SIM. Настоявате ли да изберете тази SIM?"</string>
+    <string name="gemini_3g_disable_warning_case3">"Трябва да разрешите първо роуминг на данни за тази SIM, което може да причини значителни разходи за роуминг! Освен това, услугата 3G не е достъпна за тази SIM. Данните ще се зареждат по-бавно. Можете да промените настройките за услуга 3G чрез Настройки &gt; Безжични и мрежи &gt; Мобилни мрежи. Настоявате ли да разрешите роуминг на данни и да изберете тази SIM?"</string>
+    <string name="gemini_3g_disable_warning_case4">"Трябва да разрешите първо роуминг на данни за тази SIM, което може да причини значителни разходи за роуминг! Освен това, услугата 3G не е достъпна за тази SIM. Данните ще се зареждат по-бавно. Можете да промените настройките чрез Настройки &gt; Управление на SIM. Настоявате ли да разрешите роуминг на данни и да изберете тази SIM?"</string>
+    <string name="gemini_sim_tether_info_title">Контакти и SIM</string>
+	<string name="gemini_sim_tether_add_record">Добавяне контакти</string>
+    <string name="gemini_sim_add_title">"Контакти"</string>
+    <string name="gemini_sim_tether_norecord">"Няма номер на контакт, асоцииран с тази SIM.\n\nПипнете бутон Добави контакти за избор на контактите за обвързване с тази SIM"</string>
+    <string name="gemini_sim_tether_nocontacts">"В телефона няма достъпни контакти. Първо добавете нов контакт или импортирайте контакти"</string>
+    <string name="gemini_sim_tether_no_assc_contacts">"Всички контакти са успешно обвързани"</string>
+    <string name="gemini_sim_tether_disassociate">Разделяне</string>
+    <string name="selected_item_count">Избрани <xliff:g id="count">%d</xliff:g></string>
+    <string name="gemini_sim_tether_unselect_all">Отказ от всички избрани</string>
+    <string name="gemini_sim_tether_nocontact_confirm">"OK"</string>
+    <string name="gemini_sim_tether_select_all">"Избиране на всички"</string>
+    <string name="gemini_sim_tether_select_ok">"Запазване"</string>
+    <string name="gemini_sim_tether_select_cancel">"Отказ"</string>
+    <string name="gemini_sim_tether_revert_title">"Внимание"</string>
+    <string name="gemini_sim_tether_revert_message">Конфигурациите са променени и не са запаметени. Настоявате ли да излезете без запаметяване?</string>
+    <string name="gemini_tether_saving_progress_message">Запаметяване…</string>
+    <string name="gemini_sim_lock_sim1_tab_tag">SIM1</string>
+    <string name="gemini_sim_lock_sim1_tab_label">SIM1</string>
+    <string name="gemini_sim_lock_sim2_tab_tag">SIM2</string>
+    <string name="gemini_sim_lock_sim2_tab_label">SIM2</string>
+    <string name="gemini_sim_lock_simid_error">Неуспех - невалидно ИД на SIM.</string>
+    <string name="gemini_sim_lock_no_insert_message_sim">SIM не е вкарана.</string>
+    <string name="gemini_sim_lock_radio_off_message_sim1">Радио1 изкл. </string>
+    <string name="gemini_sim_lock_radio_off_message_sim2">Радио2 изкл. </string>
+    <string name="akp_installer_settings_title">Инсталатор на АРК (автом. фазова манипулация)</string>
+    <string name="akp_installer_settings_summary">Инсталиране на АРК от паметта на телефона и SD картата</string>
+    <string name="launch_main_label">Старт на приложението</string>
+    <string name="launch_main">Старт на приложението с главно действие</string>
+    <string name="launch_activitie">Старт</string>
+    <string name="move_app_to_where">Преминаване към <xliff:g id="location">%s</xliff:g></string>
+    <string name="wifi_no_cert_for_wapi">Не мога да открия сертификация за текущото свързване на АР</string>
+    <string name="sim_slot">Гнездо за SIM</string>
+    <string name="eap_sim_slot_0">Гнездо 1 за SIM</string>
+    <string name="eap_sim_slot_1">Гнездо 2 за SIM</string>
+    <string name="eap_sim_aka_airplanemode">Изключете режим самолет, за да ползвате EAP-SIM/AKA</string>
+    <string name="eap_sim_aka_no_sim_error">Трябва да вкарате SIM карта за ползване на EAP-SIM/AKA</string>	
+    <string name="eap_sim_aka_no_sim_slot_selected">Трябва да изберете SIM карта за ползване на EAP-SIM/AKA</string>
+    <string name="wifi_security_wapi_certificate">Сретификат WAPI</string>
+    <string name="wapi_user_certificate">"Потребителски сертификат"</string>
+    <string name="wapi_as_certificate">Сертификат ASE</string>   
+    <string name="wifi_hex_password">Шестнадесетична парола.</string>
+    <string name="wifi_WEP_transmit_key">Клавиш Предаване</string>
+    <string name="wifi_WEP_secury_key">Клавиш сигурност</string>
+    <string name="wifi_tether_auto_disable_title">Точката за Wi-Fi да е включена</string>
+    <string name="wifi_tether_auto_channel_text">"автоматична"</string>
+    <string name="wifi_tether_auto_channel_width_text">Автом 20/40 MHz</string>
+    <string name="wifi_channel">Предпочитан канал</string>
+    <string name="wifi_channel_width">Честотна лента на канал</string>
+    <string name="pch_toggle_title">Режим предпочитане GPRS трансфер</string>
+    <string name="pch_data_prefer_summary_off">Предпочитане данни</string>
+    <string name="pch_call_prefer_summary_on">Предпочитане повикване</string>
+    <string name="pch_warning_message">Скоростта за предаване на данни ще спадне.</string> 
+    <string name="schedule_power_on_off_settings_title">График на вкл/изкл</string>
+    <string name="usb_bicr_title">Вграден CD-ROM</string>
+    <string name="usb_bicr_summary">Показване на виртуален CD-ROM с полезен софтуер.</string>
+    <string name="select_memory">Диск за запис по подразбиране</string>
+    <string name="ipo_title">Бързо зареждане</string>
+    <string name="ipo_summary_on">Отказ от бързо зареждане</string>
+    <string name="ipo_summary_off">Разрешено бързо зареждане</string>
+    <string name="agps_profile_select_Title">Профил SUPL</string>
+    <string name="location_settings_label">Режим място инженер</string>
+    <string name="audio_profile_error">"Грешка"</string>  
+    <string name="battery_percent">Процент на батерията</string>
+    <string name="rcse_settings_title">Joyn settings</string>
+    <string name="MobileNetwork_SIM1_Active">SIM1 активна</string>
+    <string name="MobileNetwork_SIM2_Active">SIM2 активна</string>
+    <string name="dlg_mount_external_sd_title" product="default">Монтиране на SD карта?</string>
+    <string name="dlg_mount_external_sd_summary" product="default">Ако монтирате SD карта, някои работещи приложения ще спрат.</string>
+    <string name="tethered_ipv6_title">Настройки за обхват и ограничения</string>
+    <string name="tethered_ipv4v6">(достъпен IPv6)</string>
+    <string name="tethered_ipv6">(достъпен само IPv6)</string>
+    <string name="tethered_ipv4">(недостъпен IPv6)</string>
+    <string name="tethering_apn_settings_title">Настройки APN</string>
+    <string name="tethering_apn_settings_summary">Конфигуриране на APN за обвързване</string> 
+    <string name="usb_tether_type_title">Тип обвързване на USB</string> 
+    <string name="usb_connect_as_cdrom_category">"Свържи като CD-ROM"</string>
+    <string name="wifi_tether_setting_title">Основни настройки</string>
+    <string name="wifi_tether_wps_connect_title">Свързване WPS</string>
+    <string name="wifi_tether_wps_connect_summary">Избран режим защитено Wi-FI за работа</string>
+    <string name="wifi_tether_wps_pin_error">Невалиден ПИН</string>
+    <string name="wifi_tethering_title">Точка на Wi-Fi</string>
+    <string name="wifi_ap_wps_dialog_title">Свързване WPS</string>
+    <string name="wifi_ap_wps_mode_title">Режим WPS</string>
+    <string name="wifi_ap_wps_pin_title">Въвеждане ПИН от клиент</string>
+    <string name="wifi_ap_reset_OOB_title">Възстановяване към начални стойности на мрежови SSID, защита и парола (блокирана конфигурация за WPS)</string>
+    <string name="wifi_ap_reset_OOB">Възстановяване на ООВ</string>
+    <string name="wifi_ap_max_connection_title">Максимум връзки</string>
+    <string name="wifi_ap_connected_title">Свързани потребители</string>
+    <string name="wifi_ap_blocked_title">Блокирани потребители</string>
+    <string name="wifi_ap_client_block_title">Блокиране</string>
+    <string name="wifi_ap_client_unblock_title">Разблокиране</string>
+    <string name="wifi_ap_client_details_title">Подробности</string>
+    <string name="wifi_ap_client_mac_label">МАС адрес:</string>
+    <string name="wifi_ap_client_ip_label">ІР адрес:</string>
+    <string name="usb_sharing_title">USB Интернет</string>
+    <string name="usb_sharing_summary">Споделяне на компютърен Windows Интернет през USB кабел</string>
+    <string name="usb_sharing_info_title">Проходен Интернет</string>
+    <string name="usb_sharing_info_step_1">"1. Отворете мрежовите връзки на компютъра с Windows."</string>
+    <string name="usb_sharing_info_step_2">"2. Щракнете с десен бутон исканата за споделяне връзка и после Свойства."</string>
+    <string name="usb_sharing_info_step_3">"3. Щракнете в поле Споделяне и изберете 'Разрешаване на други потребители в мрежата да се свързват през тази компютърна интернет връзка'(изберете ново добавената мрежа, която представлява USB Интернет, ако се появи 'Основна интернет връзка')."</string>
+    <string name="wifi_ap_bandwidth_title">Работа с честотна лента</string>
+    <string name="wifi_ap_bandwidth_enable">Разрешаване дроселирането на честотна лента</string>
+    <string name="wifi_ap_bandwidth_chart_title">Скорост на данни в реално време</string>
+    <string name="wifi_ap_bandwidth_chart_summary">Измерена от вашия телефон, може да се различава от отчетите на доставчика за сорост на данни</string>
+    <string name="wifi_wps_fail_error">Неуспешна настройка на защитен Wi-Fi, опитайте пак.</string>
+    <string name="wifi_ap_title">Статистика</string>
+    <string name="wifi_ap_time_duration">Продължителност:<xliff:g id="time">%1$s</xliff:g></string>
+    <string name="wifi_ap_total_data">Общо използвани данни:<xliff:g id="time">%1$s</xliff:g></string>
+    <string name="wifi_ap_bandwidth_megabyteShort">MB/s</string>
+    <string name="wifi_ap_bandwidth_KbyteShort">KB/s</string>
+    <string name="cpu_dtm_title">Режим икономия на енергия за процесора</string>
+    <string name="cpu_dtm_summary">Лимитиране на макс. производителност на процесора за удължаване живота на батерията и намаляване температурата на у-вото.</string>
+    <string name="wifi_advanced_ipv4_address_title">IPv4 адрес</string>
+    <string name="wifi_advanced_ipv6_address_title">IPv6 адрес</string>
+    <string name="wifi_ipv4_address">IPv4 адрес</string>
+    <string name="wifi_ipv6_address">IPv6 адрес</string> 
+    <string name="mtk_datausage_show_on_lockscreen">Показване при заключване на екрана</string>
+    <string name="mtk_datausage_update">Актуализиране използването на данни</string>
+    <string name="mtk_datausage_update_set">"Актуализиране"</string>
+    <string name="mtk_datausage_amount_editor_title">Обем използвани данни</string>
+    <string name="mtk_datausage_usage_list">Използвани данни по приложения</string>
+    <string name="mtk_datausage_diff_byte">Разлика в използване на данни</string>
+    <string name="mtk_datausage_overview_tab">Преглед</string>
+    <string name="mtk_datausage_overview_wifi_today">"Днес"</string>
+    <string name="mtk_datausage_overview_wifi_total">Общо</string>
+    <string name="mtk_datausage_overview_mobile_title">"Мобилен"</string>
+    <string name="mtk_datausage_overview_mobile_usage"><xliff:g id="actual">%s</xliff:g> от <xliff:g id="limit">%s</xliff:g></string>
+    <string name="mtk_datausage_overview_mobile_usage_warning">Извън лимита <xliff:g>%s</xliff:g></string>
+    <string name="display_personalize">Персонализиране</string>
+    <string name="display_default">"Дисплей"</string>
+    <string name="sound_enhancement_title">Подобряване на звука</string> 
+    <string name="music_plus_summary">Аудио подобрител за слушалки</string> 
+    <string name="auto_backlight_title">Икономична подсветка</string>
+    <string name="auto_backlight_summary">Автоматично адаптиране на подсветката за икономия</string> 
+    <string name="beam_mgmt_tab_download_title">Получено SS съобщение за проверка на препращане</string>
+    <string name="beam_mgmt_tab_upload_title">"По този начин ще се събере информация за текущото състояние на устройството ви, която да се изпрати като имейл съобщение. След стартирането на процеса ще мине известно време, докато сигналът за програмна грешка бъде готов за подаване. Моля, имайте търпение."</string>
+    <string name="beam_share_mgmt_notification_ticker">История на споделено предаване</string>
+	<string name="beam_share_mgmt_notification_title">История на споделено предаване</string>
+	<string name="beam_share_mgmt_notification_message">"Изберете за показване историята на споделено предаване"</string>
+    <string name="beam_share_mgmt_tab_menu_clear">Изтриване на цялата история?</string>
+    <string name="beam_share_open_file_dialog_title">Файлът не може да се отвори</string>
+    <string name="beam_share_open_file_unsupported_message">Форматът на файла не се поддържа.</string>
+	<string name="beam_share_open_file_not_found_message">"Файлът не е открит: <xliff:g id="file_name">%1$s</xliff:g></string>
+	<string name="beam_share_transfer_fail_dialog_title">"Неуспешно предаване"</string>
+	<string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> не е предаден успешно."</string>
+	<string name="beam_share_resend_dialog_ok_button">"Опитайте отново"</string>
+	<string name="beam_share_show_received_files_menu">"Показване на получени файлове"</string>
+	<string name="beam_share_history_title">История на споделено предаване</string>
+    <string name="beam_share_clear_confirm_dialog_title">Изчисти всички</string>
+    <string name="beam_share_clear_confirm_dialog_message">Изтриване на цялата история?</string>
+    <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> не е получен успешно."</string>        
+    <string name="beam_share_clear_item_dailog_title">"Изтриване"</string>
+    <string name="beam_share_clear_item_dailog_message">Елементът ще бъде изтрит.</string>
+    <string name="nfc_p2p_mode">Режим Р2Р</string>
+    <string name="nfc_p2p_mode_summary">Изпращане или получаване съдържание на приложения</string>
+    <string name="nfc_tag_mode_category">Режим тагове</string>
+    <string name="nfc_rw_tag_title">Четене и писане на тагове</string>
+    <string name="nfc_rw_tag_summary">Четене от или присане в таг</string>
+    <string name="nfc_card_emulation_category_title">режим емулиране на карта</string>
+    <string name="nfc_card_emulation">Емулиране на карта</string>
+    <string name="card_emulation_settings_category_title">достъпен защитен елемент</string>
+    <string name="card_emulation_settings_no_element_found">Няма достъпен защитен елемент.</string>
+    <string name="card_emulation_settings_off_text">За показване на достъпните защитни елементи включете Емулиране на карта.</string>
+    <string name="card_emulation_turning_off_text">Изключване на емулация на карта…</string>
+    <string name="card_emulation_turning_on_text">Включване на емулация на карта…</string>
+    <string name="card_emulation_switch_error_title">"Грешка"</string>
+    <string name="card_emulation_switch_error_message">Неуспешен преход към <xliff:g id="card_mode">%1$s</xliff:g>.</string>
+    <string name="card_emulation_sim_not_supported_message"><xliff:g id="sim_description">%1$s</xliff:g> не поддържа функцията емулиране на NFC карта.</string>
+    <string name="card_emulation_two_sim_not_supported_message">SIM1,SIM2 do not support NFC Card emulation function.</string>
+    <string name="voice_unlock_backup_info_summary">Ако гласовото отключване не може да ви разпознае, как искате да отключите?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">Гласово отключване</string>
+    <string name="voice_ui_title">"Гласово управление"</string>
+    <string name="voice_ui_app_category">"За приложения"</string>
+    <string name="voice_ui_setting_category">"Общи настройки"</string>
+    <string name="voice_ui_language_title">"Език за гласово управление"</string>
+    <string name="incoming_call_app_name">"Входящо повикване"</string>
+    <string name="alarm_app_name">"Будилници"</string>
+    <string name="camera_app_name">Превключването на камерите възможно, ако е включено</string>
+    <string name="music_app_name">"Създава звуковата вълна от стартирани понастоящем музикални записи."</string>
+    <string name="incomming_command_summary_format">Кажете <xliff:g id="first">%1$s</xliff:g> или <xliff:g id="second">%2$s</xliff:g> за приемане или отхвърляне на входящи повиквания.</string>
+    <string name="alarm_command_summary_format">Кажете <xliff:g id="first">%1$s</xliff:g> или <xliff:g id="second">%2$s</xliff:g> за управление на алармата.</string>
+    <string name="camera_command_summary_format">Кажете <xliff:g id="first">%1$s</xliff:g> или <xliff:g id="second">%2$s</xliff:g> за фиксиране.</string>
+    <string name="music_command_summary_format">Кажете <xliff:g id="first">%1$s</xliff:g> или <xliff:g id="second">%2$s</xliff:g> за управление слушането на музика.</string>
+    <string name="lock_screen_notifications_title">Известия за заключване на екрана</string>
+    <string name="lock_screen_notifications_summary">Показване известията на заключен екран</string>
+    <string name="lock_screen_style_title">Стил на заключване на екрана</string>	
+    <string name="current_suffix">"(Текущ)"</string>
+	<string name="lockscreen_style_set">"Настройка заключване на екрана"</string>
+	<string name="lockscreen_style_default_desc">"Бърз достъп до приложения при заключен екран"</string>
+    <string name="security_not_set">Не е зададена защита</string>
+    <string name="status_imei_slot3">IMEI (гнездо3)</string>
+    <string name="status_imei_sv_slot3">IMEI SV(гнездо3)</string>
+    <string name="status_min_number_slot3">MIN(гнездо3)</string>
+    <string name="status_prl_version_slot3">PRL Версия(гнездо3)</string>
+    <string name="status_meid_number_slot3">MEID(гнездо3)</string>
+    <string name="lockdown_vpn_already_connected">Винаги вкл. VPN е разрешен за връзка.</string> 
+    <string name="wifi_ap_no_connected">0 свързани потребители</string>
+    <string name="wifi_ap_no_blocked">0 блокирани потребители</string>
+    <string name="mouse_primary_button_title">Превключване на първичен и вторичен бутон</string>
+    <string name="mouse_primary_button_dialog_title">Включване на първичен бутон</string>
+    <string name="double_click_title">Скорост двойно щракване</string>
+    <string name="test_area">ТЕСТОВА ЗОНА:</string>
+    <string name="double_click_tip">Щракнете два пъти тук</string>
+    <string name="apn_port_warning">Стойността на порта трябва да е 1-65535!</string>
+    <string name="usb_tethering_select_version">Изберете версия на компютърната система</string>
+    <string name="oobe_sim_info_title">Управление на SIM</string>
+    <string name="oobe_default_sim_title">Задаване SIM по подразбиране</string>
+    <string name="wfd_change_resolution_menu_title">Промяна на разрешителна способност</string>
+    <string name="wifi_hotspot_suspend_optimizations">Оптимизация на Wi-Fi точка</string>
+    <string name="wifi_hotspot_suspend_optimizations_summary">Минимизиране разхода на батерията при включена Wi-Fi точка</string>
+    <string name="clear_motion_summary">Подобрител на плавността на видео</string>
+    <string name="hotknot_explained_description">Разрешаване на обмяна на данни при допир на екрана с друго у-во</string>
+	<string name="card_emulation_two_sim_not_supported_message">SIM1, SIM2 не поддържат функцията емулиране на NFC карта.</string>
+    <string name="passpoint_summary">Автом свързване с точки за достъп с разрешение за междинна точка</string>
+    <string name="passpoint_append_summary">(през междинна точка)</string>
+    <string name="passpoint_config_credential_type">Тип препоръка</string>
+    <string name="passpoint_config_eap_method">"Метод за редактиране на точка за достъп"</string>
+    <string name="passpoint_supported">Поддържан</string>
+    <string name="passpoint_username_pw">Потреб. име/Парола</string>
+    <string name="passpoint_certificate">Сертификат</string>
+
+    <string name="audio_profile_bes_loudness_title">BesLoudness</string>
+    <string name="audio_profile_bes_loudness_summary">Сила на звука бустер за високоговорител</string>
+</resources>

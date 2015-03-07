@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="mtk_notification_string">Пипнете за показване подробни настройки</string>
+    <string name="mtk_beam_cancel_title">отказ от прехвърляне</string>    
+    <string name="mtk_beam_cancel">Настоявате ли да откажете входящото прехвърляне?</string>
+    <string name="mtk_yes">"Да"</string>
+    <string name="mtk_no">"Не"</string>
+    <string name="mtk_se_sim1">SIM1</string>
+    <string name="mtk_se_sim2">SIM2</string>
+    <string name="mtk_se_ssd">Интелигентна SD карта</string>
+    <string name="mtk_se_ese">Вложени SE</string>
+    <string name="mtk_se_na">"Няма достъпни елементи на сигурност. Емулирането на NFC карта ще бъде изключено."</string>
+    <string name="mtk_se_alt">" е недостъпна. Искате ли да превключим на "</string>
+    <string name="mtk_nfc_card_emulation">Емулиране на NFC карта</string>
+    
+<string name="mtk_disallow_in_wfd">Операцията не може да се извърши при Безжичен дисплей</string>
+    <string name="mtk_disallow_in_wfd_KK">Операцията не може да се извърши при Cast Screen</string>    
+</resources>

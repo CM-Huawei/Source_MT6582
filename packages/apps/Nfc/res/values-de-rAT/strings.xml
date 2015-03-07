@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">NFC-Dienst</string>
+    <string name="nfcUserLabel">NFC</string>
+
+    
+    <string name="inbound_me_profile_title">Kontakt über NFC empfangen</string>
+
+    
+    <string name="inbound_me_profile_text">Antippen, um die Person als Kontakt hinzuzufügen.</string>
+
+    
+    <string name="outbound_me_profile_title">NFC-Aktion beendet</string>
+
+    
+    <string name="outbound_me_profile_text">Antippen, um die Person als Kontakt hinzuzufügen.</string>
+
+    
+    <string name="accessibility_nfc_enabled">NFC aktiviert</string>
+    <string name="touch">Zum Beamen antippen</string>
+
+    <string name="beam_progress">Eingehender Beam…</string>
+    <string name="beam_outgoing">Beamen...</string>
+    <string name="beam_complete">Beamen beendet</string>
+    <string name="beam_failed">Beamen nicht beendet</string>
+    <string name="beam_canceled">Beamen abgebrochen.</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="beam_touch_to_view">Zum Anzeigen antippen</string>
+    <string name="beam_handover_not_supported">Das Gerät des Empfängers unterstützt keine großen Dateien beim Beamen.</string>
+    <string name="beam_try_again">Halten Sie die Geräte erneut aneinander.</string>
+
+    <string name="connecting_headset">Wird verbunden</string>
+    <string name="connected_headset">Verbunden</string>
+    <string name="connect_headset_failed">Verbinden nicht möglich</string>
+    <string name="disconnecting_headset">Wird getrennt</string>
+    <string name="disconnected_headset">Getrennt</string>
+    <string name="pairing_headset">Paaren</string>
+    <string name="pairing_headset_failed">Paaren nicht möglich</string>
+    <string name="failed_to_enable_bt">Bluetooth kann nicht aktiviert werden</string>
+    <string name="confirm_pairing">Wollen Sie das Bluetooth-Gerät wirklich paaren <xliff:g id="device_name">%1$s</xliff:g>?</string>
+    <string name="pair_yes">Ja</string>
+    <string name="pair_no">Nein</string>
+
+    
+    <string name="tap_again_to_pay">Erneut antippen, um mit <xliff:g id="app">%1$s</xliff:g> zu zahlen.</string>
+    
+    <string name="tap_again_to_complete">Erneut antippen, um mit <xliff:g id="app">%1$s</xliff:g> zu beenden.</string>
+    
+    <string name="transaction_failure">Diese Transaktion kann mit <xliff:g id="app">%1$s</xliff:g> nicht beendet werden.</string>
+    
+    <string name="could_not_use_app">Kann <xliff:g id="app">%1$s</xliff:g> nicht verwenden.</string>
+    
+    <string name="pay_with">Zahlen mit</string>
+    
+    <string name="complete_with">Beenden mit</string>
+    
+    <string name="default_pay_app_removed">Ihr bevorzugter Dienst für Tap &amp; Pay wurde entfernt. Einen anderen wählen?"</string>
+</resources>

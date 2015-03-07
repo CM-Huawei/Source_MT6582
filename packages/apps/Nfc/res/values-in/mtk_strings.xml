@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="mtk_notification_string">Sentuh untuk melihat pengaturan rinci</string>
+    <string name="mtk_beam_cancel_title">Batalkan Transfer</string>    
+    <string name="mtk_beam_cancel">Anda yakin ingin membatalkan transfer mendatang?</string>
+    <string name="mtk_yes">"Ya"</string>
+    <string name="mtk_no">"Tidak"</string>
+    <string name="mtk_se_sim1">"SIM1"</string>
+    <string name="mtk_se_sim2">SIM2</string>
+    <string name="mtk_se_ssd">Kartu Smart SD</string>
+    <string name="mtk_se_ese">SE tertanam</string>
+    <string name="mtk_se_na">"Tidak ada elemen keamanan yang tersedia. Emulasi Kartu NFC akan dinonaktifkan."</string>
+    <string name="mtk_se_alt">" tidak tersedia. Apakah Anda ingin beralih ke "</string>
+    <string name="mtk_nfc_card_emulation">Emulasi kartu NFC</string>
+    
+<string name="mtk_disallow_in_wfd">Operasi ini tidak dapat dilakukan dalam Tampilan Nirkabel</string>
+    <string name="mtk_disallow_in_wfd_KK">Operasi ini tidak dapat dilakukan dalam Layar Cast</string>
+    </resources>

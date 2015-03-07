@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+
+    
+    <string name="camera_error_title">Kamera-Fehler</string>
+
+    
+    <string name="cannot_connect_camera">Kann keine Verbindung zur Kamera aufbauen.</string>
+
+    
+    <string name="camera_disabled">Kamera wurde aufgrund von Sicherheitsrichtlinien deaktiviert.</string>
+
+    
+    <string name="camera_label">Kamera</string>
+
+    
+    <string name="video_camera_label">Camcorder</string>
+
+    
+    <string name="gallery_camera_bucket_name">Kamerabilder</string>
+
+    
+    <string name="gallery_camera_videos_bucket_name">Kameravideos</string>
+
+    
+    <string name="wait">Bitte warten\u2026</string>
+
+    
+    <string name="no_storage" product="nosdcard">Installieren Sie USB-Speicher, bevor Sie die Kamera verwenden.</string>
+    
+    <string name="no_storage" product="default">Installieren Sie eine SD-Karte, bevor Sie die Kamera verwenden.</string>
+
+    
+    <string name="not_enough_space" product="nosdcard">Ihr USB-Speicher ist voll.</string>
+    
+    <string name="not_enough_space" product="default">Ihre SD-Karte ist voll.</string>
+
+    
+    <string name="preparing_sd" product="nosdcard">USB-Speicher wird vorbereitet\u2026</string>
+    
+    <string name="preparing_sd" product="default">SD-Karte wird vorbereitet\u2026</string>
+
+    
+    <string name="access_sd_fail" product="nosdcard">Kein Zugriff auf USB-Speicher</string>
+    
+    <string name="access_sd_fail" product="default">Kein Zugriff auf SD-Karte</string>
+
+    
+    <string name="confirm_restore_message">Wollen Sie die Vorgabeeinstellungen der Kamera wiederherstellen?</string>
+
+    
+    <string name="review_play">Wiedergeben</string>
+
+    
+    <string name="review_cancel">ABBRECHEN</string>
+
+    
+    <string name="review_ok">ERLEDIGT</string>
+
+    
+    <string name="review_retake">WIEDERHOLEN</string>
+
+    
+    <string name="camera_gallery_photos_text">Galerie</string>
+
+    
+    <string name="time_lapse_title">Zeitrafferaufnahme</string>
+
+    
+    <string name="pref_camera_id_title">Kamera wählen</string>
+
+    
+
+    
+    <string name="pref_camera_id_entry_back">Zurück</string>
+    
+    <string name="pref_camera_id_entry_front">Front</string>
+
+    
+    <string name="pref_camera_recordlocation_title">GPS-Positions-Info</string>
+
+    
+
+    
+    <string name="pref_camera_recordlocation_entry_off">Aus</string>
+    <string name="pref_camera_recordlocation_entry_on">Ein</string>
+
+    
+    <string name="pref_video_quality_title">Video-Qualität</string>
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <string name="pref_video_time_lapse_frame_interval_title">Zeitrafferintervall</string>
+    
+
+    
+    <string name="pref_camera_settings_category">Kameraeinstellungen</string>
+
+    
+    <string name="pref_camcorder_settings_category">Camcorder-Einstellungen</string>
+
+    
+    <string name="pref_camera_picturesize_title">Bildgröße</string>
+
+    
+    <string name="pref_camera_picturesize_entry_2592x1936">5M Pixel</string>
+    
+    <string name="pref_camera_picturesize_entry_2048x1536">3M Pixel</string>
+    
+    <string name="pref_camera_picturesize_entry_1600x1200">2M Pixel</string>
+    
+    <string name="pref_camera_picturesize_entry_1280x960">1,3M Pixel</string>
+    
+    <string name="pref_camera_picturesize_entry_1024x768">1M Pixel</string>
+    
+    <string name="pref_camera_picturesize_entry_640x480">VGA</string>
+    
+    <string name="pref_camera_picturesize_entry_320x240">QVGA</string>
+
+    
+    <string name="pref_camera_focusmode_title">Fokus-Modus</string>
+
+    
+    <string name="pref_camera_focusmode_entry_auto">Auto</string>
+    <string name="pref_camera_focusmode_entry_infinity">Unendlich</string>
+    <string name="pref_camera_focusmode_entry_macro">Makro</string>
+
+    
+    
+
+    
+    
+
+    
+    <string name="pref_camera_flashmode_title">Blitz-Modus</string>
+
+    
+    <string name="pref_camera_flashmode_entry_auto">Auto</string>
+    <string name="pref_camera_flashmode_entry_on">Ein</string>
+    <string name="pref_camera_flashmode_entry_off">Aus</string>
+
+    
+    
+
+    
+    
+
+    
+    <string name="pref_camera_whitebalance_title">Weißabgleich</string>
+
+    
+    <string name="pref_camera_whitebalance_entry_auto">Auto</string>
+    <string name="pref_camera_whitebalance_entry_incandescent">Glühlampe</string>
+    <string name="pref_camera_whitebalance_entry_daylight">Tageslicht</string>
+    <string name="pref_camera_whitebalance_entry_fluorescent">Leuchtstoffröhre</string>
+    <string name="pref_camera_whitebalance_entry_cloudy">Bewölkt</string>
+    
+    
+    
+
+    
+    <string name="pref_camera_scenemode_title">Szenenmodus</string>
+
+    
+    <string name="pref_camera_scenemode_entry_auto">Auto</string>
+    
+    <string name="pref_camera_scenemode_entry_action">Sport</string>
+    
+    <string name="pref_camera_scenemode_entry_night">Nacht</string>
+    
+    <string name="pref_camera_scenemode_entry_sunset">Dämmerung</string>
+    
+    <string name="pref_camera_scenemode_entry_party">Party</string>
+
+    
+    <string name="not_selectable_in_scene_mode">Im Szenenmodus nicht wählbar.</string>
+
+    
+    <string name="pref_restore_title">Kameraeinstellungen</string>
+    <string name="pref_restore_detail">Vorgaben wiederherstellen</string>
+
+    
+    <string name="pref_exposure_title">Belichtung</string>
+    
+
+    
+    <string name="dialog_ok">OK</string>
+
+    
+    <string name="spaceIsLow_content" product="nosdcard">Ihr USB-Speicher hat nur noch wenig Platz. Ändern Sie die Qualitätseinstellung oder löschen Sie einige Bilder oder andere Dateien.</string>
+    
+    <string name="spaceIsLow_content" product="default">Ihre SD-Karte hat nur noch wenig Platz. Ändern Sie die Qualitätseinstellung oder löschen Sie einige Bilder oder andere Dateien.</string>
+
+    
+    
+
+    
+    
+
+     
+    
+
+    
+    <string name="video_reach_size_limit">Max. Größe erreicht.</string>
+
+    
+    
+
+    
+    <string name="share_picture_via">Bild teilen über</string>
+
+    
+    <string name="share_video_via">Video teilen über</string>
+
+    
+    <string name="no_picture_to_share">Keine Bild zum Teilen.</string>
+
+    
+    <string name="no_video_to_share">Keine Video zum Teilen.</string>
+
+    
+    <string name="pano_too_fast_prompt">Zu schnell</string>
+
+    
+    <string name="pano_dialog_prepare_preview">Panorama wird vorbereitet</string>
+
+    
+    <string name="pano_dialog_panorama_failed">Panorama konnte nicht gespeichert werden.</string>
+
+    
+    <string name="pano_dialog_title">Panorama</string>
+
+    
+    <string name="pano_capture_indication">Panorama aufnehmen</string>
+
+    
+    <string name="pano_dialog_waiting_previous">Warte auf vorhergehendes Panorama</string>
+
+    
+    <string name="pano_review_saving_indication_str">Wird gespeichert\u2026</string>
+
+    
+    <string name="tap_to_focus">Zu Scharfstellen antippen</string>
+
+    
+    
+
+    
+    <string name="pref_video_effect_title">Effekte</string>
+
+    
+    <string name="effect_none">Keine</string>
+    
+    <string name="effect_goofy_face_squeeze">Quetschen</string>
+    
+    <string name="effect_goofy_face_big_eyes">Große Augen</string>
+    
+    <string name="effect_goofy_face_big_mouth">Großer Mund</string>
+    
+    <string name="effect_goofy_face_small_mouth">Kleiner Mund</string>
+    
+    <string name="effect_goofy_face_big_nose">Große Nase</string>
+    
+    <string name="effect_goofy_face_small_eyes">Kleine Augen</string>
+    
+    <string name="effect_backdropper_space">Im Raum</string>
+    
+    <string name="effect_backdropper_sunset">Dämmerung</string>
+    
+    <string name="effect_backdropper_gallery">Ihr Video</string>
+
+    
+    <string name="not_selectable_in_effect">Nicht wählbar, wenn Effekt aktiviert.</string>
+
+    
+    <string name="video_snapshot_hint">Antippen, um während der Aufnahme ein Foto zu schießen.</string>
+
+    
+    <string name="disable_video_snapshot_hint">Video-Schnappschuss ist deaktiviert, wenn Spezialeffekte aktiviert sind.</string>
+
+    
+    <string name="clear_effects">Effekte löschen</string>
+
+    
+    <string name="effect_silly_faces">VERRÜCKTE GESICHTER</string>
+
+    
+    <string name="effect_background">HINTERGRUND</string>
+
+    
+    <string name="accessibility_shutter_button">Auslöseschaltfläche</string>
+    
+    <string name="accessibility_review_thumbnail">Neueste Fotos</string>
+    
+    <string name="accessibility_camera_picker">Umschalten Front- und Rückseitenkamera</string>
+    
+    <string name="accessibility_mode_picker">Kamera-, Video- oder Panoramaauswahl</string>
+    
+    <string name="accessibility_second_level_indicators">Weitere Einstellungen</string>
+    
+    <string name="accessibility_back_to_first_level">Einstellungen schließen</string>
+    
+    <string name="accessibility_zoom_control">Zoom-Steuerung</string>
+    
+    <string name="accessibility_decrement">Verkleinern %1$s</string>
+    
+    <string name="accessibility_increment">Vergrößern %1$s</string>
+    
+    <string name="accessibility_switch">%1$s Schalter</string>
+    
+    
+
+</resources>

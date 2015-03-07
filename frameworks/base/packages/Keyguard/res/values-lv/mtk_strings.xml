@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Clock -->
+    <string name="keyguard_domestic_zone_name">Pekina</string>
+    <!-- GlowPadView -->
+    <!-- PowerOffAlarm -->
+    <string name="every_day">Katru dienu</string>
+    <string name="never">"Nekad"</string>
+    <string name="day_concat">", "</string>
+    <string name="default_label">"Signāls"</string>
+    <string name="voiceui_notify_string">Varat izrunāt</string>
+    <string name="voiceui_control_poweroff_alarm">lai vadītu izslēgšanas brīdinājumu.</string>
+    <string name="voiceui_comma">,</string>
+    <string name="voiceui_quota_start">"</string>
+    <string name="voiceui_quota_end">"</string>
+    <string name="voiceui_or">vai arī</string>
+    <string name="keyguard_accessibility_alarm_unlock">Izslēgšanas brīdinājums</string>
+    <string name="alarm_alert_dismiss_text">Nerādīt</string>
+    <string name="alarm_alert_snooze_text">Atlikt</string>
+    <!-- Telephony -->
+    <string name="keyguard_password_entering_puk_code">Ievadiet PUK kodu</string>
+    <string name="keyguard_password_wrong_puk_code">Nepareizs PUK kods!</string>
+    <string name="invalidPuk">Ievadiet 8 ciparus.</string>
+    <string name="pin_pass">Kods akceptēts</string>
+    <string name="keyguard_password_enter_new_pin_code">Ievadiet jauno PIN kodu</string>
+    <string name="keyguard_password_Confirm_pin_code">"Apstipriniet jauno PIN."</string>
+    <string name="sim_permanently_locked">Vairāk nekā 10 reizes ievadot nepareizu PUK kodu, SIM karte tiks neatgriezeniski bloķēta.</string>
+    <string name="retries_left">Atlicis:<xliff:g id="number">%d</xliff:g></string>
+    <string name="simlock_slot_locked_message">Atvere ir neatgriezeniski bloķēta</string>
+    <string name="simlock_entersimmelock">Ievadiet SIM ME bloķēšanu</string>
+    <string name="slot_id">Atvere <xliff:g id="number">%d</xliff:g>:</string>
+    <string name="new_simcard">Jauna SIM karte</string>
+    <string name="lockscreen_missing_sim_dialog_message">"SIM karte ir atvienota. Pārliecinieties, vai SIM karte ir pareizi pievienota."</string>
+    <string name="puk_pass">PIN kods atbloķēts</string>
+    <string name="sim_card_changed_dialog_title">SIM karte mainīta</string>
+    <string name="change_setting_for_onenewsim">Noteikta jauna SIM karte. Tās nosaukums ir</string>
+    <string name="change_setting_for_twonewsim">Noteikta jauna SIM karte. Tām piešķirts nosaukums</string>
+    <string name="sim_card_removed">SIM karte izņemta.</string>
+    <string name="sim_card_swapped">SIM karte nomainīta.</string>
+    <string name="change_settings">Mainīt</string>
+    <string name="keyguard_voice_call">Balss zvans:</string>
+    <string name="keyguard_sms">Ziņojumapmaiņa:</string>
+    <string name="keyguard_data">Datu savienojums:</string>
+    <string name="dismiss">Nerādīt</string>
+    <string name="keyguard_wrong_code_input">Nepareizs kods.</string>
+    <string name="keyguard_code_length_prompt">Ievadiet 4-8 ciparus.</string>
+    <string name="keyguard_code_donnot_mismatch">Neatbilst.</string>
+    <string name="network_searching">Notiek jauna tīkla meklēšana</string>
+    <string name="searching_simcard">Nosaka...</string>
+    <string name="keyguard_close">Aizvērt</string>
+    <string name="default_sim_setting_prompt">Tagad noklusējuma iestatījumi ir:</string>
+    <string name="keyguard_video_call">Video zvans:</string>
+    <string name="invalid_sim_title">Nederīga SIM karte</string>
+    <string name="invalid_sim_message">UIM/SIM karte neatpazīta.</string>
+    <string name="lockscreen_sim_locked_message_short">SIM karte bloķēta</string>
+    <!-- UnreadEvent -->
+    <!-- Utils -->
+    <string name="keyguard_alwaysask">Vienmēr vaicāt</string>
+    <string name="keyguard_data_none">Izsl.</string>
+    <string name="keyguard_sim_auto">Automātiski</string>
+    <string name="keyguard_internal_call">Iekšējais zvans</string>
+    <string name="keyguard_not_set">Nav iestatīts</string>
+    <!-- VoiceUnlock -->
+    <string name="voice_unlock_service_error">Balss servera kļūda!</string>
+    <string name="voice_unlock_password_wrong">Diemžēl nevar atpazīt balsi.</string>
+    <string name="voice_unlock_noisy">Par trokšņainu, lai skaidri sadzirdētu balsi.</string>
+    <string name="voice_unlock_weak">Nevar dzirdēt balsi.</string>
+    <string name="voice_unlock_media_playing">Multivides atskaņošanas laikā balss atbloķēšana ir atslēgta.</string>
+    <string name="voiceunlock_multiple_failures">Pārsniegts maksimālais balss atbloķēšanas mēģinājumu skaits</string>
+    <!-- DM Lock -->
+    <string name="dm_prompt">Terminālis jau ir bloķēts</string>
+    <!-- Tablet -->
+    <string name="sd_accessing_swtich_user_title">Vai pārslēgt lietotāju?</string>
+    <string name="sd_accessing_swtich_user_message">Visi īpašnieka konta nesaglabātie dati tiks zaudēti vai bojāti.</string>
+    <!-- Misc -->
+</resources>

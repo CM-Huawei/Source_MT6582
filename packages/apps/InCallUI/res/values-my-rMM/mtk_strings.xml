@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">ဖုန်းအားလုံးကို ချပါ</string>
+    <string name="onscreenHangupHolding">ဖုန်းကိုင်ထားခြင်းကို ချပါ</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">ဖုန်းချခြင်း လုပ်ဆောင်နိုင်သည်၊ အဖြေစောင့်ဆိုင်းနေဆဲ</string>
+    <string name="onscreenECT">ပေးပို့ပါ</string>
+    <!-- dm lock -->
+    <string name="dm_lock">DM သော့ခတ်ပြီး</string>
+    <string name="dm_unlock">DM သော့ဖွင့်ခြင်း</string>
+    <!-- voice recorder -->
+    <string name="start_record">အသံဖမ်းယူခြင်းစတင်ပါ</string>
+    <string name="stop_record">အသံဖမ်းယူခြင်းရပ်ပါ</string>
+    <string name="str_db_playlist_name">မိမိအသံဖမ်းယူခြင်းများ</string>
+    <string name="alert_device_error">အသံဆိုင်ရာပစ္စည်းတွင် အမှားဖြစ်ပေါ်သွားသည်</string>
+    <string name="ext_media_badremoval_notification_title">SD ကဒ်အား မမျှော်လင့်ဘဲ ဖယ်ရှားပြီးဖြစ်သည်</string>
+    <string name="error_sdcard_access">SD ကဒ်သို့ ဝင်ရောက်၍ မရနိုင်ပါ</string>
+    <string name="confirm_device_info_full">SD ကဒ်နေရာလွတ်မရှိပါ၊ အသံဖမ်းယူခြင်းအား သိမ်းဆည်းပြီးဖြစ်သည်။</string>
+    <string name="confirm_save_info_saved">အသံဖမ်းယူခြင်းအား သိမ်းဆည်းပြီးဖြစ်သည်</string>
+    <string name="confirm_save_info_saved_to">သို့ မှတ်တမ်းတင်ခြင်းကို သိမ်းပြီးပြီ</string>
+    <!-- temp added string begin -->
+    <string name="sim_toolkit">"SIM Toolkit"</string>
+    <string name="activity_not_found">ပရိုဂရမ်အား သင့်ဖုန်းတွင် မသွင်းထားပါ။</string>
+    <string name="gemini_3g_indic">3G</string>
+    <!-- temp added string end -->
+    <!-- video call drop back -->
+    <string name="callFailed_dsac_vt_incompatible_destination">ဗီဒီယိုဖုန်းခေါ်ဆိုမှု အဆင်အပြင်ထားရှိ၍မရပါ။ သင်ခေါ်ဆိုသည့် ဖုန်းတွင် ဗီဒီယိုဖုန်းခေါ်ဆိုမှုကို အထောက်အပံ့မပေးပါ၊ အသံဖုန်းခေါ်ဆိုမှု ပြုလုပ်မလား</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">ဗီဒီယိုဖုန်းခေါ်ဆိုမှု အဆင်အပြင်ထားရှိ၍မရပါ။ သင်ခေါ်ဆိုထားသောဖုန်းမှာ 3G ဆားဗစ်ဧရိယာပြင်ပတွင် ရောက်ရှိနေသည်၊ အသံဖုန်းခေါ်ဆိုမှု ပြုလုပ်မလား</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">ဗီဒီယိုဖုန်းခေါ်ဆိုမှု အဆင်အပြင်ထားရှိ၍မရပါ။ အသံဖုန်းခေါ်ဆိုမှု ပြုလုပ်မလား</string>
+    <!-- voicemail notifications -->
+    <string name="notification_voicemail">အသံမေးလ်</string>
+    <string name="turn_on_3g_service_message">3G ဆားဗစ်ပိတ်ထားသည်၊ သင်ဖွင့်လိုပါသလား</string>
+    <string name="associate_sim_missing_message">"%1$s SIM မှာ မရရှိနိုင်ပါ။ %2$s မှတစ်ဆင့် ဖုန်းခေါ်ဆိုလိုပါသလား"</string>
+    <string name="associate_sim_missing_other">အခြား</string>
+    <string name="voicemail_settings_for"><xliff:g id="provider_name">%s</xliff:g>အတွက်ဆက်</string>
+    <!-- video call -->
+    <string name="vt_incoming_call">အဝင်ဗီဒီယိုဖုန်းခေါ်ဆိုမှု</string>
+    <string name="vt_settings">ဗီဒီယိုအဆင်အပြင်များ</string>
+    <string name="vt_local_video_zoom">ဖုန်းတွင်းဗီဒီယိုချဲ့စက်</string>
+    <string name="vt_local_video_brightness">ဖုန်းတွင်းဗီဒီယိုတောက်ပမှု</string>
+    <string name="vt_local_video_effect">ဖုန်းတွင်းဗီဒီယိုသက်ရောက်မှု</string>
+    <string name="vt_local_video_nightmode">ဖုန်းတွင်းဗီဒီယိုညပုံစံ</string>
+    <string name="vt_peer_video_quality">တစ်ဖက်လူနှင့် ချိတ်ဆက်ပြောဆိုမည့် ဗီဒီယိုအရည်အသွေး</string>
+    <string name="vt_enable_back_camera">နောက်ဘက်ကင်မရာဖွင့်ပါ</string>
+    <string name="vt_enable_back_camera_description">ဖွင့်ထားပါက ကင်မရာများ ပြောင်းနိုင်သည်</string>
+    <string name="vt_peer_video_bigger">တစ်ဖက်လူနှင့် ချိတ်ဆက်ပြောဆိုမည့် ပိုကြီးမားသော  ဗီဒီယို</string>
+    <string name="vt_peer_video_bigger_description">တစ်ဖက်လူနှင့် ချိတ်ဆက်ပြောဆိုမည့် ဗီဒီယိုအား ဖုန်းတွင်းဗီဒီယိုထက် ပိုကြီးအောင်ပြုလုပ်ရန် ဖွင့်ပါ</string>
+    <string name="vt_outgoing_call">အထွက်ဗီဒီယိုဖုန်းခေါ်ဆိုမှု</string>
+    <string name="vt_outgoing_call_description">ဗီဒီယိုဖုန်းခေါ်ဆိုမှုပြုလုပ်သည့်အခါ ဖုန်းတွင်းဗီဒီယိုပြသပါ</string>
+    <string name="vt_incoming_call_description">အဝင်ဗီဒီယိုဖုန်းခေါ်ဆိုမှုလက်ခံသည့်အခါ ဖုန်းတွင်းဗီဒီယိုပြသပါ</string>
+    <string name="vt_incoming_showme_always">အမြဲတမ်း</string>
+    <string name="vt_incoming_showme_ask">မေးပါ</string>
+    <string name="vt_incoming_showme_disable">ပိတ်ပါ</string>
+    <string name="vt_pic_replace_local_default">မူလရုပ်ပုံ</string>
+    <string name="vt_pic_replace_local_freezeme">မိမိကို ရပ်ထားပါ</string>
+    <string name="vt_pic_replace_local_mypic">မိမိရုပ်ပုံ</string>
+    <string name="vt_local_video_display">ဖုန်းတွင်းဗီဒီယိုပြသချက်</string>
+    <string name="vt_sd_null">SD ကဒ်မှာ \nမရရှိနိုင်ပါ</string>
+    <string name="vt_sd_not_enough">SD ကဒ်မှာ \nနေရာကုန်ခါနီးပြီ</string>
+    <string name="vt_peer_video_quality_normal">ပုံမှန်</string>
+    <string name="vt_peer_video_quality_sharp">ပြတ်ပြတ်သားသား</string>
+    <string name="vt_ask_show_local">ဖုန်းတွင်းဗီဒီယိုအား တစ်ဖက်လူနှင့် ချိတ်ဆက်ပြောဆိုမည့် ပုံစံသို့ ပြသမလား</string>
+    <string name="vt_ask_show_local_yes">မှန်</string>
+    <string name="vt_ask_show_local_no">မှား</string>
+    <string name="vt_change_my_pic">ပြောင်းပါ</string>
+    <string name="vt_pic_saved_to_sd">SD ကဒ်သို့ လျှပ်တစ်ပြက်ရိုက်ကူးချက်အား သိမ်းဆည်းပြီးဖြစ်သည်</string>
+    <string name="vt_pic_saved_to_sd_fail">လျှပ်တစ်ပြက်ရိုက်ကူးချက်အား သိမ်းဆည်းရန် မအောင်မြင်ပါ</string>
+    <string name="vt_error_network">ကွန်ယက်သို့ မရောက်ရှိနိုင်ပါ။ ဗီဒီယိုဖုန်းခေါ်ဆိုမှုအား ချိတ်ဆက်ထားမှုဖြတ်တောက်မည်။</string>
+    <string name="vt_error_media">ဗီဒီယိုအား ကောင်းမွန်စွာ မပြသနိုင်ပါ။ ဗီဒီယိုဖုန်းခေါ်ဆိုမှုအား ချိတ်ဆက်ထားမှုဖြတ်တောက်မည်။</string>
+    <string name="vt_swap_video">ဗီဒီယိုများလဲပါ</string>
+    <string name="vt_local_video_contrast">ဖုန်းတွင်းဗီဒီယို၏ အလင်းရောင်တောက်ပမှုခြားနားချက်</string>
+    <string name="vt_menu_switch">ကင်မရာပြောင်းပါ</string>
+    <string name="vt_menu_hide_me">ဖုန်းတွင်းဗီဒီယိုကို ဖျောက်ထားပါ</string>
+    <string name="vt_menu_show_me">ဖုန်းတွင်းဗီဒီယိုကို ပြသပါ</string>
+    <string name="vt_menu_snapshot">တစ်ဖက်လူနှင့် ချိတ်ဆက်ပြောဆိုမည့် လျှပ်တစ်ပြက်ရိုက်ကူးချက်</string>
+    <string name="vt_dis_peer_rep">တစ်ဖက်လူနှင့် ချိတ်ဆက်ပြောဆိုမည့် ဗီဒီယို အစားထိုးခြင်း</string>
+    <string name="vt_dis_peer_rep_des">တစ်ဖက်လူနှင့် ချိတ်ဆက်ပြောဆိုမည့် ဗီဒီယို မရရှိနိုင်ပါက ၎င်းနေရာတွင် အစားထိုးရန် ရုပ်ပုံကို ပြသပါ</string>
+    <string name="vt_peer_video_rep">တစ်ဖက်လူနှင့် ချိတ်ဆက်ပြောဆိုမည့် ဗီဒီယို အစားထိုးခြင်း</string>
+    <string name="vt_peer_video_rep_des">တစ်ဖက်လူနှင့် ချိတ်ဆက်ပြောဆိုမည့် ဗီဒီယို မရရှိနိုင်ပါက ပြသရန် ရုပ်ပုံကို ထားရှိပါ</string>
+    <string name="vt_vocie_answer">အသံဖြင့်ဖြေဆိုခြင်း</string>
+    <string name="vt_wait_voice">အသံဖုန်းခေါ်ဆိုမှုချိတ်ဆက်ခြင်းကို စောင့်ဆိုင်းဆဲ</string>
+    <string name="vt_voice_connecting">အသံဖုန်းခေါ်ဆိုမှုချိတ်ဆက်ခြင်း</string>
+    <string name="vt_auto_dropback">အလိုအလျောက်လွှဲပါ</string>
+    <string name="vt_auto_dropback_des">အလိုအလျောက်အသံဖုန်းခေါ်ဆိုမှုချိတ်ဆက်ခြင်းသို့ လွှဲပါ</string>
+    <string name="vt_cannot_support_setting">လက်ရှိကင်မရာက ဤအဆင်အပြင်အား အထောက်အပံ့မပေးပါ</string>
+    <string name="vt_network_unreachable">ကွန်ယက်သို့ မရောက်ရှိနိုင်ပါ။</string>
+    <string name="vt_iot_error_01">ဗီဒီယိုဖုန်းခေါ်ဆိုမှုအား အဆင်အပြင်ထားရှိ၍မရပါ</string>
+    <string name="vt_iot_error_02">ဖုန်းမအားပါ</string>
+    <string name="vt_iot_error_03">ဖြေဆိုမှုမရှိပါ</string>
+    <string name="vt_iot_error_04">ကွန်ယက်မှာချိတ်ဆက်နေဆဲဖြစ်သည်</string>
+    <string name="pref_camera_coloreffect_entry_none">ဘာမှ</string>
+    <string name="pref_camera_coloreffect_entry_mono">မိုနို</string>
+    <string name="pref_camera_coloreffect_entry_sepia">အညိုရောင်</string>
+    <string name="pref_camera_coloreffect_entry_negative">လျှော့ချချက်</string>
+    <string name="pref_camera_coloreffect_entry_solarize">အလင်းရောင်အရမ်းများစေမည်</string>
+    <string name="pref_camera_coloreffect_entry_posterize">အရောင်အဆင့်ဆင့်ပြောင်းစေမည်</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">အဖြူရောင်နောက်ခံ</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">အမည်းရောင်နောက်ခံ</string>
+    <string name="pref_camera_coloreffect_entry_aqua">စိမ်းပြာရောင်</string>
+    <string name="pref_camera_coloreffect_entry_pastel">အရောင်နုရောင်စုံ</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">အရောင်စုံကျောက်များဖြင့်ဖွဲ့စည်းခြင်း</string>
+    <string name="pref_camera_coloreffect_entry_redtint">အနီရောင်</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">အပြာရောင်</string>
+    <string name="pref_camera_coloreffect_entry_greentint">အစိမ်းရောင်</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">ညိုပြာရောင်</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">စိမ်းညိုရောင်</string>
+    <!-- Currently below 2 bluetooth string only used in VT option menu -->
+    <!-- Added for CMCC Phase 2 of VT -->
+    <string name="vt_peer_camera_open">အဝေးကင်မရာဖွင့်ထားသည်</string>
+    <string name="vt_peer_camera_close">အဝေးကင်မရာပိတ်ထားသည်</string>
+    <string name="vt_recorder_start">အသံဖမ်းယူခြင်းစတင်ပါ</string>
+    <string name="vt_recorder_voice_and_peer_video">အသံနှင့်အရည်အသွေးကောင်းမွန်သည့်ဗီဒီယို</string>
+    <string name="vt_recorder_only_voice">အသံသာ</string>
+    <string name="vt_recorder_only_peer_video">တစ်ဖက်လူနှင့် ချိတ်ဆက်ပြောဆိုမည့် ဗီဒီယိုသာ</string>
+    <string name="vt_recording_saved">အသံဖမ်းယူခြင်းအား သိမ်းဆည်းပြီးဖြစ်သည်</string>
+    <string name="vt_recording_saved_sd_full">SD ကဒ်နေရာလွတ်မရှိပါ၊ အသံဖမ်းယူခြင်းအား သိမ်းဆည်းပြီးဖြစ်သည်။</string>
+    <string name="vt_recording_error">အသံဖမ်းယူခြင်းအမှားပြနေသည်။</string>
+    <string name="start_record_vt">အသံဖမ်းယူခြင်းစတင်ပါ</string>
+    <string name="stop_record_vt">အသံဖမ်းယူခြင်းရပ်ပါ</string>
+   <!--Video call or voice call cannot be answered -->
+    <string name="cannot_answered_Video_Call">အသံဖုန်းခေါ်ဆိုမှု ပြုလုပ်ထားပြီးဖြစ်၍ ဗီဒီယိုဖုန်းခေါ်ဆိုမှုအား မဖြေဆိုနိုင်ပါ</string>
+    <string name="cannot_answered_Voice_Call">ဗီဒီယိုဖုန်းခေါ်ဆိုမှု ပြုလုပ်ထားပြီးဖြစ်၍ အသံဖုန်းခေါ်ဆိုမှုအား မဖြေဆိုနိုင်ပါ</string>
+    <string name="callDurationFormat">
+        <xliff:g id="minutes" example="42">%1$s</xliff:g> မိနစ်
+        <xliff:g id="seconds" example="28">%2$s</xliff:g> စက္ကန့်
+    </string>
+    <string name="reminder">ပြန်လည်သတိပေးချက်</string>
+    <string name="vt_media_occupied">ကင်မရာမရရှိနိုင်သဖြင့် ဗီဒီယိုဖုန်းခေါ်ဆိုမှုသို့ မချိတ်ဆက်နိုင်ပါ။ အခြားကင်မရာအသုံးပြုသည့် ပရိုဂရမ်ကို စစ်ဆေးကြည့်ပါ။</string>
+    <string name="vt_media_video_fail">ဗီဒီယိုအား ကောင်းမွန်စွာ မပြသနိုင်ပါ။ ဗီဒီယိုဖုန်းခေါ်ဆိုမှု ချိတ်ဆက်မှုအား ဖြတ်တောက်ထားပြီးဖြစ်သည်</string>
+    <string name="incall_toast_unhold">ဖုန်းကိုင်ထားခြင်းကို ချပါ</string>
+
+</resources>

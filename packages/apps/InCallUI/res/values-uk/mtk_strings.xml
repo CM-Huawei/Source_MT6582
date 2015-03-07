@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    
+    <string name="onscreenHangupAll">Завершити всі</string>
+    <string name="onscreenHangupHolding">Завершити утримані</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Завершити активний, відповісти на в очікуванні</string>
+    <string name="onscreenECT">Переадресація</string>
+    
+    <string name="dm_lock">Блоковано DM</string>
+    <string name="dm_unlock">Розблокувати DM</string>
+    
+    <string name="start_record">Почати запис</string>
+    <string name="stop_record">Зупинити запис</string>
+    <string name="str_db_playlist_name">"Мої записи"</string>
+    <string name="alert_device_error">Помилка на пристрої аудіо</string>
+    <string name="ext_media_badremoval_notification_title">"Карту SD несподівано вилучено"</string>
+    <string name="error_sdcard_access">Неможливо увійти до карти SD</string>
+    <string name="confirm_device_info_full">Карта SD переповнена, запис збережено.</string>
+    <string name="confirm_save_info_saved">Запис збережено</string>
+    <string name="confirm_save_info_saved_to">Запис збережено в</string>
+    
+	<string name="sim_toolkit">"Засоби SIM"</string>
+    <string name="activity_not_found">"Програму не встановлено у вашому телефоні."</string>
+    <string name="no_sim_card_inserted" product="default">Будь ласка, вставте SIM, щоб запустити Засоби SIM.</string>
+    <string name="airplane_mode_on" product="default">Неможливо завантажити Засоби SIM: увімкнено режим Літак.</string>
+    <string name="lable_sim_not_ready" product="default">Засоби SIM не готові або не підтримуються</string>
+    <string name="gemini_3g_indic">3G</string>
+    
+    
+    <string name="callFailed_dsac_vt_incompatible_destination">Неможливо встановити відеовиклик. Відеотелефон не підтримується на телефоні, куди ви дзвоните. Набрати голосовий виклик?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">Неможливо встановити відеовиклик. Телефон, куди ви дзвоните, поза зоною 3G. Набрати голосовий виклик?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">Неможливо встановити відеовиклик. Набрати голосовий виклик?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">Ваш телефон поза зоною 3G. Набрати голосовий виклик?</string>
+    <string name="callFailed_dsac_vt_bear_not_authorized">Неможливо встановити відеовиклик. На цій SIM-карті не активовано відеотелефонію. Набрати голосовий виклик?</string>
+    
+    <string name="notification_voicemail">"Голос. пошта"</string>
+    <string name="turn_on_3g_service_message">3G зараз вимкнено. Бажаєте увімкнути?</string>
+    <string name="associate_sim_missing_message">"%1$s SIM недоступна. Бажаєте зробити виклик через %2$s"</string>
+    <string name="associate_sim_missing_other">"Інша"</string>
+    
+    <string name="vt_incoming_call">Вхідний відеовиклик </string>
+    <string name="vt_settings">Налаштування відео</string>
+    <string name="vt_local_video_zoom">Наближення локального відео</string>
+    <string name="vt_local_video_brightness">Яскравість локального відео</string>
+    <string name="vt_local_video_effect">Ефект локального відео</string>
+    <string name="vt_local_video_nightmode">Нічний режим локального відео</string>
+    <string name="vt_peer_video_quality">Якість відео співрозмовника</string>
+    <string name="vt_enable_back_camera">Активувати задню камеру</string>
+    <string name="vt_enable_back_camera_description">Можна перемкнути камери, якщо увімкнути</string>
+    <string name="vt_peer_video_bigger">Збільшити відео співрозмовника</string>
+    <string name="vt_peer_video_bigger_description">Увімкніть, щоб зробити відео співрозмовника більшим за локальне</string>
+    <string name="vt_outgoing_call">Вихідний відеовиклик</string>
+    <string name="vt_outgoing_call_description">Показати локальне відео, коли робите відеовиклик</string>
+    <string name="vt_incoming_call_description">Показати локальне відео, коли приймаєте відеовиклик</string>
+    <string name="vt_incoming_showme_always">Завжди</string>
+    <string name="vt_incoming_showme_ask">"Запитувати"</string>
+    <string name="vt_incoming_showme_disable">"Вимкнути"</string>
+    <string name="vt_pic_replace_local_default">Зображення за промовчанням</string>
+    <string name="vt_pic_replace_local_freezeme">Затримати мене</string>
+    <string name="vt_pic_replace_local_mypic">Моє зображення</string>
+    <string name="vt_local_video_display">Показ локального відео</string>
+    <string name="vt_sd_null">Недоступна\nкарта SD</string>
+    <string name="vt_sd_not_enough">Мало місця\nна карті SD</string>
+    <string name="vt_peer_video_quality_normal">Звичайне</string>
+    <string name="vt_peer_video_quality_sharp">Різке</string>
+    <string name="vt_ask_show_local">Показати локальне відео співрозмовнику?</string>
+    <string name="vt_ask_show_local_yes">"Так"</string>
+    <string name="vt_ask_show_local_no">"Ні"</string>
+    <string name="vt_change_my_pic">Змінити</string>
+    <string name="vt_pic_saved_to_sd">Скріншот збережено на карту SD</string>
+    <string name="vt_pic_saved_to_sd_fail">Не збережено скріншот</string>
+    <string name="vt_error_network">Мережа недоступна. Відключиться відеовиклик.</string>
+    <string name="vt_error_media">Відео неможливо показати правильно. Відеовиклик буде відключено.</string>
+    <string name="vt_swap_video">Поміняти відео</string>
+    <string name="vt_local_video_contrast">Контраст локального відео</string>
+    <string name="vt_menu_switch">Перемкнути камеру</string>
+    <string name="vt_menu_hide_me">Приховати локальне відео</string>
+    <string name="vt_menu_show_me">Показати локальне відео</string>
+    <string name="vt_menu_snapshot">Скріншот співбесідника</string>
+    <string name="vt_dis_peer_rep">Показати відео співрозмовника</string>
+    <string name="vt_dis_peer_rep_des">Показати зображення замість недоступного відео співрозмовника.</string>
+    <string name="vt_peer_video_rep">Заміна відео співрозмовника</string>
+    <string name="vt_peer_video_rep_des">Встановити зображення-заміну недоступного відео співрозмовника</string>
+    <string name="vt_vocie_answer">Голосова відповідь</string>
+    <string name="vt_wait_voice">Очікування підключення голосових викликів</string>
+    <string name="vt_voice_connecting">Підключення голосових викликів</string>
+    <string name="vt_auto_dropback">Автоповернення</string>
+    <string name="vt_auto_dropback_des">Автоматичне повернення на підключення голосового виклику </string>
+    <string name="vt_cannot_support_setting">Поточна камера не підтримує цих налаштувань</string>
+    <string name="vt_network_unreachable">Недоступна мережа.</string>
+    <string name="vt_iot_error_01">Неможливо встановити відеовиклик</string>
+    <string name="vt_iot_error_02">Телефон зайнятий</string>
+    <string name="vt_iot_error_03">Не відповідає</string>
+    <string name="vt_iot_error_04">Мережа у шлейфному підключенні</string>
+    <string name="pref_camera_coloreffect_entry_none">"Нічого"</string>
+    <string name="pref_camera_coloreffect_entry_mono">Моно</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"Сепія"</string>
+    <string name="pref_camera_coloreffect_entry_negative">Негатив</string>
+    <string name="pref_camera_coloreffect_entry_solarize">Перетримано</string>
+    <string name="pref_camera_coloreffect_entry_posterize">Ефект плаката</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">Біла дошка</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">Чорна дошка</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Аква</string>
+    <string name="pref_camera_coloreffect_entry_pastel">Пастель</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">Мозаїка</string>
+    <string name="pref_camera_coloreffect_entry_redtint">Червоний відтінок</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">Блакитний відтінок</string>
+    <string name="pref_camera_coloreffect_entry_greentint">Зелений відтінок</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Блакитна сепія</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Зелена сепія</string>
+    
+    
+    <string name="vt_peer_camera_open">Відкрито віддалену камеру</string>
+    <string name="vt_peer_camera_close">Закрито віддалену камеру</string>
+    <string name="vt_recorder_start">Почати запис</string>
+    <string name="vt_recorder_voice_and_peer_video">Голос і відео співрозмовника</string>
+    <string name="vt_recorder_only_voice">Лише голос</string>
+    <string name="vt_recorder_only_peer_video">Лише відео співрозмовника</string>
+    <string name="vt_recording_saved">Запис збережено.</string>
+    <string name="vt_recording_saved_sd_full">Карта SD заповнено, запис збережено.</string>
+    <string name="vt_recording_error">Помилка запису.</string>
+    <string name="start_record_vt">Почати запис</string>
+    <string name="stop_record_vt">Зупинити запис</string>
+    
+    
+    <string name="cannot_answered_Video_Call">Неможливо відповісти на відеовиклик: вже є голосовий виклик</string>
+    <string name="cannot_answered_Voice_Call">Неможливо відповісти на голосовий виклик: вже є відеовиклик</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> хв. <xliff:g id="seconds" example="28">%2$s</xliff:g> сек.</string>
+    <string name="reminder">Нагадування</string>
+    <string name="vt_media_occupied">Оскільки камера недоступна, відеовиклик не може підключитися. Будь ласка, перевірте, чи інші задачі застосовують камеру.</string>
+    <string name="vt_media_video_fail">Відео не може бути правильно показано. Відключено відеовиклики</string>
+    <string name="incall_toast_unhold">Зняти з утримання</string>
+    
+    <string name="dualtalk_tip_accept_disconnect_current" tools:ignore="MissingTranslation">Прийом цього виклику завершить поточний виклик.</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing" tools:ignore="MissingTranslation">Прийом цього виклику завершить вихідний виклик.</string>
+    <string name="dualtalk_tip_accept_disconnect_incoming" tools:ignore="MissingTranslation">Прийом цього виклику відхилить вхідний виклик.</string>
+    <string name="dualtalk_tip_accept_disconnect_voice">Прийом цього виклику завершить голосовий(і) виклик(и).</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing_reject_incoming">Прийом цього виклику завершить вихідний виклик і відхилить вхідний виклик.</string>
+    <string name="dualtalk_tip_accept_disconnect_current_reject_incoming">Прийом цього виклику завершить поточний виклик і відхилитьінший  вхідний виклик.</string>
+    
+    <string name="end_call_because_can_not_hold">Закінчити поточний виклик, бо його неможна утримувати.</string>
+    <string name="ring_only_once_title">Лише один дзвінок</string>
+    <string name="ring_only_once_summary">Один дзвінок, коли вибираєте прийняти відеовиклик у режимі голосового виклику</string>
+    
+    
+    <string name="fdn_contact_name_number_invalid">"Ім'я і номер не можуть бути порожніми одночасно."</string>
+    
+    <string name="fdn_contact_number_invalid">Недійсний номер контакта.</string>
+    <string name="fdn_phone_book_busy">Телефонна книга зараз зайнята. Будь ласка, спробуйте пізніше.</string>
+    
+    <string name="cdma_not_support">CDMA не підтримує цю функцію</string>
+    <string name="cdma_cfu_title">China Telecom</string>
+    <string name="labelCFC">Скасувати всі перенаправлення</string>
+    <string name="cdma_cfu_dialog_sum">"Завжди викор. цей номер"</string>
+        
+    <string name="dual_mic_title">Зменшення шумів</string>
+    <string name="dual_mic_summary">Зменшіть сторонній шум під час викликів</string>
+    
+    <string name="minutereminder_title">Нагадування хвилин</string>
+    <string name="minutereminder_summary">Нагадувати 50-ті секунди кожної хвилини</string>
+    <string name="voice_call_settings">Налаштування голосового виклику</string>
+    
+    <string name="enable_sip_dialog_message">Відключено Інтернет-виклик. Активувати?</string>
+    
+    <string name="ip_prefix_setting">Префікс ІР</string>
+    <string name="ip_prefix_setting_sum">Налаштування префікса ІР</string>
+    <string name="enter_ip_prefix_number">Введіть префікс</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Будь ласка, спочатку введіть префікс ІР у налаштування голосових викликів.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">Функція набору ІР недійсна в Інтернет-виклику.</string>
+    <string name="ip_prefix_edit_default_sum">Введіть префікс для ІР-набору</string>
+    
+    <string name="vt_cf_call_description">Налаштування перенаправлення відеовиклику</string>
+    <string name="vt_cb_call_description">Налаштування заборони відеовикликів</string>
+    <string name="vt_addtional_call_description">Номер телефона і налаштування очікування виклику</string>
+    <string name="others">Інші налаштування</string>
+    
+    <string name="confirm_3g_switch">Ви впевнені, що бажаєте встановити послугу 3G на цю SIM? Це також встановить SIM за промовчанням для відеовикликів на цю SIM автоматично.</string>
+    <string name="modem_switching">Перемикання SIM триватиме близько 10 секунд. Будь ласка, почекайте...</string>
+    <string name="confirm_3g_switch_to_off">Точно вимкнути 3G? Це автоматично вимкне і послугу відеовикликів.</string>
+    <string name="service_3g_off">"вимкнено"</string>
+    <string name="enable_3G_service">Активувати 3G</string>
+    <string name="setting_for_3G_service">Послуга  3G</string>
+    
+    
+    <string name="network_forbidden">заборонено</string>
+    <string name="voice_mail_dialog_text">Вам голосове повідомлення від <xliff:g id="voicemail_sim_display_name">%s</xliff:g>. Отримати зараз?</string>
+    <string name="lable_call_barring">"Заборона викл."</string>
+    <string name="lable_all_outgoing">Всі вихідні виклики</string>
+    <string name="lable_all_outgoing_international">Міжнародні вихідні виклики</string>
+    <string name="lable_all_out_except">Міжнародні вихідні виклики, крім внутрішніх наземних мобільних мереж</string>
+    <string name="lable_all_incoming">Всі вхідні виклики</string>
+    <string name="lable_incoming_calls_except">Вхідні виклики у роумінгу</string>
+    <string name="deactivate_all">Скасувати всі</string>
+    <string name="change_password">Змінити пароль заборони</string>
+    <string name="call_barring_sum">Налаштування заборони голосових викликів</string>
+    
+    <string name="lable_disable">"Вимкнено"</string>
+    <string name="lable_enable">Активовано</string>
+    <string name="old_password_label">Старий пароль (4 цифри)</string>
+    <string name="new_password_label">Новий пароль (4 цифри)</string>
+    <string name="invalid_password">Наберіть пароль з 4 цифр.</string>
+    <string name="confirm_password_label">Підтвердіть новий пароль</string>
+    <string name="mismatch_password">Введений вами пароль не співпадає. Будь ласка, повторіть спробу.</string>
+    <string name="password_changed">Успішно змінено пароль</string>
+    <string name="enter_callbarring_password">Введіть пароль заборони викликів (4 цифри)</string>
+    <string name="wrong_password">Помилка паролю</string>
+    <string name="error_title">"Помилка"</string>
+    <string name="cell_broadcast">Стільникова трансляція</string>
+    <string name="cell_broadcast_settings">Налаштування стільникової трансляції</string>
+    <string name="cb_menu_language">"Мова"</string>
+    <string name="cb_menu_add_channel">Додати канал</string>
+    <string name="cb_menu_channel_list">Список каналів</string>
+    <string name="cb_dialog_title_language_choice">Виберіть мову</string>
+    <string name="cb_channel_dialog_channel_name">Назва каналу (0-10 символів)</string>
+    <string name="cb_channel_dialog_channel_number">Номер каналу (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">Активувати канал</string>
+    <string name="cb_channel_dialog_edit_channel">Редагувати канал</string>
+    <string name="cb_menu_edit">"Редаг."</string>
+    <string name="cb_menu_delete">"Delete"</string>
+    <string name="cb_error_channel_num">Будь ласка, введіть номер каналу (0-65534).</string>
+    <string name="cb_error_channel_name">Неправильна довжина назви каналу (1-10 символів).</string>
+    <string name="cb_error_language_select">Будь ласка, виберіть хоч одну мову.</string>
+    <string name="cb_error_channel_id_exist">Існує ID каналу</string>
+    <string name="cb_all_languages">"Усі мови"</string>
+    <string name="cb_default_new_channel_name">Новий канал</string>
+    <string name="fdn_errorcode_unknown_info">Не виконано. Невідома помилка. Будь ласка, повторіть спробу пізніше.</string>
+    <string name="fdn_errorcode_number_info">Не виконано. Номер контакта задовгий.</string>
+    <string name="fdn_errorcode_name_info">"Не виконано. Ім'я контакту задовге."</string>
+    <string name="fdn_errorcode_storage_info">"Помилка. Пам'ять заповнена."</string>
+    <string name="fdn_errorcode_phb_info">Помилка. Телефонна книга не готова, будь ласка, спробуйте пізніше.</string>
+    <string name="fdn_errorcode_pin2_info">Помилка. Недійсний PIN2.</string>
+    <string name="net_or_simcard_busy">Мережа або SIM-карта зайняті, будь ласка, спробуйте пізніше.</string>
+    
+    <string name="gsm_umts_network_preferences_title">Режим мережі</string>
+    <string name="gsm_umts_network_preferneces_summary">Ще не вповаджено!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">Режим мережі</string>
+    <string name="umts_preferred_network_mode_dialogtitle">Режим мережі</string>
+    
+    <string name="voice_call">Голосовий виклик</string>
+    <string name="video_call">"Відеодзвінок"</string>
+    <string name="internet_call">Інтернет-виклик</string>
+    <string name="sum_voice_call">Налаштування голосового виклику</string>
+    <string name="sum_video_call">Налаштування відеовиклику</string>
+    <string name="sum_internet_call">Налаштування Інтернет-виклику</string>
+    <string name="voice_mail">"Голос. пошта"</string>
+    <string name="sum_voice_mail">Послуга і номер голосової пошти</string>
+    <string name="sum_cell_broadcast_control_on">Активувати стільникову трансляцію</string>
+    <string name="sum_cell_broadcast_control_off">Вимкнути стільникову трансляцію</string>
+    <string name="sum_cell_broadcast_setting">Налаштування мови і каналу для стільникової трансляції</string>
+    <string name="call_additional_sum">Номер телефона і налаштування очікування виклику</string>
+    <string name="vt_call_settings">Налаштування відеовиклику</string>
+    <string name="vt_local_video_rep">Заміна локального відео</string>
+    <string name="vt_pic_replace_local_description">Встановити зображення-заміну, коли камера не працює</string>
+
+    
+    <string name="mo_code_unconditional_cf_active">Активоване перенаправлення\nвсіх викликів</string>
+    <string name="mo_code_some_cf_active">Перенаправлення\nпевних викликів</string>
+    <string name="mo_code_call_forwarded">Переадресовано виклик</string>
+    <string name="mo_code_call_is_waiting">Виклик в очікуванні</string>
+    <string name="mo_code_cug_call">Зарита група користувачів</string>
+    <string name="mo_code_outgoing_calls_barred">Заборонено вихідні виклики</string>
+    <string name="mo_code_incoming_calls_barred">З іншого боку заборонено вхідні виклики</string>
+    <string name="mo_code_clir_suppression_rejected">Перевірити послугу надсилання ID абонента</string>
+    <string name="mo_code_call_deflected">Виклик переадресовано</string>
+    
+    <string name="mt_code_forwarded_call">Це переадресований виклик</string>
+    <string name="mt_code_cug_call">Закрита група користувачів</string>
+    <string name="mt_code_call_on_hold">Утримано виклик</string>
+    <string name="mt_code_call_retrieved">Отримано виклик</string>
+    <string name="mt_code_multi_party_call">Телефонна конференція</string>
+    <string name="mt_code_on_hold_call_released">Вивільнення утримуваного виклику</string>
+    <string name="mt_code_forward_check_received">Отримано повідомлення SS перевірки перенаправлення</string>
+    <string name="mt_code_call_connecting_ect">Переадресація виклику</string>
+    <string name="mt_code_call_connected_ect">Активна переадресація виклику</string>
+    <string name="mt_code_deflected_call">Це відхилений виклик</string>
+    <string name="mt_code_additional_call_forwarded">Додатковий вхідний виклик переадресовано</string>
+    <string name="mt_code_forwarded_cf">Виклик переадресовано</string>
+    <string name="mt_code_forwarded_cf_uncond">Виклик переадресовано для всіх</string>
+    <string name="mt_code_forwarded_cf_cond">Виклик переадресовано за певних умов</string>
+    <string name="mt_code_forwarded_cf_busy">Зайнятий виклик переадресовано</string>
+    <string name="mt_code_forwarded_cf_no_reply">Переадресація виклику, коли не відповідають</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Переадресація виклику, коли абонент недоступний</string>
+    <string name="sim_manage_sipcall">Інтернет-виклик</string>
+    <string name="sim_manage_call_via">Виклик через</string>
+    
+    
+	
+    <string name="manual_select_title">Виберіть вручну</string>    
+	<string name="manual_select_dialog_msg">Мобільний телефон не вибере інших операторів для вас у режимі вибору вручну. Іноді слід знов вибрати вручну або змінитися на режим автоматичного вибору, коли втрачено послуги обраного оператора. Радимо користуватися "\Вибрати автоматично\". Бажаєте вибрати мережу вручну?</string>    
+	<string name="no_service_msg_gemini">Зараз вибраний оператор не обслуговує \"<xliff:g id="operator">%s</xliff:g>\" SIM-карту.\nРадимо вибрати "\Вибрати автоматично\" або можна вручну вибрати іншого оператора.</string>    
+	<string name="no_service_msg">Зараз нема обслуговування від обраного оператора.\nРадимо вибрати "\Вибрати автоматично\" або можна вручну вибрати іншого оператора.</string>    
+	<string name="show_always_title">Більше не сповіщати</string>    
+	<string name="no_service_msg_title_gemini">Нема обслуговування для \"<xliff:g id="operator">%s</xliff:g>\"</string>    
+	<string name="no_service_msg_title">"Нема служби"</string>    
+    <string name="gemini_data_connection">Підключення даних</string>
+	
+    <string name="plmn_list_setting_title">Бажані мережі</string>
+    <string name="network_id">ID мережі</string>
+    <string name="dialog_network_priority_title">Пріоритет</string>
+    <string name="plmn_list_setting_add_plmn">Нова наземна стільникова мережа</string>
+    
+    <string name="international_dialing_title">Допомога Міжнародного набору</string>
+    <string name="international_dialing_select_country">Визначено, що ви робите міжнародний виклик. Будь ласка, виберіть місце призначення.</string>
+    <string name="international_dialing_add_country_code">Визначено, що ви набираєте номер у <xliff:g id="country_name">%s</xliff:g>. Бажаєте додати код країни (+<xliff:g id="country_code">%s</xliff:g>)?</string>
+    <string name="international_dialing_add_country_code_and_area_code">Визначено, що ви набираєте номер у <xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g>. Бажаєте додати коди країни і регіону (+<xliff:g id="prefix">%3$s</xliff:g>)?</string>
+    <string name="international_dialing_change_country_prefix">Визначено, що ви набираєте з <xliff:g id="country_name">%s</xliff:g>. Змінити префікс міжнародних викликів на \'+\'?</string>
+    <string name="international_dialing_add_country_code_input_area_code">Визначено, що ви набираєте номер у <xliff:g id="country_name">%s</xliff:g>. Якщо це так, введіть регіональний код, будь ласка.</string>
+    <string name="international_dialing_add_country_code_default_input_area_code">Визначено, що ви набираєте номер у <xliff:g id="country_name">%s</xliff:g>. Якщо місто, куди ви дзвоните, не <xliff:g id="area_name">%s</xliff:g>, будь ласка, введіть код регіону.</string>
+    <string name="international_dialing_need_area_code">Для виклика потрібен регіональний код міста абонента.</string>
+    <string name="international_dialing_input_area_code">Введіть тут регіональний код</string>
+    <string name="international_dialing_dialed_number">Номер набору:</string>
+    <string name="international_dialing_confirm_area_code">Якщо місто абонента не <xliff:g id="area_name">%s</xliff:g>, будь ласка, введіть нижче регіональний код міста абонента.</string>
+    <string name="international_dialing_click_below_button">Клацніть кнопку нижче, щоб змінити код країни.</string>
+    <string name="international_dialing_yes">Так. Новий користувача нижче:</string>
+    <string name="international_dialing_no">Ні. Використати оригінальний номер:</string>
+    <string name="international_dialing_call_button">"Набрати"</string>
+    <string name="international_dialing_area_code">код регіону</string>
+    <string name="international_dialing_invalid_number">Недійсний номер. Бажаєте все одно набирати?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">Бажаєте додати код країни і регіону?</string>
+    <string name="no_search_result">Нема результатів пошуку</string>
+    <string name="which_call_to_activate">Який виклик активувати?</string>
+    <string name="gemini_3g_disable_warning_case0">"Спочатку слід активувати роумінг даних цієї SIM-карти, а це може багато коштувати! Бажаєте активувати роумінг даних і вибрати цю SIM?"</string>
+    <string name="gemini_3g_disable_warning_case1">"3G недоступний на вибраній SIM. Дані можуть завантажуватися повільніше. Можна змінити налаштування 3G у Налаштування &gt;  Бездротове і мережі &gt; Мобільні мережі. Точно вибрати цю SIM?"</string>
+    <string name="gemini_3g_disable_warning_case2">"Спочатку слід активувати роумінг даних цієї SIM-карти, а це може багато коштувати! Також 3G недоступний на вибраній SIM. Дані можуть завантажуватися повільніше.  Можна змінити налаштування 3G у Налаштування &gt;  Бездротове і мережі &gt; Мобільні мережі. Точно активувати роумінг даних і вибрати цю SIM?"</string>
+    <string name="disable_data_connection_msg">Пошук всіх доступних мереж відключить застосоване підключення даних. Бажаєте продовжити?</string>
+    
+    <string name="voice_command_notification_ticker">Можна сказати \"<xliff:g id="first_voice">%s</xliff:g>\" або \"<xliff:g id="second_voice">%s</xliff:g>\", щоб відповісти або проігнорувати вхідний виклик</string>
+    <string name="voice_command_notification_title">Голосовий контроль</string>
+    <string name="voice_command_notification_message">Голосовий контроль активовано для телефону</string>
+
+    <string name="callFailed_simError_cdma">Нема UIM/SIM або помилка UIM/SIM</string>
+
+    
+    <string name="callFailed_simError_slotNumber">Нема SIM або помилка SIM в отворі <xliff:g id="slotNumber">%s</xliff:g></string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="callFailed_cdma_notEmergency">"Дозволені лише аварійні дзвінки"</string>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="buttonTxtContinue">"Продовжити"</string>
+
+    <string name="fdn_only_error">Операції дозволені для номерів фіксованого набору.</string>
+
+    <string name="network_setting_all_forbidden_dialog">Нема доступних мереж. Будь ласка, спробуйте увімкнути 3G або клацнути заборонену мережу, щоб зареєструватися вручну. </string>
+
+    
+    <string name="reset_data_usage">Скинути обсяг даних</string>
+
+    
+    <string name="simContacts_emptyLoading_ex">Читання контактів з %s\u2026 </string>
+
+    <string name="one_retry_left">лишилася 1 спроба</string>
+    <string name="retries_left"><xliff:g id="number">%d</xliff:g> спроб лишилося</string>
+    <string name="pin2_unblocked">Успішно розблоковано PIN2</string>
+    <string name="unblock_pin2">Розблокувати PIN2</string>
+    <string name="sim_permanently_locked">Більше 10 раз введено неправильний PUK2, SIM-карту назавжди заблоковано</string>
+    <string name="pin_length_indicate">(4-8 цифр)</string>
+    <string name="puk_length_indicate">(8 цифр)</string>
+
+    
+    <string name="caller_manage_manage_done_text">"Назад до дзвінка"</string>
+
+    
+    <string name="card_title_incoming_vt_call">Вхідний відеовиклик </string>
+
+    
+    <string name="voicemail_settings_for">Налаштування для <xliff:g id="provider_name">%s</xliff:g></string>
+
+    
+    <string name="sip_call_options_title_single_sim">Опції Інтернет-виклику</string>
+
+    
+    <string name="description_search_button">"Пошук"</string>
+
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (авто)</item>
+        <item>лише 3G</item>
+        <item>лише 2G</item>
+    </string-array>
+    
+
+    <string-array name="umts_network_preferences_choices">
+        <item>2G/3G (авто)</item>
+        <item>лише 3G</item>
+    </string-array>
+
+    
+
+    
+    
+    
+    
+    <string-array name="lte_usim_prefer_network_mode_choices">
+        <item>4G/3G/2G(Авто)</item>
+        <item>3G/2G(Авто)</item>
+        <item>лише 2G</item>
+    </string-array>
+        <string-array name="lte_usim_prefer_network_mode_values">
+        <item>"9"</item>
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+
+    <string-array name="lte_sim_prefer_network_mode_choices">
+        <item>3G/2G(Авто)</item>
+        <item>лише 2G</item>
+    </string-array>
+        <string-array name="lte_sim_prefer_network_mode_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <string name="cipher_indication_notification_title">Нема голосового шифрування</string>
+    <string name="cipher_indication_notification_message">Мережею вимкнено голосове шифрування</string>
+
+    
+    <string name="network_type">Тип мережі</string>
+    <string name="network_type_2g">2G</string>
+    <string name="network_type_3g">3G</string>
+    <string name="network_type_4g">"4G"</string>
+    
+    
+
+    <string name="cancel">"Скасувати"</string>
+</resources>

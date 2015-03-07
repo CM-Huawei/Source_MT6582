@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="gemini_default_sim_always_ask">Uvijek pitaj</string>
+    <string name="gemini_default_sim_auto">"AUTOMATSKI"</string>
+    
+    <string name="accessibility_phone_four_bars">Četiri trake telefona.</string>
+    
+    <string name="sim_switch_tip">Ova SIM je postavljena kao zadana SIM kartica za <xliff:g>%s</xliff:g>. Držite pritisnutom i povucite traku stanja kako biste promijenili zadanu SIM karticu.</string>
+    <string name="remind_next_time">Podsjeti me sljedeći put</string>
+    <string name="voice_call_service">usluga glasovnog poziva</string>
+    <string name="messages_service">usluga slanja poruka</string>
+    <string name="data_connection_service">usluga podatkovne veze</string>
+
+    <string name="plmn_searching">"Pretraživanje"</string>
+
+    <string name="wifi">"Wi-Fi"</string>
+    <string name="bluetooth">"Bluetooth"</string>
+    <string name="mobile">Podatkovna veza</string>
+    <string name="gps">"GPS"</string>
+    <string name="autorotate">Automatsko zaokretanje</string>
+    <string name="normal">Općenito</string>
+    <string name="meeting">Sastanak</string>
+    <string name="mute">"Bešumno"</string>
+    <string name="outdoor">Vani</string>
+
+    <string name="offline">"Način rada u zrakoplovu"</string>
+    <string name="brightness">"Svjetlina"</string>
+    <string name="timeout">"Privremeni prekid"</string>
+
+    <string name="data_connection_attach_timeout_error_msg">"Podatkovna veza nije uspjela ili je mreža trenutno zauzeta."</string>
+    <string name="data_connection_dettach_timeout_error_msg">"Nije uspjelo prekidanje podatkovne veze."</string>
+    <string name="data_connection_connected">[<xliff:g>%s</xliff:g>] Podatkovna veza SIM kartice je aktivirana</string>
+
+    <string name="gemini_intenet_call">Internetski poziv</string>  
+    <string name="gemini_default_sim_never">"Isključeno"</string>
+    
+    <string name="gemini_3g_disable_warning">"3G usluga nije dostupna s ovom odabranom SIM karticom. Tako će se sporije učitavati podaci. Postavke 3G usluge možete promijeniti u Postavke &gt; Bežični rad i mreže &gt; Mobilne mreže. Jeste li sigurni da želite odabrati ovu SIM?"</string>
+    <string name="gemini_3g_disable_warning_cu">"3G usluga nije dostupna s ovom odabranom SIM karticom. Tako će se sporije učitavati podaci. Postavke 3G usluge možete promijeniti u Postavke &gt; Upravljanje SIM karticom. Jeste li sigurni da želite odabrati ovu SIM?"</string>
+    <string name="gemini_3g_disable_warning_case0">"Najprije morate omogućiti podatkovni roaming za ovu SIM karticu, zbog čega može doći do značajnih troškova za roaming! Jeste li sigurni da želite omogućiti podatkovni roaming i odabrati ovu SIM?"</string>
+    <string name="gemini_3g_disable_warning_case1">"3G usluga nije dostupna s ovom odabranom SIM karticom. Tako će se sporije učitavati podaci. Postavke 3G usluge možete promijeniti u Postavke &gt; Bežični rad i mreže &gt; Mobilne mreže. Jeste li sigurni da želite odabrati ovu SIM?"</string>
+    <string name="gemini_3g_disable_warning_case2">"3G usluga nije dostupna s ovom odabranom SIM karticom. Tako će se sporije učitavati podaci. Postavke 3G usluge možete promijeniti u Postavke &gt; Upravljanje SIM karticom. Jeste li sigurni da želite odabrati ovu SIM?"</string>
+    <string name="gemini_3g_disable_warning_case3">"Najprije morate omogućiti podatkovni roaming za ovu SIM karticu, zbog čega može doći do značajnih troškova za roaming! 3G usluga nije dostupna s ovom SIM karticom. Tako će se sporije učitavati podaci. To možete promijeniti u Postavke &gt; Bežični rad i mreže &gt; Mobilne mreže. Jeste li sigurni da želite omogućiti podatkovni roaming i odabrati ovu SIM?"</string>
+    <string name="gemini_3g_disable_warning_case4">"Najprije morate omogućiti podatkovni roaming za ovu SIM karticu, zbog čega može doći do značajnih troškova za roaming! 3G usluga nije dostupna s ovom SIM karticom. Tako će se sporije učitavati podaci. To možete promijeniti u Postavke &gt; Upravljanje SIM karticom. Jeste li sigurni da želite omogućiti podatkovni roaming i odabrati ovu SIM?"</string>
+
+    <string name="confirm_radio_title">SIM je isključen</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> je sada uključen. Želite li uključiti ovu SIM karticu?</string>
+    <string name="confirm_radio_msg_single">Zrakoplovni način je sada uključen želite li ga isključiti?</string>
+    <string name="confirm_radio_lbutton">Uključi</string>
+
+    <string name="builtin_installer_title_message">Ugrađeni CD-ROM</string>
+    <string name="builtin_installer_dlg_message">Uključiti ugrađeni CD-ROM?</string>
+    <string name="builtin_installer_always_allowed">Ne prikazuj sljedeći put</string>
+    <string name="dlg_no">"Ne"</string>
+    <string name="dlg_yes">"Da"</string>
+
+    <string name="OK">"U redu"</string>
+    <string name="application_guide_title">﻿Switch to default SIM card</string>
+    <string name="application_guide_content">Povucite dolje popis obavijesti za prijelaz na zadanu SIM karticu</string>
+    
+    <string name="data_usage">"Korištenje podataka"</string>
+    <string name="audio_profile">Audio profili</string>
+    <string name="user_owner">"Vlasnik"</string>
+
+    <string name="phone_battery_low_subtitle">Baterija telefona će se uskoro isprazniti.</string>
+    <string name="smartbook_battery_low_subtitle">Baterija pametne knjige će se uskoro isprazniti.</string>
+
+    <string name="apn">PRISTUPNA TOČKA</string>
+    <string name="sim_management">UPRAVLJANJE UIM/SIM KARTICOM</string>
+    <string name="network_selection_settings">Odabir mreže</string>
+    <string name="quick_settings_roam_data">Roaming podataka</string>
+
+    <string name="eco_backlight_title">Ekonomično pozadinsko svjetlo</string>
+    <string name="eco_backlight_summary">Automatski prilagodi pozadinsko svjetlo radi štednje energije</string> 
+</resources>

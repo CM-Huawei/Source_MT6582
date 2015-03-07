@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">সব কল শেষ করুন</string>
+    <string name="onscreenHangupHolding">হ্যাঙ্গ-আপ স্থগিত</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">হ্যাঙ্গ-আপ সক্রিয়, অপেক্ষামানে উত্তর দিন</string>
+    <string name="onscreenECT">স্থানান্তর করুন</string>
+    <!-- dm lock -->
+    <string name="dm_lock">ডিএম লক করা</string>
+    <string name="dm_unlock">ডিএম আনলক করা</string>
+    <!-- voice recorder -->
+    <string name="start_record">রেকর্ডিং শুরু করুন</string>
+    <string name="stop_record">রেকর্ড করা বন্ধ করুন</string>
+    <string name="str_db_playlist_name">আমার রেকডিং</string>
+    <string name="alert_device_error">অডিও ডিভাইসে ত্রুটি হয়েছে</string>
+    <string name="ext_media_badremoval_notification_title">এসডি কার্ড অপ্রত্যাশিতভাবে সরিয়ে ফেলা হয়েছে</string>
+    <string name="error_sdcard_access">এসডি কার্ডে প্রবেশ করতে অক্ষম</string>
+    <string name="confirm_device_info_full">এসডি কার্ডে স্পেস নেই, রেকর্ড করা বিষয় সংরক্ষণ করা হয়েছে। </string>
+    <string name="confirm_save_info_saved">রেকর্ড করা বিষয় সংরক্ষণ করা হয়েছে</string>
+    <string name="confirm_save_info_saved_to">রেকর্ডিং সংরক্ষণ করা হয়েছে</string>
+    <!-- temp added string begin -->
+    <string name="sim_toolkit">"সিম টুলকিট"</string>
+    <string name="activity_not_found">আপনার কম্পিউটারে অ্যাপ্লিকেশন ইন্সটল করা নেই।</string>
+    <string name="no_sim_card_inserted" product="default">সিম টুলকিট চালু করার জন্য সিম প্রবেশ করান।</string>
+    <string name="airplane_mode_on" product="default">উড়োজাহাজ মোড চালু থাকায় সিম টুলকিট চালু করা যাচ্ছে না।</string>
+    <string name="lable_sim_not_ready" product="default">সিম টুলকিট প্রস্তুত নয় বা অসমর্থিত</string>
+    <string name="gemini_3g_indic">3G</string>
+    <!-- temp added string end -->
+    <!-- video call drop back -->
+    <string name="callFailed_dsac_vt_incompatible_destination">ভিডিও কল সেটআপ করা যাবে না। আপনি যে ফোনে কল করছেন তাতে ভিডিও টেলিফোন সমর্থন করে না, ভয়েস কল করবেন?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">ভিডিও কল সেটআপ করা যায়নি। আপনি যে ফোনে ডায়াল করেছেন তা থ্রিজি সেবা অঞ্চলের আওতার বাইরে, ভয়েস কলের মাধ্যমে ডায়াল করবেন?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">ভিডিও কল সেটআপ করা যায়নি। ভয়েস কলের মাধ্যমে ডায়াল করবেন?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">আপনার ফোন থ্রিজি সেবা এলাকার আওতার বাইরে, ভয়েস কলের মাধ্যমে ডায়াল করবেন?</string>
+    <string name="callFailed_dsac_vt_bear_not_authorized">ভিডিও কল সেট আপ করা যাবে না।ভিডিও টেলিফোন সার্ভিস এই সিম কার্ডে সক্রিয় নয়, ভয়েস কল দিয়ে ডায়াল করবেন?</string>
+    <!-- voicemail notifications -->
+    <string name="notification_voicemail">ভয়েসমেইল</string>
+    <string name="turn_on_3g_service_message">"থ্রিজি সেবা এখন বন্ধ রয়েছে, আপনি কি তা চালু করতে চান?"</string>
+    <string name="associate_sim_missing_message">"%1$s সিম নেই। আপনি কি %2$s দ্বারা কল করতে চান"</string>
+    <string name="associate_sim_missing_other">অন্যান্য</string>
+    <!-- video call -->
+    <string name="vt_incoming_call">ভিডিও ইনকামিং কল</string>
+    <string name="vt_settings">ভিডিও সেটিং</string>
+    <string name="vt_local_video_zoom">লোকাল ভিডিও জুম</string>
+    <string name="vt_local_video_brightness">"লোকাল ভিডিও'র উজ্জলতা"</string>
+    <string name="vt_local_video_effect">"লোকাল ভিডিও'র ইফেক্ট"</string>
+    <string name="vt_local_video_nightmode">"লোকাল ভিডিও'র রাতের মোড"</string>
+    <string name="vt_peer_video_quality">পিয়ার ভিডিও মান</string>
+    <string name="vt_enable_back_camera">ক্যামেরায ফেরত যাওয়া সক্রিয় করুন</string>
+    <string name="vt_enable_back_camera_description">খুললে ক্যামেরায় যাওয়া যায়</string>
+    <string name="vt_peer_video_bigger">বড় পিয়ার ভিডিও</string>
+    <string name="vt_peer_video_bigger_description">"পিয়ার ভিডিওকে লোকাল ভিডিও'র চেয়ে বড় করার জন্য চালু করুন"</string>
+    <string name="vt_outgoing_call">আউটগোয়িং ভিডিও কল</string>
+    <string name="vt_outgoing_call_description">ভিডিও কল করার সময় লোকাল ভিডিও প্রদর্শন করুন</string>
+    <string name="vt_incoming_call_description">কোন ইনকামিং ভিডিও গ্রহণ করার সময় লোকাল ভিডিও প্রদর্শন করুন</string>
+    <string name="vt_incoming_showme_always">সবসময়</string>
+    <string name="vt_incoming_showme_ask">জিজ্ঞাসা করে</string>
+    <string name="vt_incoming_showme_disable">নিষ্ক্রিয় করুন</string>
+    <string name="vt_pic_replace_local_default">ডিফল্ট ছবি</string>
+    <string name="vt_pic_replace_local_freezeme">আমাকে থামান</string>
+    <string name="vt_pic_replace_local_mypic">আমার ছবি</string>
+    <string name="vt_local_video_display">লোকাল ভিডিও প্রদর্শন</string>
+    <string name="vt_sd_null">এসডি কার্ড\n পাওয়া যাচ্ছে না </string>
+    <string name="vt_sd_not_enough"> এসডি কার্ডের\nজায়গা ফুরিয়ে আসছে</string>
+    <string name="vt_peer_video_quality_normal">সাধারণ</string>
+    <string name="vt_peer_video_quality_sharp">জোরালো</string>
+    <string name="vt_ask_show_local">সতীর্থকে লোকাল ভিডিও দেখাবেন?</string>
+    <string name="vt_ask_show_local_yes">হ্যা</string>
+    <string name="vt_ask_show_local_no">না </string>
+    <string name="vt_change_my_pic">পরিবর্তন করুন</string>
+    <string name="vt_pic_saved_to_sd">এসডি কার্ডে স্ন্যাপশট সংরক্ষণ করা হয়েছে</string>
+    <string name="vt_pic_saved_to_sd_fail">স্ন্যাপশট সংরক্ষণ করতে ব্যর্থ হয়েছে</string>
+    <string name="vt_error_network">নেটওয়ার্ক পাওয়া যাচ্ছে না।ভিডিও কলের সংযোগ বিচ্ছিন্ন হয়ে যাবে।</string>
+    <string name="vt_error_media">ভিডিও যথাযথভাবে প্রদর্শন করা যাচ্ছে না। ভিডিও কলের সংযোগ বিছিন্ন হয়ে যাবে।</string>
+    <string name="vt_swap_video">ভিডিওগুলো অদলবদল করুন</string>
+    <string name="vt_local_video_contrast">লোকাল ভিডিও কন্ট্রাস্ট</string>
+    <string name="vt_menu_switch">ক্যামেরায় সুইচ করুন</string>
+    <string name="vt_menu_hide_me">স্থানীয় ভিডিও লুকান</string>
+    <string name="vt_menu_show_me">স্থানীয় ভিডিও দেখান</string>
+    <string name="vt_menu_snapshot">পিয়ার স্ন্যাপশট</string>
+    <string name="vt_dis_peer_rep">পিয়ার ভিডিও প্রদর্শন</string>
+    <string name="vt_dis_peer_rep_des">যখন সতীর্থ ভিডিও পাওয়া যাবে না তখন তা প্রতিস্থাপনের জন্য ছবি প্রদর্শন করুন</string>
+    <string name="vt_peer_video_rep">সতীর্থ ভিডিও প্রতিস্থাপন</string>
+    <string name="vt_peer_video_rep_des">যখন সতীর্থ ভিডিও পাওয়া যাবে না তখন প্রদর্শনের জন্য একটি ছবি সেট করুন</string>
+    <string name="vt_vocie_answer">কণ্ঠ উত্তর</string>
+    <string name="vt_wait_voice">ভয়েস কল সংযুক্ত হবার জন্য অপেক্ষা করছে</string>
+    <string name="vt_voice_connecting">ভয়েস কল সংযুক্ত হচ্ছে</string>
+    <string name="vt_auto_dropback">স্বয়ংক্রিয় ড্রপ ব্যাক</string>
+    <string name="vt_auto_dropback_des">স্বয়ংক্রিয়ভাবে ভয়েস কল সংযুক্তকরণে ড্রপ ব্যাক করুন</string>
+    <string name="vt_cannot_support_setting">বর্তমান ক্যামেরা এই সেটিংকে সমর্থন দিতে পারে না</string>
+    <string name="vt_network_unreachable">নেটওয়ার্কে পৌঁছানো সম্ভব নয়</string>
+    <string name="vt_iot_error_01">ভিডিও কল সেটআপ করা যায়নি</string>
+    <string name="vt_iot_error_02">ফোন ব্যস্ত</string>
+    <string name="vt_iot_error_03">কোন জবাব নেই</string>
+    <string name="vt_iot_error_04">নেটওয়ার্কে ব্যস্ত আছে</string>
+    <string name="pref_camera_coloreffect_entry_none">কখনও নয়</string>
+    <string name="pref_camera_coloreffect_entry_mono">মনো</string>
+    <string name="pref_camera_coloreffect_entry_sepia">সেপিয়া</string>
+    <string name="pref_camera_coloreffect_entry_negative">ঋণাত্বক</string>
+    <string name="pref_camera_coloreffect_entry_solarize">সোলারাইজ</string>
+    <string name="pref_camera_coloreffect_entry_posterize">পোস্টারাইজ</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">হোয়াইটবোর্ড</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">ব্ল্যাকবোর্ড</string>
+    <string name="pref_camera_coloreffect_entry_aqua">একুয়া</string>
+    <string name="pref_camera_coloreffect_entry_pastel">পাসটেল</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">মোজাইক</string>
+    <string name="pref_camera_coloreffect_entry_redtint">লাল পিন্ট</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">নীল পিন্ট</string>
+    <string name="pref_camera_coloreffect_entry_greentint">সবুজ পিন্ট</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">সেপিয়া নীল</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">সেপিয়া সবুজ</string>
+    <!-- Currently below 2 bluetooth string only used in VT option menu -->
+    <!-- Added for CMCC Phase 2 of VT -->
+    <string name="vt_peer_camera_open">রিমোট ক্যামেরা খোলা</string>
+    <string name="vt_peer_camera_close">রিমোট ক্যামেরা বন্ধ</string>
+    <string name="vt_recorder_start">রেকর্ডিং শুরু করুন</string>
+    <string name="vt_recorder_voice_and_peer_video">ভয়েস এবং পিয়ার ভিডিও</string>
+    <string name="vt_recorder_only_voice">কেবল ভয়েস</string>
+    <string name="vt_recorder_only_peer_video">কেবল পিয়ার ভিডিও</string>
+    <string name="vt_recording_saved">রেকর্ডিং সংরক্ষণ করা হয়েছে।</string>
+    <string name="vt_recording_saved_sd_full">এসডি কার্ডে জায়গা নেই,রেকর্ড সংরক্ষণ করা হয়েছে।</string>
+    <string name="vt_recording_error">রেকর্ডিংয়ে ত্রুটি</string>
+    <string name="start_record_vt">রেকর্ডিং শুরু করুন</string>
+    <string name="stop_record_vt">রেকর্ড করা বন্ধ করুন</string>
+    <!--Video call or voice call cannot be answered -->
+    <string name="cannot_answered_Video_Call">যেহেতু ইতিমধ্যেই একটি ভয়েস কল রয়েছে তাই ভিডিও কলের উত্তর দেয়া যাবে না</string>
+    <string name="cannot_answered_Voice_Call">যেহেতু ইতিমধ্যেই একটি ভিডিও কল রয়েছে তাই ভয়েস কলের উত্তর দেয়া যাবে না</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> mins <xliff:g id="seconds" example="28">%2$s</xliff:g> সেকেন্ড</string>
+    <string name="reminder">রিমাইন্ডার</string>
+    <string name="vt_media_occupied">যেহেতু ক্যামেরা উপলব্ধ নয়, ভিডিও কল সংযোগ করা যাবে না। অন্য কোনো অ্যাপ্লিকেশন ক্যামেরা ব্যবহার করছে কিনা তা অনুগ্রহ করে পরীক্ষা করুন।   </string>
+    <string name="vt_media_video_fail">ভিডিও যথাযথ ভাবে দেখানো যাচ্ছে না। ভিডিও কলের সংযোগ বিছিন্ন হয়েছে</string>
+    <string name="incall_toast_unhold">পুনরায় শুরু করুন</string>
+</resources>

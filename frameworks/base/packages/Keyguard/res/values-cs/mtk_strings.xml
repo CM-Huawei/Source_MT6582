@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Clock -->
+    <string name="keyguard_domestic_zone_name">"Peking"</string>
+    <!-- GlowPadView -->
+    <!-- PowerOffAlarm -->
+    <string name="every_day">"Každý den"</string>
+    <string name="never">"Nikdy"</string>
+    <string name="day_concat">", "</string>
+    <string name="default_label">"Budík"</string>
+    <string name="voiceui_notify_string">Vyslovením</string>
+    <string name="voiceui_control_poweroff_alarm">můžete ovládat upozornění na vypnutí.</string>
+    <string name="voiceui_or">nebo</string>
+    <string name="keyguard_accessibility_alarm_unlock">Upozornění na vypnutí</string>
+    <string name="alarm_alert_dismiss_text">Zrušit</string>
+    <string name="alarm_alert_snooze_text">"Odložit"</string>
+    <!-- Telephony -->
+    <string name="keyguard_password_entering_puk_code">Zadejte kód PUK</string>
+    <string name="keyguard_password_wrong_puk_code">Nesprávný kód PUK!</string>
+    <string name="invalidPuk">Zadejte 8 číslic.</string>
+    <string name="pin_pass">Kód přijat</string>
+    <string name="keyguard_password_enter_new_pin_code">Zadejte nový kód PIN</string>
+    <string name="keyguard_password_Confirm_pin_code">Potvrzení nového kódu PIN</string>
+    <string name="sim_permanently_locked">Po zadání nesprávného kódu PUK více než 10krát bude karta SIM trvale uzamčena.</string>
+    <string name="retries_left">Zbývá:<xliff:g id="number">%d</xliff:g></string>
+    <string name="simlock_slot_locked_message">Slot byl trvale uzamčen</string>
+    <string name="simlock_entersimmelock">"Zadejte SIM ME zámek"</string>
+    <string name="slot_id">Slot <xliff:g id="number">%d</xliff:g>:</string>
+    <string name="new_simcard">Nová karta SIM</string>
+    <string name="lockscreen_missing_sim_dialog_message">"Karta SIM je vysunuta. Zkontrolujte, zda je karta SIM správně zasunuta."</string>
+    <string name="puk_pass">PIN odblokován</string>
+    <string name="sim_card_changed_dialog_title">Karta SIM byla změněna</string>
+    <string name="change_setting_for_onenewsim">Byla rozpoznána nová karta SIM. Je označena jako</string>
+    <string name="change_setting_for_twonewsim">Byla rozpoznána nová karta SIM. Jsou označeny jako</string>
+    <string name="sim_card_removed">Karta SIM byla vyjmuta.</string>
+    <string name="sim_card_swapped">Karta SIM byla vyměněna.</string>
+    <string name="change_settings">Změnit</string>
+    <string name="keyguard_voice_call">Hlasové volání:</string>
+    <string name="keyguard_sms">Zasílání zpráv:</string>
+    <string name="keyguard_data">Datové připojení:</string>
+    <string name="dismiss">Zrušit</string>
+    <string name="keyguard_wrong_code_input">Nesprávný kód.</string>
+    <string name="keyguard_code_length_prompt">Zadejte 4 - 8 číslic.</string>
+    <string name="keyguard_code_donnot_mismatch">Neshoda.</string>
+    <string name="network_searching">Vyhledávání nové sítě</string>
+    <string name="searching_simcard">Rozpoznávání...</string>
+    <string name="keyguard_close">Zavřít</string>
+    <string name="default_sim_setting_prompt">Nastavení výchozí karty SIM nyní jsou:</string>
+    <string name="keyguard_video_call">Videovolání:</string>
+    <string name="invalid_sim_title">Neplatná karta SIM</string>
+    <string name="invalid_sim_message">Karta UIM/SIM nebyla rozpoznána</string>
+    <string name="lockscreen_sim_locked_message_short">Karta SIM uzamčena</string>
+    <!-- UnreadEvent -->
+    <!-- Utils -->
+    <string name="keyguard_alwaysask">Vždy se dotázat</string>
+    <string name="keyguard_data_none">Vypnout</string>
+    <string name="keyguard_sim_auto">"automaticky"</string>
+    <string name="keyguard_internal_call">Vnitřní volání</string>
+    <string name="keyguard_not_set">Nenastaveno</string>
+    <!-- VoiceUnlock -->
+    <string name="voice_unlock_service_error">Chyba služby odemknutí hlasem.</string>
+    <string name="voice_unlock_password_wrong">Bohužel nelze rozpoznat váš hlas.</string>
+    <string name="voice_unlock_noisy">Příliš hluku nebo nejste slyšet jasně.</string>
+    <string name="voice_unlock_weak">Váš hlas není slyšet.</string>
+    <string name="voice_unlock_media_playing">Během přehrávání médií je odemknutí hlasem deaktivováno.</string>
+    <string name="voiceunlock_multiple_failures">Bylo překročeno maximum pokusů o hlasové odemknutí</string>
+    <!-- DM Lock -->
+    <string name="dm_prompt">Terminál byl uzamčen</string>
+    <!-- Tablet -->
+    <string name="sd_accessing_swtich_user_title">Přepnout uživatele?</string>
+    <string name="sd_accessing_swtich_user_message">Veškerá neuložená data na účtu vlastníka budou ztracena nebo poškozena.</string>
+    <!-- Misc -->
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="brightness">"Luminozitate"</string>
+    <string name="timeout">temporizare</string>
+    <string name="wifi">"Wi-Fi"</string>
+    <string name="bluetooth">"Bluetooth"</string>
+    <string name="mobile">Data con.</string>
+    <string name="gps">GPS</string>
+    <string name="autorotate">Rotire automată</string>
+    <string name="normal">Scanare canale...</string>
+    <string name="meeting">Întâlnire</string>
+    <string name="mute">Silenţios</string>
+    <string name="outdoor">În aer liber</string>
+    <string name="offline">"Mod Avion"</string>
+    <string name="gemini_default_sim_always_ask">Se întreabă întotdeauna</string>
+    <string name="sim_switch_tip">Această cartelă SIM a fost setată drept cartela SIM implicită pentru  <xliff:g>%s</xliff:g>. Ţineţi apăsată şi glisaţi în jos bara de stare pentru a schimba cartela SIM implicită. </string>
+    <string name="gemini_3g_disable_warning">"Serviciul 3G nu este disponibil cu SIM-ul selectat. Acest lucru poate determina încărcarea mai lentă a datelor. Puteţi schimba setarea pentru serviciul 3G din Setări &gt; Wireless şi reţele &gt; Reţele mobile. Sigur doriţi să selectaţi acest SIM?"</string>
+    <string name="gemini_3g_disable_warning_cu">"Serviciul 3G nu este disponibil cu SIM-ul selectat. Acest lucru poate determina încărcarea mai lentă a datelor. Puteţi schimba setarea pentru serviciul 3G din Setări &gt; Gestionare SIM. Sigur doriţi să selectaţi acest SIM?"</string>
+    <string name="gemini_3g_disable_warning_case0">"Trebuie să activați roaming de date pentru acest SIM ce poate atrage costuri importante de roaming! Sunteți sigur că activați roaming de date și că selectați acest SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"Serviciul 3G nu este disponibil cu SIM-ul selectat. Acest lucru poate determina încărcarea mai lentă a datelor. Puteţi schimba setarea pentru serviciul 3G din Setări &gt; Wireless şi reţele &gt; Reţele mobile. Sigur doriţi să selectaţi acest SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"Serviciul 3G nu este disponibil cu SIM-ul selectat. Acest lucru poate determina încărcarea mai lentă a datelor. Puteţi schimba setarea pentru serviciul 3G din Setări &gt; Gestionare SIM. Sigur doriţi să selectaţi acest SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"Mai întâi trebuie să activaţi serviciul de roaming de date pentru acest SIM, ceea ce va determina costuri semnificative pentru transferul în roaming! În plus, serviciul 3G nu este disponibil cu SIM-ul selectat. Acest lucru poate determina încărcarea mai lentă a datelor. Îl puteţi schimba din Setări &gt; Wireless şi reţele &gt; Reţele mobile. Sigur doriţi să activaţi roamingul de date şi să selectaţi acest SIM?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"Mai întâi trebuie să activaţi serviciul de roaming de date pentru acest SIM, ceea ce va determina costuri semnificative pentru transferul în roaming! În plus, serviciul 3G nu este disponibil cu SIM-ul selectat. Acest lucru poate determina încărcarea mai lentă a datelor. Îl puteţi schimba din Setări &gt; Gestionare SIM. Sigur doriţi să activaţi roamingul de date şi să selectaţi acest SIM?"</string>  
+    <string name="dlg_no">"Nu"</string>  
+    <string name="dlg_yes">"Da"</string>  
+    <string name="builtin_installer_title_message">CD-ROM încorporat</string>  
+    <string name="builtin_installer_dlg_message">Activați CD_ROM-ul încorporat?</string>  
+    <string name="builtin_installer_always_allowed">Nu se arată data viitoare</string>
+    <string name="OK">"OK"</string>  
+    <string name="application_guide_title">Comutare la cartela SIM implicită</string>  
+    <string name="application_guide_content">Glisaţi în jos lista de notificări pentru a comuta la cartela SIM implicită</string> 
+    <string name="audio_profile">Profiuri audio</string>
+    <string name="data_usage">"Rata de utilizare a datelor"</string>
+    <string name="user_owner">"Proprietar"</string>
+    <string name="eco_backlight_title">Retroiluminare economică</string>
+    <string name="eco_backlight_summary">Adaptare automată retroiluminare pentru a economisi energie</string>
+    <string name="phone_battery_low_subtitle">Nivelul bateriei telefonului este redus.</string>
+    <string name="smartbook_battery_low_subtitle">Nivelul bateriei dispozitivului Smartbook este redus.</string>
+    <string name="gemini_default_sim_auto">"AUTOMAT"</string>
+    <string name="accessibility_phone_four_bars">Telefon patru bare.</string>
+    <string name="remind_next_time">Aminteşte-mi data viitoare</string>
+    <string name="voice_call_service">serviciu de apelare vocală</string>
+    <string name="messages_service">serviciu de mesaje</string>
+    <string name="data_connection_service">serviciu de conexiune de date</string>
+    <string name="plmn_searching">Căutare</string>
+    <string name="data_connection_attach_timeout_error_msg">"Conexiunea de date nu a reuşit sau momentan reţeaua este ocupată."</string>
+    <string name="data_connection_dettach_timeout_error_msg">"Detaşarea conexiunii de date nu a reuşit."</string>
+    <string name="data_connection_connected">Conexiunea de date a cartelei SIM [<xliff:g>%s</xliff:g>] este activată</string>
+    <string name="gemini_intenet_call">Apel Internet</string>
+    <string name="gemini_default_sim_never">"dezactivat"</string>
+    <string name="confirm_radio_title">Cartelă SIM dezactivată</string>
+    <string name="confirm_radio_msg">Cartela <xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> este dezactivată. Doriţi să activaţi această cartelă SIM?</string>
+    <string name="confirm_radio_msg_single">Modul Avion este acum activat, doriţi să îl dezactivaţi?</string>
+    <string name="confirm_radio_lbutton">Activare</string>
+    <string name="apn">PUNCT DE ACCES</string>
+    <string name="sim_management">ADMINISTRARE UIM/SIM</string>
+    <string name="network_selection_settings">Selectare reţea</string>
+    <string name="quick_settings_roam_data">Roaming de date</string>
+</resources>

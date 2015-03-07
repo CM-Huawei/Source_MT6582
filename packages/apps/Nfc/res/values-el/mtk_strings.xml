@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="mtk_notification_string">Αγγίξτε για εμφάνιση λεπτομερών ρυθμίσεων</string>
+    <string name="mtk_beam_cancel_title">Ακύρωση μεταφοράς</string>    
+    <string name="mtk_beam_cancel">Είστε βέβαιοι ότι θέλετε να ακυρώσετε την εισερχόμενη μεταφορά;</string>
+    <string name="mtk_yes">"Ναι"</string>
+    <string name="mtk_no">"Όχι"</string>
+    <string name="mtk_se_sim1">SIM1</string>
+    <string name="mtk_se_sim2">SIM2</string>
+    <string name="mtk_se_ssd">Έξυπνη κάρτα SD</string>
+    <string name="mtk_se_ese">Ενσωματωμένο SE</string>
+    <string name="mtk_se_na">"Δεν υπάρχουν διαθέσιμα στοιχεία ασφάλειας. NFC άμιλλα Card θα απενεργοποιηθεί."</string>
+    <string name="mtk_se_alt">" Δεν είναι διαθέσιμο. Θέλετε να μεταβείτε σε "</string>
+    <string name="mtk_nfc_card_emulation">NFC άμιλλα κάρτα</string>
+    
+<string name="mtk_disallow_in_wfd">Δεν είναι δυνατή η πραγματοποίηση της λειτουργίας κατά τη χρήση ασύρματης οθόνης</string>
+    <string name="mtk_disallow_in_wfd_KK">Δεν είναι δυνατή η πραγματοποίηση της λειτουργίας κατά τη χρήση οθόνης εκπομπής</string>
+    </resources>

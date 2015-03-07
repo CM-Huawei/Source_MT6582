@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- <item
+        android:id="@+id/menu_mute_ringer"
+        android:title="@string/onscreenMuteText"
+        android:orderInCategory="1" />  -->
+
+    <item
+        android:id="@+id/menu_vt_voice_answer"
+        android:title="@string/vt_vocie_answer"
+        android:orderInCategory="1" />
+
+    <item
+        android:id="@+id/menu_hangup_active_and_answer_waiting"
+        android:title="@string/onscreenHangupActiveAndAnswerWaiting"
+        android:orderInCategory="1" />
+
+</menu>

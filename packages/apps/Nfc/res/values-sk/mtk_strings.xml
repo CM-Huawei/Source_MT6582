@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="mtk_notification_string">Dotykom zobrazte podrobnosti o nastavení</string>
+    <string name="mtk_beam_cancel_title">Zrušiť prenos</string>    
+    <string name="mtk_beam_cancel">Naozaj chcete zrušiť prichádzajúci prenos?</string>
+    <string name="mtk_yes">"Áno"</string>
+    <string name="mtk_no">"Nie"</string>
+    <string name="mtk_se_sim1">SIM1</string>
+    <string name="mtk_se_sim2">SIM2</string>
+    <string name="mtk_se_ssd">Karta Smart SD</string>
+    <string name="mtk_se_ese">Vstavané SE</string>
+    <string name="mtk_se_na">"Nie sú dostupné žiadne bezpečnostné prvky. Emulácia karty NFC bude vypnutá"</string>
+    <string name="mtk_se_alt">" nie je k dispozícii. Chcete prejsť na "</string>
+    <string name="mtk_nfc_card_emulation">Emulácia karty NFC</string>
+    
+<string name="mtk_disallow_in_wfd">Počas režimu Wireless Display nemožno vykonať túto operáciu</string>
+    <string name="mtk_disallow_in_wfd_KK">Počas režimu Cast Screen nemožno vykonať túto operáciu</string>    
+</resources>

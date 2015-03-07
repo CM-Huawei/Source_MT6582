@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="permlab_bluetoothShareManager">ဒေါင်းလုဒ်မန်နေဂျာသို့ ဝင်ရောက်ပါ။</string>
+    
+    <string name="permdesc_bluetoothShareManager">ပရိုဂရမ်အား ဘလူးတုသ်ဝေမျှချက် မန်နေဂျာသို့ ဝင်ရောက်ပြီး ၎င်းကို အသုံးပြု၍ ဖိုင်များပေးပို့ရန် ခွင့်ပြုပါ။</string>
+
+    <string name="permlab_bluetoothWhitelist">အမည်ကောင်း ဘလူးတုသ် အသုံးပြုမှု</string>
+
+    <string name="permdesc_bluetoothWhitelist">ပရိုဂရမ်အား ဘလူးတုသ်ပစ္စည်းကို ယာယီခွင့်ပြုချက်စာရင်းတွင်ထည့်ရန် ခွင့်ပြုပါ၊ ၎င်းပစ္စည်းအား ခွင့်ပြုခြင်းဖြင့် အသုံးပြုသူ၏ အတည်ပြုချက်မယူဘဲ ဤပစ္စည်းသို့ ဖိုင်များပေးပို့မည်။</string>
+
+    
+    <string name="permlab_handoverStatus">ဘလူးတုသ်ဖြင့် လွှဲပြောင်းပို့သော ထုတ်လွှင့်ချက်များကို လက်ခံပါ။</string>
+    <string name="permdesc_handoverStatus">ဘလူးတုသ်မှ အခြေအနေပြသတင်းအချက်အလက်များကို လွှဲပြောင်းခြင်းကို လက်ခံရယူရန် ခွင့်ပြုပါ။</string>
+
+    
+    <string name="bt_share_picker_label">ဘလူးတု</string>
+
+    
+    <string name="unknown_device">အမည်မသိပစ္စည်း</string>
+
+    
+    <string name="unknownNumber">အမည်မသိ</string>
+
+    
+    <string name="airplane_error_title">လေယာဉ်ပျံသန်းစဉ်ပုံစံ</string>
+    
+    <string name="airplane_error_msg">လေယာဉ်ပျံသန်းစဉ် ပုံစံတွင် ဘလူးတုသ် မသုံးနိုင်ပါ။</string>
+
+    
+    
+    <string name="bt_enable_title"/>
+    
+    <string name="bt_enable_line1">ဘလူးတုသ်ဝန်ဆောင်မှုများအသုံးပြုရန် ဘလူးတုသ်ကို အရင်ဖွင့်ပါ။</string>
+    
+    <string name="bt_enable_line2">ဘလူးတုသ်ကို ယခုဖွင့်မလား။</string>
+    
+    <string name="bt_enable_cancel">မလုပ်ပါ</string>
+    
+    <string name="bt_enable_ok">ဖွင့်ပါ</string>
+
+    
+    
+    <string name="incoming_file_confirm_title">ဖိုင်ပြောင်းခြင်း</string>
+    
+    <string name="incoming_file_confirm_content">\u0022<xliff:g id="sender">%1$s</xliff:g>\u0022 က သင့်အား <xliff:g id="file">%2$s</xliff:g> (<xliff:g id="size">%3$s</xliff:g>) ကို ပေးပို့လိုသည်။ \n\n ဖိုင်ကို ခွင့်ပြုမလား။</string>
+    
+    <string name="incoming_file_confirm_cancel">ပယ်ချပါ</string>
+    
+    <string name="incoming_file_confirm_ok">လက်ခံသည်</string>
+    
+    <string name="incoming_file_confirm_timeout_ok">လုပ်မည်</string>
+    
+    <string name="incoming_file_confirm_timeout_content">\u0022<xliff:g id="sender">%1$s</xliff:g>\u0022 မှ အဝင်ဖိုင်ကို လက်ခံစဉ် တုန့်ပြန်ချက်မရှိသဖြင့် ဖြတ်ချပစ်လိုက်သည်။</string>
+
+    
+    <string name="incoming_file_confirm_Notification_title">ဘလူးတုသ်ဝေမျှချက်: အဝင်ဖိုင်</string>
+    <string name="incoming_file_confirm_Notification_caption">ဤဖိုင်ကို လက်ခံရယူလိုပါသလား။</string>
+    <string name="incoming_file_toast_msg">အခြားပစ္စည်းမှ အဝင်ဖိုင်။ ဤဖိုင်ကို သင်လက်ခံရယူလိုကြောင်း အတည်ပြုပါ။</string>
+
+    
+    
+    <string name="notification_receiving">ဘလူးတုသ်ဝေမျှချက်: <xliff:g id="file">%1$s</xliff:g> ကို လက်ခံရယူနေဆဲ</string>
+    
+    <string name="notification_received">ဘလူးတုသ်ဝေမျှချက်: <xliff:g id="file">%1$s</xliff:g> ကို လက်ခံရရှိပြီး</string>
+    
+    <string name="notification_received_fail">ဘလူးတုသ်ဝေမျှချက်: ဖိုင် <xliff:g id="file">%1$s</xliff:g> မရရှိပါ</string>
+
+    
+    
+    <string name="notification_sending">ဘလူးတုသ်ဝေမျှချက်: <xliff:g id="file">%1$s</xliff:g> ကို ပေးပို့ဆဲ</string>
+    
+    <string name="notification_sent">ဘလူးတုသ်ဝေမျှချက်: <xliff:g id="file">%1$s</xliff:g> ကို ပေးပို့ပြီး</string> 
+     
+    <string name="notification_sent_complete">100% ပြီးဆုံး</string>
+    
+    <string name="notification_sent_fail">ဘလူးတုသ်ဝေမျှချက်: ဖိုင် <xliff:g id="file">%1$s</xliff:g> မပေးပို့ရသေးပါ</string>
+
+    
+    
+    <string name="download_title">ဖိုင်ပြောင်းခြင်း</string>
+    
+    <string name="download_line1">မှ: \u0022<xliff:g id="sender">%1$s</xliff:g>\u0022</string>
+    
+    <string name="download_line2">ဖိုင်: <xliff:g id="file">%1$s</xliff:g></string>
+    
+    <string name="download_line3">ဖိုင်အရွယ်အစား: <xliff:g id="size">%1$s</xliff:g></string>
+    
+    <string name="download_line4"/>
+    <string name="download_line5">ဖိုင်လက်ခံရယူနေဆဲ\u2026</string>
+    
+    <string name="download_cancel">ရပ်ပါ</string>
+    
+    <string name="download_ok">ဖျောက်ထားပါ</string>
+
+    
+    
+    <string name="download_fail_line1">ဖိုင်မရရှိပါ</string>
+    
+    <string name="download_fail_line2">ဖိုင်: <xliff:g id="file">%1$s</xliff:g></string>
+    
+    <string name="download_fail_line3">အကြောင်းရင်း: <xliff:g id="reason">%1$s</xliff:g></string>
+    
+    <string name="download_fail_ok">လုပ်မည်</string>
+
+    
+    
+    <string name="download_succ_line5">ဖိုင်လက်ခံရရှိပြီး</string>
+    
+    <string name="download_succ_ok">ဖွင့်ပါ</string>
+
+    
+    <string name="upload_line1">သို့: \u0022<xliff:g id="recipient">%1$s</xliff:g>\u0022</string>
+    <string name="upload_line3">ဖိုင်အမျိုးအစား: <xliff:g id="type">%1$s</xliff:g> (<xliff:g id="size">%2$s</xliff:g>)</string>
+    <string name="upload_line5">ဖိုင်ပို့နေသည်\u2026</string>
+
+    
+    
+    <string name="upload_succ_line5">ဖိုင်ပေးပို့ဆဲ</string>
+    
+    <string name="upload_succ_ok">လုပ်မည်</string>
+
+    
+    <string name="upload_fail_line1">ဖိုင်ကို \u0022<xliff:g id="recipient">%1$s</xliff:g>\u0022 သို့ မပို့ခဲ့ပါ။</string>
+    <string name="upload_fail_line1_2">ဖိုင်: <xliff:g id="file">%1$s</xliff:g></string>
+    
+    <string name="upload_fail_ok">ပြန်ကြိုးစားကြည့်ပါ</string>
+    
+    <string name="upload_fail_cancel">ပိတ်ပါ</string>
+
+    
+    <string name="bt_error_btn_ok">လုပ်မည်</string>
+    <string name="unknown_file">အမည်မသိဖိုင်</string>
+    <string name="unknown_file_desc">ဤဖိုင်အမျိုးအစားကို ကိုင်တွယ်နိုင်သော ပရိုဂရမ် မရှိပါ။ \n</string>
+    <string name="not_exist_file">ဖိုင်မရှိပါ</string>
+    <string name="not_exist_file_desc">ဖိုင်မရှိပါ။ \n</string>
+
+    
+    <string name="enabling_progress_title">စောင့်ဆိုင်းပါ\u2026</string>
+    <string name="enabling_progress_content">ဘလူးတုသ် ဖွင့်နေသည်\u2026</string>
+
+    
+    <string name="bt_toast_1">ဖိုင်လက်ခံရရှိမည်ဖြစ်သည်။ အချက်ပေးချက်များအကွက်တွင် အခြေအနေတိုးတက်မှုကို စစ်ဆေးပါ။</string>
+    <string name="bt_toast_2">ဖိုင် မရရှိနိုင်ပါ။</string>
+    <string name="bt_toast_3">\u0022<xliff:g id="sender">%1$s</xliff:g>\u0022 မှ ဖိုင်လက်ခံရယူခြင်းကို ရပ်ပြီး</string>
+    <string name="bt_toast_4">\u0022<xliff:g id="recipient">%1$s</xliff:g>\u0022 သို့ ဖိုင်ပေးပို့ဆဲ</string>
+    <string name="bt_toast_5">\u0022<xliff:g id="recipient">%2$s</xliff:g>\u0022 သို့ ဖိုင် <xliff:g id="number">%1$s</xliff:g> ခု ပေးပို့ဆဲ</string>
+    <string name="bt_toast_6">\u0022<xliff:g id="recipient">%1$s</xliff:g>\u0022 သို့ ဖိုင်ပေးပို့ခြင်းရပ်ပြီး</string>
+
+    
+    <string name="bt_sm_2_1" product="nosdcard">\u0022<xliff:g id="sender">%1$s</xliff:g>\u0022 မှ ဖိုင်ကို သိမ်းရန် USB သိမ်းဆည်းနေရာတွင် နေရာလွတ် အလုံအလောက်မရှိပါ</string>
+    
+    <string name="bt_sm_2_1" product="default">\u0022<xliff:g id="sender">%1$s</xliff:g>\u0022 မှ ဖိုင်ကို သိမ်းရန် SD ကဒ်တွင် နေရာလွတ် အလုံအလောက်မရှိပါ</string>
+    <string name="bt_sm_2_2">နေရာလိုအပ်ချက်:<xliff:g id="size">%1$s</xliff:g></string>
+
+    <string name="ErrorTooManyRequests">မြောက်မြားလှသော တောင်းဆိုချက်များကို လုပ်ဆောင်ဆဲဖြစ်သည်။ နောက်မှတစ်ဖန်ပြန်ကြိုးစားကြည့်ပါ။</string>
+
+    
+    <string name="status_pending">ဖိုင်ပေးပို့မှုမစတင်ရသေးပါ။</string>
+    <string name="status_running">ဖိုင်ပေးပို့မှုဆက်လက်လုပ်ဆောင်နေဆဲဖြစ်သည်။</string>
+    <string name="status_success">ဖိုင်ပေးပို့မှုအောင်မြင်စွာပြီးဆုံး။</string>
+    <string name="status_not_accept">ပါဝင်မှု အကြောင်းအရာကို မထောက်ပံ့ပါ။</string>
+    <string name="status_forbidden">လက်ခံမည့်ပစ္စည်းမှ ပေးပို့ချက်ကို တားမြစ်ထားသည်။ </string>
+    <string name="status_canceled">အသုံးပြုသူက ပေးပို့ချက်ကို ပယ်ဖျက်ထားသည်။</string>
+    <string name="status_file_error">သိမ်းဆည်းမှုအကြောင်းအချက်။</string>
+    
+    <string name="status_no_sd_card" product="nosdcard">USB သိမ်းဆည်းမှုမရှိပါ။</string>
+    <string name="status_no_sd_card" product="default">SD ကဒ်မရှိပါ။ ပေးပို့သည့် ဖိုင်များကို သိမ်းဆည်းရန် SD ကဒ်ကို ထည့်သွင်းပါ။</string>
+    <string name="status_connection_error">ချိတ်ဆက်မှုမအောင်မြင်ပါ။</string>
+    <string name="status_protocol_error">တောင်းဆိုချက်ကို မှန်ကန်စွာ မဖြေရှင်းနိုင်ခဲ့ပါ။</string>
+    <string name="status_unknown_error">အမည်မသိအမှား။</string>
+
+    
+    <string name="btopp_live_folder">ဘလူးတုသ်လက်ခံရရှိပြီး</string>
+
+    
+    <string name="download_success"><xliff:g id="file_size">%1$s</xliff:g> လက်ခံရရှိချက်ပြီးဆုံး။</string>
+    <string name="upload_success"><xliff:g id="file_size">%1$s</xliff:g> ပေးပို့ချက်ပြီးဆုံး။</string>
+    <string name="inbound_history_title">အင်တာနက်မှ ကိုယ်ပိုင်သီးသန့်ဆာဗာသို့ အချက်အလက်ပေးပို့မှု</string>
+    <string name="outbound_history_title">ကိုယ်ပိုင်သီးသန့်ဆာဗာမှ အင်တာနက်သို့ အချက်အလက်ပေးပို့မှု</string>
+    <string name="no_transfers">ပေးပို့ခြင်းမှတ်တမ်းတွင် ဘာမှမရှိပါ။</string>
+    <string name="transfer_clear_dlg_msg">အကြောင်းအရာအားလုံးကို စာရင်းမှ ရှင်းလင်းမည်ဖြစ်သည်။</string>
+    <string name="outbound_noti_title">ဘလူးတုသ်ဝေမျှချက်: ပေးပို့ပြီးသောဖိုင်များ</string>
+    <string name="inbound_noti_title">ဘလူးတုသ်ဝေမျှချက်: လက်ခံရရှိပြီးသောဖိုင်များ</string>
+    <string name="noti_caption"><xliff:g id="successful_number">%1$s</xliff:g> အောင်မြင်၊ <xliff:g id="unsuccessful_number">%2$s</xliff:g> မအောင်မြင်။</string>
+
+    <string name="transfer_menu_clear_all">စာရင်းကို ရှင်းလင်းပါ</string>
+    <string name="transfer_menu_open">ဖွင့်ပါ</string>
+    <string name="transfer_menu_clear">စာရင်းမှ ရှင်းလင်းပါ</string>
+    <string name="transfer_clear_dlg_title">ရှင်းလင်းပါ</string>
+
+     
+    <string name="bluetooth_share_file_name" translate="false">bluetooth_content_share</string>
+
+    
+    
+    <string name="sharedUserId" translate="false"><xliff:g id="x"/></string>
+    
+    <string name="process" translate="false"><xliff:g id="x"/></string>
+
+</resources>

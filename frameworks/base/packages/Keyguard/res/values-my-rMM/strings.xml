@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="keyguard_password_enter_pin_code">PIN ကုတ်ရိုက်ထည့်ပါ</string>
+
+    
+    <string name="keyguard_password_enter_puk_code">PUK နှင့် PIN ကုတ်အသစ်တို့ကိုရိုက်ထည့်ပါ</string>
+
+    
+    <string name="keyguard_password_enter_puk_prompt">PUK ကုတ်</string>
+    
+    <string name="keyguard_password_enter_pin_prompt">PIN ကုတ်အသစ်</string>
+
+    
+    <string name="keyguard_password_entry_touch_hint"><font size="17">စကားဝှက်ကိုရိုက်ရန်ထိပါ</font></string>
+
+    
+    <string name="keyguard_password_enter_password_code">သော့ဖွင့်ရန် စကားဝှက်ရိုက်ထည့်ပါ</string>
+
+    
+    <string name="keyguard_password_enter_pin_password_code">သော့ဖွင့်ရန် PIN နံပါတ်ရိုက်ထည့်ပါ</string>
+
+    
+    <string name="keyguard_password_wrong_pin_code">PIN ကုတ် မမှန်ပါ။</string>
+
+    
+    <string name="keyguard_label_text">သော့ဖွင့်ရန်၊ မဲနူးကိုနှိပ်ပြီး 0 ကိုနှိပ်ပါ။</string>
+
+    
+    <string name="faceunlock_multiple_failures">မျက်နှာဖြင့်သော့ဖွင့်ရန်ကြိုးပမ်းမှု အမြင့်ဆုံးအကြိမ်အရေအတွက် ကျော်လွန်ပြီ</string>
+
+    
+    <string name="keyguard_charged">အားသွင်းပြီး</string>
+
+    
+    <string name="keyguard_plugged_in">အားသွင်းနေသည်၊ <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+
+    
+    <string name="keyguard_low_battery">သင့်အားသွင်းစက်နှင့် ဆက်သွယ်ပါ။</string>
+
+    
+    <string name="keyguard_instructions_when_pattern_disabled">သော့ဖွင့်ရန်မဲနူးကိုနှိပ်ပါ။</string>
+
+    <skip/>
+    
+    <string name="keyguard_network_locked_message">ကွန်ယက်သော့ပိတ်ထားသည်</string>
+    
+    <string name="keyguard_missing_sim_message_short">SIM ကတ်မရှိပါ</string>
+    
+    <string name="keyguard_missing_sim_message" product="tablet">တက်ဘလက်ထဲတွင် SIM ကတ်မရှိပါ။</string>
+    
+    <string name="keyguard_missing_sim_message" product="default">ဖုန်းထဲတွင် SIM ကတ်မရှိပါ။</string>
+    
+    <string name="keyguard_missing_sim_instructions">SIM ကတ်တစ်ခုထည့်ပါ။</string>
+    
+    <string name="keyguard_missing_sim_instructions_long">SIM ကတ်ပျောက်ဆုံးနေသည် သို့မဟုတ် ဖတ်၍မရဖြစ်နေသည်။ SIM ကတ်တစ်ခုထည့်ပါ။</string>
+    
+    <string name="keyguard_permanent_disabled_sim_message_short">အသုံးမပြုနိုင်သော SIM ကတ်။</string>
+    
+    <string name="keyguard_permanent_disabled_sim_instructions">သင့် SIM ကတ်မှာလုံးဝ အလုပ်မလုပ်နိုင်တော့ပါ။\n SIM ကတ်နောက်တစ်ခုအတွက် သင့်ဝိုင်ယာလက်ဝန်ဆောင်မှု ထောက်ပံ့သူအား ဆက်သွယ်ပါ။</string>
+    
+    <string name="keyguard_sim_locked_message">SIM ကတ်ကိုသော့ပိတ်ထားသည်။</string>
+    
+    <string name="keyguard_sim_puk_locked_message">SIM ကတ်ကို PUK ဖြင့်သော့ပိတ်ထားသည်။</string>
+    
+    <string name="keyguard_sim_unlock_progress_dialog_message">SIM ကတ်ကိုသော့ဖွင့်ခြင်း\u2026</string>
+
+    
+    
+    
+    
+
+    
+    <string name="keyguard_accessibility_widget_changed">%1$s ။ ဝစ်ဂျက် %3$d ခု မှ %2$d ခု</string>
+    
+    <string name="keyguard_accessibility_add_widget">ဝစ်ဂျက်ထည့်ပါ။</string>
+    
+    <string name="keyguard_accessibility_widget_empty_slot">ဗလာ</string>
+    
+    <string name="keyguard_accessibility_unlock_area_expanded">သော့ဖွင့်သည့်ဧရိယာ ချဲ့ပြီး။</string>
+    
+    <string name="keyguard_accessibility_unlock_area_collapsed">သော့ဖွင့်သည့်ဧရိယာ ချုံ့ပြီး။</string>
+    
+    <string name="keyguard_accessibility_widget"><xliff:g id="widget_index">%1$s</xliff:g> ဝစ်ဂျက်။</string>
+    
+    <string name="keyguard_accessibility_user_selector">အသုံးပြုသူရွေးချယ်ချက်</string>
+    
+    <string name="keyguard_accessibility_status">အခြေအနေ</string>
+    
+    <string name="keyguard_accessibility_camera">ကင်မရာ</string>
+    
+    <string name="keygaurd_accessibility_media_controls">မီဒီယာထိန်းချုပ်ချက်များ</string>
+    
+    <string name="keyguard_accessibility_widget_reorder_start">ဝစ်ဂျက်ပြန်လည်မှာယူခြင်းစတင်ပြီး။</string>
+    
+    <string name="keyguard_accessibility_widget_reorder_end">ဝစ်ဂျက်ပြန်လည်မှာယူခြင်းပြီးဆုံး။</string>
+    
+    <string name="keyguard_accessibility_widget_deleted">ဝစ်ဂျက် <xliff:g id="widget_index">%1$s</xliff:g> ဖျက်ပြီး။</string>
+    
+    <string name="keyguard_accessibility_expand_lock_area">သော့ဖွင့်သည့်ဧရိယာကို ချဲ့ပါ။</string>
+    
+    <string name="keyguard_accessibility_slide_unlock">ပွတ်ဆွဲခြင်းဖြင့် သော့ဖွင့်ခြင်း။ </string>
+    
+    <string name="keyguard_accessibility_pattern_unlock">ပုံစံဖြင့်သော့ဖွင့်ခြင်း။</string>
+    
+    <string name="keyguard_accessibility_face_unlock">မျက်နှာဖြင့်သော့ဖွင့်ခြင်း။</string>
+    
+    <string name="keyguard_accessibility_pin_unlock">Pin ဖြင့်သော့ဖွင့်ခြင်း။</string>
+    
+    <string name="keyguard_accessibility_password_unlock">စကားဝှက်ဖြင့်သော့ဖွင့်ခြင်း။</string>
+    
+    <string name="keyguard_accessibility_pattern_area">ပုံစံဧရိယာ။</string>
+    
+    <string name="keyguard_accessibility_slide_area">ပွတ်ဆွဲခြင်းဧရိယာ။</string>
+
+    
+    <string name="keyguard_accessibility_transport_prev_description">ယခင်အပုဒ်သို့ခလုတ်</string>
+    
+    <string name="keyguard_accessibility_transport_next_description">နောက်တစ်ပုဒ်သို့ခလုတ်</string>
+    
+    <string name="keyguard_accessibility_transport_pause_description">ရပ်ဆိုင်းရန်ခလုတ်</string>
+    
+    <string name="keyguard_accessibility_transport_play_description">ဖွင့်ရန်ခလုတ်</string>
+    
+    <string name="keyguard_accessibility_transport_stop_description">ရပ်ရန်ခလုတ်</string>
+    
+    <string name="keyguard_accessibility_transport_thumbs_up_description">လက်မထောင်ပုံ</string>
+    
+    <string name="keyguard_accessibility_transport_thumbs_down_description">လက်မအောက်စိုက်ပုံ</string>
+    
+    <string name="keyguard_accessibility_transport_heart_description">အသည်း</string>
+
+
+    
+    <string name="keyguard_accessibility_show_bouncer">ဆက်လက် လုပ်ဆောင်ရန် သော့ဖွင့်ပါ</string>
+
+    
+    <string name="keyguard_accessibility_hide_bouncer">ဖွင့်လှစ်ခြင်းကို ဖျက်သိမ်းပြီး</string>
+
+    
+    <string name="keyguard_accessibility_delete_widget_start">ဖျက်ရန် <xliff:g id="widget_index">%1$s</xliff:g> ကို အောက်ချပါ။</string>
+
+    
+    <string name="keyguard_accessibility_delete_widget_end"><xliff:g id="widget_index">%1$s</xliff:g> ကို ဖျက်လိမ့်မည်မဟုတ်ပါ။</string>
+
+    <skip/>
+    
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    
+    <string name="password_keyboard_label_alpha_key">ABC </string>
+    
+    <string name="password_keyboard_label_alt_key">ALT</string>
+
+    <skip/>
+    
+    <string name="keyboardview_keycode_alt">ALT</string>
+    
+    <string name="keyboardview_keycode_cancel">ဖျက်သိမ်းရန်</string>
+    
+    <string name="keyboardview_keycode_delete">ဖျက်ပါ</string>
+    
+    <string name="keyboardview_keycode_done">ပြီးပြီ</string>
+    
+    <string name="keyboardview_keycode_mode_change">နည်းလမ်း ပြောင်းသည်</string>
+    
+    <string name="keyboardview_keycode_shift">Shift ခလုတ်</string>
+    
+    <string name="keyboardview_keycode_enter">Enter ခလုတ်</string>
+
+    
+    <string name="description_target_unlock">သော့ဖွင့်ပါ</string>
+    
+    <string name="description_target_camera">ကင်မရာ</string>
+    
+    <string name="description_target_silent">အသံတိတ်</string>
+    
+    <string name="description_target_soundon">အသံ ဖွင့်သည်</string>
+    
+    <string name="description_target_search">ရှာဖွေပါ</string>
+
+    
+    <string name="description_direction_up"><xliff:g id="target_description" example="Unlock">%s</xliff:g> အတွက် အပေါ်ကို ရွှေ့ပါ။</string>
+    
+    <string name="description_direction_down"><xliff:g id="target_description" example="Unlock">%s</xliff:g> အတွက် အောက်သို့ ရွှေ့ပါ။</string>
+    
+    <string name="description_direction_left"> "<xliff:g id="target_description" example="Unlock">%s</xliff:g> အတွက် ဘယ်ဘက်သို့ ရွှေ့ပါ။</string>
+    
+    <string name="description_direction_right"> <xliff:g id="target_description" example="Unlock">%s</xliff:g> အတွက် ညာဘက်သို့ ရွှေ့ပါ။</string>
+
+    
+    <string name="user_switched">လက်ရှိအသုံးပြုသူ <xliff:g id="name" example="Bob">%1$s</xliff:g>။</string>
+
+    
+    <string name="kg_emergency_call_label">အရေးပေါ်ဖုန်းခေါ်ဆိုမှု</string>
+    
+    <string name="kg_forgot_pattern_button_text">ပုံစံမေ့ပစ်ပါ</string>
+    
+    <string name="kg_wrong_pattern">ပုံစံအမှား</string>
+    
+    <string name="kg_wrong_password">စကားဝှက်အမှား</string>
+    
+    <string name="kg_wrong_pin">PIN အမှား</string>
+    
+    <string name="kg_too_many_failed_attempts_countdown"><xliff:g id="number">%d</xliff:g> စက္ကန့်အကြာတွင် ထပ်မံကြိုးစားပါ။</string>
+    
+    <string name="kg_pattern_instructions">သင့်ပုံစံအား ရေးဆွဲပါ</string>
+    
+    <string name="kg_sim_pin_instructions">SIM PIN ထည့်သွင်းပါ</string>
+    
+    <string name="kg_pin_instructions">PIN ထည့်သွင်းပါ</string>
+    
+    <string name="kg_password_instructions">စကားဝှက်ထည့်သွင်းပါ</string>
+    
+    <string name="kg_puk_enter_puk_hint">SIM အား ယခုဖြုတ်ထားပြီးဖြစ်သည်။ ဆက်လက်လုပ်ဆောင်ရန် PUK ကုဒ်ထည့်သွင်းပါ။ အသေးစိတ်အတွက် မိုဘိုင်းကွန်ယက်အထောက်အပံ့သို့ ဆက်သွယ်ပါ။ </string>
+    
+    <string name="kg_puk_enter_pin_hint">ဆန္ဒအလျောက် PIN ကုဒ်ထည့်သွင်းပါ</string>
+    
+    <string name="kg_enter_confirm_pin_hint">ဆန္ဒအလျောက် PIN ကုဒ်ကို အတည်ပြုပါ</string>
+    
+    <string name="kg_sim_unlock_progress_dialog_message">SIM ကတ်ကိုသော့ဖွင့်ခြင်း\u2026</string>
+    
+    <string name="kg_password_wrong_pin_code">PIN ကုတ် မမှန်ပါ။</string>
+    
+    <string name="kg_invalid_sim_pin_hint">နံပါတ် 4 လုံးမှ 8 လုံးအထိ ရှိသည့် PIN ကို ရိုက်ပါ။</string>
+    
+    <string name="kg_invalid_sim_puk_hint">PUK ကုဒ်မှာ ဂဏန်း 8 လုံး သို့မဟုတ် ၎င်းနှင့်အထက် ဖြစ်ရမည်။</string>
+    
+    <string name="kg_invalid_puk">PUK ကုဒ်အမှန်ပြန်ထည့်ပါ။ ထပ်ခါထပ်ခါကြိုးစားချက်များက SIM အား အပြီးအပိုင်ပိတ်စေမည်။</string>
+      
+    <string name="kg_invalid_confirm_pin_hint" product="default">PIN ကုဒ်များ မကိုက်ညီပါ</string>
+    
+    <string name="kg_login_too_many_attempts">ပုံစံများစွာကြိုးစားထားသည်</string>
+    
+    <string name="kg_login_instructions">သော့ဖွင့်ရန်အတွက် သင့်Google အကောင့်ဖြင့်ဖွင့်ဝင်ပါ။</string>
+    
+    <string name="kg_login_username_hint">အသုံးပြုသူအမည်(အီးမေး(လ်)</string>
+    
+    <string name="kg_login_password_hint">စကားဝှက်</string>
+    
+    <string name="kg_login_submit_button">ဝင်ပါ</string>
+    
+    <string name="kg_login_invalid_input">မမှန်ကန်သောအသုံးပြုသူအမည် သို့မဟုတ် စကားဝှက်။</string>
+    
+    <string name="kg_login_account_recovery_hint">သင့်အသုံးပြုသူအမည် သို့မဟုတ် စကားဝှက်မေ့နေပါသလား\?\n <b>google.com/accounts/recovery</b>သို့သွားပါ။</string>
+    
+    <string name="kg_login_checking_password">အကောင့်စစ်ဆေးဆဲ\u2026</string>
+    
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">သင်သည်သင့် PIN နံပါတ်ကို မှားယွင်းစွာ<xliff:g id="number">%d</xliff:g> ကြိမ်ရိုက်ထည့်ပါသည်။ \n\n <xliff:g id="number">%d</xliff:g> စက္ကန့်အကြာတွင် ထပ်မံကြိုးစားပါ။</string>
+    
+    <string name="kg_too_many_failed_password_attempts_dialog_message">သင်သည်သင့်စကားဝှက်ကို မှားယွင်းစွာ <xliff:g id="number">%d</xliff:g> ကြိမ်ရိုက်ထည့်ခဲ့ပါသည်။ \n\n <xliff:g id="number">%d</xliff:g> စက္ကန့်အကြာတွင် ထပ်မံကြိုးစားပါ။</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">သင်သည်သင့်သော့ဖွင့်ခြင်းပုံစံကို မှားယွင်းစွာ <xliff:g id="number">%d</xliff:g> ကြိမ်ဆွဲခဲ့ပါသည်။ \n\n <xliff:g id="number">%d</xliff:g> စက္ကန့်အကြာတွင် ထပ်မံကြိုးစားပါ။</string>
+    
+    <string name="kg_failed_attempts_almost_at_wipe" product="tablet">သင်သည်တက်ဘလက်ကိုသော့ဖွင့်ရန် <xliff:g id="number">%d</xliff:g> ကြိမ်မှားယွင်းစွာ ကြိုးစားခဲ့ပါသည်။ နောက်ထပ်မအောင်မြင်သော <xliff:g id="number">%d</xliff:g> ကြိမ်ကြိုးစားမှု ပြီးနောက်တွင် တက်ဘလက်သည်ယခုအခါတွင် မူလစက်ရုံအလိုအလျောက် ပုံစံသို့ ပြန်လည်သတ်မှတ်မည်ဖြစ်ပြီး အသုံးပြုသူ၏ဒေတာများအားလုံး ပျောက်ဆုံးသွားမည်ဖြစ်ပါသည်။ </string>
+    
+    <string name="kg_failed_attempts_almost_at_wipe" product="default">သင်သည်ဖုန်းကိုသော့ဖွင့်ရန် <xliff:g id="number">%d</xliff:g> ကြိမ်မှားယွင်းစွာ ကြိုးစားခဲ့ပါသည်။ နောက်ထပ်မအောင်မြင်သော <xliff:g id="number">%d</xliff:g> ကြိမ်ကြိုးစားမှု ပြီးနောက်တွင် ဖုန်းသည်ယခုအခါတွင် မူလစက်ရုံအလိုအလျောက် ပုံစံသို့ ပြန်လည်သတ်မှတ်မည်ဖြစ်ပြီး အသုံးပြုသူ၏ဒေတာများအားလုံး ပျောက်ဆုံးသွားမည်ဖြစ်ပါသည်။ </string>
+    
+    <string name="kg_failed_attempts_now_wiping" product="tablet">သင်သည်တက်ဘလက်ကိုသော့ဖွင့်ရန် <xliff:g id="number">%d</xliff:g> ကြိမ်မျှမှားယွင်းစွာ ကြိုးစားခဲ့ပါသည်။ တက်ဘလက်သည်ယခုအခါတွင် မူလစက်ရုံအလိုအလျောက်ပုံစံသို့ ပြန်လည် သတ်မှတ်ပါလိမ့်မည်။ </string>
+    
+    <string name="kg_failed_attempts_now_wiping" product="default">သင်သည်ဖုန်းကိုသော့ဖွင့်ရန် <xliff:g id="number">%d</xliff:g> ကြိမ်မျှမှားယွင်းစွာ ကြိုးစားခဲ့ပါသည်။ ဖုန်းသည်ယခုအခါတွင် မူလစက်ရုံအလိုအလျောက်ပုံစံသို့ ပြန်လည် သတ်မှတ်ပါလိမ့်မည်။ </string>
+    
+    <string name="kg_failed_attempts_almost_at_login" product="tablet">သင်သည် သော့ဖွင့်သည့်ပုံစံအား <xliff:g id="number">%d</xliff:g> ကြိမ် မှားယွင်းစွာ ရေးဆွဲထားသည်။ နောက်ထပ် <xliff:g id="number">%d</xliff:g> ကြိမ် မအောင်မြင်ပါက သင့်အား အီးမေးလ်အကောင့်အသုံးပြု၍ တက်ဘလက်ကို သော့ဖွင့်ရန် မေးလိမ့်မည်။\n\n <xliff:g id="number">%d</xliff:g> စက္ကန့်အတွင်း ပြန်ကြိုးစားပါ။</string>
+    
+    <string name="kg_failed_attempts_almost_at_login" product="default">သင်သည် သော့ဖွင့်သည့်ပုံစံအား <xliff:g id="number">%d</xliff:g> ကြိမ် မှားယွင်းစွာ ရေးဆွဲထားသည်။ နောက်ထပ် <xliff:g id="number">%d</xliff:g> ကြိမ် မအောင်မြင်ပါက သင့်အား အီးမေးလ်အကောင့်အသုံးပြု၍ ဖုန်းကို သော့ဖွင့်ရန် မေးလိမ့်မည်။\n\n <xliff:g id="number">%d</xliff:g> စက္ကန့်အတွင်း ပြန်ကြိုးစားပါ။</string>
+    
+    <string name="kg_text_message_separator" product="default">" \u2014 "</string>
+    
+    <string name="kg_reordering_delete_drop_target_text">ဖယ်ရှားပါ</string>
+
+    
+    
+    <string name="keyguard_transport_prev_description">ယခင်အပုဒ်သို့ခလုတ်</string>
+    
+    <string name="keyguard_transport_next_description">နောက်တစ်ပုဒ်သို့ခလုတ်</string>
+    
+    <string name="keyguard_transport_pause_description">ရပ်ဆိုင်းရန်ခလုတ်</string>
+    
+    <string name="keyguard_transport_play_description">ဖွင့်ရန်ခလုတ်</string>
+    
+    <string name="keyguard_transport_stop_description">ရပ်ရန်ခလုတ်</string>
+
+    
+    <string name="keyguard_carrier_default">ဝန်ဆောင်မှုမရှိ။</string>
+
+</resources>

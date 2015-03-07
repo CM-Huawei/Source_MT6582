@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2012 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="applicationLabel">Dialer</string>
+    <string name="launcherDialer">Telefon</string>
+    <string name="dialerIconLabel">Telefon</string>
+    <string name="recentCallsIconLabel">Anrufprotokoll</string>
+    <string name="menu_sendTextMessage">Textnachricht senden</string>
+    <string name="recentCalls_callNumber"><xliff:g id="name">%s</xliff:g> anrufen</string>
+    <string name="recentCalls_editNumberBeforeCall">Nummer vor Anruf editieren</string>
+    <string name="recentCalls_addToContact">Zu Kontakten hinzufügen</string>
+    <string name="recentCalls_removeFromRecentList">Aus Anrufprotokoll entfernen</string>
+    <string name="recentCalls_deleteAll">Anrufprotokoll löschen</string>
+    <string name="recentCalls_trashVoicemail">Voicemail löschen</string>
+    <string name="recentCalls_shareVoicemail">Voicemail teilen</string>
+    <string name="recentCalls_empty">Anrufprotokoll ist leer.</string>
+    <string name="clearCallLogConfirmation_title">Anrufprotokoll löschen?</string>
+    <string name="clearCallLogConfirmation">Alle aufgezeichneten Anrufe werden gelöscht.</string>
+    <string name="clearCallLogProgress_title">Anrufprotokoll wird gelöscht\u2026</string>
+
+    <plurals name="notification_voicemail_title">
+        <item quantity="one">Voicemail</item>
+        <item quantity="other"><xliff:g id="count">%1$d</xliff:g> Voicemails</item>
+    </plurals>
+
+    <string name="notification_action_voicemail_play">Wiedergeben</string>
+    <string name="notification_voicemail_callers_list"><xliff:g id="newer_callers">%1$s</xliff:g>, <xliff:g id="older_caller">%2$s</xliff:g></string>
+    <string name="notification_new_voicemail_ticker">Neue Voicemail von <xliff:g id="caller">%1$s</xliff:g></string>
+    <string name="voicemail_playback_error">Konnte Voicemail nicht wiedergeben.</string>
+    <string name="voicemail_buffering">Puffern\u2026</string>
+    <string name="voicemail_fetching_content">Voicemail abrufen\u2026</string>
+    <string name="voicemail_fetching_timout">Konnte Voicemail nicht abrufen.</string>
+    <string name="call_log_voicemail_header">Anrufe ausschließl. mit Voicemail</string>
+    <string name="call_log_incoming_header">Nur eingehende Anrufe</string>
+    <string name="call_log_outgoing_header">Nur ausgehender Anrufe</string>
+    <string name="call_log_missed_header">Nur verpasste Anrufe</string>
+    <string name="voicemail_status_voicemail_not_available">Kann nicht mit Voicemail-Server verbinden.</string>
+    <string name="voicemail_status_messages_waiting">Kann nicht mit Voicemail-Server verbinden. Neue Voicemails warten.</string>
+    <string name="voicemail_status_configure_voicemail">Ihr Voicemail einrichten.</string>
+    <string name="voicemail_status_audio_not_available">Audio nicht verfügbar</string>
+    <string name="voicemail_status_action_configure">Einrichten</string>
+    <string name="voicemail_status_action_call_server">Voicemail-Anruf</string>
+    <string name="voicemail_speed_slowest">Langsamste Geschwindigkeit</string>
+    <string name="voicemail_speed_slower">Langsame Geschwindigkeit</string>
+    <string name="voicemail_speed_normal">Normale Geschwindigkeit</string>
+    <string name="voicemail_speed_faster">Schnelle Geschwindigkeit</string>
+    <string name="voicemail_speed_fastest">Schnellste Geschwindigkeit</string>
+    <string name="call_log_item_count_and_date">(<xliff:g id="count">%1$d</xliff:g>) <xliff:g id="date">%2$s</xliff:g></string>
+    <string name="sms_disambig_title">Nummer auswählen</string>
+    <string name="call_disambig_title">Nummer auswählen</string>
+    <string name="make_primary">Diese Auswahl merken</string>
+    <string name="description_image_button_one">eins</string>
+    <string name="description_image_button_two">zwei</string>
+    <string name="description_image_button_three">drei</string>
+    <string name="description_image_button_four">vier</string>
+    <string name="description_image_button_five">fünf</string>
+    <string name="description_image_button_six">sechs</string>
+    <string name="description_image_button_seven">sieben</string>
+    <string name="description_image_button_eight">acht</string>
+    <string name="description_image_button_nine">neun</string>
+    <string name="description_image_button_star">Stern</string>
+    <string name="description_image_button_zero">Null</string>
+    <string name="description_image_button_pound">Pfund</string>
+    <string name="description_voicemail_button">Voicemail</string>
+    <string name="description_search_button">Suchen</string>
+    <string name="description_dial_button">Wählen</string>
+    <string name="description_delete_button">Zurück</string>
+    <string name="description_digits_edittext">Zu wählende Nummer</string>
+    <string name="action_menu_call_history_description">Anrufverlauf</string>
+    <string name="action_menu_overflow_description" msgid="2295659037509008453">Mehr Optionen</string>
+    <string name="action_menu_dialpad_button">Wahlblock</string>
+    <string name="menu_copy">Kopieren</string>
+    <string name="menu_show_outgoing_only">Nur ausgehende anzeigen</string>
+    <string name="menu_show_incoming_only">Nur eingehende anzeigen</string>
+    <string name="menu_show_missed_only">Nur verpasste anzeigen</string>
+    <string name="menu_show_voicemails_only">Nur Voicemail anzeigen</string>
+    <string name="menu_show_all_calls">Alle Anrufe anzeigen</string>
+    <string name="add_2sec_pause">2 s Pause hinzufügen</string>
+    <string name="add_wait">Warten hinzufügen</string>
+    <string name="call_settings">Einstellungen</string>
+    <string name="menu_newContact">Neue Kontakte</string>
+    <string name="menu_allContacts">Alle Kontakte</string>
+    <string name="callDetailTitle">Anrufdetails</string>
+    <string name="toast_call_detail_error">Konnte Details für gewünschten Anruf nicht lesen.</string>
+    <string name="dialer_useDtmfDialpad">Tastatur für Tonwahlverfahren verwenden</string>
+    <string name="dialer_returnToInCallScreen">Zurück zum aktuellen Anruf</string>
+    <string name="dialer_addAnotherCall">Anruf hinzufügen</string>
+    <string name="type_incoming">Eingehender Anruf</string>
+    <string name="type_outgoing">Ausgehender Anruf</string>
+    <string name="type_missed">Verpasster Anruf</string>
+    <string name="type_voicemail">Voicemail</string>
+    <string name="actionIncomingCall">Eingehende Anrufe</string>
+    <string name="description_call_log_play_button">Voicemail wiedergeben</string>
+    <string name="description_call_log_incoming_call">Eingehender Anruf</string>
+    <string name="description_call_log_outgoing_call">Ausgehender Anruf</string>
+    <string name="description_call_log_missed_call">Verpasster Anruf</string>
+    <string name="description_call_log_voicemail">Voicemail</string>
+    <string name="description_add_contact">Kontakt hinzufügen</string>
+    <string name="description_view_contact">Kontakt <xliff:g id="name">%1$s</xliff:g> anzeigen</string>
+    <string name="description_call"><xliff:g id="name">%1$s</xliff:g> anrufen</string>
+    <string name="description_send_text_message">Textnachricht senden an <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="description_call_log_unheard_voicemail">Nicht gehörte Voicemail</string>
+    <string name="description_start_voice_search">Voicemail suchen</string>
+    <string name="call_log_empty_gecode">\u0020</string>
+    <string name="menu_callNumber"><xliff:g id="number">%s</xliff:g> anrufen</string>
+    <string name="unknown">Unbekannt</string>
+    <string name="voicemail">Voicemail</string>
+    <string name="private_num">Private Nummer</string>
+    <string name="payphone">Pay-Phone</string>
+    <string name="dialerKeyboardHintText">Verwenden Sie zum Wählen die Tastatur.</string>
+    <string name="dialerDialpadHintText">Wählen, um Anruf hinzuzufügen</string>
+    <string name="callDetailsDurationFormat"><xliff:g id="minutes" example="42">%s</xliff:g> Min <xliff:g id="seconds" example="28">%s</xliff:g> s</string>
+    <string name="dialog_phone_call_prohibited_message" msgid="4313552620858880999">Anruf nicht gesendet</string>
+    <string name="dialog_voicemail_not_ready_message">Gehen Sie zu Menü &gt; Einstellungen, um Voicemail einzurichten.</string>
+    <string name="dialog_voicemail_airplane_mode_message">Schalten Sie den Flugmodus aus, um Voicemail anzurufen.</string>
+    <string name="contact_list_loading">Lade\u2026</string>
+    <string name="imei">IMEI</string>
+    <string name="meid">MEID</string>
+    <string name="simContacts_emptyLoading">Laden von SIM-Karte\u2026</string>
+    <string name="simContacts_title">SIM-Kartenkontakte</string>
+    <string name="add_contact_not_available">People-App reaktivieren, um diese Funktion zu nutzen.</string>
+    <string name="dialer_hint_find_contact">Name oder Telefonnummer eingeben</string>
+    <string name="call_log_all_title">Alles</string>
+    <string name="call_log_missed_title">Verpasst</string>
+    <string name="call_log_activity_title_font_family">sans-serif-light</string>
+    <string name="show_all_contacts_title_font_family">sans-serif-light</string>
+    <string name="recentMissed_empty">Keine kürzlich verpassten Anrufe</string>
+    <string name="recentVoicemails_empty">Keine kürzlichen Voicemails</string>
+    <string name="show_all_contacts">Alle Kontakte anzeigen</string>
+    <string name="show_favorites_only">Nur Favoriten anzeigen</string>
+    <string name="call_log_activity_title">Verlauf</string>
+    <string name="dialpad_0_number">0</string>
+    <string name="dialpad_1_number">1</string>
+    <string name="dialpad_2_number">2</string>
+    <string name="dialpad_3_number">3</string>
+    <string name="dialpad_4_number">4</string>
+    <string name="dialpad_5_number">5</string>
+    <string name="dialpad_6_number">6</string>
+    <string name="dialpad_7_number">7</string>
+    <string name="dialpad_8_number">8</string>
+    <string name="dialpad_9_number">9</string>
+    <string name="dialpad_star_number">*</string>
+    <string name="dialpad_pound_number">#</string>
+    <string name="dialpad_0_letters">+</string>
+    <string name="dialpad_1_letters" />
+    <string name="dialpad_2_letters">ABC</string>
+    <string name="dialpad_3_letters">DEF</string>
+    <string name="dialpad_4_letters">GHI</string>
+    <string name="dialpad_5_letters">JKL</string>
+    <string name="dialpad_6_letters">MNO</string>
+    <string name="dialpad_7_letters">PQRS</string>
+    <string name="dialpad_8_letters">TUV</string>
+    <string name="dialpad_9_letters">WXYZ</string>
+    <string name="dialpad_star_letters" />
+    <string name="dialpad_pound_letters" />
+    <string name="show_all_contacts_title">Alle Kontakte</string>
+    <string name="show_all_contacts_button_text">Alle Kontakte</string>
+    <string name="favorite_hidden">Aus Favoriten gelöscht</string>
+    <string name="favorite_hidden_undo">Rückgängig machen</string>
+    <string name="search_shortcut_call_number"><xliff:g id="number">%s</xliff:g> anrufen</string>
+    <string name="search_shortcut_add_to_contacts">Zu Kontakten hinzufügen</string>
+    <string name="num_missed_calls"><xliff:g id="number">%s</xliff:g> neue verpasste Anrufe</string>
+    <string name="no_favorites">Favoriten &amp; Kontakte, die Sie\noft anrufen, erscheinen hier.\nAlso, rufen Sie an.</string>
+    <string name="contact_tooltip">Bild antippen, um alle Nummern zu sehen, oder halten, um sie neu anzuordnen.</string>
+    <string name="description_dismiss">Ablehnen</string>
+
+</resources>

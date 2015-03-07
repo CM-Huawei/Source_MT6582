@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2007 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>Erste 4 Ziffern</item>
+        <item>Letzte 4 Ziffern</item>
+        <item>Nicht anzeigen</item>
+    </string-array>
+
+    <string-array name="gemini_sim_roaming_reminder_entries">
+        <item>Einmal</item>
+        <item>Immer</item>
+        <item>Nie</item>
+    </string-array>
+
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (Auto-Modus)</item>
+        <item>Nur WCDMA</item>
+        <item>Nur GSM</item>
+    </string-array>
+
+    <string-array name="wifi_ap_channel_width">
+        <item>20 MHz</item>
+        <item>Auto-20/40-MHz</item>
+    </string-array>
+    
+    <string-array name="auto_time_entries">
+        <item>Zeit vom Netzwerk übernehmen</item>
+        <item>Zeit von GPS übernehmen</item>
+        <item>Aus</item>
+    </string-array>
+
+    <string-array name="hdmi_video_mode_entries">
+        <item>Vollbild</item>
+        <item>Optimierte Passung</item>
+        <item>Originalgröße</item>
+    </string-array>
+
+    <string-array name="hdmi_deep_color_entries">
+        <item>8 bit</item>
+        <item>Auto </item>
+        <item>10 Bit</item>
+        <item>12 Bit</item>
+    </string-array>
+
+    <string-array name="sim_slot">
+        <item>(nicht festgelegt)</item>
+        <item>SIM-Steckplatz 1</item>
+        <item>SIM-Steckplatz 2</item>
+    </string-array>
+
+    <string-array name="wifi_WEP_security_type">
+        <item>Auto </item>
+        <item>WEP ASCII</item>
+        <item>WEP, Hexadezimal</item>
+    </string-array>
+
+    <string-array name="wifi_hotspot_disable_policy_entries">
+        <item>Immer</item>
+        <item>Bei 5 Minuten Leerlauf abschalten</item>
+        <item>Bei 10 Minuten Leerlauf abschalten</item>
+    </string-array>
+
+    <string-array name="wifi_ap_wps_mode_entries">
+        <item>Schaltfläche drücken</item>
+        <item>PIN vom Client</item>
+    </string-array>
+
+    <string-array name="wifi_ap_max_connection_entries">
+        <item>1 Benutzer</item>
+        <item>2 Benutzer</item>
+        <item>3 Benutzer</item>
+        <item>4 Benutzer</item>
+        <item>5 Benutzer</item>
+        <item>6 Benutzer</item>
+        <item>7 Benutzer</item>
+        <item>8 Benutzer</item>
+    </string-array>
+
+    <string-array name="mouse_primary_button_titles">
+        <item>Rechtshändermaus</item>
+        <item>Linkshändermaus</item>
+    </string-array>
+
+    <string-array name="wfd_720p_resolution_entry">
+        <item>720p (60 Hz)</item>
+        <item>﻿720p (60 Hz)</item>
+    </string-array>
+
+    <string-array name="wfd_1080p_resolution_entry">
+        <item>1080p (30 Hz)</item>
+        <item>720p (60 Hz)</item>
+        <item>720p (30 Hz)</item>
+    </string-array>
+</resources>

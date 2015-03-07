@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="mtk_notification_string">Für Einstellungsdetails antippen</string>
+    <string name="mtk_beam_cancel_title">Übertragung abbrechen</string>    
+    <string name="mtk_beam_cancel">Wollen Sie die ankommende Übertragung wirklich abbrechen?</string>
+    <string name="mtk_yes">Ja</string>
+    <string name="mtk_no">Nein</string>
+    <string name="mtk_se_sim1">SIM1</string>
+    <string name="mtk_se_sim2">SIM2</string>
+    <string name="mtk_se_ssd">Smart-SD-Karte</string>
+    <string name="mtk_se_ese">Eingebettete SE</string>
+    <string name="mtk_se_na">"Kein Sicherheitselemente verfügbar. NFC-Kartenemulation wird ausgeschaltet."</string>
+    <string name="mtk_se_alt">" Nicht verfügbar" Wollen umschalten auf "</string>
+    <string name="mtk_nfc_card_emulation">NFC-Kartenemulation</string>
+    
+<string name="mtk_disallow_in_wfd">Bei einer Drahtlosen Anzeige kann diese Aktion nicht durchgeführt werden.</string>
+    <string name="mtk_disallow_in_wfd_KK">Bei einem Cast-Bildschirm kann diese Aktion nicht durchgeführt werden.</string>    
+</resources>

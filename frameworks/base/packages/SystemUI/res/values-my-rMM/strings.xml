@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="app_label">စနစ် UI</string>
+
+    
+    <string name="status_bar_clear_all_button">ရှင်းလင်းပါ</string>
+
+    
+    <string name="status_bar_recent_remove_item_title">စာရင်းမှ ဖယ်ရှားသည်</string>
+
+    
+    <string name="status_bar_recent_inspect_item_title">ပရိုဂရမ်ဆိုင်ရာ သတင်းအချက်အလက်</string>
+
+    
+    <string name="status_bar_no_recent_apps">မကြာသေးမီက အသုံးပြုထားသော ပရိုဂရမ်များ မရှိပါ</string>
+
+    
+    <string name="status_bar_accessibility_dismiss_recents">မကြာသေးမီက အသုံးပြုထားသော ပရိုဂရမ်များကို ဖယ်ပစ်ရန်</string>
+
+    
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="one">မကြာသေးမီက အသုံးပြုထားသော ပရိုဂရမ် ၁ ခု</item>
+        <item quantity="other">မကြာသေးမီက အသုံးပြုထားသော ပရိုဂရမ်များ %d ခု</item>
+    </plurals>
+
+    
+    <string name="status_bar_no_notifications_title">အကြောင်းကြားချက်များ မရှိပါ</string>
+
+    
+    <string name="status_bar_ongoing_events_title">ဖြစ်နေဆဲ</string>
+
+    
+    <string name="status_bar_latest_events_title">အချက်ပေးချက်များ</string>
+
+    
+    <string name="battery_low_title">အားသွင်းသည့်စက်ကို  ချိတ်ဆက်သည်</string>
+
+    
+    <string name="battery_low_subtitle">ဘက်ထရီအား နည်းလာပြီ။</string>
+
+    
+    <string name="battery_low_percent_format"><xliff:g id="number">%d%%</xliff:g> ကျန်ရှိသည်</string>
+
+    
+    <string name="invalid_charger">USB အားသွင်းခြင်းကိုမထောက်ပံ့။ \n ပေးထားသောအားသွင်းစက်ကိုသာ သုံးပါ။</string>
+
+    
+    <string name="battery_low_why">ဘက်ထရီ အသုံးပြုမှု</string>
+
+    
+    <string name="status_bar_settings_settings_button">အဆင်အပြင်များ</string>
+
+    
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+
+    
+    <string name="status_bar_settings_airplane">လေယာဉ်ပျံသန်းစဉ်ပုံစံ</string>
+
+    
+    <string name="status_bar_settings_auto_rotation">ဖန်သားပြင်ကို အလိုအလျောက်လှည့်စေမည်</string>
+
+    
+    <string name="status_bar_settings_mute_label">အသံတိတ်</string>
+
+    
+    <string name="status_bar_settings_auto_brightness_label">အလိုအလျောက်</string>
+
+    
+    <string name="status_bar_settings_notifications">အချက်ပေးချက်များ</string>
+
+    
+    
+
+    
+    <string name="status_bar_network_name_separator" product="default">" \u2014 "</string>
+
+    
+    <string name="bluetooth_tethered">ဘလူးတု(သ်)ကို လံထားသည်</string>
+    
+    <string name="status_bar_input_method_settings_configure_input_methods">အသွင်းနည်းလမ်းများ အဆင်အပြင်ထားရှိပါ</string>
+
+    
+    <string name="status_bar_use_physical_keyboard">ပြင်ပကီးဘုတ်</string>
+
+    
+    <string name="usb_device_permission_prompt"><xliff:g id="application">%1$s</xliff:g> အသုံးချပရိုဂရမ်ကို USB ကိရိယာသို့ ဝင်ရောက်စေရန် ခွင့်ပြုမှာလား။</string>
+
+    
+    <string name="usb_accessory_permission_prompt"><xliff:g id="application">%1$s</xliff:g> အသုံးချပရိုဂရမ်ကို USB တွဲဖက်ပစ္စည်းသို့ ဝင်ရောက်စေရန် ခွင့်ပြုမှာလား။</string>
+
+    
+    <string name="usb_device_confirm_prompt">ဤ USB ကိရိယာကို ချိတ်ဆက်ထားချိန်တွင် <xliff:g id="activity">%1$s</xliff:g> ကိုဖွင့်မှာလား။</string>
+
+    
+    <string name="usb_accessory_confirm_prompt">ဤ USB တွဲဖက်ပစ္စည်းကို ချိတ်ဆက်ထားချိန်တွင် <xliff:g id="activity">%1$s</xliff:g> ကိုဖွင့်မှာလား။</string>
+
+    
+    <string name="usb_accessory_uri_prompt">ဤ USB တွဲဖက်ပစ္စည်းနှင့် တွဲဖက်လုပ်ဆောင်သည့် အသုံးချပရိုဂရမ်များ တပ်ဆင်ထားခြင်းမရှိပါ။ ဤတွဲဖက်ပစ္စည်းအကြောင်းကို <xliff:g id="url">%1$s</xliff:g> တွင် ပိုမိုလေ့လာနိုင်ပါသည်။</string>
+
+    
+    <string name="title_usb_accessory">USB တွဲဆက်ပစ္စည်း </string>
+
+    
+    <string name="label_view">ကြည့်ရန်</string>
+
+    
+    <string name="always_use_device">ဤ USB ကိရိယာအတွက် မူလသတ်မှတ်ချက်ကို အသုံးပြုပါ</string>
+
+    
+    <string name="always_use_accessory">ဤ USB တွဲဖက်ပစ္စည်းအတွက် မူလသတ်မှတ်ချက်ကို အသုံးပြုပါ</string>
+
+    
+    <string name="usb_debugging_title">USB ချို့ယွင်းချက်ဖယ်ရှားခြင်းကို ခွင့်ပြုမလား?</string>
+
+    
+    <string name="usb_debugging_message">ကွန်ပျူတာ၏ RSA ကီးလက်ဗွေသည် -\n<xliff:g id="fingerprint">%1$s</xliff:g> ဖြစ်သည်</string>
+
+    
+    <string name="usb_debugging_always">ဤကွန်ပျူတာမှ အမြဲခွင့်ပြုပါ</string>
+
+    
+    <string name="compat_mode_on">ဖန်သားပြင်အပြည့် ချဲ့ရန်</string>
+
+    
+    <string name="compat_mode_off">ဖန်သားပြင်အပြည့် ဖြန့်ရန်</string>
+
+    
+    <string name="screenshot_saving_ticker">ဖန်သားပြင် ရိုက်ချက်ကို သိမ်းနေသည်\u2026</string>
+    
+    <string name="screenshot_saving_title">ဖန်သားပြင် ရိုက်ချက်ကို သိမ်းနေသည်\u2026</string>
+    
+    <string name="screenshot_saving_text">ဖန်သားပြင်ပုံရိပ်ရိုက်ချက်ကို သိမ်းပြီးပါပြီ။</string>
+    
+    <string name="screenshot_saved_title">ဖန်သားပြင်ပုံရိပ်ရိုက်ချက်ကို ဖမ်းထားသည်။</string>
+    
+    <string name="screenshot_saved_text">သင်၏ ဖန်သားပြင်ပုံရိပ်ရိုက်ချက်ကို ကြည့်ရန် တို့ထိပါ။</string>
+    
+    <string name="screenshot_failed_title">ဖန်သားပြင်ရိုက်ချက်ကို မဖမ်းယူနိုင်ခဲ့ပါ။</string>
+    
+    <string name="screenshot_failed_text">ဖန်သားပြင်ရိုက်ချက်ကို မသိမ်းယူနိုင်ခဲ့ပါ။ သိမ်းဆည်းနေရာကို သုံးနေဆဲ ဖြစ်နိုင်သည်။</string>
+
+    
+    <string name="usb_preference_title">USB ဖိုင် ရွှေ့ပြောင်းခြင်း ရွေးချယ်ရန်များ</string>
+    
+    <string name="use_mtp_button_title">မီဒီယာပလေယာ (MTP) တစ်ခုအဖြစ် ခင်းကျင်းရန်</string>
+    
+    <string name="use_ptp_button_title">ကင်မရာ (PTP) တစ်ခုအဖြစ် ခင်းကျင်းရန်</string>
+    
+    <string name="installer_cd_button_title">Mac အတွက် အဲန်းဒရိုက် ဖိုင်လွှဲပြောင်းခြင်း ပရိုဂရမ်ကို တပ်ဆင်ရန်</string>
+
+    
+    <string name="accessibility_back">နောက်သို့</string>
+    
+    <string name="accessibility_home">ပင်မ</string>
+    
+    <string name="accessibility_menu">မီနူး</string>
+    
+    <string name="accessibility_recent">မကြာသေးမီက အသုံးပြုထားသော ပရိုဂရမ်များ</string>
+    
+    <string name="accessibility_search_light">ရှာဖွေပါ</string>
+    
+    <string name="accessibility_camera_button">ကင်မရာ</string>
+
+    
+    <string name="accessibility_ime_switch_button">ထည့်သွင်းသည့် နည်းလမ်းခလုတ်ကို ပြောင်းသည်။</string>
+    
+    <string name="accessibility_compatibility_zoom_button">လိုက်ဖက်သော မှန်ဘီးလူး ခလုတ်။</string>
+
+    
+    <string name="accessibility_compatibility_zoom_example">ဖန်သားပြင်အသေးမှ အကြီးသို့ ချဲ့ပါ။</string>
+
+    
+    <string name="accessibility_bluetooth_connected">ဘလူးတု(သ်) ချိတ်ဆက်ထားသည်။</string>
+    
+    <string name="accessibility_bluetooth_disconnected">ဘလူးတု(သ်) ဖြုတ်ထားသည်။</string>
+
+    
+    <string name="accessibility_no_battery">ဘက်ထရီ မရှိပါ။</string>
+    
+    <string name="accessibility_battery_one_bar">ဘက်ထရီ တစ်ဘား ရှိသည်။</string>
+    
+    <string name="accessibility_battery_two_bars">ဘက်ထရီ နှစ်ဘား ရှိသည်။</string>
+     
+    <string name="accessibility_battery_three_bars">ဘက်ထရီ သုံးဘား ရှိသည်။</string>
+    
+    <string name="accessibility_battery_full">ဘက်ထရီ အပြည့်။</string>
+
+    
+    <string name="accessibility_no_phone">ဖုန်း မရှိပါ။</string>
+    
+    <string name="accessibility_phone_one_bar">ဖုန်း တစ်ဘား။</string>
+    
+    <string name="accessibility_phone_two_bars">ဖုန်း နှစ်ဘား။</string>
+    
+    <string name="accessibility_phone_three_bars">ဖုန်း သုံးဘား။</string>
+    
+    <string name="accessibility_phone_signal_full">ဘက်ထရီ ထုတ်လွှင့်ချက် အပြည့်။</string>
+
+    
+    <string name="accessibility_no_data">ဒေတာ မရှိပါ။</string>
+    
+    <string name="accessibility_data_one_bar">ဒေတာ တစ်ဘား။</string>
+    
+    <string name="accessibility_data_two_bars">ဒေတာ နှစ်ဘား။</string>
+    
+    <string name="accessibility_data_three_bars">ဒေတာ သုံးဘား။</string>
+    
+    <string name="accessibility_data_signal_full">ဒေတာ ထုတ်လွှင့်ချက် အပြည့်။</string>
+
+    
+    <string name="accessibility_wifi_off">Wifi ပိတ်ထားသည်။</string>
+    
+    <string name="accessibility_no_wifi">Wifi ချိတ်ဆက်မှုဖြုတ်ထားသည်။</string>
+    
+    <string name="accessibility_wifi_one_bar">Wifi သင်္ကေတတစ်တုံး။</string>
+    
+    <string name="accessibility_wifi_two_bars">Wifi သင်္ကေတနှစ်တုံး။</string>
+    
+    <string name="accessibility_wifi_three_bars">Wifi သင်္ကေတသုံးတုံး။</string>
+    
+    <string name="accessibility_wifi_signal_full">ဝိုင်- ဖိုင် လိုင်း အပြည့်မိသည်။</string>
+
+    
+    <string name="accessibility_no_wimax">ဝိုင်မက်(စ်) မရှိပါ။</string>
+    
+    <string name="accessibility_wimax_one_bar"> WiMAX တစ်ဘား။</string>
+    
+    <string name="accessibility_wimax_two_bars"> WiMAX နှစ်ဘား။</string>
+    
+    <string name="accessibility_wimax_three_bars"> WiMAX သုံးဘား။</string>
+    
+    <string name="accessibility_wimax_signal_full"> WiMAX လိုင်း အပြည့်ရှိသည်။</string>
+
+    
+    <string name="accessibility_no_signal">လိုင်းမိကြောင်းအချက်ပြချက်သင်္ကေတမရှိ။</string>
+    
+    <string name="accessibility_not_connected">မချိတ်ဆက်ထားပါ။</string>
+    
+    <string name="accessibility_zero_bars">သင်္ကေတတစ်တုံးမှ မရှိပါ။</string>
+    
+    <string name="accessibility_one_bar">သင်္ကေတတစ်တုံး။</string>
+    
+    <string name="accessibility_two_bars">သင်္ကေတနှစ်တုံး။</string>
+    
+    <string name="accessibility_three_bars">သင်္ကေတသုံးတုံး။</string>
+    
+    <string name="accessibility_signal_full">လိုင်းမိကြောင်းအချက်ပြချက်သင်္ကေတပြည့်။</string>
+
+    
+    <string name="accessibility_desc_on">ဖွင့်ပါ။</string>
+    
+    <string name="accessibility_desc_off">ပိတ်ပါ။</string>
+    
+    <string name="accessibility_desc_connected">ချိတ်ဆက်ပြီး။</string>
+
+    
+    <string name="accessibility_data_connection_gprs"> GPRS </string>
+
+    
+    <string name="accessibility_data_connection_1x">1 X</string>
+
+    
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+
+    
+    <string name="accessibility_data_connection_3g">3G</string>
+
+    
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+
+    
+    <string name="accessibility_data_connection_4g">4G</string>
+
+    
+    <string name="accessibility_data_connection_lte">သတ်မှတ်မထား</string>
+
+    
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+
+    
+    <string name="accessibility_data_connection_roaming">ဒေတာလှည့်လည်သွားခြင်း</string>
+
+    
+    <string name="accessibility_data_connection_edge">အစွန်း</string>
+
+    
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+
+    
+    <string name="accessibility_no_sim">SIM မရှိပါ</string>
+
+    
+    <string name="accessibility_bluetooth_tether">ဘလူးတု(သ်)ကို လံထားသည်။</string>
+
+    
+    <string name="accessibility_airplane_mode">လေယာဉ်တွင်း နည်းစနစ်။</string>
+
+    
+    <string name="accessibility_battery_level">ဘက်ထရီ <xliff:g id="number">%d</xliff:g> ရာခိုင်နှုန်း။</string>
+
+    
+    <string name="accessibility_settings_button">စနစ် အပြင်အဆင်များ။</string>
+
+    
+    <string name="accessibility_notifications_button">အကြောင်းကြားချက်များ။</string>
+
+    
+    <string name="accessibility_remove_notification">အကြောင်းကြားချက်များကို ရှင်းလင်းပါ။</string>
+
+    
+    <string name="accessibility_gps_enabled">GPS ကို ဖွင့်ထားသည်။</string>
+
+    
+    <string name="accessibility_gps_acquiring">GPS ကို ရယူနေသည်။</string>
+
+    
+    <string name="accessibility_tty_enabled">တယ်လီ လက်နှိပ်စက်ကို ဖွင့်ထားသည်။</string>
+
+    
+    <string name="accessibility_ringer_vibrate">ဖုန်းမြည်မှု တုန်ခါခြင်း။</string>
+
+    
+    <string name="accessibility_ringer_silent">ဖုန်းမြည်မှု အသံတိတ်။</string>
+
+    
+    <string name="accessibility_recents_item_dismissed"><xliff:g id="app" example="Calendar">%s</xliff:g> လွှတ်လိုက်သည်။</string>
+    
+    <string name="accessibility_notification_dismissed">အချက်ပေးချက်ပယ်ချပြီး။</string>
+
+    
+    <string name="accessibility_desc_notification_shade">အချက်ပေးချက်အကွက်။</string>
+    
+    <string name="accessibility_desc_quick_settings">အမြန်အဆင်အပြင်များ။</string>
+    
+    <string name="accessibility_desc_recent_apps">နောက်ဆုံးပရိုဂရမ်များ။</string>
+
+    
+    <string name="accessibility_quick_settings_user">အသုံးပြုသူ <xliff:g id="user" example="JohnDoe">%s</xliff:g>။</string>
+    
+    <string name="accessibility_quick_settings_wifi"><xliff:g id="signal" example="Threebars">%1$s</xliff:g>။ <xliff:g id="network" example="MyWifiNetwork">%2$s</xliff:g></string>
+    
+    <string name="accessibility_quick_settings_mobile">မိုဘိုင်း <xliff:g id="signal" example="Threebars">%1$s</xliff:g>၊ <xliff:g id="type" example="4G">%2$s</xliff:g>၊ <xliff:g id="network" example="T-Mobile">%3$s</xliff:g>၊</string>
+    
+    <string name="accessibility_quick_settings_battery">ဘက်ထရီ <xliff:g id="state" example="50%charging">%s</xliff:g>။</string>
+    
+    <string name="accessibility_quick_settings_airplane">လေယာဉ်ပျံသန်းစဉ်ပုံစံ <xliff:g id="state" example="Off">%s</xliff:g>။</string>
+    
+    <string name="accessibility_quick_settings_bluetooth">ဘလူးတု <xliff:g id="state" example="Off">%s</xliff:g>။</string>
+    
+    <string name="accessibility_quick_settings_alarm"><xliff:g id="time" example="Wed3:30PM">%s</xliff:g> အတွက် နှိုးစက်ထားရှိပြီး။</string>
+
+    
+    <string name="data_usage_disabled_dialog_3g_title">၂G-၃G အချက်အလက် ကို မလုပ်ဆောင်စေပါ</string>
+    
+    <string name="data_usage_disabled_dialog_4g_title">၄G အချက်အလက် ကို မလုပ်ဆောင်စေပါ</string>
+    
+    <string name="data_usage_disabled_dialog_mobile_title">မိုဘိုင်းအချက်အလက်ပိတ်ပြီး</string>
+    
+    <string name="data_usage_disabled_dialog_title">အချက်အလက်ပိတ်ပြီး</string>
+    
+    <string name="data_usage_disabled_dialog">သင်သည် သတ်မှတ်ထားသော ဒေတာအသုံးပြုမှု ကန့်သတ်ချက်သို့ ရောက်ရှိနေပြီ။\n\nသင် ဒေတာထပ်ဖွင့်ပါက အော်ပရေတာသို့ အခကြေးငွေ ပေးရလိမ့်မည်။</string>
+    
+    <string name="data_usage_disabled_dialog_enable">ဒေတာအချက်အလက်ကို ပြန်ဖွင့်ပါ</string>
+
+    
+    <string name="status_bar_settings_signal_meter_disconnected">အင်တာနက်ချိတ်ဆက်မှုမရှိပါ</string>
+
+    
+    <string name="status_bar_settings_signal_meter_wifi_nossid">ဝိုင်-ဖိုင် ချိတ်ဆက်ထားသည်</string>
+
+    
+    <string name="gps_notification_searching_text">GPS ကို ရှာဖွေသည် </string>
+
+    
+    <string name="gps_notification_found_text">GPS ဖြင့် တည်နေရာကို သတ်မှတ်သည်</string>
+
+    
+    <string name="accessibility_location_active">တည်နေရာ တောင်းဆိုချက်များ ဖွင့်ထားသည်</string>
+
+    
+    <string name="accessibility_clear_all">အကြောင်းကြားချက် အားလုံးကို ရှင်းပစ်သည်။</string>
+
+    
+    <string name="status_bar_notification_inspect_item_title">ပရိုဂရမ်ဆိုင်ရာ သတင်းအချက်အလက်</string>
+
+    
+    <string name="accessibility_rotation_lock_off">ဖန်သားပြင်သည် အလိုအလျောက် လှည့်လိမ့်မည်။</string>
+
+    
+    <string name="accessibility_rotation_lock_on_landscape">ဖန်သားပြင်ကို အလျားလိုက်အနေအထားတွင် သော့ချထားသည်။</string>
+
+    
+    <string name="accessibility_rotation_lock_on_portrait">ဖန်သားပြင်ကို ဒေါင်လိုက်အနေအထားတွင် သော့ချထားသည်။</string>
+
+    
+    <string name="dessert_case">အချိုပွဲဗူး</string>
+
+    
+    <string name="start_dreams">ငြိမ်နေသည့် စကရင်ဆေဗာပုံစံ</string>
+
+    
+    <string name="ethernet_label">အီသာနက်</string>
+
+    
+    <string name="quick_settings_airplane_mode_label">လေယာဥ်ပျံသန်းစဥ် အသုံးပြုသည့် နည်းလမ်း</string>
+    
+    <string name="quick_settings_battery_charging_label">အားသွင်းနေသည်၊ <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+    
+    <string name="quick_settings_battery_charged_label">အားသွင်းပြီး</string>
+    
+    <string name="quick_settings_bluetooth_label">ဘလူးတု(ရ်)</string>
+    
+    <string name="quick_settings_bluetooth_multiple_devices_label">ဘလူးတု (ပစ္စည်း <xliff:g id="number">%d</xliff:g> ခု)</string>
+    
+    <string name="quick_settings_bluetooth_off_label">Bluetooth off</string>
+    
+    <string name="quick_settings_brightness_label">တောက်ပမှု</string>
+    
+    <string name="quick_settings_rotation_unlocked_label">အလိုအလျောက်လှည့်ပါ</string>
+    
+    <string name="quick_settings_rotation_locked_label">လှည့်ခြင်းအားသော့ခတ်ထားသည်</string>
+    
+    <string name="quick_settings_ime_label">အသွင်းနည်းလမ်း</string>
+    
+    <string name="quick_settings_location_label">တည်နေရာဝင်ရောက်ခြင်း</string>
+    
+    <string name="quick_settings_location_off_label">တည်နေရာကို ပိတ်ပါ</string>
+    
+    <string name="quick_settings_media_device_label">မီဒီယာပစ္စည်း</string>
+    
+    <string name="quick_settings_rssi_label">RSSI</string>
+    
+    <string name="quick_settings_rssi_emergency_only">အရေးပေါ်ခေါ်ဆိုခြင်းများ အတွက်သာ</string>
+    
+    <string name="quick_settings_settings_label">အဆင်အပြင်များ</string>
+    
+    <string name="quick_settings_time_label">အချိန်</string>
+    
+    <string name="quick_settings_user_label">ကိုယ်</string>
+    
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    
+    <string name="quick_settings_wifi_not_connected">မချိတ်ဆက်ထားပါ</string>
+    
+    <string name="quick_settings_wifi_no_network">ကွန်ယက်မရှိ</string>
+    
+    <string name="quick_settings_wifi_off_label">Wi-Fi ပိတ်ထားသည်</string>
+    
+    <string name="quick_settings_wifi_display_label">Wi-Fi ပြသချက်</string>
+    
+    <string name="quick_settings_wifi_display_no_connection_label">ကြိုးမဲ့ချိတ်ဆက်မှုပြသချက်</string>
+    
+    <string name="quick_settings_brightness_dialog_title">တောက်ပမှု</string>
+    
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">အလိုအလျောက်</string>
+
+
+    
+    <string name="battery_meter_very_low_overlay_symbol">!</string>
+
+    
+    <string name="ssl_ca_cert_warning">ကွန်ရက်ကို\nစောင့်ကြည့်နေနိုင်သည်</string>
+
+</resources>

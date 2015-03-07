@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="onscreenHangupAll">Desligar todos</string>
+    <string name="onscreenHangupHolding">Desligar em espera</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Desligar ativo, atender em espera</string>
+    <string name="onscreenECT">Transferir</string>
+
+    <string name="dm_lock">DM Bloqueado</string>
+    <string name="dm_unlock">DM Desbloquear</string>
+
+    <string name="mo_code_unconditional_cf_active">Encaminhanto de chamada\nincondicional ativado</string>
+    <string name="mo_code_some_cf_active">Reencaminhamento de\nchamadas Em\nCondicional</string>
+    <string name="mo_code_call_forwarded">Chamada encaminhada</string>
+    <string name="mo_code_call_is_waiting">Aguardando chamada</string>
+    <string name="mo_code_cug_call">Grupo de Usuário Fechado</string>
+    <string name="mo_code_outgoing_calls_barred">Outgoing call barred</string>
+    <string name="mo_code_incoming_calls_barred">Chamada recebida barrada no outro lado</string>
+    <string name="mo_code_clir_suppression_rejected">Verificar o serviço de envio do identificador de chamadas</string>
+    <string name="mo_code_call_deflected">Chamada transferida</string>
+    <string name="mt_code_forwarded_call">É uma chamada encaminhada</string>
+    <string name="mt_code_cug_call">Grupo de Usuário Fechado</string>
+    <string name="mt_code_call_on_hold">Chamda em espera</string>
+    <string name="mt_code_call_retrieved">Chamda recuperada</string>
+    <string name="mt_code_multi_party_call">Chamada em conferência</string>
+    <string name="mt_code_on_hold_call_released">Chamada em espera liberada</string>
+    <string name="mt_code_forward_check_received">Encaminhar mensagem SS verificada recebida</string>
+    <string name="mt_code_call_connecting_ect">Transferência de chamada</string>
+    <string name="mt_code_call_connected_ect">Transferência de chamada ativa</string>
+    <string name="mt_code_deflected_call">É uma chamada desviada</string>
+    <string name="mt_code_additional_call_forwarded">Chamdas recebidas adicionais encaminhadas</string>
+    <string name="mt_code_forwarded_cf">Chamada encaminhada</string>
+    <string name="mt_code_forwarded_cf_uncond">Encaminhamento de chamada em incondicional</string>
+    <string name="mt_code_forwarded_cf_cond">Encaminhamento de chamada em condicional</string>
+    <string name="mt_code_forwarded_cf_busy">Chamada ocupada encaminhada</string>
+    <string name="mt_code_forwarded_cf_no_reply">Chamada encaminhada quando sem resposta</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Chamada encaminhada quando sem alcance</string>
+    
+    <string name="start_record">Iniciar gravação</string>
+    <string name="stop_record">Parar gravação</string>
+    <string name="str_db_playlist_name">Minhas gravações</string>
+    <string name="alert_device_error">Ocorreu erro no dispisitivo de áudio</string>
+    <string name="ext_media_badremoval_notification_title">Cartão SD removido inesperadamente</string>
+    <string name="error_sdcard_access">"Não é possível acessar o cartão SD"</string>
+    <string name="confirm_device_info_full">Cartão SD sem espaço, a gravação foi salva.</string>
+    <string name="confirm_save_info_saved">A gravação foi salva</string>
+    <string name="confirm_save_info_saved_to">A gravação foi salva em</string>
+
+    <string name="activity_not_found">O aplicativo não está instalado em seu telefone.</string>
+    <string name="confirm_3g_switch">Tem certeza que deseja configurar serviço 3G neste SIM? Isrto também configurará o SIM padrão para chamada de Vídeo para este SIM automaticamente.</string>
+    <string name="modem_switching">Trocar o SIM levará cerca de 10 segundos para completar. Aguarde…</string>
+    <string name="confirm_3g_switch_to_off">Tem certeza que deseja desligar o serviço 3G para este sim? Isto também desligará o SIM padrão para chamada de Vídeo para este SIM automaticamente.</string>
+    <string name="enable_3G_service">Habilitar 3G</string>
+    <string name="network_forbidden">Desabilitar</string>
+    <string name="plmn_list_setting_title">Preferências</string>
+    <string name="plmn_list_setting_add_plmn">Adicionar novo PLMN</string>
+    <string name="callFailed_dsac_vt_incompatible_destination">Impossível efetuar uma chamada de vídeo. O telefone de vídeo não é suportado no telefone que você está chamando, chamar com chamada de voz?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">Impossível efetuar uma chamada de vídeo. O telefone que você chamou está fora da área de serviço 3G, chamar com chamada de voz?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">Impossível efetuar uma chamada de vídeo. Discar com chamada de voz?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">Seu telefone está fora da área de serviço 3G, chamar com discagem de voz?</string>
+    <string name="notification_voicemail">Correio de voz</string>
+    <string name="turn_on_3g_service_message">Serviçõ 3G desligado agora, deseja ligá-lo?</string>
+    <string name="associate_sim_missing_message">"O %1$s SIM está indisponível. Deseja fazer a chamda por %2$s"</string>
+    <string name="associate_sim_missing_other">Outro</string>
+
+    <string name="vt_settings">onfigurações de vídeo</string>
+    <string name="vt_local_video_zoom">Ampliação do vídeo local</string>
+    <string name="vt_local_video_brightness">Luminosidade do vídeo local</string>
+    <string name="vt_local_video_effect">Efeito do vídeo local</string>
+    <string name="vt_local_video_nightmode">Modo noturno para vídeo local</string>
+    <string name="vt_peer_video_quality">Qualidade de vídeo do par</string>
+    <string name="vt_incoming_showme_ask">Perguntar</string>
+    <string name="vt_call_settings">Configurações da chamada por vídeo</string>
+    <string name="vt_pic_replace_local_default">Imagem padrão</string>
+    <string name="vt_pic_replace_local_freezeme">Imagem Fixa</string>
+    <string name="vt_pic_replace_local_mypic">Minhas imagens</string>
+    <string name="vt_sd_null">Cartão SD indisponível</string>
+    <string name="vt_sd_not_enough">Cartão SD ficando sem espaço</string>
+    <string name="vt_peer_video_quality_normal">Normal</string>
+    <string name="vt_ask_show_local">Exibir vídeo local para companheiro?</string>
+    <string name="vt_change_my_pic">Alterar</string>
+    <string name="vt_pic_saved_to_sd">Instantâneo salvo no cartão SD</string>
+    <string name="vt_pic_saved_to_sd_fail">Falha ao salvar instantâneo</string>
+    <string name="vt_error_network">Rede inalcançável. A chamda de vídeo será desconectada.</string>
+    <string name="vt_error_media">O vídeo não pode ser exibido adequadamente. A chamda de vídeo será desconectada.</string>
+    <string name="vt_swap_video">Alternar vídeos</string>
+    <string name="vt_local_video_contrast">Contraste do vídeo local</string>
+    <string name="vt_menu_switch">Alterar câmera</string>
+    <string name="vt_menu_hide_me">Ocultar vídeo local</string>
+    <string name="vt_menu_show_me">Exibirvídeo local</string>
+    <string name="vt_menu_snapshot">Instantâneo de colega</string>
+    <string name="vt_vocie_answer">Resposta de voz</string>
+    <string name="vt_wait_voice">Aguardando por conexão de xhamada de voz</string>
+    <string name="vt_voice_connecting">Chamada de voz conectando</string>
+    <string name="vt_cannot_support_setting">A câmera atual não suporta esta configuração</string>
+    <string name="vt_network_unreachable">Rede inalcançável</string>
+    <string name="vt_iot_error_01">Chamada de vídeo não pode ser configurada</string>
+    <string name="vt_iot_error_02">O telefone está ocupado</string>
+    <string name="vt_iot_error_03">Sem resposta</string>
+    <string name="vt_iot_error_04">A rede está ocupada</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"Exposição"</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">"Quadro branco"</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">"Quadro negro"</string>
+    <string name="pref_camera_coloreffect_entry_aqua">"Aqua"</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">"Sépia verde"</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">"Sépia azul"</string>
+    <string name="vt_peer_camera_open">Câmera remota está aberta</string>
+    <string name="vt_peer_camera_close">Câmera remota está fechada</string>
+    <string name="vt_recorder_start">Iniciar gravação</string>
+    <string name="vt_recorder_voice_and_peer_video">Voz e conexão de vídeo</string>
+    <string name="vt_recorder_only_voice">Apenas voz</string>
+    <string name="vt_recorder_only_peer_video">Apenas conexão de vídeo</string>
+    <string name="vt_recording_saved">A gravação foi salva.</string>
+    <string name="vt_recording_saved_sd_full">Cartão SD sem espaço, a gravação foi salva.</string>
+    <string name="vt_recording_error">Erro de gravação.</string>
+    <string name="start_record_vt">Iniciar gravação</string>
+    <string name="stop_record_vt">Parar gravação</string>
+    <string name="enable_sip_dialog_message">"Chamada de internet está desabilitada, deseja habilitá-la?"</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">A função de discagem por IP não é aplicável para chamada intencional.</string>
+    <string name="vt_addtional_call_description">Configurações de número de telefone e chamada em espera</string>
+    <string name="sim_manage_sipcall">"Internet"</string>
+    <string name="sim_manage_call_via">Chamar por</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> mins <xliff:g id="seconds" example="28">%2$s</xliff:g> segs</string>
+    <string name="reminder">Lembrete</string>
+    <string name="vt_media_occupied">Uma vez que a câmera não está disponível, a chamada de vídeo não pode ser conectada. Verifique se outro aplicativo está usando a câmera.</string>
+    <string name="vt_media_video_fail">O vídeo não pode ser exibido adequadamente.A chamada de vídeo está desconectada</string>
+    <string name="incall_toast_unhold">Retomar</string>
+
+</resources>

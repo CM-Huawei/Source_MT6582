@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pbap_session_key_dialog_title">Sitzungsschlüssel eingeben für %1$s</string>
+    <string name="pbap_session_key_dialog_header">Bluetooth-Sitzungsschlüssel erforderlich</string>
+    <string name="pbap_acceptance_timeout_message">Zeitüberschreitung bei der Verbindungsannahme mit %1$s</string>
+    <string name="pbap_authentication_timeout_message">Zeitüberschreitung bei der Eingabe des Sitzungsschlüssels mit %1$s</string>
+    <string name="auth_notif_ticker">Obex-Authentifizierungsanfrage</string>
+    
+    <string name="auth_notif_title">Sitzungsschlüssel</string>
+    
+    <string name="auth_notif_message">Sitzungsschlüssel eingeben für %1$s</string>
+    <string name="defaultname">Freisprechanlage</string>
+    <string name="unknownName">Unbekannter Name</string>
+    <string name="localPhoneName">Mein Name</string>
+    <string name="defaultnumber">000000</string>
+</resources>

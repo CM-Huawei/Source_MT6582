@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="video_call">مكالمات الفيديو</string>
+    <string name="sum_video_call">الإعدادات المتعلقة بمكالمات الفيديو</string>
+    <string name="vt_error_media">لا يمكن عرض الفيديو على النحو السليم. سيتم فصل مكالمة الفيديو.</string>
+    <string name="voice_call">المكالمات الصوتية</string>
+    <string name="sum_voice_call">الإعدادات المتعلقة بالمكالمات الصوتية</string>
+    <string name="voice_call_settings">إعدادات المكالمات الصوتية</string>
+    <string name="voice_mail">البريد الصوتي</string>
+    <string name="sum_voice_mail">رقم وخدمة البريد الصوتي</string>
+    <string name="internet_call">مكالمة عبر الإنترنت</string>
+    <string name="sum_internet_call">الإعدادات المتعلقة بالمكالمات عبر الإنترنت</string>
+    <string name="others">إعدادات أخرى</string>
+    <string name="minutereminder_title">منبه الدقائق</string>
+
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">قطع جميع الاتصالات</string>
+    <string name="onscreenHangupHolding">استمرار قطع الاتصالات</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">تنشيط قطع الاتصالات، وخاصية انتظار الرد</string>
+    <string name="onscreenECT">تحويل</string>
+
+    <!-- dm lock -->
+    <string name="dm_lock">DM مغلق</string>
+    <string name="dm_unlock">فتح DM</string>
+
+    <string name="mo_code_unconditional_cf_active">تم تنشيط تحويل المكالمات/المكالمات غير المشروطة</string>
+    <string name="mo_code_some_cf_active">تشغيل إعادة توجيه\nالاتصال بشرط</string>
+    <string name="mo_code_call_forwarded">تم إعادة توجيه الاتصال</string>
+    <string name="mo_code_call_is_waiting">مكالمة منتظرة</string>
+    <string name="mo_code_cug_call">مجموعة مستخدم مغلقة</string>
+    <string name="mo_code_outgoing_calls_barred">تم حظر المكالمة الصادرة</string>
+    <string name="mo_code_incoming_calls_barred">تم منع المكالمات الواردة في الجانب الآخر</string>
+    <string name="mo_code_clir_suppression_rejected">التحقق من رقم تعريف خدمة الإرسال للمتصل</string>
+    <string name="mo_code_call_deflected">تم إعادة توجيه الاتصال</string>
+    <string name="mt_code_forwarded_call">اتصال محول</string>
+    <string name="mt_code_cug_call">مجموعة مستخدم مغلقة</string>
+    <string name="mt_code_call_on_hold">تعليق الاتصال</string>
+    <string name="mt_code_call_retrieved">تم استرجاع الاتصال</string>
+    <string name="mt_code_multi_party_call">مكالمة جماعية</string>
+    <string name="mt_code_on_hold_call_released">تم تعليق المكالمات الصادرة</string>
+    <string name="mt_code_forward_check_received">التحقق من توجيه الاتصال عند استقبال رسالة SS</string>
+    <string name="mt_code_call_connecting_ect">نقل الاتصال</string>
+    <string name="mt_code_call_connected_ect">تنشيط نقل الاتصال</string>
+    <string name="mt_code_deflected_call">اتصال محول</string>
+    <string name="mt_code_additional_call_forwarded">إرسال المكالمة الواردة الإضافية</string>
+    <string name="mt_code_forwarded_cf">تم إعادة توجيه الاتصال</string>
+    <string name="mt_code_forwarded_cf_uncond">تشغيل إعادة توجيه الاتصال بدون شرط</string>
+    <string name="mt_code_forwarded_cf_cond">تشغيل إعادة توجيه الاتصال بشرط</string>
+    <string name="mt_code_forwarded_cf_busy">إعادة توجيه المكالمة المشغولة</string>
+    <string name="mt_code_forwarded_cf_no_reply">تشغيل إعادة توجيه الاتصال في حالة عدم الرد</string>
+    <string name="mt_code_forwarded_cf_not_reachable">تشغيل إعادة توجيه الاتصال في حالة عدم التمكن من الوصول إلى الجهاز</string>
+
+    <!-- voice recorder -->
+    <string name="start_record">بدء التسجيل</string>
+    <string name="stop_record">إيقاف التسجيل</string>
+    <string name="str_db_playlist_name">تسجيلاتي</string>
+    <string name="alert_device_error">حدث خطأ في جهاز الصوت</string>
+    <string name="ext_media_badremoval_notification_title">تمت إزالة بطاقة الذاكرة المؤقتة بشكل غير متوقع</string>
+    <string name="error_sdcard_access">غير قادر على الدخول على وحدة التخزين SD</string>
+    <string name="confirm_device_info_full">لا يوجد مساحة على بطاقة SD، تم حفظ السجل تلقائيًا</string>
+    <string name="confirm_save_info_saved">تم حفظ السجل</string>
+    <string name="confirm_save_info_saved_to">تم حفظ التسجيل في</string>
+
+    <string name="activity_not_found">"لم يتم تثبيت التطبيق على هاتفك."</string>
+    <string name="confirm_3g_switch">هل تريد بالفعل ضبط خدمة 3G لبطاقة SIM هذه؟ سيؤدي هذا أيضًا إلى ضبط بطاقة SIM الافتراضية لمكالمات الفيديو تلقائيًا على بطاقة SIM هذه.</string>
+    <string name="modem_switching">ستستغرق عملية تبديل بطاقة SIM حوالي 10 ثوانٍ. يرجى الانتظار…</string>
+    <string name="confirm_3g_switch_to_off">هل ترغب بالفعل في إيقاف خدمة 3G؟ سيعمل هذا على إيقاف خدمة مكالمات الفيديو تلقائيًا.</string>
+    <string name="enable_3G_service">تمكين 3G</string>
+    <string name="network_forbidden">تعطيل</string>
+    <string name="plmn_list_setting_title">التفضيلات</string>
+    <string name="plmn_list_setting_add_plmn">إضافة PLMN جديد</string>
+    <string name="callFailed_dsac_vt_incompatible_destination">تعذر إعداد مكالمة فيديو. خدمة فيديو الهاتف غير مدعومة بالهاتف التي تقوم بالاتصال به، هل تود إجراء اتصال عن طريق المكالمات الصوتية؟</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">تعذر إعداد مكالمة الفيديو. الهاتف الذي تحاول الاتصال به خارج نطاق تغطية خدمة 3G، هل ترغب في إجراء مكالمة صوتية؟</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">تعذر إعداد مكالمة الفيديو. هل ترغب في إجراء مكالمة صوتية؟</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">هاتفك خارج نطاق خدمة الأبعاد الثلاثية، هل ترغب في إجراء مكالمة صوتية؟</string>
+    <string name="notification_voicemail">البريد الصوتي</string>
+    <string name="turn_on_3g_service_message">خدمة 3G قيد الإيقاف الآن، هل ترغب في تشغيلها؟</string>
+    <string name="associate_sim_missing_message">"بطاقة SIM %1$s غير متاحة. هل ترغب في إجراء الاتصال عبر %2$s"</string>
+    <string name="associate_sim_missing_other">أخرى</string>
+
+    <!-- video call -->
+    <string name="vt_settings">إعدادات الفيديو</string>
+    <string name="vt_local_video_zoom">تكبير/تصغير الفيديو المحلي</string>
+    <string name="vt_local_video_brightness">شدة إضاءة الفيديو المحلي</string>
+    <string name="vt_local_video_effect">تأثير الفيديو المحلي</string>
+    <string name="vt_local_video_nightmode">وضعية التصوير الليلي للفيديو المحلي</string>
+    <string name="vt_peer_video_quality">نوعية الفيديو المماثل</string>
+    <string name="vt_incoming_showme_ask">سؤال</string>
+    <string name="vt_call_settings">إعدادات اتصال الفيديو</string>
+    <string name="vt_pic_replace_local_default">الصورة الأساسية</string>
+    <string name="vt_pic_replace_local_freezeme">تجميدي</string>
+    <string name="vt_pic_replace_local_mypic">صوري</string>
+    <string name="vt_sd_null">بطاقة SD غير متاحة</string>
+    <string name="vt_sd_not_enough">لا يوجد مساحة على بطاقة SD</string>
+    <string name="vt_peer_video_quality_normal">عادي</string>
+    <string name="vt_ask_show_local">أظهر الفيديو المحلي للمقترن؟</string>
+    <string name="vt_change_my_pic">تغيير</string>
+    <string name="vt_pic_saved_to_sd">تم حفظ اللقطة السريعة على بطاقة SD</string>
+    <string name="vt_pic_saved_to_sd_fail">تعذر حفظ اللقطة السريعة</string>
+    <string name="vt_error_network">تعذر الوصول للشبكة. سيتم فصل الفيديو.</string>
+    <string name="vt_swap_video">تبديل الفيديو</string>
+    <string name="vt_local_video_contrast">تباين الفيديو المحلي</string>
+    <string name="vt_menu_switch">غير الكاميرا</string>
+    <string name="vt_menu_hide_me">إخفاء الفيديو المحلي</string>
+    <string name="vt_menu_show_me">عرض الفيديو المحلي</string>
+    <string name="vt_menu_snapshot">لقطة النظير</string>
+    <string name="vt_vocie_answer">الرد على المكالمة الصوتية</string>
+    <string name="vt_wait_voice">الانتظار لإجراء اتصال مكالمة صوتية</string>
+    <string name="vt_voice_connecting">اتصال مكالمة صوتية</string>
+    <string name="vt_cannot_support_setting">لا تدعم الكاميرا الحالية هذا الإعداد</string>
+    <string name="vt_network_unreachable">الشبكة غير متاحة</string>
+    <string name="vt_iot_error_01">تعذر إعداد مكالمة الفيديو</string>
+    <string name="vt_iot_error_02">الهاتف مشغول</string>
+    <string name="vt_iot_error_03">لا يوجد رد</string>
+    <string name="vt_iot_error_04">الشبكة مشغولة</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"التعرض"</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">لوحة بيضاء</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">لوحة سوداء</string>
+    <string name="pref_camera_coloreffect_entry_aqua">أزرق مائي</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">أزرق بني</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">أخضر بني</string>
+    <string name="vt_peer_camera_open">الكاميرا البعيدة مفتوحة</string>
+    <string name="vt_peer_camera_close">الكاميرا البعيدة مغلقة</string>
+    <string name="vt_recorder_start">بدء التسجيل</string>
+    <string name="vt_recorder_voice_and_peer_video">صوت وفيديو مناظر</string>
+    <string name="vt_recorder_only_voice">صوت فقط</string>
+    <string name="vt_recorder_only_peer_video">فيديو مناظر فقط</string>
+    <string name="vt_recording_saved">تم حفظ التسجيل.</string>
+    <string name="vt_recording_saved_sd_full">لا يوجد مساحة على بطاقة SD، تم حفظ السجل تلقائيًا</string>
+    <string name="vt_recording_error">خطأ في التسجيل.</string>
+    <string name="start_record_vt">بدء التسجيل</string>
+    <string name="stop_record_vt">إيقاف التسجيل</string>
+    <string name="vt_incoming_showme_always">عرض</string>
+    <string name="vt_incoming_showme_disable">عدم العرض</string>
+    <string name="vt_peer_video_quality_sharp">عال</string>
+    <string name="vt_ask_show_local_yes">عرض</string>
+    <string name="vt_ask_show_local_no">عدم العرض</string>
+    <string name="pref_camera_coloreffect_entry_none">"لا شيء"</string>
+    <string name="pref_camera_coloreffect_entry_mono">"أحادي"</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"بني داكن"</string>
+    <string name="pref_camera_coloreffect_entry_negative">"سلبي"</string>
+    <string name="pref_camera_coloreffect_entry_posterize">"تتالي"</string>
+    <string name="pref_camera_coloreffect_entry_pastel">"تصوير ملون"</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">"فسيفساء"</string>
+    <string name="pref_camera_coloreffect_entry_redtint">"أحمر خفيف"</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">"أزرق خفيف"</string>
+    <string name="pref_camera_coloreffect_entry_greentint">"أخضر خفيف"</string>
+    <string name="cannot_answered_Video_Call">لا يمكن الرد على مكالمة الفيديو لوجود اتصال صوتي</string>
+    <string name="cannot_answered_Voice_Call">لا يمكن الرد على مكالمة الفيديو لوجود اتصال عبر الفيديو بالفعل</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> دقيقة <xliff:g id="seconds" example="28">%2$s</xliff:g> ثانية</string>
+    <string name="reminder">رسالة تذكير</string>
+    <string name="vt_media_occupied">لا يمكن الاتصال بالفيديو بسبب عدم توافر الكاميرا. يرجى التحقق مما إذا كانت الكاميرا قيد الاستخدام من قبل أي تطبيق آخر.</string>
+    <string name="vt_media_video_fail">لا يمكن عرض الفيديو على النحو السليم. سيتم قطع مكالمة الفيديو</string>
+    <string name="incall_toast_unhold">استمرار</string>
+</resources>

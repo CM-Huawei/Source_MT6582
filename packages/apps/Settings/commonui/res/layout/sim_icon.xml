@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="48dip"
+        android:layout_height="32dip"
+		android:id="@+id/sim_color"
+		android:layout_marginEnd="6dip"
+    	android:layout_centerVertical="true">  
+  		<ImageView
+  		    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        	android:id="@+id/sim_status"
+            android:layout_alignParentEnd="true" 
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="4dip"
+            android:layout_marginEnd="4dip"/>
+    	<TextView 
+    		android:id="@+id/sim_short_number"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_marginBottom="2dip"
+            android:layout_marginEnd="4dip"
+            android:layout_alignParentEnd="true" 
+            android:layout_alignParentBottom="true" 
+            android:textSize="12sp"
+            android:singleLine="true"
+            android:textColor="@android:color/white"
+            android:includeFontPadding="false"/>
+</RelativeLayout>    

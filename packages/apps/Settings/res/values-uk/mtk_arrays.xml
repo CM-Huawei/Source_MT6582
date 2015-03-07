@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2007 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>Перші 4 цифр</item>
+        <item>Останні 4 цифри</item>
+        <item>Не показувати</item>
+    </string-array>
+
+    <string-array name="gemini_sim_roaming_reminder_entries">
+        <item>Один раз</item>
+        <item>Завжди</item>
+        <item>"Ніколи"</item>
+    </string-array>
+
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (авторежим)</item>
+        <item>Лише WCDMA</item>
+        <item>"Лише GSM"</item>
+    </string-array>
+
+    <string-array name="wifi_ap_channel_width">
+        <item>20 MHz</item>
+        <item>Авто 20/40 МГц</item>
+    </string-array>
+
+    <string-array name="auto_time_entries">
+        <item>"Використовувати час, наданий мережею"</item>
+        <item>Використовувати час, наданий GPS</item>
+        <item>"вимкнено"</item>
+    </string-array>
+
+    <string-array name="hdmi_video_mode_entries">
+        <item>Повний екран</item>
+        <item>Автодобір</item>
+        <item>Оригінальний розмір</item>
+    </string-array>
+
+    <string-array name="hdmi_deep_color_entries">
+        <item>8 bit</item>
+        <item>"авто"</item>
+        <item>10 біт</item>
+        <item>12 біт</item>
+    </string-array>
+
+    <string-array name="sim_slot">
+        <item>"(не вказано)"</item>
+        <item>Отвір 1 SIM</item>
+        <item>Отвір 2 SIM</item>
+    </string-array>
+
+    <string-array name="wifi_WEP_security_type">
+        <item>"авто"</item>
+        <item>WEP ASCII</item>
+        <item>Шістнадцятковий WEP</item>
+    </string-array>
+
+    <string-array name="wifi_hotspot_disable_policy_entries">
+        <item>Завжди</item>
+        <item>Вимикати після 5 хв. бездіяльності</item>
+        <item>Вимикати після 10 хв. бездіяльності</item>
+    </string-array>
+
+    <string-array name="wifi_ap_wps_mode_entries">
+        <item>"Кнопка Push"</item>
+        <item>PIN-код від клієнта</item>
+    </string-array>
+
+    <string-array name="wifi_ap_max_connection_entries">
+        <item>1 користувач</item>
+        <item>2 користувачі</item>
+        <item>3 користувачі</item>
+        <item>4 користувачі</item>
+        <item>5 користувачі</item>
+        <item>6 користувачі</item>
+        <item>7 користувачі</item>
+        <item>8 користувачі</item>
+    </string-array>
+
+    <string-array name="mouse_primary_button_titles">
+        <item>Миша для праворуких</item>
+        <item>Миша для ліворуких</item>
+    </string-array>
+
+    <string-array name="wfd_720p_resolution_entry">
+        <item>720р (60 кадрів/сек.)</item>
+        <item>﻿720p (30 кадрів/сек.)</item>
+    </string-array>
+
+    <string-array name="wfd_1080p_resolution_entry">
+        <item>1080р (30 кадрів/сек.)</item>
+        <item>720р (60 кадрів/сек.)</item>
+        <item>720р (30 кадрів/сек.)</item>
+    </string-array>
+</resources>

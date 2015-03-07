@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="gemini_default_sim_always_ask">Chiedi sempre</string>
+    <string name="gemini_default_sim_auto">"AUTOMATINIS"</string>
+    <string name="accessibility_phone_four_bars">Telefone rodomos keturios energijos padalos.</string>
+    <string name="sim_switch_tip">Ši SIM buvo nustatyta kaip <xliff:g>%s</xliff:g> numatytoji SIM kortelė. Jeigu norite pakeisti numatytąją SIM kortelę, paspauskite ir, laikydami nuspaudę, vilkite žemyn Būsenos juostą.</string>
+    <string name="remind_next_time">Priminkite man kitą kartą</string>
+    <string name="voice_call_service">skambučių paslauga</string>
+    <string name="messages_service">pranešimų paslauga</string>
+    <string name="data_connection_service">duomenų ryšio paslauga</string>
+    <string name="plmn_searching">"Ieškoma"</string>
+    <string name="wifi">"Wi-Fi"</string>
+    <string name="bluetooth">"Bluetooth"</string>
+    <string name="mobile">Connessione dati</string>
+    <string name="gps">"GPS"</string>
+    <string name="autorotate">Automatinis vaizdo sukimas</string>
+    <string name="normal">Bendroji informacija</string>
+    <string name="meeting">Susirinkimas</string>
+    <string name="mute">"Begarsis"</string>
+    <string name="outdoor">Lauke</string>
+    <string name="offline">"Lėktuvo režimas"</string>
+    <string name="brightness">"Skaistis"</string>
+    <string name="timeout">"Skirtasis laikas"</string>
+    <string name="data_connection_attach_timeout_error_msg">"Duomenų ryšys nutrūko arba šiuo metu tinklas yra užimtas."</string>
+    <string name="data_connection_dettach_timeout_error_msg">"Nepavyko nutraukti duomenų ryšio."</string>
+    <string name="data_connection_connected">Veikia [<xliff:g>%s</xliff:g>] SIM kortelės duomenų ryšys</string>
+    <string name="gemini_intenet_call">Chiamata Internet</string>
+    <string name="gemini_default_sim_never">"Išjungta"</string>
+    <string name="gemini_3g_disable_warning">"Pasirinkus šią SIM, 3G neveiks. Dėl to duomenys gali būtų įkeliami lėčiau. Galite pakeisti 3G paslaugos nuostatą: Parametrai &gt; Belaidis ryšys ir tinklai &gt; Mobilieji tinklai. Ar tikrai norite pasirinkti šią SIM?"</string>
+    <string name="gemini_3g_disable_warning_cu">"Pasirinkus šią SIM, 3G neveiks. Dėl to duomenys gali būtų įkeliami lėčiau. Galite pakeisti 3G paslaugos nuostatą: Parametrai &gt; SIM tvarkymas. Ar tikrai norite pasirinkti šią SIM?"</string>
+    <string name="gemini_3g_disable_warning_case0">"Pirmiausiai privalote suaktyvinti šios SIM duomenų tarptinklinį ryšį, kuriam gali būti taikomi dideli tarptinklinio ryšio mokesčiai! Ar tikrai norite įjungti duomenų tarptinklinį ryšį ir pasirinkti šią SIM?</string>
+    <string name="gemini_3g_disable_warning_case1">"Pasirinkus šią SIM, 3G neveiks. Dėl to duomenys gali būtų įkeliami lėčiau. Galite pakeisti 3G paslaugos nuostatą: Parametrai &gt; Belaidis ryšys ir tinklai &gt; Mobilieji tinklai. Ar tikrai norite pasirinkti šią SIM?"</string>
+    <string name="gemini_3g_disable_warning_case2">"Pasirinkus šią SIM, 3G neveiks. Dėl to duomenys gali būtų įkeliami lėčiau. Galite pakeisti 3G paslaugos nuostatą: Parametrai &gt; SIM tvarkymas. Ar tikrai norite pasirinkti šią SIM?"</string>
+    <string name="gemini_3g_disable_warning_case3">"Pirmiausiai privalote suaktyvinti šios SIM duomenų tarptinklinį ryšį, kuriam gali būti taikomi dideli tarptinklinio ryšio mokesčiai! Be to, pasirinkus šią SIM, 3G neveiks. Dėl to duomenys gali būtų įkeliami lėčiau. Galite ją pakeisti: Parametrai &gt; Belaidis ryšys ir tinklai &gt; Mobilieji tinklai. Ar tikrai norite įjungti duomenų tarptinklinį ryšį ir pasirinkti šią SIM?</string>
+    <string name="gemini_3g_disable_warning_case4">"Norėdami naudoti šią SIM, pirmiausiai privalote įjungti tarptinklinį duomenų ryšį, kuriam gali būti taikomi dideli tarptinklinio ryšio mokesčiai! Be to, pasirinkus šią SIM, 3G paslauga neveiks. Dėl to duomenys gali būti įkeliami lėčiau. Ją galite pakeisti: Parametrai &gt; SIM tvarkymas. Tikrai norite įjungti tarptinklinį duomenų ryšį ir pasirinkti šią SIM?"</string>
+    <string name="confirm_radio_title">SIM išjungtas</string>
+    <string name="confirm_radio_msg">Dabar <xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> išjungta. Norite įjungti šioje SIM kortelėje?</string>
+    <string name="confirm_radio_msg_single">Dabar veikia skrydžio režimas; norite jį išjungti?</string>
+    <string name="confirm_radio_lbutton">Įjungti</string>
+    <string name="builtin_installer_title_message">Įrengtasis CD-ROM</string>
+    <string name="builtin_installer_dlg_message">Įjungti įrengtąjį CD-ROM?</string>
+    <string name="builtin_installer_always_allowed">Daugiau ne\rodyti</string>
+    <string name="dlg_no">"Ne"</string>
+    <string name="dlg_yes">"Taip"</string>
+    <string name="OK">"Gerai"</string>
+    <string name="application_guide_content">Nuleiskite pranešimų sąrašą, kad perjungtumėte numatytąją SIM kortelę</string>
+    <string name="data_usage">"Duomenų naudojimas"</string>
+    <string name="audio_profile">Profili audio</string>
+    <string name="user_owner">"Savininkas"</string>
+    <string name="phone_battery_low_subtitle">Išsikrauna telefono baterija.</string>
+    <string name="smartbook_battery_low_subtitle">Išsikrauna Smartbook baterija.</string>
+    <string name="apn">PRIEIGOS TAŠKAS</string>
+    <string name="sim_management">UIM/SIM TVARKYMAS</string>
+    <string name="network_selection_settings">Tinklo pasirinkimas</string>
+    <string name="quick_settings_roam_data">Tarptinklinis duomenų ryšys</string>
+    <string name="eco_backlight_title">Taupusis foninis apšvietimas</string>
+    <string name="eco_backlight_summary">Automatiškai pritaikomas foninis apšvietimas, kad būtų taupoma energija</string>
+</resources>

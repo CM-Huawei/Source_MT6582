@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Calllog list menu -->
+    <item
+        android:id="@+id/show_voicemails_only"
+        android:orderInCategory="1"
+        android:showAsAction="withText"
+        android:title="@string/menu_show_voicemails_only"/>
+
+    <item
+        android:id="@+id/show_all_calls"
+        android:orderInCategory="1"
+        android:showAsAction="withText"
+        android:title="@string/menu_show_all_calls"/>
+
+    <item
+        android:id="@+id/delete_all"
+        android:orderInCategory="1"
+        android:showAsAction="withText"
+        android:title="@string/recentCalls_delete"/>
+
+    <item
+        android:id="@+id/show_auto_rejected_calls"
+        android:orderInCategory="1"
+        android:showAsAction="withText"
+        android:title="@string/call_log_auto_rejected_label"/>
+    <item
+        android:id="@+id/choose_resources"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/mtk_ic_btn_resource"
+        android:title="@string/choose_resources_header"
+        android:visible="false"/>
+    <!-- Call detail menu -->
+
+    <!--M: add trash view for call Log -->
+    <item
+        android:id="@+id/menu_remove_from_call_log"
+        android:icon="@drawable/ic_menu_delete_dk"
+        android:showAsAction="ifRoom"
+        android:title="@string/recentCalls_removeFromRecentList"
+        android:onClick="onMenuRemoveFromCallLog"
+        android:orderInCategory="10"
+    />
+
+    <item
+        android:id="@+id/menu_edit_number_before_call"
+        android:title="@string/recentCalls_editNumberBeforeCall"
+        android:onClick="onMenuEditNumberBeforeCall"
+        android:orderInCategory="20"
+    />
+</menu>

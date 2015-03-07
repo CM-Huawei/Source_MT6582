@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    
+    <string name="onscreenHangupAll">Katkaise kaikki</string>
+    <string name="onscreenHangupHolding">Katkaise pito</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Katkaise aktiivinen, vastaa odottavaan</string>
+    <string name="onscreenECT">Siirrä</string>
+    
+    <string name="dm_lock">DM lukittu</string>
+    <string name="dm_unlock">Avaa DM-lukitus</string>
+    
+    <string name="start_record">Käynnistä tallennus</string>
+    <string name="stop_record">Lopeta tallennus</string>
+    <string name="str_db_playlist_name">"Omat tallenteet"</string>
+    <string name="alert_device_error">Audiolaitteessa ilmeni virhe</string>
+    <string name="ext_media_badremoval_notification_title">"SD-kortti poistettiin yllättäen"</string>
+    <string name="error_sdcard_access">SD-korttia ei voi käyttää</string>
+    <string name="confirm_device_info_full">SD-kortin tila on lopussa. Tallenne on tallennettu.</string>
+    <string name="confirm_save_info_saved">Tallenteesi on tallennettu</string>
+    <string name="confirm_save_info_saved_to">Tallenteesi on tallennettu kohtaan</string>
+    
+	<string name="sim_toolkit">"SIM-työkalusarja"</string>
+    <string name="activity_not_found">"Sovellusta ei ole asennettu puhelimeesi."</string>
+    <string name="no_sim_card_inserted" product="default">Aseta SIM paikalleen käynnistääksesi SIM-työkalusarjan</string>
+    <string name="airplane_mode_on" product="default">SIM-työkalusarjaa ei voi käynnistä, koska lentokonetila on päällä.</string>
+    <string name="lable_sim_not_ready" product="default">SIM-työkalusarja ei ole valmis tai sitä ei tueta</string>
+    <string name="gemini_3g_indic">3G</string>
+    
+    
+    <string name="callFailed_dsac_vt_incompatible_destination">Videopuhelua ei voi asettaa. Videopuhelinta ei tueta puhelimessa, josta soitat. Soitetaanko äänipuhelu?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">Videopuhelua ei voi asettaa. Puhelin, johon soitit, on 3G-kuuluvuusalueen ulkopuolella. Soitetaanko äänipuhelu?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">Videopuhelua ei voi asettaa. Soitetaanko äänipuhelu?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">Puhelimesi on 3G-kuuluvuusalueen ulkopuolella. Soitetaanko äänipuhelu?</string>
+    <string name="callFailed_dsac_vt_bear_not_authorized">Videopuhelua ei voi asettaa. Videopuhelinpalvelua ei ole aktivoitu tällä SIM-kortilla. Soitetaanko äänipuhelu?</string>
+    
+    <string name="notification_voicemail">"Vastaaja"</string>
+    <string name="turn_on_3g_service_message">3G-palvelu on nyt pois päältä. Haluatko kytkeä sen päälle?</string>
+    <string name="associate_sim_missing_message">"%1$s SIM ei ole käytettävissä. Haluatko soittaa %2$s"-sovelluksella</string>
+    <string name="associate_sim_missing_other">"Muu"</string>
+    
+    <string name="vt_incoming_call">Saapuva videopuhelu</string>
+    <string name="vt_settings">Videoasetukset</string>
+    <string name="vt_local_video_zoom">Paikallinen videon zoomaus</string>
+    <string name="vt_local_video_brightness">Paikallinen videon kirkkaus</string>
+    <string name="vt_local_video_effect">Paikallinen videotehoste</string>
+    <string name="vt_local_video_nightmode">Paikallinen videon yötila</string>
+    <string name="vt_peer_video_quality">Vertais-videon laatu</string>
+    <string name="vt_enable_back_camera">Ota käyttöön takakamera</string>
+    <string name="vt_enable_back_camera_description">Käytettävissä kameroiden vaihtamiseen, jos kytketty päälle</string>
+    <string name="vt_peer_video_bigger">Suurempi vertaisvideo</string>
+    <string name="vt_peer_video_bigger_description">Kytke päälle tehdäksesi vertaisvideosta suuremman kuin paikallinen video</string>
+    <string name="vt_outgoing_call">Lähtevä videopuhelu</string>
+    <string name="vt_outgoing_call_description">Näytä paikallinen video soittaessasi videopuhelun</string>
+    <string name="vt_incoming_call_description">Näytä paikallinen video, kun hyväksyt saapuvan videopuhelun</string>
+    <string name="vt_incoming_showme_always">Aina</string>
+    <string name="vt_incoming_showme_ask">"Kysy"</string>
+    <string name="vt_incoming_showme_disable">"Poista käytöstä"</string>
+    <string name="vt_pic_replace_local_default">Oletuskuva</string>
+    <string name="vt_pic_replace_local_freezeme">Pysäytä minut</string>
+    <string name="vt_pic_replace_local_mypic">Oma kuva</string>
+    <string name="vt_local_video_display">Paikallinen videonäyttö</string>
+    <string name="vt_sd_null">SD-kortti ei\nole käytettävissä</string>
+    <string name="vt_sd_not_enough">SD-kortin tila on\nkäymässä vähiin</string>
+    <string name="vt_peer_video_quality_normal">Normaali</string>
+    <string name="vt_peer_video_quality_sharp">Terävä</string>
+    <string name="vt_ask_show_local">Näytetäänkö paikallinen video vertaiselle?</string>
+    <string name="vt_ask_show_local_yes">"Kyllä"</string>
+    <string name="vt_ask_show_local_no">"Ei"</string>
+    <string name="vt_change_my_pic">Muuta</string>
+    <string name="vt_pic_saved_to_sd">Tilannevedos tallennettu SD-kortille</string>
+    <string name="vt_pic_saved_to_sd_fail">Tilannevedoksen tallennus epäonnistui</string>
+    <string name="vt_error_network">Verkko ei tavoitettavissa. Videopuhelu katkeaa.</string>
+    <string name="vt_error_media">Videota ei voi näyttää oikein. Videopuhelu katkeaa.</string>
+    <string name="vt_swap_video">Vaihda videoita</string>
+    <string name="vt_local_video_contrast">Paikallinen videokontrasti</string>
+    <string name="vt_menu_switch">Vaihda kameraa</string>
+    <string name="vt_menu_hide_me">Piilota paikallinen video</string>
+    <string name="vt_menu_show_me">Näytä paikallinen video</string>
+    <string name="vt_menu_snapshot">Vertaisen tilannevedos</string>
+    <string name="vt_dis_peer_rep">Näytä vertaisvideo</string>
+    <string name="vt_dis_peer_rep_des">Näytä kuva vertaisvideon korvaajan, kun sitä ei ole käytettävissä</string>
+    <string name="vt_peer_video_rep">Vertaisvideon korvaaminen</string>
+    <string name="vt_peer_video_rep_des">Aseta näytettävä kuva, kun vertaisvideo ei ole käytettävissä</string>
+    <string name="vt_vocie_answer">Äänivastaus</string>
+    <string name="vt_wait_voice">Odota äänipuheluyhteyttä</string>
+    <string name="vt_voice_connecting">Äänipuhelua yhdistetään</string>
+    <string name="vt_auto_dropback">Automaattinen takaisin paluu</string>
+    <string name="vt_auto_dropback_des">Paluu äänipuheluun yhdistyy automaattisesti</string>
+    <string name="vt_cannot_support_setting">Nykyinen kamera ei tue tätä asetusta</string>
+    <string name="vt_network_unreachable">Verkko ei tavoitettavissa.</string>
+    <string name="vt_iot_error_01">Videopuhelua ei voi asettaa</string>
+    <string name="vt_iot_error_02">Puhelin on varattu</string>
+    <string name="vt_iot_error_03">Ei vastausta</string>
+    <string name="vt_iot_error_04">Verkko on varattu</string>
+    <string name="pref_camera_coloreffect_entry_none">"-"</string>
+    <string name="pref_camera_coloreffect_entry_mono">Mono</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"Seepia"</string>
+    <string name="pref_camera_coloreffect_entry_negative">Negatiivi</string>
+    <string name="pref_camera_coloreffect_entry_solarize">Ylivalota</string>
+    <string name="pref_camera_coloreffect_entry_posterize">Posteroi</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">Esitystaulu</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">Liitutaulu</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Sinivihreä</string>
+    <string name="pref_camera_coloreffect_entry_pastel">Pastelli</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">Mosaiikki</string>
+    <string name="pref_camera_coloreffect_entry_redtint">Punainen sävy</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">Sininen sävy</string>
+    <string name="pref_camera_coloreffect_entry_greentint">Vihreä sävy</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Seepia-sininen</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Seepia-vihreä</string>
+    
+    
+    <string name="vt_peer_camera_open">Etäkamera on auki</string>
+    <string name="vt_peer_camera_close">Etäkamera on kiinni</string>
+    <string name="vt_recorder_start">Käynnistä tallennus</string>
+    <string name="vt_recorder_voice_and_peer_video">Ääni ja vertaisvideo</string>
+    <string name="vt_recorder_only_voice">Vain ääni</string>
+    <string name="vt_recorder_only_peer_video">Vain vertaisvideo</string>
+    <string name="vt_recording_saved">Tallenne on tallennettu.</string>
+    <string name="vt_recording_saved_sd_full">SD-kortin tila on lopussa. Tallenne on tallennettu.</string>
+    <string name="vt_recording_error">Tallennusvirhe.</string>
+    <string name="start_record_vt">Käynnistä tallennus</string>
+    <string name="stop_record_vt">Lopeta tallennus</string>
+    
+    
+    <string name="cannot_answered_Video_Call">Videopuheluun ei voi vastata, koska äänipuhelu on käynnissä</string>
+    <string name="cannot_answered_Voice_Call">Äänipuheluun ei voi vastata, koska videopuhelu on käynnissä</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> minuuttia <xliff:g id="seconds" example="28">%2$s</xliff:g> sekuntia</string>
+    <string name="reminder">Muistutus</string>
+    <string name="vt_media_occupied">Koska kamera ei ole käytettävissä, videopuhelu ei voi yhdistää. Tarkista, käyttääkö jokin toinen sovellus kameraa.</string>
+    <string name="vt_media_video_fail">Videota ei voi näyttää oikein. Videopuhelu on katkennut.</string>
+    <string name="incall_toast_unhold">Poista pidosta</string>
+    
+    <string name="dualtalk_tip_accept_disconnect_current" tools:ignore="MissingTranslation">Tämän puhelun hyväksyminen lopettaa nykyisen puhelun.</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing" tools:ignore="MissingTranslation">Tämän puhelun hyväksyminen lopettaa lähtevän puhelun.</string>
+    <string name="dualtalk_tip_accept_disconnect_incoming" tools:ignore="MissingTranslation">Tämän puhelun hyväksyminen hylkää toisen saapuvan puhelun.</string>
+    <string name="dualtalk_tip_accept_disconnect_voice">Tämän puhelun hyväksyminen lopettaa äänipuhelut.</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing_reject_incoming">Tämän puhelun hyväksyminen lopettaa lähtevän puhelun ja hylkää toisen saapuvan puhelun.</string>
+    <string name="dualtalk_tip_accept_disconnect_current_reject_incoming">Tämän puhelun hyväksyminen lopettaa nykyisen puhelun ja hylkää toisen saapuvan puhelun.</string>
+    
+    <string name="end_call_because_can_not_hold">Lopeta nykyinen puhelu, koska sitä ei voi asettaa pitoon.</string>
+    <string name="ring_only_once_title">Soita vain kerran</string>
+    <string name="ring_only_once_summary">Soita vain kerran, kun haluat hyväksyä videopuhelun äänipuhelutilassa</string>
+    
+    
+    <string name="fdn_contact_name_number_invalid">Nimi ja numero eivät voi olla samanaikaisesti tyhjiä.</string>
+    
+    <string name="fdn_contact_number_invalid">Yhteystietonumero ei kelpaa.</string>
+    <string name="fdn_phone_book_busy">Puhelinluettelo on nyt varattu. Yritä myöhemmin uudelleen.</string>
+    
+    <string name="cdma_not_support">CDMA ei tue tätä ominaisuutta</string>
+    <string name="cdma_cfu_title">China Telecom</string>
+    <string name="labelCFC">Peruuta kaikki siirrot</string>
+    <string name="cdma_cfu_dialog_sum">"Käytä aina tätä numeroa"</string>
+        
+    <string name="dual_mic_title">Kohinanvaimennus</string>
+    <string name="dual_mic_summary">Vaimenna taustamelu puheluiden aikana</string>
+    
+    <string name="minutereminder_title">Minuuttimuistutus</string>
+    <string name="minutereminder_summary">Muista 50 s aikana jokaisella minuutilla</string>
+    <string name="voice_call_settings">Äänipuheluasetukset</string>
+    
+    <string name="enable_sip_dialog_message">internet-puhelu on pois käytöstä. Haluatko ottaa sen käyttöön?</string>
+    
+    <string name="ip_prefix_setting">IP-etuliitenumero</string>
+    <string name="ip_prefix_setting_sum">IP-etuliitenumeroasetus</string>
+    <string name="enter_ip_prefix_number">Anna etuliitenumero</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Anna IP-etuliitenumero ensin äänipuheluasetuksissa.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">IP-valintatoiminto ei ole käytettävissä internet-puheluihin.</string>
+    <string name="ip_prefix_edit_default_sum">Anna etuliitenumero IP-puhelulle</string>
+    
+    <string name="vt_cf_call_description">Videopuhelun soitonsiirtoasetukset</string>
+    <string name="vt_cb_call_description">Videopuhelun estoasetukset</string>
+    <string name="vt_addtional_call_description">Puhelinnumero- ja puhelu odottaa -asetukset</string>
+    <string name="others">Muut asetukset</string>
+    
+    <string name="confirm_3g_switch">Haluatko varmasti asettaa 3G-palvelun tälle SIM-kortille? Tämä asettaa myös oletus SIM-kortin videopuhelulle automaattisesti tähän SIM-korttiin.</string>
+    <string name="modem_switching">SIM-kortin vaihtaminen kestää noin 10 sekuntia. Odota...</string>
+    <string name="confirm_3g_switch_to_off">Haluatko varmasti kytkeä tämän 3G-palvelun pois päältä? Tämä kytkee myös videopuhelupalvelun automaattisesti pois päältä.</string>
+    <string name="service_3g_off">"himmein"</string>
+    <string name="enable_3G_service">Ota 3G käyttöön</string>
+    <string name="setting_for_3G_service">3G-palvelu</string>
+    
+    
+    <string name="network_forbidden">kielletty</string>
+    <string name="voice_mail_dialog_text">Sinulle on tullut uusi vastaajaviesti kohteesta <xliff:g id="voicemail_sim_display_name">%s</xliff:g>. Haluatko hakea ne nyt?</string>
+    <string name="lable_call_barring">"Puhelujen esto"</string>
+    <string name="lable_all_outgoing">Kaikki lähtevät puhelut</string>
+    <string name="lable_all_outgoing_international">Kansainväliset lähtevät puhelut</string>
+    <string name="lable_all_out_except">Kansainväliset lähtevät puhelut paitsi koti-PLMN</string>
+    <string name="lable_all_incoming">Kaikki saapuvat puhelut</string>
+    <string name="lable_incoming_calls_except">Saapuvat puhelut verkkovierailun aikana</string>
+    <string name="deactivate_all">Peru kaikki</string>
+    <string name="change_password">Muuta estosalasana</string>
+    <string name="call_barring_sum">Äänipuhelun estoasetukset</string>
+    
+    <string name="lable_disable">"Ei käytössä"</string>
+    <string name="lable_enable">Käytössä</string>
+    <string name="old_password_label">Vanha salasana (4 numeroa)</string>
+    <string name="new_password_label">Uusi salasana (4 numeroa)</string>
+    <string name="invalid_password">Näppäile nelinumeroinen salasana.</string>
+    <string name="confirm_password_label">Vahvista uusi salasana</string>
+    <string name="mismatch_password">Kirjoittamasi salasanat eivät vastaa toisiaan. Yritä uudelleen.</string>
+    <string name="password_changed">Salasanan muuttaminen onnistui</string>
+    <string name="enter_callbarring_password">Syötä puhelun eston salasana (nelinumeroinen)</string>
+    <string name="wrong_password">Salasanavirhe</string>
+    <string name="error_title">"Virhe"</string>
+    <string name="cell_broadcast">Solulähetys</string>
+    <string name="cell_broadcast_settings">Solulähetyksen asetukset</string>
+    <string name="cb_menu_language">"Kieli"</string>
+    <string name="cb_menu_add_channel">Lisää kanava</string>
+    <string name="cb_menu_channel_list">Kanavaluettelo</string>
+    <string name="cb_dialog_title_language_choice">Valitse kieli</string>
+    <string name="cb_channel_dialog_channel_name">Kanavan nimi (0–10 merkkiä)</string>
+    <string name="cb_channel_dialog_channel_number">Kanavan numero (0–65534)</string>
+    <string name="cb_channel_dialog_channel_state">Ota kanava käyttöön</string>
+    <string name="cb_channel_dialog_edit_channel">Muokkaa kanavaa</string>
+    <string name="cb_menu_edit">"Muokkaa"</string>
+    <string name="cb_menu_delete">"Poista"</string>
+    <string name="cb_error_channel_num">Syötä kanavanumero (0–65534).</string>
+    <string name="cb_error_channel_name">Kanavan nimen pituus ei ole oikea (1–10 merkkiä).</string>
+    <string name="cb_error_language_select">Valitse vähintään yksi kieli.</string>
+    <string name="cb_error_channel_id_exist">Kanavatunnus on olemassa.</string>
+    <string name="cb_all_languages">"Kaikki kielet"</string>
+    <string name="cb_default_new_channel_name">Uusi kanava</string>
+    <string name="fdn_errorcode_unknown_info">Epäonnistui. Ilmeni tuntematon virhe. Yritä uudelleen.</string>
+    <string name="fdn_errorcode_number_info">Epäonnistui. Yhteystiedon numero on liian pitkä.</string>
+    <string name="fdn_errorcode_name_info">Epäonnistui. Yhteystiedon nimi on liian pitkä.</string>
+    <string name="fdn_errorcode_storage_info">Epäonnistui. Tallennustila on täysi.</string>
+    <string name="fdn_errorcode_phb_info">Epäonnistui. Puhelinluettelo ei ole vielä valmis. Yritä myöhemmin uudelleen.</string>
+    <string name="fdn_errorcode_pin2_info">Epäonnistui. PIN2 ei kelpaa.</string>
+    <string name="net_or_simcard_busy">Verkko tai SIM-kortti on varattu. Yritä myöhemmin uudelleen.</string>
+    
+    <string name="gsm_umts_network_preferences_title">Verkkotila</string>
+    <string name="gsm_umts_network_preferneces_summary">Ei vielä otettu käyttöön!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">Verkkotila</string>
+    <string name="umts_preferred_network_mode_dialogtitle">Verkkotila</string>
+    
+    <string name="voice_call">Äänipuhelu</string>
+    <string name="video_call">"Videopuh."</string>
+    <string name="internet_call">Internet-puhelu</string>
+    <string name="sum_voice_call">Äänipuheluun liittyvät asetukset</string>
+    <string name="sum_video_call">Videopuheluun liittyvät asetukset</string>
+    <string name="sum_internet_call">Internet-puheluun liittyvät asetukset</string>
+    <string name="voice_mail">"Vastaaja"</string>
+    <string name="sum_voice_mail">Vastaajaviestipalvelu ja -numero</string>
+    <string name="sum_cell_broadcast_control_on">Ota solulähetys käyttöön</string>
+    <string name="sum_cell_broadcast_control_off">Ota solulähetys pois käytöstä</string>
+    <string name="sum_cell_broadcast_setting">Solulähetyksen kieli- ja kanava-asetus</string>
+    <string name="call_additional_sum">Puhelinnumero- ja puhelu odottaa -asetukset</string>
+    <string name="vt_call_settings">Videopuheluasetukset</string>
+    <string name="vt_local_video_rep">Paikallinen videon korvaus</string>
+    <string name="vt_pic_replace_local_description">Aseta kameran sammutettuna ollessa näytettävä kuva</string>
+
+    
+    <string name="mo_code_unconditional_cf_active">Soitonsiirto\nvaraukseton aktivoitu</string>
+    <string name="mo_code_some_cf_active">Soitonsiirto\nVarauksellinen päällä</string>
+    <string name="mo_code_call_forwarded">Soitto siirretty</string>
+    <string name="mo_code_call_is_waiting">Odotetaan puhelua</string>
+    <string name="mo_code_cug_call">Suljettu käyttäjäryhmä</string>
+    <string name="mo_code_outgoing_calls_barred">Lähtevä puhelu estetty</string>
+    <string name="mo_code_incoming_calls_barred">Saapuva puhelu estetty toisella puolella</string>
+    <string name="mo_code_clir_suppression_rejected">Tarkista soittajan tunnuksen lähetyspalvelu</string>
+    <string name="mo_code_call_deflected">soita Puhelu siirretty</string>
+    
+    <string name="mt_code_forwarded_call">Se on siirretty puhelu</string>
+    <string name="mt_code_cug_call">Suljettu käyttäjäryhmä</string>
+    <string name="mt_code_call_on_hold">Puhelu pidossa</string>
+    <string name="mt_code_call_retrieved">Puhelu haettu</string>
+    <string name="mt_code_multi_party_call">Kokouspuhelu</string>
+    <string name="mt_code_on_hold_call_released">Pidetty puhelu vapautettu</string>
+    <string name="mt_code_forward_check_received">Lähetä edelleen tarkista SS-viesti vastaanotettu</string>
+    <string name="mt_code_call_connecting_ect">Puhelua siirretään</string>
+    <string name="mt_code_call_connected_ect">Puhelunsiirto aktiivinen</string>
+    <string name="mt_code_deflected_call">Se on käännetty puhelu</string>
+    <string name="mt_code_additional_call_forwarded">Uusi saapuva puhelu lähetetty edelleen</string>
+    <string name="mt_code_forwarded_cf">Soitto siirretty</string>
+    <string name="mt_code_forwarded_cf_uncond">Puhelu siirretty varauksettomana</string>
+    <string name="mt_code_forwarded_cf_cond">Puhelu siirretty varauksellisena</string>
+    <string name="mt_code_forwarded_cf_busy">Puhelu varattu siirretty</string>
+    <string name="mt_code_forwarded_cf_no_reply">Puhelu siirretty vastaamattomana</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Puhelu siirretty tavoittamattomana</string>
+    <string name="sim_manage_sipcall">Internet-puhelu</string>
+    <string name="sim_manage_call_via">Soita</string>
+    
+    
+	
+    <string name="manual_select_title">Valitse manuaalisesti</string>    
+	<string name="manual_select_dialog_msg">Matkapuhelin ei valitse sinulle toista operaattoria manuaalisessa valintatilassa. Joskus sinun on tehtävä manuaalinen valinta uudelleen vaihtaaksesi takaisin automaattiseen valintatilaan, kun kadotat valitun operaattorin palvelun. On suositeltavaa käyttää \"Valitse automaattisesti\"-valintaa. Haluatko valita verkon manuaalisesti?</string>    
+	<string name="no_service_msg_gemini">Tällä hetkellä valitulta operaattorilta ei ole palvelua \"<xliff:g id="operator">%s</xliff:g>\" SIM-kortille.\nOn suositeltavaa käyttää \"Valitse automaattisesti\"-valintaa tai voit valita toisen operaattorin manuaalisesti.</string>    
+	<string name="no_service_msg">Tällä hetkellä valitulta operaattorilta ei ole palvelua.\nOn suositeltavaa käyttää \"Valitse automaattisesti\"-valintaa tai voit valita toisen operaattorin manuaalisesti.</string>    
+	<string name="show_always_title">Älä ilmoita uudelleen</string>    
+	<string name="no_service_msg_title_gemini">Ei palvelua kohteelle \"<xliff:g id="operator">%s</xliff:g>\"</string>    
+	<string name="no_service_msg_title">"Katvealueella"</string>    
+    <string name="gemini_data_connection">Datayhteys</string>
+	
+    <string name="plmn_list_setting_title">Ensisijaiset verkot</string>
+    <string name="network_id">Verkkotunnus</string>
+    <string name="dialog_network_priority_title">Ensisijaisuus</string>
+    <string name="plmn_list_setting_add_plmn">Uusi PLMN</string>
+    
+    <string name="international_dialing_title">Ulkomaanpuhelujen avustaja</string>
+    <string name="international_dialing_select_country">Tunnistettiin, että soitat ulkomaanpuhelun. Valitse kohteesi.</string>
+    <string name="international_dialing_add_country_code">Tunnistettiin, että soitat <xliff:g id="country_name">%s</xliff:g> numeroon. Haluatko lisätä maatunnuksen (+<xliff:g id="country_code">%s</xliff:g>)?</string>
+    <string name="international_dialing_add_country_code_and_area_code">Tunnistettiin, että soitat numeroon <xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g>. Haluatko lisätä maatunnuksen ja suuntanumeron (+<xliff:g id="prefix">%3$s</xliff:g>)?</string>
+    <string name="international_dialing_change_country_prefix">Tunnistettiin, että soitat kohteesta <xliff:g id="country_name">%s</xliff:g>. Muutetaanko ulkomaanpuhelun etuliitteeksi \'+\'?</string>
+    <string name="international_dialing_add_country_code_input_area_code">Tunnistettiin, että soitat numeroon kohteessa <xliff:g id="country_name">%s</xliff:g>. Jos on näin, anna suuntanumero.</string>
+    <string name="international_dialing_add_country_code_default_input_area_code">Tunnistettiin, että soitat numeroon kohteessa <xliff:g id="country_name">%s</xliff:g>. Jos kohdekaupunkisi ei ole <xliff:g id="area_name">%s</xliff:g>, anna suuntanumero.</string>
+    <string name="international_dialing_need_area_code">Kohdekaupungin suuntanumero tarvitaan puhelun soittamiseen.</string>
+    <string name="international_dialing_input_area_code">Anna suuntanumero tässä</string>
+    <string name="international_dialing_dialed_number">Soitettava numero:</string>
+    <string name="international_dialing_confirm_area_code">Jos kohdekaupunkia ei ole <xliff:g id="area_name">%s</xliff:g>, anna alla kohdekaupungin suuntanumero.</string>
+    <string name="international_dialing_click_below_button">Napsauta alla olevaa painiketta muuttaaksesi maatunnusnumeroa.</string>
+    <string name="international_dialing_yes">Kyllä. Käytä alla olevaa numeroa:</string>
+    <string name="international_dialing_no">Ei. Käytä alkuperäistä numeroa:</string>
+    <string name="international_dialing_call_button">"Soita"</string>
+    <string name="international_dialing_area_code">maatunnus</string>
+    <string name="international_dialing_invalid_number">Numero ei kelpaa. Haluatko silti jatkaa numeron valitsemista?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">Haluatko lisätä maatunnuksen ja suuntanumeron?</string>
+    <string name="no_search_result">Ei hakutulosta</string>
+    <string name="which_call_to_activate">Mikä puhelu aktivoidaan?</string>
+    <string name="gemini_3g_disable_warning_case0">"Sinun on otettava ensin käyttöön data-verkkovierailu tälle SIM-kortille, mikä voi aiheuttaa merkittäviä verkkovierailuveloituksia! Haluatko varmasti ottaa käyttöön data-verkkovierailun ja valita tämän SIM-kortin?"</string>
+    <string name="gemini_3g_disable_warning_case1">"3G-palvelu ei ole käytettävissä tällä valitulla SIM-kortilla. Tämä voi ladata dataa hitaammin. Voit muuttaa 3G-palveluasetuksia kohdassa Asetukset &gt; Langaton ja verkot &gt; Matkapuhelinverkot. Haluatko varmasti valita tämän SIM-kortin?"</string>
+    <string name="gemini_3g_disable_warning_case2">"Sinun on otettava ensin käyttöön data-verkkovierailu tälle SIM-kortille, mikä voi aiheuttaa merkittäviä verkkovierailuveloituksia! Lisäksi 3G-palvelu ei ole käytettävissä tällä valitulla SIM-kortilla. Tämä voi ladata dataa hitaammin. Voit muuttaa sitä kohdassa Asetukset &gt; Langaton ja verkot &gt; Matkapuhelinverkot. Haluatko varmasti ottaa käyttöön data-verkkovierailun ja valita tämän SIM-kortin?"</string>
+    <string name="disable_data_connection_msg">Käytettävissä olevien verkkojen etsintä katkaisee käytössä olevan datayhteyden. Haluatko jatkaa?</string>
+    
+    <string name="voice_command_notification_ticker">Voit sanoa \"<xliff:g id="first_voice">%s</xliff:g>\" tai \"<xliff:g id="second_voice">%s</xliff:g>\" vastataksesi tai hylätäksesi saapuvat puhelut</string>
+    <string name="voice_command_notification_title">Ääniohjaus</string>
+    <string name="voice_command_notification_message">Ääniohjaus on otettu käyttöön puhelimessa</string>
+
+    <string name="callFailed_simError_cdma">Ei UIM/SIM-korttia tai UIM/SIM-virhe</string>
+
+    
+    <string name="callFailed_simError_slotNumber">Ei SIM-korttia tai SIM-virhe kotipaikassa <xliff:g id="slotNumber">%s</xliff:g></string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="callFailed_cdma_notEmergency">"Vain hätäpuhelut sallittu."</string>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="buttonTxtContinue">"Jatka"</string>
+
+    <string name="fdn_only_error">Toiminnot on rajoitettu vain sallittuihin numeroihin.</string>
+
+    <string name="network_setting_all_forbidden_dialog">Verkkoja ei käytettävissä. Yritä vaihtaa 3G-palveluun tai napsauta kiellettyä verkkoa rekisteröidäksesi manuaalisesti.</string>
+
+    
+    <string name="reset_data_usage">Nolla datan määrä</string>
+
+    
+    <string name="simContacts_emptyLoading_ex">Luetaan yhteystietoja kohteesta %s\u2026</string>
+
+    <string name="one_retry_left">1 yritys jäljellä</string>
+    <string name="retries_left"><xliff:g id="number">%d</xliff:g> yritystä jäljellä</string>
+    <string name="pin2_unblocked">PIN2:n eston poistaminen onnistui</string>
+    <string name="unblock_pin2">Poista PIN2:n esto</string>
+    <string name="sim_permanently_locked">Annettuasi väärän PUK2-koodin yli 10 kertaa, SIM-kortti lukitaan pysyvästi.</string>
+    <string name="pin_length_indicate">(4–8 numeroa)</string>
+    <string name="puk_length_indicate">(8 numeroa)</string>
+
+    
+    <string name="caller_manage_manage_done_text">"Palaa puheluun"</string>
+
+    
+    <string name="card_title_incoming_vt_call">Saapuva videopuhelu</string>
+
+    
+    <string name="voicemail_settings_for">Asetukset kohteelle <xliff:g id="provider_name">%s</xliff:g></string>
+
+    
+    <string name="sip_call_options_title_single_sim">Internet-puheluvalinnat</string>
+
+    
+    <string name="description_search_button">"Haku"</string>
+
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (automaattinen)</item>
+        <item>Vain 3G</item>
+        <item>Vain 2G</item>
+    </string-array>
+    
+
+    <string-array name="umts_network_preferences_choices">
+        <item>2G/3G (automaattinen)</item>
+        <item>Vain 3G</item>
+    </string-array>
+
+    
+
+    
+    
+    
+    
+    <string-array name="lte_usim_prefer_network_mode_choices">
+        <item>4G/3G/2G (Automaattinen)</item>
+        <item>3G/2G (Automaattinen)</item>
+        <item>Vain 2G</item>
+    </string-array>
+        <string-array name="lte_usim_prefer_network_mode_values">
+        <item>"9"</item>
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+
+    <string-array name="lte_sim_prefer_network_mode_choices">
+        <item>3G/2G (Automaattinen)</item>
+        <item>Vain 2G</item>
+    </string-array>
+        <string-array name="lte_sim_prefer_network_mode_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <string name="cipher_indication_notification_title">Ei äänisalausta</string>
+    <string name="cipher_indication_notification_message">Verkko on kytkenyt äänisalauksen pois päältä</string>
+
+    
+    <string name="network_type">Verkkotyyppi</string>
+    <string name="network_type_2g">2G</string>
+    <string name="network_type_3g">3G</string>
+    <string name="network_type_4g">"4G"</string>
+    
+    
+
+    <string name="cancel">"Peruuta"</string>
+</resources>

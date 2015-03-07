@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Wi-Fi security choices used when manually added a Wi-Fi network -->  
+    <string-array name="wifi_security"> 
+        <!-- The Wi-Fi network does not have any security. -->  
+        <item>@string/wifi_security_none</item>  
+        <!-- Do not translate. -->  
+        <item>WEP</item> 
+        <item>@string/wifi_security_psk_generic</item>  
+        <item>@string/wifi_security_eap</item>  
+        <item>WAPI PSK</item>  
+        <item>វិញ្ញាបនប័ត្រ WAPI</item> 
+    </string-array>  
+    <!-- Do not translate.-->  
+    <string-array name="wifi_security_wfa"> 
+        <item>@string/wifi_security_none</item>
+        <item>WEP</item>  
+        <item>WPA PSK</item>  
+        <item>WPA2 PSK</item>  
+        <item>802.1x EAP</item>  
+        <item>WAPI PSK</item>  
+        <item>វិញ្ញាបនប័ត្រ WAPI</item> 
+    </string-array>  
+    <string-array name="wifi_ap_channel_width" translatable="false"> 
+        <item>20 MHz</item>  
+        <item>20/40 MHz ស្វ័យប្រវត្តិ</item> 
+    </string-array>  
+    <!-- Wi-Fi settings.  The type of security a Wi-Fi network has. -->  
+    <string-array name="wpa_security"> 
+        <!-- The Wi-Fi network does not have any security. -->  
+        <item>បើក</item>  
+        <!-- Do not translate. -->  
+        <item>WEP</item>  
+        <!-- Do not translate. -->  
+        <item>WPA/WPA2 PSK</item>  
+        <!-- Do not translate. -->  
+        <item>802.1x EAP</item> 
+    </string-array>  
+    <string-array name="wpa_security_wfa"> 
+        <item>បើក</item>  
+        <!-- Do not translate. -->  
+        <item>WEP</item>  
+        <!-- Do not translate. -->  
+        <item>WPA PSK</item>  
+        <!-- Do not translate. -->  
+        <item>WPA2 PSK</item>  
+        <!-- Do not translate. -->  
+        <item>802.1x EAP</item> 
+    </string-array>  
+    <!-- Wi-Fi settings.  The type of security a Wi-Fi network has. -->  
+    <string-array name="wapi_security"> 
+        <!-- The Wi-Fi network does not have any security. -->  
+        <item>បើក</item>  
+        <!-- Do not translate. --> 
+        <item>WAPI PSK</item> 
+        <item>វិញ្ញាបនប័ត្រ​ WAPI</item>
+    </string-array>  
+    <!-- Match this with the constants in AccessPoint. -->  
+    <skip/>  
+    <!-- Wi-Fi security types for New User Dialog. EAP is not configurable. -->  
+    <string-array name="wifi_security_no_eap"> 
+        <!-- The Wi-Fi network does not have any security. -->  
+        <item>@string/wifi_security_none</item>  
+        <!-- Do not translate. -->  
+        <item>@string/wifi_security_wep</item>  
+        <!-- Do not translate. -->  
+        <item>@string/wifi_security_psk_generic</item> 
+    </string-array>  
+
+    <skip/>  
+  
+    <!-- Add by MTK SIM Management Settings-->  
+    <!-- SIM number display format -->  
+    <string-array name="gemini_sim_info_number_display_format_entries"> 
+        <item>4 ខ្ទង់ដំបូង</item>  
+        <item>4 ខ្ទង់ចុងក្រោយ</item>  
+        <item>មិនត្រូវបង្ហាញទេ</item> 
+    </string-array>  
+    <!-- Show roaming reminder  -->  
+    <string-array name="gemini_sim_roaming_reminder_entries"> 
+        <item>ម្តង</item>  
+        <item>ជានិច្ចកាល</item>  
+        <item>មិនដែល</item> 
+    </string-array>  
+    <!-- GSM/UMTS Options strings -->  
+    <string-array name="gsm_umts_network_preferences_choices"> 
+        <item>GSM/WCDMA (ម៉ូដស្វ័យប្រវត្តិ)</item>  
+        <item>តែ WCDMA</item>  
+        <item>តែ GSM</item> 
+    </string-array>  
+    <!-- End of Sim Management Settings-->  
+    <string-array name="network_use_entry"> 
+        <item>សម្រាប់តែនៅផ្ទះ</item>  
+        <item>នៅផ្ទះ + រ៉ូមិង</item> 
+    </string-array>  
+    <!--Add for MTK DateTime Settings-->  
+    <!-- For auto time sync values -->  
+    <string-array name="auto_time_entries"> 
+        <item>ប្រើបណ្តាញដែលមានប្រាប់ម៉ោង</item>  
+        <item>ប្រើ GPS ដែលមានប្រាប់ម៉ោង</item>  
+        <item>បិទ</item> 
+    </string-array>  
+    <!--End of MTK DateTime Settings-->  
+    <!-- Wi-Fi settings.  Use a sim slot to do EAP-SIM authentication. -->  
+	<string-array name="sim_slot">
+		<item>(មិនបញ្ជាក់)</item>
+		<item>Sim ប្រឡោះ 1</item>
+		<item>Sim ប្រឡោះ 2</item>
+	</string-array> 
+    <!-- WEP password type -->  
+    <string-array name="wifi_WEP_security_type"> 
+        <item>ស្វ័យប្រវត្តិ</item>  
+        <!-- Do not translate. -->  
+        <item>WEP ASCII</item>  
+        <item>WEP ទសភាពប្រាំមួយខ្ទង់</item> 
+    </string-array>  
+    <!-- keep Wi-Fi hotspot on. Presented as a list dialog to the user to choose the Wi-Fi hotspot disable policy. -->  
+    <string-array name="wifi_hotspot_disable_policy_entries"> 
+        <!-- Always keep Wi-Fi on when screen turns off. -->  
+        <item>ជានិច្ចកាល</item>  
+        <!-- Keep Wi-Fi on when screen turns off and plugged in.  When on battery, go to sleep when screen turns off. -->  
+        <item>ត្រូវបិទ ពេលទុកចោលចំនួន 5 នាទី</item>  
+        <!-- Do not keep Wi-Fi on when screen turns off. -->  
+        <item>ត្រូវបិទ ពេលទុកចោលចំនួន 10 នាទី</item> 
+    </string-array> 
+    <string-array name="wifi_ap_wps_mode_entries"> 
+        <item>ចុចប៊ូតុង</item>  
+        <item>PIN ពីអតិថិជន</item> 
+    </string-array>  
+    <string-array name="wifi_ap_max_connection_entries"> 
+        <item>អ្នកប្រើ 1 នាក់</item>  
+        <item>អ្នកប្រើ 2 នាក់</item> 
+        <item>អ្នកប្រើ 3 នាក់</item> 
+        <item>អ្នកប្រើ 4 នាក់</item> 
+        <item>អ្នកប្រើ 5 នាក់</item> 
+        <item>អ្នកប្រើ 6 នាក់</item> 
+        <item>អ្នកប្រើ 7 នាក់</item> 
+        <item>អ្នកប្រើ 8 នាក់</item> 
+    </string-array>
+    <string-array name="wfd_720p_resolution_entry">
+        <item>720p (60 ស៊ុម/វិ.)</item>
+        <item>﻿720p (30 ស៊ុម/វិ.)</item>
+    </string-array>
+    <string-array name="wfd_1080p_resolution_entry">
+        <item>1080p (30 ស៊ុម/វិ.)</item>
+        <item>720p (60 ស៊ុម/វិ.)</item>
+        <item>720p (30 ស៊ុម/វិ.)</item>
+    </string-array>
+    <string-array name="mouse_primary_button_titles">
+        <item>កូន​កណ្ដុរ​ខាង​ស្ដាំ​ដៃ</item>
+        <item>កូន​កណ្ដុរ​ខាង​ឆ្វេង​ដៃ</item>
+    </string-array>
+</resources>

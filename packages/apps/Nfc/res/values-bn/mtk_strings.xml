@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="mtk_notification_string">সেটিংয়ের বিস্তারিত দেখতে স্পর্শ করুন</string>
+    <string name="mtk_beam_cancel_title">ট্রান্সফার বাতিল করুন</string>    
+    <string name="mtk_beam_cancel">আপনি কি নিশ্চিত আপনি ইনকামিং ট্রান্সফার বাতিল করতে চান?</string>
+    <string name="mtk_yes">"হ্যা"</string>
+    <string name="mtk_no">না</string>
+    <string name="mtk_se_sim1">সিম১</string>
+    <string name="mtk_se_sim2">সিম২</string>
+    <string name="mtk_se_ssd">স্মার্ট এসডি কার্ড</string>
+    <string name="mtk_se_ese">প্রথিত এসই</string>
+    <string name="mtk_se_na">"কোন নিরাপত্তা উপকরণ নেই। এনএফসি কার্ড ইমুলেশন বন্ধ করা হবে।"</string>
+    <string name="mtk_se_alt">" পাওয়া যাচ্ছে না। আপনি কি চলে যেতে চান "</string>
+    <string name="mtk_nfc_card_emulation">এনএফসি কার্ড ইমুলেশন</string>
+    
+<string name="mtk_disallow_in_wfd">ওয়্যারলেস ডিসপ্লের সময় এ কার্যক্রম পরিচালনা করা যাবে না</string>
+    <string name="mtk_disallow_in_wfd_KK">স্ক্রিন কাস্টের সময় এ কার্যক্রম পরিচালনা করা যাবে না</string>
+    </resources>

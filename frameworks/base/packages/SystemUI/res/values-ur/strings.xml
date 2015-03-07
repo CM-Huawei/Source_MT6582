@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label" msgid="4489004083283879149">اسٹیٹس بار</string>
+    <string name="status_bar_clear_all_button" msgid="7774721344716731603">صاف کرنا</string>
+    <string name="status_bar_no_notifications_title" msgid="4755261167193833213">کوئی اطلاعات نہیں</string>
+    <string name="status_bar_ongoing_events_title" msgid="1682504513316879202">چل رہا ہے</string>
+    <string name="status_bar_latest_events_title" msgid="6594767438577593172">اطلاعات</string>
+    <string name="battery_low_title" msgid="7923774589611311406">برائے مہربانی چارجر لگائیں</string>
+    <string name="battery_low_subtitle" msgid="7388781709819722764">بیٹری ختم ہوری ہے:</string>
+    <string name="battery_low_percent_format" msgid="696154104579022959"><xliff:g id="نمبر">%d%%</xliff:g> یا اسے سے بھی کم باقی ہے۔</string>
+    <string name="battery_low_why" msgid="7279169609518386372">بیٹری کا استعمال</string>
+    <string name="usb_accessory_permission_prompt">USB اضافی پر رسائی کرنے کے لئے %1$s ایپلی کیشن کو اجازت دیں؟ </string>
+    <string name="usb_device_confirm_prompt">جب یہ USB آلہ متصل ہو تو %1$s کھولیں؟ </string>
+    <string name="usb_accessory_confirm_prompt">جب یہ USB اضافی متصل ہوتو %1$s کھولیں؟</string>
+    <string name="usb_accessory_uri_prompt" msgid="6332150684964235705">اس USB اضافی کیذریعہ کوئی بھی انسٹال شدہ ایپلی کیشن کام نہیں کرتی ہے۔ <xliff:g id="url">%1$s</xliff:g> پر اس اضافی کے حوالے سے مزید معلومات حاصل کریں</string>
+    <string name="title_usb_accessory" msgid="4966265263465181372">USB اضافی</string>
+    <string name="label_view" msgid="6304565553218192990">دیکھنا</string>
+    <string name="always_use_accessory" msgid="1210954576979621596">اس USB اضافی کے لئے بنیادی طور پر استعمال کریں</string>
+    <string name="data_usage_disabled_dialog_3g_title">2G-3G ڈیٹا غیرفعال</string>  
+    <string name="data_usage_disabled_dialog_4g_title">4G ڈيٹا غیرفعال</string>  
+    <string name="data_usage_disabled_dialog_mobile_title">موبائل ڈيٹا غیرفعال</string>  
+    <string name="data_usage_disabled_dialog_title">ڈیٹا غیرفعال</string>  
+    <string name="data_usage_disabled_dialog">آپ واضح کردہ ڈيٹا کے استعمال کی حد تک پہنچ گئے ہیں۔\n\nڈیٹا دوبارہ فعال کرنے کی صورت میں ممکن ہے کہ آپ پر آپریٹر کی طرف سے اخراجات کا اطلاق ہو۔</string>  
+    <string name="data_usage_disabled_dialog_enable">ڈیٹا دوبارہ فعال کریں</string>
+    <string name="status_bar_no_recent_apps">کوئی حالیہ اطلاقات نہیں</string>  
+    <string name="screenshot_saving_ticker">اسکرین شاٹ محفوظ کیا جارہا ہے\u2026</string>  
+    <string name="screenshot_saving_title">اسکرین شاٹ محفوظ کیا جارہا ہے\u2026</string>  
+    <string name="screenshot_saving_text">اسکرین شاٹ محفوظ کیا جارہا ہے۔</string>  
+    <string name="screenshot_saved_title">اسکرین شاٹ لے لیا گیا۔</string>  
+    <string name="screenshot_saved_text">اپنا اسکرین شاٹ دیکھنے کیلئے چھوئیں۔</string>  
+    <string name="screenshot_failed_title">اسکرین شاٹ نہیں لیا جاسکتا۔</string>  
+    <string name="screenshot_failed_text">اسکرین شاٹ محفوظ نہیں کیا جاسکتا۔ اسٹوریج زیر استعمال ہوسکتا ہے۔</string> 
+    <string name="status_bar_recent_remove_item_title">فہرست سے خارج کریں</string>
+    <string name="status_bar_recent_inspect_item_title">ایپ کی معلومات</string>
+    <string name="status_bar_accessibility_dismiss_recents">حالیہ اطلاقات کو برخاست کریں</string>
+    <plurals name="status_bar_accessibility_recent_apps">
+     <item quantity="one">1 حالیہ اطلاق</item>
+     <item quantity="other">%d حالیہ اطلاقات</item>
+   </plurals>
+    <string name="invalid_charger">USB چارجنگ معاون نہیں ہے۔\nصرف فراہم کردہ چارجر استعمال کریں۔</string>
+    <string name="status_bar_settings_settings_button">"ترتیبات"</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_airplane">طیارے کی وضع</string>
+    <string name="status_bar_settings_auto_rotation">خودکار طور پر اسکرین گھمائيں</string>
+    <string name="status_bar_settings_mute_label">خاموش</string>
+    <string name="status_bar_settings_auto_brightness_label">خودکار</string>
+    <string name="status_bar_settings_notifications">اطلاعات</string>
+    <string name="status_bar_network_name_separator" product="default">" \u2014 "</string>
+    <string name="bluetooth_tethered">Bluetooth جوڑ دیا گیا</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">اندراج کے طریقے تشکیل دیں</string>
+    <string name="status_bar_use_physical_keyboard">حقیقی کی بورڈ</string>
+    <string name="usb_device_permission_prompt">اطلاق کو <xliff:g id="application">%1$s</xliff:g> USB آلہ تک رسائی حاصل ہے؟</string>
+    <string name="always_use_device">اس USB آلے کیلئے بطور ڈیفالٹ استعمال کریں</string>
+    <string name="usb_debugging_title">USB ڈیبگنگ کی اجازت دیں؟</string>
+    <string name="usb_debugging_message">کمپیوٹر کے RSA کلید کا فنگر پرنٹ ہے:\n<xliff:g id="fingerprint">%1$s</xliff:g></string>
+    <string name="usb_debugging_always">اس کمپیوٹر سے ہمیشہ اجازت دیں</string>
+    <string name="compat_mode_on">اسکرین بھرنے کیلئے  زوم کریں</string>
+    <string name="compat_mode_off">اسکرین بھرنے کیلئے پھیلائیں</string>
+    <string name="usb_preference_title">USB فائل کی منتقلی کے اختیارات</string>
+    <string name="use_mtp_button_title">بطور میڈیا پلیئر لگائیں (MTP)</string>
+    <string name="use_ptp_button_title">بطور کیمرا لگائیں (PTP)</string>
+    <string name="installer_cd_button_title">Mac کیلئے Android فائل ٹرانسفر اطلاق نصب کریں</string>
+    <string name="accessibility_back">واپس</string>
+    <string name="accessibility_home">ہوم اسکرین</string>
+    <string name="accessibility_menu">آپریشن</string>
+    <string name="accessibility_recent">حالیہ اطلاقات</string>
+    <string name="accessibility_search_light">تلاش</string>
+    <string name="accessibility_camera_button">"کیمرہ"</string>
+    <string name="accessibility_ime_switch_button">اندراج کا طریقہ تبدیل کرنے والا بٹن۔</string>
+    <string name="accessibility_compatibility_zoom_button">موافق زوم والا بٹن۔</string>
+    <string name="accessibility_compatibility_zoom_example">چھوٹے سے بڑے اسکرین میں  زوم کریں۔</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth جڑ گیا۔</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth منقطع ہوگیا۔</string>
+    <string name="accessibility_no_battery">بیٹری نہیں۔</string>
+    <string name="accessibility_battery_one_bar">بیٹری کا ایک بار۔</string>
+    <string name="accessibility_battery_two_bars">بیٹری کے دو بارس۔</string>
+    <string name="accessibility_battery_three_bars">بیٹری کے تین بارس۔</string>
+    <string name="accessibility_battery_full">بیٹری پوری ہوگئی۔</string>
+    <string name="accessibility_no_phone">کوئی فون نہیں۔</string>
+    <string name="accessibility_phone_one_bar">فون کا ایک بار۔</string>
+    <string name="accessibility_phone_two_bars">فون کے دو بارز۔</string>
+    <string name="accessibility_phone_three_bars">فون کے تین بارز۔</string>
+    <string name="accessibility_phone_signal_full">فون سگنل پورا ہے۔</string>
+    <string name="accessibility_no_data">کوئی ڈیٹا نہیں۔</string>
+    <string name="accessibility_data_one_bar">ڈیٹا کا ایک بار۔</string>
+    <string name="accessibility_data_two_bars">ڈیٹا کے دو بارز۔</string>
+    <string name="accessibility_data_three_bars">فون کے تین بارز۔</string>
+    <string name="accessibility_data_signal_full">ڈیٹا سگنل پورا ہے۔</string>
+    <string name="accessibility_wifi_off">Wifi بند ہے۔</string>
+    <string name="accessibility_no_wifi">Wifi منقطع ہوگیا ہے۔</string>
+    <string name="accessibility_wifi_one_bar">Wifi کا ایک بار۔</string>
+    <string name="accessibility_wifi_two_bars">Wifi کے دو بارز۔</string>
+    <string name="accessibility_wifi_three_bars">Wifi کے تین بارز۔</string>
+    <string name="accessibility_wifi_signal_full">WiFi کا پورا سگنل۔</string>
+    <string name="accessibility_no_wimax">WiMAX نہیں ہے۔</string>
+    <string name="accessibility_wimax_one_bar">WiMAX کا ایک بار۔</string>
+    <string name="accessibility_wimax_two_bars">WiMAX کے دو بارس۔</string>
+    <string name="accessibility_wimax_three_bars">WiMAX کے تین بارس۔</string>
+    <string name="accessibility_wimax_signal_full">WiMAX کا پورا سگنل۔</string>
+    <string name="accessibility_no_signal">کوئی اشارہ نہیں ہے۔</string>
+    <string name="accessibility_not_connected">مربوط نہیں ہے۔</string>
+    <string name="accessibility_zero_bars">صفر بارز۔</string>
+    <string name="accessibility_one_bar">ایک بار۔</string>
+    <string name="accessibility_two_bars">دو بارز۔</string>
+    <string name="accessibility_three_bars">تین بارز۔</string>
+    <string name="accessibility_signal_full">اشارہ پورا ہے۔</string>
+    <string name="accessibility_desc_on">چالو۔</string>
+    <string name="accessibility_desc_off">بند۔</string>
+    <string name="accessibility_desc_connected">مربوط۔</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1 X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_4g">4G ترتیبات</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">گشت</string>
+    <string name="accessibility_data_connection_edge">کنارا</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">SIM نہیں ہے۔</string>
+    <string name="accessibility_bluetooth_tether">Bluetooth جوڑنا۔</string>
+    <string name="accessibility_airplane_mode">طیارے کی وضع۔</string>
+    <string name="accessibility_battery_level">بیٹری <xliff:g id="number">%d</xliff:g>  فیصد۔</string>
+    <string name="accessibility_settings_button">سسٹم کی ترتیبات۔</string>
+    <string name="accessibility_notifications_button">اطلاعات۔</string>
+    <string name="accessibility_remove_notification">اطلاع ختم کریں۔</string>
+    <string name="accessibility_gps_enabled">GPS فعال۔</string>
+    <string name="accessibility_gps_acquiring">GPS حاصل کیا جارہا ہے۔</string>
+    <string name="accessibility_tty_enabled">ٹیلی ٹائپ رائٹر فعال کردیا گیا۔</string>
+    <string name="accessibility_ringer_vibrate">گھنٹی لرزش پر۔</string>
+    <string name="accessibility_ringer_silent">گھنٹی خاموش پر۔</string>
+    <string name="accessibility_recents_item_dismissed"><xliff:g id="app" example="Calendar">%s</xliff:g> برخاست۔</string>
+    <string name="accessibility_notification_dismissed">اطلاع ضائع ہوگئی۔</string>
+    <string name="accessibility_desc_notification_shade">اطلاع کا شیڈ۔</string>
+    <string name="accessibility_desc_quick_settings">فوری ترتیبات۔</string>
+    <string name="accessibility_desc_recent_apps">حالیہ اطلاقات۔</string>
+    <string name="accessibility_quick_settings_user">صارف <xliff:g id="user" example="JohnDoe">%s</xliff:g>۔</string>
+    <string name="accessibility_quick_settings_wifi"><xliff:g id="signal" example="Threebars">%1$s</xliff:g>. <xliff:g id="network" example="MyWifiNetwork">%2$s</xliff:g></string>
+    <string name="accessibility_quick_settings_mobile">موبائل <xliff:g id="signal" example="Threebars">%1$s</xliff:g>. <xliff:g id="type" example="4G">%2$s</xliff:g>. <xliff:g id="network" example="T-Mobile">%3$s</xliff:g>.</string>
+    <string name="accessibility_quick_settings_battery">بیٹری <xliff:g id="state" example="50%charging">%s</xliff:g>۔</string>
+    <string name="accessibility_quick_settings_airplane">ہوائی جہاز کا طرز <xliff:g id="state" example="Off">%s</xliff:g>۔</string>
+    <string name="accessibility_quick_settings_bluetooth">بلوٹوتھ <xliff:g id="state" example="Off">%s</xliff:g>۔</string>
+    <string name="accessibility_quick_settings_alarm"><xliff:g id="time" example="Wed3:30PM">%s</xliff:g> بجے کا الارم طے کریں۔</string>
+    <string name="status_bar_settings_signal_meter_disconnected">کوئی انٹرنیٹ کنکشن نہیں</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi جڑ گیا</string>
+    <string name="gps_notification_searching_text">GPS کی تلاش کی جارہی ہے</string>
+    <string name="gps_notification_found_text">GPS کے ذریعہ متعین کردہ مقام</string>
+    <string name="accessibility_location_active">مقام کی درخواستیں فعال ہیں</string>
+    <string name="accessibility_clear_all">تمام اطلاعات مٹائیں۔</string>
+    <string name="status_bar_notification_inspect_item_title">ایپ کی معلومات</string>
+    <string name="accessibility_rotation_lock_off">اسکرین خودبخود گھوم جائے گا۔</string>
+    <string name="accessibility_rotation_lock_on_landscape">اسکرین لینڈاسکیپ رخ پر لاک ہے۔</string>
+    <string name="accessibility_rotation_lock_on_portrait">اسکرین پورٹریٹ رخ پر لاک ہے۔</string>
+    <string name="dessert_case">ڈیزرٹ کیس</string>
+    <string name="start_dreams">اسکرین کینڈی</string>
+    <string name="ethernet_label">ایتھرنیٹ</string>
+    <string name="quick_settings_airplane_mode_label">ہوائی جہاز وضع</string>
+    <string name="quick_settings_battery_charging_label">چارج کررہا ہے (<xliff:g id="نمبر">%d</xliff:g><xliff:g id="پرسنٹ">%%</xliff:g>)</string>
+    <string name="quick_settings_battery_charged_label">چارج ہوگیا</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">بلوٹوتھ (<xliff:g id="number">%d</xliff:g> آلات)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth آف ہے</string>
+    <string name="quick_settings_brightness_label">اجلا پن</string>
+    <string name="quick_settings_rotation_unlocked_label">از خود گھمائیں</string>
+    <string name="quick_settings_rotation_locked_label">گردش مقفل ہوگئی</string>
+    <string name="quick_settings_ime_label">اندراج کا طریقہ</string>
+    <string name="quick_settings_location_label">مقام تک رسائی</string>
+    <string name="quick_settings_location_off_label">مقام آف</string>
+    <string name="quick_settings_media_device_label">میڈيا آلہ (MTP)</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">صرف ایمرجنسی کالیں</string>
+    <string name="quick_settings_settings_label">"ترتیبات"</string>
+    <string name="quick_settings_time_label">وقت</string>
+    <string name="quick_settings_user_label">میں</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">مربوط نہیں ہے</string>
+    <string name="quick_settings_wifi_no_network">کوئی نیٹ ورک نہیں ہے</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi بند</string>
+    <string name="quick_settings_wifi_display_label">Wi-Fi ڈسپلے</string>
+    <string name="quick_settings_wifi_display_no_connection_label">وائرلیس ڈسپلے</string>
+    <string name="quick_settings_brightness_dialog_title">اجلا پن</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">خودکار</string>
+    <string name="ssl_ca_cert_warning">نیٹ ورک کی نگرانی کی جاسکتی ہے</string>
+</resources>

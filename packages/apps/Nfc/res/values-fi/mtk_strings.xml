@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="mtk_notification_string">Kosketa näyttääksesi yksityiskohtaiset asetukset</string>
+    <string name="mtk_beam_cancel_title">Peru siirto</string>    
+    <string name="mtk_beam_cancel">Haluatko varmasti perua saapuvan siirron?</string>
+    <string name="mtk_yes">"Kyllä"</string>
+    <string name="mtk_no">"Ei"</string>
+    <string name="mtk_se_sim1">SIM1</string>
+    <string name="mtk_se_sim2">SIM2</string>
+    <string name="mtk_se_ssd">Älykäs SD-kortti</string>
+    <string name="mtk_se_ese">Upotettu SE</string>
+    <string name="mtk_se_na">"Ei käytettävissä olevia turvallisuuselementtejä. NFC-kortin emulointi kytketään pois päältä."</string>
+    <string name="mtk_se_alt">" ei ole käytettävissä. Haluatko vaihtaa kohteeseen "</string>
+    <string name="mtk_nfc_card_emulation">NFC-kortin emulointi</string>
+    
+<string name="mtk_disallow_in_wfd">Tätä toimintaa ei voi tehdä langattomalla näytöllä</string>
+    <string name="mtk_disallow_in_wfd_KK">Tätä toimintaa ei voi tehdä heijastetulla näytöllä</string>    
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0  
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/VTInCallCanvas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- High vidoe part -->
+        <RelativeLayout
+            android:id="@+id/VTHighVideoContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+        
+            <com.mediatek.incallui.vt.VTSurfaceView
+                android:id="@+id/VTHighVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/vt_incall_screen_button_interval"/>
+        
+            <ImageButton
+                android:id="@+id/VTHighUp"
+                android:layout_width="@dimen/vt_incall_screen_image_button_width"
+                android:layout_height="@dimen/vt_incall_screen_image_button_height"
+                android:layout_alignStart="@id/VTHighVideo"
+                android:layout_alignTop="@id/VTHighVideo"
+                android:layout_marginStart="@dimen/vt_incall_screen_high_video_image_button_margin_edge"
+                android:layout_marginTop="50dp" />
+        
+            <ImageButton
+                android:id="@+id/VTHighDown"
+                android:layout_width="@dimen/vt_incall_screen_image_button_width"
+                android:layout_height="@dimen/vt_incall_screen_image_button_height"
+                android:layout_alignBottom="@id/VTHighVideo"
+                android:layout_alignStart="@id/VTHighVideo"
+                android:layout_marginBottom="50dp"
+                android:layout_marginStart="@dimen/vt_incall_screen_high_video_image_button_margin_edge" />
+        
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:background="@android:color/black">
+
+        <!-- Low video part -->
+        <RelativeLayout
+            android:id="@+id/VTLowVideoContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/vt_incall_screen_button_interval"
+            android:layout_marginTop="@dimen/vt_incall_screen_button_interval"
+            android:background="@android:color/black">
+  
+            <com.mediatek.incallui.vt.VTSurfaceView
+                android:id="@+id/VTLowVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:visibility="invisible"/>
+            <ImageButton
+                android:id="@+id/VTLowUp"
+                android:layout_width="@dimen/vt_incall_screen_image_button_height"
+                android:layout_height="@dimen/vt_incall_screen_image_button_height"
+                android:layout_alignStart="@id/VTLowVideo"
+                android:layout_alignTop="@id/VTLowVideo"
+                android:layout_marginStart="@dimen/vt_incall_screen_low_video_image_button_margin_edge"
+                android:layout_marginTop="@dimen/vt_incall_screen_low_video_image_button_margin_edge" />
+  
+            <ImageButton
+                android:id="@+id/VTLowDown"
+                android:layout_width="@dimen/vt_incall_screen_image_button_height"
+                android:layout_height="@dimen/vt_incall_screen_image_button_height"
+                android:layout_alignBottom="@id/VTLowVideo"
+                android:layout_alignStart="@id/VTLowVideo"
+                android:layout_marginBottom="@dimen/vt_incall_screen_low_video_image_button_margin_edge"
+                android:layout_marginStart="@dimen/vt_incall_screen_low_video_image_button_margin_edge" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

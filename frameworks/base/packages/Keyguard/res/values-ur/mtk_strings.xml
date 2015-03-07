@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Clock -->
+    <string name="keyguard_domestic_zone_name">بیجنگ</string>
+    <!-- GlowPadView -->
+    <!-- PowerOffAlarm -->
+    <string name="every_day">روزانہ</string>
+    <string name="never">کبھی نہيں</string>
+    <string name="day_concat">", "</string>
+    <string name="default_label">الارم</string>
+    <string name="voiceui_notify_string">آپ کہہ سکتے ہیں</string>
+    <string name="voiceui_control_poweroff_alarm">پاور آف الارم کنٹرول کرنے کیلئے</string>
+    <string name="voiceui_or">یا</string>
+    <string name="keyguard_accessibility_alarm_unlock">پاور آف الارم</string>
+    <string name="alarm_alert_dismiss_text">برخاست کرنا</string>
+    <string name="alarm_alert_snooze_text">اسنوز</string>
+    <!-- Telephony -->
+    <string name="keyguard_password_entering_puk_code">PUK کوڈ داخل کریں</string>
+    <string name="keyguard_password_wrong_puk_code">غلط PUK کوڈ!</string>
+    <string name="invalidPuk">8 عدد انپٹ کریں۔</string>
+    <string name="pin_pass">کوڈ قبول ہوگیا</string>
+    <string name="keyguard_password_enter_new_pin_code">نئی PIN داخل کریں</string>
+    <string name="keyguard_password_Confirm_pin_code">نئی PIN کی تصدیق کرلیں</string>
+    <string name="sim_permanently_locked">10 مرتبہ سے زیادہ PUK کوڈ داخل کرنے سے SIM کارڈ ہمیشہ کے لئے بلاک کردیا جاتا ہے۔</string>
+    <string name="retries_left">باقی ہے: 
+        <xliff:g id="نمبر">%d</xliff:g> 
+    </string>
+    <string name="simlock_slot_locked_message">خانے کو مستقل طور پر لاک کردیا گیا ہے</string>
+    <string name="simlock_entersimmelock">SIM ME لاک درج کریں</string>
+    <string name="slot_id">سلاٹ <xliff:g id="number">%d</xliff:g>:</string>
+    <string name="new_simcard">نیا SIM کارڈ</string>
+    <string name="lockscreen_missing_sim_dialog_message">"SIM کارڈ ہٹا دیا گیا ہے۔ براہ کرم یہ یقینی بنائیں کہ آپ کا SIM کارڈ ٹھیک طرح سے لگا ہوا ہے۔"</string>
+    <string name="puk_pass">PIN غیر مسدود کردیا گیا</string>
+    <string name="sim_card_changed_dialog_title">SIM کارڈ بدل دیا گیا</string>
+    <string name="change_setting_for_onenewsim">نئی SIM کارڈ دریافت ہوئی۔ یہ بطور کے نشان زد ہے</string>
+    <string name="change_setting_for_twonewsim">نئی SIM کارڈ دریافت ہوئی۔ یہ بطور کے نشان زد ہیں</string>
+    <string name="sim_card_removed">SIM کارڈ ہٹا دیا گیا۔</string>
+    <string name="sim_card_swapped">SIM کارڈ تبدیل کردیا گیا۔</string>
+    <string name="change_settings">تبدیل کرنا</string>
+    <string name="keyguard_voice_call">وائس کال:</string>
+    <string name="keyguard_sms">پیغام رسانی:</string>
+    <string name="keyguard_data">ڈیٹا اتصال:</string>
+    <string name="dismiss">برخاست کرنا</string>
+    <string name="keyguard_wrong_code_input">غلط کوڈ۔</string>
+    <string name="keyguard_code_length_prompt">4-8 عدد انپٹ کریں۔</string>
+    <string name="keyguard_code_donnot_mismatch">مطابق نہ بنائیں۔</string>
+    <string name="network_searching">نیا نیٹ ورک تلاش کررہا ہے</string>
+    <string name="searching_simcard">دریافت کررہا ہے۔۔۔</string>
+    <string name="keyguard_close">بند</string>
+    <string name="default_sim_setting_prompt">اب بنیادی SIM ترتیبات ہیں:</string>
+    <string name="keyguard_video_call">ویڈیو کال:</string>
+    <string name="invalid_sim_title">غلط SIM کارڈ</string>
+    <string name="invalid_sim_message">UIM/SIM منظور شدہ نہیں ہیں</string>
+    <string name="lockscreen_sim_locked_message_short">SIM کارڈ بلاک</string>
+    <!-- UnreadEvent -->
+    <!-- Utils -->
+    <string name="keyguard_alwaysask">ہمیشہ پوچھیں</string>
+    <string name="keyguard_data_none">بند</string>
+    <string name="keyguard_sim_auto">خودکار</string>
+    <string name="keyguard_internal_call">داخلی کال</string>
+    <string name="keyguard_not_set">مرتب نہیں ہے</string>
+    <!-- VoiceUnlock -->
+    <string name="voice_unlock_service_error">آواز کو غیرمقفل کرنے کی خدمت کی خرابی۔</string>
+    <string name="voice_unlock_password_wrong">افسوس، آپ کی آواز شناخت نہیں کرسکتا۔</string>
+    <string name="voice_unlock_noisy">بہت زیادہ شور ہے لہذا آپ کی آواز صاف صاف نہیں سن سکتا۔</string>
+    <string name="voice_unlock_weak">آپ کی آواز نہیں سن سکتا۔</string>
+    <string name="voice_unlock_media_playing">میڈیا چلاتے وقت آواز کو غیرمقفل کرنا غیر فعال کردیا گیا ہے۔</string>
+    <string name="voiceunlock_multiple_failures">صوتی ان لاک کی زیادہ سے زیادہ کوششیں ہوچکیں</string>
+    <!-- DM Lock -->
+    <string name="dm_prompt">ٹرمنل پہلے ہی مقفل ہوگیا ہے</string>
+    <!-- Tablet -->
+    <string name="sd_accessing_swtich_user_title">صارف تبدیل کریں؟</string>
+    <string name="sd_accessing_swtich_user_message">مالک کے اکاؤنٹ کا سبھی غیر محفوظ ڈیٹا ختم یا ناقص ہوجائے گا۔</string>
+    <!-- Misc -->
+</resources>

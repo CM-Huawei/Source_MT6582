@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+     android:src="@drawable/mtk_op_stat_sys_phone_call_on_hold_blue_am"
+     android:autoMirrored="true">
+</bitmap>

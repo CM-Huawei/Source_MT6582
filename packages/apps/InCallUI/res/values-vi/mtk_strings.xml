@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="onscreenHangupAll">Kết thúc tất cả</string>
+    <string name="onscreenHangupHolding">Kết thúc giữ</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Kết thúc đang bật, đang đợi trả lời</string>
+    <string name="onscreenECT">Chuyển tiếp</string>
+
+    <string name="dm_lock">Đã khóa DM</string>
+    <string name="dm_unlock">Mở khóa DM</string>
+
+    <string name="mo_code_unconditional_cf_active">Chuyển tiếp c.gọi\nđã kích hoạt vô điều kiện</string>
+    <string name="mo_code_some_cf_active">Chuyển cuộc gọi có điều kiện</string>
+    <string name="mo_code_call_forwarded">Đã chuyển c.gọi</string>
+    <string name="mo_code_call_is_waiting">Đang chờ c.gọi</string>
+    <string name="mo_code_cug_call">Nhóm ng.dùng cố định</string>
+    <string name="mo_code_outgoing_calls_barred">Đã chặn cuộc gọi đi</string>
+    <string name="mo_code_incoming_calls_barred">Cuộc gọi đến bị chặn ở đầu bên kia</string>
+    <string name="mo_code_clir_suppression_rejected">Kiểm tra d.vụ gửi số người gọi</string>
+    <string name="mo_code_call_deflected">Đã chuyển c.gọi</string>
+    <string name="mt_code_forwarded_call">Đây là c.gọi bị lỗi</string>
+    <string name="mt_code_cug_call">Nhóm ng.dùng cố định</string>
+    <string name="mt_code_call_on_hold">C.gọi giữ</string>
+    <string name="mt_code_call_retrieved">Đã p.hồi c.gọi</string>
+    <string name="mt_code_multi_party_call">C.gọi hội nghị</string>
+    <string name="mt_code_on_hold_call_released">Đã thả c.gọi giữ</string>
+    <string name="mt_code_forward_check_received">Đã nhận ch.tiếp t.nhắn k.tra d.vụ bổ sung</string>
+    <string name="mt_code_call_connecting_ect">Đang chuyển c.gọi</string>
+    <string name="mt_code_call_connected_ect">Chuyển c.gọi đang bật</string>
+    <string name="mt_code_deflected_call">Đây là c.gọi bị lỗi</string>
+    <string name="mt_code_additional_call_forwarded">Đã chuyển cuộc gọi đến bổ sung</string>
+    <string name="mt_code_forwarded_cf">Đã chuyển c.gọi</string>
+    <string name="mt_code_forwarded_cf_uncond">Đã chuyển c.gọi vô điều kiện</string>
+    <string name="mt_code_forwarded_cf_cond">Đã chuyển c.gọi có điều kiện</string>
+    <string name="mt_code_forwarded_cf_busy">Đã chuyển c.gọi khi bận</string>
+    <string name="mt_code_forwarded_cf_no_reply">Đã chuyển c.gọi khi không trả lời</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Đã chuyển c.gọi khi ngoài v.p.sóng</string>
+    
+    <string name="start_record">Bắt đầu ghi âm</string>
+    <string name="stop_record">Dừng ghi âm</string>
+    <string name="str_db_playlist_name">Bản ghi âm riêng</string>
+    <string name="alert_device_error">Xảy ra lỗi trên thiết bị âm thanh</string>
+    <string name="ext_media_badremoval_notification_title">Đã tháo đột ngột thẻ SD</string>
+    <string name="error_sdcard_access">"Không thể truy cập thẻ SD"</string>
+    <string name="confirm_device_info_full">Thẻ SD hết dung lượng lưu trữ, bản ghi âm đã được lưu lại.</string>
+    <string name="confirm_save_info_saved">Bản ghi âm đã được lưu lại</string>
+    <string name="confirm_save_info_saved_to">Mục ghi đã được lưu vào</string>
+    
+    <string name="activity_not_found">Chưa cài đặt ứng dụng trên ĐT của bạn.</string>
+    <string name="confirm_3g_switch">Bạn chắc chắn muốn cài đặt dịch vụ 3G vào SIM này? Tùy chọn này cũng sẽ tự động cài SIM m.định cho c.gọi video sang SIM này.</string>
+    <string name="modem_switching">Chuyển đổi SIM sẽ mất khoảng 10 giây. Hãy đợi…</string>
+    <string name="confirm_3g_switch_to_off">Bạn chắc chắn muốn tắt dịch vụ 3G? Thao tác này cũng sẽ tự động tắt dịch vụ Gọi video.</string>
+    <string name="enable_3G_service">Bật 3G</string>
+    <string name="network_forbidden">Tắt</string>
+    <string name="plmn_list_setting_title">Ưu tiên</string>
+    <string name="plmn_list_setting_add_plmn">Thêm PDMN mới</string>
+    <string name="callFailed_dsac_vt_incompatible_destination">Không thể cài đặt cuộc gọi video. Điện thoại video không hỗ trợ trên điện thoại bạn đang gọi đến, gọi qua cuộc gọi thoại?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">Chưa cài đặt cuộc gọi video. Điện thoại bạn đã gọi đến nằm ngoài vùng phủ sóng 3G, gọi qua cuộc gọi thoại?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">Không thể cài đặt cuộc gọi video. Gọi qua cuộc gọi thoại?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">Điện thoại của bạn đang ngoài vùng phủ sóng dịch vụ 3G, gọi bằng gọi thoại?</string>
+    <string name="notification_voicemail">Thư thoại</string>
+    <string name="turn_on_3g_service_message">Dịch vụ 3G hiện tắt, bạn muốn bật nó?</string>
+    <string name="associate_sim_missing_message">"SIM %1$s không có sẵn. Bạn muốn thực hiện cuộc gọi qua %2$s?"</string>
+    <string name="associate_sim_missing_other">Khác</string>
+    
+    <string name="vt_settings">Cài đặt video</string>
+    <string name="vt_local_video_zoom">Zoom video nội bộ</string>
+    <string name="vt_local_video_brightness">Độ sáng video nội bộ</string>
+    <string name="vt_local_video_effect">H.ứng video nội bộ</string>
+    <string name="vt_local_video_nightmode">C.độ b.đêm video nội bộ</string>
+    <string name="vt_peer_video_quality">C.lượng video ng.hàng</string>
+    <string name="vt_incoming_showme_ask">Hỏi</string>
+    <string name="vt_call_settings">Cài đặt c.gọi video</string>
+    <string name="vt_pic_replace_local_default">Hình mặc định</string>
+    <string name="vt_pic_replace_local_freezeme">Đông lạnh tôi</string>
+    <string name="vt_pic_replace_local_mypic">Hình riêng</string>
+    <string name="vt_sd_null">Thẻ SD không có sẵn</string>
+    <string name="vt_sd_not_enough">Thẻ SD đã dùng hết d.lượng</string>
+    <string name="vt_peer_video_quality_normal">Chuẩn</string>
+    <string name="vt_ask_show_local">Hiển thị video nội bộ cần xem?</string>
+    <string name="vt_change_my_pic">Thay đổi</string>
+    <string name="vt_pic_saved_to_sd">Đã lưu ảnh chụp vào thẻ SD</string>
+    <string name="vt_pic_saved_to_sd_fail">Không thể lưu ảnh chụp</string>
+    <string name="vt_error_network">Không thể truy cập mạng. Sẽ ngắt kết nối cuộc gọi video.</string>
+    <string name="vt_error_media">Không thể hiển thị video thích hợp. Sẽ ngắt kết nối cuộc gọi video.</string>
+    <string name="vt_swap_video">Chuyển video</string>
+    <string name="vt_local_video_contrast">Độ t.phản video nội bộ</string>
+    <string name="vt_menu_switch">Bật/tắt camera</string>
+    <string name="vt_menu_hide_me">Ẩn video nội bộ</string>
+    <string name="vt_menu_show_me">Hiển thị video nội bộ</string>
+    <string name="vt_menu_snapshot">Ảnh chụp cùng mức</string>
+    <string name="vt_vocie_answer">Trả lời thoại</string>
+    <string name="vt_wait_voice">Đang đợi kết nối cuộc gọi thoại</string>
+    <string name="vt_voice_connecting">Kết nối c.gọi thoại</string>
+    <string name="vt_cannot_support_setting">Camera hiện hành không hỗ trợ cài đặt này</string>
+    <string name="vt_network_unreachable">Không thể truy cập mạng</string>
+    <string name="vt_iot_error_01">Không thể cài đặt cuộc gọi video</string>
+    <string name="vt_iot_error_02">Điện thoại đang bận</string>
+    <string name="vt_iot_error_03">Không có trả lời</string>
+    <string name="vt_iot_error_04">Mạng đang bận</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"Phơi sáng"</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">Phông trắng</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">Phông đen</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Nước</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Nâu lơ</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Nâu lục</string>
+    <string name="vt_peer_camera_open">Camera từ xa đang bật</string>
+    <string name="vt_peer_camera_close">Camera từ xa đã tắt</string>
+    <string name="vt_recorder_start">Bắt đầu ghi âm</string>
+    <string name="vt_recorder_voice_and_peer_video">Âm thanh và video ng.hàng</string>
+    <string name="vt_recorder_only_voice">Chỉ âm thanh</string>
+    <string name="vt_recorder_only_peer_video">Chỉ video ng.hàng</string>
+    <string name="vt_recording_saved">Đã lưu bản ghi âm.</string>
+    <string name="vt_recording_saved_sd_full">Thẻ SD hết dung lượng lưu trữ, bản ghi âm đã được lưu lại.</string>
+    <string name="vt_recording_error">Lỗi ghi âm.</string>
+    <string name="start_record_vt">Bắt đầu ghi âm</string>
+    <string name="stop_record_vt">Dừng ghi âm</string>
+    <string name="enable_sip_dialog_message">"Đã tắt gọi internet, bạn muốn bật?"</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">Chức năng gọi IP sẽ không áp dụng cho cuộc gọi qua internet.</string>
+    <string name="vt_addtional_call_description">Cài đặt số ĐT và chờ cuộc gọi</string>
+    <string name="sim_manage_sipcall">"Internet"</string>
+    <string name="sim_manage_call_via">Gọi qua</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> phút <xliff:g id="seconds" example="28">%2$s</xliff:g> giây</string>
+    <string name="reminder">Báo nhắc</string>
+    <string name="vt_media_occupied">Vì camera không có sẵn, nên không thể kết nối cuộc gọi video. Hãy k.tra xem có bất kỳ ứ.dụng nào khác đang dùng camera hay không.</string>
+    <string name="vt_media_video_fail">Không thể hiển thị video thích hợp. Đã ngắt kết nối cuộc gọi video</string>
+    <string name="incall_toast_unhold">Tiếp tục</string>
+
+</resources>

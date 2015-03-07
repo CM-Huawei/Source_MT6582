@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/vtCallButtonContainer"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginEnd="@dimen/vt_incall_screen_button_interval"
+        android:paddingLeft="@dimen/vt_incall_screen_button_margin_out"
+        android:background="@color/button_background"
+        android:visibility="gone">
+
+        <!-- This row contains 5 buttons:
+        VTDialpad / VTSpeaker / VTendButton / VTMute / VTSwapVideo(VTOverflowMenu)
+        the last button is VTSwapVideo when the device has physical key, and VTOverflowMenu for no physical key device.
+         -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <!-- "Dialpad" -->
+            <ToggleButton
+                android:id="@+id/VTDialpad"
+                android:layout_height="match_parent"
+                style="@style/InCallCompoundButton"
+                android:background="@drawable/mtk_btn_compound_dialpad_vt"
+                android:contentDescription="@string/onscreenShowDialpadText"/>
+            <!-- "Speaker" -->
+            <ImageButton
+                android:id="@+id/VTSpeaker"
+                android:layout_height="match_parent"
+                style="@style/InCallButton"
+                android:background="@drawable/mtk_btn_compound_audio_vt"
+                android:contentDescription="@string/onscreenAudioText"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <!-- "Mute" -->
+            <ToggleButton
+                android:id="@+id/VTMute"
+                android:layout_height="match_parent"
+                style="@style/InCallCompoundButton"
+                android:background="@drawable/mtk_btn_compound_mute_vt"
+                android:contentDescription="@string/onscreenMuteText"/>
+            <!-- "SwapVideo" or "OverflowMenu" -->
+            <ToggleButton
+                android:id="@+id/VTSwapVideo"
+                android:layout_height="match_parent"
+                style="@style/InCallCompoundButton"
+                android:background="@drawable/mtk_btn_compound_swap_video_vt"
+                android:contentDescription="@string/vt_swap_video"/>
+            <ImageButton
+                android:id="@+id/VTOverflowMenu"
+                android:layout_height="match_parent"
+                style="@style/InCallButton"
+                android:background="@drawable/mtk_btn_image_overflow_vt"
+                android:src="@drawable/mtk_ic_menu_overflow"
+                    />
+        </LinearLayout>
+
+        <!-- "Hangup" -->
+        <ImageButton
+            android:id="@+id/VTHangUp"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            style="@style/InCallButton"
+            android:background="@drawable/end_call_background"
+            android:contentDescription="@string/onscreenEndCallText"
+            android:src="@drawable/ic_end_call" />
+    </LinearLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="onscreenHangupAll">सभी फ़ोन काटें</string>
+    <string name="onscreenHangupHolding">होल्ड किए गए फ़ोन को काटें</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">चालू फ़ोन को काटें, प्रतीक्षा कर रहे का उत्तर दें</string>
+    <string name="onscreenECT">स्थानांतरण</string>
+
+    <string name="dm_lock">DM लॉक है</string>
+    <string name="dm_unlock">DM अनलॉक करें</string>
+
+    <string name="mo_code_unconditional_cf_active">कॉल अग्रेषण\nबगैर शर्त सक्रिय</string>
+    <string name="mo_code_some_cf_active">कॉल आगे भेजना\nस्थिति के अनुसार</string>
+    <string name="mo_code_call_forwarded">कॉल आगे भेजी गई</string>
+    <string name="mo_code_call_is_waiting">वेटिंग कॉल</string>
+    <string name="mo_code_cug_call">प्रयोक्‍ता समूह को बंद किया</string>
+    <string name="mo_code_outgoing_calls_barred">आउटगोइंग कॉल रोकी गई</string>
+    <string name="mo_code_incoming_calls_barred">इनकमिंग कॉल दूसरी तरफ़ बाधित हुआ</string>
+    <string name="mo_code_clir_suppression_rejected">कॉलर आईडी भेजने की सेवा की जांच करें</string>
+    <string name="mo_code_call_deflected">कॉल आगे भेजी गई</string>
+    <string name="mt_code_forwarded_call">यह एक मोड़ी गई कॉल है</string>
+    <string name="mt_code_cug_call">प्रयोक्‍ता समूह को बंद किया</string>
+    <string name="mt_code_call_on_hold">कॉल को रोके रखा गया</string>
+    <string name="mt_code_call_retrieved">कॉल दोबारा हुई</string>
+    <string name="mt_code_multi_party_call">कॉफ्रेंस कॉल</string>
+    <string name="mt_code_on_hold_call_released">रोकी गई कॉल आरंभ की गई</string>
+    <string name="mt_code_forward_check_received">फॉरवर्ड चैक एसएस संदेश प्राप्‍त हुआ</string>
+    <string name="mt_code_call_connecting_ect">कॉल ट्रांसफर हो रही है</string>
+    <string name="mt_code_call_connected_ect">कॉल ट्रांसफर सक्रिय</string>
+    <string name="mt_code_deflected_call">यह एक मोड़ी गई कॉल है</string>
+    <string name="mt_code_additional_call_forwarded">अतिरिक्‍त इनकमिंग कॉल को आगे भेजा गया</string>
+    <string name="mt_code_forwarded_cf">कॉल आगे भेजी गई</string>
+    <string name="mt_code_forwarded_cf_uncond">कॉल को बिना शर्त आगे भेजा गया</string>
+    <string name="mt_code_forwarded_cf_cond">कॉल आगे भेजी गई स्थिति के अनुसार</string>
+    <string name="mt_code_forwarded_cf_busy">कॉल व्‍यस्‍त को आगे भेजा गया</string>
+    <string name="mt_code_forwarded_cf_no_reply">उत्तर न मिलने पर कॉल आगे भेजी गई</string>
+    <string name="mt_code_forwarded_cf_not_reachable">पहुंच योग्‍य न होने पर कॉल आगे भेजी गई</string>
+    
+    <string name="start_record">रिकॉर्डिंग आरंभ करें</string>
+    <string name="stop_record">रिकॉर्डिंग रोकें</string>
+    <string name="str_db_playlist_name">मेरी रिकॉर्डिंग</string>
+    <string name="alert_device_error">ऑडियो डिवाइस पर त्रुटि हुई</string>
+    <string name="ext_media_badremoval_notification_title">एसडी कार्ड अचानक निकाला गया</string>
+    <string name="error_sdcard_access">यूएसबी स्‍टोरेज तक एक्‍सेस करने में अक्षम</string>
+    <string name="confirm_device_info_full">SD कार्ड में जगह खत्म हो गई है, रिकॉर्ड सहेज लिया गया है</string>
+    <string name="confirm_save_info_saved">रिकॉर्ड सहेज दिया गया है</string>
+    <string name="confirm_save_info_saved_to">रिकॉर्डिंग निम्न में सहेज ली गई है</string>
+
+    <string name="activity_not_found">अनुप्रयोग आपके फ़ोन पर स्थापित नहीं हैं.</string>
+    <string name="confirm_3g_switch">क्या आप वाकई इस सिम के लिए 3जी सेवा सेट करना चाहते हैं? यह स्वचालित रूप से इस सिम को वीडियो कॉल के लिए डिफॉल्ट सिम की तरह भी सेट कर देगा।</string>
+    <string name="modem_switching">SIM स्विचिंग पूरा करने में करीब 10 सेकंड लगेंगे. कृपया प्रतिक्षा करें...</string>
+    <string name="confirm_3g_switch_to_off">क्या आप वास्तव में 3G सेवा को बंद करना चाहते हैं? यह वीडियो कॉल सेवा भी स्वतः बंद कर देगा.</string>
+    <string name="enable_3G_service">3G सक्षम करें</string>
+    <string name="network_forbidden">अक्षम</string>
+    <string name="plmn_list_setting_title">प्राथमिकताएं</string>
+    <string name="plmn_list_setting_add_plmn">नया PLMN जोड़ें</string>
+    <string name="callFailed_dsac_vt_incompatible_destination">वीडियो कॉल सेटअप नहीं किया जा सकता। आप जिस फ़ोन पर कॉल कर रहे हैं उसमें वीडियो कॉल समर्थित नहीं है, वॉयस कॉल के साथ डायल करें?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">वीडियो कॉल को सेट नहीं किया जा सकता. जिस फ़ोन पर आपने डायल किया है वह 3G सेवा क्षेत्र से बाहर है, ध्वनि कॉल के साथ डायल करें?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">वीडियो कॉल को सेटअप नहीं किया जा सकता. ध्वनि कॉल के साथ डायल करें?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">आपका फ़ोन 3G सेवा क्षेत्र से बाहर है, ध्वनि कॉल से डायल करें?</string>
+    <string name="notification_voicemail">वॉयसमेल</string>
+    <string name="turn_on_3g_service_message">3जी सेवा अभी बंद है, क्या आप इसे चालू करना चाहते हैं?</string>
+    <string name="associate_sim_missing_message">"%1$s सिम अनुपलब्ध है। क्या आप %2$s के माध्यम से कॉल करना चाहते हैं"</string>
+    <string name="associate_sim_missing_other">अन्य</string>
+
+    <string name="vt_settings">वीडियो सेटिंग</string>
+    <string name="vt_local_video_zoom">स्‍थानीय वीडियो जूम</string>
+    <string name="vt_local_video_brightness">स्‍थानीय वीडियो में चमक</string>
+    <string name="vt_local_video_effect">स्‍थानीय वीडियो इफेक्‍ट</string>
+    <string name="vt_local_video_nightmode">स्‍थानीय वीडियो नाइट मोड</string>
+    <string name="vt_peer_video_quality">अच्‍छी वीडियो गुणवत्ता</string>
+    <string name="vt_incoming_showme_ask">पूछें</string>
+    <string name="vt_call_settings">वीडियो कॉल सेटिंग</string>
+    <string name="vt_pic_replace_local_default">डिफॉल्‍ट तस्‍वीर</string>
+    <string name="vt_pic_replace_local_freezeme">फ्रीज मी</string>
+    <string name="vt_pic_replace_local_mypic">मेरी तस्‍वीर</string>
+    <string name="vt_sd_null">SD कार्ड अनुपलब्ध है</string>
+    <string name="vt_sd_not_enough">SD कार्ड में जगह खत्म हो रही है</string>
+    <string name="vt_peer_video_quality_normal">सामान्‍य</string>
+    <string name="vt_ask_show_local">क्या पीअर को स्थानीय वीडियो दिखाएँ?</string>
+    <string name="vt_change_my_pic">बदलें</string>
+    <string name="vt_pic_saved_to_sd">SD कार्ड पर स्नैपशॉट सहेजा गया है</string>
+    <string name="vt_pic_saved_to_sd_fail">स्नैपशॉट को सहेजना विफल रहा</string>
+    <string name="vt_error_network">नेटवर्क पहुँच योग्य नहीं है. वीडियो कॉल डिस्कनेक्ट कर दी जाएगी.</string>
+    <string name="vt_error_media">वीडियो ठीक से प्रदर्शित नहीं हो सकता. वीडियो कॉल डिस्कनेक्ट कर दी जाएगी.</string>
+    <string name="vt_swap_video">वीडियो आपस में बदलें</string>
+    <string name="vt_local_video_contrast">स्थानीय वीडियो कन्ट्रास्ट</string>
+    <string name="vt_menu_switch">कैमरा बदलें</string>
+    <string name="vt_menu_hide_me">स्थानीय वीडियो छिपाएं</string>
+    <string name="vt_menu_show_me">स्थानीय वीडियो दिखाएं</string>
+    <string name="vt_menu_snapshot">पीयर स्नैपशॉट</string>
+    <string name="vt_vocie_answer">ध्वनि उत्तर</string>
+    <string name="vt_wait_voice">ध्वनि कॉल कनेक्ट होने की प्रतीक्षा कर रहे हैं</string>
+    <string name="vt_voice_connecting">ध्वनि कॉल कनेक्ट हो रही है</string>
+    <string name="vt_cannot_support_setting">वर्तमान कैमरा इस सेटिंग्स का समर्थन नहीं कर सकता</string>
+    <string name="vt_network_unreachable">नेटवर्क पहुँच योग्य नहीं है</string>
+    <string name="vt_iot_error_01">वीडियो कॉल को सेट नहीं किया जा सकता</string>
+    <string name="vt_iot_error_02">फ़ोन व्यस्त है</string>
+    <string name="vt_iot_error_03">कोई उत्तर नहीं है</string>
+    <string name="vt_iot_error_04">नेटवर्क व्यस्त है</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"एक्स्पोजर"</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">व्‍हाइटबोर्ड</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">श्यामपट</string>
+    <string name="pref_camera_coloreffect_entry_aqua">जल संबंधी</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">सेपिया ब्‍ल्‍यू</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">सेपिया ग्रीन</string>
+    <string name="vt_peer_camera_open">रिमोट कैमरा खुला है</string>
+    <string name="vt_peer_camera_close">रिमोट कैमरा बंद है</string>
+    <string name="vt_recorder_start">रिकॉर्डिंग आरंभ करें</string>
+    <string name="vt_recorder_voice_and_peer_video">वॉयस और समकक्ष वीडियो</string>
+    <string name="vt_recorder_only_voice">केवल वॉयस</string>
+    <string name="vt_recorder_only_peer_video">केवल समकक्ष वीडियो</string>
+    <string name="vt_recording_saved">रिकॉर्डिंग सहेज लिया गया है।</string>
+    <string name="vt_recording_saved_sd_full">SD कार्ड में जगह खत्म हो गई है, रिकॉर्ड सहेज लिया गया है</string>
+    <string name="vt_recording_error">रिकॉर्डिंग त्रुटि।</string>
+    <string name="start_record_vt">रिकॉर्डिंग आरंभ करें</string>
+    <string name="stop_record_vt">रिकॉर्डिंग रोकें</string>
+    <string name="enable_sip_dialog_message">इंटरनेट कॉल अक्षम की गई है, क्या आप इसे सक्षम करना चाहेंगे?</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">IP डायल फंक्शन इन्टेन्ट कॉल पर लागू नहीं होता है.</string>
+    <string name="sim_manage_sipcall">इंटरनेट</string>
+    <string name="sim_manage_call_via">इसके द्वारा कॉल करें</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> mins <xliff:g id="seconds" example="28">%2$s</xliff:g> सेकेंड</string>
+    <string name="reminder">अनुस्मारक</string>
+    <string name="vt_media_occupied">चूंकि कैमरा उपलब्ध नहीं है, वीडियो कॉल कनेक्ट नहीं किया जा सकता है। कृपया जांच करें कि कोई न्य ऐप्लिकेशन कैमरे का उपयोग कर रहा है।</string>
+    <string name="vt_media_video_fail">वीडियो ठीक प्रकार से प्रदर्शत नहीं किया जा सकता है। वीडियो कॉल डिस्कनेक्ट कर दिया गया है</string>
+    <string name="incall_toast_unhold">पुनरारंभ करें</string>
+
+</resources>

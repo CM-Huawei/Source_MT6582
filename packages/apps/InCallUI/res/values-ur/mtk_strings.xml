@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">تمام ہینگ اپ کريں</string>
+    <string name="onscreenHangupHolding">ہینگ اپ ہولڈنگ</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">ہینگ اپ فعال ہے۔ جواب منتظر ہے</string>
+    <string name="onscreenECT">منتقل</string>
+    <!-- auto reject -->
+    <!-- dm lock -->
+    <string name="dm_lock">DM مقفل ہے</string>
+    <string name="dm_unlock">DM غیرمقفل</string>
+
+    <string name="start_record">ریکارڈنگ شروع کریں</string>
+    <string name="stop_record">ریکارڈ کرنا روکیں</string>
+    <string name="str_db_playlist_name">میری ریکارڈنگ</string>
+    <string name="alert_device_error">آڈیو آلے پر غلطی واقع ہوئی</string>
+    <string name="ext_media_badremoval_notification_title">SD کارڈ غیرمتوقع طور پر ہٹایا گیا</string>
+    <string name="error_sdcard_access">SD کارڈ تک رسائی کرنے سے قاصر</string>
+    <string name="confirm_device_info_full">SD کارڈ میں جگہ ختم ہوگئی ہے، ریکارڈنگ کو محفوظ کیا گيآ ہے۔</string>
+    <string name="confirm_save_info_saved">ریکارڈنگ کو محفوظ کیا گیا ہے</string>
+    <string name="confirm_save_info_saved_to">ریکارڈنگ یہاں محفوظ ہوگئی </string>
+
+    <string name="activity_not_found">آپ کے فون پر ایپلیکیشن نصب نہيں ہے</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">آپ کا فون 3G خدمت کے علاقے ميں نہيں ہے، وائس کال کے ساتھ ڈائل کریں؟</string>
+    <string name="which_call_to_activate">کون سی کال فعال کرنی ہے؟</string>
+    <string name="callFailed_dsac_vt_incompatible_destination">ویڈیو کال کو سیٹ اپ نہیں کیا جاسکتا ہے، آپ نے جس فون پر ڈائل کیا ہے وہ  خدمت کے علاقے میں نہیں ہے، وائس کال کے ذریعے ڈائل کریں؟</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">ویڈیو کال کو سیٹ اپ نہیں کیا جاسکتا ہے، آپ نے جس فون پر ڈائل کیا ہے وہ 3G خدمت کے علاقے میں نہیں ہے، وائس کال کے ذریعے ڈائل کریں؟</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">ویڈيو کال کو سیٹ اپ نہيں کیا جاسکتا ہے۔ وائس کال کے ذریعے ڈائل کریں؟</string>
+    <string name="turn_on_3g_service_message">"3G خدمت بند ہے، کیا آپ اسے آن کرنا چاہیں گے؟"</string>
+    <string name="associate_sim_missing_message">"%1$s SIM دستیاب نہيں ہے۔ کیا آپ %2$s کے ذریعے کال کرنا چاہتے ہيں</string>
+    <string name="associate_sim_missing_other">دیگر</string>
+    
+    <string name="vt_incoming_call">آرہی ویڈیو کال</string>
+    <string name="vt_settings">ویڈیو ترتیبات</string>
+    <string name="vt_local_video_zoom">مقامی ویڈیو زوم</string>
+    <string name="vt_local_video_brightness">مقامی ویڈیو کا اجلاپن</string>
+    <string name="vt_local_video_effect">مقامی ویڈيو کا اثر</string>
+    <string name="vt_local_video_nightmode">مقامی ویڈیو کی رات کی وضع</string>
+    <string name="vt_peer_video_quality">ہم منصب ویڈیو کوالٹی</string>
+    <string name="vt_enable_back_camera">پچھلا کیمرہ اہل کریں</string>
+    <string name="vt_enable_back_camera_description">آن کرنے پر کیمرہ تبدیلی کے لئے دستیاب ہے</string>
+    <string name="vt_peer_video_bigger">بڑا ہمسر ویڈیو</string>
+    <string name="vt_peer_video_bigger_description">ہم منصب ویڈیو کو مقامی ویڈیو سے بڑا کرنے کے لئے آن کریں</string>
+    <string name="vt_outgoing_call">باہر جانے والی ویڈیو کال</string>
+    <string name="vt_outgoing_call_description">ویڈیو کال کرنے کے دوران مقامی ویڈیو ظاہر کریں</string>
+    <string name="vt_incoming_call_description">آنے والی ویڈیو کال قبول کنتے وقت مقامی ویڈيو ظاہر کریں</string>
+    <string name="vt_incoming_showme_always">ہمیشہ</string>
+    <string name="vt_incoming_showme_ask">پوچھیں</string>
+    <string name="vt_incoming_showme_disable">غیرفعال کریں</string>
+    <string name="vt_pic_replace_local_default">ڈیفالٹ تصویر</string>
+    <string name="vt_pic_replace_local_freezeme">مجھے منجمد کریں</string>
+    <string name="vt_pic_replace_local_mypic">میری تصویر</string>
+    <string name="vt_local_video_display">مقامی ویڈیو ڈسپلے</string>
+    <string name="vt_sd_null">SD کارڈ/nدستیاب نہيں ہے</string>
+    <string name="vt_sd_not_enough">SD کارڈ/nمیں جگہ ختم ہورہی ہے</string>
+    <string name="vt_peer_video_quality_normal">عام</string>
+    <string name="vt_peer_video_quality_sharp">تیز</string>
+    <string name="vt_ask_show_local">ہم منصب کو مقامی ویڈیو دکھائيں؟</string>
+    <string name="vt_ask_show_local_yes">ہاں</string>
+    <string name="vt_ask_show_local_no">نہیں</string>
+    <string name="vt_change_my_pic">تبدیل کریں</string>
+    <string name="vt_pic_saved_to_sd">اسنیپ شاٹ  SD کارڈ پر محفوظ ہوا</string>
+    <string name="vt_pic_saved_to_sd_fail">اسنیپ شاٹ محفوظ کرنا ناکام</string>
+    <string name="vt_error_network">نیٹورک سے رابطہ ممکن نہيں ہے۔ ویڈیو کال غیرمتصل ہوجائے گی۔</string>
+    <string name="vt_error_media">ویڈیو کو درست طور پر دکھایا نہيں جاسکتا ہے۔ ویڈیو کال غیرمتصل ہوجائے گی۔</string>
+    <string name="vt_swap_video">ویڈیو ادلابدلی کریں</string>
+    <string name="vt_local_video_contrast">مقامی ویڈيو کانٹراسٹ</string>
+    <string name="vt_menu_switch">کیمرہ تبدیلک ریں</string>
+    <string name="vt_menu_hide_me">مقامی ویڈيو چھپائيں</string>
+    <string name="vt_menu_show_me">مقامی ویڈيو دکھائيں</string>
+    <string name="vt_menu_snapshot">پئیر اسنیپ شاٹ</string>
+    <string name="vt_dis_peer_rep">ہمسر ویڈیو دکھائیں</string>
+    <string name="vt_dis_peer_rep_des">پئیر ویڈيو دستیاب نہ ہونے پر اس کی تبدیلی کے لئے تصویر دکھائيں</string>
+    <string name="vt_peer_video_rep">پئیر ویڈیو کی تبدیلی</string>
+    <string name="vt_peer_video_rep_des">پئیر ویڈیو کے دستیاب نہ ہونے پر دکھائے جانے کے لئے تصویر سیٹ کریں</string>
+    <string name="vt_vocie_answer">وائس جواب</string>
+    <string name="vt_wait_voice">وائس کال کے جڑنے کا منتظر</string>
+    <string name="vt_voice_connecting">وائس کال جڑرہی ہے</string>
+    <string name="vt_auto_dropback">آٹو ڈراپ بیک</string>
+    <string name="vt_auto_dropback_des">وائس کال کے ساتھ واپس ڈراپ ہونے کے خودکار طور پر متصل ہونے کا منتظر</string>
+    <string name="vt_cannot_support_setting">حالیہ کیمرے میں اس ترتیب کی سہولت نہيں</string>
+    <string name="vt_network_unreachable">نیٹورک سے رابطہ ممکن نہيں</string>
+    <string name="vt_iot_error_01">ویڈیو کال سیٹ اپ کرنے سے قاصر</string>
+    <string name="vt_iot_error_02">فون مصروف ہے</string>
+    <string name="vt_iot_error_03">کوئی جواب نہيں</string>
+    <string name="vt_iot_error_04">نیٹورک بس کررہا ہے</string>
+    <string name="pref_camera_coloreffect_entry_none">کوئی نہیں</string>
+    <string name="pref_camera_coloreffect_entry_mono">مونو</string>
+    <string name="pref_camera_coloreffect_entry_sepia">سیپیا</string>
+    <string name="pref_camera_coloreffect_entry_negative">منفی</string>
+    <string name="pref_camera_coloreffect_entry_solarize">سولرائز</string>
+    <string name="pref_camera_coloreffect_entry_posterize">پوسٹرائز</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">سفید بورڈ</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">بلیک بورڈ</string>
+    <string name="pref_camera_coloreffect_entry_aqua">ایکوا</string>
+    <string name="pref_camera_coloreffect_entry_pastel">پیسٹل</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">موزیک</string>
+    <string name="pref_camera_coloreffect_entry_redtint">لال ٹنٹ</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">نیلا ٹنٹ</string>
+    <string name="pref_camera_coloreffect_entry_greentint">ہرا ٹنٹ</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">سیپیا نیلا</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">سیپیا ہرا</string>
+    <string name="vt_peer_camera_open">ریموٹ کیمرہ آن ہے</string>
+    <string name="vt_peer_camera_close">ریموٹ کیمرہ بند ہے</string>
+    <string name="vt_recorder_start">ریکارڈنگ شروع کریں</string>
+    <string name="vt_recorder_voice_and_peer_video">وائس اور پئیر ویڈیو</string>
+    <string name="vt_recorder_only_voice">صرف وائس</string>
+    <string name="vt_recorder_only_peer_video">صرف پئیر ویڈیو</string>
+    <string name="vt_recording_saved">ریکارڈنگ کو محفوظ کیا گیا ہے۔</string>
+    <string name="vt_recording_saved_sd_full">SD کارڈ میں جگہ ختم ہوگئی ہے، ریکارڈنگ محفوظ کردی گئی ہے۔</string>
+    <string name="vt_recording_error">ریکارڈنگ میں غلطی۔</string>
+    <string name="start_record_vt">ریکارڈنگ شروع کریں</string>
+    <string name="stop_record_vt">ریکارڈ کرنا روکیں</string>
+    <string name="cannot_answered_Video_Call">ویڈیو کال کا جواب نہيں دیا جاسکتا ہے کیونکہ پہلے ہی وائس کال چل رہی ہے</string>
+    <string name="cannot_answered_Voice_Call">وائس کال کا جواب نہيں دیا جاسکتا ہے کیونکہ پہلے ہی ویڈیو کال چل رہی ہے</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> منٹ <xliff:g id="seconds" example="28">%2$s</xliff:g> سیکنڈ</string>
+    <string name="reminder">یاددہانی</string>
+    <string name="vt_media_occupied">چونکہ کیمرا دستیاب نہیں ہے اس لیے ویڈیو کال منسلک نہیں کی جا سکتی۔ برائے مہربانی چیک کریں کہ کہیں کوئی اور ایپلی کیشن تو اس کیمرے کو استعمال نہیں کر رہی۔</string>
+    <string name="vt_media_video_fail">ویڈیو مناسب طور پر دکھائی نہیں جا سکتی۔ ویڈیو کال منقطع کر دی گئی ہے</string>
+    <string name="incall_toast_unhold">پھر جاری کرنا</string>
+
+</resources>

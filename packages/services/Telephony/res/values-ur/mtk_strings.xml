@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="activity_not_found">آپ کے فون پر ایپلیکیشن نصب نہيں ہے</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">آپ کا فون 3G خدمت کے علاقے ميں نہيں ہے، وائس کال کے ساتھ ڈائل کریں؟</string>
+    <string name="which_call_to_activate">کون سی کال فعال کرنی ہے؟</string> 
+    <string name="international_dialing_title">بین الاقوامی ڈائلنگ اعانت</string>
+    <string name="international_dialing_select_country">پتہ چلا ہے کہ آپ ایک بین الاقوامی کال کررہے ہیں۔ براہ کم اپنی منزل مقصود چنیں۔</string>
+    <string name="international_dialing_add_country_code">یہ پتہ چلا ہے کہ آپ ایک <xliff:g id="country_name">%s</xliff:g> نمبر ڈائل کررہے ہیں۔ کیا آپ ملک کا کوڈ شامل کرنا چاہتے ہیں  (+<xliff:g id="country_code">%s</xliff:g>)؟</string>
+    <string name="international_dialing_add_country_code_and_area_code">یہ پتہ چلا ہے کہ آپ <xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g> میں ایک نمبر ڈائل کررہے ہیں۔ کیا آپ ملک کا کوڈ اور علاقائی کوڈ شامل کرنا چاہتے ہیں (+<xliff:g id="prefix">%3$s</xliff:g>)؟</string> 
+    <string name="international_dialing_change_country_prefix">یہ پتہ چلا ہے کہ آپ <xliff:g id="country_name">%s</xliff:g> سے ڈائل کررہے ہیں۔ بین الاقوامی کال کا سابقہ تبدیل کرکے \'+\' کریں؟</string>
+    <string name="international_dialing_add_country_code_input_area_code">یہ پتہ چلا ہے کہ آپ <xliff:g id="country_name">%s</xliff:g> میں ایک نمبر ڈائل کررہے ہیں۔ اگر ایسا ہے تو، براہ کرم علاقائی کوڈ درج کریں۔</string>   
+    <string name="international_dialing_add_country_code_default_input_area_code">یہ پتہ چلا ہے کہ آپ <xliff:g id="country_name">%s</xliff:g> میں ایک نمبر ڈائل کررہے ہیں۔ اگر آپ کا مطلوبہ شہر <xliff:g id="area_name">%s</xliff:g> نہیں ہے تو، براہ کرم علاقائی کوڈ درج کریں۔</string>
+    <string name="international_dialing_need_area_code">کال کیلئے آپ کے مطلوبہ شہر کا علاقائی کوڈ ضروری ہے۔</string>
+    <string name="international_dialing_input_area_code">علاقائی کوڈ یہاں درج کریں</string>
+    <string name="international_dialing_dialed_number">ڈائلنگ نمبر:</string>
+    <string name="international_dialing_confirm_area_code">اگر آپ کا مطلوبہ شہر <xliff:g id="area_name">%s</xliff:g> نہیں ہے تو، براہ کرم ذیل میں اپنے مطلوبہ شہر کا علاقائی کوڈ درج کریں۔</string>
+    <string name="international_dialing_click_below_button">ملک کا کوڈ نمبر تبدیل کرنے کیلئے ذیل کے بٹن پر کلک کریں۔</string>
+    <string name="international_dialing_yes">ہاں۔ ذیل کا نمبر استعمال کریں:</string>
+    <string name="international_dialing_no">نہیں۔ اصل نمبر استعمال کریں:</string>
+    <string name="international_dialing_call_button">کال کریں</string>
+    <string name="international_dialing_area_code">علاقائی کوڈ</string>
+    <string name="international_dialing_invalid_number">یہ نمبر غلط ہے۔ کیا آپ پھر بھی ڈائلنگ جاری رکھنا چاہتے ہیں؟</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">کیا آپ ملک کا کوڈ اور علاقائی کوڈ شامل کرنا چاہتے ہیں؟</string>
+    <string name="callFailed_dsac_vt_bear_not_authorized">ویڈیو کال ترتیب نہیں دی جاسکتی ہے۔ ویڈیو ٹیلیفون سروس اس SIM پر چالو نہیں کی گئی ہے، صوتی کال کے ساتھ ڈائل کریں؟</string>
+    <string name="cdma_not_support">CDMA اس خصوصیت کو تعاون نہیں کرتا</string>
+    <string name="gemini_3g_disable_warning_case0">"آپ کو پہلے اس SIM کے لئے ڈيٹا گشت فعال کرنے کی ضرورت ہے جس کی وجہ سے قابل قدر گشت کے اخراجات لاگو ہوسکتے ہيں! کیا آپ ڈیٹا کے گشت کو فعال کرکے اس SIM کا انتخاب کرنا چاہتے ہیں؟"</string>
+    <string name="gemini_3g_disable_warning_case1">"اس منتخب SIM کے ساتھ 3G سروس دستیاب نہیں ہے۔ اس سے ڈیٹا سست رفتاری سے لوڈ ہوسکتا ہے۔ آپ 3G سروس کی ترتیبات کو ترتیبات &gt; وائرلیس اینڈ نیٹ ورک &gt; موبائل نیٹ ورکس کے تحت تبدیل کرسکتے ہیں۔ کیا آپ واقعی اس SIM کو منتخب کرنا چاہتے ہیں؟"</string>
+    <string name="gemini_3g_disable_warning_case2">"آپ کو اس سِم کیلئے پہلے ڈیٹا رومنگ فعال کرنی ہو گی جس میں اچھے خاصے رومنگ کے اخراجات ہو سکتے ہیں! ویسے بھی، اس سِم پر 3G کی خدمت دستیاب نہیں ہے۔ ہو سکتا ہے کہ یہ ڈیٹا کو سست رفتاری کے ساتھ لوڈ کرے۔ آپ اس کو ترتیبات</string>
+    <string name="disable_data_connection_msg">سبھی دستیاب نیٹ ورکس کو تلاش کرنے سے زیر استعمال ڈیٹا کنکشن کا رابطہ منقطع ہوجائے گا۔ کیا آپ جاری رکھنا چاہتے ہیں؟</string>
+    <string name="gemini_data_connection">ڈیٹا کنکشن</string>
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">تمام ہینگ اپ کريں</string>
+    <string name="onscreenHangupHolding">ہینگ اپ ہولڈنگ</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">ہینگ اپ فعال ہے۔ جواب منتظر ہے</string>
+    <string name="onscreenECT">منتقل</string>
+    <!-- auto reject -->
+    <!-- dm lock -->
+    <string name="dm_lock">DM مقفل ہے</string>
+    <string name="dm_unlock">DM غیرمقفل</string>
+    <string name="start_record">ریکارڈنگ شروع کریں</string>
+    <string name="stop_record">ریکارڈ کرنا روکیں</string>
+    <string name="str_db_playlist_name">میری ریکارڈنگ</string>
+    <string name="alert_device_error">آڈیو آلے پر غلطی واقع ہوئی</string>
+    <string name="ext_media_badremoval_notification_title">SD کارڈ غیرمتوقع طور پر ہٹایا گیا</string>
+    <string name="error_sdcard_access">SD کارڈ تک رسائی کرنے سے قاصر</string>
+    <string name="confirm_device_info_full">SD کارڈ میں جگہ ختم ہوگئی ہے، ریکارڈنگ کو محفوظ کیا گيآ ہے۔</string>
+    <string name="confirm_save_info_saved">ریکارڈنگ کو محفوظ کیا گیا ہے</string>
+    <string name="confirm_save_info_saved_to">ریکارڈنگ یہاں محفوظ ہوگئی </string>
+    <string name="sim_toolkit">SIM ٹول کٹ</string>
+    <string name="no_sim_card_inserted" product="default">SIM ٹول کٹ شروع کرنے کیلئے براہ کرم SIM ڈالیں۔</string>
+    <string name="airplane_mode_on" product="default">طیارے کی وضع آن ہونے کے سبب SIM ٹول کٹ شروع کرنے میں ناکام۔</string>
+    <string name="lable_sim_not_ready" product="default">SIM ٹول کٹ تیار یا معاون نہیں ہے</string>
+    <string name="gemini_3g_indic">3G</string>
+    <string name="callFailed_dsac_vt_incompatible_destination">ویڈیو کال کو سیٹ اپ نہیں کیا جاسکتا ہے، آپ نے جس فون پر ڈائل کیا ہے وہ  خدمت کے علاقے میں نہیں ہے، وائس کال کے ذریعے ڈائل کریں؟</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">ویڈیو کال کو سیٹ اپ نہیں کیا جاسکتا ہے، آپ نے جس فون پر ڈائل کیا ہے وہ 3G خدمت کے علاقے میں نہیں ہے، وائس کال کے ذریعے ڈائل کریں؟</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">ویڈيو کال کو سیٹ اپ نہيں کیا جاسکتا ہے۔ وائس کال کے ذریعے ڈائل کریں؟</string>
+    <string name="turn_on_3g_service_message">"3G خدمت بند ہے، کیا آپ اسے آن کرنا چاہیں گے؟"</string>
+    <string name="associate_sim_missing_message">"%1$s SIM دستیاب نہيں ہے۔ کیا آپ %2$s کے ذریعے کال کرنا چاہتے ہيں</string>
+    <string name="associate_sim_missing_other">دیگر</string>
+    <string name="vt_incoming_call">آرہی ویڈیو کال</string>
+    <string name="vt_settings">ویڈیو ترتیبات</string>
+    <string name="vt_local_video_zoom">مقامی ویڈیو زوم</string>
+    <string name="vt_local_video_brightness">مقامی ویڈیو کا اجلاپن</string>
+    <string name="vt_local_video_effect">مقامی ویڈيو کا اثر</string>
+    <string name="vt_local_video_nightmode">مقامی ویڈیو کی رات کی وضع</string>
+    <string name="vt_peer_video_quality">ہم منصب ویڈیو کوالٹی</string>
+    <string name="vt_enable_back_camera">پچھلا کیمرہ اہل کریں</string>
+    <string name="vt_enable_back_camera_description">آن کرنے پر کیمرہ تبدیلی کے لئے دستیاب ہے</string>
+    <string name="vt_peer_video_bigger">بڑا ہمسر ویڈیو</string>
+    <string name="vt_peer_video_bigger_description">ہم منصب ویڈیو کو مقامی ویڈیو سے بڑا کرنے کے لئے آن کریں</string>
+    <string name="vt_outgoing_call">باہر جانے والی ویڈیو کال</string>
+    <string name="vt_outgoing_call_description">ویڈیو کال کرنے کے دوران مقامی ویڈیو ظاہر کریں</string>
+    <string name="vt_incoming_call_description">آنے والی ویڈیو کال قبول کنتے وقت مقامی ویڈيو ظاہر کریں</string>
+    <string name="vt_incoming_showme_always">ہمیشہ</string>
+    <string name="vt_incoming_showme_ask">پوچھیں</string>
+    <string name="vt_incoming_showme_disable">غیرفعال کریں</string>
+    <string name="vt_pic_replace_local_default">ڈیفالٹ تصویر</string>
+    <string name="vt_pic_replace_local_freezeme">مجھے منجمد کریں</string>
+    <string name="vt_pic_replace_local_mypic">میری تصویر</string>
+    <string name="vt_local_video_display">مقامی ویڈیو ڈسپلے</string>
+    <string name="vt_sd_null">SD کارڈ/nدستیاب نہيں ہے</string>
+    <string name="vt_sd_not_enough">SD کارڈ/nمیں جگہ ختم ہورہی ہے</string>
+    <string name="vt_peer_video_quality_normal">عام</string>
+    <string name="vt_peer_video_quality_sharp">تیز</string>
+    <string name="vt_ask_show_local">ہم منصب کو مقامی ویڈیو دکھائيں؟</string>
+    <string name="vt_ask_show_local_yes">ہاں</string>
+    <string name="vt_ask_show_local_no">نہیں</string>
+    <string name="vt_change_my_pic">تبدیل کریں</string>
+    <string name="vt_pic_saved_to_sd">اسنیپ شاٹ  SD کارڈ پر محفوظ ہوا</string>
+    <string name="vt_pic_saved_to_sd_fail">اسنیپ شاٹ محفوظ کرنا ناکام</string>
+    <string name="vt_error_network">نیٹورک سے رابطہ ممکن نہيں ہے۔ ویڈیو کال غیرمتصل ہوجائے گی۔</string>
+    <string name="vt_error_media">ویڈیو کو درست طور پر دکھایا نہيں جاسکتا ہے۔ ویڈیو کال غیرمتصل ہوجائے گی۔</string>
+    <string name="vt_swap_video">ویڈیو ادلابدلی کریں</string>
+    <string name="vt_local_video_contrast">مقامی ویڈيو کانٹراسٹ</string>
+    <string name="vt_menu_switch">کیمرہ تبدیلک ریں</string>
+    <string name="vt_menu_hide_me">مقامی ویڈيو چھپائيں</string>
+    <string name="vt_menu_show_me">مقامی ویڈيو دکھائيں</string>
+    <string name="vt_menu_snapshot">پئیر اسنیپ شاٹ</string>
+    <string name="vt_dis_peer_rep">ہمسر ویڈیو دکھائیں</string>
+    <string name="vt_dis_peer_rep_des">پئیر ویڈيو دستیاب نہ ہونے پر اس کی تبدیلی کے لئے تصویر دکھائيں</string>
+    <string name="vt_peer_video_rep">پئیر ویڈیو کی تبدیلی</string>
+    <string name="vt_peer_video_rep_des">پئیر ویڈیو کے دستیاب نہ ہونے پر دکھائے جانے کے لئے تصویر سیٹ کریں</string>
+    <string name="vt_vocie_answer">وائس جواب</string>
+    <string name="vt_wait_voice">وائس کال کے جڑنے کا منتظر</string>
+    <string name="vt_voice_connecting">وائس کال جڑرہی ہے</string>
+    <string name="vt_auto_dropback">آٹو ڈراپ بیک</string>
+    <string name="vt_auto_dropback_des">وائس کال کے ساتھ واپس ڈراپ ہونے کے خودکار طور پر متصل ہونے کا منتظر</string>
+    <string name="vt_cannot_support_setting">حالیہ کیمرے میں اس ترتیب کی سہولت نہيں</string>
+    <string name="vt_network_unreachable">نیٹورک سے رابطہ ممکن نہيں</string>
+    <string name="vt_iot_error_01">ویڈیو کال سیٹ اپ کرنے سے قاصر</string>
+    <string name="vt_iot_error_02">فون مصروف ہے</string>
+    <string name="vt_iot_error_03">کوئی جواب نہيں</string>
+    <string name="vt_iot_error_04">نیٹورک بس کررہا ہے</string>
+    <string name="pref_camera_coloreffect_entry_none">کوئی نہیں</string>
+    <string name="pref_camera_coloreffect_entry_mono">مونو</string>
+    <string name="pref_camera_coloreffect_entry_sepia">سیپیا</string>
+    <string name="pref_camera_coloreffect_entry_negative">منفی</string>
+    <string name="pref_camera_coloreffect_entry_solarize">سولرائز</string>
+    <string name="pref_camera_coloreffect_entry_posterize">پوسٹرائز</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">سفید بورڈ</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">بلیک بورڈ</string>
+    <string name="pref_camera_coloreffect_entry_aqua">ایکوا</string>
+    <string name="pref_camera_coloreffect_entry_pastel">پیسٹل</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">موزیک</string>
+    <string name="pref_camera_coloreffect_entry_redtint">لال ٹنٹ</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">نیلا ٹنٹ</string>
+    <string name="pref_camera_coloreffect_entry_greentint">ہرا ٹنٹ</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">سیپیا نیلا</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">سیپیا ہرا</string>
+    <string name="vt_peer_camera_open">ریموٹ کیمرہ آن ہے</string>
+    <string name="vt_peer_camera_close">ریموٹ کیمرہ بند ہے</string>
+    <string name="vt_recorder_start">ریکارڈنگ شروع کریں</string>
+    <string name="vt_recorder_voice_and_peer_video">وائس اور پئیر ویڈیو</string>
+    <string name="vt_recorder_only_voice">صرف وائس</string>
+    <string name="vt_recorder_only_peer_video">صرف پئیر ویڈیو</string>
+    <string name="vt_recording_saved">ریکارڈنگ کو محفوظ کیا گیا ہے۔</string>
+    <string name="vt_recording_saved_sd_full">SD کارڈ میں جگہ ختم ہوگئی ہے، ریکارڈنگ محفوظ کردی گئی ہے۔</string>
+    <string name="vt_recording_error">ریکارڈنگ میں غلطی۔</string>
+    <string name="start_record_vt">ریکارڈنگ شروع کریں</string>
+    <string name="stop_record_vt">ریکارڈ کرنا روکیں</string>
+    <string name="cannot_answered_Video_Call">ویڈیو کال کا جواب نہيں دیا جاسکتا ہے کیونکہ پہلے ہی وائس کال چل رہی ہے</string>
+    <string name="cannot_answered_Voice_Call">وائس کال کا جواب نہيں دیا جاسکتا ہے کیونکہ پہلے ہی ویڈیو کال چل رہی ہے</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> منٹ <xliff:g id="seconds" example="28">%2$s</xliff:g> سیکنڈ</string>
+    <string name="reminder">یاددہانی</string>
+    <string name="vt_media_occupied">چونکہ کیمرا دستیاب نہیں ہے اس لیے ویڈیو کال منسلک نہیں کی جا سکتی۔ برائے مہربانی چیک کریں کہ کہیں کوئی اور ایپلی کیشن تو اس کیمرے کو استعمال نہیں کر رہی۔</string>
+    <string name="vt_media_video_fail">ویڈیو مناسب طور پر دکھائی نہیں جا سکتی۔ ویڈیو کال منقطع کر دی گئی ہے</string>
+    <string name="incall_toast_unhold">پھر جاری کرنا</string>
+    <string name="end_call_because_can_not_hold">موجودہ کال ختم کریں، کیونکہ اسے ہولڈ نہیں کیا جاسکتا۔</string>
+    <string name="ring_only_once_title">صرف ایک بار گھنٹی بجائیں</string>
+    <string name="ring_only_once_summary">صرف صوتی کال کے ذریعہ ویڈیو کال کا طرز قبول کرنے کا انتخاب کرتے وقت صرف ایک بار گھنٹی بجائیں</string>
+    <string name="fdn_contact_name_number_invalid">نام اور نمبر ایک ہی وقت خالی نہيں ہوسکتے ہيں۔</string>
+    <string name="fdn_contact_number_invalid">غلط رابطے کا نمبر۔</string>
+    <string name="fdn_phone_book_busy">فون بک اس وقت مصروف ہے، بعد میں کوشش کریں۔</string>
+    <string name="cdma_cfu_title">چائنا ٹیلیکام</string>
+    <string name="labelCFC">آگے کو سبھی منتقلی منسوح کریں</string>
+    <string name="cdma_cfu_dialog_sum">ہمیشہ یہ نمبر استعمال کریں</string>
+    <string name="dual_mic_title">شورمیں کمی</string>
+    <string name="dual_mic_summary">کال کے دوران اپنے پس منظر کے شور کو دبائیں</string>
+    <string name="minutereminder_title">منٹ کی یاددہانی</string>
+    <string name="minutereminder_summary">ہر منٹ کے 50 ویں سیکنڈ پر یاددہانی کرائیں</string>
+    <string name="voice_call_settings">وائس کال کی ترتیبات</string>
+    <string name="enable_sip_dialog_message">انٹرنیٹ کال غیرفعال ہے، کیا آپ اسے فعال کرنا چاہتے ہيں؟</string>
+    <string name="ip_prefix_setting">IP سابفے کا نمبر</string>
+    <string name="ip_prefix_setting_sum">IP سابقے کے نمبر کی ترتیبات</string>
+    <string name="enter_ip_prefix_number">سابقے کا نمبر درج کریں</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">برائے مہربانی وائس کال ترتیبات میں IP سابقے کا نمبر پہلے درج کریں۔</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">مطلوبہ کال کے لئے IP ڈائل کا فنکشن قابل اطلاق نہيں</string>
+    <string name="ip_prefix_edit_default_sum">IP ڈائل کرنے کے لئے سابقے کا نمبر درج کریں</string>
+    <string name="vt_cf_call_description">وائس کال آگے بڑھانے کی ترتیبات</string>
+    <string name="vt_cb_call_description">ویڈيو کال بندش کی ترتیبات</string>
+    <string name="vt_addtional_call_description">فون نمبر اور کال کے انتظار کی ترتیبات</string>
+    <string name="others">دیگر ترتیبات</string>
+    <string name="confirm_3g_switch">کیا آپ اس SIM پر 3G خدمت مرتب کرنا چاہتے ہيں؟ اس کی وجہ سے خودکار طور پر اس SIM کو ویڈیو کال کے لئے ڈیفالٹ SIM کے طور پر مرتب کردیا جائے گا۔</string>
+    <string name="modem_switching">"SIM کی تبدیلی میں 10 منٹ کا وقت لگ سکتا ہے۔ برائے مہربانی انتظار کریں..."</string>
+    <string name="confirm_3g_switch_to_off">کیا آپ واقعی 3G خدمت بند کرنا چاہتے ہيں؟ اس سے خودکار طور پر ویڈيو کال کی خدمت بھی بند ہوجائے گی۔</string>
+    <string name="service_3g_off">آف</string>
+    <string name="enable_3G_service">3G فعال کریں</string>
+    <string name="setting_for_3G_service">3G خدمت</string>
+    <string name="network_forbidden">غیرفعال کریں</string>
+    <string name="voice_mail_dialog_text">آپ کے پاس<xliff:g id="voicemail_sim_display_name">%s</xliff:g>کی طرف سے نئی وائس میل ہے۔ کیا آپ اسے ابھی حاصل کرنا چاہتے ہيں؟</string>
+
+    <string name="lable_call_barring">کال پر بندش</string>
+    <string name="lable_all_outgoing">تمام باہر جانے والی کالیں</string>
+    <string name="lable_all_outgoing_international">بین الاقوامی باہر جانے والی کاليں</string>
+    <string name="lable_all_out_except">ہوم PLMN کے علاوہ بین الاقوامی باہر جانے والی کالیں</string>
+    <string name="lable_all_incoming">تمام آنے والی کالیں</string>
+    <string name="lable_incoming_calls_except">گشت کے دوران آنے والی کاليں</string>
+    <string name="deactivate_all">تمام منسوخ کریں</string>
+    <string name="change_password">بندش کا پاس ورڈ تبدیل کریں</string>
+    <string name="call_barring_sum">وائس کال بندش کی ترتیبات</string>
+    <string name="lable_disable">غیرفعال</string>
+    <string name="lable_enable">اہل</string>
+    <string name="old_password_label">پرانا پاس ورڈ (4 نمبر)</string>
+    <string name="new_password_label">نیا پاس ورڈ (4 نمبر)</string>
+    <string name="invalid_password">ایک ایسا پاس ورڈ لکھیں جو 4 ہندسوں کا ہو۔</string>
+    <string name="confirm_password_label">نئے پاس ورڈ کی تشکیل کریں</string>
+    <string name="mismatch_password">آپ کا درج کردہ پاسورڈ میل نہیں کھا رہا۔ براہ کرم دوبارہ کوشش کریں۔</string>
+    <string name="password_changed">پاس ورڈ کامیاب طور پر تبدیل کیا گيا</string>
+    <string name="enter_callbarring_password">کال بندش کا پاس ورڈ درج کریں (4 نمبر)</string>
+    <string name="wrong_password">پاس ورڈ کی غلطی</string>
+    <string name="error_title">غلطی</string>
+    <string name="cell_broadcast">سیل کی نشریات</string>
+    <string name="cell_broadcast_settings">سیل براڈکاسٹ کی ترتیبات</string>
+    <string name="cb_menu_language">زبان</string>
+    <string name="cb_menu_add_channel">چینل کا اضافہ کریں</string>
+    <string name="cb_menu_channel_list">چینل کی فہرست</string>
+    <string name="cb_dialog_title_language_choice">زبان منتخب کریں</string>
+    <string name="cb_channel_dialog_channel_name">چینل کا نام (0 سے 10 حروف)</string>
+    <string name="cb_channel_dialog_channel_number">چینل نمبر (0-65534)</string>
+    <string name="cb_channel_dialog_channel_state">چینل فعال کریں</string>
+    <string name="cb_channel_dialog_edit_channel">چینل میں ترمیم کریں</string>
+    <string name="cb_menu_edit">تدوین</string>
+    <string name="cb_menu_delete">مٹائيں</string>
+    <string name="cb_error_channel_num">براہ کرم چینل نمبر درج کریں(0-65534)۔</string>
+    <string name="cb_error_channel_name">چینل کے نام کی لمبائی صحیح نہيں ہے (1- 10 کریکٹر)۔</string>
+    <string name="cb_error_language_select">برائے مہربانی کم از کم ایک زبان منتخب کریں۔</string>
+    <string name="cb_error_channel_id_exist">چینل کی id موجود ہے۔</string>
+    <string name="cb_all_languages">تمام زبانیں</string>
+    <string name="cb_default_new_channel_name">نیا چینل</string>
+    <string name="fdn_errorcode_unknown_info">ناکام، نامعلوم غلطی واقع ہوئی، برائے مہربانی بعد میں کوشش کریں۔</string>
+    <string name="fdn_errorcode_number_info">ناکام، رابطے کے نمبر کی لمبائی بہت زيادہ ہے۔</string>
+    <string name="fdn_errorcode_name_info">ناکام، رابطے کے نام کی لمبائی بہت زيادہ ہے۔</string>
+    <string name="fdn_errorcode_storage_info">ناکام، ذخيرہ بھر گيا ہے۔</string>
+    <string name="fdn_errorcode_phb_info">ناکام، فون بک اس وقت تیار نہيں ہے، برائے مہربانی بعد میں کوشش کریں۔</string>
+    <string name="fdn_errorcode_pin2_info">ناکام، ناجائز PIN2۔</string>
+    <string name="net_or_simcard_busy">نیٹورک یا SIM کارڈ مصروف ہے، برائے مہربانی بعد میں کوشش کریں۔</string>
+    <string name="gsm_umts_network_preferences_title">نیٹ ورک وضع</string>
+    <string name="gsm_umts_network_preferneces_summary">اب تک عملدرآمد نہیں!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">نیٹ ورک وضع</string>
+    <string name="umts_preferred_network_mode_dialogtitle">نیٹ ورک وضع</string>
+    <string name="voice_call">وائس کال</string>
+    <string name="video_call">ویڈیو کال</string>
+    <string name="internet_call">انٹرنیٹ کال</string>
+    <string name="sum_voice_call">وائس کال سے تعلق رکھنے والی ترتیبات</string>
+    <string name="sum_video_call">وائس کال سے تعلق رکھنے والی ترتیبات</string>
+    <string name="sum_internet_call">انٹرنیٹ کال سے تعلق رکھنے والی ترتیبات</string>
+    <string name="voice_mail">وائس میل</string>
+    <string name="sum_voice_mail">وائس میل سروس اور نمبر</string>
+    <string name="sum_cell_broadcast_control_on">سیل براڈکاسٹ اہل کریں</string>
+    <string name="sum_cell_broadcast_control_off">سیل براڈکاسٹ نااہل کریں</string>
+    <string name="sum_cell_broadcast_setting">سیل براڈکاسٹ کے لئے زبان اور چینل کی ترتیب</string>
+    <string name="call_additional_sum">دیگر</string>
+    <string name="vt_call_settings">ویڈیو کال کی ترتیبات</string>
+    <string name="vt_local_video_rep">مقامی ویڈيو کی تبدیلی</string>
+    <string name="vt_pic_replace_local_description">کیمرے کے استعمال نہ ہوتے وقت ظاہر کرنے کے لئے کوئی تصویر سیٹ کریں</string>
+    <string name="mo_code_unconditional_cf_active">کال آگے بڑھانا/nغیرمشروط فعال کیا گیا</string>
+    <string name="mo_code_some_cf_active">کال آگے بڑھانا/nمشروط</string>
+    <string name="mo_code_call_forwarded">کال آگے بڑھائی گئی</string>
+    <string name="mo_code_call_is_waiting">منتظر کال</string>
+    <string name="mo_code_cug_call">بند صارف کا گروپ</string>
+    <string name="mo_code_outgoing_calls_barred">باہر جانے والے کال پر بندش</string>
+    <string name="mo_code_incoming_calls_barred">دوسری جانب آنے والی کالیں مسدود ہیں</string>
+    <string name="mo_code_clir_suppression_rejected">کالر ID بھیجنے والی خدمت چیک کريں</string>
+    <string name="mo_code_call_deflected">کال کال منتقل کی گئی</string>
+    <string name="mt_code_forwarded_call">یہ آگے بڑھائی ہوئی کال ہے</string>
+    <string name="mt_code_cug_call">بند صارف کا گروپ</string>
+    <string name="mt_code_call_on_hold">کال ہولڈ پر رکھی گئی</string>
+    <string name="mt_code_call_retrieved">کال بازيافت کی گئی</string>
+    <string name="mt_code_multi_party_call">کانفرنس کال</string>
+    <string name="mt_code_on_hold_call_released">ہولڈ پر رکھی گئی کال چھوڑی گئی</string>
+    <string name="mt_code_forward_check_received">موصولہ SS پیغام کو چیک کرنے کو آگے بڑھائيں</string>
+    <string name="mt_code_call_connecting_ect">کال منتقل کرہا ہے</string>
+    <string name="mt_code_call_connected_ect">کال کی منتقلی فعال ہے</string>
+    <string name="mt_code_deflected_call">رخ تبدیل کی جانے والی کال ہے</string>
+    <string name="mt_code_additional_call_forwarded">اضافی آنے والی کال کو آگے بڑھایا گیا</string>
+    <string name="mt_code_forwarded_cf">کال آگے بڑھائی گئی</string>
+    <string name="mt_code_forwarded_cf_uncond">کال کو غیرمشروط طور پر آگے بڑھایا گیا</string>
+    <string name="mt_code_forwarded_cf_cond">کال کو مشروط طور پر آگے بڑھایا گیا</string>
+    <string name="mt_code_forwarded_cf_busy">کال کو مصروف ہونے پر آگے بڑھایا گیا ہے</string>
+    <string name="mt_code_forwarded_cf_no_reply">کال کو جواب نہ ملنے پر آگے بڑھایا ہے</string>
+    <string name="mt_code_forwarded_cf_not_reachable">کال کو رابطہ نہ ہونے پر آگے بڑھایا ہے</string>
+    <string name="sim_manage_sipcall">انٹرنیٹ کال</string>
+    <string name="sim_manage_call_via">بذریعہ کال کریں</string>
+    <string name="manual_select_title">دستی طور پر منتخب کریں</string>
+    <string name="manual_select_dialog_msg">موبائل فون دستی انتخاب والے طرز میں آپ کے لیے دیگر آپریٹرز  کو منتخب نہیں کرے گا۔ کبھی کبھی جب آپ منتخب آپریٹر کی سروس سے محروم ہوجاتے ہیں تو آپ کو دوبارہ دستی انتخاب کرنا ہوتا ہے یا واپس خودکار انتخاب والی وضع پر جانا پڑتا ہے۔ ہمارا مشورہ ہے کہ آپ \"خودکار انتخاب کریں\" کا استعمال کریں۔ کیا آپ نیٹ ورک کو دستی طور پر منتخب کرنا چاہتے ہیں؟</string>
+    <string name="no_service_msg_gemini">ابھی \"<xliff:g id="operator">%s</xliff:g>\" SIM کارڈ کیلئے منتخب آپریٹر کی جانب سے کوئی سروس نہیں ہے۔\n ہمارا مشورہ ہے کہ آپ \" خودکار انتخاب کریں\" کا استعمال کریں یا آپ دستی طور پر دیگر آپریٹر کو منتخب کرسکتے ہیں۔</string>
+    <string name="no_service_msg">ابھی منتخب آپریٹر کی جانب سے کوئی سروس نہیں ہے۔\n ہمارا مشورہ ہے کہ آپ \" خودکار انتخاب کریں\" کا استعمال کریں یا آپ دستی طور پر دیگر آپریٹر کو منتخب کرسکتے ہیں۔</string>
+    <string name="show_always_title">مجھے دوبارہ انتباہ نہ دیں</string>
+    <string name="no_service_msg_title_gemini">\"<xliff:g id="operator">%s</xliff:g>\" کیلئے کوئی سروس نہیں ہے</string>
+    <string name="no_service_msg_title">کوئي سروس نہیں</string>
+    <string name="plmn_list_setting_title">ترجیحی نیٹ ورکس</string>
+    <string name="network_id">نیٹ ورک کی شناخت</string>
+    <string name="dialog_network_priority_title">ترجیح</string>
+    <string name="plmn_list_setting_add_plmn">نیا PLMN</string>
+    <string name="no_search_result">تلاش کے کوئی نتائج نہیں</string>
+    <string name="voice_command_notification_ticker">آپ آنے والی کال کا جواب دینے یا اسے نظر انداز کرنے کیلئے \"<xliff:g id="first_voice">%s</xliff:g>\" یا \"<xliff:g id="second_voice">%s</xliff:g>\" کہہ سکتے ہیں</string>
+    <string name="voice_command_notification_title">صوتی کنٹرول</string>
+    <string name="voice_command_notification_message">فون کیلئے صوتی کنٹرول فعال ہے</string>
+    <string name="dualtalk_tip_accept_disconnect_current">اس کال کو قبول کرنے سے موجودہ کال ختم ہو جائے گی۔</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing">اس کال کو قبول کرنے سے باہر جانے والی کال ختم ہوجائے گی۔</string>
+    <string name="dualtalk_tip_accept_disconnect_incoming">اس کال کو قبول کرنے سے دیگر آنے والی کال مسترد ہوجائے گی۔</string>
+    <string name="dualtalk_tip_accept_disconnect_voice">اس کال کو قبول کرنے سے صوتی کال (کالیں) ختم ہو جائیں گی۔</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing_reject_incoming">اس کال کو قبول کرنے سے باہر جانے والی کال ختم ہو جائے گی اور دیگر آنے والی کالیں مسترد ہوجائیں گی۔</string>
+    <string name="dualtalk_tip_accept_disconnect_current_reject_incoming">اس کال کو قبول کرنے سے موجودہ کال ختم ہو جائے گی اور دیگر آنے والی کالیں مسترد ہوجائیں گی۔</string>
+    <string name="callFailed_simError_cdma">UIM/SIM نہیں ہے، یا UIM/SIM کی خرابی</string>
+
+    <string-array name="language_list_values" translatable="false">
+        <item>تمام زبانیں</item>
+        <item>جرمن</item>
+        <item>انگریزی</item>
+        <item>اطالوی</item>
+        <item>فرانسیسی</item>
+        <item>ہسپانوی</item>
+        <item>ڈچ</item>
+        <item>سویڈش</item>
+        <item>ڈینش</item>
+        <item>پرتگالی</item>
+        <item>فننش</item>
+        <item>نارویجین</item>
+        <item>یونانی</item>
+        <item>ترکی</item>
+        <item>ہنگریائی</item>
+        <item>پولش</item>
+        <item>دیگر</item>
+        <item>چیک</item>
+        <item>عبرانی</item>
+        <item>عربی</item>
+        <item>روسی</item>
+        <item>الجزائری</item>
+    </string-array>
+
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item msgid="935612021902787683">2G/3G (خودکار وضع)</item>
+        <item msgid="8912042051809329533">3G صرف</item>
+        <item msgid="8776934131146642662">2G صرف</item>
+    </string-array>
+
+    <string-array name="umts_network_preferences_choices">
+        <item>2G/3G (خودکار وضع)</item>
+        <item>3G صرف</item>
+    </string-array>
+
+    <!-- Add for LTE FDD Begin -->
+    <string-array name="lte_prefer_network_mode_choices">
+        <item>4G/3G/2G (خودکار وضع)</item>
+        <item>3G/2G (خودکار وضع)</item>
+        <item>3G صرف</item>
+        <item>2G صرف</item>
+    </string-array>
+    <!-- Add for LTE FDD End -->
+
+    <!-- Cipher Indication -->
+    <string name="cipher_indication_notification_title">آواز کی مرموز کاری نہ کریں</string>
+    <string name="cipher_indication_notification_message">آواز کی مرموز کاری نیٹ ورک کے ذریعہ بند کردی گئی ہے</string>
+
+    <!-- LTE Prefered Network begin -->
+    <string name="network_type">نیٹورک کی قسم</string>
+    <!-- LTE Prefered Network end -->
+    <!-- Add for CSG -->
+    <string name="femtocell_point_list_title">Femtocells</string>
+    <string name="in_search_femtocell_networks_wait_tip">تلاش…</string>
+    <string name="sum_search_femtocell_networks"> femtocell کو دستی طور پر منتخب کریں</string>
+    <string name="register_femtocell_point_wait_tip"><xliff:g id="femto_cell_info">%s</xliff:g> کو رجسٹر کررہا ہے…</string>
+    <string name="register_femtocell_point_result_fail_tip">ابھی اس نیٹ ورک سے نہیں جڑ سکتا۔ بعد میں دوبارہ کوشش کریں۔</string>
+</resources>

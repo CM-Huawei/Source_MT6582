@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_advanced_settings">"Išplėstiniai nustatymai"</string>
+    <string name="bluetooth_profile_ftp">"Failo perkėlimas"</string>
+    <string name="bluetooth_ftp_profile_summary_use_for">Naudoti failo perkėlimui</string>
+    <string name="bluetooth_ftp_profile_summary_connected">"Prijungta prie failų perkėlimo"</string>
+    <string name="mtp_transfer_unmount_error_text">Perkeliant failą, negalima ištraukti SD kortelės</string>
+    <string name="mtp_transfer_erase_error_text">Perkeliant failą, negalima trinti SD kortelės</string>    
+    <string name="launch_error">"Nepavyko paleisti programos!"</string>
+    <string name="dlg_confirm_unmount_usb_title" product="default">Atjungti USB atminties įrenginį?</string>
+    <string name="dlg_confirm_unmount_usb_text" product="default">Jeigu atjungsite USB atminties įrenginį, kai kurios jūsų naudojamos programos bus sustabdytos ir neprieinamos, kol vėl neprijungsite USB atminties įrenginio.</string>
+    <string name="dlg_error_unmount_usb_title" product="default"/>
+    <string name="dlg_error_unmount_usb_text" product="default">"Nepavyko pašalinti USB atminties. Vėliau bandykite dar kartą."</string>   
+    <string name="unmount_usb_inform_text" product="default">USB atminties įrenginys bus atjungtas.</string>
+    <string name="sd_eject_usbstorage" product="default">"Atjungti USB atmintinę"</string>
+    <string name="sd_eject_usbstorage_summary" product="default">Atjunkite USB atminties įrenginį, kad galėtumėte saugiai jį išimti</string>
+    <string name="sd_mount_usbstorage" product="default">"Prijungti USB atmintinę"</string>
+    <string name="sd_insert_usb_summary" product="default">"Įdėti prijung. USB atmint."</string>
+    <string name="usb_ums_title">"USB atmintinė"</string>
+    <string name="usb_ums_summary">"Rekomenduojama XP. Leidžia jums perkelti failus iš kompiuterio į Android prietaisą ir atvirkščiai."</string>
+    <string name="usb_charge_title">Tik įkrauti</string>
+    <string name="usb_charge_summary">Sustabdomos visos USB funkcijos. Pagreitina USB įkrovimą ir mažinti energijos sąnaudas.</string>
+    <string name="NI_Request_ID">ID richiedente</string>
+    <string name="NI_Request_ClientName">Nome client</string>
+    <string name="agps_str_verify">Verifica</string>
+    <string name="agps_str_notify">"Notifiche"</string>
+    <string name="agps_OK">"Gerai"</string>
+    <string name="agps_str_allow">"Leisti"</string>
+    <string name="agps_str_deny">"Atmesti"</string>
+    <string name="AGPS_DEFAULT_STRING">Stringa predefinita A-GPS</string>
+    <string name="AGPS_NOTIFY_ONLY">Notifica richiesta posizione</string>
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">Richiesta posizione (consenti se senza risposta) </string>
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">Richiesta posizione (nega se senza risposta)</string>
+    <string name="AGPS_NOTIFY_PRIVACY">Richiesta posizione (Privacy)</string>    
+    <string name="ring_summary">Skambėti</string>
+    <string name="ring_vibrate_summary">Skambėti ir vibruoti</string>
+    <string name="silent_summary">Tik be garso</string>
+    <string name="meeting_summary">Tik vibruoti</string>
+    <string name="outdoor_summary">Skambėti garsiausiai ir vibruoti</string>
+    <string name="audio_profile_reset">Ripristina</string>
+    <string name="audio_profile_add">"Pridėti"</string>
+    <string name="audio_profile_enable">"Įgalinti"</string>
+    <string name="audio_profile_rename">"PERVARDYTI"</string>
+    <string name="audio_profile_delete">"Ištrinti"</string>
+    <string name="audio_profile_message_reset">Verranno ripristinate tutte le impostazioni di profilo audio predefinite</string>
+    <string name="audio_profile_message_rename">Inserire il nome del nuovo profilo</string>
+    <string name="audio_profile_message_name_error">Il nome inserito è già presente</string>  
+    <string name="audio_profile_message_name_length_wrong">Il nome deve contenere almeno un carattere</string>
+    <string name="audio_profile_message_delete">Il profilo <xliff:g id="profile">%s</xliff:g> verrà eliminato</string>
+    <string name="audio_profile_message_overflow">È consentito aggiungere solo 6 profili personalizzati</string>
+    <string name="ok">"Gerai"</string>
+    <string name="audio_profile_category_custom_title">"Profili predefiniti dall'utente"</string>
+    <string name="audio_profile_category_predefine_title">Profili predefiniti</string>
+    <string name="general_settings_title">"Bendras"</string>
+    <string name="silent_settings_title">"Begarsis"</string>
+    <string name="meeting_settings_title">Susitikimas</string>
+    <string name="outdoor_settings_title">Lauke</string>
+    <string name="apn_predefine_change_dialog_notice">Salvare? Le modifiche agli APN predefiniti potrebbero causare problemi di connessione!</string>    
+    <string name="sound_category_feedback_title">"Sistema"</string>
+    <string name="sound_category_calls_title">Įeinantys skambučiai</string>
+    <string name="voice_call_title">"Tono di chiamata voce"</string>
+    <string name="voice_call_summary">Impostare il tono predefinito per le chiamate locali in arrivo</string>
+    <string name="video_call_title">Tono di chiamata video</string>
+    <string name="video_call_summary">Impostare il tono predefinito per le chiamate video in arrivo</string>
+    <string name="sip_call_title">SIP skambučių skambėjimo tonai</string>
+    <string name="sip_call_summary">Nustato numatytąjį SIP skambučių skambėjimo toną</string>
+    <string name="Phone_vibrate_summary">Il telefono vibra per le chiamate in uscita</string>
+    <string name="vibrate_title">"Vibruoti"</string>
+    <string name="audio_profile_settings_title">Profili audio</string>
+    <string name="sim_status_title">Stato SIM</string>
+    <string name="sim_status_summary">Informazioni relative alla SIM</string>
+    <string name="status_imei_slot1">IMEI (alloggio 1)</string>
+    <string name="status_imei_sv_slot1">IMEI SV (alloggio 1)</string>
+    <string name="status_imei_slot2">IMEI (alloggio 2)</string>
+    <string name="status_imei_sv_slot2">IMEI SV (alloggio 2)</string>
+    <string name="status_min_number_slot1">MIN (alloggio 1)</string>
+    <string name="status_prl_version_slot1">Versione PRL (alloggio 1)</string>
+    <string name="status_meid_number_slot1">MEID (alloggio 1)</string>
+    <string name="status_min_number_slot2">MIN (alloggio 2)</string>
+    <string name="status_prl_version_slot2">Versione PRL (alloggio 2)</string>
+    <string name="status_meid_number_slot2">MEID (alloggio 2)</string>
+    <string name="slot_status_title">Informazioni IMEI</string>
+    <string name="slot_status_summary">Informazioni relative a IMEI</string> 
+    <string name="custom_build_version">"Versione build personalizzata"</string>
+    <string name="software_update">Servizio di aggiornamento software</string>
+    <string name="mota_system_update_summary">"Patikrinkite, ar serveryje nėra sistemos naujinio"</string>
+    <string name="software_updates_more_title">Programinės įrangos naujiniai</string>
+    <string name="software_updates_more_summary">Patikrinkite, ar yra nauja programinės įrangos versija</string>
+    <string name="software_updates_scomo_summary">Patikrinkite, ar yra nauja programos versija</string>
+    <string name="scomo_settings_title">Servizio di aggiornamento software</string>
+    <string name="screen_timeout_CU">Ekrano išjungimas</string>
+    <string name="landscape_launcher_title">Avvio panoramica</string>
+    <string name="landscape_launcher_none">"Joks"</string>
+    <string name="tvout_settings">Uscita TV</string>
+    <string name="tvout_settings_summary">Impostazioni uscita TV</string>
+    <string name="tv_system_title">Sistema TV</string>
+    <string name="hdmi_settings">Impostazioni HDMI</string>
+    <string name="hdmi_settings_summary">Fare clic per configurare HDMI</string>
+    <string name="hdmi_audio_toggler">Garsas</string>
+    <string name="hdmi_video_toggler">Video</string>
+    <string name="hdmi_video_resolution">Risoluzione video</string>
+    <string name="hdmi_auto">"automatinis"</string>
+    <string name="display_settings_scences_title">Užsklandos</string>
+    <string name="mtk_thememanager_title">Tema</string>
+    <string name="default_name">"Numatytoji"</string>
+    <string name="custom_theme_name">Nauja [%1$s]</string>
+    <string name="loading">Įkeliama...</string>
+    <string name="sim_enter_pin_hints">(Įveskite 4–8 skaitmenis)</string>
+    <string name="sim_remain">(Liko:<xliff:g id="remains">%d</xliff:g>)</string>  
+    <string name="gps_time_sync_attention_gps_on">Prireiks daugiausiai 1 minutės GPS ryšiui nustatyti. Be to, GPS gali nepateikti laiko dėl silpno signalo.\n\nAr tikrai norite naudoti GPS pateiktą laiką?</string>
+    <string name="gps_time_sync_attention_gps_off">Norėdami naudoti GPS pateiktą laiką, pirmiausiai privalote įjungti GPS. Tuomet prireiks daugiausiai 1 minutės GPS ryšiui nustatyti. Be to, GPS gali nepateikti laiko dėl silpno signalo. \n\nAr tikrai norite įjungti GPS ir palaukti, kol bus pateiktas GPS laikas?</string>
+    <string name="drm_settings_title">"Ripristino DRM"</string>
+    <string name="drm_settings_summary">"Elimina tutte le licenze DRM"</string>
+    <string name="drm_reset_dialog_msg">"Questa operazione eliminerà tutte le licenze sul dispositivo. Continuare?"</string>
+    <string name="drm_reset_toast_msg">Licencijos sėkmingai ištrintos.</string>
+    <string name="gemini_sim_management_title">Gestione SIM</string>
+    <string name="gemini_sim_info_title">Informazioni SIM</string>  
+    <string name="gemini_default_sim_title">"Numatytieji nustatymai"</string>  
+    <string name="gemini_general_settings_title">"Bendrieji nustatymai"</string>
+    <string name="gemini_roaming_settings_title">"Tarptinklinis ryšys"</string>    
+    <string name="gemini_data_roaming_title">"Tarptinklinis duomenų ryšys"</string>  
+    <string name="gemini_data_roaming_summary">Connetti ai servizi dati in roaming</string>  
+    <string name="gemini_roaming_reminder_title">Mostra promemoria roaming</string>  
+    <string name="gemini_roaming_reminder_summary">Rodyti SIM pasiūlymus pagal SIM naudojimą</string>      
+    <string name="gemini_contacts_sim_title">"Adresatų susiejimas"</string>      
+    <string name="gemini_contacts_sim_summary">Susieja adresatus su konkrečia SIM kortele</string> 
+    <string name="gemini_voice_call">Chiamata vocale</string>        
+    <string name="gemini_video_call">Videochiamata</string>   
+    <string name="gemini_data_connection">Connessione dati</string>   
+    <string name="gemini_msg">Pranešimų siuntimas</string>       
+    <string name="gemini_default_sim_always_ask">Chiedi sempre</string>    
+    <string name="gemini_intenet_call">Chiamata Internet</string>    
+    <string name="gemini_default_sim_never">"išjungta"</string>       
+    <string name="gemini_default_sim_3g_off">"išjungta"</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Tinklo režimas</string>
+    <string name="gemini_gsm_umts_network_preferneces_summary">Dar nerealizuota!</string>
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">Tinklo režimas</string>
+    <string name="gemini_3g_service_settings">3G paslauga</string>
+    <string name="gemini_sim_mode_progress_activating_message">Suaktyvinimas\u2026</string>
+    <string name="gemini_sim_mode_progress_deactivating_message">Išaktyvinimas\u2026</string>
+    <string name="gemini_sim_mode_change_failed_message">Nepavyko, tinklo klaida.</string>
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">"Lėktuvo režimas"</string>
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">Telefonas pradės veikti skrydžio režimu. Visi belaidžiai ryšiai bus išjungti. Tęsti?</string>
+    <string name="gemini_sim_info_editor_name">Modifica nome SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Salvataggio non riuscito</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Duplica nome per scheda SIM</string>  
+    <string name="gemini_sim_info_editor_number">Digita numero di telefono</string>  
+    <string name="gemini_sim_info_editor_color">Imposta colore sfondo</string> 
+    <string name="gemini_sim_info_editor_number_display_format">Visualizza numeri</string>    
+    <string name="gemini_no_sim_indicator">Nessuna scheda SIM</string>     
+    <string name="gemini_sim_list_default_title">SIM kortelių sąrašas</string>       
+    <string name="gemini_data_connection_progress_message">"Il completamento dell'attivazione della SIM richiede circa 10 secondi. Attendere..."</string>
+    <string name="gemini_3g_modem_switching_message">"Il completamento dell'attivazione della SIM richiede circa 10 secondi. Attendere..."</string>
+    <string name="gemini_3g_modem_switch_confirm_message">"Ciò attiva anche il servizio 3G su questa SIM. Continuare? Assicurarsi che la SIM selezionata supporti il servizio 3G."</string>
+    <string name="gemini_3g_disable_warning">"Pasirinkus šią SIM, 3G paslauga neveikia. Dėl to duomenys gali būti įkeliami lėčiau. Galite pakeisti 3G paslaugos nuostatą: Parametrai &gt; Belaidis ryšys ir tinklai &gt; Mobilieji tinklai."</string>
+    <string name="gemini_3g_disable_warning_cu">"Pasirinkus šią SIM, 3G paslauga neveikia. Dėl to duomenys gali būti įkeliami lėčiau. Galite pakeisti 3G paslaugos nuostatą: Parametrai &gt; SIM tvarkymas."</string>  
+    <string name="gemini_wap_push_permission_head">Įjungę automatinio siuntimo paslaugą, gausite automatinius pranešimus, bus įjungta vietos programa ir sukurtas duomenų srautas. Įprastos automatinio siuntimo paslaugos: pranešimai apie gautus el. pranešimus, prietaiso valdymą, pranešimai apie paslaugas, automatinis paslaugų įkėlimas ir palaikymas.</string>      
+    <string name="gemini_wap_push_permission_tail">Sutinkate su šios sutarties sąlygomis?</string>  
+    <string name="gemini_wap_push_permission_title">Automatinio siuntimo paslaugų sutartis</string>   
+    <string name="gemini_wap_push_permission">Automatinio siuntimo paslauga</string>   
+    <string name="gemini_3g_disable_warning_case0">"Norėdami naudoti šią SIM, pirmiausiai privalote įjungti tarptinklinį duomenų ryšį, kuriam gali būti taikomi dideli tarptinklinio ryšio mokesčiai! Tikrai norite įjungti tarptinklinį duomenų ryšį ir pasirinkti šią SIM?"</string>
+    <string name="gemini_3g_disable_warning_case1">"Pasirinkus šią SIM, 3G paslauga neveikia. Dėl to duomenys gali būti įkeliami lėčiau. Galite pakeisti 3G paslaugos nuostatą: Parametrai &gt; Belaidis ryšys ir tinklai &gt; Mobilieji tinklai. Tikrai norite pasirinkti šią SIM?"</string>
+    <string name="gemini_3g_disable_warning_case2">"Pasirinkus šią SIM, 3G paslauga neveikia. Dėl to duomenys gali būti įkeliami lėčiau. Galite pakeisti 3G paslaugos nuostatą: Parametrai &gt; SIM tvarkymas. Tikrai norite pasirinkti šią SIM?"</string>
+    <string name="gemini_3g_disable_warning_case3">"Norėdami naudoti šią SIM, pirmiausiai privalote įjungti tarptinklinį duomenų ryšį, kuriam gali būti taikomi dideli tarptinklinio ryšio mokesčiai! Be to, pasirinkus šią SIM, 3G paslauga neveiks. Dėl to duomenys gali būti įkeliami lėčiau. Ją galite pakeisti: Parametrai &gt; Belaidis ryšys ir tinklai &gt; Mobilieji tinklai. Tikrai norite įjungti tarptinklinį duomenų ryšį ir pasirinkti šią SIM?"</string>
+    <string name="gemini_3g_disable_warning_case4">"Norėdami naudoti šią SIM, pirmiausiai privalote įjungti tarptinklinį duomenų ryšį, kuriam gali būti taikomi dideli tarptinklinio ryšio mokesčiai! Be to, pasirinkus šią SIM, 3G paslauga neveiks. Dėl to duomenys gali būti įkeliami lėčiau. Ją galite pakeisti: Parametrai &gt; SIM tvarkymas. Tikrai norite įjungti tarptinklinį duomenų ryšį ir pasirinkti šią SIM?"</string>
+    <string name="gemini_sim_tether_info_title">Contatti &amp; SIM</string>
+	<string name="gemini_sim_tether_add_record">Aggiungi contatti</string>
+    <string name="gemini_sim_add_title">"Kontaktai"</string>
+    <string name="gemini_sim_tether_norecord">"Su šia SIM nė\ra susietų jokių adresatų numerių.\n\nPalieskite mygtuką Pridėti adresatus, kad pasirinktumėte adresatus, kuriuos norite susieti su šia SIM"</string>
+    <string name="gemini_sim_tether_nocontacts">"Jūsų telefone nėra galimų kontaktų. Pridėkite naują kontaktą arba pirmiausiai įkelkite kontaktus"</string>
+    <string name="gemini_sim_tether_no_assc_contacts">"Visi adresatai sėkmingai susieti"</string>
+    <string name="gemini_sim_tether_disassociate">Panaikinti susiejimą</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> pasirinktų</string>
+    <string name="gemini_sim_tether_unselect_all">Panaikinti visų pasirinkimą</string>
+    <string name="gemini_sim_tether_nocontact_confirm">"Gerai"</string>
+    <string name="gemini_sim_tether_select_all">"Pasirinkti viską"</string>
+    <string name="gemini_sim_tether_select_ok">"Išsaugoti"</string>
+    <string name="gemini_sim_tether_select_cancel">"Atšaukti"</string>
+    <string name="gemini_sim_tether_revert_title">"Dėmesio"</string>
+    <string name="gemini_sim_tether_revert_message">Le configurazioni sono state modificate, ma non salvate. Uscire senza salvare?</string>
+    <string name="gemini_tether_saving_progress_message">Salvataggio in corso...</string>
+    <string name="gemini_sim_lock_sim1_tab_tag">SIM1</string>
+    <string name="gemini_sim_lock_sim1_tab_label">SIM1</string>
+    <string name="gemini_sim_lock_sim2_tab_tag">SIM2</string>
+    <string name="gemini_sim_lock_sim2_tab_label">SIM2</string>
+    <string name="gemini_sim_lock_simid_error">Nepavyko; neteisingas SIM ID.</string>
+    <string name="gemini_sim_lock_no_insert_message_sim">Neįdėta SIM.</string>
+    <string name="gemini_sim_lock_radio_off_message_sim1">Radijas1 yra išjungtas.</string>
+    <string name="gemini_sim_lock_radio_off_message_sim2">Radijas2 yra išjungtas.</string>
+    <string name="akp_installer_settings_title">Programma di installazione APK</string>
+    <string name="akp_installer_settings_summary">Installa APK da scheda SD</string>
+    <string name="launch_main_label">Avvia applicazione</string>
+    <string name="launch_main">Avvia applicazione da attività principale</string>
+    <string name="launch_activitie">Avvia</string>
+    <string name="move_app_to_where">Perkelti į <xliff:g id="location">%s</xliff:g></string>
+    <string name="wifi_no_cert_for_wapi">Nepavyko rasti šio prijungimo AP sertifikato</string>
+    <string name="sim_slot">SIM kortelės lizdas</string>
+    <string name="eap_sim_slot_0">1 SIM lizdas</string>
+    <string name="eap_sim_slot_1">2 SIM lizdas</string>
+    <string name="eap_sim_aka_airplanemode">Išjunkite skrydžio režimą, kad galėtumėte naudoti EAP-SIM/AKA</string>
+    <string name="eap_sim_aka_no_sim_error">Norėdami naudoti EAP-SIM/AKA, privalote įdėti SIM kortelę</string>	
+    <string name="eap_sim_aka_no_sim_slot_selected">Norėdami naudoti EAP-SIM/AKA, privalote pasirinkti SIM lizdą</string>
+    <string name="wifi_security_wapi_certificate">WAPI sertifikatas</string>
+    <string name="wapi_user_certificate">"Certificato utente"</string>
+    <string name="wapi_as_certificate">"Certificato ASE"</string>   
+    <string name="wifi_hex_password">Šešioliktainis slaptažodis.</string>
+    <string name="wifi_WEP_transmit_key">Perdavimo raktas</string>
+    <string name="wifi_WEP_secury_key">Apsaugos raktas</string>
+    <string name="wifi_tether_auto_disable_title">Neišjungti Wi-Fi prieigos taško</string>
+    <string name="wifi_tether_auto_channel_text">"automatinis"</string>
+    <string name="wifi_tether_auto_channel_width_text">Automatinis 20/ 40 MHz</string>
+    <string name="wifi_channel">Pageidaujamas kanalas</string>
+    <string name="wifi_channel_width">Kanalo plotis</string>
+    <string name="pch_toggle_title">Pageidaujamas GPRS perdavimo režimas</string>
+    <string name="pch_data_prefer_summary_off">Duomenų pageidavimas</string>
+    <string name="pch_call_prefer_summary_on">Skambučio pageidavimas</string>
+    <string name="pch_warning_message">Sumažės duomenų perdavimo sparta.</string> 
+    <string name="schedule_power_on_off_settings_title">Planinis įjungimas ir išjungimas</string>
+    <string name="usb_bicr_title">Įrengtasis CD-ROM</string>
+    <string name="usb_bicr_summary">Rodomas virtualus CD-ROM, kuriame yra naudingos programinės įrangos.</string>
+    <string name="select_memory">Numatytasis įrašymo diskas</string>
+    <string name="ipo_title">Avvio rapido</string>
+    <string name="ipo_summary_on">Disattiva avvio rapido</string>
+    <string name="ipo_summary_off">Attiva avvio rapido</string>
+    <string name="agps_profile_select_Title">Profilo AGPS</string>
+    <string name="location_settings_label">Vietos nustatymo režimas</string>
+    <string name="audio_profile_error">"Klaida"</string>  
+    <string name="battery_percent">Baterijos energija procentais</string>
+    <string name="rcse_settings_title">Joyn settings</string>
+    <string name="MobileNetwork_SIM1_Active">SIM1 è attiva</string>
+    <string name="MobileNetwork_SIM2_Active">SIM2 è attiva</string>
+    <string name="dlg_mount_external_sd_title" product="default">Įjungti SD kortelę?</string>
+    <string name="dlg_mount_external_sd_summary" product="default">Įjungus SD kortelę, nebeveiks kai kurios jūsų naudojamos programos.</string>
+    <string name="tethered_ipv6_title">Saitavietės ir pririšimo nuostatos</string>
+    <string name="tethered_ipv4v6">(yra IPv6)</string>
+    <string name="tethered_ipv6">(yra tik IPv6)</string>
+    <string name="tethered_ipv4">(nėra IPv6)</string>
+    <string name="tethering_apn_settings_title">APN nuostatos</string>
+    <string name="tethering_apn_settings_summary">Konfigūruoti APN pririšimui</string> 
+    <string name="usb_tether_type_title">USB pririšimo tipas</string> 
+    <string name="usb_connect_as_cdrom_category">"Prijungti kaip CD_ROM"</string>
+    <string name="wifi_tether_setting_title">Pagrindiniai parametrai</string>
+    <string name="wifi_tether_wps_connect_title">WPS prijungti</string>
+    <string name="wifi_tether_wps_connect_summary">Pasirinkti Wi-Fi apsaugotą sąrankos režimą ir tęsti</string>
+    <string name="wifi_tether_wps_pin_error">Neteisingas PIN</string>
+    <string name="wifi_tethering_title">Wi-Fi prieigos taškas</string>
+    <string name="wifi_ap_wps_dialog_title">WPS prijungti</string>
+    <string name="wifi_ap_wps_mode_title">WPS režimas</string>
+    <string name="wifi_ap_wps_pin_title">Įrašykite kliento PIN</string>
+    <string name="wifi_ap_reset_OOB_title">Atkurti numatytąsias tinklo SSID, apsaugos ir slaptažodžio nuostatas (WPS konfigūracija išėmus iš pakuotės)</string>
+    <string name="wifi_ap_reset_OOB">Atkurti OOB</string>
+    <string name="wifi_ap_max_connection_title">Maksimalus ryšių skaičius</string>
+    <string name="wifi_ap_connected_title">Prijungti vartotojai</string>
+    <string name="wifi_ap_blocked_title">Užblokuoti vartotojai</string>
+    <string name="wifi_ap_client_block_title">Blokuoti</string>
+    <string name="wifi_ap_client_unblock_title">Atblokuoti</string>
+    <string name="wifi_ap_client_details_title">Detalės</string>
+    <string name="wifi_ap_client_mac_label">MAC adresas:</string>
+    <string name="wifi_ap_client_ip_label">IP adresas:</string>
+    <string name="usb_sharing_title">USB internetas</string>
+    <string name="usb_sharing_summary">Windows PC interneto bendrinimas naudojant USB kabelį</string>
+    <string name="usb_sharing_info_title">Interneto perėjimas</string>
+    <string name="usb_sharing_info_step_1">"1. Atidarykite Windows PC tinklo ryšius."</string>
+    <string name="usb_sharing_info_step_2">"2. Dešiniuoju pelės klavišu spustelėkite norimą bendrinti ryšį ir spustelėkite Ypatybės."</string>
+    <string name="usb_sharing_info_step_3">"3. Spustelėkite bendrinimo kortelę ir pasirinkite 'Leisti kitiems tinklo vartotojams prisijungti naudojant šio kompiute\rio interneto ryšį'(pasirinkite naujai pridėtą tinklą, kuris reiškia USB internetą, jeigu rodoma 'Namų tinklo ryšys')."</string>
+    <string name="wifi_ap_bandwidth_title">Plačiajuosčio ryšio naudojimas</string>
+    <string name="wifi_ap_bandwidth_enable">Įjungti plačiajuosčio ryšio spartinimą</string>
+    <string name="wifi_ap_bandwidth_chart_title">Savalaikio duomenų perdavimo sparta</string>
+    <string name="wifi_ap_bandwidth_chart_summary">Išmatavus naudojant jūsų telefoną, jūsų perdavimo\įtaiso duomenų greičio apskaita gali skirtis.</string>
+    <string name="wifi_wps_fail_error">Wi-Fi apsaugota sąranka nepavyko; bandykite dar kartą.</string>
+    <string name="wifi_ap_title">Statistika</string>
+    <string name="wifi_ap_time_duration">Trukmės laikas:<xliff:g id="time">%1$s</xliff:g></string>
+    <string name="wifi_ap_total_data">Iš viso išnaudota duomenų:<xliff:g id="time">%1$s</xliff:g></string>
+    <string name="wifi_ap_bandwidth_megabyteShort">MB/s</string>
+    <string name="wifi_ap_bandwidth_KbyteShort">KB/s</string>
+    <string name="cpu_dtm_title">Centrinio procesoriaus energijos taupymo režimas</string>
+    <string name="cpu_dtm_summary">Apriboja maksimalų centrinio procesoriaus veikimą, kad būtų taupoma baterijos energija ir prietaisas mažiau kaistų.</string>      
+    <string name="wifi_advanced_ipv4_address_title">IPv4 adresas</string>
+    <string name="wifi_advanced_ipv6_address_title">IPv6 adresas</string>
+    <string name="wifi_ipv4_address">IPv4 adresas</string>
+    <string name="wifi_ipv6_address">IPv6 adresas</string> 
+    <string name="mtk_datausage_show_on_lockscreen">Rodyti užrakintame ekrane</string>
+    <string name="mtk_datausage_update">Atnaujinti informaciją apie duomenų naudojimą</string>
+    <string name="mtk_datausage_update_set">"Naujinimas"</string>
+    <string name="mtk_datausage_amount_editor_title">Išnaudotų duomenų kiekis</string>
+    <string name="mtk_datausage_usage_list">Duomenų naudojimas pagal programas</string>
+    <string name="mtk_datausage_diff_byte">Duomenų naudojimo skirt.</string>
+    <string name="mtk_datausage_overview_tab">Apžvalga</string>
+    <string name="mtk_datausage_overview_wifi_today">"Šiandien"</string>
+    <string name="mtk_datausage_overview_wifi_total">Iš viso</string>
+    <string name="mtk_datausage_overview_mobile_title">"Mobilusis"</string>
+    <string name="mtk_datausage_overview_mobile_usage"><xliff:g id="actual">%s</xliff:g> iš <xliff:g id="limit">%s</xliff:g></string>
+    <string name="mtk_datausage_overview_mobile_usage_warning">iš <xliff:g>%s</xliff:g> limito</string>
+    <string name="display_personalize">Suasmeninimas</string>
+    <string name="display_default">"Ekranas"</string>
+    <string name="sound_enhancement_title">Garso gerinimas</string> 
+    <string name="music_plus_summary">Ausinių garso gerinimo priemonė</string> 
+    <string name="auto_backlight_title">Taupus foninis apšvietimas</string>
+    <string name="auto_backlight_summary">Automatiškai pritaikyti foninį apšvietimą, kad būtų taumopa energija</string> 
+    <string name="beam_mgmt_tab_download_title">Persiuntimo tikrinimo SS pranešimas gautas</string>
+    <string name="beam_mgmt_tab_upload_title">"Bus surinkta informacija apie dabartinę įrenginio būseną ir išsiųsta el. pašto pranešimu. Šiek tiek užtruks, kol pranešimas apie triktį bus paruoštas siųsti; būkite kantrūs."</string>
+    <string name="beam_share_mgmt_notification_ticker">Perkėlimų bendrinimo istorija</string>
+	<string name="beam_share_mgmt_notification_title">Perkėlimų bendrinimo istorija</string>
+	<string name="beam_share_mgmt_notification_message">"Pasirinkti, kad galima būtų peržiūrėti perkėlimų bendrinimo istoriją."</string>
+    <string name="beam_share_mgmt_tab_menu_clear">Naikinti visą istoriją?</string>
+    <string name="beam_share_open_file_dialog_title">Ne\pavyko atidaryti failo</string>
+    <string name="beam_share_open_file_unsupported_message">Šis failo formatas nepalaikomas.</string>
+	<string name="beam_share_open_file_not_found_message">"Failo nerasta: <xliff:g id="file_name">%1$s</xliff:g></string>
+	<string name="beam_share_transfer_fail_dialog_title">"Perkėlimas nepavyko"</string>
+	<string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> nebuvo sėkmingai išsiųstas."</string>
+	<string name="beam_share_resend_dialog_ok_button">"Bandykite dar kartą"</string>
+	<string name="beam_share_show_received_files_menu">"Rodyti gautus failus"</string>
+	<string name="beam_share_history_title">Perkėlimų bendrinimo istorija</string>
+    <string name="beam_share_clear_confirm_dialog_title">Valyti viską</string>
+    <string name="beam_share_clear_confirm_dialog_message">Naikinti visą istoriją?</string>
+    <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> nebuvo sėkmingai gautas."</string>        
+    <string name="beam_share_clear_item_dailog_title">"Ištrinti"</string>
+    <string name="beam_share_clear_item_dailog_message">Elementas bus ištrintas.</string>
+    <string name="nfc_p2p_mode">P2P režimas</string>
+    <string name="nfc_p2p_mode_summary">Išsiųstų arba gautų progr. turinys</string>
+    <string name="nfc_tag_mode_category">Žymų režimas</string>
+    <string name="nfc_rw_tag_title">Žymų skaitymas ir rašymas</string>
+    <string name="nfc_rw_tag_summary">Skaityti iš žymos arba rašyti į žymą</string>
+    <string name="nfc_card_emulation_category_title">kortelės emuliacijos režimas</string>
+    <string name="nfc_card_emulation">Kortelės emuliacija</string>
+    <string name="card_emulation_settings_category_title">esamas apsaugos elementas</string>
+    <string name="card_emulation_settings_no_element_found">Nėra apsaugos elemento.</string>
+    <string name="card_emulation_settings_off_text">Norėdami matyti esamus apsaugos elementus, įjunkite kortelės emuliaciją.</string>
+    <string name="card_emulation_turning_off_text">Išjungiama kortelės emuliacija...</string>
+    <string name="card_emulation_turning_on_text">Įjungiama kortelės emuliacija...</string>
+    <string name="card_emulation_switch_error_title">"Klaida"</string>
+    <string name="card_emulation_switch_error_message">Nepavyko perjungti į <xliff:g id="card_mode">%1$s</xliff:g>.</string>
+    <string name="card_emulation_sim_not_supported_message"><xliff:g id="sim_description">%1$s</xliff:g> nepalaiko NFC kortelės emuliacijos funkcijos.</string>
+    <string name="card_emulation_two_sim_not_supported_message">SIM1,SIM2 do not support NFC Card emulation function.</string>
+    <string name="voice_unlock_backup_info_summary">Kai atrakinimo balsu funkcija ne\atpažįsta jūsų, kaip norite atrakinti?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">Atrakinti balsu</string>
+    <string name="voice_ui_title">"Valdymas balsu"</string>
+    <string name="voice_ui_app_category">"Programoms"</string>
+    <string name="voice_ui_setting_category">"Bendrieji nustatymai"</string>
+    <string name="voice_ui_language_title">"Valdymo balsu kalba"</string>
+    <string name="incoming_call_app_name">"Įeinantis skambutis"</string>
+    <string name="alarm_app_name">"Įspėjamieji signalai"</string>
+    <string name="camera_app_name">Negalima sukeisti kamerų, jeigu įjungta</string>
+    <string name="music_app_name">"Sukuria bet kurio šiuo metu grojančio muzikinio takelio garso bangą."</string>
+    <string name="incomming_command_summary_format">Galite pasakyti <xliff:g id="first">%1$s</xliff:g> arba <xliff:g id="second">%2$s</xliff:g>, kad atsilieptumėte arba atmestumėte įeinančius skambučius.</string>
+    <string name="alarm_command_summary_format">Galite pasakyti <xliff:g id="first">%1$s</xliff:g> arba <xliff:g id="second">%2$s</xliff:g>, kad valdytumėte žadintuvą.</string>
+    <string name="camera_command_summary_format">Galite pasakyti <xliff:g id="first">%1$s</xliff:g> arba <xliff:g id="second">%2$s</xliff:g>, kad užfiksuotumėte kadrą</string>
+    <string name="music_command_summary_format">Galite pasakyti <xliff:g id="first">%1$s</xliff:g> ir <xliff:g id="second">%2$s</xliff:g>, kad kontroliuotumėte muzikos grojimą.</string>
+    <string name="lock_screen_notifications_title">Užrakinto ekrano pranešimai</string>
+    <string name="lock_screen_notifications_summary">Rodyti pranešimus užrakintame ekrane</string>
+    <string name="lock_screen_style_title">Užrakinto ekrano stilius</string>	
+    <string name="current_suffix">"(Dabartinis)"</string>
+	<string name="lockscreen_style_set">"Nustatyti užrakintą ekraną"</string>
+	<string name="lockscreen_style_default_desc">"Greita prieiga prie programų užrakintame ekrane"</string>
+    <string name="security_not_set">Apsauga nenustatyta</string>
+    <string name="status_imei_slot3">IMEI(lizdas3)</string>
+    <string name="status_imei_sv_slot3">IMEI SV(lizdas3)</string>
+    <string name="status_min_number_slot3">MIN(lizdas3)</string>
+    <string name="status_prl_version_slot3">PRL versija (lizdas3)</string>
+    <string name="status_meid_number_slot3">MEID(lizdas3)</string>
+    <string name="lockdown_vpn_already_connected">Visada įjungtas VPN jau įjungtas, kad galima būtų prisijungti.</string> 
+    <string name="wifi_ap_no_connected">0 prijungtų vartotojų</string>
+    <string name="wifi_ap_no_blocked">0 užblokuotų vartotojų</string>
+    <string name="mouse_primary_button_title">Perjungti pirminius ir antriniu mygtukus</string>
+    <string name="mouse_primary_button_dialog_title">Perjungti pirminį mygtuką</string>
+    <string name="double_click_title">Dvigubo spustelėjimo greitis</string>
+    <string name="test_area">TIKRINTI RAJONĄ:</string>
+    <string name="double_click_tip">Dukart spustelėkite čia</string>
+    <string name="apn_port_warning">Jungties vertė turi būti 1-65535!</string>
+    <string name="usb_tethering_select_version">Pasirinkti kompiuterio sistemos versiją</string>
+    <string name="oobe_sim_info_title">Tvarkyti  SIM</string>
+    <string name="oobe_default_sim_title">Nustatyta numatytąją SIM</string>
+    <string name="wfd_change_resolution_menu_title">Keisti vaizdo raišką</string>
+    <string name="wifi_hotspot_suspend_optimizations">Wi-Fi prieigos taško optimizavimas</string>
+    <string name="wifi_hotspot_suspend_optimizations_summary">Minimalus baterijos naudojimas prisijungus prie Wi-Fi prieigos taško</string>
+    <string name="clear_motion_summary">Vaizdo sklandumo gerinimo priemonė</string>
+    <string name="hotknot_explained_description">Leisti apsikeisti duomenimis prilietus ekranu kitą prietaisą</string>
+    <string name="card_emulation_two_sim_not_supported_message">SIM1, SIM2 nepalaiko NFC kortelės emuliacijos funkcijos.</string>
+
+    <string name="passpoint_summary">Automatiškai prisijungti prie AP, kuriuose veikia Passpoint</string>
+    <string name="passpoint_append_summary">(per Passpoint)</string>
+    <string name="passpoint_config_credential_type">Kredencialo tipas</string>
+    <string name="passpoint_config_eap_method">"EAP būdas"</string>
+    <string name="passpoint_supported">Palaikoma</string>
+    <string name="passpoint_username_pw">Vartotojo vardas/slaptažodis</string>
+    <string name="passpoint_certificate">Atestatas</string>
+
+    <string name="audio_profile_bes_loudness_title">BesLoudness</string>
+    <string name="audio_profile_bes_loudness_summary">Kiekis stiprintuvas garsiakalbis</string>
+</resources>

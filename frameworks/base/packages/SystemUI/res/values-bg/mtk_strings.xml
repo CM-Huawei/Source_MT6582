@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="gemini_default_sim_always_ask">Винаги питай</string>
+    <string name="gemini_default_sim_auto">"АВТ."</string>
+    
+    <string name="accessibility_phone_four_bars">Четири ленти на телефона.</string>
+    
+    <string name="sim_switch_tip">Тази SIM е зададена като SIM по подразбиране за <xliff:g>%s</xliff:g>. Задръжте и плъзнете надолу лентата за статус за смяна на SIM по подразбиране.</string>
+    <string name="remind_next_time">Напомнете ми следващия път</string>
+    <string name="voice_call_service">услуга гласово повикване</string>
+    <string name="messages_service">услуга съобщения</string>
+    <string name="data_connection_service">услуга връзка за данни</string>
+
+    <string name="plmn_searching">"Търси се"</string>
+
+    <string name="wifi">"Wi-Fi"</string>
+    <string name="bluetooth">"Bluetooth"</string>
+    <string name="mobile">Връзка за данни</string>
+    <string name="gps">"GPS"</string>
+    <string name="autorotate">Автом. завъртане</string>
+    <string name="normal">Общи</string>
+    <string name="meeting">Среща</string>
+    <string name="mute">"Тих режим"</string>
+    <string name="outdoor">Навън</string>
+
+    <string name="offline">"Самолетен режим"</string>
+    <string name="brightness">"Яркост"</string>
+    <string name="timeout">"Време за изчакване"</string>
+
+    <string name="data_connection_attach_timeout_error_msg">"Неуспешна връзка за данни или сега мрежата е заета."</string>
+    <string name="data_connection_dettach_timeout_error_msg">"Неуспешно откачане връзката за данни."</string>
+    <string name="data_connection_connected">[<xliff:g>%s</xliff:g>] разрешена връзка за данни на SIM</string>
+
+    <string name="gemini_intenet_call">Интернет повикване</string>  
+    <string name="gemini_default_sim_never">"Изключено"</string>
+    
+    <string name="gemini_3g_disable_warning">"Услугата 3G не е достъпна за избраната SIM. Данните ще се зареждат по-бавно. Можете да промените настройките за услуга 3G чрез Настройки &gt; Безжични и мрежи &gt; Мобилни мрежи. Настоявате ли да изберете тази SIM?"</string>
+    <string name="gemini_3g_disable_warning_cu">"Услугата 3G не е достъпна за избраната SIM. Данните ще се зареждат по-бавно. Можете да промените настройките за услуга 3G чрез Настройки &gt; Управление на SIM. Настоявате ли да изберете тази SIM?"</string>
+    <string name="gemini_3g_disable_warning_case0">"Първо трябва да разрешите роуминг на данни за тази SIM карта - това може да струва скъпо! Настоявате ли да разрешите роуминг на данни и да изберете тази SIM карта?"</string>
+    <string name="gemini_3g_disable_warning_case1">"Услугата 3G не е достъпна за избраната SIM. Данните ще се зареждат по-бавно. Можете да промените настройките за услуга 3G чрез Настройки &gt; Безжични и мрежи &gt; Мобилни мрежи. Настоявате ли да изберете тази SIM?"</string>
+    <string name="gemini_3g_disable_warning_case2">"Услугата 3G не е достъпна за избраната SIM. Данните ще се зареждат по-бавно. Можете да промените настройките за услуга 3G чрез Настройки &gt; Управление на SIM. Настоявате ли да изберете тази SIM?"</string>
+    <string name="gemini_3g_disable_warning_case3">"Първо трябва да разрешите роуминг на данни за тази SIM карта - това може да струва скъпо! Освен това, услугата 3G не е достъпна за избраната SIM карта. Данните ще се зареждат по-бавно. Можете да промените настройките за 3G услуга през Настройки &gt; Безжични и мрежи &gt; Мобилни мрежи. Настоявате ли да разрешите роуминг на данни и да изберете тази SIM?"</string>
+    <string name="gemini_3g_disable_warning_case4">"Трябва да разрешите първо роуминг на данни за тази SIM, което може да причини значителни разходи за роуминг! Освен това, услугата 3G не е достъпна за тази SIM. Данните ще се зареждат по-бавно. Можете да промените настройките чрез Настройки &gt; Управление на SIM. Настоявате ли да разрешите роуминг на данни и да изберете тази SIM?"</string>
+
+    <string name="confirm_radio_title">SIM е изключена</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> сега е изключена. Искате ли да включите тази SIM?</string>
+    <string name="confirm_radio_msg_single">Сега е включен режим самолет - искате ли да го изключите?</string>
+    <string name="confirm_radio_lbutton">Включване</string>
+
+    <string name="builtin_installer_title_message">Вграден CD-ROM</string>
+    <string name="builtin_installer_dlg_message">Включване на вградения CD-ROM?</string>
+    <string name="builtin_installer_always_allowed">Не показвай следващия път</string>
+    <string name="dlg_no">"Не"</string>
+    <string name="dlg_yes">"Да"</string>
+
+    <string name="OK">"OK"</string>
+    <string name="application_guide_title">Превключете на по подразбиране SIM карти</string>
+    <string name="application_guide_content">Плъзнете надолу списъка известия за включване към SIM картата по подразбиране</string>
+    
+    <string name="data_usage">"Използване на данни"</string>
+    <string name="audio_profile">Аудио профили</string>
+    <string name="user_owner">"Собственик"</string>
+
+    <string name="phone_battery_low_subtitle">Батерията на телефона се изтощава.</string>
+    <string name="smartbook_battery_low_subtitle">Батерията на смартбука се изтощава.</string>
+
+    <string name="apn">ТОЧКА НА ДОСТЪП</string>
+    <string name="sim_management">УПРАВЛЕНИЕ UIM/SIM</string>
+    <string name="network_selection_settings">Избор на мрежа</string>
+    <string name="quick_settings_roam_data">Роуминг на данни</string>
+
+    <string name="eco_backlight_title">Икономична подсветка</string>
+    <string name="eco_backlight_summary">Автоматично адаптиране на подсветката за икономия на енергия</string> 
+</resources>

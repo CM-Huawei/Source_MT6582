@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="gemini_default_sim_always_ask">Завжди питати</string>
+    <string name="gemini_default_sim_auto">"АВТО"</string>
+    
+    <string name="accessibility_phone_four_bars">Чотири штрихи телефона.</string>
+    
+    <string name="sim_switch_tip">Ця SIM встановлена як SIM за промовчанням для <xliff:g>%s</xliff:g>. Утримуйте і потягніть вниз Панель Статусу, щоб змінити карту SIM за промовчанням.</string>
+    <string name="remind_next_time">Нагадати мені наступного разу</string>
+    <string name="voice_call_service">послуга голосового виклику</string>
+    <string name="messages_service">послуга повідомлень</string>
+    <string name="data_connection_service">послуга підключення даних</string>
+
+    <string name="plmn_searching">"Пошук"</string>
+
+    <string name="wifi">"Wi-Fi"</string>
+    <string name="bluetooth">"Bluetooth"</string>
+    <string name="mobile">Підключення даних</string>
+    <string name="gps">"GPS"</string>
+    <string name="autorotate">Автообертання</string>
+    <string name="normal">Загальне</string>
+    <string name="meeting">Зустріч</string>
+    <string name="mute">"Без звуку"</string>
+    <string name="outdoor">На вулиці</string>
+
+    <string name="offline">"Режим польоту"</string>
+    <string name="brightness">"Яскравість"</string>
+    <string name="timeout">"Час очікування"</string>
+
+    <string name="data_connection_attach_timeout_error_msg">"Помилка підключення даних або зараз мережа зайнята."</string>
+    <string name="data_connection_dettach_timeout_error_msg">"Не від'єднано підключення даних."</string>
+    <string name="data_connection_connected">[<xliff:g>%s</xliff:g>] активовано підключення даних карти SIM</string>
+
+    <string name="gemini_intenet_call">Інтернет-виклик</string>  
+    <string name="gemini_default_sim_never">"Вимкнено"</string>
+    
+    <string name="gemini_3g_disable_warning">"На вибраній SIM недоступна послуга 3G. Це може повільніше завантажувати дані. Ви можете змінити налаштування послуги 3G у Налаштування &gt; Бездротове і мережі &gt; Мобільні мережі. Точно бажаєте вибрати цю SIM?"</string>
+    <string name="gemini_3g_disable_warning_cu">"На вибраній SIM недоступна послуга 3G. Це може повільніше завантажувати дані. Ви можете змінити налаштування послуги 3G у Налаштування &gt; Керування SIM. Точно бажаєте вибрати цю SIM?"</string>
+    <string name="gemini_3g_disable_warning_case0">"Спочатку слід активувати роумінг даних цієї SIM-карти, а це може багато коштувати! Бажаєте активувати роумінг даних і вибрати цю SIM?"</string>
+    <string name="gemini_3g_disable_warning_case1">"На вибраній SIM недоступна послуга 3G. Це може повільніше завантажувати дані. Ви можете змінити налаштування послуги 3G у Налаштування &gt; Бездротове і мережі &gt; Мобільні мережі. Точно бажаєте вибрати цю SIM?"</string>
+    <string name="gemini_3g_disable_warning_case2">"На вибраній SIM недоступна послуга 3G. Це може повільніше завантажувати дані. Ви можете змінити налаштування послуги 3G у Налаштування &gt; Керування SIM. Точно бажаєте вибрати цю SIM?"</string>
+    <string name="gemini_3g_disable_warning_case3">"Спочатку слід активувати роумінг даних цієї SIM-карти, а це може багато коштувати! Також 3G недоступний на вибраній SIM. Дані можуть завантажуватися повільніше.  Можна змінити налаштування 3G у Налаштування &gt;  Бездротове і мережі &gt; Мобільні мережі. Точно активувати роумінг даних і вибрати цю SIM?"</string>
+    <string name="gemini_3g_disable_warning_case4">"Спочатку слід активувати роумінг даних для SIM, це може вимагати значних коштів! Також послуга 3G недоступна на вибраній SIM. Дані можуть повільнніше завантажуватися. Можна змінити це у Налаштування &gt; Керування SIM. Ви впевнені, що активуєте роумінг даних і вибираєте цю SIM?"</string>
+
+    <string name="confirm_radio_title">Вимкнена SIM</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> тепер вимкнена. Бажаєте увімкнути цю карту SIM?</string>
+    <string name="confirm_radio_msg_single">Зараз увімкнено режим Літак. Бажаєте вимкнути його?</string>
+    <string name="confirm_radio_lbutton">Увімкнути</string>
+
+    <string name="builtin_installer_title_message">Вбудований CD-ROM</string>
+    <string name="builtin_installer_dlg_message">Увімкнути вбудований CD-ROM?</string>
+    <string name="builtin_installer_always_allowed">Не показувати наступного разу</string>
+    <string name="dlg_no">"Ні"</string>
+    <string name="dlg_yes">"Так"</string>
+
+    <string name="OK">"OK"</string>
+    <string name="application_guide_title">﻿Switch to default SIM card</string>
+    <string name="application_guide_content">Пройти вниз списком сповіщень, щоб перемкнутися на карту SIM за промовчанням</string>
+    
+    <string name="data_usage">"Викор. даних"</string>
+    <string name="audio_profile">Профілі аудіо</string>
+    <string name="user_owner">"Власник"</string>
+
+    <string name="phone_battery_low_subtitle">Батарея телефона розряджується.</string>
+    <string name="smartbook_battery_low_subtitle">Розряджується батарея смартбука.</string>
+
+    <string name="apn">ТОЧКА ДОСТУПУ</string>
+    <string name="sim_management">КЕРУВАННЯ UIM/SIM</string>
+    <string name="network_selection_settings">Вибір мережі</string>
+    <string name="quick_settings_roam_data">Роумінг даних</string>
+
+    <string name="eco_backlight_title">Економічне підсвічення</string>
+    <string name="eco_backlight_summary">Автоматично адаптує підсвічення, щоб заощадити енергію</string> 
+</resources>

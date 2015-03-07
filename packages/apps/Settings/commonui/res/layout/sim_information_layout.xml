@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:gravity="center_vertical"
+    android:id="@+id/sim_main_layout"
+    android:paddingEnd="?android:attr/scrollbarSize"
+    android:background="?android:attr/selectableItemBackground" >
+    <include layout="@layout/sim_icon"/>
+    <include layout="@layout/sim_name_number"/>
+    <!-- Preference should place its actual preference widget here. -->
+    <include layout="@layout/sim_widget_view"/>
+</LinearLayout>

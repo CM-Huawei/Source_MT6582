@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="keyguard_password_enter_pin_code">পিন কোড টাইপ করুন</string>
+
+    
+    <string name="keyguard_password_enter_puk_code">পাক ও নতুন পিন কোড টাইপ করুন</string>
+
+    
+    <string name="keyguard_password_enter_puk_prompt">পাক কোড</string>
+    
+    <string name="keyguard_password_enter_pin_prompt">নতুন পিন কোড</string>
+
+    
+    <string name="keyguard_password_entry_touch_hint"><font size="17">পাসওয়ার্ড টাইপ করতে স্পর্শ করুন</font></string>
+
+    
+    <string name="keyguard_password_enter_password_code">আনলক করতে পাসওয়ার্ড টাইপ করুন</string>
+
+    
+    <string name="keyguard_password_enter_pin_password_code">আনলক করতে পিন টাইপ করুন</string>
+
+    
+    <string name="keyguard_password_wrong_pin_code">ভুল পিন কোড</string>
+
+    
+    <string name="keyguard_label_text">আনলক করতে মেনু চেপে ০ চাপুন</string>
+
+    
+    <string name="faceunlock_multiple_failures">সর্বোচ্চ ফেইস আনলক চেষ্টায় পৌছে গেছে</string>
+
+    
+    <string name="keyguard_charged">চার্জ দেয়া হয়েছে</string>
+
+    
+    <string name="keyguard_plugged_in">চার্জ হচ্ছে (<xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g>)</string>
+
+    
+    <string name="keyguard_low_battery">আপনার চার্জার সংযুক্ত করুন</string>
+
+    
+    <string name="keyguard_instructions_when_pattern_disabled">আনলক করতে মেনু চাপুন </string>
+
+    <skip/>
+    
+    <string name="keyguard_network_locked_message">নেটওয়ার্ক লক করা</string>
+    
+    <string name="keyguard_missing_sim_message_short">সিম কার্ড নেই</string>
+    
+    <string name="keyguard_missing_sim_message" product="tablet">ট্যাবলেটে কোনো সিম কার্ড নেই।</string>
+    
+    <string name="keyguard_missing_sim_message" product="default">ফোনে কোনো সিম কার্ড নেই।</string>
+    
+    <string name="keyguard_missing_sim_instructions">সিম কার্ড প্রবেশ করান</string>
+    
+    <string name="keyguard_missing_sim_instructions_long">সিম কার্ড নেই বা পাঠযোগ্য নয়। সিম কার্ড ঢোকান।</string>
+    
+    <string name="keyguard_permanent_disabled_sim_message_short">ব্যবহারের অযোগ্য সিম কার্ড</string>
+    
+    <string name="keyguard_permanent_disabled_sim_instructions">আপনার সিম কার্ড স্থায়ীভাবে নিষ্ক্রিয় করা হয়েছে। \n অন্য সিম কার্ডের জন্য আপনার ওয়্যারলেস সার্ভিস প্রোভাইডারের সাথে যোগাযোগ করুন।</string>
+    
+    <string name="keyguard_sim_locked_message">সিম কার্ড লক করা।</string>
+    
+    <string name="keyguard_sim_puk_locked_message">সিম কার্ড পাক দ্বারা লক করা</string>
+    
+    <string name="keyguard_sim_unlock_progress_dialog_message">সিম কার্ড আনলক হচ্ছে \u2026</string>
+
+    
+    
+    
+    
+
+    
+    <string name="keyguard_accessibility_widget_changed">%1$s. উইজেড %2$d of %3$d.</string>
+    
+    <string name="keyguard_accessibility_add_widget">উইজেট যোগ করুন।</string>
+    
+    <string name="keyguard_accessibility_widget_empty_slot">খালি </string>
+    
+    <string name="keyguard_accessibility_unlock_area_expanded">প্রসারিত স্থান আনলক করুন।</string>
+    
+    <string name="keyguard_accessibility_unlock_area_collapsed">সংকুচিত স্থান আনলক করুন।</string>
+    
+    <string name="keyguard_accessibility_widget"><xliff:g id="widget_index">%1$s</xliff:g> উইজেট।</string>
+    
+    <string name="keyguard_accessibility_user_selector">ব্যবহারকারী নির্বাচক</string>
+    
+    <string name="keyguard_accessibility_status">অবস্থা</string>
+    
+    <string name="keyguard_accessibility_camera">ক্যামেরা</string>
+    
+    <string name="keygaurd_accessibility_media_controls">মিডিয়া নিয়ন্ত্রণ</string>
+    
+    <string name="keyguard_accessibility_widget_reorder_start">উইজেট রেকর্ড শুরু করা হয়েছে।</string>
+    
+    <string name="keyguard_accessibility_widget_reorder_end">উইজেট রিঅর্ডারিং সমাপ্ত হয়েছে।</string>
+    
+    <string name="keyguard_accessibility_widget_deleted">উইজেট <xliff:g id="widget_index">%1$s</xliff:g> মুছে ফেলা হয়েছে।</string>
+    
+    <string name="keyguard_accessibility_expand_lock_area">আনলককৃত স্থান প্রসারিত করুন।</string>
+    
+    <string name="keyguard_accessibility_slide_unlock">আনলক স্লাইড করুন।</string>
+    
+    <string name="keyguard_accessibility_pattern_unlock">প্যাটার্ন আনলক করুন।</string>
+    
+    <string name="keyguard_accessibility_face_unlock">ফেইস আনলক করুন।</string>
+    
+    <string name="keyguard_accessibility_pin_unlock">পিন আনলক করুন।</string>
+    
+    <string name="keyguard_accessibility_password_unlock">পাসওয়ার্ড আনলক করুন।</string>
+    
+    <string name="keyguard_accessibility_pattern_area">প্যাটার্ন এলাকা।</string>
+    
+    <string name="keyguard_accessibility_slide_area">স্লাইড এলাকা।</string>
+
+    
+    <string name="keyguard_accessibility_transport_prev_description">পূর্ববর্তী ট্র্যাক বাটন</string>
+    
+    <string name="keyguard_accessibility_transport_next_description">পরবর্তী ট্র্যাক বাটন</string>
+    
+    <string name="keyguard_accessibility_transport_pause_description">বিরতি বাটন</string>
+    
+    <string name="keyguard_accessibility_transport_play_description">প্লে বাটন</string>
+    
+    <string name="keyguard_accessibility_transport_stop_description">বন্ধ করার বাটন</string>
+    
+    <string name="keyguard_accessibility_transport_thumbs_up_description">থামস আপ</string>
+    
+    <string name="keyguard_accessibility_transport_thumbs_down_description">থামস ডাউন</string>
+    
+    <string name="keyguard_accessibility_transport_heart_description">হৃদয়</string>
+
+
+    
+    <string name="keyguard_accessibility_show_bouncer">আনলক চলবে</string>
+
+    
+    <string name="keyguard_accessibility_hide_bouncer">চালু করা বাতিল হয়েছে</string>
+
+    
+    <string name="keyguard_accessibility_delete_widget_start">মুছে ফেলতে <xliff:g id="widget_index">%1$s</xliff:g> বাতিল করুন।</string>
+
+    
+    <string name="keyguard_accessibility_delete_widget_end"><xliff:g id="widget_index">%1$s</xliff:g> মুছে যাবে না।</string>
+
+    <skip/>
+    
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    
+    <string name="password_keyboard_label_alt_key">ALT</string>
+
+    <skip/>
+    
+    <string name="keyboardview_keycode_alt">ALT</string>
+    
+    <string name="keyboardview_keycode_cancel">বাতিল করুন</string>
+    
+    <string name="keyboardview_keycode_delete">মুছে ফেলুন</string>
+    
+    <string name="keyboardview_keycode_done">সম্পন্ন</string>
+    
+    <string name="keyboardview_keycode_mode_change">মোড পরিবর্তন করুন</string>
+    
+    <string name="keyboardview_keycode_shift">"শিফট"</string>
+    
+    <string name="keyboardview_keycode_enter">এন্টার</string>
+
+    
+    <string name="description_target_unlock"> বার্তা  আনলক করুন</string>
+    
+    <string name="description_target_camera">ক্যামেরা</string>
+    
+    <string name="description_target_silent">নিঃশব্দ</string>
+    
+    <string name="description_target_soundon">সাউন্ট চালু</string>
+    
+    <string name="description_target_search">অনুসন্ধান করুন</string>
+
+    
+    <string name="description_direction_up"><xliff:g id="target_description" example="Unlock">%s</xliff:g>-এর জন্য উপরে স্লাইড করুন।</string>
+    
+    <string name="description_direction_down"><xliff:g id="target_description" example="Unlock">%s</xliff:g>-এর জন্য নিচে স্লাইড করুন।</string>
+    
+    <string name="description_direction_left">"<xliff:g id="target_description" example="Unlock">%s</xliff:g>এর জন্য বামে স্লাইড করুন।</string>
+    
+    <string name="description_direction_right"><xliff:g id="target_description" example="Unlock">%s</xliff:g>এর জন্য ডানে স্লাইড করুন।</string>
+
+    
+    <string name="user_switched">বর্তমান ব্যবহারকারী <xliff:g id="name" example="Bob">%1$s</xliff:g>।</string>
+
+    
+    <string name="kg_emergency_call_label">জরুরি কল</string>
+    
+    <string name="kg_forgot_pattern_button_text">প্যাটার্ন ভুলে যান</string>
+    
+    <string name="kg_wrong_pattern">ভুল প্যাটার্ন</string>
+    
+    <string name="kg_wrong_password">ভুল পাসওয়ার্ড</string>
+    
+    <string name="kg_wrong_pin">"পিন"</string>
+    
+    <string name="kg_too_many_failed_attempts_countdown"><xliff:g id="number">%d</xliff:g> সেকেন্ডে আবার চেষ্টা করুন।</string>
+    
+    <string name="kg_pattern_instructions">আপনার প্যাটার্ন আঁকুন</string>
+    
+    <string name="kg_sim_pin_instructions">সিমের পিন প্রবেশ করান</string>
+    
+    <string name="kg_pin_instructions">পিন প্রবেশ করান</string>
+    
+    <string name="kg_password_instructions">পাসওয়ার্ড প্রবেশ করান</string>
+    
+    <string name="kg_puk_enter_puk_hint">এখন সিম নিষ্ক্রিয় অবস্থায় আছে। অব্যাহত রাখার জন্য পাক প্রবেশ করান। বিস্তারিত জানার জন্য ক্যারিয়ারের সাথে  যোগাযোগ করুন।</string>
+    
+    <string name="kg_puk_enter_pin_hint">প্রত্যাশিত পিন কোডটি প্রবেশ করান </string>
+    
+    <string name="kg_enter_confirm_pin_hint">প্রত্যাশিত পিন কোডটি নিশ্চিত করুন</string>
+    
+    <string name="kg_sim_unlock_progress_dialog_message">সিম কার্ড আনলক হচ্ছে \u2026</string>
+    
+    <string name="kg_password_wrong_pin_code">ভুল পিন কোড</string>
+    
+    <string name="kg_invalid_sim_pin_hint">এমন একটি পিন টাইপ করুন যা ৪ থেকে ৮ অংকবিশিষ্ট।</string>
+    
+    <string name="kg_invalid_sim_puk_hint">পাক কোড ৮ বা তার চেয়ে বেশি সংখ্যা বিশিষ্ট হওয়া উচিত।</string>
+    
+    <string name="kg_invalid_puk">সঠিক পাক কোড আবার প্রবেশ করান। বারবার চেষ্টার ফলে সিমটি স্থায়ীভাবে নিষ্ক্রিয় হয়ে যাবে।</string>
+      
+    <string name="kg_invalid_confirm_pin_hint" product="default">পিন কোড মিলছে না</string>
+    
+    <string name="kg_login_too_many_attempts">অনেক বেশিবার প্যাটার্ন চেষ্টা</string>
+    
+    <string name="kg_login_instructions">আনলক করতে আপনার গুগল একাউন্ট দিয়ে সাইন-ইন করুন।</string>
+    
+    <string name="kg_login_username_hint">ব্যবহারকারী নাম (ইমেইল)</string>
+    
+    <string name="kg_login_password_hint">পাসওয়ার্ড</string>
+    
+    <string name="kg_login_submit_button">সাইন ইন করুন</string>
+    
+    <string name="kg_login_invalid_input">অকার্যকর ব্যবহারকারী নাম বা পাসওয়ার্ড</string>
+    
+    <string name="kg_login_account_recovery_hint">আপনার ব্যবহারকারী নাম বা পাসওয়ার্ড ভুলে গেছেন\?\n ভিজিট করুন <b>google.com/accounts/recovery</b>.</string>
+    
+    <string name="kg_login_checking_password">অ্যাকাউন্ট যাচাই চলছে\u2026</string>
+    
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">আপনি ভুলভাবে আপনার পিন<xliff:g id="number">%d</xliff:g> বার টাইপ করেছেন। \n\n আবার চেষ্টা করুন  <xliff:g id="number">%d</xliff:g> সেকেন্ডে। </string>
+    
+    <string name="kg_too_many_failed_password_attempts_dialog_message">আপনি ভুলভাবে আপনার পাসওয়ার্ড <xliff:g id="number">%d</xliff:g> বার টাইপ করেছেন। \n\n আবার চেষ্টা করুন  <xliff:g id="number">%d</xliff:g> সেকেন্ডে। </string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">আপনি ভুলভাবে আপনার আনলক প্যাটার্ন <xliff:g id="number">%d</xliff:g> বার এঁকেছেন। \n\n আবার চেষ্টা করুন  <xliff:g id="number">%d</xliff:g> সেকেন্ডে। </string>
+    
+    <string name="kg_failed_attempts_almost_at_wipe" product="tablet">আপনি ভুলভাবে ট্যাবলেটকে <xliff:g id="number">%d</xliff:g> বার আনলক করার চেষ্টা করেছেন। আরো <xliff:g id="number">%d</xliff:g> বার অসফল চেষ্টা করার পর, ট্যাবলেটটি ফ্যাক্টরি ডিফল্টে রিসেট হয়ে যাবে এবং সব ডাটা হারিয়ে যাবে।</string>
+    
+    <string name="kg_failed_attempts_almost_at_wipe" product="default">আপনি ভুলভাবে ফোনকে <xliff:g id="number">%d</xliff:g> বার আনলক করার চেষ্টা করেছেন। আরো <xliff:g id="number">%d</xliff:g> বার অসফল চেষ্টা করার পর, ফোনটি ফ্যাক্টরি ডিফল্টে রিসেট হয়ে যাবে এবং সব ডাটা হারিয়ে যাবে।</string>
+    
+    <string name="kg_failed_attempts_now_wiping" product="tablet">আপনি ভুলভাবে ট্যাবলেটকে <xliff:g id="number">%d</xliff:g> বার আনলক করার চেষ্টা করেছেন। ট্যাবলেটটি এখন ফ্যাক্টরি ডিফল্টে রিসেট হয়ে যাবে।</string>
+    
+    <string name="kg_failed_attempts_now_wiping" product="default">আপনি ভুলভাবে ফোনকে <xliff:g id="number">%d</xliff:g> বার আনলক করার চেষ্টা করেছেন। ফোনটি এখন ফ্যাক্টরি ডিফল্টে রিসেট হয়ে যাবে।</string>
+    
+    <string name="kg_failed_attempts_almost_at_login" product="tablet">আপনি ভুলভাবে আপনার আনলক প্যাটার্ন <xliff:g id="number">%d</xliff:g> বার এঁকেছেন। আরো <xliff:g id="number">%d</xliff:g> বার অসফল চেষ্টার পর আপনাকে ইমেইল অ্যাকাউন্টের মাধ্যমে আপনার ট্যাবলেট আনলক করতে বলবে।\n\n আবার চেষ্টা করুন <xliff:g id="number">%d</xliff:g> সেকেন্ডে।</string>
+    
+    <string name="kg_failed_attempts_almost_at_login" product="default">আপনি ভুলভাবে আপনার আনলক প্যাটার্ন <xliff:g id="number">%d</xliff:g> বার এঁকেছেন। আরো <xliff:g id="number">%d</xliff:g> বার অসফল চেষ্টার পর আপনাকে ইমেইল অ্যাকাউন্টের মাধ্যমে আপনার ফোনকে আনলক করতে বলবে।\n\n আবার চেষ্টা করুন <xliff:g id="number">%d</xliff:g> সেকেন্ডে।</string>
+    
+    <string name="kg_text_message_separator" product="default">" \u2014 "</string>
+    
+    <string name="kg_reordering_delete_drop_target_text">সরিয়ে ফেলুন</string>
+
+    
+    
+    <string name="keyguard_transport_prev_description">পূর্ববর্তী ট্র্যাক বাটন</string>
+    
+    <string name="keyguard_transport_next_description">পরবর্তী ট্র্যাক বাটন</string>
+    
+    <string name="keyguard_transport_pause_description">বিরতি বাটন</string>
+    
+    <string name="keyguard_transport_play_description">প্লে বাটন</string>
+    
+    <string name="keyguard_transport_stop_description">বন্ধ করার বাটন</string>
+
+    
+    <string name="keyguard_carrier_default">সার্ভিস নেই</string>
+
+</resources>

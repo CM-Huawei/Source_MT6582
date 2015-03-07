@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+
+    <string name="onscreenHangupAll">Suspendare totală</string>
+    <string name="onscreenHangupHolding">Suspendare apel în aşteptare</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Suspendare apel activ, se răspunde la apel în aşteptare</string>
+    <string name="onscreenECT">Transfer</string>
+
+    <string name="dm_lock">DM blocat</string>
+    <string name="dm_unlock">Deblocare DM</string>
+
+    <string name="mo_code_unconditional_cf_active">Redirecţionare apel\nnecondiţionat activată</string>
+    <string name="mo_code_some_cf_active">Redirecţionare apel\nla apel condiţionat</string>
+    <string name="mo_code_call_forwarded">Apel redirecţionat</string>
+    <string name="mo_code_call_is_waiting">Apel în aşteptare</string>
+    <string name="mo_code_cug_call">Grup utilizator închis</string>
+    <string name="mo_code_outgoing_calls_barred">Apel efectuat barat</string>
+    <string name="mo_code_incoming_calls_barred">Apelul a fost refuzat la destinaţie</string>
+    <string name="mo_code_clir_suppression_rejected">Verificare serviciu de trimitere ID apelant</string>
+    <string name="mo_code_call_deflected">apel Apel transferat</string>
+    <string name="mt_code_forwarded_call">Este un apel redirecţionat</string>
+    <string name="mt_code_cug_call">Grup utilizator închis</string>
+    <string name="mt_code_call_on_hold">Apel reţinut</string>
+    <string name="mt_code_call_retrieved">Apel regăsit</string>
+    <string name="mt_code_multi_party_call">Apel de conferinţă</string>
+    <string name="mt_code_on_hold_call_released">Apel reţinut eliberat</string>
+    <string name="mt_code_forward_check_received">Mesaj SS de verificare a redirecţionării primit</string>
+    <string name="mt_code_call_connecting_ect">Transferare apel</string>
+    <string name="mt_code_call_connected_ect">Transfer apel activ</string>
+    <string name="mt_code_deflected_call">Este un apel deviat</string>
+    <string name="mt_code_additional_call_forwarded">Redirecţionare apel primit suplimentar</string>
+    <string name="mt_code_forwarded_cf">Apel redirecţionat</string>
+    <string name="mt_code_forwarded_cf_uncond">Redirecţionare apel la apel necondiţionat</string>
+    <string name="mt_code_forwarded_cf_cond">Redirecţionare apel la apel condiţionat</string>
+    <string name="mt_code_forwarded_cf_busy">Redirecţionare apel ocupat</string>
+    <string name="mt_code_forwarded_cf_no_reply">Redirecţionare apel când nu există răspuns</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Redirecţionare apel când este inaccesibil</string>
+    
+    <string name="start_record">Pornire înregistrare</string>
+    <string name="stop_record">Oprire înregistrare</string>
+    <string name="str_db_playlist_name">Înregistrările mele</string>
+    <string name="alert_device_error">S-a produs o eroare pe dispozitivul audio</string>
+    <string name="ext_media_badremoval_notification_title">Cartelă SD scoasă neaşteptat</string>
+    <string name="error_sdcard_access">Imposibil de accesat cartela SD</string>
+    <string name="confirm_device_info_full">Spaţiu insuficient pe cartela SD, înregistrarea s-a salvat.</string>
+    <string name="confirm_save_info_saved">Înregistrarea s-a salvat</string>
+    <string name="confirm_save_info_saved_to">Înregistrarea a fost salvată în</string>
+    
+    <string name="activity_not_found">"Aplicaţia nu este instalată pe telefonul dvs."</string>
+    <string name="confirm_3g_switch">Sigur doriţi să setaţi serviciul 3G pe această cartelă SIM? Aceasta va seta automat şi cartela SIM implicită pentru apel video la această cartelă SIM.</string>
+    <string name="modem_switching">Comutarea cartelei SIM va dura circa 10 secunde pentru finalizare. Aşteptaţi...</string>
+    <string name="confirm_3g_switch_to_off">Sigur doriţi să dezactivaţi serviciul 3G? Aceasta va dezactiva automat şi serviciul de apel video.</string>
+    <string name="enable_3G_service">Activare 3G</string>
+    <string name="network_forbidden">interzisă</string>
+    <string name="plmn_list_setting_title">Preferinţe</string>
+    <string name="plmn_list_setting_add_plmn">Adăugare reţea PLMN nouă</string>
+    <string name="callFailed_dsac_vt_incompatible_destination">Imposibil de configurat apelul video. Telefonia video nu este acceptată pe telefonul apelat, apelaţi cu apel vocal?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">Imposibil de configurat apelul video. Telefonul apelat este în afara zonei de serviciu 3G, apelaţi cu apel vocal?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">Imposibil de configurat apelul video. Apelaţi cu apel vocal?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">Telefonul dvs. este în afara zonei de serviciu 3G, apelaţi cu apel vocal?</string>
+    <string name="notification_voicemail">Mesaj vocal</string>
+    <string name="turn_on_3g_service_message">Serviciul 3G este dezactivat acum, doriţi să îl activaţi?</string>
+    <string name="associate_sim_missing_message">"Cartela SIM %1$s este indisponibilă. Doriţi să plasaţi apelul prin %2$s"</string>
+    <string name="associate_sim_missing_other">Altele</string>
+
+    <string name="vt_incoming_call">Apel video primit</string>
+    <string name="vt_settings">Setări video</string>
+    <string name="vt_local_video_zoom">Zoom conţinut video local</string>
+    <string name="vt_local_video_brightness">Luminozitate conţinut video local</string>
+    <string name="vt_local_video_effect">Efect conţinut video local</string>
+    <string name="vt_local_video_nightmode">Mod nocturn conţinut video local</string>
+    <string name="vt_peer_video_quality">Calitate conţinut video pereche</string>
+    <string name="vt_pic_replace_local_description">Setaţi o imagine pentru afişare când camera nu este în uz</string>
+    <string name="vt_enable_back_camera">Activare cameră spate</string>
+    <string name="vt_enable_back_camera_description">Disponibil pentru a comuta camerele dacă se activează</string>
+    <string name="vt_peer_video_bigger">Conţinut video pereche mai mare decât conţinut video local</string>
+    <string name="vt_peer_video_bigger_description">Activaţi pentru a face conţinutul video pereche mai mare decât conţinutul video local</string>
+    <string name="vt_outgoing_call">Apel video efectuat</string>
+    <string name="vt_outgoing_call_description">Afişare conţinut video local când se efectuează un apel video</string>
+    <string name="vt_incoming_call_description">Afişare conţinut video local când se acceptă un apel video primit</string>
+    <string name="vt_incoming_showme_ask">Solicitare</string>
+    <string name="vt_call_settings">Setări apel video</string>
+    <string name="vt_pic_replace_local_default">Imagine implicită</string>
+    <string name="vt_pic_replace_local_freezeme">Se îngheaţă</string>
+    <string name="vt_pic_replace_local_mypic">Imaginea mea</string>
+    <string name="vt_local_video_display">Afişare conţinut video local</string>
+    <string name="vt_sd_null">Cartela SD este\nindisponibilă</string>
+    <string name="vt_sd_not_enough">Cartela SD îşi epuizează\nspaţiul</string>
+    <string name="vt_peer_video_quality_normal">Normal</string>
+    <string name="vt_ask_show_local">Afişaţi conţinutul video local la pereche?</string>
+    <string name="vt_change_my_pic">Modificare</string>
+    <string name="vt_pic_saved_to_sd">Instantaneu salvat în cartela SD</string>
+    <string name="vt_pic_saved_to_sd_fail">Salvarea instantaneului nu a reuşit</string>
+    <string name="vt_error_network">Reţea inaccesibilă. Apelul video se va deconecta.</string>
+    <string name="vt_error_media">Imposibil de afişat corect conţinutul video. Apelul video se va deconecta.</string>
+    <string name="vt_swap_video">Comutare conţinuturi video</string>
+    <string name="vt_local_video_contrast">Contrast conţinut video local</string>
+    <string name="vt_menu_switch">Comutare cameră</string>
+    <string name="vt_menu_hide_me">Ascundere conţinut video local</string>
+    <string name="vt_menu_show_me">Afişare conţinut video local</string>
+    <string name="vt_menu_snapshot">Instantaneu pereche</string>
+    <string name="vt_local_video_rep">Înlocuire conţinut video local</string>
+    <string name="vt_dis_peer_rep">Afişare înlocuire pereche</string>
+    <string name="vt_dis_peer_rep_des">Afişare imagine pentru înlocuirea conţinutului video pereche când acesta este indisponibil</string>
+    <string name="vt_peer_video_rep">Înlocuire conţinut video pereche</string>
+    <string name="vt_peer_video_rep_des">Setaţi o imagine pentru afişare când conţinutul video este indisponibil</string>
+    <string name="vt_vocie_answer">Răspuns vocal</string>
+    <string name="vt_wait_voice">Se aşteaptă conectarea apelului vocal</string>
+    <string name="vt_voice_connecting">Se conectează apelul vocal</string>
+    <string name="vt_auto_dropback">Revenire automată</string>
+    <string name="vt_auto_dropback_des">Reveniţi automat la conectarea apelului vocal</string>
+    <string name="vt_cannot_support_setting">Camera curentă nu acceptă această setare</string>
+    <string name="vt_network_unreachable">Reţea indisponibilă.</string>
+    <string name="vt_iot_error_01">Imposibil de configurat apelul video</string>
+    <string name="vt_iot_error_02">Telefonul este ocupat</string>
+    <string name="vt_iot_error_03">Nu există niciun răspuns</string>
+    <string name="vt_iot_error_04">Reţeaua este ocupată</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"Expunere"</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">Tablă albă</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">Tablă neagră</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Bleu</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Sepia albastru</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Sepia verde</string>
+    <string name="vt_peer_camera_open">Camera la distanţă este deschisă</string>
+    <string name="vt_peer_camera_close">Camera la distanţă este închisă</string>
+    <string name="vt_recorder_start">Pornire înregistrare</string>
+    <string name="vt_recorder_voice_and_peer_video">Voce şi conţinut video pereche</string>
+    <string name="vt_recorder_only_voice">Numai voce</string>
+    <string name="vt_recorder_only_peer_video">Numai conţinut video pereche</string>
+    <string name="vt_recording_saved">Înregistrarea s-a salvat.</string>
+    <string name="vt_recording_saved_sd_full">Spaţiu insuficient pe cartela SD, înregistrarea s-a salvat.</string>
+    <string name="vt_recording_error">Eroare de înregistrare.</string>
+    <string name="start_record_vt">Pornire înregistrare</string>
+    <string name="stop_record_vt">Oprire înregistrare</string>
+    <string name="voice_call_settings">Setări apel video</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> minute <xliff:g id="seconds" example="28">%2$s</xliff:g> secunde</string>
+    <string name="reminder">Memento</string>
+    <string name="vt_media_occupied">Deoarece camera nu este disponibilă, apelul video este imposibil de efectuat. Verificaţi dacă orice altă aplicaţie utilizează camera.</string>
+    <string name="vt_media_video_fail">Imposibil de afişat corespunzător conţinutul video. Apelul video este deconectat</string>
+    <string name="incall_toast_unhold">Anulare aşteptare</string>
+
+</resources>

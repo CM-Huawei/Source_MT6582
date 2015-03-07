@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_advanced_settings">"Rozšírené nastavenia"</string>
+    <string name="bluetooth_profile_ftp">"Prenos súborov"</string>
+    <string name="bluetooth_ftp_profile_summary_use_for">Použiť pre prenos súborov</string>
+    <string name="bluetooth_ftp_profile_summary_connected">"Pripojené na prenos súborov"</string>
+    <string name="mtp_transfer_unmount_error_text">Kartu SD nemožno počas prenosu súborov odpojiť.</string>
+    <string name="mtp_transfer_erase_error_text">Kartu SD nemožno počas prenosu súborov vymazať.</string>    
+    <string name="launch_error">"Aplikáciu nemožno spustiť!"</string>
+    <string name="dlg_confirm_unmount_usb_title" product="default">Má sa odpojiť pamäťové zariadenie USB?</string>
+    <string name="dlg_confirm_unmount_usb_text" product="default">Ak odpojíte pamäťové zariadenie USB, niektoré aplikácie, ktoré používate, sa zastavia a nebudú k dispozícii, kým pamäťové zariadenie USB znova nepripojte.</string>
+    <string name="dlg_error_unmount_usb_title" product="default"/>
+    <string name="dlg_error_unmount_usb_text" product="default">"Úložisko USB sa nepodarilo odpojiť. Skúste to znova neskôr."</string>   
+    <string name="unmount_usb_inform_text" product="default">Pamäťové zariadenie USB bude odpojené.</string>
+    <string name="sd_eject_usbstorage" product="default">"Odpoj. uklad. priestor USB"</string>
+    <string name="sd_eject_usbstorage_summary" product="default">Pamäťové zariadenie USB odpojte, aby ste ho mohli bezpečne odstrániť.</string>
+    <string name="sd_mount_usbstorage" product="default">"Pripoj. ukl. priestor USB"</string>
+    <string name="sd_insert_usb_summary" product="default">"Vložte ukl. priestor USB na pripoj."</string>
+    <string name="usb_ums_title">"Ukladací priestor USB"</string>
+    <string name="usb_ums_summary">"Odporúča sa XP. Umožňuje prenášať súbory medzi počítačom a zariadením Android."</string>
+    <string name="usb_charge_title">Iba nabíjať</string>
+    <string name="usb_charge_summary">Zastavte všetky funkcie USB. Umožní to urýchliť nabíjanie cez USB a zníženie spotreby energie.</string>
+    <string name="NI_Request_ID">Žiadateľ ID</string>
+    <string name="NI_Request_ClientName">Meno používateľa</string>
+    <string name="agps_str_verify">Overenie</string>
+    <string name="agps_str_notify">Oznámenie</string>
+    <string name="agps_OK">"OK"</string>
+    <string name="agps_str_allow">"Povoliť"</string>
+    <string name="agps_str_deny">"Odmietnuť"</string>
+    <string name="AGPS_DEFAULT_STRING">Predvolený reťazec A-GPS</string>
+    <string name="AGPS_NOTIFY_ONLY">Oznámenie požiadavky na umiestnenie</string>
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">Požiadavka na umiestnenie (povoliť, ak nie je odpoveď)</string>
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">Požiadavka na umiestnenie (odmietnuť, ak nie je odpoveď)</string>
+    <string name="AGPS_NOTIFY_PRIVACY">Požiadavka na umiestnenie (ochrana súkromia)</string>    
+    <string name="ring_summary">Vyzváňanie</string>
+    <string name="ring_vibrate_summary">Vyzváňanie a vibrovanie</string>
+    <string name="silent_summary">Iba tichý režim</string>
+    <string name="meeting_summary">Iba vibrovanie</string>
+    <string name="outdoor_summary">Najhlasnejšie vyzváňanie a vibrovanie</string>
+    <string name="audio_profile_reset">"Obnoviť"</string>
+    <string name="audio_profile_add">"Pridať"</string>
+    <string name="audio_profile_enable">"Povoliť"</string>
+    <string name="audio_profile_rename">"PREMENOVAŤ"</string>
+    <string name="audio_profile_delete">"Odstrániť"</string>
+    <string name="audio_profile_message_reset">Všetky nastavenia zvukového profilu sa vráti na predvolené nastavenia</string>
+    <string name="audio_profile_message_rename">Zadajte prosím názov nového profilu</string>
+    <string name="audio_profile_message_name_error">Zadaný názov je už existuje</string>  
+    <string name="audio_profile_message_name_length_wrong">Názov musí obsahovať minimálne jeden znak</string>
+    <string name="audio_profile_message_delete">Profil <xliff:g id="profile">%s</xliff:g> bude odstránený</string>
+    <string name="audio_profile_message_overflow">Pridať môžete iba 6 používateľských profilov</string>
+    <string name="ok">"OK"</string>
+    <string name="audio_profile_category_custom_title">Profily definované používateľom</string>
+    <string name="audio_profile_category_predefine_title">Preddefinované profily</string>
+    <string name="general_settings_title">"Všeobecné"</string>
+    <string name="silent_settings_title">"Tichý"</string>
+    <string name="meeting_settings_title">Porada</string>
+    <string name="outdoor_settings_title">Vonku</string>
+    <string name="apn_predefine_change_dialog_notice">Naozaj ich chcete uložiť? Zmeny v predvolených APN môžu spôsobiť problémy s pripojením! </string>    
+    <string name="sound_category_feedback_title">"Systém"</string>
+    <string name="sound_category_calls_title">Prichádzajúce hovory</string>
+    <string name="voice_call_title">Vyzváňací tón hlasového hovoru</string>
+    <string name="voice_call_summary">"Nastavte predvolený vyzváňací tón hladových hovorov"</string>
+    <string name="video_call_title">Vyzváňací tón videohovoru</string>
+    <string name="video_call_summary">Nastavte predvolený vyzváňací tón videohovoru</string>
+    <string name="sip_call_title">Vyzváňací tón hovoru SIP</string>
+    <string name="sip_call_summary">Nastavte predvolený vyzváňací tón hovoru SIP</string>
+    <string name="Phone_vibrate_summary">Vibrovanie zariadenia pri prichádzajúcich hovoroch</string>
+    <string name="vibrate_title">"Vibrovanie"</string>
+    <string name="audio_profile_settings_title">Zvukové profily</string>
+    <string name="sim_status_title">Stav SIM</string>
+    <string name="sim_status_summary">Informácie súvisiace s kartou SIM</string>
+    <string name="status_imei_slot1">IMEI (zásuvka 1)</string>
+    <string name="status_imei_sv_slot1">IMEI SV (zásuvka 1)</string>
+    <string name="status_imei_slot2">IMEI (zásuvka 2)</string>
+    <string name="status_imei_sv_slot2">IMEI SV (zásuvka 2)</string>
+    <string name="status_min_number_slot1">MIN (zásuvka 1)</string>
+    <string name="status_prl_version_slot1">PRL Verzia (zásuvka 1)</string>
+    <string name="status_meid_number_slot1">MEID (zásuvka 1)</string>
+    <string name="status_min_number_slot2">MIN (zásuvka 2)</string>
+    <string name="status_prl_version_slot2">PRL Verzia (zásuvka 2)</string>
+    <string name="status_meid_number_slot2">MEID (zásuvka 2)</string>
+    <string name="slot_status_title">"Informácie o IMEI"</string>
+    <string name="slot_status_summary">"Informácie súvisiace s IMEI"</string> 
+    <string name="custom_build_version">Vlastné zostavenie verzie</string>
+    <string name="software_update">Aktualizačná služba softvéru</string>
+    <string name="mota_system_update_summary">"Aktualizáciu systému skontrolujte na serveri"</string>
+    <string name="software_updates_more_title">Aktualizácie softvéru</string>
+    <string name="software_updates_more_summary">Zistite si novú verziu softvéru</string>
+    <string name="software_updates_scomo_summary">Zistite si novú verziu pre aplikáciu</string>
+    <string name="scomo_settings_title">Aktualizačná služba softvéru</string>
+    <string name="screen_timeout_CU">Časový limit obrazovky</string>
+    <string name="landscape_launcher_title">Spúšťacia funkcia naležato</string>
+    <string name="landscape_launcher_none">"Žiadna"</string>
+    <string name="tvout_settings">Výstup TV</string>
+    <string name="tvout_settings_summary">Nastavenia výstupu TV</string>
+    <string name="tv_system_title">TV systém</string>
+    <string name="hdmi_settings">Nastavenia HDMI</string>
+    <string name="hdmi_settings_summary">Kliknutím nakonfigurujte HDMI</string>
+    <string name="hdmi_audio_toggler">Zvuk</string>
+    <string name="hdmi_video_toggler">"Video"</string>
+    <string name="hdmi_video_resolution">Rozlíšenie obrazu</string>
+    <string name="hdmi_auto">"automaticky"</string>
+    <string name="display_settings_scences_title">Scény</string>
+    <string name="mtk_thememanager_title">Téma</string>
+    <string name="default_name">"Predvolené"</string>
+    <string name="custom_theme_name">Nové [%1$s]</string>
+    <string name="loading">Načítavam...</string>
+    <string name="sim_enter_pin_hints">(zadajte 4 až 8 číslic)</string>
+    <string name="sim_remain">(zostáva:<xliff:g id="remains">%d</xliff:g>)</string>  
+    <string name="gps_time_sync_attention_gps_on">Získanie opravy GPS bude trvať maximálne 1 minútu. GPS nemusí okrem toho poskytnú čas kvôli slabému signálu v oblasti.\n\nNaozaj používať čas poskytnutý GPS?</string>
+    <string name="gps_time_sync_attention_gps_off">Ak chcete používať čas poskytnutý GPS, najprv musíte povoliť GPS. Získanie opravy GPS bude trvať maximálne 1 minútu. GPS nemusí okrem toho poskytnú čas kvôli slabému signálu v oblasti.\n\nNaozaj chcete GPS povoliť teraz a počkať na poskytnutie času GPS?</string>
+    <string name="drm_settings_title">Resetovať DRM</string>
+    <string name="drm_settings_summary">Odstráni všetky licencie DRM</string>
+    <string name="drm_reset_dialog_msg">Touto operáciou budú vymazané všetky licencie v tomto zariadení. Pokračovať?</string>
+    <string name="drm_reset_toast_msg">Licencie boli úspešne odstránené.</string>
+    <string name="gemini_sim_management_title">Správa karty SIM</string>
+    <string name="gemini_sim_info_title">INFORMÁCIE O KARTE SIM</string>  
+    <string name="gemini_default_sim_title">"Predvolené nastavenia"</string>  
+    <string name="gemini_general_settings_title">"Všeobecné nastavenia"</string>
+    <string name="gemini_roaming_settings_title">"Roaming"</string>    
+    <string name="gemini_data_roaming_title">"Dátové služby pri roamingu"</string>  
+    <string name="gemini_data_roaming_summary">Počas roamingu pripojiť k dátovej službe</string>  
+    <string name="gemini_roaming_reminder_title">Zobraziť pripomenutie roamingu</string>  
+    <string name="gemini_roaming_reminder_summary">Zobraziť návrh karty SIM na základe používania karty SIM</string>      
+    <string name="gemini_contacts_sim_title">"Spájanie kontaktu"</string>      
+    <string name="gemini_contacts_sim_summary">Spájanie kontaktov s konkrétnou kartou SIM</string> 
+    <string name="gemini_voice_call">Hlasový hovor</string>        
+    <string name="gemini_video_call">Videohovor</string>   
+    <string name="gemini_data_connection">Dátové pripojenie</string>   
+    <string name="gemini_msg">Odosielanie správ</string>       
+    <string name="gemini_default_sim_always_ask">Vždy sa opýtať</string>    
+    <string name="gemini_intenet_call">Internetový hovor</string>    
+    <string name="gemini_default_sim_never">"vypnuté"</string>       
+    <string name="gemini_default_sim_3g_off">"vypnuté"</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Režim siete</string>
+    <string name="gemini_gsm_umts_network_preferneces_summary">Zatiaľ nie je vykonaný!</string>
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">Režim siete</string>
+    <string name="gemini_3g_service_settings">Služba 3G</string>
+    <string name="gemini_sim_mode_progress_activating_message">Prebieha aktivácia\u2026</string>
+    <string name="gemini_sim_mode_progress_deactivating_message">Prebieha deaktivácia\u2026</string>
+    <string name="gemini_sim_mode_change_failed_message">Nepodarilo sa. Chyba siete.</string>
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">"Režim V lietadle"</string>
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">Telefón prejde do režimu Lietadlo. Všetky bezdrôtové pripojenia budú zablokované. Pokračovať?</string>
+    <string name="gemini_sim_info_editor_name">Upraviť názov karty SIM</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Uloženie zlyhalo</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Duplicitný názov pre kartu SIM</string>  
+    <string name="gemini_sim_info_editor_number">Zadajte telefónne číslo</string>  
+    <string name="gemini_sim_info_editor_color">Nastaviť farbu pozadia</string> 
+    <string name="gemini_sim_info_editor_number_display_format">Zobrazené čísla</string>    
+    <string name="gemini_no_sim_indicator">"Nie je vložená karta SIM"</string>     
+    <string name="gemini_sim_list_default_title">Zoznam kariet SIM</string>       
+    <string name="gemini_data_connection_progress_message">"Prepínanie karty SIM bude trvať asi 10 sekúnd. Čakajte prosím..."</string>
+    <string name="gemini_3g_modem_switching_message">"Prepínanie karty SIM bude trvať asi 10 sekúnd. Čakajte prosím..."</string>
+    <string name="gemini_3g_modem_switch_confirm_message">"Týmto tiež dôjde k prepnutiu služby 3G pre túto kartu SIM. Pokračovať? Skontrolujte tiež, či táto vybraná karta SIM podporuje službu 3G."</string>
+    <string name="gemini_3g_disable_warning">"Pri tejto vybranej karte SIM nie je k dispozícii služba 3G. Údaje sa môžu načítavať pomalšie. Nastavenia služby 3G môžete zmeniť v časti Nastavenia &gt; Bezdrôtové pripojenie a siete &gt; Mobilné siete."</string>
+    <string name="gemini_3g_disable_warning_cu">"Pri tejto vybranej karte SIM nie je k dispozícii služba 3G. Údaje sa môžu načítavať pomalšie. Nastavenia služby 3G môžete zmeniť v časti Nastavenia &gt; Správa SIM."</string>
+    <string name="gemini_wap_push_permission_head">Po zapnutí služby Auto-Push môžete prijímať tlačené správy, mať spustené miestne aplikácie a vytvárať dátovú prevádzku. Medzi bežné služby Auto-Push patria upozornenia na e-maily, správa zariadenia, indikácia servisu, zavádzanie servisu a poskytovanie tlačenia správ.</string>      
+    <string name="gemini_wap_push_permission_tail">Prijať túto zmluvu?</string>  
+    <string name="gemini_wap_push_permission_title">Zmluva o službe Auto-Push</string>   
+    <string name="gemini_wap_push_permission">Služba Auto-Push</string>   
+    <string name="gemini_3g_disable_warning_case0">"Najskôr musíte povoliť dátový roaming pre túto kartu SIM, za ktorý môžu byť účtované značné poplatky! Naozaj chcete povoliť dátový roaming a vybrať túto kartu SIM?"</string>
+    <string name="gemini_3g_disable_warning_case1">"Pri tejto vybranej karte SIM nie je k dispozícii služba 3G. Údaje sa môžu načítavať pomalšie. Nastavenia služby 3G môžete zmeniť v časti Nastavenia &gt; Bezdrôtové pripojenie a siete &gt; Mobilné siete. Ste si istí, že chcete vybrať túto kartu SIM?"</string>
+    <string name="gemini_3g_disable_warning_case2">"Pri tejto vybranej karte SIM nie je k dispozícii služba 3G. Údaje sa môžu načítavať pomalšie. Nastavenia služby 3G môžete zmeniť v časti v časti Nastavenie &gt; Správa karty SIM. Ste si istí, že chcete vybrať túto kartu SIM?"</string>
+    <string name="gemini_3g_disable_warning_case3">"Najskôr musíte povoliť dátový roaming pre túto kartu SIM, za ktorý môžu byť účtované značné poplatky! Služba 3G nie je okrem toho dostupná s touto kartou SIM. Údaje sa môžu načítavať pomalšie. Nastavenie služby 3G môžete zmeniť v časti Nastavenia &gt; Bezdrôtové pripojenie a siete &gt; Mobilné siete. Naozaj chcete povoliť dátový roaming a vybrať túto kartu SIM?"</string>
+    <string name="gemini_3g_disable_warning_case4">"Najskôr musíte povoliť dátový roaming pre túto kartu SIM, za ktorý môžu byť účtované značné poplatky! Služba 3G nie je okrem toho dostupná s touto kartou SIM. Údaje sa môžu načítavať pomalšie. Nastavenie služby 3G môžete zmeniť v časti Nastavenia &gt; Správa karty SIM. Naozaj chcete povoliť dátový roaming a vybrať túto kartu SIM?"</string>
+    <string name="gemini_sim_tether_info_title">Kontakty a karta SIM</string>
+	<string name="gemini_sim_tether_add_record">Pridať kontakty</string>
+    <string name="gemini_sim_add_title">"Kontakty"</string>
+    <string name="gemini_sim_tether_norecord">"K aktuálnej karte SIM nemáte priradené žiadne telefónne číslo kontaktu.\n\nAk chcete pridať kontakty, ktoré chcete spojiť s touto kartou SIM, klepnite na tlačidlo Pridať kontakty."</string>
+    <string name="gemini_sim_tether_nocontacts">"Vo vašom telefóne nie sú dostupné žiadne kontakty. Najskôr pridajte nový kontakt alebo kontakty importujte."</string>
+    <string name="gemini_sim_tether_no_assc_contacts">"Kontakty sú úspešne spojené."</string>
+    <string name="gemini_sim_tether_disassociate">Oddeliť</string>
+    <string name="selected_item_count">Vybraná je <xliff:g id="count">%d</xliff:g></string>
+    <string name="gemini_sim_tether_unselect_all">Zrušiť výber všetkých</string>
+    <string name="gemini_sim_tether_nocontact_confirm">"OK"</string>
+    <string name="gemini_sim_tether_select_all">"Vybrať všetko"</string>
+    <string name="gemini_sim_tether_select_ok">"Uložiť"</string>
+    <string name="gemini_sim_tether_select_cancel">"Zrušiť"</string>
+    <string name="gemini_sim_tether_revert_title">"Pozor"</string>
+    <string name="gemini_sim_tether_revert_message">Vaše konfigurácie boli menené a nie sú uložené. Naozaj chcete ukončiť bez uloženia?</string>
+    <string name="gemini_tether_saving_progress_message">Prebieha ukladanie...</string>
+    <string name="gemini_sim_lock_sim1_tab_tag">SIM1</string>
+    <string name="gemini_sim_lock_sim1_tab_label">SIM1</string>
+    <string name="gemini_sim_lock_sim2_tab_tag">SIM2</string>
+    <string name="gemini_sim_lock_sim2_tab_label">SIM2</string>
+    <string name="gemini_sim_lock_simid_error">Nepodarilo sa. Neplatné ID karty SIM.</string>
+    <string name="gemini_sim_lock_no_insert_message_sim">Karta SIM nie je zasunutá.</string>
+    <string name="gemini_sim_lock_radio_off_message_sim1">Radio1 je vypnuté.</string>
+    <string name="gemini_sim_lock_radio_off_message_sim2">Radio2 je vypnuté.</string>
+    <string name="akp_installer_settings_title">Inštalačný program APK</string>
+    <string name="akp_installer_settings_summary">APK nainštalujte z pamäte v telefóne a karty SD</string>
+    <string name="launch_main_label">Spustiť aplikáciu</string>
+    <string name="launch_main">Aplikáciu spustite podľa hlavnej činnosti</string>
+    <string name="launch_activitie">Spustiť</string>
+    <string name="move_app_to_where">Prejdite na <xliff:g id="location">%s</xliff:g></string>
+    <string name="wifi_no_cert_for_wapi">Nemožno nájsť certifikáciu pre momentálne pripájanú AP</string>
+    <string name="sim_slot">Zásuvka SIM</string>
+    <string name="eap_sim_slot_0">Zásuvka SIM 1</string>
+    <string name="eap_sim_slot_1">Zásuvka SIM 2</string>
+    <string name="eap_sim_aka_airplanemode">Ak chcete používať EAP-SIM/AKA, vypnite režim Lietadlo</string>
+    <string name="eap_sim_aka_no_sim_error">Ak chcete používať EAP-SIM/AKA, musíte vložiť kartu SIM</string>	
+    <string name="eap_sim_aka_no_sim_slot_selected">Ak chcete používať EAP-SIM/AKA, musíte vybrať zásuvku SIM</string>
+    <string name="wifi_security_wapi_certificate">Certifikát WAPI</string>
+    <string name="wapi_user_certificate">"Certifikát používateľa"</string>
+    <string name="wapi_as_certificate">Certifikát ASE</string>   
+    <string name="wifi_hex_password">Šestnásťmiestne heslo.</string>
+    <string name="wifi_WEP_transmit_key">Prenosový kľúč</string>
+    <string name="wifi_WEP_secury_key">Zabezpečovací kľúč</string>
+    <string name="wifi_tether_auto_disable_title">Aktívny bod Wi-Fi musí byť zapnutý</string>
+    <string name="wifi_tether_auto_channel_text">"automaticky"</string>
+    <string name="wifi_tether_auto_channel_width_text">Automaticky 20/40 MHz</string>
+    <string name="wifi_channel">Uprednostňovaný kanál</string>
+    <string name="wifi_channel_width">Šírka kanála</string>
+    <string name="pch_toggle_title">Režim uprednostnenia prenosu GPRS</string>
+    <string name="pch_data_prefer_summary_off">Uprednostnenie údajov</string> 
+    <string name="pch_call_prefer_summary_on">Uprednostnenie hovoru</string>
+    <string name="pch_warning_message">Rýchlosť prenosu údajov bude klesať.</string> 
+    <string name="schedule_power_on_off_settings_title">Plánované zapnutie a vypnutie</string>
+    <string name="usb_bicr_title">Vstavaná CD-ROM</string>
+    <string name="usb_bicr_summary">Zobraziť virtuálnu CD-ROM, ktorá obsahuje niektorý užitočný softvér.</string>
+    <string name="select_memory">Predvolené zapisovateľný disk</string>
+    <string name="ipo_title">Rýchle načítavanie</string>
+    <string name="ipo_summary_on">Zablokovať rýchle načítavanie</string>
+    <string name="ipo_summary_off">Povoliť rýchle načítavanie</string>
+    <string name="agps_profile_select_Title">Profil SUPL</string>
+    <string name="location_settings_label">Režim Locatiojn Engineer</string>
+    <string name="audio_profile_error">"Chyba"</string>  
+    <string name="battery_percent">Percento nabitia batérie</string>
+    <string name="rcse_settings_title">Joyn settings</string>
+    <string name="MobileNetwork_SIM1_Active">SIM1 je aktívna</string>
+    <string name="MobileNetwork_SIM2_Active">SIM2 je aktívna</string>
+    <string name="dlg_mount_external_sd_title" product="default">Vložiť kartu SD?</string>
+    <string name="dlg_mount_external_sd_summary" product="default">Ak vložíte kartu SD, niektoré aplikácie, ktoré používate, budú zastavené.</string>
+    <string name="tethered_ipv6_title">Nastavenia aktívneho bodu a pripojenia jedného zariadenia k druhému</string>
+    <string name="tethered_ipv4v6">(k dispozícii je IPv6)</string>
+    <string name="tethered_ipv6">(k dispozícii je iba IPv6)</string>
+    <string name="tethered_ipv4">(IPv6 nie je k dispozícii)</string>
+    <string name="tethering_apn_settings_title">Nastavenia APN</string>
+    <string name="tethering_apn_settings_summary">Konfigurácia APN pre pripojenie jedného zariadenia k druhému</string> 
+    <string name="usb_tether_type_title">Typ pripojenia USB</string> 
+    <string name="usb_connect_as_cdrom_category">"Pripojiť ako CD-ROM"</string>
+    <string name="wifi_tether_setting_title">Základné nastavenia</string>
+    <string name="wifi_tether_wps_connect_title">Pripojiť WPS</string>
+    <string name="wifi_tether_wps_connect_summary">Pokračovať bude zvolený režim Wi-Fi Protected Setup</string>
+    <string name="wifi_tether_wps_pin_error">Neplatný kód PIN</string>
+    <string name="wifi_tethering_title">Aktívny bod Wi-Fi</string>
+    <string name="wifi_ap_wps_dialog_title">Pripojiť WPS</string>
+    <string name="wifi_ap_wps_mode_title">Režim WPS</string>
+    <string name="wifi_ap_wps_pin_title">Zadajte kód PIN používateľa</string>
+    <string name="wifi_ap_reset_OOB_title">Sieť SSID, zabezpečenie a heslo vynulujte na predvolené hodnoty (konfigurácia WPS po vybalení zo škatule)</string>
+    <string name="wifi_ap_reset_OOB">Vynulovať OOB</string>
+    <string name="wifi_ap_max_connection_title">Maximálny počet pripojení</string>
+    <string name="wifi_ap_connected_title">Pripojení používatelia</string>
+    <string name="wifi_ap_blocked_title">Zablokovaní používatelia</string>
+    <string name="wifi_ap_client_block_title">Zablokovať</string>
+    <string name="wifi_ap_client_unblock_title">Odblokovať</string>
+    <string name="wifi_ap_client_details_title">Podrobnosti</string>
+    <string name="wifi_ap_client_mac_label">Adresa MAC:</string>
+    <string name="wifi_ap_client_ip_label">Adresa IP:</string>
+    <string name="usb_sharing_title">Pripojenie k internetu cez USB</string>
+    <string name="usb_sharing_summary">Zdieľanie pripojenia k internetu v počítači s operačným systémom Windows cez kábel USB</string>
+    <string name="usb_sharing_info_title">Priepustnosť internetu</string>
+    <string name="usb_sharing_info_step_1">"1. Otvorte okno Sieťové pripojenia vo vašom počítači s operačným systémom Windows"</string>
+    <string name="usb_sharing_info_step_2">"2. Pravým tlačidlom myši kliknite na pripojenie, ktoré chcete zdieľať, a potom kliknite na položku Vlastnosti."</string>
+    <string name="usb_sharing_info_step_3">"3. Kliknite na kartu Zdieľanie a vyberte možnosť 'Umožniť ostatným používateľom v sieti používať pripojenie k internetu pomocou pripojenia k internetu v tomto počítači'(vyberte posledne pridanú sieť, ktorá predstavuje pripojenie k internetu cez USB, keď je zobrazené hlásenie'Pripojenie k domácej sieti ')."</string>
+    <string name="wifi_ap_bandwidth_title">Používanie šírky pásma</string>
+    <string name="wifi_ap_bandwidth_enable">Povoliť obmedzenie šírky pásma</string>
+    <string name="wifi_ap_bandwidth_chart_title">Rýchlosť prenosu údajov v reálnom čase</string>
+    <string name="wifi_ap_bandwidth_chart_summary">Počítanie rýchlosti prenosu údajov sa pri meraní vašim telefónom môže líšiť.</string>
+    <string name="wifi_wps_fail_error">Program Wi-Fi Protected Setup zlyhal. Skúste znova.</string>
+    <string name="wifi_ap_title">Štatistika</string>
+    <string name="wifi_ap_time_duration">Doba trvania:<xliff:g id="time">%1$s</xliff:g></string>
+    <string name="wifi_ap_total_data">Celkové množstvo použitých údajov:<xliff:g id="time">%1$s</xliff:g></string>
+    <string name="wifi_ap_bandwidth_megabyteShort">MB/s</string>
+    <string name="wifi_ap_bandwidth_KbyteShort">KB/s</string>
+    <string name="cpu_dtm_title">Režim úspory energie CPU</string>
+    <string name="cpu_dtm_summary">Obmedzte maximálny výkon procesora, aby sa predĺžila životnosť batérie a znížila teplota zariadenia.</string>      
+    <string name="wifi_advanced_ipv4_address_title">Adresa IPv4</string>
+    <string name="wifi_advanced_ipv6_address_title">Adresa IPv6</string>
+    <string name="wifi_ipv4_address">Adresa IPv4</string>
+    <string name="wifi_ipv6_address">Adresa IPv6</string> 
+    <string name="mtk_datausage_show_on_lockscreen">Zobraziť na obrazovke Zamknúť</string>
+    <string name="mtk_datausage_update">Aktualizácia využitia údajov</string>
+    <string name="mtk_datausage_update_set">"Aktualizovať"</string>
+    <string name="mtk_datausage_amount_editor_title">Množstvo použitých údajov</string>
+    <string name="mtk_datausage_usage_list">Využitie údajov podľa aplikácie</string>
+    <string name="mtk_datausage_diff_byte">Rozdiel vo využívaní údajov</string>
+    <string name="mtk_datausage_overview_tab">Prehľad</string>
+    <string name="mtk_datausage_overview_wifi_today">"Dnes"</string>
+    <string name="mtk_datausage_overview_wifi_total">Celkom</string>
+    <string name="mtk_datausage_overview_mobile_title">"Mobil"</string>
+    <string name="mtk_datausage_overview_mobile_usage"><xliff:g id="actual">%s</xliff:g> z <xliff:g id="limit">%s</xliff:g></string>
+    <string name="mtk_datausage_overview_mobile_usage_warning">Mimo limitu <xliff:g>%s</xliff:g></string>
+    <string name="display_personalize">Prispôsobte</string>
+    <string name="display_default">"Zobrazenie"</string>
+    <string name="sound_enhancement_title">Zosilnenie zvuku</string> 
+    <string name="music_plus_summary">Zosilňovač zvuku pre slúchadlá</string> 
+    <string name="auto_backlight_title">Úsporné podsvietenie </string>
+    <string name="auto_backlight_summary">Automaticky prispôsobiť podsvietenie pre úsporu energie</string> 
+    <string name="beam_mgmt_tab_download_title">Prijatá kontrola presmerovanej správy SS</string>
+    <string name="beam_mgmt_tab_upload_title">"Zhromažďuje informácie o aktuálnom stave zariadenia a tieto informácie je následne možné odoslať prostredníctvom e-mailovej správy. Od spustenia vytvárania správy o chybe až do chvíle, kedy je tento nástroj pripravený odoslať prvú správu, môže uplynúť nejaký čas. Prosíme vás preto o trpezlivosť."</string>
+    <string name="beam_share_mgmt_notification_ticker">História zdieľania prenosu</string>
+	<string name="beam_share_mgmt_notification_title">História zdieľania prenosu</string>
+	<string name="beam_share_mgmt_notification_message">"Vyberte pre zobrazenie histórie zdieľania prenosu"</string>
+    <string name="beam_share_mgmt_tab_menu_clear">Vymazať celú históriu?</string>
+    <string name="beam_share_open_file_dialog_title">Tento súbor nemožno otvoriť </string>
+    <string name="beam_share_open_file_unsupported_message">Tento formát súboru nie je podporovaný.</string>
+	<string name="beam_share_open_file_not_found_message">"Súbor nebol nájdený: <xliff:g id="file_name">%1$s</xliff:g></string>
+	<string name="beam_share_transfer_fail_dialog_title">"Nepodarilo sa preniesť"</string>
+	<string name="beam_share_resend_dialog_message">"Odoslanie <xliff:g id="file_name">%1$s</xliff:g> bolo neúspešné."</string>
+	<string name="beam_share_resend_dialog_ok_button">"Skúsiť znova"</string>
+	<string name="beam_share_show_received_files_menu">"Zobraziť prijaté súbory"</string>
+	<string name="beam_share_history_title">História zdieľania prenosu</string>
+    <string name="beam_share_clear_confirm_dialog_title">Vymazať všetko</string>
+    <string name="beam_share_clear_confirm_dialog_message">Vymazať celú históriu?</string>
+    <string name="beam_share_receive_fail_dialog_message">"Prijatie <xliff:g id="file_name">%1$s</xliff:g> bolo neúspešné"</string>        
+    <string name="beam_share_clear_item_dailog_title">"Odstrániť"</string>
+    <string name="beam_share_clear_item_dailog_message">Táto položka bude zmazaný.</string>
+    <string name="nfc_p2p_mode">Režim P2P</string>
+    <string name="nfc_p2p_mode_summary">Odoslať alebo prijať obsah aplikácie </string>
+    <string name="nfc_tag_mode_category">Režim značky</string>
+    <string name="nfc_rw_tag_title">Čítanie a zápis značky</string>
+    <string name="nfc_rw_tag_summary">Snímať zo alebo zapísať do značky</string>
+    <string name="nfc_card_emulation_category_title">režim emulácie karty</string>
+    <string name="nfc_card_emulation">Emulácia karty</string>
+    <string name="card_emulation_settings_category_title">k dispozícii je bezpečnostný prvok</string>
+    <string name="card_emulation_settings_no_element_found">Bezpečnostný prvok nie je k dispozícii.</string>
+    <string name="card_emulation_settings_off_text">Ak chcete zobraziť dostupné bezpečnostné prvky, zapnite emuláciu karty.</string>
+    <string name="card_emulation_turning_off_text">Emulácia karty sa vypína...</string>
+    <string name="card_emulation_turning_on_text">Emulácia karty sa zapína...</string>
+    <string name="card_emulation_switch_error_title">"Chyba"</string>
+    <string name="card_emulation_switch_error_message">Nepodarilo sa prepnúť do <xliff:g id="card_mode">%1$s</xliff:g>.</string>
+    <string name="card_emulation_sim_not_supported_message"><xliff:g id="sim_description">%1$s</xliff:g> nepodporuje funkciu emulácie karty NFC.</string>
+    <string name="card_emulation_two_sim_not_supported_message">SIM1,SIM2 do not support NFC Card emulation function.</string>
+    <string name="voice_unlock_backup_info_summary">Keď nemôžete byť spoznaní hlasovým odblokovaním, ako chcete vykonať odblokovanie?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">Hlasové odblokovanie</string>
+    <string name="voice_ui_title">"Hlasové ovládanie"</string>
+    <string name="voice_ui_app_category">"Pre aplikácie"</string>
+    <string name="voice_ui_setting_category">"Všeobecné nastavenia"</string>
+    <string name="voice_ui_language_title">"Jazyk pre hlasové ovládanie"</string>
+    <string name="incoming_call_app_name">"Prichádzajúci hovor"</string>
+    <string name="alarm_app_name">"Budíky"</string>
+    <string name="camera_app_name">K dispozícii na prepínanie kamier, ak sú zapnuté</string>
+    <string name="music_app_name">"Vykreslí zvukovú vlnu ľubovoľnej aktuálne hrajúcej hudobnej stopy."</string>
+    <string name="incomming_command_summary_format">Ak chcete prijať alebo odmietnuť prichádzajúce hovory, môžete povedať <xliff:g id="first">%1$s</xliff:g> alebo <xliff:g id="second">%2$s</xliff:g></string>
+    <string name="alarm_command_summary_format">Ak chcete nastavovať budík, môžete povedať <xliff:g id="first">%1$s</xliff:g> alebo <xliff:g id="second">%2$s</xliff:g>.</string>
+    <string name="camera_command_summary_format">Ak chcete zachytiť snímku, môžete povedať <xliff:g id="first">%1$s</xliff:g> alebo <xliff:g id="second">%2$s</xliff:g>.</string>
+    <string name="music_command_summary_format">Ak chcete ovládať prehrávanie hudby, môžete povedať <xliff:g id="first">%1$s</xliff:g> a <xliff:g id="second">%2$s</xliff:g>.</string>
+    <string name="lock_screen_notifications_title">Oznámenia na obrazovke Zamknúť</string>
+    <string name="lock_screen_notifications_summary">Oznámenia zobraziť na obrazovke Zamknúť</string>
+    <string name="lock_screen_style_title">Štýl obrazovky Zamknúť</string>	
+    <string name="current_suffix">"(Aktuálna)"</string>
+	<string name="lockscreen_style_set">"Nastaviť obrazovky Zámok"</string>
+	<string name="lockscreen_style_default_desc">"Rýchly prístup k aplikáciám z obrazovky Zamknúť"</string>
+    <string name="security_not_set">Zabezpečenie nie je nastavené</string>
+    <string name="status_imei_slot3">IMEI (Zásuvka 3)</string>
+    <string name="status_imei_sv_slot3">IMEI SV (Zásuvka 3)</string>
+    <string name="status_min_number_slot3">MIN (Zásuvka 3)</string>
+    <string name="status_prl_version_slot3">PRL Verzia (Zásuvka 3)</string>
+    <string name="status_meid_number_slot3">MEID (Zásuvka 3)</string>
+    <string name="lockdown_vpn_already_connected">Pre pripojenie je už povolená možnosť VPN vždy zapnuté.</string> 
+    <string name="wifi_ap_no_connected">0 pripojených používateľov</string>
+    <string name="wifi_ap_no_blocked">0 zablokovaných používateľov</string>
+    <string name="mouse_primary_button_title">Prepnúť primárne a sekundárne tlačidlá</string>
+    <string name="mouse_primary_button_dialog_title">Prepnúť primárne tlačidlo</string>
+    <string name="double_click_title">Rýchlosť dvojitého kliknutia</string>
+    <string name="test_area">SKÚŠOBNÁ OBLASŤ:</string>
+    <string name="double_click_tip">Sem kliknite dvakrát</string>
+    <string name="apn_port_warning">Hodnota portu musí byť 1 až 65535!</string>
+    <string name="usb_tethering_select_version">Vyberte verziu operačného systému počítača</string>
+    <string name="oobe_sim_info_title">Spravovať kartu SIM</string>
+    <string name="oobe_default_sim_title">Nastaviť predvolenú kartu SIM</string>
+    <string name="wfd_change_resolution_menu_title">Zmeniť rozlíšenie</string>
+    <string name="wifi_hotspot_suspend_optimizations">Optimalizácia aktívneho bodu Wi-Fi</string>
+    <string name="wifi_hotspot_suspend_optimizations_summary">Minimalizovať spotrebu batérie pri zapnutom aktívnom bode Wi-Fi</string>
+    <string name="clear_motion_summary">Zosilňovač frekvencie videa</string>
+    <string name="hotknot_explained_description">Povoliť výmenu údajov, keď sa obrazovka dotkne iného zariadenia</string>
+    <string name="card_emulation_two_sim_not_supported_message">Karty SIM1 a SIM2 nepodporujú funkciu emulácie karty NFC.</string>
+
+    <string name="passpoint_summary">Automatické pripojenie k aplikáciám s aktivovaným prechodovým bodom</string>
+    <string name="passpoint_append_summary">(cez prechodový bod)</string>
+    <string name="passpoint_config_credential_type">Typ poverenia</string>
+    <string name="passpoint_config_eap_method">"Metóda EAP"</string>
+    <string name="passpoint_supported">Podporovaný</string>
+    <string name="passpoint_username_pw">Používateľské meno/Heslo</string>
+    <string name="passpoint_certificate">Certifikát</string>
+
+    <string name="audio_profile_bes_loudness_title">BesLoudness</string>
+    <string name="audio_profile_bes_loudness_summary">Objem booster pre reproduktor</string>
+</resources>

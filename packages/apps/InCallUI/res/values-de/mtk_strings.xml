@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">Alle Anrufe beenden</string>
+    <string name="onscreenHangupHolding">Gehaltenen Anruf beenden</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Aktiven Anruf beenden anklopfenden Anruf annehmen</string>
+    <string name="onscreenECT">Übertragen</string>
+    <!-- dm lock -->
+    <string name="dm_lock">DM-gesperrt</string>
+    <string name="dm_unlock">DM-Freigabe</string>
+
+    <string name="mo_code_unconditional_cf_active">Rufumleitung\nbedingungslos aktiviert</string>
+    <string name="mo_code_some_cf_active">"Anrufweiterleitung nach Bedingung"</string>
+    <string name="mo_code_call_forwarded">"Anruf weitergeleitet"</string>
+    <string name="mo_code_call_is_waiting">"Wartender Anruf"</string>
+    <string name="mo_code_cug_call">"Geschlossene Benutzergruppe"</string>
+    <string name="mo_code_outgoing_calls_barred">"Ausgehender Anruf gesperrt"</string>
+    <string name="mo_code_incoming_calls_barred">"Eingehender Anruf auf der anderen Seite gesperrt"</string>
+    <string name="mo_code_clir_suppression_rejected">"Anrufer-ID-Sendeservice prüfen"</string>
+    <string name="mo_code_call_deflected">"Anruf weitergeleitet"</string>
+    <string name="mt_code_forwarded_call">"Es ist ein umgeleiteter Anruf"</string>
+    <string name="mt_code_cug_call">"Geschlossene Benutzergruppe"</string>
+    <string name="mt_code_call_on_hold">"Anruf gehalten"</string>
+    <string name="mt_code_call_retrieved">"Anruf empfangen"</string>
+    <string name="mt_code_multi_party_call">""Telefonkonferenz""</string>
+    <string name="mt_code_on_hold_call_released">"Gehaltener Anruf freigegeben"</string>
+    <string name="mt_code_forward_check_received">"Weiterleitungsprüfung SS-Meldung empfangen "</string>
+    <string name="mt_code_call_connecting_ect">"Anrufübertragung"</string>
+    <string name="mt_code_call_connected_ect">"Anrufübertragung aktiv"</string>
+    <string name="mt_code_deflected_call">"Es ist ein umgeleiteter Anruf"</string>
+    <string name="mt_code_additional_call_forwarded">"Zusätzlicher eingehender Anruf weitergeleitet"</string>
+    <string name="mt_code_forwarded_cf">"Anruf weitergeleitet"</string>
+    <string name="mt_code_forwarded_cf_uncond">"Anrufweiterleitung ohne Bedingung"</string>
+    <string name="mt_code_forwarded_cf_cond">"Anrufweiterleitung mit Bedingung"</string>
+    <string name="mt_code_forwarded_cf_busy">"Anruf beschäftigt weitergeleitet "</string>
+    <string name="mt_code_forwarded_cf_no_reply">"Anrufweiterleitung, wenn nicht beantwortet"</string>
+    <string name="mt_code_forwarded_cf_not_reachable">"Anrufweiterleitung, wenn nicht erreichbar"</string>
+
+    <!-- voice recorder -->
+    <string name="start_record">Aufnahme starten</string>
+    <string name="stop_record">"Aufzeichnung beenden"</string>
+    <string name="str_db_playlist_name">"Meine Aufzeichnungen"</string>
+    <string name="alert_device_error">Fehler an Audiogerät aufgetreten</string>
+    <string name="ext_media_badremoval_notification_title">"SD-Karte unerwartet entfernt"</string>
+    <string name="error_sdcard_access">"Kein Zugriff auf SD-Karte möglich."</string>
+    <string name="confirm_device_info_full">SD-Karte voll, die Aufzeichnung wurde gespeichert.</string>
+    <string name="confirm_save_info_saved">Die Aufzeichnung wurde gespeichert</string>
+    <string name="confirm_save_info_saved_to">Die Aufnahme sind gespeichert</string>
+    
+    <string name="activity_not_found">Anwendung ist nicht auf Ihrem Telefon installiert.</string>
+    <string name="confirm_3g_switch">Möchten Sie den 3G-Dienst wirklich auf diese SIM einstellen? Dadurch wird diese SIM auch automatisch als Standard-SIM für Videoanrufe festgelegt.</string>
+    <string name="modem_switching">Das Umschalten der SIM dauert etwa 10 Sekunden. Bitte warten…</string>
+    <string name="confirm_3g_switch_to_off">Möchten Sie den 3G-Dienst wirklich ausschalten? Dadurch wird automatisch auch der Videoanruf-Dienst ausgeschaltet.</string>
+    <string name="enable_3G_service">3G aktivieren</string>
+    <string name="network_forbidden">Deaktivieren</string>
+    <string name="plmn_list_setting_title">Präferenzen</string>
+    <string name="plmn_list_setting_add_plmn">Neue PLMN hinzufügen</string>
+    <string name="callFailed_dsac_vt_incompatible_destination">Videoanruf kann nicht eingerichtet werden. Videotelefonie wird an dem Telefon, das Sie anrufen, nicht unterstützt; per Sprachanruf wählen?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">Videoanruf kann nicht eingerichtet werden. Das Telefon, das Sie anrufen, ist außerhalb der 3G-Dienstbereichs; per Sprachanruf wählen?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">Videoanruf kann nicht eingerichtet werden. Per Sprachanruf wählen?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">Ihr Telefon ist außerhalb des 3G-Servicebereichs; per Sprachanruf wählen?</string>
+    <string name="notification_voicemail">Sprachmitteilung</string>
+    <string name="turn_on_3g_service_message">3G-Dienst ist jetzt ausgeschaltet, möchten Sie ihn einschalten?</string>
+    <string name="associate_sim_missing_message">"Die SIM %1$s ist nicht verfügbar. Möchten Sie via %2$s anrufen"</string>
+    <string name="associate_sim_missing_other">Sonstiges</string>
+
+    <!-- video call -->
+    <string name="vt_settings">Videoeinstellungen</string>
+    <string name="vt_local_video_zoom">Lokaler Videozoom</string>
+    <string name="vt_local_video_brightness">Lokale Videohelligkeit</string>
+    <string name="vt_local_video_effect">Lokaler Videoeffekt</string>
+    <string name="vt_local_video_nightmode">Lokaler Videonachtmodus</string>
+    <string name="vt_peer_video_quality">Peer-Videoqualität</string>
+    <string name="vt_incoming_showme_ask">Fragen</string>
+    <string name="vt_call_settings">Videoanruf-Einstellungen</string>
+    <string name="vt_pic_replace_local_default">Standardbild</string>
+    <string name="vt_pic_replace_local_freezeme">Einfrieren</string>
+    <string name="vt_pic_replace_local_mypic">Mein Bild</string>
+    <string name="vt_sd_null">SD-Karte nicht verfügbar</string>
+    <string name="vt_sd_not_enough">Speicherplatz der SD-Karte nahezu erschöpft</string>
+    <string name="vt_peer_video_quality_normal">Normal</string>
+    <string name="vt_ask_show_local">Lokales Video an Peer senden?</string>
+    <string name="vt_change_my_pic">Ändern</string>
+    <string name="vt_pic_saved_to_sd">Schnappschuss auf SD-Karte gespeichert</string>
+    <string name="vt_pic_saved_to_sd_fail">Speichern des Schnappschusses fehlgeschlagen</string>
+    <string name="vt_error_network">Netzwerk nicht erreichbar. Der Videoanruf wird unterbrochen.</string>
+    <string name="vt_error_media">Video kann nicht richtig angezeigt werden. Der Videoanruf wieder unterbrochen.</string>
+    <string name="vt_swap_video">Videos wechseln</string>
+    <string name="vt_local_video_contrast">Lokaler Videokontrast</string>
+    <string name="vt_menu_switch">Kamera wechseln</string>
+    <string name="vt_menu_hide_me">Lokales Video ausblenden</string>
+    <string name="vt_menu_show_me">Lokales Video anzeigen</string>
+    <string name="vt_menu_snapshot">Peer-Schnappschuss</string>
+    <string name="vt_vocie_answer">Sprachantwort</string>
+    <string name="vt_wait_voice">Warte auf Sprachanrufverbindung</string>
+    <string name="vt_voice_connecting">Sprachanrufverbindung</string>
+    <string name="vt_cannot_support_setting">Die aktuelle Kamera kann diese Einstellung nicht unterstützen</string>
+    <string name="vt_network_unreachable">Netzwerk nicht erreichbar</string>
+    <string name="vt_iot_error_01">Videoanruf kann nicht eingerichtet werden</string>
+    <string name="vt_iot_error_02">Das Telefon ist beschäftigt</string>
+    <string name="vt_iot_error_03">Es erfolgt keine Antwort</string>
+    <string name="vt_iot_error_04">Das Netzwerk ist beschäftigt</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"Belichtung"</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">"Whiteboard"</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">"Tafel"</string>
+    <string name="pref_camera_coloreffect_entry_aqua">"Aqua"</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">"Sepia (blau)"</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">"Sepia (grün)"</string>
+    <string name="vt_peer_camera_open">Externe Kamera offen</string>
+    <string name="vt_peer_camera_close">Externe Kamera geschlossen</string>
+    <string name="vt_recorder_start">Aufnahme starten</string>
+    <string name="vt_recorder_voice_and_peer_video">Stimme und Peer-Video</string>
+    <string name="vt_recorder_only_voice">Nur Stimme</string>
+    <string name="vt_recorder_only_peer_video">Nur Peer-Video</string>
+    <string name="vt_recording_saved">Aufnahme wurde gespeichert.</string>
+    <string name="vt_recording_saved_sd_full">SD-Karte voll, die Aufzeichnung wurde gespeichert.</string>
+    <string name="vt_recording_error">Aufnahmefehler.</string>
+    <string name="start_record_vt">Aufnahme starten</string>
+    <string name="stop_record_vt">"Aufzeichnung beenden"</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> Min. <xliff:g id="seconds" example="28">%2$s</xliff:g> Sek</string>
+    <string name="reminder">Erinnerung</string>
+    <string name="vt_media_occupied">Da Kamera nicht verfügbar ist, kann Videoanruf nicht verbunden werden. Bitte prüfen, ob andere Anwendung die Kamera nutzt.</string>
+    <string name="vt_media_video_fail">Video kann nicht richtig angezeigt werden. Videoanruf wird getrennt</string>
+
+</resources>

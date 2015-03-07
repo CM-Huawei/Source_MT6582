@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+**
+** Copyright 2007 The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="gemini_sim_info_number_display_format_entries">
+        <item>Prve 4 znamenke</item>
+        <item>Posljednje 4 znamenke</item>
+        <item>Ne prikazuj</item>
+    </string-array>
+
+    <string-array name="gemini_sim_roaming_reminder_entries">
+        <item>Jednom</item>
+        <item>Uvijek</item>
+        <item>"Nikad"</item>
+    </string-array>
+
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>GSM/WCDMA (automatski način rada)</item>
+        <item>Samo WCDMA</item>
+        <item>"Samo GSM"</item>
+    </string-array>
+
+    <string-array name="wifi_ap_channel_width">
+        <item>20 MHz</item>
+        <item>Automatski 20/40 MHz</item>
+    </string-array>
+
+    <string-array name="auto_time_entries">
+        <item>"Upotrijebi vrijeme mreže"</item>
+        <item>Koristi GPS vrijeme</item>
+        <item>"isključena"</item>
+    </string-array>
+
+    <string-array name="hdmi_video_mode_entries">
+        <item>Cijeli zaslon</item>
+        <item>Najprikladnije</item>
+        <item>Izvorna veličina</item>
+    </string-array>
+
+    <string-array name="hdmi_deep_color_entries">
+        <item>8 bit</item>
+        <item>"automatski"</item>
+        <item>10-bitni</item>
+        <item>12-bitni</item>
+    </string-array>
+
+    <string-array name="sim_slot">
+        <item>"(nije određeno)"</item>
+        <item>Sim utor 1</item>
+        <item>Sim utor 2</item>
+    </string-array>
+
+    <string-array name="wifi_WEP_security_type">
+        <item>"automatski"</item>
+        
+        <item>WEP ASCII</item>
+        <item>WEP heksadecimalni</item>
+    </string-array>
+
+    <string-array name="wifi_hotspot_disable_policy_entries">
+        <item>Uvijek</item>
+        <item>Isključi nakon 5 minuta neaktivnosti</item>
+        <item>Isključi nakon 10 minuta neaktivnosti</item>
+    </string-array>
+
+    <string-array name="wifi_ap_wps_mode_entries">
+        <item>"Gumb"</item>
+        <item>PIN s klijentom</item>
+    </string-array>
+
+    <string-array name="wifi_ap_max_connection_entries">
+        <item>1 korisnik</item>
+        <item>2 Korisnici</item>
+        <item>3 Korisnici</item>
+        <item>4 Korisnici</item>
+        <item>5 Korisnici</item>
+        <item>6 Korisnici</item>
+        <item>7 Korisnici</item>
+        <item>8 Korisnici</item>
+    </string-array>
+
+    <string-array name="mouse_primary_button_titles">
+        <item>Desni miš</item>
+        <item>Lijevi miš</item>
+    </string-array>
+
+    <string-array name="wfd_720p_resolution_entry">
+        <item>720p (60 slika/s)</item>
+        <item>﻿720p (30 slika/s)</item>
+    </string-array>
+
+    <string-array name="wfd_1080p_resolution_entry">
+        <item>1080p (30 slika/s)</item>
+        <item>720p (60 slika/s)</item>
+        <item>720p (30 slika/s)</item>
+    </string-array>
+</resources>

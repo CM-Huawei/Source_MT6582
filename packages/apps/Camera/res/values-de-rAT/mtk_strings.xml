@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="accessibility_switch_to_mav">Mehrfachwinkelansicht</string>
+    <string name="accessibility_switch_to_hdr">HDR-Modus</string>
+    <string name="accessibility_switch_to_face_beauty">Portraitverbesserung</string>
+    <string name="accessibility_switch_to_asd">Automatische Szenenerkennung</string>
+    <string name="accessibility_switch_to_smile">Smile-Shot</string>
+    <string name="accessibility_switch_to_best">Beste Aufnahme</string>
+    <string name="accessibility_switch_to_ev">EV-Serienaufnahme</string>
+    
+    <string name="accessibility_switch_to_camera">Normaler Modus</string>
+    
+    <string name="accessibility_switch_to_video">Video-Modus</string>
+    
+    <string name="accessibility_switch_to_panorama">Panorama-Modus</string>
+    <string name="accessibility_switch_to_live_photo">Live-Foto-Modus</string>
+    <string name="accessibility_switch_to_motion_track">Bewegungsnachführung</string>
+    <string name="accessibility_video_shutter_button">Video-Auslöseschaltfläche</string>
+    
+    <string name="bg_replacement_message">Stellen Sie Ihr Gerät auf eine feste Unterlage und vergewissern Sie sich, dass sich die Vorschau nicht bewegt.\nWenn der Live-Effekte auf der Vorschau erscheinen, kann das Video aufgenommen werden.</string>
+    
+    <string name="capture_memory_not_enough">Zu wenig Speicher. Wählen Sie eine andere Anwendung.</string>    
+    
+    <string name="camera_continuous_not_supported">"Serienaufnahmen werden nicht unterstützt."</string>
+    <string name="camera_saving_busy">Bilder werden gespeichert, bitte warten.</string>
+        <string name="continuous_saving_pictures"><xliff:g id="numbers" example="10">%1$d</xliff:g> Bilder werden gespeichert.</string>
+    
+    <string name="hdr_guide_capture">Gerät bei Aufnahme einer HDR-Serie nicht bewegen.</string>
+    
+    
+    <string name="mav_dialog_save_failed">Kann Bild nicht speichern.</string>
+    <string name="mav_dialog_title">Mehrfachwinkelansicht</string>
+    <string name="mav_guide_shutter">Auslöser drücken, um Bilder in Mehrfachwinkelansicht aufzunehmen.</string>
+    <string name="motion_track_guide_shutter">Drücken und halten Sie den Auslöser, um aufeinanderfolgende Bilder aufzunehmen. Lassen Sie ihn los, um den Vorgang zu stoppen. Halten Sie die Kamera während der Aufnahmen ruhig.</string>
+    <string name="motion_track_required_more">Es sind mindestens 2 aufeinanderfolgende Aufnahmen erforderlich. Versuchen Sie es erneut.</string>
+    <string name="motion_track_blended_failed">Überblendung Bewegungsnachführung fehlgeschlagen. Versuchen Sie es erneut.</string>
+    <string name="motion_track_move">Halten Sie die Kamera während der Aufnahmen ruhig.</string>
+    <string name="mav_guide_move">Bewegen Sie die Kamera um das Objekt.</string>
+    <string name="normal_camera_continuous_not_supported">"Serienaufnahmen werden nicht unterstützt."</string>
+
+    <string name="wfd_normal_camera_continuous_not_supported">"Serienaufnahmen werden von WFD nicht unterstützt."</string>
+    
+    <string name="wfd_motion_track_not_supported">"Bewegungsnachführung wird von WFD nicht unterstützt."</string>
+    <string name="wfd_live_photo_not_supported">"Live-Foto wird von WFD nicht unterstützt."</string>
+    
+    
+    <string name="pref_video_quality_entry_low">Niedrig</string>
+    <string name="pref_video_quality_entry_medium">Mittel</string>
+    <string name="pref_video_quality_entry_high">Hoch</string>
+    <string name="pref_video_quality_entry_fine">Fein</string>
+    <string name="pref_camera_picturesize_entry_4096x3072">12M Pixel</string>
+    <string name="pref_camera_picturesize_entry_3672x2754">10M Pixel</string>
+    <string name="pref_camera_picturesize_entry_3600x2700">9,5M Pixel</string>
+    <string name="pref_camera_picturesize_entry_3264x2448">8M Pixel</string>
+    <string name="pref_camera_picturesize_entry_1280x720">1M Pixel</string>
+    <string name="pref_camera_picturesize_entry_1280x768">1M Pixel</string>
+    <string name="pref_camera_picturesize_entry_2560x1440">4M Pixel</string>
+    <string name="pref_camera_picturesize_entry_3328x1872">6M Pixel</string>
+    <string name="pref_camera_whitebalance_entry_twilight">Zwielicht</string>
+    <string name="pref_camera_whitebalance_entry_shade">Schatten</string>
+    <string name="pref_camera_whitebalance_entry_warm_fluorescent">Warmes Kunstlicht</string>
+    <string name="pref_camera_whitebalance_entry_tungsten">Wolfram-Halogenlampe</string>
+    
+    <string name="pref_camera_capturemode_entry_normal">Normal</string>
+    <string name="pref_camera_capturemode_enrty_fb">Portraitverbesserung</string>
+    <string name="pref_camera_capturemode_entry_bestshot">Beste Aufnahme</string>
+    <string name="pref_camera_capturemode_entry_evbracketshot">EV-Serienaufnahme</string>
+    <string name="pref_camera_capturemode_entry_smileshot">Smile-Shot</string>
+    <string name="pref_camera_capturemode_entry_gestureshot">Gesten-Aufnahme</string>
+
+    
+
+    
+    
+    
+    <string name="pref_camera_iso_entry_auto">Auto</string>
+    
+    
+    
+    
+    
+
+    
+    
+    <string name="pref_camera_edge_title">Schärfe</string>
+
+    
+    <string name="pref_camera_hue_title">Farbton</string>
+
+    
+    <string name="pref_camera_saturation_title">Sättigung</string>
+
+    
+    <string name="pref_camera_brightness_title">Helligkeit</string>
+
+    
+    <string name="pref_camera_contrast_title">Kontrast</string>
+
+    <string name="pref_camera_dip_entry_low">Niedrig</string>
+    <string name="pref_camera_dip_entry_middle">Mittel</string>
+    <string name="pref_camera_dip_entry_high">Hoch</string>
+
+    
+    
+
+    
+    <string name="pref_camera_coloreffect_title">Farbeffekt</string>
+
+    
+    <string name="pref_camera_coloreffect_entry_none">Keine</string>
+    <string name="pref_camera_coloreffect_entry_mono">Mono</string>
+    <string name="pref_camera_coloreffect_entry_sepia">Sepia</string>
+    <string name="pref_camera_coloreffect_entry_negative">Negativ</string>
+    
+    <string name="pref_camera_coloreffect_entry_solarize">Solarisiert</string>
+    <string name="pref_camera_coloreffect_entry_posterize">Tontrennung</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">Whiteboard</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">Blackboard</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Wasser</string>
+    <string name="pref_camera_coloreffect_entry_pastel">Pastell</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">Mosaik</string>
+    <string name="pref_camera_coloreffect_entry_redtint">Rotstich</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">Blaustich</string>
+    <string name="pref_camera_coloreffect_entry_greentint">Grünstich</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Sepia blau</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Sepia grün</string>
+
+    
+
+    
+    
+    <string name="pref_camera_selftimer_title">Selbstauslöser</string>
+    <string name="pref_camera_selftimer_entry_off">Aus</string>
+    <string name="pref_camera_selftimer_entry_2">2 Sekunden</string>
+    <string name="pref_camera_selftimer_entry_10">10 Sekunden</string>
+
+    
+    <string name="pref_camera_focusmode_entry_continuous">dauernd</string>
+
+    
+    <string name="pref_camera_capturemode_entry_asd">Automatische Szenenerkennung</string>
+
+    
+    
+    <string name="pref_camera_antibanding_title">Anti-Flicker</string>
+    <string name="pref_camera_antibanding_entry_auto">Auto</string>
+    <string name="pref_camera_antibanding_entry_50hz">50Hz</string>
+    <string name="pref_camera_antibanding_entry_60hz">60Hz</string>
+
+    
+    
+    <string name="pref_camera_scenemode_entry_portrait">Portrait</string>
+    
+    <string name="pref_camera_scenemode_entry_landscape">Landschaft</string>
+    
+    <string name="pref_camera_scenemode_entry_night_portrait">Nacht-Portrait</string>
+    
+    <string name="pref_camera_scenemode_entry_theatre">Theater</string>
+    
+    <string name="pref_camera_scenemode_entry_beach">Strand</string>
+    
+    <string name="pref_camera_scenemode_entry_snow">Schnee</string>
+    
+    <string name="pref_camera_scenemode_entry_steadyphoto">Steady-Shot</string>
+    
+    <string name="pref_camera_scenemode_entry_fireworks">Feuerwerk</string>
+    <string name="pref_camera_scenemode_entry_sports">Sport</string>
+    <string name="pref_camera_scenemode_entry_candlelight">Kerzenlicht</string>
+    
+    
+    
+    
+    
+    
+    
+    <string name="pref_camera_eis_on">Ein</string>
+    <string name="pref_camera_eis_off">Aus</string>
+    
+    
+    
+    <string name="pref_camera_recordaudio_title">Mikrofon</string>
+    <string name="pref_camera_recordaudio_entry_off">Aus</string>
+    <string name="pref_camera_recordaudio_entry_on">Ein</string>
+
+     
+    
+    <string name="pref_camera_video_hd_recording_title">Audio-Modus</string> 
+    <string name="pref_camera_video_hd_recording_normal_ics">Normal</string>
+    <string name="pref_camera_video_hd_recording_indoor_ics">Meeting</string>
+
+    
+    
+    
+
+    
+    <string name="pref_camera_continuous_number_title">Aufnahmeanzahl</string>
+    
+    <string name="pref_camera_continuous_number_normal">40 Aufnahmen</string>
+    <string name="pref_camera_continuous_number_large">99 Aufnahmen</string>
+
+    <string name="panorama_guide_shutter">Auslöser drücken, um Panorama aufzunehmen</string>
+    <string name="panorama_guide_capture">Bewegen Sie das Gerät, bis sich die beiden Linien überlappen.</string>
+
+     
+    <string name="pref_camera_image_properties_default">Vorgabe</string> 
+    <string name="pref_camera_image_properties_title">Bildeigenschaften</string>
+    
+    
+    
+    <string name="pref_camera_picturesize_ratio_entry_16_9">Vollbildschirm</string>    
+    
+    
+    <string name="pref_camera_picturesize_ratio_entry_4_3">Standard (4:3)</string>
+    <string name="pref_camera_picturesize_ratio_title">Vorscheugröße</string>
+    
+    <string name="pref_voice_capture">Sprachaufnahme</string>
+    
+    
+    
+    
+    <string name="pref_video_hdr_title">Video-HDR</string>
+    
+    
+    
+    
+     
+    <string name="pref_camera_facebeauty_properties_default">Vorgabe</string> 
+    <string name="pref_camera_facebeauty_properties_title">Portraitverbesserung</string>
+    
+    <string name="pref_facebeauty_smooth_title">Falten entfernen</string>
+    
+    <string name="pref_facebeauty_skin_color_title">Weiß machen</string>
+    
+    <string name="pref_facebeauty_sharp_title">Form</string>
+
+     
+    <string name="pref_camera_face_detect_title">Gesichtserkennung</string>
+    
+    <string name="pref_camera_face_detect_entry_off">Aus</string>
+    <string name="pref_camera_face_detect_entry_on">Ein</string>
+
+    <string name="pref_camera_record_location_title">GPS location info</string>
+    
+    
+    <string name="pref_video_time_lapse_frame_interval_entry_1000">1 Sekunde</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_1500">1,5 Sekunden</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_2000">2 Sekunden</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_2500">2,5 Sekunden</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_3000">3 Sekunden</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_5000">5 Sekunden</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_10000">10 Sekunden</string>
+    
+    
+    
+    
+    
+    <string name="livephoto_dialog_title">Live-Foto</string>
+    <string name="saving_livephoto">Live-Foto wird gespeichert\u2026</string>
+    <string name="smileshot_guide_capture">Automatisch aufnehmen, wenn Lächeln erkannt wird.</string>
+    <string name="toast_video_recording_not_available">Stoppen Sie andere Aufnahmen, bevor Sie die Videokamera verwenden.</string>
+
+    
+    <string name="video_bad_performance_auto_stop">Wenig Speicher, Aufnahme automatisch gestoppt.</string>
+    <string name="video_bad_performance_drop_quality">Wenig Speicher, Qualität automatisch geändert.</string>
+    <string name="video_encoder_error">Encoder-Fehler!</string>
+    
+    <string name="voice_guide">Sagen Sie \"%1$s\" oder \"%2$s\", um ein Foto aufzunehmen.</string>
+    <string name="video_live_effect_error">Aufnahmefehler!</string>
+
+    
+    
+    
+    
+    
+    <string name="stereo3d_convert2d_dialog_title">In 2D konvertieren</string>
+    <string name="stereo3d_convert2d_progress_text">In 2D konvertieren...</string>
+    <string name="stereo3d_share_convert_text_multiple">Zu den ausgewählten Bildern gehören auch 3D-Bilder. Um sie teilen zu können, werden sie in 2D konvertiert.</string>
+    <string name="stereo3d_share_dialog_text_multiple">Zu den ausgewählten Bildern gehören auch 3D-Bilder. Der Empfänger kann sie evtl. nicht korrekt anzeigen.</string>
+    <string name="stereo3d_attach_dialog_title">Als 2D oder 3D anhängen</string>
+    <string name="stereo3d_attach_dialog_button_2d">Als 2D anhängen</string>
+    <string name="stereo3d_attach_dialog_button_3d">Als 3D anhängen</string>
+
+    <string name="single3d_guide_shutter">Auslöser drücken, um 3D-Bild aufzunehmen</string>
+    <string name="single3d_guide_move">Bewegen Sie das Gerät nach rechts, bis sich der Rahmen überlappt.</string>
+    <string name="panorama3d_guide_shutter">Auslöser drücken, um 3D-Panorama aufzunehmen</string>
+    <string name="panorama_guide_choose_direction">Bewegen Sie das Gerät in Aufnahmerichtung.</string>
+    <string name="panorama3d_guide_move">Bewegen Sie das Gerät nach rechts.</string>
+    <string name="panorama3d_guide_capture">Bewegen Sie das Gerät nach rechts, bis sich die beiden Linien überlappen.</string>
+    
+    
+    
+    
+    <string name="pref_camera_picturesize_stereo3d_title">Stereo-3D-Bildgröße</string>
+        
+    
+    <string name="pref_stereo3d_mode_title">3D-Schalter</string>
+    <string name="pref_stereo3d_mode_entry_off">Aus</string>
+    <string name="pref_stereo3d_mode_entry_on">Ein</string>
+    
+    
+    <string name="object_track_enable_toast">Tippen Sie das Objekt auf dem Bildschirm an und halten es, um die Objektnachführung einzuschalten.</string>
+     
+    <string name="pref_camera_hdr_title">HDR</string>
+    
+    <string name="pref_camera_hdr_entry_off">Aus</string>
+    <string name="pref_camera_hdr_entry_on">Ein</string>
+    
+     
+    <string name="pref_smile_shot_title">Smile-Shot</string>
+    
+    <string name="pref_smile_shot_entry_off">Aus</string>
+    <string name="pref_smile_shot_entry_on">Ein</string>
+    
+     
+    <string name="pref_asd_title">Automatische Szenenerkennung</string>
+    
+    <string name="pref_asd_entry_off">Aus</string>
+    <string name="pref_asd_entry_on">Ein</string>
+</resources>

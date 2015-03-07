@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="backup_confirm_title">အပြည့်အစုံ ပြန်လည် သိမ်းဆည်းထားသည်</string>
+    
+    <string name="restore_confirm_title">အပြည့်အစုံ ပြန်လည် ယခင် အတိုင်းထား ရှိသည်</string>
+
+    
+    <string name="backup_confirm_text">အချက်အလက်များအားလုံးကို ချိတ်ဆက် ထားသည့် ကွန်ပျူတာသို့ အပြည့်အစုံ သိမ်းဆည်း ရန် တောင်းဆိုမှုပြုထား ပါသည်။ ဤသည်ကို သင်ဖြစ်စေလို ပါသလား၊ \?\n\nသင်ကိုယ်တိုင် ပြန်လည်သိမ်းဆည်းရန် တောင်းဆိုမှု မပြုခဲ့လျှင် ယင်းဆောင်ရွက်ချက် ဆက်လက်ဖြစ်ပေါ်ရန် ခွင့်မပြုပါနှင့်။</string>
+    
+    <string name="allow_backup_button_label">မိမိအချက်အလက်များကို အရန်ထားရှိပါ</string>
+    
+    <string name="deny_backup_button_label">အရန်အဖြစ် ဖိုင်ကို ကူးယူမထားပါနှင့်</string>
+
+    
+    <string name="restore_confirm_text">အချက်အလက်များအားလုံးကို ချိတ်ဆက်ထား သည့် ကွန်ပျူတာမှ အပြည့်အစုံ သိမ်းဆည်း ရန် တောင်းဆိုမှု ပြုထားပါသည်။ ဤသည်ကို သင်ဖြစ်စေလို ပါသလား \?\n\n သင်ကိုယ်တိုင် ပြန်လည်သိမ်းဆည်းရန် တောင်းဆိုမှု မပြုခဲ့လျှင် ယင်းဆောင်ရွက်ချက် ဆက်လက်ဖြစ်ပေါ်ရန် ခွင့်မပြုပါနှင့်၊ ဤသည်မှာ စက်ပေါ်ရှိ လက်ရှိ မည်သည့် အချက်အလက်ကို မဆို နေရာလဲလှယ် သွားပါလိမ့်မည်!</string>
+    
+    <string name="allow_restore_button_label">မိမိအချက်အလက်များကို မူလအတိုင်း ပြန်လည်ထားရှိသည်</string>
+    
+    <string name="deny_restore_button_label">မိမိအချက်အလက်များကို မူလအတိုင်း ပြန်လည်ထားရှိခြင်း မပြုပါ</string>
+
+    
+    <string name="current_password_text">​အောက်တွင် သင်၏ လက်ရှိ ပြန်လည် သိမ်းဆည်းသည့် လျှို့ဝှက်စကားလုံးအား ထည့်သွင်းပေးပါ-</string>
+    
+    <string name="device_encryption_restore_text">အောက်တွင် သင့်စက်၏ ကုဒ်ဖြည်သည့် လျှို့ဝှက် စကားလုံးအား ရိုက်သွင်းပေးပါ။ </string>
+    
+    <string name="device_encryption_backup_text">အောက်တွင် သင့်စက်၏ ကုဒ်ဖြည်သည့် လျှို့ဝှက် စကားလုံးအား ရိုက်သွင်းပေးပါ။ ဤသည်ကို ပြန်လည် သိမ်းယူထားသည်တို့ အား ဖြည်ရာတွင်လည်း သုံးပါမည်။ </string>
+
+    
+    <string name="backup_enc_password_text">အပြည့်အစုံ ပြန်လည်သိမ်းဆည်း ထားသည့် အချက် အလက်များအား လျှို့ဝှက်စွာသိမ်းဆည်း ရန်အတွက် သုံးရန် လျှို့ဝှက် စကားလုံးအား ရိုက်သွင်းပေးပါ။ ဤသည်ကို ကွက်လပ် ထားခဲ့လျှင် သင့်လက်ရှိ ပြန်လည် သိမ်းဆည်း သည့် လျှို့ဝှက်စကားလုံး အား အသုံးပြုပါမည်-</string>
+    
+    <string name="backup_enc_password_optional">အပြည့်အစုံ ပြန်လည် သိမ်းဆည်းထားသော အချက်အလက်ကို လျှို့ဝှက်စွာထားရှိလို လျှင် အောက်တွင် လျှို့ဝှက်စကားလုံး တစ်ခုကို ရိုက်သွင်းပါ -</string>
+
+    
+    <string name="restore_enc_password_text">မူလသို့ ပြန်လည်ထားရှိ ထားသည့် အချက် အလက်များသည် လျှို့ဝှက်စွာ ပြုပြီးလျှင် အောက်တွင် လျှို့ဝှက် စကားလုံးကို ရိုက်သွင်းပါ-</string>
+
+    
+    <string name="toast_backup_started">ပြန်လည်သိမ်းဆည်း ခြင်း စတင်နေသည် ….</string>
+    
+    <string name="toast_backup_ended">ပြန်လည်သိမ်းဆည်း ခြင်း ပြီးစီးသည် ….</string>
+    
+    <string name="toast_restore_started">မူလသို့ ပြန်လည်ထားရှိခြင်း စတင်နေသည် …</string>
+    
+    <string name="toast_restore_ended">မူလသို့ ပြန်လည်ထားရှိခြင်း ပြီးဆုံးသည်</string>
+    
+    <string name="toast_timeout">ဆောင်ရွက်ခြင်း အချိန်ကျော်သွားသည်</string>
+</resources>

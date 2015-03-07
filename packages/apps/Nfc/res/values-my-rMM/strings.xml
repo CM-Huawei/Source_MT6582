@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Nfc ဝန်ဆောင်မှု</string>
+    <string name="nfcUserLabel">NFC</string>
+
+    
+    <string name="inbound_me_profile_title">NFC ကို ကျော်လွန်၍ အဆက်အသွယ် လက်ခံရရှိခဲ့သည်</string>
+
+    
+    <string name="inbound_me_profile_text">ဤသူအားအဆက်အသွယ်တစ်ခုအဖြစ်ထည့်ရန် ထိလိုက်ပါ။</string>
+
+    
+    <string name="outbound_me_profile_title">NFC အပြန်အလှန်ဆက်သွယ်မှုပြီးဆုံးသည်</string>
+
+    
+    <string name="outbound_me_profile_text">ဤသူအားသင့်အားဆက်သွယ်ရန်အချက်အလက်ကိုပေးရန် ထိလိုက်ပါ။</string>
+
+    
+    <string name="accessibility_nfc_enabled">NFC ကိုသက်ဝင်အောင်လုပ်သည်။</string>
+    <string name="touch">ထုတ်လွှင့်ရန် ထိလိုက်ပါ</string>
+
+    <string name="beam_progress">ဝင်လာသောထုတ်လွှင့်ချက် …</string>
+    <string name="beam_outgoing">ထုတ်လွှင့်နေသည်…</string>
+    <string name="beam_complete">ထုတ်လွှင့်ခြင်းပြီးဆုံးပြီ</string>
+    <string name="beam_failed">ထုတ်လွှင့်ခြင်းမပြီးဆုံးပါ</string>
+    <string name="beam_canceled">ထုတ်လွှင့်ခြင်းကိုပယ်ဖျက်သည်</string>
+    <string name="cancel">မလုပ်ပါ</string>
+    <string name="beam_touch_to_view">ကြည့်ရန်ထိလိုက်ပါ</string>
+    <string name="beam_handover_not_supported">လက်ခံသူ၏ ကိရိယာသည် ထုတ်လွှင့်မှုမှတဆင့် အရွယ်အစားကြီးသော ဖိုင်ပေးပို့မှုကို မထောက်ပံ့ပါ။</string>
+    <string name="beam_try_again">ကိရိယာများကို အတူတကွ နောက်တစ်ကြိမ် ယူဆောင်လာပါ</string>
+
+    <string name="connecting_headset">ချိတ်ဆက်နေသည်</string>
+    <string name="connected_headset">ချိတ်ဆက်ပြီး</string>
+    <string name="connect_headset_failed">ချိတ်ဆက်၍မရနိုင်ပါ</string>
+    <string name="disconnecting_headset">ချိတ်ဆက်ခြင်းဖြုတ်နေသည်</string>
+    <string name="disconnected_headset">ချိတ်ဆက်မှုပြတ်တောက်ခဲ့သည်</string>
+    <string name="pairing_headset">တွဲနေသည်</string>
+    <string name="pairing_headset_failed">တွဲ၍မရပါ</string>
+    <string name="failed_to_enable_bt">ဘလူးတု(သ်)ကိုဖွင့်၍မရပါ</string>
+    <string name="confirm_pairing">ဘလူးတု(သ်)ကိရိယာ <xliff:g id="device_name">%1$s</xliff:g>ကို သင်တွဲလိုသည်မှာ သေချာပါသလား။</string>
+    <string name="pair_yes">"လုပ်မည်"</string>
+    <string name="pair_no">ကြိုးမဲ့အသွင်းပစ္စည်းချိတ်ဆက်ပြီး</string>
+
+    
+    <string name="tap_again_to_pay"><xliff:g id="app">%1$s</xliff:g> နှင့်အတူပေးရန် နောက်တစ်ကြိမ် ပုတ်ပါ</string>
+    
+    <string name="tap_again_to_complete"><xliff:g id="app">%1$s</xliff:g> နှင့်အတူ ပြီးစီးရန် နောက်တစ်ကြိမ် ပုတ်ပါ</string>
+    
+    <string name="transaction_failure">ဤလုပ်ဆောင်မှုသည် <xliff:g id="app">%1$s</xliff:g> နှင့်အတူ မပြီးစီးနိုင်ခဲ့ပါ။</string>
+    
+    <string name="could_not_use_app"><xliff:g id="app">%1$s</xliff:g> ကို အသုံးမပြုနိုင်ခဲ့ပါ။</string>
+    
+    <string name="pay_with">နှင့်အတူ ပေးခြင်း</string>
+    
+    <string name="complete_with">နှင့်အတူ ပြီးစီးခြင်း</string>
+    
+    <string name="default_pay_app_removed">ပုတ်ပြီးပေးရန်အတွက် သင်၏နှစ်သက်ရာ ဝန်ဆောင်မှုကို ဖယ်ရှားခဲ့သည်။ အခြားတစ်ခုရွေးမလား။</string>
+</resources>

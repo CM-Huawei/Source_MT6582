@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="onscreenHangupAll">วางสายทั้งหมด</string>
+    <string name="onscreenHangupHolding">วางสายที่พักไว้</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">วางสายที่กำลังโทร รับสายซ้อน</string>
+    <string name="onscreenECT">โอนสาย</string>
+
+    <string name="dm_lock">ล็อก DM แล้ว</string>
+    <string name="dm_unlock">ยกเลิกการล็อก DM</string>
+
+    <string name="mo_code_unconditional_cf_active">เปิด\nการโอนสายอย่างไม่มีเงื่อนไขแล้ว</string>
+    <string name="mo_code_some_cf_active">การโอนสา\nยตามเงื่อนไข</string>
+    <string name="mo_code_call_forwarded">สายถูกโอนแล้ว</string>
+    <string name="mo_code_call_is_waiting">สายเรียกซ้อน</string>
+    <string name="mo_code_cug_call">กลุ่มผู้ใช้ปิด</string>
+    <string name="mo_code_outgoing_calls_barred">สายโทรออกถูกห้าม</string>
+    <string name="mo_code_incoming_calls_barred">สายเรียกเข้าถูกระงับที่ปลายทาง</string>
+    <string name="mo_code_clir_suppression_rejected">ตรวจสอบบริการการส่งหมายเลขผู้โทรเข้า</string>
+    <string name="mo_code_call_deflected">สายถูกโอนแล้ว</string>
+    <string name="mt_code_forwarded_call">นี่เป็นสายที่โอน</string>
+    <string name="mt_code_cug_call">กลุ่มผู้ใช้ปิด</string>
+    <string name="mt_code_call_on_hold">สายถูกพักแล้ว</string>
+    <string name="mt_code_call_retrieved">สายเรียกคืนแล้ว</string>
+    <string name="mt_code_multi_party_call">การประชุมทางโทรศัพท์</string>
+    <string name="mt_code_on_hold_call_released">สายที่พักถูกปล่อยแล้ว</string>
+    <string name="mt_code_forward_check_received">ได้รับข้อความ SS ตรวจสอบที่โอนแล้ว</string>
+    <string name="mt_code_call_connecting_ect">การโอนสาย</string>
+    <string name="mt_code_call_connected_ect">การโอนสายเปิดทำงาน</string>
+    <string name="mt_code_deflected_call">นี่เป็นสายที่โอน</string>
+    <string name="mt_code_additional_call_forwarded">สายเรียกเข้าเพิ่มเติมถูกโอนแล้ว</string>
+    <string name="mt_code_forwarded_cf">สายถูกโอนแล้ว</string>
+    <string name="mt_code_forwarded_cf_uncond">สายถูกโอนเมื่อไม่มีเงื่อนไข</string>
+    <string name="mt_code_forwarded_cf_cond">สายถูกโอนตามเงื่อนไข</string>
+    <string name="mt_code_forwarded_cf_busy">สายถูกโอนเมื่อไม่ว่าง</string>
+    <string name="mt_code_forwarded_cf_no_reply">สายถูกโอนเมื่อไม่ตอบรับ</string>
+    <string name="mt_code_forwarded_cf_not_reachable">สายถูกโอนเมื่อติดต่อไม่ได้</string>
+    
+    <string name="start_record">เริ่มการบันทึก</string>
+    <string name="stop_record">หยุดการบันทึก</string>
+    <string name="str_db_playlist_name">สิ่งที่บันทึกของฉัน</string>
+    <string name="alert_device_error">เกิดความผิดพลาดที่อุปกรณ์เสียง</string>
+    <string name="ext_media_badremoval_notification_title">SD การ์ดถูกนำออกโดยไม่ได้คาดหมาย</string>
+    <string name="error_sdcard_access">"ไม่สามารถเข้าถึง SD การ์ด"</string>
+    <string name="confirm_device_info_full">พื้นที่ SD การ์ดหมด สิ่งที่บันทึกถูกจัดเก็บแล้ว</string>
+    <string name="confirm_save_info_saved">สิ่งที่บันทึกถูกจัดเก็บแล้ว</string>
+    <string name="confirm_save_info_saved_to">สิ่งที่อัดถูกบันทึกไปยัง</string>
+    
+    <string name="activity_not_found">ไม่ได้ติดตั้งแอพพลิเคชั่นบนโทรศัพท์ของคุณ</string>
+    <string name="confirm_3g_switch">คุณแน่ใจว่าต้องการตั้งบริการ 3G ให้ SIM นี้หรือไม่ ซึ่งจะตั้ง SIM มาตรฐานสำหรับการโทรผ่านวิดีโอให้กับ SIM นี้โดยอัตโนมัติด้วย</string>
+    <string name="modem_switching">การสลับ SIM จะใช้เวลาประมาณ 10 วินาทีจึงจะสมบูรณ์ โปรดรอ…</string>
+    <string name="confirm_3g_switch_to_off">แน่ใจหรือไม่ว่าต้องการปิดบริการ 3G? การทำเช่นนี้จะปิดบริการสายวิดีโอโดยอัตโนมัติด้วย</string>
+    <string name="enable_3G_service">เปิดทำงาน 3G</string>
+    <string name="network_forbidden">ปิดทำงาน</string>
+    <string name="plmn_list_setting_title">การปรับแต่งค่า</string>
+    <string name="plmn_list_setting_add_plmn">เพิ่ม PLMN ใหม่</string>
+    <string name="callFailed_dsac_vt_incompatible_destination">ไม่สามารถตั้งค่าสายวิดีโอ โทรศัพท์วิดีโอไม่ได้รับการสนับสนุนบนโทรศัพท์ที่คุณกำลังโทรไป โทรด้วยสายสนทนาหรือไม่?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">ไม่สามารถตั้งค่าสายวิดีโอ โทรศัพท์ที่คุณโทรหาอยู่นอกพื้นที่บริการ 3G โทรด้วยสายสนทนาหรือไม่?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">ไม่สามารถตั้งค่าสายวิดีโอ โทรด้วยสายสนทนาหรือไม่?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">โทรศัพท์ของคุณอยู่นอกพื้นที่ให้บริการ 3G, โทรด้วยสายสนทนาหรือไม่?</string>
+    <string name="notification_voicemail">ข้อความเสียง</string>
+    <string name="turn_on_3g_service_message">ขณะนี้ได้ปิดบริการ 3G แล้ว คุณต้องการเปิดการใช้งานหรือไม่</string>
+    <string name="associate_sim_missing_message">"%1$s SIM ไม่ว่าง คุณต้องการโทรผ่าน %2$s หรือไม่"</string>
+    <string name="associate_sim_missing_other">อื่น ๆ</string>
+    
+    <string name="vt_settings">การตั้งค่าวิดีโอ</string>
+    <string name="vt_local_video_zoom">ซูมวิดีโอท้องถิ่น</string>
+    <string name="vt_local_video_brightness">ความสว่างวิดีโอท้องถิ่น</string>
+    <string name="vt_local_video_effect">เอฟเฟ็กต์วิดีโอท้องถิ่น</string>
+    <string name="vt_local_video_nightmode">โหมดกลางคืนวิดีโอท้องถิ่น</string>
+    <string name="vt_peer_video_quality">คุณภาพวิดีโอเพื่อน</string>
+    <string name="vt_incoming_showme_ask">ถาม</string>
+    <string name="vt_call_settings">การตั้งค่าสายวิดีโอ</string>
+    <string name="vt_pic_replace_local_default">ภาพเริ่มต้น</string>
+    <string name="vt_pic_replace_local_freezeme">หยุดภาพของฉัน</string>
+    <string name="vt_pic_replace_local_mypic">ภาพของฉัน</string>
+    <string name="vt_sd_null">ไม่มี SD การ์ด</string>
+    <string name="vt_sd_not_enough">พื้นที่บน SD การ์ดกำลังจะหมด</string>
+    <string name="vt_peer_video_quality_normal">ปกติ</string>
+    <string name="vt_ask_show_local">แสดงวิดีโอในเครื่องแก่เพื่อน?</string>
+    <string name="vt_change_my_pic">เปลี่ยน</string>
+    <string name="vt_pic_saved_to_sd">สแน็ปช็อตถูกบันทึกไปยัง SD การ์ด</string>
+    <string name="vt_pic_saved_to_sd_fail">ไม่สามารถบันทึกสแน็ปช็อต</string>
+    <string name="vt_error_network">ไม่สามารถเข้าถึงเครือข่ายได้ สายวิดีโอจะตัดการเชื่อมต่อ</string>
+    <string name="vt_error_media">วิดีโอไม่สามารถแสดงได้อย่างเหมาะสม สายวิดีโอจะตัดการเชื่อมต่อ</string>
+    <string name="vt_swap_video">สลับวิดีโอ</string>
+    <string name="vt_local_video_contrast">คอนทราสต์วิดีโอในเครื่อง</string>
+    <string name="vt_menu_switch">สลับกล้อง</string>
+    <string name="vt_menu_hide_me">ซ่อนวิดีโอในเครื่อง</string>
+    <string name="vt_menu_show_me">แสดงวิดีโอในเครื่อง</string>
+    <string name="vt_menu_snapshot">ถ่ายภาพเพื่อน</string>
+    <string name="vt_vocie_answer">รับสายสนทนา</string>
+    <string name="vt_wait_voice">กำลังรอการเชื่อมต่อสายสนทนาน</string>
+    <string name="vt_voice_connecting">การเชื่อมต่อสายสนทนา</string>
+    <string name="vt_cannot_support_setting">กล้องปัจจุบันไม่สามารถสนับสนุนการตั้งค่านี้ได้</string>
+    <string name="vt_network_unreachable">ไม่สามารถเข้าถึงเครือข่าย</string>
+    <string name="vt_iot_error_01">ไม่สามารถตั้งค่าสายวิดีโอ</string>
+    <string name="vt_iot_error_02">โทรศัพท์ไม่ว่าง</string>
+    <string name="vt_iot_error_03">ไม่มีการตอบรับ</string>
+    <string name="vt_iot_error_04">เครือข่ายไม่ว่าง</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"การรับแสง"</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">ไวท์บอร์ด</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">แบล็คบอร์ด</string>
+    <string name="pref_camera_coloreffect_entry_aqua">เอคว่า</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">ซีเปียน้ำเงิน</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">ซีเปียเขียว</string>
+    <string name="vt_peer_camera_open">กล้องรีโมทเปิดการทำงาน</string>
+    <string name="vt_peer_camera_close">กล้องรีโมทปิดการทำงาน</string>
+    <string name="vt_recorder_start">เริ่มการบันทึก</string>
+    <string name="vt_recorder_voice_and_peer_video">เสียงและวิดีโอเพื่อน</string>
+    <string name="vt_recorder_only_voice">เฉพาะเสียง</string>
+    <string name="vt_recorder_only_peer_video">เฉพาะวิดีโอเพื่อน</string>
+    <string name="vt_recording_saved">การบันทึกได้ถูกบันทึกแล้ว</string>
+    <string name="vt_recording_saved_sd_full">พื้นที่ SD การ์ดหมด สิ่งที่บันทึกถูกจัดเก็บแล้ว</string>
+    <string name="vt_recording_error">การบันทึกมีความผิดพลาด</string>
+    <string name="start_record_vt">เริ่มการบันทึก</string>
+    <string name="stop_record_vt">หยุดการบันทึก</string>
+    <string name="enable_sip_dialog_message">"สายอินเทอร์เน็ตถูกปิดทำงาน คุณต้องการเปิดทำงานหรือไม่?"</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">ฟังก์ชั่นโทร IP ใช้ไม่ได้สำหรับสายที่ตั้งใจ</string>
+    <string name="vt_addtional_call_description">การตั้งค่าหมายเลขโทรศัพท์และสายเรียกซ้อน</string>
+    <string name="sim_manage_sipcall">"อินเทอร์เน็ต"</string>
+    <string name="sim_manage_call_via">โทรผ่าน</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> นาที <xliff:g id="seconds" example="28">%2$s</xliff:g> วินาที</string>
+    <string name="reminder">ตัวเตือน</string>
+    <string name="vt_media_occupied">เนื่องจากกล้องใช้ไม่ได้ จึงไม่สามารถโทรสายวิดีโอได้ โปรดตรวจสอบว่าแอพพลิเคชั่นอื่นกำลังใช้กล้องอยู่หรือไม่</string>
+    <string name="vt_media_video_fail">ไม่สามารถแสดงวิดีโอได้อย่างเหมาะสม สายวิดีโอถูกตัดการเชื่อมต่อ</string>
+    <string name="incall_toast_unhold">ทำต่อ</string>
+
+</resources>

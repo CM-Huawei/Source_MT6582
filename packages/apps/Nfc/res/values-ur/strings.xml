@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Nfc خدمت</string>
+    <string name="nfcUserLabel">NFC</string>
+
+    
+    <string name="inbound_me_profile_title">این ایف سی کے ذریعے رابطہ وصول ہوگیا</string>
+
+    
+    <string name="inbound_me_profile_text">اس فرد کو بطور رابطہ شامل کرنے کیلئے چھوئیں۔</string>
+
+    
+    <string name="outbound_me_profile_title">NFC تعامل مکمل </string>
+
+    
+    <string name="outbound_me_profile_text">اس فرد کو اپنے رابطے کی تفصیلات دینے کیلئے چھوئیں۔</string>
+
+    
+    <string name="accessibility_nfc_enabled">NFC فعال۔</string>
+    <string name="touch">بیم کو چھوئیں</string>
+
+    <string name="beam_progress">آرہی بیم...</string>
+    <string name="beam_outgoing">چمک رہا ہے…</string>
+    <string name="beam_complete">بیم مکمل</string>
+    <string name="beam_failed">بیم مکمل نہیں ہوا</string>
+    <string name="beam_canceled">بیم منسوخ</string>
+    <string name="cancel">منسوخ</string>
+    <string name="beam_touch_to_view">دیکھنے کیلئے چھوئیں</string>
+    <string name="beam_handover_not_supported">وصول کنندہ کا آلہ بیم کی معرفت بڑی فائل کی منتقلی کا تعاون نہیں کرتا ہے۔</string>
+    <string name="beam_try_again">آلات کو دوبارہ ایک ساتھ لائیں</string>
+
+    <string name="connecting_headset">متصل کررہا ہے</string>
+    <string name="connected_headset">متصل</string>
+    <string name="connect_headset_failed">رابطہ نہیں ہوسکا</string>
+    <string name="disconnecting_headset">رابطہ ختم کیا جارہا ہے</string>
+    <string name="disconnected_headset">غیرمتصل</string>
+    <string name="pairing_headset">جوڑنا</string>
+    <string name="pairing_headset_failed">جوڑا نہیں جاسکتا</string>
+    <string name="failed_to_enable_bt">Bluetooth فعال نہیں کرسکتا</string>
+    <string name="confirm_pairing">کیا آپ کو یقین ہے کہ آپ Bluetooth آلے کو جوڑنا چاہتے ہیں <xliff:g id="device_name">%1$s</xliff:g>?</string>
+    <string name="pair_yes">"ہاں"</string>
+    <string name="pair_no">نہیں</string>
+
+    
+    <string name="tap_again_to_pay"><xliff:g id="app">%1$s</xliff:g> کے ساتھ ادا کرنے کیلئے دوبارہ تھپکی دیں</string>
+    
+    <string name="tap_again_to_complete"><xliff:g id="app">%1$s</xliff:g> کے ساتھ مکمل کرنے کیلئے دوبارہ تھپکی دیں</string>
+    
+    <string name="transaction_failure">یہ ترسیل <xliff:g id="app">%1$s</xliff:g> کے ساتھ مکمل نہیں ہوسکی۔</string>
+    
+    <string name="could_not_use_app"> <xliff:g id="app">%1$s</xliff:g> کو استعمال نہیں کرسکا۔</string>
+    
+    <string name="pay_with">ادا کریں مع</string>
+    
+    <string name="complete_with">مکمل کریں مع</string>
+    
+    <string name="default_pay_app_removed">تھپکی دینے اور ادا کرنے کیلئے آپ کی ترجیحی سروس ہٹا دی گئی تھی۔ دوسرا منتخب کریں؟"</string>
+</resources>

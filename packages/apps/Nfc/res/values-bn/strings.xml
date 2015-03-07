@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">এনএফসি সেবা</string>
+    <string name="nfcUserLabel">এনএফসি</string>
+
+    
+    <string name="inbound_me_profile_title">এনএফসি-তে পরিচিতজন পেয়েছে</string>
+
+    
+    <string name="inbound_me_profile_text">এই ব্যক্তিকে পরিচিতজন হিসেবে যোগ করতে স্পর্শ করুন। </string>
+
+    
+    <string name="outbound_me_profile_title">এনএফসি আন্তঃক্রিয়া সম্পন্ন</string>
+
+    
+    <string name="outbound_me_profile_text">আপনার সাথে যোগাযোগের তথ্য এই ব্যক্তিকে প্রদান করতে স্পর্শ করুন।</string>
+
+    
+    <string name="accessibility_nfc_enabled">এনএফসি সক্রিয়।</string>
+    <string name="touch">বিমের জন্য স্পর্শ করুন</string>
+
+    <string name="beam_progress">ইনকামিং বিম...</string>
+    <string name="beam_outgoing">বিম হচ্ছে...</string>
+    <string name="beam_complete">বিম সম্পন্ন</string>
+    <string name="beam_failed">বিম সম্পন্ন হয়নি</string>
+    <string name="beam_canceled">বিম বাতিল করা হয়েছে</string>
+    <string name="cancel">বাতিল করুন</string>
+    <string name="beam_touch_to_view">দেখার জন্য স্পর্শ করুন</string>
+    <string name="beam_handover_not_supported">রিসিভারের ডিভাইস বিমের মাধ্যমে বৃহৎ ফাইল স্থানান্তর সমর্থন করে না।</string>
+    <string name="beam_try_again">আবার ডিভাইসগুলো একসাথে করুন</string>
+
+    <string name="connecting_headset">সংযুক্ত হচ্ছে</string>
+    <string name="connected_headset">সংযুক্ত</string>
+    <string name="connect_headset_failed">সংযুক্ত করতে পারছে না</string>
+    <string name="disconnecting_headset">বিচ্ছিন্ন করা হচ্ছে</string>
+    <string name="disconnected_headset">বিচ্ছিন্ন</string>
+    <string name="pairing_headset">জোড়া তৈরি করা হচ্ছে</string>
+    <string name="pairing_headset_failed">জোড়া তৈরি করতে পারেনি</string>
+    <string name="failed_to_enable_bt">ব্লুটুথ সক্রিয় করতে পারেনি</string>
+    <string name="confirm_pairing">আপনি কি নিশ্চিত আপনি ব্লুটুথ ডিভাইসের সাথে জোড়া তৈরি করতে চান<xliff:g id="device_name">%1$s</xliff:g>?</string>
+    <string name="pair_yes">"হ্যা"</string>
+    <string name="pair_no">না</string>
+
+    
+    <string name="tap_again_to_pay"><xliff:g id="app">%1$s</xliff:g>-এর মাধ্যমে পরিশোধ করতে আবার ট্যাপ করুন</string>
+    
+    <string name="tap_again_to_complete"><xliff:g id="app">%1$s</xliff:g>-এর মাধ্যমে সম্পন্ন করতে আবার ট্যাপ করুন</string>
+    
+    <string name="transaction_failure"> <xliff:g id="app">%1$s</xliff:g>-এর মাধ্যমে এই লেনদেন সম্পন্ন হয়নি।</string>
+    
+    <string name="could_not_use_app"><xliff:g id="app">%1$s</xliff:g> ব্যবহার করতে পারেনি।</string>
+    
+    <string name="pay_with">পরিশোধ করুন</string>
+    
+    <string name="complete_with">সম্পন্ন করুন</string>
+    
+    <string name="default_pay_app_removed">"ট্যাপ এন্ড পে'র জন্য আপনার পছন্দের সেবা দূর করা হয়েছে। অন্যটি বাছাই করবেন?""</string>
+</resources>

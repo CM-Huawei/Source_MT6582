@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_advanced_settings">"Papildu iestatījumi"</string>
+    <string name="bluetooth_profile_ftp">"Failu pārsūtīšana"</string>
+    <string name="bluetooth_ftp_profile_summary_use_for">Izmantot failu pārsūtīšanai</string>
+    <string name="bluetooth_ftp_profile_summary_connected">"Pievienots failu pārsūtīšanai"</string>
+    <string name="mtp_transfer_unmount_error_text">SD karte nevar noņemt failu pārsūtīšanas laikā</string>
+    <string name="mtp_transfer_erase_error_text">SD kartes saturu nevar dzēst failu pārsūtīšanas laikā</string>    
+    <string name="launch_error">"Nevarēja palaist lietotni!"</string>
+    <string name="dlg_confirm_unmount_usb_title" product="default">Vai noņemt USB atmiņas ierīci?</string>
+    <string name="dlg_confirm_unmount_usb_text" product="default">Ja noņemat USB atmiņas ierīci, dažas izmantotās lietots pārtrauks darboties un var nebūt pieejamas, kamēr USB atmiņas ierīce atkal tiek pievienota.</string>
+    <string name="dlg_error_unmount_usb_title" product="default"/>
+    <string name="dlg_error_unmount_usb_text" product="default">"Nevarēja atvienot USB atmiņu. Vēlāk mēģiniet vēlreiz."</string>   
+    <string name="unmount_usb_inform_text" product="default">USB atmiņas ierīce tiks noņemta.</string>
+    <string name="sd_eject_usbstorage" product="default">"Atvienot USB krātuvi"</string>
+    <string name="sd_eject_usbstorage_summary" product="default">Atvienojiet USB atmiņas ierīci, lai varētu to droši noņemt</string>
+    <string name="sd_mount_usbstorage" product="default">"Uzstādīt USB krātuvi"</string>
+    <string name="sd_insert_usb_summary" product="default">"Iev. USB kr. uzstādīšanai"</string>
+    <string name="usb_ums_title">"USB krātuve"</string>
+    <string name="usb_ums_summary">"Ieteicama XP. Ļauj pārsūtīt failus starp datoru un Android ierīci."</string>
+    <string name="usb_charge_title">Tikai uzlāde</string>
+    <string name="usb_charge_summary">Apturiet visas USB funkcijas. Ļauj paātrināt USB uzlādi un samazināt jaudas patēriņu.</string>
+    <string name="NI_Request_ID">Pieprasītāja ID</string>
+    <string name="NI_Request_ClientName">Klienta nosaukums</string>
+    <string name="agps_str_verify">Verifikācija</string>
+    <string name="agps_str_notify">Paziņojums</string>
+    <string name="agps_OK">"Labi"</string>
+    <string name="agps_str_allow">"Atļaut"</string>
+    <string name="agps_str_deny">"Noraidīt"</string>
+    <string name="AGPS_DEFAULT_STRING">A-GPS noklusējuma virkne</string>
+    <string name="AGPS_NOTIFY_ONLY">Atrašanās vietas pieprasījuma ziņojums</string>
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">Atrašanās vietas pieprasījums (atļaut, ja nav atbildes)</string>
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">Atrašanās vietas pieprasījums (noraidīt, ja nav atbildes)</string>
+    <string name="AGPS_NOTIFY_PRIVACY">Atrašanās vietas pieprasījums (konfidencialitāte)</string>    
+    <string name="ring_summary">Zvans</string>
+    <string name="ring_vibrate_summary">Zvans un vibrācija</string>
+    <string name="silent_summary">Tikai klusums</string>
+    <string name="meeting_summary">Tikai vibrēt</string>
+    <string name="outdoor_summary">Skaļākais zvans un vibrācija</string>
+    <string name="audio_profile_reset">"Atiestatīt"</string>
+    <string name="audio_profile_add">"Pievienošana"</string>
+    <string name="audio_profile_enable">"Iespējot"</string>
+    <string name="audio_profile_rename">"PĀRDĒVĒT"</string>
+    <string name="audio_profile_delete">"Dzēšanas taustiņš"</string>
+    <string name="audio_profile_message_reset">Visi audio profila iestatījumi tiks atiestatīt uz noklusējumu</string>
+    <string name="audio_profile_message_rename">Ievadiet jauno profila nosaukumu</string>
+    <string name="audio_profile_message_name_error">Nosaukuma ievade jau pastāv</string>  
+    <string name="audio_profile_message_name_length_wrong">Nosaukumā jābūt vismaz vienai rakstzīmei</string>
+    <string name="audio_profile_message_delete">Profils <xliff:g id="profile">%s</xliff:g> tiks dzēsts</string>
+    <string name="audio_profile_message_overflow">Drīkst pievienot tikai 6 pielāgotos profilus</string>
+    <string name="ok">"Labi"</string>
+    <string name="audio_profile_category_custom_title">Lietotāja definētie profili</string>
+    <string name="audio_profile_category_predefine_title">Iepriekš definētie profili</string>
+    <string name="general_settings_title">"Vispārīgi"</string>
+    <string name="silent_settings_title">"Klusums"</string>
+    <string name="meeting_settings_title">Sapulce</string>
+    <string name="outdoor_settings_title">Ārpus telpām</string>
+    <string name="apn_predefine_change_dialog_notice">Vai tiešām saglabāt? Noklusējuma APN izmaiņas var izraisīt savienojumu problēmas!"</string>    
+    <string name="sound_category_feedback_title">"Sistēma"</string>
+    <string name="sound_category_calls_title">Ienākošais zvans</string>
+    <string name="voice_call_title">Balss zvana signāls</string>
+    <string name="voice_call_summary">"Iestatiet savu noklusējuma balss zvanu signālu"</string>
+    <string name="video_call_title">Video zvana signāls</string>
+    <string name="video_call_summary">Iestatiet savu noklusējuma video zvanu signālu</string>
+    <string name="sip_call_title">SIP zvana signāls</string>
+    <string name="sip_call_summary">Iestatiet savu noklusējuma SIP zvanu signālu</string>
+    <string name="Phone_vibrate_summary">Vibrēt ierīces pie ienākošajiem zvaniem</string>
+    <string name="vibrate_title">"Vibrozvans"</string>
+    <string name="audio_profile_settings_title">Audio profili</string>
+    <string name="sim_status_title">SIM statuss</string>
+    <string name="sim_status_summary">SIM saistītā informācija</string>
+    <string name="status_imei_slot1">IMEI (1. atvere)</string>
+    <string name="status_imei_sv_slot1">IMEI SV (1. atvere)</string>
+    <string name="status_imei_slot2">IMEI (2. atvere)</string>
+    <string name="status_imei_sv_slot2">IMEI SV (2. atvere)</string>
+    <string name="status_min_number_slot1">MIN (1. atvere)</string>
+    <string name="status_prl_version_slot1">PRL versija (1. atvere)</string>
+    <string name="status_meid_number_slot1">MEID (1. atvere)</string>
+    <string name="status_min_number_slot2">MIN (2. atvere)</string>
+    <string name="status_prl_version_slot2">PRL versija (2. atvere)</string>
+    <string name="status_meid_number_slot2">MEID (2. atvere)</string>
+    <string name="slot_status_title">"IMEI informācija"</string>
+    <string name="slot_status_summary">"IMEI saistošā informācija"</string> 
+    <string name="custom_build_version">Pielāgot būvējuma versiju</string>
+    <string name="software_update">Programmatūras atjauninājuma pakalpojums</string>
+    <string name="mota_system_update_summary">"Pārbaudīt sistēmas atjauninājumu serverī"</string>
+    <string name="software_updates_more_title">Programmatūras atjauninājumi</string>
+    <string name="software_updates_more_summary">Meklēt jaunu programmatūras versiju</string>
+    <string name="software_updates_scomo_summary">Meklēt jaunu lietojumprogrammas versiju</string>
+    <string name="scomo_settings_title">Programmatūras atjauninājuma pakalpojums</string>
+    <string name="screen_timeout_CU">Ekrāna noildze</string>
+    <string name="landscape_launcher_title">Ainavas palaidējs</string>
+    <string name="landscape_launcher_none">"Nav"</string>
+    <string name="tvout_settings">TV izeja</string>
+    <string name="tvout_settings_summary">TV izejas iestatījumi</string>
+    <string name="tv_system_title">TV sistēma</string>
+    <string name="hdmi_settings">HDMI iestatījumi</string>
+    <string name="hdmi_settings_summary">Noklikšķiniet, lai konfigurētu HDMI</string>
+    <string name="hdmi_audio_toggler">Audio</string>
+    <string name="hdmi_video_toggler">"Videoklips"</string>
+    <string name="hdmi_video_resolution">Video izšķirtspēja</string>
+    <string name="hdmi_auto">"automātisks"</string>
+    <string name="display_settings_scences_title">Ainas</string>
+    <string name="mtk_thememanager_title">Motīvs</string>
+    <string name="default_name">"Noklusējums"</string>
+    <string name="custom_theme_name">Jauns [%1$s]</string>
+    <string name="loading">Notiek ielāde...</string>
+    <string name="sim_enter_pin_hints">(Ievadiet 4-8 ciparus)</string>
+    <string name="sim_remain">(Atlicis:<xliff:g id="remains">%d</xliff:g>)</string>  
+    <string name="gps_time_sync_attention_gps_on">GPS salabošanai būs nepieciešams līdz 1 minūtei. Turklāt GPS var nenodrošināt laiku vāja apkārtējā signāla dēļ.\n\nVai tiešām izmantot GPS nodrošināto laiku?</string>
+    <string name="gps_time_sync_attention_gps_off">Lai izmantotu GPS nodrošināto laiku, vispirms iespējojiet GPS. GPS salabošanai būs nepieciešams līdz 1 minūtei. Turklāt GPS var nenodrošināt laiku vāja apkārtējā signāla dēļ. \n\nVai tiešām izmantot GPS tūlīt un uzgaidīt GPS nodrošināto laiku?</string>
+    <string name="drm_settings_title">DRM atiestatīšana</string>
+    <string name="drm_settings_summary">Dzēš visas DRM licences</string>
+    <string name="drm_reset_dialog_msg">Veicot šo darbību, tiks dzēstas šo ierīču visas licences. Vai turpināt?</string>
+    <string name="drm_reset_toast_msg">Licences ir sekmīgi dzēstas.</string>
+    <string name="gemini_sim_management_title">SIM pārvaldība</string>
+    <string name="gemini_sim_info_title">SIM INFORMĀCIJA</string>  
+    <string name="gemini_default_sim_title">"Noklusējuma iestatījumi"</string>  
+    <string name="gemini_general_settings_title">"Vispārīgi iestatījumi"</string>
+    <string name="gemini_roaming_settings_title">"Viesabonēšana"</string>    
+    <string name="gemini_data_roaming_title">"Datu viesabonēšana"</string>  
+    <string name="gemini_data_roaming_summary">Viesabonēšanas laikā izveidot savienojumu ar datu pakalpojumiem</string>  
+    <string name="gemini_roaming_reminder_title">Rādīt viesabonēšanas atgādinājumu</string>  
+    <string name="gemini_roaming_reminder_summary">Rādīt SIM ieteikumu, ņemot vērā SIM lietojumu</string>      
+    <string name="gemini_contacts_sim_title">"Kontaktu saistīšana"</string>      
+    <string name="gemini_contacts_sim_summary">Saistīt kontaktus ar konkrētu SIM karti</string> 
+    <string name="gemini_voice_call">Balss zvans</string>        
+    <string name="gemini_video_call">Video zvans</string>   
+    <string name="gemini_data_connection">Datu savienojums</string>   
+    <string name="gemini_msg">Ziņapmaiņa</string>       
+    <string name="gemini_default_sim_always_ask">Vienmēr jautāt</string>    
+    <string name="gemini_intenet_call">Interneta zvans</string>    
+    <string name="gemini_default_sim_never">"izslēgts"</string>       
+    <string name="gemini_default_sim_3g_off">"izslēgts"</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Tīkla režīms</string>
+    <string name="gemini_gsm_umts_network_preferneces_summary">Vēl nav ieviests.</string>
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">Tīkla režīms</string>
+    <string name="gemini_3g_service_settings">3G pakalpojums</string>
+    <string name="gemini_sim_mode_progress_activating_message">Aktivizē\u2026</string>
+    <string name="gemini_sim_mode_progress_deactivating_message">Deaktivizē\u2026</string>
+    <string name="gemini_sim_mode_change_failed_message">Neizdevās, tīkla kļūda.</string>
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">"Lidojuma režīms"</string>
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">Tālrunī tiks aktivizēts lidojuma režīms. Visi bezvadu savienojumi tiks atspējoti. Vai turpināt?</string>
+    <string name="gemini_sim_info_editor_name">Rediģēt SIM nosaukumu</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Neizdevās saglabāt</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Dublēt nosaukumu SIM kartei</string>  
+    <string name="gemini_sim_info_editor_number">Ievadiet tālruņa numuru</string>  
+    <string name="gemini_sim_info_editor_color">Iestatīt fona krāsu</string> 
+    <string name="gemini_sim_info_editor_number_display_format">Displeja numuri</string>    
+    <string name="gemini_no_sim_indicator">"Nav SIM kartes"</string>     
+    <string name="gemini_sim_list_default_title">SIM karšu saraksts</string>       
+    <string name="gemini_data_connection_progress_message">"SIM kartes pārslēgšana aizņems aptuveni 10 sekundes. Lūdzu, uzgaidiet..."</string>
+    <string name="gemini_3g_modem_switching_message">"SIM kartes pārslēgšana aizņems aptuveni 10 sekundes. Lūdzu, uzgaidiet..."</string>
+    <string name="gemini_3g_modem_switch_confirm_message">"Ar šo 3G pakalpojums tiks pārslēgts uz šo SIM karti. Vai turpināt? Pārliecinieties, ka šī atlasītā SIM karte atbalsta 3G pakalpojumu."</string>
+    <string name="gemini_3g_disable_warning">"3G pakalpojums nav pieejams atlasītajai SIM kartei. Tas var radīt lēnāku datu ielādi. 3G pakalpojuma iestatījumu varat mainīt sadaļā Iestatījumi &gt; Bezvadu pakalpojums un tīkli &gt; Mobilie tīkli."</string>
+    <string name="gemini_3g_disable_warning_cu">"3G pakalpojums nav pieejams atlasītajai SIM kartei. Tas var radīt lēnāku datu ielādi. 3G pakalpojuma iestatījumu var mainīt sadaļā Iestatījumi &gt; SIM pārvaldība."</string>  
+    <string name="gemini_wap_push_permission_head">Pēc automātiskās pārsūtīšanas pakalpojuma aktivizēšanas varat saņemt pārsūtītos ziņojumus, izmantot vietējo lietojumprogrammu un radīt datplūsmu. Parastie automātiskās pārsūtīšanas pakalpojumi ietver e-pasta paziņojumus, ierīces pārvaldības, pakalpojumu norādījumus, pakalpojumu ielādi un pārsūtīšanas nodrošināšanu.</string>      
+    <string name="gemini_wap_push_permission_tail">Vai piekrītat šim līgumam?</string>  
+    <string name="gemini_wap_push_permission_title">Automātiskās pārsūtīšanas pakalpojumu līgums</string>   
+    <string name="gemini_wap_push_permission">Automātiskās pārsūtīšanas pakalpojums</string>   
+    <string name="gemini_3g_disable_warning_case0">"Vispirms jums ir jāiespējo datu viesabonēšana šai SIM kartei, kā rezultātā var rasties ievērojamas viesabonēšanas izmaksas. Vai tiešām vēlaties iespējot datu viesabonēšanu un atlasīt šo SIM karti?"</string>
+    <string name="gemini_3g_disable_warning_case1">"3G pakalpojums nav pieejams atlasītajai SIM kartei. Tas var radīt lēnāku datu ielādi. 3G pakalpojuma iestatījumu varat mainīt sadaļā Iestatījumi &gt; Bezvadu pakalpojums un tīkli &gt; Mobilie tīkli. Vai tiešām vēlaties atlasīt šo SIM karti?"</string>
+    <string name="gemini_3g_disable_warning_case2">"3G pakalpojums nav pieejams atlasītajai SIM kartei. Tas var radīt lēnāku datu ielādi. 3G pakalpojuma iestatījumu var mainīt sadaļā Iestatījumi &gt; SIM pārvaldība. Vai tiešām vēlaties atlasīt šo SIM karti?"</string>
+    <string name="gemini_3g_disable_warning_case3">"Vispirms jums ir jāiespējo datu viesabonēšana šai SIM kartei, kā rezultātā var rasties ievērojamas viesabonēšanas izmaksas. Turklāt 3G pakalpojumi nav pieejami atlasītajai SIM kartei. Tas var radīt lēnāku datu ielādi. Tos varat mainīt sadaļā Iestatījumi &gt; Bezvadu pakalpojums un tīkli &gt; Mobilie tīkli. Vai tiešām vēlaties iespējot datu viesabonēšanu un atlasīt šo SIM karti?"</string>
+    <string name="gemini_3g_disable_warning_case4">"Vispirms jums ir jāiespējo datu viesabonēšana šai SIM kartei, kā rezultātā var rasties ievērojamas viesabonēšanas izmaksas. Turklāt 3G pakalpojumi nav pieejami atlasītajai SIM kartei. Tas var radīt lēnāku datu ielādi. To iespējams mainīt izvēlnē Iestatījumi &gt; SIM pārvaldība. Vai tiešām vēlaties iespējot datu viesabonēšanu un atlasīt šo SIM karti?"</string>
+    <string name="gemini_sim_tether_info_title">Kontakti un SIM</string>
+	<string name="gemini_sim_tether_add_record">Pievienot kontaktus</string>
+    <string name="gemini_sim_add_title">"Kontaktpersonas"</string>
+    <string name="gemini_sim_tether_norecord">"Šobrīd neviens kontakts nav saistīts ar pašreizējo SIM.\n\nPieskarieties pogai Pievienot kontaktus, lai atlasītu kontaktus, kurus vēlaties saistīt ar šo SIM"</string>
+    <string name="gemini_sim_tether_nocontacts">"Tālrunī nav pieejamu kontaktu. Vispirms pievienojiet vai importējiet kontaktus"</string>
+    <string name="gemini_sim_tether_no_assc_contacts">"Visi kontakti ir sekmīgi saistīti"</string>
+    <string name="gemini_sim_tether_disassociate">Noņemt saistību</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> atlasīts(-i)</string>
+    <string name="gemini_sim_tether_unselect_all">Atcelt atlasi visam</string>
+    <string name="gemini_sim_tether_nocontact_confirm">"Labi"</string>
+    <string name="gemini_sim_tether_select_all">"Atlasīt visu"</string>
+    <string name="gemini_sim_tether_select_ok">"Saglabāt"</string>
+    <string name="gemini_sim_tether_select_cancel">"Atcelt"</string>
+    <string name="gemini_sim_tether_revert_title">"Uzmanību!"</string>
+    <string name="gemini_sim_tether_revert_message">Jūsu konfigurācija tika mainīta un nav saglabāta. Vai tiešām iziet bez saglabāšanas?</string>
+    <string name="gemini_tether_saving_progress_message">Saglabā...</string>
+    <string name="gemini_sim_lock_sim1_tab_tag">SIM1</string>
+    <string name="gemini_sim_lock_sim1_tab_label">SIM1</string>
+    <string name="gemini_sim_lock_sim2_tab_tag">SIM2</string>
+    <string name="gemini_sim_lock_sim2_tab_label">SIM2</string>
+    <string name="gemini_sim_lock_simid_error">Neizdevās, nederīgs SIM ID.</string>
+    <string name="gemini_sim_lock_no_insert_message_sim">SIM karte nav ievietota.</string>
+    <string name="gemini_sim_lock_radio_off_message_sim1">Radio1 ir izslēgts.</string>
+    <string name="gemini_sim_lock_radio_off_message_sim2">Radio2 ir izslēgts.</string>
+    <string name="akp_installer_settings_title">APK instalēšanas programma</string>
+    <string name="akp_installer_settings_summary">Instalējiet APK no tālruņa krātuves un SD kartes</string>
+    <string name="launch_main_label">Palaist lietojumprogrammu</string>
+    <string name="launch_main">Palaist lietojumprogrammu, izmantojot galveno darbību</string>
+    <string name="launch_activitie">Palaist</string>
+    <string name="move_app_to_where">Pārvietot uz <xliff:g id="location">%s</xliff:g></string>
+    <string name="wifi_no_cert_for_wapi">Nevar atrast pašreiz pievienotā piekļuves punkta sertifikātu</string>
+    <string name="sim_slot">SIM atvere</string>
+    <string name="eap_sim_slot_0">1. SIM atvere</string>
+    <string name="eap_sim_slot_1">2. SIM atvere</string>
+    <string name="eap_sim_aka_airplanemode">Lai izmantotu EAP-SIM/AKA, izslēdziet lidojuma režīmu</string>
+    <string name="eap_sim_aka_no_sim_error">Lai izmantotu EAP-SIM/AKA, jāievieto SIM karte</string>	
+    <string name="eap_sim_aka_no_sim_slot_selected">Lai izmantotu EAP-SIM/AKA, jāatlasa SIM atvere</string>
+    <string name="wifi_security_wapi_certificate">WAPI sertifikāts</string>
+    <string name="wapi_user_certificate">"Lietotāja sertifikāts"</string>
+    <string name="wapi_as_certificate">ASE sertifikāts</string>   
+    <string name="wifi_hex_password">Heksadecimāla parole.</string>
+    <string name="wifi_WEP_transmit_key">Transmit Key</string>
+    <string name="wifi_WEP_secury_key">Secury Key</string>
+    <string name="wifi_tether_auto_disable_title">Paturēt Wi-Fi tīklāju ieslēgtu</string>
+    <string name="wifi_tether_auto_channel_text">"automātisks"</string>
+    <string name="wifi_tether_auto_channel_width_text">Auto 20/40 MHz</string>
+    <string name="wifi_channel">Vēlamais kanāls</string>
+    <string name="wifi_channel_width">Kanāla platums</string>
+    <string name="pch_toggle_title">GPRS pārsūtīšanas ieteicamais režīms</string>
+    <string name="pch_data_prefer_summary_off">Ieteicamie dati</string>
+    <string name="pch_call_prefer_summary_on">Ieteicamais zvans</string>
+    <string name="pch_warning_message">Datu pārraides ātrums samazināsies.</string> 
+    <string name="schedule_power_on_off_settings_title">Plānotā ieslēgšana un izslēgšana</string>
+    <string name="usb_bicr_title">Iebūvētais CD-ROM</string>
+    <string name="usb_bicr_summary">Rādīt virtuālo CD-ROM, kas ietver noderīgu programmatūru.</string>
+    <string name="select_memory">Noklusējuma rakstīšanas disks</string>
+    <string name="ipo_title">Ātrā sāknēšana</string>
+    <string name="ipo_summary_on">Atspējot ātro sāknēšanu</string>
+    <string name="ipo_summary_off">Iespējot ātro sāknēšanu</string>
+    <string name="agps_profile_select_Title">SUPL profils</string>
+    <string name="location_settings_label">Atrašanās vietas inženiera režīms</string>
+    <string name="audio_profile_error">"Kļūda"</string>  
+    <string name="battery_percent">Akumulatora uzlādes procenti</string>
+    <string name="rcse_settings_title">Joyn settings</string>
+    <string name="MobileNetwork_SIM1_Active">SIM1 ir aktīva</string>
+    <string name="MobileNetwork_SIM2_Active">SIM2 ir aktīva</string>
+    <string name="dlg_mount_external_sd_title" product="default">Vai ievietot SD karti?</string>
+    <string name="dlg_mount_external_sd_summary" product="default">Ja ievietojat SD karti, dažas izmantotās lietotnes pārtrauks darbu.</string>
+    <string name="tethered_ipv6_title">Tīklāja un piesaistes iestatījumi</string>
+    <string name="tethered_ipv4v6">(IPv6 pieejams)</string>
+    <string name="tethered_ipv6">(Tikai IPv6 pieejams)</string>
+    <string name="tethered_ipv4">(IPv6 nav pieejams)</string>
+    <string name="tethering_apn_settings_title">APN iestatījumi</string>
+    <string name="tethering_apn_settings_summary">Konfigurēt APN piesaistei</string> 
+    <string name="usb_tether_type_title">USB piesaistes tips</string> 
+    <string name="usb_connect_as_cdrom_category">"Pievienot kā CD-ROM"</string>
+    <string name="wifi_tether_setting_title">Pamatiestatījumi</string>
+    <string name="wifi_tether_wps_connect_title">WPS savienojums</string>
+    <string name="wifi_tether_wps_connect_summary">Atlasīts Wi-Fi aizsargātais iestatīšanas režīms turpināšanai</string>
+    <string name="wifi_tether_wps_pin_error">Nederīgs PIN</string>
+    <string name="wifi_tethering_title">Wi-Fi tīklājs</string>
+    <string name="wifi_ap_wps_dialog_title">WPS savienojums</string>
+    <string name="wifi_ap_wps_mode_title">WPS režīms</string>
+    <string name="wifi_ap_wps_pin_title">Ievadiet klienta PIN</string>
+    <string name="wifi_ap_reset_OOB_title">Atiestatīt tīkla SSID, drošību un paroli uz noklusējumu (WPS gatav konfigurācija)</string>
+    <string name="wifi_ap_reset_OOB">Atiestatīt OOB</string>
+    <string name="wifi_ap_max_connection_title">Maksimālais savienojumu skaits</string>
+    <string name="wifi_ap_connected_title">Pievienotie lietotāji</string>
+    <string name="wifi_ap_blocked_title">Bloķētie lietotāji</string>
+    <string name="wifi_ap_client_block_title">Bloķēt</string>
+    <string name="wifi_ap_client_unblock_title">Atbloķēt</string>
+    <string name="wifi_ap_client_details_title">Informācija</string>
+    <string name="wifi_ap_client_mac_label">MAC adrese:</string>
+    <string name="wifi_ap_client_ip_label">IP adrese:</string>
+    <string name="usb_sharing_title">USB internets</string>
+    <string name="usb_sharing_summary">Windows datora interneta koplietošana, izmantojot USB</string>
+    <string name="usb_sharing_info_title">Interneta pāreja</string>
+    <string name="usb_sharing_info_step_1">"1. Atveriet tīkla savienojumus Windows datorā."</string>
+    <string name="usb_sharing_info_step_2">"2. Noklikšķiniet ar peles labo pogu uz koplietojamā savienojuma un noklikšķiniet uz Rekvizīti."</string>
+    <string name="usb_sharing_info_step_3">"3. Noklikšķiniet uz koplietošanas cilnes un atlasiet 'Atļaut citiem tīkla lietotājiem izveidot savienojumu, izmantojot šo datora interneta savienojumu'(izvēlieties no jauna pievienoto tīklu, kas pārstāv USB internetu, ja parādās 'Mājas tīkla savienojums')."</string>
+    <string name="wifi_ap_bandwidth_title">Joslas platuma lietošana</string>
+    <string name="wifi_ap_bandwidth_enable">Iespējot joslas platuma ierobežošanu</string>
+    <string name="wifi_ap_bandwidth_chart_title">Reāllaika datu ātrums</string>
+    <string name="wifi_ap_bandwidth_chart_summary">Mobilo sakaru operatora datuma ātruma uzskaite var atšķirties no tālrunī aprēķinātā.</string>
+    <string name="wifi_wps_fail_error">Wi-Fi aizsargātā iestatīšana neizdevās. Mēģiniet vēlreiz.</string>
+    <string name="wifi_ap_title">Statistika</string>
+    <string name="wifi_ap_time_duration">Ilgums:<xliff:g id="time">%1$s</xliff:g></string>
+    <string name="wifi_ap_total_data">Kopējais izmantoto datu skaits:<xliff:g id="time">%1$s</xliff:g></string>
+    <string name="wifi_ap_bandwidth_megabyteShort">MB/s</string>
+    <string name="wifi_ap_bandwidth_KbyteShort">KB/s</string>
+    <string name="cpu_dtm_title">CPU enerģijas taupīšanas režīms</string>
+    <string name="cpu_dtm_summary">Ierobežojiet maksimālo CPU veiktspēju, lai pagarinātu akumulatora kalpošanas laiku un samazinātu ierīces temperatūru.</string>      
+    <string name="wifi_advanced_ipv4_address_title">IPv4 adrese</string>
+    <string name="wifi_advanced_ipv6_address_title">IPv6 adrese</string>
+    <string name="wifi_ipv4_address">IPv4 adrese</string>
+    <string name="wifi_ipv6_address">IPv6 adrese</string> 
+    <string name="mtk_datausage_show_on_lockscreen">Rādīt bloķēšanas ekrānā</string>
+    <string name="mtk_datausage_update">Atjaunināt datu lietojumu</string>
+    <string name="mtk_datausage_update_set">"Atjaunināt"</string>
+    <string name="mtk_datausage_amount_editor_title">Izmantoto datu apjoms</string>
+    <string name="mtk_datausage_usage_list">Lietotnes datu lietojums</string>
+    <string name="mtk_datausage_diff_byte">Datu lietojuma atšķirība</string>
+    <string name="mtk_datausage_overview_tab">Pārskats</string>
+    <string name="mtk_datausage_overview_wifi_today">"Šodien"</string>
+    <string name="mtk_datausage_overview_wifi_total">Kopā</string>
+    <string name="mtk_datausage_overview_mobile_title">"Mobilais"</string>
+    <string name="mtk_datausage_overview_mobile_usage"><xliff:g id="actual">%s</xliff:g> no <xliff:g id="limit">%s</xliff:g></string>
+    <string name="mtk_datausage_overview_mobile_usage_warning">Ārpus ierobežojuma <xliff:g>%s</xliff:g></string>
+    <string name="display_personalize">Personalizēt</string>
+    <string name="display_default">"Attēls"</string>
+    <string name="sound_enhancement_title">Skaņas pastiprināšana</string> 
+    <string name="music_plus_summary">Audio pastiprinātājs austiņām</string> 
+    <string name="auto_backlight_title">Ekonomiskais aizmugurapgaismojums</string>
+    <string name="auto_backlight_summary">Automātiski pielāgot aizmugurapgaismojumu, lai taupītu enerģiju</string> 
+    <string name="beam_mgmt_tab_download_title">Pārsūtīta pārbaudes SS īsziņa saņemta</string>
+    <string name="beam_mgmt_tab_upload_title">"Veicot šo darbību, tiks apkopota informācija par jūsu ierīces pašreizējo stāvokli un nosūtīta e-pasta ziņojuma veidā. Kļūdu ziņojuma pabeigšanai un nosūtīšanai var būt nepieciešams laiks. Lūdzu, esiet pacietīgs."</string>
+    <string name="beam_share_mgmt_notification_ticker">Sūtīšanas koplietošanas vēsture</string>
+	<string name="beam_share_mgmt_notification_title">Sūtīšanas koplietošanas vēsture</string>
+	<string name="beam_share_mgmt_notification_message">"Atlasiet, lai skatītu sūtīšanas koplietošanas vēsturi."</string>
+    <string name="beam_share_mgmt_tab_menu_clear">Vai notīrīt visu vēsturi?</string>
+    <string name="beam_share_open_file_dialog_title">Nevar atvērt failu</string>
+    <string name="beam_share_open_file_unsupported_message">Faila formāts netiek atbalstīts.</string>
+	<string name="beam_share_open_file_not_found_message">"Fails nav atrasts: <xliff:g id="file_name">%1$s</xliff:g></string>
+	<string name="beam_share_transfer_fail_dialog_title">"Sūtīšana neizdevās"</string>
+	<string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> netika sekmīgi nosūtīts."</string>
+	<string name="beam_share_resend_dialog_ok_button">"Mēģināt vēlreiz"</string>
+	<string name="beam_share_show_received_files_menu">"Rādīt saņemtos failus"</string>
+	<string name="beam_share_history_title">Sūtīšanas koplietošanas vēsture</string>
+    <string name="beam_share_clear_confirm_dialog_title">Notīrīt visu</string>
+    <string name="beam_share_clear_confirm_dialog_message">Vai notīrīt visu vēsturi?</string>
+    <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> netika sekmīgi saņemts."</string>        
+    <string name="beam_share_clear_item_dailog_title">"Dzēšanas taustiņš"</string>
+    <string name="beam_share_clear_item_dailog_message">Vienums tiks dzēsts.</string>
+    <string name="nfc_p2p_mode">P2P režīms</string>
+    <string name="nfc_p2p_mode_summary">Sūtīt vai saņemt lietotņu saturu</string>
+    <string name="nfc_tag_mode_category">Atzīmju režīms</string>
+    <string name="nfc_rw_tag_title">Atzīmju lasīšana un rakstīšana</string>
+    <string name="nfc_rw_tag_summary">Lasīt no atzīmes vai rakstīt tajā</string>
+    <string name="nfc_card_emulation_category_title">kartes emulācijas režīms</string>
+    <string name="nfc_card_emulation">Kartes emulācija</string>
+    <string name="card_emulation_settings_category_title">pieejams drošības elements</string>
+    <string name="card_emulation_settings_no_element_found">Nav pieejams drošības elements.</string>
+    <string name="card_emulation_settings_off_text">Lai skatītu pieejamos drošības elementus, ieslēdziet kartes emulāciju.</string>
+    <string name="card_emulation_turning_off_text">Izslēdz kartes emulāciju...</string>
+    <string name="card_emulation_turning_on_text">Ieslēdz kartes emulāciju...</string>
+    <string name="card_emulation_switch_error_title">"Kļūda"</string>
+    <string name="card_emulation_switch_error_message">Neizdevās pārslēgties uz <xliff:g id="card_mode">%1$s</xliff:g>.</string>
+    <string name="card_emulation_sim_not_supported_message"><xliff:g id="sim_description">%1$s</xliff:g> neatbalsta NFC kartes emulācijas funkciju.</string>
+    <string name="card_emulation_two_sim_not_supported_message">SIM1,SIM2 do not support NFC Card emulation function.</string>
+    <string name="voice_unlock_backup_info_summary">Ja balss atbloķēšana nevar jūs atpazīt, kā vēlaties atbloķēt?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">Balss atbloķēšana</string>
+    <string name="voice_ui_title">"Balss vadība"</string>
+    <string name="voice_ui_app_category">"Lietotnēm"</string>
+    <string name="voice_ui_setting_category">"Vispārīgi iestatījumi"</string>
+    <string name="voice_ui_language_title">"Valoda balss vadībai"</string>
+    <string name="incoming_call_app_name">"Ienākošais zvans"</string>
+    <string name="alarm_app_name">"Signāli"</string>
+    <string name="camera_app_name">Iespējams pārslēgt kameras, ja ieslēgts</string>
+    <string name="music_app_name">"Attēlo pašreiz atskaņotās dziesmas skaņas vilni."</string>
+    <string name="incomming_command_summary_format">Varat izrunāt <xliff:g id="first">%1$s</xliff:g> vai <xliff:g id="second">%2$s</xliff:g>, lai atbildētu uz ienākošajiem zvaniem vai noraidīt tos.</string>
+    <string name="alarm_command_summary_format">Varat izrunāt <xliff:g id="first">%1$s</xliff:g> vai <xliff:g id="second">%2$s</xliff:g>, lai kontrolētu modinātāju.</string>
+    <string name="camera_command_summary_format">Varat izrunāt <xliff:g id="first">%1$s</xliff:g> vai <xliff:g id="second">%2$s</xliff:g>, lai tvertu.</string>
+    <string name="music_command_summary_format">Varat izrunāt <xliff:g id="first">%1$s</xliff:g> vai <xliff:g id="second">%2$s</xliff:g>, lai kontrolētu mūzikas atskaņošanu.</string>
+    <string name="lock_screen_notifications_title">Bloķēt ekrānu paziņojumus</string>
+    <string name="lock_screen_notifications_summary">Parādīt paziņojumus bloķētā ekrānā</string>
+    <string name="lock_screen_style_title">Bloķēšanas ekrāna stils</string>	
+    <string name="current_suffix">"(Pašreizējais)"</string>
+	<string name="lockscreen_style_set">"Iestatīt bloķēšana ekrānu"</string>
+	<string name="lockscreen_style_default_desc">"Ātra piekļuve lietojumprogrammām bloķēšanas ekrānā"</string>
+    <string name="security_not_set">Drošība nav iestatīta.</string>
+    <string name="status_imei_slot3">IMEI (3. atvere)</string>
+    <string name="status_imei_sv_slot3">IMEI SV (3. atvere)</string>
+    <string name="status_min_number_slot3">MIN (3. atvere)</string>
+    <string name="status_prl_version_slot3">PRL versija (3. atvere)</string>
+    <string name="status_meid_number_slot3">MEID (3. atvere)</string>
+    <string name="lockdown_vpn_already_connected">Iestatījums Vienmēr ieslēgts VPN jau ir iespējots savienojumam.</string> 
+    <string name="wifi_ap_no_connected">0 pievienotie lietotāji</string>
+    <string name="wifi_ap_no_blocked">0 bloķētie lietotāji</string>
+    <string name="mouse_primary_button_title">Pārslēgt primāro un sekundāro pogu</string>
+    <string name="mouse_primary_button_dialog_title">Pārslēgt primāro pogu</string>
+    <string name="double_click_title">Dubultklikšķa ātrums</string>
+    <string name="test_area">TESTA APGABALS:</string>
+    <string name="double_click_tip">Veiciet dubultklikšķi šeit</string>
+    <string name="apn_port_warning">Porta vērtībai jābūt 1-65535!</string>
+    <string name="usb_tethering_select_version">Atlasīt datorsistēmas versiju</string>
+    <string name="oobe_sim_info_title">Pārvaldīt SIM</string>
+    <string name="oobe_default_sim_title">Iestatīt noklusējuma SIM</string>
+    <string name="wfd_change_resolution_menu_title">Izmainīt izšķirtspēju</string>
+    <string name="wifi_hotspot_suspend_optimizations">Wi-Fi tīklāja optimizācija</string>
+    <string name="wifi_hotspot_suspend_optimizations_summary">Samazināt akumulatora lietojumu, ja Wi-Fi tīklājs ir ieslēgts</string>
+    <string name="clear_motion_summary">Video plūduma uzlabotājs</string>
+    <string name="hotknot_explained_description">Atļaut datu apmaiņu, kad ekrāns pieskaras citai ierīcei</string> 
+    <string name="card_emulation_two_sim_not_supported_message">SIM1, SIM2 neatbalsta NFC kartes emulēšanas funkciju.</string>
+
+    <string name="passpoint_summary">Automātiski izveidot savienojumu ar piekļuves punkta iespējotu AP</string>
+    <string name="passpoint_append_summary">(izmantojot piekļuves punktu)</string>
+    <string name="passpoint_config_credential_type">Akreditācijas veids</string>
+    <string name="passpoint_config_eap_method">"EAP metode"</string>
+    <string name="passpoint_supported">Atbalstīts</string>
+    <string name="passpoint_username_pw">Lietotājvārds/parole</string>
+    <string name="passpoint_certificate">Sertifikāts</string>
+
+    <string name="audio_profile_bes_loudness_title">BesLoudness</string>
+    <string name="audio_profile_bes_loudness_summary">Volume pastiprinātājs runātājs</string>
+</resources>

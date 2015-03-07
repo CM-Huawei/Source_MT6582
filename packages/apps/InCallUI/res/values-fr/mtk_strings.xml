@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    
+    <string name="dialog_network_priority_title">Priorité</string>
+    <string name="vt_incoming_showme_always">Affichage</string>
+    <string name="vt_incoming_showme_disable">Ne pas afficher</string>
+    <string name="vt_peer_video_quality_sharp">Élevée</string>
+    <string name="vt_ask_show_local_yes">Affichage</string>
+    <string name="vt_ask_show_local_no">Ne pas afficher</string>
+    <string name="pref_camera_coloreffect_entry_none">"Aucun"</string>
+    <string name="pref_camera_coloreffect_entry_mono">"Mono"</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"Sépia"</string>
+    <string name="pref_camera_coloreffect_entry_negative">"Négatif"</string>
+    <string name="pref_camera_coloreffect_entry_posterize">"Postérisation"</string>
+    <string name="pref_camera_coloreffect_entry_pastel">"Pastel"</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">"Mosaïque"</string>
+    <string name="pref_camera_coloreffect_entry_redtint">"Teinte rouge"</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">"Teinte bleue"</string>
+    <string name="pref_camera_coloreffect_entry_greentint">"Teinte verte"</string>
+    <string name="cannot_answered_Video_Call">"L'appel vidéo ne peut pas être répondu car il y a déjà un appel vocal actif"</string>
+    <string name="cannot_answered_Voice_Call">"L'appel vocal ne peut pas être répondu car il y a déjà un appel vidéo actif"</string>
+    
+    <string name="onscreenHangupAll">Terminer tout</string>
+    <string name="onscreenHangupHolding">Terminer en attente</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Terminer actif, répondre en attente</string>
+    <string name="onscreenECT">Transférer</string>
+
+    <string name="dm_lock">DM verrouillé</string>
+    <string name="dm_unlock">DM déverrouillé</string>
+
+    <string name="mo_code_unconditional_cf_active">"Transfert d'appel\ninconditionnel activé"</string>
+    <string name="mo_code_some_cf_active">"Transfert d'appel conditionnel activé"</string>
+    <string name="mo_code_call_forwarded">"Appel transmis "</string>
+    <string name="mo_code_call_is_waiting">"Signal d'appel"</string>
+    <string name="mo_code_cug_call">"Groupe d'utilisateurs fermé"</string>
+    <string name="mo_code_outgoing_calls_barred">"Appel sortant bloqué"</string>
+    <string name="mo_code_incoming_calls_barred">"Appel entrant bloqué de l'autre côté"</string>
+    <string name="mo_code_clir_suppression_rejected">"Vérifier le service d'envoi de l'ID appelant"</string>
+    <string name="mo_code_call_deflected">"Appel transmis "</string>
+    <string name="mt_code_forwarded_call">"C'est un appel dévié "</string>
+    <string name="mt_code_cug_call">"Groupe d'utilisateurs fermé"</string>
+    <string name="mt_code_call_on_hold">"Appel en attente "</string>
+    <string name="mt_code_call_retrieved">"Appel récupérés "</string>
+    <string name="mt_code_multi_party_call">""Conférence tél.""</string>
+    <string name="mt_code_on_hold_call_released">"Appel en attente libéré"</string>
+    <string name="mt_code_forward_check_received">"Transférer vérifier message SS reçu"</string>
+    <string name="mt_code_call_connecting_ect">"Transfert d 'appel "</string>
+    <string name="mt_code_call_connected_ect">"Transfert d'appel actif"</string>
+    <string name="mt_code_deflected_call">"C'est un appel dévié "</string>
+    <string name="mt_code_additional_call_forwarded">"Autre appel entrant transmis "</string>
+    <string name="mt_code_forwarded_cf">"Appel transmis "</string>
+    <string name="mt_code_forwarded_cf_uncond">"Appel transmis sans condition"</string>
+    <string name="mt_code_forwarded_cf_cond">"Appel transmis sous condition "</string>
+    <string name="mt_code_forwarded_cf_busy">"Appel transmis si occupé"</string>
+    <string name="mt_code_forwarded_cf_no_reply">"Appel transmis si pas de réponse "</string>
+    <string name="mt_code_forwarded_cf_not_reachable">"Appel transmis si pas accessible "</string>
+    
+    <string name="start_record">Lancer enregistrement</string>
+    <string name="stop_record">"Arrêter l'enregistrement "</string>
+    <string name="str_db_playlist_name">"Mes enregistrements "</string>
+    <string name="alert_device_error">Erreur inopinée sur appareil audio</string>
+    <string name="ext_media_badremoval_notification_title">"Carte SD enlevée de façon inattendue "</string>
+    <string name="error_sdcard_access">"Impossible d\'accéder à la carte SD"</string>
+    <string name="confirm_device_info_full">La carte SD est pleine, l\'enregistrement a été sauvegardé.</string>
+    <string name="confirm_save_info_saved">L\'enregistrement a été sauvegardé</string>
+    <string name="confirm_save_info_saved_to">"L'enregistrement a été sauvegardé sous"</string>
+    
+    <string name="activity_not_found">Application non installée sur votre téléphone.</string>
+    <string name="confirm_3g_switch">"Confirmer l'application du service 3G à cette SIM? Ceci règlera aussi la SIM par défaut pour les appels vidéo sur cette carte SIM."</string>
+    <string name="modem_switching">La commutation SIM mettra environ 10 secondes. Veuillez patienter…</string>
+    <string name="confirm_3g_switch_to_off">Etes-vous sûr de vouloir désactiver le service 3G ? Cela désactivera également automatiquement le service d\'appel vidéo.</string>
+    <string name="enable_3G_service">Activer 3G</string>
+    <string name="network_forbidden">Désactiver</string>
+    <string name="plmn_list_setting_title">Préférences</string>
+    <string name="plmn_list_setting_add_plmn">Ajouter nouveau PLMN</string>
+    <string name="callFailed_dsac_vt_incompatible_destination">"Configuration de l'appel vidéo impossible. La téléphonie vidéo n'est pas prise en charge par le téléphone de votre interlocuteur. Passer en appel vocal?"</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">"Configuration de l'appel vidéo impossible. Le téléphone que vous appelez est en-dehors du réseau 3G. Passer en appel vocal?"</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">"Configuration de l'appel vidéo impossible. Passer en appel vocal?"</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">"Votre téléphone est hors de la zone de couverture du service 3G, passer en appel vocal?"</string>
+    <string name="notification_voicemail">Messagerie vocale</string>
+    <string name="turn_on_3g_service_message">"Service 3G désactivé, souhaitez-vous l'activer?"</string>
+    <string name="associate_sim_missing_message">"La SIM %1$s est indisponible. Souhaitez-vous appeler à l'aide de %2$s"</string>
+    <string name="associate_sim_missing_other">Autre</string>
+
+    <string name="vt_settings">Réglages vidéo</string>
+    <string name="vt_local_video_zoom">Zoom vidéo locale</string>
+    <string name="vt_local_video_brightness">Luminosité vidéo locale</string>
+    <string name="vt_local_video_effect">Effet vidéo locale</string>
+    <string name="vt_local_video_nightmode">Mode nuit vidéo locale</string>
+    <string name="vt_peer_video_quality">Qualité vidéo peer</string>
+    <string name="vt_incoming_showme_ask">Demander</string>
+    <string name="vt_call_settings">Réglages d\'appel vidéo</string>
+    <string name="vt_pic_replace_local_default">Image par défaut</string>
+    <string name="vt_pic_replace_local_freezeme">Me geler</string>
+    <string name="vt_pic_replace_local_mypic">Mon image</string>
+    <string name="vt_sd_null">Carte SD indisponible</string>
+    <string name="vt_sd_not_enough">Carte SD bientôt à court d\'espace mémoire</string>
+    <string name="vt_peer_video_quality_normal">Normale</string>
+    <string name="vt_ask_show_local">Afficher la vidéo locale à l\'autre poste ?</string>
+    <string name="vt_change_my_pic">Changer</string>
+    <string name="vt_pic_saved_to_sd">Instantané sauvegardé sur carte SD</string>
+    <string name="vt_pic_saved_to_sd_fail">Echec de capture de l\'instantané</string>
+    <string name="vt_error_network">Réseau injoignable. Déconnexion de l\'appel vidéo.</string>
+    <string name="vt_error_media">Affichage vidéo correct impossible. Déconnexion de l\'appel vidéo.</string>
+    <string name="vt_swap_video">Inverser vidéos</string>
+    <string name="vt_local_video_contrast">Contraste vidéo local</string>
+    <string name="vt_menu_switch">Commuter appareil photo</string>
+    <string name="vt_menu_hide_me">Masquer la vidéo locale</string>
+    <string name="vt_menu_show_me">Afficher la vidéo locale</string>
+    <string name="vt_menu_snapshot">Instantané homologue</string>
+    <string name="vt_vocie_answer">Réponse vocale</string>
+    <string name="vt_wait_voice">Appel vocal en attente de connexion</string>
+    <string name="vt_voice_connecting">Connexion appel vocal</string>
+    <string name="vt_cannot_support_setting">L\'appareil photo actuel n\'est pas compatible avec ce réglage</string>
+    <string name="vt_network_unreachable">Réseau injoignable</string>
+    <string name="vt_iot_error_01">Configuration de l\'appel vidéo impossible</string>
+    <string name="vt_iot_error_02">Le téléphone est occupé</string>
+    <string name="vt_iot_error_03">Il n\'y a pas de réponse</string>
+    <string name="vt_iot_error_04">Le réseau est occupé</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"Exposition"</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">"Tableau blanc"</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">"Tableau noir"</string>
+    <string name="pref_camera_coloreffect_entry_aqua">"Aquatique"</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">"Sepia Bleu"</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">"Sépia vert"</string>
+    <string name="vt_peer_camera_open">Caméra distante ouverte</string>
+    <string name="vt_peer_camera_close">Caméra distante fermée</string>
+    <string name="vt_recorder_start">Lancer enregistrement</string>
+    <string name="vt_recorder_voice_and_peer_video">Voix et vidéo homologue</string>
+    <string name="vt_recorder_only_voice">Voix uniquement</string>
+    <string name="vt_recorder_only_peer_video">Vidéo homologue uniquement</string>
+    <string name="vt_recording_saved">Enregistrement sauvegardé.</string>
+    <string name="vt_recording_saved_sd_full">La carte SD est pleine, l\'enregistrement a été sauvegardé.</string>
+    <string name="vt_recording_error">"Erreur d'enregistrement."</string>
+    <string name="start_record_vt">Lancer enregistrement</string>
+    <string name="stop_record_vt">"Arrêter l'enregistrement "</string>
+    <string name="enable_sip_dialog_message">"Panggilan Internet dinyahdayakan, adakah anda mahu mendayakannya?"</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">"La fonction numérotation IP n'est pas applicable aux appels d'intention."</string>
+    <string name="vt_addtional_call_description">Réglages numéro de téléphone et appel en attente</string>
+    <string name="sim_manage_sipcall">"Internet"</string>
+    <string name="sim_manage_call_via">Appeler via</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> mins <xliff:g id="seconds" example="28">%2$s</xliff:g> secs</string>
+    <string name="reminder">Rappel</string>
+    <string name="vt_media_occupied">"Cette caméra n'étant pas disponible, aucun appel vidéo n'est possible. Veuillez vérifier si une autre application utilise la caméra."</string>
+    <string name="vt_media_video_fail">"Affichage correct de la vidéo impossible. L'appel vidéo à été déconnecté"</string>
+    <string name="incall_toast_unhold">Reprendre</string>
+
+</resources>

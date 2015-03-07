@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hallo Welt, TestActivity</string>
+    <string name="app_name">Bluetooth teilen</string>
+    <string name="insert_record">Aufnahme einfügen</string>
+    <string name="update_record">Aufnahme bestätigen</string>
+    <string name="ack_record">Aufnahme quittieren</string>
+    <string name="deleteAll_record">Alle Aufnahmen löschen</string>
+    <string name="ok_button">OK</string>
+    <string name="delete_record">Aufnahme löschen</string>
+    <string name="start_server">TCP-Server starten</string>
+    <string name="notify_server">TCP-Server anmelden</string>
+</resources>

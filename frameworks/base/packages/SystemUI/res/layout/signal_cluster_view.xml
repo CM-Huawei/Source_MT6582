@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* apps/common/assets/default/default/skins/StatusBar.xml
+**
+** Copyright 2011, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+
+<com.android.systemui.statusbar.SignalClusterView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    >
+    <FrameLayout
+        android:id="@+id/wifi_combo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginEnd="-6dp"
+        >
+        <ImageView
+            android:id="@+id/wifi_signal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:scaleType="center"
+            />
+        <ImageView
+            android:id="@+id/wifi_inout"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center|bottom"
+            />
+    </FrameLayout>
+    <View
+        android:layout_height="5dp"
+        android:layout_width="5dp"
+        android:visibility="gone"
+        android:id="@+id/wifispacer"
+        />
+    <View
+        android:layout_height="6dp"
+        android:layout_width="6dp"
+        android:visibility="gone"
+        android:id="@+id/spacer"
+        />
+    <ImageView
+        android:id="@+id/sim_indicator_internet_or_alwaysask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginEnd="3dip"
+        />
+
+    <com.mediatek.systemui.statusbar.util.CsgIconView
+        android:id="@+id/csg_icon"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        />
+
+    <!--
+    <FrameLayout
+        android:id="@+id/wimax_combo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginEnd="-6dp"
+        >
+        <ImageView
+            android:id="@+id/wimax_signal"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:scaleType="center"
+            />
+        <ImageView
+            android:id="@+id/wimax_inout"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center|bottom"
+            />
+    </FrameLayout>
+    -->
+    <LinearLayout
+        android:id="@+id/signal_cluster_combo"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        >
+        <!-- network type configuration start -->
+        <ImageView
+            android:id="@+id/network_type"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:visibility="gone"
+            />
+        <!-- network type configuration end -->
+
+        <FrameLayout
+            android:id="@+id/mobile_combo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:id="@+id/mobile_signal"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                />
+            <ImageView
+                android:id="@+id/mobile_type"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                />
+            <!-- M: Support roam data show both.-->
+            <ImageView
+                android:id="@+id/mobile_roaming"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:visibility="gone"
+                />
+            <ImageView
+                android:id="@+id/mobile_inout"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="end|bottom"
+                />
+        </FrameLayout>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/airplane"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:src="@drawable/stat_sys_signal_flightmode"
+        />
+</com.android.systemui.statusbar.SignalClusterView>

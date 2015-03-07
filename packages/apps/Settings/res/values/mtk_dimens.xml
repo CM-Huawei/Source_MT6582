@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!--  Size of lock screen preview images.  -->
+    <dimen name="lockscreen_preview_display_width">180dip</dimen>
+    <dimen name="lockscreen_preview_display_height">300dip</dimen>
+    <dimen name="lockscreen_preview_layout_paddings">8dip</dimen>
+    
+    <!-- Size of OOBE step title -->
+    <dimen name="oobe_setup_title_size">25sp</dimen>
+</resources>

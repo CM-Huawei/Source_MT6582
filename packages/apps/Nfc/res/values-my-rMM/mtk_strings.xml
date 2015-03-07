@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="mtk_notification_string">အသေးစိတ်ဆက်တင်များကို ကြည့်ရန်တို့ထိပါ</string>
+    <string name="mtk_beam_cancel_title">လွှဲပြောင်းခြင်းပယ်ဖျက်ပါ</string>    
+    <string name="mtk_beam_cancel">အဝင်လွှဲပြောင်းခြင်း ပယ်ဖျက်ရန် သေချာပါသလား။</string>
+    <string name="mtk_yes">"လုပ်မည်"</string>
+    <string name="mtk_no">ကြိုးမဲ့အသွင်းပစ္စည်းချိတ်ဆက်ပြီး</string>
+    <string name="mtk_se_sim1">SIM1</string>
+    <string name="mtk_se_sim2">SIM2</string>
+    <string name="mtk_se_ssd">ပုံစံကျသော SD ကဒ်</string>
+    <string name="mtk_se_ese">တွဲပါပြီး SE</string>
+    <string name="mtk_se_na">"လုံခြုံရေး အာမခံပစ္စည်းများ မရနိုင်ပါ။ NFC ကဒ်နှင့်တူအောင် တုပခြင်း ပိတ်သွားလိမ့်မည်။"</string>
+    <string name="mtk_se_alt">" မရနိုင်ပါ။ သို့ပြောင်းလိုပါသလား "</string>
+    <string name="mtk_nfc_card_emulation">NFC ကဒ်နှင့်တူအောင် တုပခြင်း</string>
+    
+<string name="mtk_disallow_in_wfd">ဤလုပ်ဆောင်ချက်ကို ဝါယာလက်(စ်)ပြသမှု ပြုလုပ်စဉ် မပြုလုပ်နိုင်ပါ။</string>
+    <string name="mtk_disallow_in_wfd_KK">ဤလုပ်ဆောင်ချက်ကို ဖုန်းမျက်နှာပြင်မှ အရာများ အခြားမျက်နှာပြင် တစ်ခုတွင် ပြနေစဉ် မပြုလုပ်နိုင်ပါ။</string>
+    </resources>

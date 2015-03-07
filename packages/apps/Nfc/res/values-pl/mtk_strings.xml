@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="mtk_notification_string">Dotknij, aby wyświetlić szczegółowe ustawienia</string>
+    <string name="mtk_beam_cancel_title">Anuluj transfer</string>    
+    <string name="mtk_beam_cancel">Czy na pewno chcesz anulować transfer przychodzący?</string>
+    <string name="mtk_yes">"Tak"</string>
+    <string name="mtk_no">"Nie"</string>
+    <string name="mtk_se_sim1">SIM1</string>
+    <string name="mtk_se_sim2">SIM2</string>
+    <string name="mtk_se_ssd">Inteligentna karta SD</string>
+    <string name="mtk_se_ese">Osadzony SE</string>
+    <string name="mtk_se_na">"Brak dostępnych elementów zabezpieczeń. Emulacja karty NFC zostanie wyłączona."</string>
+    <string name="mtk_se_alt">" — brak dostępności. Czy chcesz przełączyć na "</string>
+    <string name="mtk_nfc_card_emulation">Emulacja karty NFC</string>
+    
+<string name="mtk_disallow_in_wfd">Tej operacji nie można wykonać w czasie działania wyświetlacza bezprzewodowego</string>
+    <string name="mtk_disallow_in_wfd_KK">Tej operacji nie można wykonać w czasie działania Cast Screen</string>    
+</resources>

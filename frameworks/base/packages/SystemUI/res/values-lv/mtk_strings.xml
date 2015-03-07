@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="gemini_default_sim_always_ask">Vienmēr jautāt</string>
+    <string name="gemini_default_sim_auto">"AUTOMĀTISKI"</string>
+    
+    <string name="accessibility_phone_four_bars">Tālruņa četras joslas.</string>
+    
+    <string name="sim_switch_tip">Šī SIM tika iestatīta kā noklusējuma SIM karte <xliff:g>%s</xliff:g>. Turiet nospiestu statusa joslu un velciet to lejup, lai mainītu noklusējuma SIM karti.</string>
+    <string name="remind_next_time">Atgādināt man nākamreiz</string>
+    <string name="voice_call_service">balss zvana pakalpojums</string>
+    <string name="messages_service">īsziņu pakalpojums</string>
+    <string name="data_connection_service">datu savienojuma pakalpojums</string>
+
+    <string name="plmn_searching">"Notiek meklēšana"</string>
+
+    <string name="wifi">"Wi-Fi"</string>
+    <string name="bluetooth">"Bluetooth"</string>
+    <string name="mobile">Datu savienojums</string>
+    <string name="gps">"GPS"</string>
+    <string name="autorotate">Automātiska pagriešana</string>
+    <string name="normal">Vispārīgi</string>
+    <string name="meeting">Sapulce</string>
+    <string name="mute">"Klusums"</string>
+    <string name="outdoor">Ārpus telpām</string>
+
+    <string name="offline">"Lidojuma režīms"</string>
+    <string name="brightness">"Spilgtums"</string>
+    <string name="timeout">"Noildze"</string>
+
+    <string name="data_connection_attach_timeout_error_msg">"Datu savienojums neizdevās, vai pašreizējais tīkls ir aizņemts."</string>
+    <string name="data_connection_dettach_timeout_error_msg">"Datu savienojuma atvienošana neizdevās."</string>
+    <string name="data_connection_connected">[<xliff:g>%s</xliff:g>] SIM kartes datu savienojums ir iespējots</string>
+
+    <string name="gemini_intenet_call">Interneta zvans</string>  
+    <string name="gemini_default_sim_never">"Izslēgts"</string>
+    
+    <string name="gemini_3g_disable_warning">"3G pakalpojums nav pieejams atlasītajai SIM kartei. Tas var radīt lēnāku datu ielādi. 3G pakalpojuma iestatījumu varat mainīt sadaļā Iestatījumi &gt; Bezvadu pakalpojums un tīkli &gt; Mobilie tīkli. Vai tiešām vēlaties atlasīt šo SIM karti?"</string>
+    <string name="gemini_3g_disable_warning_cu">"3G pakalpojums nav pieejams atlasītajai SIM kartei. Tas var radīt lēnāku datu ielādi. 3G pakalpojuma iestatījumu var mainīt sadaļā Iestatījumi &gt; SIM pārvaldība. Vai tiešām vēlaties atlasīt šo SIM karti?"</string>
+    <string name="gemini_3g_disable_warning_case0">"Vispirms jums ir jāiespējo datu viesabonēšana šai SIM kartei, kā rezultātā var rasties ievērojamas viesabonēšanas izmaksas. Vai tiešām vēlaties iespējot datu viesabonēšanu un atlasīt šo SIM karti?"</string>
+    <string name="gemini_3g_disable_warning_case1">"3G pakalpojums nav pieejams atlasītajai SIM kartei. Tas var radīt lēnāku datu ielādi. 3G pakalpojuma iestatījumu varat mainīt sadaļā Iestatījumi &gt; Bezvadu pakalpojums un tīkli &gt; Mobilie tīkli. Vai tiešām vēlaties atlasīt šo SIM karti?"</string>
+    <string name="gemini_3g_disable_warning_case2">"3G pakalpojums nav pieejams atlasītajai SIM kartei. Tas var radīt lēnāku datu ielādi. 3G pakalpojuma iestatījumu var mainīt sadaļā Iestatījumi &gt; SIM pārvaldība. Vai tiešām vēlaties atlasīt šo SIM karti?"</string>
+    <string name="gemini_3g_disable_warning_case3">"Vispirms jums ir jāiespējo datu viesabonēšana šai SIM kartei, kā rezultātā var rasties ievērojamas viesabonēšanas izmaksas. Turklāt 3G pakalpojumi nav pieejami atlasītajai SIM kartei. Tas var radīt lēnāku datu ielādi. Tos varat mainīt sadaļā Iestatījumi &gt; Bezvadu pakalpojums un tīkli &gt; Mobilie tīkli. Vai tiešām vēlaties iespējot datu viesabonēšanu un atlasīt šo SIM karti?"</string>
+    <string name="gemini_3g_disable_warning_case4">"Vispirms jums ir jāiespējo datu viesabonēšana šai SIM kartei, kā rezultātā var rasties ievērojamas viesabonēšanas izmaksas. Turklāt 3G pakalpojumi nav pieejami atlasītajai SIM kartei. Tas var radīt lēnāku datu ielādi. To iespējams mainīt izvēlnē Iestatījumi &gt; SIM pārvaldība. Vai tiešām vēlaties iespējot datu viesabonēšanu un atlasīt šo SIM karti?"</string>
+
+    <string name="confirm_radio_title">SIM karte izslēgta</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> tagad ir izslēgts. Vai vēlaties ieslēgt šo SIM karti?</string>
+    <string name="confirm_radio_msg_single">Lidojuma režīms tagad ir ieslēgts. Vai vēlaties to izslēgt?</string>
+    <string name="confirm_radio_lbutton">Ieslēgt</string>
+
+    <string name="builtin_installer_title_message">Iebūvētais CD-ROM</string>
+    <string name="builtin_installer_dlg_message">Vai ieslēgt iebūvēto CD-ROM?</string>
+    <string name="builtin_installer_always_allowed">Nākamajā reizē nerādīt</string>
+    <string name="dlg_no">"Nē"</string>
+    <string name="dlg_yes">"Jā"</string>
+
+    <string name="OK">"Labi"</string>
+    <string name="application_guide_title">﻿Switch to default SIM card</string>
+    <string name="application_guide_content">Slidiniet uz leju paziņojumu sarakstu, lai pārslēgtu uz noklusējuma SIM karti</string>
+    
+    <string name="data_usage">"Datu lietojums"</string>
+    <string name="audio_profile">Audio profili</string>
+    <string name="user_owner">"Īpašnieks"</string>
+
+    <string name="phone_battery_low_subtitle">Tālruņa akumulators drīz būs tukšs.</string>
+    <string name="smartbook_battery_low_subtitle">Portatīvā datora akumulators drīz būs tukšs.</string>
+
+    <string name="apn">PIEKĻUVES PUNKTS</string>
+    <string name="sim_management">UIM/SIM PĀRVALDĪBA</string>
+    <string name="network_selection_settings">Tīkla atlase</string>
+    <string name="quick_settings_roam_data">Datu viesabonēšana</string>
+
+    <string name="eco_backlight_title">Ekonomiskais aizmugurapgaismojums</string>
+    <string name="eco_backlight_summary">Automātiski pielāgot aizmugurapgaismojumu, lai taupītu enerģiju</string> 
+</resources>

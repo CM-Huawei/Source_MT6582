@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="accessibility_switch_to_mav">Vairākleņķu skata režīms</string>
+    <string name="accessibility_switch_to_hdr">Režīms HDR</string>
+    <string name="accessibility_switch_to_face_beauty">Sejas izskaistināšanas režīms</string>
+    <string name="accessibility_switch_to_asd">Automātiskas ainu noteikšanas režīms</string>
+    <string name="accessibility_switch_to_smile">Smaida uzņemšanas režīms</string>
+    <string name="accessibility_switch_to_best">Labākā uzņēmuma režīms</string>
+    <string name="accessibility_switch_to_ev">EV iekavu uzņemšanas režīms</string>
+    
+    <string name="accessibility_switch_to_camera">Normāls režīms</string>
+    
+    <string name="accessibility_switch_to_video">Video režīms</string>
+    
+    <string name="accessibility_switch_to_panorama">Panorāmas režīms</string>
+    <string name="accessibility_switch_to_live_photo">Reāllaika fotoattēlu režīms</string>
+    <string name="accessibility_switch_to_motion_track">Kustību izsekošanas režīms</string>
+    <string name="accessibility_video_shutter_button">Video aizvara poga</string>
+    
+    <string name="bg_replacement_message">Novietojiet ierīci uz stabilas virsmas un pārliecinieties, vai priekšskatījumā nav kustību.\nKad priekšskatījumā redzams dzīvais efekts, iespējams uzņemt video.</string>
+    
+    <string name="capture_memory_not_enough">Nepietiek vietas atmiņā, aizveriet citas lietojumprogrammas.</string>    
+    
+    <string name="camera_continuous_not_supported">" neatbalsta nepārtrauktu uzņemšanu."</string>
+    <string name="camera_saving_busy">Saglabā attēlus. Lūdzu, uzgaidiet.</string>
+        <string name="continuous_saving_pictures">Saglabā <xliff:g id="numbers" example="10">%1$d</xliff:g> attēlus</string>
+    
+    <string name="hdr_guide_capture">HDR uzņemšanas laikā nepārvietojiet ierīci</string>
+    
+    
+    <string name="mav_dialog_save_failed">Nevar saglabāt attēlu.</string>
+    <string name="mav_dialog_title">Vairākleņķu skats</string>
+    <string name="mav_guide_shutter">Nospiediet aizvaru, lai uzņemtu vairākleņķu skata attēlu</string>
+    <string name="motion_track_guide_shutter">Nospiediet un turiet nospiestu aizvaru, lai uzņemtu secīgus uzņēmumus. Atlasiet, lai beigtu uzņemšanu. Uzņemšanas laikā turiet kameru nekustīgu.</string>
+    <string name="motion_track_required_more">Nepieciešami vismaz 2 secīgi uzņēmumi. Mēģiniet vēlreiz.</string>
+    <string name="motion_track_blended_failed">Kustību izsekošanas iepludināšana neizdevās. Mēģiniet vēlreiz.</string>
+    <string name="motion_track_move">Uzņemšanas laikā turiet kameru nekustīgu.</string>
+    <string name="mav_guide_move">Pārvietojiet kameru ap mērķi.</string>
+    <string name="normal_camera_continuous_not_supported">"Neatbalsta nepārtrauktu uzņemšanu."</string>
+
+    <string name="wfd_normal_camera_continuous_not_supported">"WFD neatbalsta nepārtrauktu uzņemšanu."</string>
+    
+    <string name="wfd_motion_track_not_supported">"WFD neatbalsta kustību izsekošanu."</string>
+    <string name="wfd_live_photo_not_supported">"WFD neatbalsta reāllaika fotoattēlu."</string>
+    
+    
+    <string name="pref_video_quality_entry_low">"Zema"</string>
+    <string name="pref_video_quality_entry_medium">"Vidējs"</string>
+    <string name="pref_video_quality_entry_high">"Augsta"</string>
+    <string name="pref_video_quality_entry_fine">Augsta</string>
+    <string name="pref_camera_picturesize_entry_4096x3072">12 megapikseļi</string>
+    <string name="pref_camera_picturesize_entry_3672x2754">10 megapikseļi</string>
+    <string name="pref_camera_picturesize_entry_3600x2700">9,5 megapikseļi</string>
+    <string name="pref_camera_picturesize_entry_3264x2448">8 megapikseļi</string>
+    <string name="pref_camera_picturesize_entry_1280x720">"1 megapikselis"</string>
+    <string name="pref_camera_picturesize_entry_1280x768">"1 megapikselis"</string>
+    <string name="pref_camera_picturesize_entry_2560x1440">4 megapikseļi</string>
+    <string name="pref_camera_picturesize_entry_3328x1872">6 megapikseļi</string>
+    <string name="pref_camera_whitebalance_entry_twilight">Krēsla</string>
+    <string name="pref_camera_whitebalance_entry_shade">Ēnojums</string>
+    <string name="pref_camera_whitebalance_entry_warm_fluorescent">Silts fluorescējošs</string>
+    <string name="pref_camera_whitebalance_entry_tungsten">Volframs</string>
+    
+    <string name="pref_camera_capturemode_entry_normal">"Parasts"</string>
+    <string name="pref_camera_capturemode_enrty_fb">Sejas izskaistināšana</string>
+    <string name="pref_camera_capturemode_entry_bestshot">Labākais uzņēmums</string>
+    <string name="pref_camera_capturemode_entry_evbracketshot">EV iekavu uzņemšana</string>
+    <string name="pref_camera_capturemode_entry_smileshot">Smaida uzņemšana</string>
+    <string name="pref_camera_capturemode_entry_gestureshot">Žesta tveršana</string>
+
+    
+
+    
+    
+    
+    <string name="pref_camera_iso_entry_auto">"Automātiski"</string>
+    
+    
+    
+    
+    
+
+    
+    
+    <string name="pref_camera_edge_title">"Asums"</string>
+
+    
+    <string name="pref_camera_hue_title">"Nokrāsa"</string>
+
+    
+    <string name="pref_camera_saturation_title">"Piesātinājums"</string>
+
+    
+    <string name="pref_camera_brightness_title">"Spilgtums"</string>
+
+    
+    <string name="pref_camera_contrast_title">"Kontrasts"</string>
+
+    <string name="pref_camera_dip_entry_low">"Zema"</string>
+    <string name="pref_camera_dip_entry_middle">"Vidējs"</string>
+    <string name="pref_camera_dip_entry_high">"Augsta"</string>
+
+    
+    
+
+    
+    <string name="pref_camera_coloreffect_title">Krāsu efekts</string>
+
+    
+    <string name="pref_camera_coloreffect_entry_none">"Nav"</string>
+    <string name="pref_camera_coloreffect_entry_mono">Vienkrāsains</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"Sēpija"</string>
+    <string name="pref_camera_coloreffect_entry_negative">Negatīvs</string>
+    
+    <string name="pref_camera_coloreffect_entry_solarize">Pārgaismot</string>
+    <string name="pref_camera_coloreffect_entry_posterize">Izveidot plakātu</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">Baltā tāfele</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">Melnā tāfele</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Akvamarīna</string>
+    <string name="pref_camera_coloreffect_entry_pastel">Pasteļtoņi</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">Mozaīka</string>
+    <string name="pref_camera_coloreffect_entry_redtint">Sarkans tonis</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">Zils tonis</string>
+    <string name="pref_camera_coloreffect_entry_greentint">Zaļš tonis</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Zila sēpija</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Zaļa sēpija</string>
+
+    
+
+    
+    
+    <string name="pref_camera_selftimer_title">Palaišanas taimeris</string>
+    <string name="pref_camera_selftimer_entry_off">"Izslēgt"</string>
+    <string name="pref_camera_selftimer_entry_2">"2 sekundes"</string>
+    <string name="pref_camera_selftimer_entry_10">"10 sekundes"</string>
+
+    
+    <string name="pref_camera_focusmode_entry_continuous">nepārtraukta</string>
+
+    
+    <string name="pref_camera_capturemode_entry_asd">Automātiski noteikt ainu</string>
+
+    
+    
+    <string name="pref_camera_antibanding_title">Anti-flicker</string>
+    <string name="pref_camera_antibanding_entry_auto">"Automātiski"</string>
+    <string name="pref_camera_antibanding_entry_50hz">50Hz</string>
+    <string name="pref_camera_antibanding_entry_60hz">60Hz</string>
+
+    
+    
+    <string name="pref_camera_scenemode_entry_portrait">Portrets</string>
+    
+    <string name="pref_camera_scenemode_entry_landscape">Ainava</string>
+    
+    <string name="pref_camera_scenemode_entry_night_portrait">Portrets naktī</string>
+    
+    <string name="pref_camera_scenemode_entry_theatre">Teātris</string>
+    
+    <string name="pref_camera_scenemode_entry_beach">Pludmale</string>
+    
+    <string name="pref_camera_scenemode_entry_snow">Sniegs</string>
+    
+    <string name="pref_camera_scenemode_entry_steadyphoto">Stabils fotoattēls</string>
+    
+    <string name="pref_camera_scenemode_entry_fireworks">Uguņošana</string>
+    <string name="pref_camera_scenemode_entry_sports">Sports</string>
+    <string name="pref_camera_scenemode_entry_candlelight">Sveču gaisma</string>
+    
+    
+    
+    
+    
+    
+    
+    <string name="pref_camera_eis_on">"Ieslēgts"</string>
+    <string name="pref_camera_eis_off">"Izslēgt"</string>
+    
+    
+    
+    <string name="pref_camera_recordaudio_title">"Mikrofons"</string>
+    <string name="pref_camera_recordaudio_entry_off">"Izslēgt"</string>
+    <string name="pref_camera_recordaudio_entry_on">"Ieslēgts"</string>
+
+     
+    
+    <string name="pref_camera_video_hd_recording_title">Audio režīms</string> 
+    <string name="pref_camera_video_hd_recording_normal_ics">"Parasts"</string>
+    <string name="pref_camera_video_hd_recording_indoor_ics">Sapulce</string>
+
+    
+    
+    
+
+    
+    <string name="pref_camera_continuous_number_title">Uzņēmumu skaits</string>
+    
+    <string name="pref_camera_continuous_number_normal">40 uzņēmumi</string>
+    <string name="pref_camera_continuous_number_large">99 uzņēmumi</string>
+
+    <string name="panorama_guide_shutter">Nospiediet aizvaru, lai sāktu tvert panorāmu</string>
+    <string name="panorama_guide_capture">Pārvietojiet ierīci, lai pārklātu divas līnijas</string>
+
+     
+    <string name="pref_camera_image_properties_default">"Noklusējums"</string> 
+    <string name="pref_camera_image_properties_title">Attēlu īpašības</string>
+    
+    
+    
+    <string name="pref_camera_picturesize_ratio_entry_16_9">Pilnekrāns</string>    
+    
+    
+    <string name="pref_camera_picturesize_ratio_entry_4_3">Standarta (4:3)</string>
+    <string name="pref_camera_picturesize_ratio_title">Priekšskatījuma izmēri</string>
+    
+    <string name="pref_voice_capture">Balss tveršana</string>
+    
+    
+    
+    
+    <string name="pref_video_hdr_title">Video HDR</string>
+    
+    
+    
+    
+     
+    <string name="pref_camera_facebeauty_properties_default">"Noklusējums"</string> 
+    <string name="pref_camera_facebeauty_properties_title">Sejas izskaistināšana</string>
+    
+    <string name="pref_facebeauty_smooth_title">Izkropļojumu noņemšana</string>
+    
+    <string name="pref_facebeauty_skin_color_title">Balināts</string>
+    
+    <string name="pref_facebeauty_sharp_title">Forma</string>
+
+     
+    <string name="pref_camera_face_detect_title">Sejas noteikšana</string>
+    
+    <string name="pref_camera_face_detect_entry_off">"Izslēgt"</string>
+    <string name="pref_camera_face_detect_entry_on">"Ieslēgts"</string>
+
+    <string name="pref_camera_record_location_title">"Saglabāt atrašanās vietu"</string>
+    
+    
+    <string name="pref_video_time_lapse_frame_interval_entry_1000">"1 sekunde"</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_1500">1,5 sekundes</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_2000">"2 sekundes"</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_2500">2,5 sekundes</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_3000">"3 sekundes"</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_5000">"5 sekundes"</string>
+    <string name="pref_video_time_lapse_frame_interval_entry_10000">"10 sekundes"</string>
+    
+    
+    
+    
+    
+    <string name="livephoto_dialog_title">Reāllaika fotoattēls</string>
+    <string name="saving_livephoto">Saglabā dzīvo fotoattēlu\u2026</string>
+    <string name="smileshot_guide_capture">Automātiski uzņemt, kad noteikts smaids</string>
+    <string name="toast_video_recording_not_available">Pirms video kameras izmantošanas apturiet citas ieraksta lietojumprogrammas.</string>
+
+    
+    <string name="video_bad_performance_auto_stop">Atmiņā nepietiek vietas. Automātiski apturēt ierakstīšanu.</string>
+    <string name="video_bad_performance_drop_quality">Atmiņā nepietiek vietas. Automātiski izmainīt kvalitāti.</string>
+    <string name="video_encoder_error">Kodētāja kļūda!</string>
+    
+    <string name="voice_guide">Lai uzņemtu fotoattēlu, varat izrunāt \"%1$s\" vai \"%2$s\"</string>
+    <string name="video_live_effect_error">Kļūda ierakstīšanas laikā!</string>
+
+    
+    
+    
+    
+    
+    <string name="stereo3d_convert2d_dialog_title">Pārvērst uz 2D</string>
+    <string name="stereo3d_convert2d_progress_text">Pārvērš uz 2D...</string>
+    <string name="stereo3d_share_convert_text_multiple">Atlasītie attēli ietver 3D attēlus. Lai turpinātu koplietošanu, tie tiks pārvērsti uz 2D.</string>
+    <string name="stereo3d_share_dialog_text_multiple">Atlasītie attēli ietver 3D attēlus. Adresāts, iespējams, nevarēs to neredzēt pareizi.</string>
+    <string name="stereo3d_attach_dialog_title">Pievienot kā 3D vai 2D</string>
+    <string name="stereo3d_attach_dialog_button_2d">Pievienot kā 2D</string>
+    <string name="stereo3d_attach_dialog_button_3d">Pievienot kā 3D</string>
+
+    <string name="single3d_guide_shutter">Nospiediet aizvaru, lai sāktu uzņemt 3D fotoattēlu</string>
+    <string name="single3d_guide_move">Pārvietojiet ierīci pa labi, lai pārklātu kadru</string>
+    <string name="panorama3d_guide_shutter">Nospiediet aizvaru, lai sāktu uzņemt 3D panorāmu</string>
+    <string name="panorama_guide_choose_direction">Pārvietojiet ierīci tveršanas virzienā</string>
+    <string name="panorama3d_guide_move">Pārvietojiet ierīci pa labi</string>
+    <string name="panorama3d_guide_capture">Pārvietojiet ierīci pa labi, lai pārklātu divas līnijas</string>
+    
+    
+    
+    
+    <string name="pref_camera_picturesize_stereo3d_title">Stereo3D attēla izmērs</string>
+        
+    
+    <string name="pref_stereo3d_mode_title">3D pārslēgšana</string>
+    <string name="pref_stereo3d_mode_entry_off">"Izslēgt"</string>
+    <string name="pref_stereo3d_mode_entry_on">"Ieslēgts"</string>
+    
+    
+    <string name="object_track_enable_toast">Ekrānā pieskarieties un turiet nospiestu objektu, lai iespējotu objekta izsekošanu.</string>
+     
+    <string name="pref_camera_hdr_title">HDR</string>
+    
+    <string name="pref_camera_hdr_entry_off">"Izslēgt"</string>
+    <string name="pref_camera_hdr_entry_on">"Ieslēgts"</string>
+    
+     
+    <string name="pref_smile_shot_title">Smaida uzņemšana</string>
+    
+    <string name="pref_smile_shot_entry_off">"Izslēgt"</string>
+    <string name="pref_smile_shot_entry_on">"Ieslēgts"</string>
+    
+     
+    <string name="pref_asd_title">Automātiska ainu noteikšana</string>
+    
+    <string name="pref_asd_entry_off">"Izslēgt"</string>
+    <string name="pref_asd_entry_on">"Ieslēgts"</string>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Clock -->
+    <string name="keyguard_domestic_zone_name">Pekin</string>
+    <!-- GlowPadView -->
+    <!-- PowerOffAlarm -->
+    <string name="every_day">"Codziennie"</string>
+    <string name="never">"Nigdy"</string>
+    <string name="day_concat">", "</string>
+    <string name="default_label">"Alarm"</string>
+    <string name="voiceui_notify_string">Możesz powiedzieć</string>
+    <string name="voiceui_control_poweroff_alarm">aby sterować alarmem wyłączenia.</string>
+    <string name="voiceui_or">lub</string>
+    <string name="keyguard_accessibility_alarm_unlock">Alarm wyłączenia</string>
+    <string name="alarm_alert_dismiss_text">Odrzuć</string>
+    <string name="alarm_alert_snooze_text">"Drzemka"</string>
+    <!-- Telephony -->
+    <string name="keyguard_password_entering_puk_code">"Wprowadź kod PUK"</string>
+    <string name="keyguard_password_wrong_puk_code">"Nieprawidłowy kod PUK!"</string>
+    <string name="invalidPuk">"Wpisz PUK składający się z 8 cyfr."</string>
+    <string name="pin_pass">Kod zaakceptowany</string>
+    <string name="keyguard_password_enter_new_pin_code">"Wprowadź nowy PIN"</string>
+    <string name="keyguard_password_Confirm_pin_code">"Potwierdź nowy PIN"</string>
+    <string name="sim_permanently_locked">"Więcej niż 10 krotne wprowadzenie nieprawidłowego kodu PUK, spowoduje trwałe zablokowanie karty SIM."</string>
+    <string name="retries_left">"Pozostało <xliff:g id="number">%d</xliff:g> prób"</string>
+    <string name="simlock_slot_locked_message">Gniazdo zostało trwale zablokowane</string>
+    <string name="simlock_entersimmelock">Wprowadź blokadę ME karty SIM</string>
+    <string name="slot_id">Gniazdo <xliff:g id="number">%d</xliff:g>:</string>
+    <string name="new_simcard">Nowa karta SIM</string>
+    <string name="lockscreen_missing_sim_dialog_message">"Karta SIM jest odłączona. Podłącz kartę SIM w prawidłowy sposób."</string>
+    <string name="puk_pass">Odblokowano kodem PIN</string>
+    <string name="sim_card_changed_dialog_title">Karta SIM została zmieniona</string>
+    <string name="change_setting_for_onenewsim">Wykryto nową kartę SIM. Jest oznaczona jako</string>
+    <string name="change_setting_for_twonewsim">Wykryto nowe karty SIM. Są oznaczone jako</string>
+    <string name="sim_card_removed">Karta SIM została wyjęta.</string>
+    <string name="sim_card_swapped">Karta SIM została zamieniona.</string>
+    <string name="change_settings">Zmień</string>
+    <string name="keyguard_voice_call">Połączenie głosowe:</string>
+    <string name="keyguard_sms">Wiadomości:</string>
+    <string name="keyguard_data">Połączenie danych:</string>
+    <string name="dismiss">Odrzuć</string>
+    <string name="keyguard_wrong_code_input">Nieprawidłowy kod.</string>
+    <string name="keyguard_code_length_prompt">Wpisz 4–8 cyfr.</string>
+    <string name="keyguard_code_donnot_mismatch">Brak zgodności.</string>
+    <string name="network_searching">Wyszukiwanie nowej sieci</string>
+    <string name="searching_simcard">Trwa wykrywanie...</string>
+    <string name="keyguard_close">Zamknij</string>
+    <string name="default_sim_setting_prompt">Obecne ustawienia domyślne to:</string>
+    <string name="keyguard_video_call">Połączenie wideo:</string>
+    <string name="invalid_sim_title">Nieprawidłowa karta SIM</string>
+    <string name="invalid_sim_message">Karta UIM/SIM nie została rozpoznana.</string>
+    <string name="lockscreen_sim_locked_message_short">"Zablokowana karta SIM"</string>
+    <!-- UnreadEvent -->
+    <!-- Utils -->
+    <string name="keyguard_alwaysask">Zawsze pytaj</string>
+    <string name="keyguard_data_none">Wył.</string>
+    <string name="keyguard_sim_auto">Automat.</string>
+    <string name="keyguard_internal_call">Połączenie wewnętrzne</string>
+    <string name="keyguard_not_set">Nie ustawiono</string>
+    <!-- VoiceUnlock -->
+    <string name="voice_unlock_service_error">Błąd usługi głosowej!</string>
+    <string name="voice_unlock_password_wrong">Niestety, nie można rozpoznać Twojego głosu.</string>
+    <string name="voice_unlock_noisy">Jest zbyt głośno, dlatego nie słychać Cię wyraźnie.</string>
+    <string name="voice_unlock_weak">Nie słychać Twojego głosu.</string>
+    <string name="voice_unlock_media_playing">Odblokowywanie za pomocą głosu jest wyłączone podczas odtwarzania multimediów.</string>
+    <string name="voiceunlock_multiple_failures">Przekroczono maksymalną liczbę prób odblokowania za pomocą głosu</string>
+    <!-- DM Lock -->
+    <string name="dm_prompt">Terminal został już zablokowany</string>
+    <!-- Tablet -->
+    <string name="sd_accessing_swtich_user_title">Przełączyć użytkownika?</string>
+    <string name="sd_accessing_swtich_user_message">Wszystkie niezapisane dane na koncie właściciela zostaną utracone lub uszkodzone.</string>
+    <!-- Misc -->
+</resources>

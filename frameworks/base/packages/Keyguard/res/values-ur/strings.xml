@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="keyguard_password_enter_pin_code">PIN کوڈ ٹائپ کریں</string>
+
+    
+    <string name="keyguard_password_enter_puk_code">PUK اور نیا PIN کوڈ ٹائپ کریں</string>
+
+    
+    <string name="keyguard_password_enter_puk_prompt">PUK کوڈ</string>
+    
+    <string name="keyguard_password_enter_pin_prompt">نیا PIN کوڈ</string>
+
+    
+    <string name="keyguard_password_entry_touch_hint"><font size="17">پاس ورڈ ٹائپ کرنے کیلئے چھوئیں</font></string>
+
+    
+    <string name="keyguard_password_enter_password_code">غیر مقفل کرنے کیلئے پاس ورڈ ٹائپ کریں</string>
+
+    
+    <string name="keyguard_password_enter_pin_password_code">غیر مقفل کرنے کیلئے PIN ٹائپ کریں</string>
+
+    
+    <string name="keyguard_password_wrong_pin_code">غلط PIN کوڈ۔</string>
+
+    
+    <string name="keyguard_label_text">غیرمقفل کرنے کے لئے مینو دبائیں پھر 0۔</string>
+
+    
+    <string name="faceunlock_multiple_failures">چہرہ غیر مقفل کرنے کی زیادہ سے زیادہ تعداد کو پہنچ گئے</string>
+
+    
+    <string name="keyguard_charged">چارج ہوگیا</string>
+
+    
+    <string name="keyguard_plugged_in">چارج کررہا ہے (<xliff:g id="نمبر">%d</xliff:g><xliff:g id="پرسنٹ">%%</xliff:g>)</string>
+
+    
+    <string name="keyguard_low_battery">اپنے چارجر لگائیں۔</string>
+
+    
+    <string name="keyguard_instructions_when_pattern_disabled">غیرمقفل کرنے کے لئے مینو دبائیں۔</string>
+
+    <skip/>
+    
+    <string name="keyguard_network_locked_message">نیٹ ورک مقفل</string>
+    
+    <string name="keyguard_missing_sim_message_short">SIM کارڈ نہیں</string>
+    
+    <string name="keyguard_missing_sim_message" product="tablet">ٹیبلیٹ میں کوئی SIM کارڈ نہیں ہے۔</string>
+    
+    <string name="keyguard_missing_sim_message" product="default">فون میں کوئی SIM کارڈ نہیں ہے۔</string>
+    
+    <string name="keyguard_missing_sim_instructions">ایک SIM کارڈ ڈالیں۔</string>
+    
+    <string name="keyguard_missing_sim_instructions_long">SIM کارڈ چھوٹا ہوا ہے یا پڑھے جانے لائق نہیں ہے۔ ایک SIM کارڈ ڈالیں۔</string>
+    
+    <string name="keyguard_permanent_disabled_sim_message_short">ناقابل استعمال SIM کارڈ۔</string>
+    
+    <string name="keyguard_permanent_disabled_sim_instructions">آپ کا SIM کارڈ مستقل طور پر غیر فعال ہوگیا ہے۔\n دوسرے SIM کارڈ کیلئے اپنے وائرلیس خدمت فراہم کنندہ سے رابطہ کریں۔</string>
+    
+    <string name="keyguard_sim_locked_message">SIM کارڈ مقفل ہوگیا ہے۔</string>
+    
+    <string name="keyguard_sim_puk_locked_message">SIM کارڈ PUK مقفل ہے </string>
+    
+    <string name="keyguard_sim_unlock_progress_dialog_message">SIM کارڈ \u2026 غیر مقفل کررہا ہے</string>
+
+    
+    
+    
+    
+
+    
+    <string name="keyguard_accessibility_widget_changed">%1$s. ویجٹ %2$d of %3$d.</string>
+    
+    <string name="keyguard_accessibility_add_widget">ویجٹ شامل کریں۔</string>
+    
+    <string name="keyguard_accessibility_widget_empty_slot">خامی</string>
+    
+    <string name="keyguard_accessibility_unlock_area_expanded">غیر مقفل حصہ بڑھایا گیا۔</string>
+    
+    <string name="keyguard_accessibility_unlock_area_collapsed">غیر مقفل حصہ ضائع کیا گیا۔</string>
+    
+    <string name="keyguard_accessibility_widget"><xliff:g id="widget_index">%1$s</xliff:g> ویجٹ۔</string>
+    
+    <string name="keyguard_accessibility_user_selector">صارف کا انتخاب کنندہ</string>
+    
+    <string name="keyguard_accessibility_status">حالت</string>
+    
+    <string name="keyguard_accessibility_camera">کیمرہ</string>
+    
+    <string name="keygaurd_accessibility_media_controls">میڈیا کنٹرولز</string>
+    
+    <string name="keyguard_accessibility_widget_reorder_start">ویجٹ کی دوبارہ ترتیب سازی شروع ہوگئی۔</string>
+    
+    <string name="keyguard_accessibility_widget_reorder_end">ویجٹ کی دوبارہ ترتیب سازی ختم ہوگئی۔</string>
+    
+    <string name="keyguard_accessibility_widget_deleted">ویجٹ <xliff:g id="widget_index">%1$s</xliff:g> حذف ہوگیا۔</string>
+    
+    <string name="keyguard_accessibility_expand_lock_area">غیر مقفل حصہ کی توسیع کریں۔</string>
+    
+    <string name="keyguard_accessibility_slide_unlock">سلائڈ غیر مقفل کریں۔</string>
+    
+    <string name="keyguard_accessibility_pattern_unlock">طرز غیر مقفل کریں۔</string>
+    
+    <string name="keyguard_accessibility_face_unlock">چہرہ غیر مقفل کریں۔</string>
+    
+    <string name="keyguard_accessibility_pin_unlock">پن غیر مقفل کریں۔</string>
+    
+    <string name="keyguard_accessibility_password_unlock">پاس ورڈ غیر مقفل کریں۔</string>
+    
+    <string name="keyguard_accessibility_pattern_area">طرز کا حصہ۔</string>
+    
+    <string name="keyguard_accessibility_slide_area">سلائڈ کا حصہ۔</string>
+
+    
+    <string name="keyguard_accessibility_transport_prev_description">سابقہ ٹریک کا بٹن</string>
+    
+    <string name="keyguard_accessibility_transport_next_description">اگلے ٹریک کا بٹن</string>
+    
+    <string name="keyguard_accessibility_transport_pause_description">روکنے کا بٹن</string>
+    
+    <string name="keyguard_accessibility_transport_play_description">چلانے کا بٹن</string>
+    
+    <string name="keyguard_accessibility_transport_stop_description">بند کرنے کا بٹن</string>
+    
+    <string name="keyguard_accessibility_transport_thumbs_up_description">تھمبز اپ</string>
+    
+    <string name="keyguard_accessibility_transport_thumbs_down_description">تھمبز ڈاؤن</string>
+    
+    <string name="keyguard_accessibility_transport_heart_description">دل</string>
+
+
+    
+    <string name="keyguard_accessibility_show_bouncer">جاری رکھنے کیلئے غیر مقفل کریں</string>
+
+    
+    <string name="keyguard_accessibility_hide_bouncer">آغاز منسوخ ہوگیا</string>
+
+    
+    <string name="keyguard_accessibility_delete_widget_start">حذف کرنے کیلئے <xliff:g id="widget_index">%1$s</xliff:g> گرائیں۔</string>
+
+    
+    <string name="keyguard_accessibility_delete_widget_end"><xliff:g id="widget_index">%1$s</xliff:g> حذف نہیں ہوگا۔</string>
+
+    <skip/>
+    
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    
+    <string name="password_keyboard_label_alt_key">ALT</string>
+
+    <skip/>
+    
+    <string name="keyboardview_keycode_alt">ALT</string>
+    
+    <string name="keyboardview_keycode_cancel">منسوخ کریں</string>
+    
+    <string name="keyboardview_keycode_delete">مٹائيں</string>
+    
+    <string name="keyboardview_keycode_done">ہوگیا</string>
+    
+    <string name="keyboardview_keycode_mode_change">وضع کی تبدیلی</string>
+    
+    <string name="keyboardview_keycode_shift">"شفٹ"</string>
+    
+    <string name="keyboardview_keycode_enter">درج کریں</string>
+
+    
+    <string name="description_target_unlock">غیرمقفل کریں</string>
+    
+    <string name="description_target_camera">"کیمرہ"</string>
+    
+    <string name="description_target_silent">خاموش</string>
+    
+    <string name="description_target_soundon">آواز چالو کریں</string>
+    
+    <string name="description_target_search">تلاش</string>
+
+    
+    <string name="description_direction_up"><xliff:g id="target_description" example="Unlock">%s</xliff:g> کیلئے اوپر سلائڈ کریں۔</string>
+    
+    <string name="description_direction_down"><xliff:g id="target_description" example="Unlock">%s</xliff:g> کیلئے نیچے سلائڈ کریں۔</string>
+    
+    <string name="description_direction_left">"<xliff:g id="target_description" example="Unlock">%s</xliff:g> کیلئے بائیں سلائڈ کریں۔</string>
+    
+    <string name="description_direction_right"><xliff:g id="target_description" example="Unlock">%s</xliff:g> کیلئے دائیں سلائڈ کریں۔</string>
+
+    
+    <string name="user_switched">حالیہ صارف <xliff:g id="name" example="Bob">%1$s</xliff:g>۔</string>
+
+    
+    <string name="kg_emergency_call_label">ہنگامی کال</string>
+    
+    <string name="kg_forgot_pattern_button_text">طرز بھول گئے</string>
+    
+    <string name="kg_wrong_pattern">غلط طرز</string>
+    
+    <string name="kg_wrong_password">غلط پاس ورڈ</string>
+    
+    <string name="kg_wrong_pin">"PIN"</string>
+    
+    <string name="kg_too_many_failed_attempts_countdown"><xliff:g id="number">%d</xliff:g> سیکنڈ میں دوبارہ کوشش کریں۔</string>
+    
+    <string name="kg_pattern_instructions">اپنا طرز بنائیں</string>
+    
+    <string name="kg_sim_pin_instructions">SIM کا پن درج کریں</string>
+    
+    <string name="kg_pin_instructions">پن درج کریں</string>
+    
+    <string name="kg_password_instructions">پاس ورڈ درج کریں</string>
+    
+    <string name="kg_puk_enter_puk_hint">SIM اب غیر فعال ہوگیا ہے۔ جاری رکھنے کیلئے PUK کوڈ درج کریں۔ تفصیلات کیلئے کریئر سے رابطہ کریں۔</string>
+    
+    <string name="kg_puk_enter_pin_hint">مطلوبہ پن کوڈ درج کریں</string>
+    
+    <string name="kg_enter_confirm_pin_hint">مطلوبہ پن کوڈ کی تصدیق کریں</string>
+    
+    <string name="kg_sim_unlock_progress_dialog_message">SIM کارڈ \u2026 غیر مقفل کررہا ہے</string>
+    
+    <string name="kg_password_wrong_pin_code">غلط PIN کوڈ۔</string>
+    
+    <string name="kg_invalid_sim_pin_hint">ایسی PIN ٹائپ کریں جو 4 سے 8 نمبر پر مشتمل ہو۔</string>
+    
+    <string name="kg_invalid_sim_puk_hint">PUK کوڈ 8 عدد یا زیادہ کا ہونا چاہیے۔</string>
+    
+    <string name="kg_invalid_puk">صحیح PUK کوڈ دوبارہ درج کریں۔ بار بار کی کوششیں SIM کو مستقل طورپر غیر فعال کردیں گی۔</string>
+      
+    <string name="kg_invalid_confirm_pin_hint" product="default">پن کوڈ مماثل نہیں ہے</string>
+    
+    <string name="kg_login_too_many_attempts">کافی سارے طرز کی آزمائشیں</string>
+    
+    <string name="kg_login_instructions">غیر مقفل کرنے کیلئے، اپنے Google اکاؤنٹ کے ساتھ سائن ان کریں۔</string>
+    
+    <string name="kg_login_username_hint">صارف کا نام (ای میل)</string>
+    
+    <string name="kg_login_password_hint">پاس ورڈ</string>
+    
+    <string name="kg_login_submit_button">سائن ان کرنا</string>
+    
+    <string name="kg_login_invalid_input">غلط صارف نام یا پاس ورڈ۔</string>
+    
+    <string name="kg_login_account_recovery_hint">اپنا صارف نام یا پاس ورڈ بھول گئے؟\n <b>google.com/accounts/recovery</b> دیکھیں۔</string>
+    
+    <string name="kg_login_checking_password">اکاؤنٹ کی جانچ ہو رہی ہے\u2026</string>
+    
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">آپ نے اپنا PIN <xliff:g id="number">%d</xliff:g> بار غلط طریقے سے ٹائپ کیا ہے۔ \n\nدوبارہ <xliff:g id="number">%d</xliff:g> سیکنڈ میں کوشش کریں۔</string>
+    
+    <string name="kg_too_many_failed_password_attempts_dialog_message">آپ نے اپنا پاس ورڈ <xliff:g id="number">%d</xliff:g> بار غلط طریقے سے ٹائپ کیا ہے۔ \n\nدوبارہ <xliff:g id="number">%d</xliff:g> سیکنڈ میں کوشش کریں۔</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">آپ نے غیر مقفل کرنے کا اپنا طرز <xliff:g id="number">%d</xliff:g> بار غلط طریقے سے کوشش کی ہے۔ \n\nدوبارہ <xliff:g id="number">%d</xliff:g> سیکنڈ میں کوشش کریں۔</string>
+    
+    <string name="kg_failed_attempts_almost_at_wipe" product="tablet">آپ نے ٹیبلیٹ غیر مقفل کرنے کیلئے<xliff:g id="number">%d</xliff:g> بار غلط طریقے سے کوشش کی ہے۔ <xliff:g id="number">%d</xliff:g> مزید ناکام کوششوں کے بعد، ٹیبلیٹ فیکٹری ڈیفالٹ پر دوبارہ متعین ہوجائے گا اور صارف کا سبھی ڈیٹا ضائع ہوجائے گا۔</string>
+    
+    <string name="kg_failed_attempts_almost_at_wipe" product="default">آپ نے فون غیر مقفل کرنے کیلئے<xliff:g id="number">%d</xliff:g> بار غلط طریقے سے کوشش کی ہے۔ <xliff:g id="number">%d</xliff:g> مزید ناکام کوششوں کے بعد، فون فیکٹری ڈیفالٹ پر دوبارہ متعین ہوجائے گا اور صارف کا سبھی ڈیٹا ضائع ہوجائے گا۔</string>
+    
+    <string name="kg_failed_attempts_now_wiping" product="tablet">آپ نے ٹیبلیٹ غیر مقفل کرنے کیلئے<xliff:g id="number">%d</xliff:g> بار غلط طریقے سے کوشش کی ہے۔ ٹیبلٹ اب فیکٹری ڈیفالٹ پر دوبارہ متعین ہوجائے گا۔</string>
+    
+    <string name="kg_failed_attempts_now_wiping" product="default">آپ نے فون غیر مقفل کرنے کیلئے<xliff:g id="number">%d</xliff:g> بار غلط طریقے سے کوشش کی ہے۔ فون اب فیکٹری ڈیفالٹ پر دوبارہ متعین ہوجائے گا۔</string>
+    
+    <string name="kg_failed_attempts_almost_at_login" product="tablet">آپ نے غیر مقفل کرنے کا اپنا طرز <xliff:g id="number">%d</xliff:g> بار غلط طریقے سے بنایا ہے۔ مزید <xliff:g id="number">%d</xliff:g> ناکام کوششوں کے بعد، آپ سے ایک ای میل اکاؤنٹ استعمال کرکے اپنا ٹیبلیٹ غیر مقفل کرنے کو کہا جائے گا۔\n\n دوبارہ <xliff:g id="number">%d</xliff:g> سیکنڈ میں کوشش کریں۔</string>
+    
+    <string name="kg_failed_attempts_almost_at_login" product="default">آپ نے غیر مقفل کرنے کا اپنا طرز <xliff:g id="number">%d</xliff:g> بار غلط طریقے سے بنایا ہے۔ مزید <xliff:g id="number">%d</xliff:g> ناکام کوششوں کے بعد، آپ سے ایک ای میل اکاؤنٹ استعمال کرکے اپنا فون غیر مقفل کرنے کو کہا جائے گا۔\n\n دوبارہ <xliff:g id="number">%d</xliff:g> سیکنڈ میں کوشش کریں۔</string>
+    
+    <string name="kg_text_message_separator" product="default">" \u2014 "</string>
+    
+    <string name="kg_reordering_delete_drop_target_text">ہٹائيں</string>
+
+    
+    
+    <string name="keyguard_transport_prev_description">سابقہ ٹریک کا بٹن</string>
+    
+    <string name="keyguard_transport_next_description">اگلے ٹریک کا بٹن</string>
+    
+    <string name="keyguard_transport_pause_description">روکنے کا بٹن</string>
+    
+    <string name="keyguard_transport_play_description">چلانے کا بٹن</string>
+    
+    <string name="keyguard_transport_stop_description">بند کرنے کا بٹن</string>
+
+    
+    <string name="keyguard_carrier_default">کوئی خدمت نہیں۔</string>
+
+</resources>

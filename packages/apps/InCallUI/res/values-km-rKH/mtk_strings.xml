@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <string name="onscreenHangupAll">ឲ្យចាំទាំងអស់</string>
+    <string name="onscreenHangupHolding">ការហៅចាំ</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">ការហៅចាំសកម្ម ចាំចម្លើយ</string>
+    <string name="onscreenECT">ផ្ទេរ</string>
+
+    <string name="dm_lock">បានចាក់សោ DM</string>
+    <string name="dm_unlock">បានដោះសោ DM</string>
+
+    <string name="start_record">ចាប់ផ្តើមការថតសម្លេង</string>
+    <string name="stop_record">ឈប់ការថតសម្លេង</string>
+    <string name="str_db_playlist_name">ការថតសម្លេងរបស់ខ្ញុំ</string>
+    <string name="alert_device_error">កំហុសកើតឡើងក្នុងឧបករណ៍អូឌីអូ</string>
+    <string name="ext_media_badremoval_notification_title">កាត SD ត្រូវបានដកចេញខុសពីការគិតទុក</string>
+    <string name="error_sdcard_access">មិនអាចបើកមើលកាត SD បានទេ</string>
+    <string name="confirm_device_info_full">កាត SD អស់កន្លែងទំនេរហើយ ការថតសម្លេងត្រូវបានរក្សាទុក ។</string>
+    <string name="confirm_save_info_saved">ការថតសម្លេងត្រូវបានរក្សាទុក</string>
+    <string name="confirm_save_info_saved_to">បាន​រក្សាទុក​ឯកសារ​ថត​ចូល​ទៅ​កាន់</string>
+    
+    <string name="sim_toolkit">"ប្រអប់ឧបករណ៍ SIM"</string>
+    <string name="activity_not_found">កម្មវិធីមិនត្រូវបានតម្លើងក្នុងទូរស័ព្ទរបស់អ្នកទេ ។</string>
+    <string name="gemini_3g_indic">3G</string>
+    <string name="callFailed_dsac_vt_incompatible_destination">មិនអាចតម្លើងការហៅជាវីដេអូបានទេ ។ ទូរស័ព្ទវីដេអូមិនអាចប្រើបានជាមួយនឹងទូរស័ព្ទដែលអ្នកកំពុងហៅ រវៃលេខហៅជាសម្លេងវិញទេ?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">មិនអាចតម្លើងការហៅជាវីដេអូបានទេ ។ ទូរស័ព្ទដែលអ្នកបានហៅ ស្ថិតនៅក្រៅតំបន់សេវា 3G រវៃលេខហៅជាសម្លេងវិញទេ?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">មិនអាចតម្លើងការហៅជាវីដេអូបានទេ ។ រវៃលេខហៅជាសម្លេងវិញទេ?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">ទូរស័ព្ទរបស់អ្នកស្ថិតនៅក្រៅតំបន់សេវា 3G រវៃលេខហៅជាសម្លេងវិញទេ?</string>
+    
+    <string name="notification_voicemail">សំបុត្រសម្លេង</string>
+    <string name="turn_on_3g_service_message">ឥឡូវសេវា​ 3G បានបិទហើយ តើអ្នកចង់បើកវាទេ?</string> 
+    <string name="associate_sim_missing_message">" %1$s SIM មិនមានទេ ។ តើអ្នកចង់ហៅតាមរយ៖ %2$s"</string>
+    <string name="associate_sim_missing_other">ផ្សេងទៀត</string>
+    
+    <string name="vt_incoming_call">ការហៅចូលជាវីដេអូ</string>
+    <string name="vt_settings">ការសិតវីដេអូ</string>
+    <string name="vt_local_video_zoom">ពង្រីកវីដេអូក្នុងម៉ាស៊ីន</string>
+    <string name="vt_local_video_brightness">ភាពភ្លឺចាំងវីដេអូក្នុងម៉ាស៊ីន</string>
+    <string name="vt_local_video_effect">អានុភាពវីដេអូមូលដ្ឋាន</string>
+    <string name="vt_local_video_nightmode">ម៉ូដវីដេអូមូលដ្ឋានពេលយប់</string>
+    <string name="vt_peer_video_quality">គុណភាពវីដេអូមិត្ត</string>
+    <string name="vt_enable_back_camera">ធ្វើឲ្យកាមេរ៉ាខាងក្រោយសកម្ម</string>
+    <string name="vt_enable_back_camera_description">មានដើម្បីប្តូរកាមេរ៉ា បើត្រូវបើក</string>
+    <string name="vt_peer_video_bigger">វីដេអូផ្គូដែលធំឡើង</string>
+    <string name="vt_peer_video_bigger_description">បើកដើម្បីធ្វើឲ្យវីដេអូមិត្តធំជាងវីដេអូមូលដ្ឋាន</string>
+    <string name="vt_outgoing_call">ការហៅចេញជាវីដេអូ</string>
+    <string name="vt_outgoing_call_description">បង្ហាញវីដេអូមូលដ្ឋាន ពេលហៅចេញជាវីដេអូ</string>
+    <string name="vt_incoming_call_description">បង្ហាញវីដេអូមូលដ្ឋាន ពេលទទួលការហៅចូលជាវីដេអូ</string>
+    <string name="vt_incoming_showme_always">ជានិច្ចកាល</string>
+    <string name="vt_incoming_showme_ask">សួរ</string>
+    <string name="vt_incoming_showme_disable">ធ្វើឲ្យអសកម្ម</string>
+    <string name="vt_pic_replace_local_default">រូបភាពតាមការសិតពីរោងចក្រ</string>
+    <string name="vt_pic_replace_local_freezeme">បង្កកខ្ញុំ</string>
+    <string name="vt_pic_replace_local_mypic">រូបភាពរបស់ខ្ញុំ</string>
+    <string name="vt_local_video_display">បង្ហាញវីដេអូមូលដ្ឋាន</string>
+    <string name="vt_sd_null">មិនមាន\nកាត SD ទេ</string>
+    <string name="vt_sd_not_enough">កាត SD អស់\nកន្លែងទំនេរហើយ</string>
+    <string name="vt_peer_video_quality_normal">ធម្មតា</string>
+    <string name="vt_peer_video_quality_sharp">ថ្លាមុត</string>
+    <string name="vt_ask_show_local">បង្ហាញវីដេអូមូលដ្ឋានឲ្យមិត្តឃើញទេ?</string>
+    <string name="vt_ask_show_local_yes">បាទ</string>
+    <string name="vt_ask_show_local_no">ទេ</string>
+    <string name="vt_change_my_pic">ប្តូរ</string>
+    <string name="vt_pic_saved_to_sd">រូបថតព្រាវៗត្រូវបានរក្សាទុកក្នុងកាត SD</string>
+    <string name="vt_pic_saved_to_sd_fail">បរាជ័យក្នុងការរក្សាទុករូបថតព្រាវៗ</string>
+    <string name="vt_error_network">មិនមានបណ្តាញទេ ។ ការហៅជាវីដេអូនឹងត្រូវកាត់ផ្តាច់ ។</string>
+    <string name="vt_error_media">មិនអាចបង្ហាញវីដេអូបានល្អទេ ។ ការហៅជាវីដេអូនឹងត្រូវកាត់ផ្តាច់ ។</string>
+    <string name="vt_swap_video">ប្តូរវីដេអូ</string>
+    <string name="vt_local_video_contrast">ភាពស្រអាប់របស់វីដេអូមូលដ្ឋាន</string>
+    <string name="vt_menu_switch">ប្តូរកាមេរ៉ា</string>
+    <string name="vt_menu_hide_me">លាក់វីដេអូមូលដ្ឋាន</string>
+    <string name="vt_menu_show_me">បង្ហាញវីដេអូមូលដ្ឋាន</string>
+    <string name="vt_menu_snapshot">រូបថតព្រាវៗរបស់មិត្ត</string>
+    <string name="vt_dis_peer_rep">បង្ហាញវីដេអូផ្គូ</string>
+    <string name="vt_dis_peer_rep_des">បង្ហាញរូបភាព​ សម្រាប់ជំនួសវីដេអូរបស់មិត្ត ពេលវាមិនមាន</string> 
+    <string name="vt_peer_video_rep">ការជំនួសវីដេអូមិត្ត</string>
+    <string name="vt_peer_video_rep_des">សិតរូបភាពសម្រាប់បង្ហាញពេលមិនមានវីដេអូរបស់មិត្ត</string>
+    <string name="vt_vocie_answer">ឆ្លើយជាសម្លេង</string>
+    <string name="vt_wait_voice">រងចាំការតភ្ជាប់ការហៅជាសម្លេង</string>
+    <string name="vt_voice_connecting">ការតភ្ជាប់ការហៅជាសម្លេង</string>
+    <string name="vt_auto_dropback">ទម្លាក់ចោលដោយស្វ័យប្រវត្តិ</string>
+    <string name="vt_auto_dropback_des">ទម្លាក់ចោលទៅរកការតភ្ជាប់ការហៅជាសម្លេងដោយស្វ័យប្រវត្តិ</string>
+    <string name="vt_cannot_support_setting">កាមេរ៉ាបច្ចុប្បន្នមិនអាចប្រើបានជាមួយនឹងការសិតនេះបានទេ</string>
+    <string name="vt_network_unreachable">មិនអាចចាប់បណ្តាញបាន ។</string>
+    <string name="vt_iot_error_01">មិនអាចតម្លើងការហៅជាវីដេអូបានទេ</string>
+    <string name="vt_iot_error_02">ទូរស័ព្ទជាប់រវល់</string>
+    <string name="vt_iot_error_03">មិនមានចម្លើយទេ</string>
+    <string name="vt_iot_error_04">បណ្តាញជាប់រវល់</string>
+    <string name="pref_camera_coloreffect_entry_none">គ្មាន</string>
+    <string name="pref_camera_coloreffect_entry_mono">ម៉ូណូ</string>
+    <string name="pref_camera_coloreffect_entry_sepia">សេភា</string>
+    <string name="pref_camera_coloreffect_entry_negative">ហ្វ៊ិលរូបថត</string>
+    <string name="pref_camera_coloreffect_entry_solarize">ចាំងពន្លឺព្រះអាទិត្យខ្លាំង</string>
+    <string name="pref_camera_coloreffect_entry_posterize">ការបំផ្លែងពណ៌</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">ក្តារស</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">ក្តារខ្មៅ</string>
+    <string name="pref_camera_coloreffect_entry_aqua">ពណ៌ទឹក</string>
+    <string name="pref_camera_coloreffect_entry_pastel">ប៉ាស្តែល</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">ការផ្គុំរូបតូចៗ</string>
+    <string name="pref_camera_coloreffect_entry_redtint">ស្នាមក្រហម</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">ស្នាមផ្ទៃមេឃ</string>
+    <string name="pref_camera_coloreffect_entry_greentint">ស្នាមពណ៌ខៀវ</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">សេភាផ្ទៃមេឃ</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">សេភាខៀវ</string>
+    <string name="vt_peer_camera_open">កាមេរ៉ាពីចម្ងាយបានបើក</string>
+    <string name="vt_peer_camera_close">កាមេរ៉ាពីចម្ងាយបានបិទ</string>
+    <string name="vt_recorder_start">ចាប់ផ្តើមថត</string>
+    <string name="vt_recorder_voice_and_peer_video">សម្លេង និងវីដេអូមិត្ត</string>
+    <string name="vt_recorder_only_voice">តែសម្លេងទេ</string>
+    <string name="vt_recorder_only_peer_video">តែវីដេអូមិត្តទេ</string>
+    <string name="vt_recording_saved">វីដេអូដែលថតត្រូវបានរក្សាទុកហើយ ។</string>
+    <string name="vt_recording_saved_sd_full">កាត SD អស់កន្លែងទំនេរហើយ ការថតសម្លេងត្រូវបានរក្សាទុក ។</string>
+    <string name="vt_recording_error">កំហុសការថត ។</string>
+    <string name="start_record_vt">ចាប់ផ្តើមថត</string>
+    <string name="stop_record_vt">ឈប់ការថតសម្លេង</string>
+    <string name="cannot_answered_Video_Call">មិនអាចឆ្លើយការហៅជាវីដេអូបានទេ ដោយសាថាមានការហៅជាសម្លេងរួចទៅហើយ</string>
+    <string name="cannot_answered_Voice_Call">ការហៅជាសម្លេងមិនអាចឆ្លើយបានទេ ដោយសាថាមានការហៅជាវីដេអូរួចទៅហើយ</string>
+    <string name="callDurationFormat">
+        <xliff:g id="minutes" example="42">%1$s</xliff:g> នាទី 
+        <xliff:g id="seconds" example="28">%2$s</xliff:g> វិនាទី
+    </string>
+    <string name="reminder">អ្នករម្លឹក</string>
+    <string name="vt_media_occupied">ដោយសារមិនមានកាមេរ៉ា ការហៅជាវីដេអូមិនអាចតភ្ជាប់បានទេ ។ សូមឆែកមើល ក្រែងមានកម្មវិធីដទៃកំពុងតែប្រើប្រាស់កាមេរ៉ា ។</string>
+    <string name="vt_media_video_fail">វីដេអូមិនអាចបង្ហាញបានត្រឹមត្រូវទេ ។ ការហៅជាវីដេអូត្រូវបានផ្តាច់ការតភ្ជាប់</string>
+    <string name="incall_toast_unhold">មិនចាំ</string>
+
+</resources>

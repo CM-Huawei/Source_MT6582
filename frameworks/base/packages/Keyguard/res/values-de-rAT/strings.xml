@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="keyguard_password_enter_pin_code">PIN-Code eingeben</string>
+
+    
+    <string name="keyguard_password_enter_puk_code">PUK und neuen PIN-Code eingeben</string>
+
+    
+    <string name="keyguard_password_enter_puk_prompt">PUK-Code</string>
+    
+    <string name="keyguard_password_enter_pin_prompt">Neuer PIN-Code</string>
+
+    
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Zum Eingeben des Kennworts berühren</font></string>
+
+    
+    <string name="keyguard_password_enter_password_code">Zum Entsperren Kennwort eingeben</string>
+
+    
+    <string name="keyguard_password_enter_pin_password_code">Zum Entsperren PIN eingeben</string>
+
+    
+    <string name="keyguard_password_wrong_pin_code">Ungültiger PIN-Code.</string>
+
+    
+    <string name="keyguard_label_text">Drücken Sie zum Entsperren die Menütaste und dann auf 0.</string>
+
+    
+    <string name="faceunlock_multiple_failures">Maximale Face-Unlock-Versuche überschritten</string>
+
+    
+    <string name="keyguard_charged">Geladen</string>
+
+    
+    <string name="keyguard_plugged_in">Wird geladen, <xliff:g id="number">%d</xliff:g><xliff:g id="percent">%%</xliff:g></string>
+
+    
+    <string name="keyguard_low_battery">Ladegerät anschließen.</string>
+
+    
+    <string name="keyguard_instructions_when_pattern_disabled">Zum Entsperren Menü drücken.</string>
+
+    <skip/>
+    
+    <string name="keyguard_network_locked_message">Netzwerk gesperrt</string>
+    
+    <string name="keyguard_missing_sim_message_short">Keine SIM-Karte</string>
+    
+    <string name="keyguard_missing_sim_message" product="tablet">Keine SIM-Karte im Tablet.</string>
+    
+    <string name="keyguard_missing_sim_message" product="default">Keine SIM-Karte im Telefon.</string>
+    
+    <string name="keyguard_missing_sim_instructions">SIM-Karte einsetzen.</string>
+    
+    <string name="keyguard_missing_sim_instructions_long">SIM-Karte fehlt oder ist nicht lesbar. SIM-Karte einsetzen</string>
+    
+    <string name="keyguard_permanent_disabled_sim_message_short">Nicht verwendbare SIM-Karte</string>
+    
+    <string name="keyguard_permanent_disabled_sim_instructions">Ihre SIM-Karte wurde dauerhaft deaktiviert.\n Wenden Sie sich für eine neue SIM-Karte an Ihren Betreiber.</string>
+    
+    <string name="keyguard_sim_locked_message">SIM-Karte gesperrt</string>
+    
+    <string name="keyguard_sim_puk_locked_message">SIM-Karte durch PUK gesperrt</string>
+    
+    <string name="keyguard_sim_unlock_progress_dialog_message">SIM-Karte entsperren\u2026</string>
+
+    
+    
+    
+    
+
+    
+    <string name="keyguard_accessibility_widget_changed">%1$s. Widget %2$d von %3$d.</string>
+    
+    <string name="keyguard_accessibility_add_widget">Widget hinzufügen.</string>
+    
+    <string name="keyguard_accessibility_widget_empty_slot">Leer</string>
+    
+    <string name="keyguard_accessibility_unlock_area_expanded">Entsperrbereich erweitert.</string>
+    
+    <string name="keyguard_accessibility_unlock_area_collapsed">Entsperrbereich reduziert.</string>
+    
+    <string name="keyguard_accessibility_widget"><xliff:g id="widget_index">%1$s</xliff:g> Widget.</string>
+    
+    <string name="keyguard_accessibility_user_selector">Benutzerauswahl</string>
+    
+    <string name="keyguard_accessibility_status">Status</string>
+    
+    <string name="keyguard_accessibility_camera">Kamera</string>
+    
+    <string name="keygaurd_accessibility_media_controls">Mediensteuerung</string>
+    
+    <string name="keyguard_accessibility_widget_reorder_start">Neues Anordnen von Widgets gestartet.</string>
+    
+    <string name="keyguard_accessibility_widget_reorder_end">Neues Anordnen von Widgets beendet.</string>
+    
+    <string name="keyguard_accessibility_widget_deleted">Widget <xliff:g id="widget_index">%1$s</xliff:g> gelöscht.</string>
+    
+    <string name="keyguard_accessibility_expand_lock_area">Erweitern des Entsperrbereichs.</string>
+    
+    <string name="keyguard_accessibility_slide_unlock">Entsperren mit Wischen.</string>
+    
+    <string name="keyguard_accessibility_pattern_unlock">Entsperren mit Muster.</string>
+    
+    <string name="keyguard_accessibility_face_unlock">Entsperren mit Gesichtserkennung.</string>
+    
+    <string name="keyguard_accessibility_pin_unlock">Entsperren mit PIN.</string>
+    
+    <string name="keyguard_accessibility_password_unlock">Entsperren mit Kennwort.</string>
+    
+    <string name="keyguard_accessibility_pattern_area">Musterbereich.</string>
+    
+    <string name="keyguard_accessibility_slide_area">Wischbereich.</string>
+
+    
+    <string name="keyguard_accessibility_transport_prev_description">Vorhergehender Stück-Taste</string>
+    
+    <string name="keyguard_accessibility_transport_next_description">Nächstes Stück-Taste</string>
+    
+    <string name="keyguard_accessibility_transport_pause_description">Pause-Taste</string>
+    
+    <string name="keyguard_accessibility_transport_play_description">Wiedergabe-Taste</string>
+    
+    <string name="keyguard_accessibility_transport_stop_description">Stopp-Taste</string>
+    
+    <string name="keyguard_accessibility_transport_thumbs_up_description">Daumen hoch</string>
+    
+    <string name="keyguard_accessibility_transport_thumbs_down_description">Daumen runter</string>
+    
+    <string name="keyguard_accessibility_transport_heart_description">Herz</string>
+
+
+    
+    <string name="keyguard_accessibility_show_bouncer">Entsperren um fortzufahren</string>
+
+    
+    <string name="keyguard_accessibility_hide_bouncer">Start abgebrochen</string>
+
+    
+    <string name="keyguard_accessibility_delete_widget_start">Zum Löschen <xliff:g id="widget_index">%1$s</xliff:g> fallen lassen.</string>
+
+    
+    <string name="keyguard_accessibility_delete_widget_end"><xliff:g id="widget_index">%1$s</xliff:g> wird nicht gelöscht.</string>
+
+    <skip/>
+    
+    <string name="password_keyboard_label_symbol_key">\?123</string>
+    
+    <string name="password_keyboard_label_alpha_key">ABC</string>
+    
+    <string name="password_keyboard_label_alt_key">ALT</string>
+
+    <skip/>
+    
+    <string name="keyboardview_keycode_alt">Alt</string>
+    
+    <string name="keyboardview_keycode_cancel">Abbrechen</string>
+    
+    <string name="keyboardview_keycode_delete">Löschen</string>
+    
+    <string name="keyboardview_keycode_done">Erledigt</string>
+    
+    <string name="keyboardview_keycode_mode_change">Modus ändern</string>
+    
+    <string name="keyboardview_keycode_shift">Hochstelltaste</string>
+    
+    <string name="keyboardview_keycode_enter">Eingabe</string>
+
+    
+    <string name="description_target_unlock">Entsperren</string>
+    
+    <string name="description_target_camera">Kamera</string>
+    
+    <string name="description_target_silent">Stumm</string>
+    
+    <string name="description_target_soundon">Ton ein</string>
+    
+    <string name="description_target_search">Suchen</string>
+
+    
+    <string name="description_direction_up">Nach oben schieben <xliff:g id="target_description" example="Unlock">%s</xliff:g>.</string>
+    
+    <string name="description_direction_down">Nach unten schieben <xliff:g id="target_description" example="Unlock">%s</xliff:g>.</string>
+    
+    <string name="description_direction_left">Nach links schieben <xliff:g id="target_description" example="Unlock">%s</xliff:g>.</string>
+    
+    <string name="description_direction_right">Nach rechts schieben <xliff:g id="target_description" example="Unlock">%s</xliff:g>.</string>
+
+    
+    <string name="user_switched">Aktueller Benutzer <xliff:g id="name" example="Bob">%1$s</xliff:g>.</string>
+
+    
+    <string name="kg_emergency_call_label">Notruf</string>
+    
+    <string name="kg_forgot_pattern_button_text">Muster vergessen</string>
+    
+    <string name="kg_wrong_pattern">Muster falsch</string>
+    
+    <string name="kg_wrong_password">Falsches Kennwort</string>
+    
+    <string name="kg_wrong_pin">Falscher PIN</string>
+    
+    <string name="kg_too_many_failed_attempts_countdown">Versuchen Sie es wieder in <xliff:g id="number">%d</xliff:g> Sekunden.</string>
+    
+    <string name="kg_pattern_instructions">Muster eingeben</string>
+    
+    <string name="kg_sim_pin_instructions">SIM-PIN eingeben</string>
+    
+    <string name="kg_pin_instructions">PIN eingeben</string>
+    
+    <string name="kg_password_instructions">Kennwort eingeben</string>
+    
+    <string name="kg_puk_enter_puk_hint">SIM ist nun deaktiviert PUK eingeben, um fortzufahren. Wenden Sie sich an Ihren Betreiber.</string>
+    
+    <string name="kg_puk_enter_pin_hint">Gewünschten PIN-Code eingeben</string>
+    
+    <string name="kg_enter_confirm_pin_hint">Gewünschten PIN-Code bestätigen</string>
+    
+    <string name="kg_sim_unlock_progress_dialog_message">SIM-Karte entsperren\u2026</string>
+    
+    <string name="kg_password_wrong_pin_code">Falscher PIN-Code.</string>
+    
+    <string name="kg_invalid_sim_pin_hint">Einen PIN mit 4 bis 8 Ziffern eingeben.</string>
+    
+    <string name="kg_invalid_sim_puk_hint">PUK-Code muss 8 Stellen oder länger sein.</string>
+    
+    <string name="kg_invalid_puk">Korrekten PUK-Code neu eingeben. Wiederholte Versuche deaktivieren die SIM dauerhaft.</string>
+      
+    <string name="kg_invalid_confirm_pin_hint" product="default">PIN-Code stimmt nicht überein</string>
+    
+    <string name="kg_login_too_many_attempts">Zu viele Mustereingaben</string>
+    
+    <string name="kg_login_instructions">Melden Sie sich zum Entsperren mit Ihrem Google-Konto an.</string>
+    
+    <string name="kg_login_username_hint">Benutzername (E-Mail)</string>
+    
+    <string name="kg_login_password_hint">Kennwort</string>
+    
+    <string name="kg_login_submit_button">Anmelden</string>
+    
+    <string name="kg_login_invalid_input">Benutzername oder Kennwort ungültig.</string>
+    
+    <string name="kg_login_account_recovery_hint">Benutzername oder Kennwort vergessen \?\nBesuchen Sie <b>google.com/accounts/recovery</b>.</string>
+    
+    <string name="kg_login_checking_password">Konto wird geprüft\u2026</string>
+    
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">Sie haben Ihren PIN <xliff:g id="number">%d</xliff:g>-mal falsch eingegeben. \n\nVersuchen Sie es erneut in <xliff:g id="number">%d</xliff:g> Sekunden.</string>
+    
+    <string name="kg_too_many_failed_password_attempts_dialog_message">Sie haben Ihr Kennwort <xliff:g id="number">%d</xliff:g>-mal falsch eingegeben. \n\nVersuchen Sie es erneut in <xliff:g id="number">%d</xliff:g> Sekunden.</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">Sie haben Ihr Entsperrmuster <xliff:g id="number">%d</xliff:g>-mal falsch eingegeben. \n\nVersuchen Sie es erneut in <xliff:g id="number">%d</xliff:g> Sekunden.</string>
+    
+    <string name="kg_failed_attempts_almost_at_wipe" product="tablet">Sie haben <xliff:g id="number">%d</xliff:g> Mal erfolglos versucht, das Tablet zu entsperren. Nach <xliff:g id="number">%d</xliff:g> weiteren erfolglosen Versuchen wird das Tablet auf die Werkseinstellungen zurückgesetzt, und alle Benutzerdaten gehen verloren.</string>
+    
+    <string name="kg_failed_attempts_almost_at_wipe" product="default">Sie haben <xliff:g id="number">%d</xliff:g> Mal erfolglos versucht, das Telefon zu entsperren. Nach <xliff:g id="number">%d</xliff:g> weiteren erfolglosen Versuchen wird das Telefon auf die Werkseinstellungen zurückgesetzt, und alle Benutzerdaten gehen verloren.</string>
+    
+    <string name="kg_failed_attempts_now_wiping" product="tablet">Sie haben <xliff:g id="number">%d</xliff:g> Mal erfolglos versucht, das Tablet zu entsperren. Das Tablet wird nun auf die Werkseinstellungen zurückgesetzt.</string>
+    
+    <string name="kg_failed_attempts_now_wiping" product="default">Sie haben <xliff:g id="number">%d</xliff:g> Mal erfolglos versucht, das Telefon zu entsperren. Das Telefon wird nun auf die Werkseinstellungen zurückgesetzt.</string>
+    
+    <string name="kg_failed_attempts_almost_at_login" product="tablet">Sie haben Ihr Entsperrmuster <xliff:g id="number">%d</xliff:g>-mal falsch eingegeben. Nach <xliff:g id="number">%d</xliff:g> weiteren falschen Versuchen werden Sie gebeten, Ihr Tablet über ein E-Mail-Konto zu entsperren.\n\n Versuchen Sie es erneut in <xliff:g id="number">%d</xliff:g> Sekunden.</string>
+    
+    <string name="kg_failed_attempts_almost_at_login" product="default">Sie haben Ihr Entsperrmuster <xliff:g id="number">%d</xliff:g>-mal falsch eingegeben. Nach <xliff:g id="number">%d</xliff:g> weiteren falschen Versuchen werden Sie gebeten, Ihr Telefon über ein E-Mail-Konto zu entsperren.\n\n Versuchen Sie es erneut in <xliff:g id="number">%d</xliff:g> Sekunden.</string>
+    
+    <string name="kg_text_message_separator" product="default">" \u2014 "</string>
+    
+    <string name="kg_reordering_delete_drop_target_text">Entfernen</string>
+
+    
+    
+    <string name="keyguard_transport_prev_description">Vorhergehender Stück-Taste</string>
+    
+    <string name="keyguard_transport_next_description">Nächstes Stück-Taste</string>
+    
+    <string name="keyguard_transport_pause_description">Pause-Taste</string>
+    
+    <string name="keyguard_transport_play_description">Wiedergabe-Taste</string>
+    
+    <string name="keyguard_transport_stop_description">Stopp-Taste</string>
+
+    
+    <string name="keyguard_carrier_default">Kein Dienst.</string>
+
+</resources>

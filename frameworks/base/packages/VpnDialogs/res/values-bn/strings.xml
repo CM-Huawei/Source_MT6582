@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    
+    <string name="prompt"><xliff:g id="app">%s</xliff:g> ভিপিএন সংযোগ তৈরি করতে চেষ্টা।</string>
+
+    
+    <string name="warning">এগিয়ে গেলে আপনার সকল নেটওয়ার্ক ট্রাফিকে প্রতিবন্ধকতা সৃষ্টি করতে অ্যাপ্লিকেশনকে অনুমতি দিচ্ছেন। &lt;b&gt; অ্যাপ্লিকেশনকে বিশ্বাস না করলে গ্রহণ করবেন না।&lt;/b&gt; তা না হলে আপনি ক্ষতিকর সফটওয়্যারের মাধ্যমে আপনার ডাটা ক্ষতিগ্রস্ত হওয়ার ঝুঁকিতে থাকবেন।</string>
+
+    
+    <string name="accept">আমি এই অ্যাপ্লিকেশনকে বিশ্বাস করি।</string>
+
+    
+    <string name="legacy_title">ভিপিএন সংযুক্ত</string>
+    
+    <string name="configure">কনফিগার করুন</string>
+    
+    <string name="disconnect">বিচ্ছিন্ন করুন</string>
+
+    
+    <string name="session">সেশন:</string>
+    
+    <string name="duration">ব্যপ্তি:</string>
+    
+    <string name="data_transmitted">প্রেরিত:</string>
+    
+    <string name="data_received">প্রাপ্ত:</string>
+
+    
+    <string name="data_value_format"><xliff:g id="number">%1$s</xliff:g> বাইটস / <xliff:g id="number">%2$s</xliff:g> প্যাকেট</string>
+</resources>

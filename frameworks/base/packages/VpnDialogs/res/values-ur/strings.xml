@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    
+    <string name="prompt">ایک VPN کنکشن بنانے کیلئے <xliff:g id="app">%s</xliff:g> کوششیں۔</string>
+
+    
+    <string name="warning">جاری رکھ کر، آپ اطلاق کو سبھی نیٹ ورک ٹریفک کو  روکنے کی اجازت دے رہے ہیں۔  &lt;b&gt;قبول نہ کریں تاوقتیکہ کہ آپ کو اطلاق پر اعتبار نہ ہو۔&lt;/b&gt; بصورت دیگر، آپ کو اس بات کا خطرہ ہوگا کہ ایک مشتبہ سافٹ ویئر کے ذریعہ آپ کے ڈیٹا سے سمجھوتہ ہوجائے۔</string>
+
+    
+    <string name="accept">مجھے اس اطلاق پر اعتبار ہے۔</string>
+
+    
+    <string name="legacy_title">VPN مربوط ہے</string>
+    
+    <string name="configure">موافق بنائیں</string>
+    
+    <string name="disconnect">منقطع کریں</string>
+
+    
+    <string name="session">سیشن:</string>
+    
+    <string name="duration">دورانیہ:</string>
+    
+    <string name="data_transmitted">مرسلہ:</string>
+    
+    <string name="data_received">موصولہ:</string>
+
+    
+    <string name="data_value_format"><xliff:g id="number">%1$s</xliff:g> بائٹس / <xliff:g id="number">%2$s</xliff:g> پیکٹس</string>
+</resources>

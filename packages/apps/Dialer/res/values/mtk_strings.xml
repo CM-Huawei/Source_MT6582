@@ -1,0 +1,4 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- DialSearch frame string -->
+    <string name = "searchFrame_title">Tap to search contacts</string>
+</resources>

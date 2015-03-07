@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+
+    <string name="onscreenHangupAll">Putuskan semua</string>
+    <string name="onscreenHangupHolding">Penahanan pemutusan</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Pemutusan aktif, menunggu jawaban</string>
+    <string name="onscreenECT">Transfer</string>
+
+    <string name="dm_lock">DM Terkunci</string>
+    <string name="dm_unlock">Pengaktifan DM</string>
+
+    <string name="mo_code_unconditional_cf_active">Penerusan panggilan\ntidak bersyarat diaktifkan</string>
+    <string name="mo_code_some_cf_active">Panggilan Diteruskan Bersyarat</string>
+    <string name="mo_code_call_forwarded">Panggilan diteruskan</string>
+    <string name="mo_code_call_is_waiting">Panggilan tunggu</string>
+    <string name="mo_code_cug_call">Grup Pengguna Tertutup</string>
+    <string name="mo_code_outgoing_calls_barred">Panggilan keluar dibatasi</string>
+    <string name="mo_code_incoming_calls_barred">Panggilan masuk dibatasi di pihak lawan bicara</string>
+    <string name="mo_code_clir_suppression_rejected">Periksa layanan pengiriman ID pemanggil</string>
+    <string name="mo_code_call_deflected">Panggilan diteruskan</string>
+    <string name="mt_code_forwarded_call">Ini adalah panggilan yang dialihkan</string>
+    <string name="mt_code_cug_call">Grup Pengguna Tertutup</string>
+    <string name="mt_code_call_on_hold">Panggilan ditahan</string>
+    <string name="mt_code_call_retrieved">Panggilan diulang</string>
+    <string name="mt_code_multi_party_call">Panggilan konferensi</string>
+    <string name="mt_code_on_hold_call_released">Panggilan tahan dilepas</string>
+    <string name="mt_code_forward_check_received">Teruskan pesan pemeriksaan SS yang diterima</string>
+    <string name="mt_code_call_connecting_ect">Panggilan mentransfer</string>
+    <string name="mt_code_call_connected_ect">Transfer panggilan aktif</string>
+    <string name="mt_code_deflected_call">Ini adalah panggilan yang dialihkan</string>
+    <string name="mt_code_additional_call_forwarded">Panggilan masuk tambahan diteruskan</string>
+    <string name="mt_code_forwarded_cf">Panggilan diteruskan</string>
+    <string name="mt_code_forwarded_cf_uncond">Panggilan diteruskan tidak bersyarat</string>
+    <string name="mt_code_forwarded_cf_cond">Panggilan Diteruskan Bersyarat</string>
+    <string name="mt_code_forwarded_cf_busy">Panggilan sibuk diteruskan</string>
+    <string name="mt_code_forwarded_cf_no_reply">Panggilan diteruskan bila tidak dijawab</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Panggilan diteruskan bila di luar jangkauan</string>
+    
+    <string name="start_record">Mulai perekaman</string>
+    <string name="stop_record">Hentikan perekaman</string>
+    <string name="str_db_playlist_name">Rekaman saya</string>
+    <string name="alert_device_error">Terjadi kesalahan pada perangkat audio</string>
+    <string name="ext_media_badremoval_notification_title">Kartu SD dihapus tanpa disengaja</string>
+    <string name="error_sdcard_access">"Tidak dapat mengakses kartu SD"</string>
+    <string name="confirm_device_info_full">Kartu SD kehabisan ruang, rekaman telah disimpan.</string>
+    <string name="confirm_save_info_saved">Rekaman telah disimpan</string>
+    <string name="confirm_save_info_saved_to">Rekaman telah disimpan ke</string>
+
+    <string name="activity_not_found">Aplikasi tidak terinstal di ponsel Anda.</string>
+    <string name="confirm_3g_switch">Anda yakin ingin menetapkan layanan 3G ke SIM? Tindakan ini juga akan menetapkan SIM default untuk Panggilan video ke SIM secara otomatis.</string>
+    <string name="modem_switching">Pengalihan SIM memerlukan waktu sekitar 10 detik. Tunggu…</string>
+    <string name="confirm_3g_switch_to_off">Anda yakin ingin menonaktifkan layanan 3G? Tindakan ini juga akan menonaktifkan layanan Panggilan video secara otomatis.</string>
+    <string name="enable_3G_service">Aktifkan 3G</string>
+    <string name="network_forbidden">Menonaktifkan</string>
+    <string name="plmn_list_setting_title">Preferensi</string>
+    <string name="plmn_list_setting_add_plmn">Tambahkan PLMN baru</string>
+    <string name="callFailed_dsac_vt_incompatible_destination">Panggilan video tidak dapat dibuat. Telepon video tidak didukung pada telepon yang Anda hubungi, hubungi dengan panggilan suara?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">Panggilan video tidak dapat dibuat. Telepon yang Anda hubungi berada di luar jangkauan layanan 3G, hubungi dengan panggilan suara?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">Panggilan video tidak dapat dibuat. Hubungi dengan panggilan suara?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">Telepon Anda berada di luar area layanan 3G, hubungi melalui panggilan suara?</string>
+    <string name="notification_voicemail">Pesan suara</string>
+    <string name="turn_on_3g_service_message">Saat ini layanan 3G tidak aktif, Anda ingin mengaktifkannya?</string>
+    <string name="associate_sim_missing_message">"SIM %1$s tidak tersedia. Anda ingin membuat panggilan melalui %2$s"</string>
+    <string name="associate_sim_missing_other">Lainnya</string>
+
+    <string name="vt_settings">Pengaturan video</string>
+    <string name="vt_local_video_zoom">Zoom video lokal</string>
+    <string name="vt_local_video_brightness">Kecerahan video lokal</string>
+    <string name="vt_local_video_effect">Efek video lokal</string>
+    <string name="vt_local_video_nightmode">Mode malam video lokal</string>
+    <string name="vt_peer_video_quality">Kualitas video peer</string>
+    <string name="vt_incoming_showme_ask">Tanya</string>
+    <string name="vt_call_settings">Pengaturan panggilan video</string>
+    <string name="vt_pic_replace_local_default">Gambar default</string>
+    <string name="vt_pic_replace_local_freezeme">Bekukan saya</string>
+    <string name="vt_pic_replace_local_mypic">Gambar saya</string>
+    <string name="vt_sd_null">Kartu SD tidak tersedia</string>
+    <string name="vt_sd_not_enough">Kapasitas kartu SD penuh</string>
+    <string name="vt_peer_video_quality_normal">Normal</string>
+    <string name="vt_ask_show_local">Tampilkan video lokal kepada lawan bicara?</string>
+    <string name="vt_change_my_pic">Ubah</string>
+    <string name="vt_pic_saved_to_sd">Snapshot disimpan ke kartu SD</string>
+    <string name="vt_pic_saved_to_sd_fail">Gagal menyimpan snapshot</string>
+    <string name="vt_error_network">Jaringan tidak dapat dijangkau. Sambungan panggilan video akan terputus.</string>
+    <string name="vt_error_media">Video tidak dapat ditampilkan dengan benar. Sambungan panggilan video akan terputus.</string>
+    <string name="vt_swap_video">Tukar video</string>
+    <string name="vt_local_video_contrast">Kontras video lokal</string>
+    <string name="vt_menu_switch">Alihkan kamera</string>
+    <string name="vt_menu_hide_me">Sembunyikan video lokal</string>
+    <string name="vt_menu_show_me">Tampilkan video lokal</string>
+    <string name="vt_menu_snapshot">Bidikan lawan bicara</string>
+    <string name="vt_vocie_answer">Jawaban suara</string>
+    <string name="vt_wait_voice">Menunggu panggilan suara tersambung</string>
+    <string name="vt_voice_connecting">Panggilan suara tersambung</string>
+    <string name="vt_cannot_support_setting">Kamera aktif tidak dapat mendukung pengaturan ini</string>
+    <string name="vt_network_unreachable">Jaringan tidak terjangkau</string>
+    <string name="vt_iot_error_01">Panggilan video tidak dapat dibuat</string>
+    <string name="vt_iot_error_02">Telepon sibuk</string>
+    <string name="vt_iot_error_03">Tidak ada jawaban</string>
+    <string name="vt_iot_error_04">Jaringan sibuk</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"Pencahayaan"</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">Papan putih</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">Papan hitam</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Aqua</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Sepia Biru</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Sepia Hijau</string>
+    <string name="vt_peer_camera_open">Kamera jarak jauh terbuka</string>
+    <string name="vt_peer_camera_close">Kamera jarak jauh tertutup</string>
+    <string name="vt_recorder_start">Mulai perekaman</string>
+    <string name="vt_recorder_voice_and_peer_video">Suara dan sesama video</string>
+    <string name="vt_recorder_only_voice">Hanya suara</string>
+    <string name="vt_recorder_only_peer_video">Hanya sesama video</string>
+    <string name="vt_recording_saved">Perekaman telah disimpan.</string>
+    <string name="vt_recording_saved_sd_full">Kartu SD kehabisan ruang, rekaman telah disimpan.</string>
+    <string name="vt_recording_error">Kesalahan pada perekaman.</string>
+    <string name="start_record_vt">Mulai perekaman</string>
+    <string name="stop_record_vt">Hentikan perekaman</string>
+    <string name="enable_sip_dialog_message">"Panggilan Internet dinonaktifkan, Anda ingin mengaktifkannya?"</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">Fungsi panggilan IP tidak tersedia untuk Panggilan disengaja.</string>
+    <string name="vt_addtional_call_description">Pengaturan nomor telepon dan panggilan tunggu</string>
+    <string name="sim_manage_sipcall">"Internet"</string>
+    <string name="sim_manage_call_via">Hubungi melalui</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> mnt <xliff:g id="seconds" example="28">%2$s</xliff:g> dtk</string>
+    <string name="reminder">Pengingat</string>
+    <string name="vt_media_occupied">Karena kamera tidak tersedia, panggilan video tidak dapat tersambung. Periksa apakah aplikasi lain sedang menggunakan kamera.</string>
+    <string name="vt_media_video_fail">Video tidak dapat ditampilkan dengan benar. Panggilan video terputus</string>
+    <string name="incall_toast_unhold">Lanjutkan</string>
+
+</resources>

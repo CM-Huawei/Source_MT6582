@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+    <!-- FTA menu items -->
+    <string name="onscreenHangupAll">נתק הכול</string>
+    <string name="onscreenHangupHolding">נתק שיחות בהחזקה</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">נתק פעילות, השב לממתינה</string>
+    <string name="onscreenECT">העבר</string>
+    <!-- dm lock -->
+    <string name="dm_lock">DM נעול</string>
+    <string name="dm_unlock">שחרור DM</string>
+    <!-- voice recorder -->
+    <string name="start_record">התחל הקלטה</string>
+    <string name="stop_record">הפסק הקלטה</string>
+    <string name="str_db_playlist_name">ההקלטות שלי</string>
+    <string name="alert_device_error">אירעה שגיאה בהתקן השמע</string>
+    <string name="ext_media_badremoval_notification_title">כרטיס ה-SD נשלף באופן לא צפוי</string>
+    <string name="error_sdcard_access">אין גישה אל כרטיס ה-SD</string>
+    <string name="confirm_device_info_full">אין מקום בכרטיס ה-SD, ההקלטה נשמרה.</string>
+    <string name="confirm_save_info_saved">ההקלטה נשמרה</string>
+    <string name="confirm_save_info_saved_to">ההקלטה נשמרה ב</string>
+    <!-- temp added string begin -->
+    <string name="sim_toolkit">"ערכת כלי SIM"</string>
+    <string name="activity_not_found">לא מותקנים יישומים במכשיר.</string>
+    <string name="gemini_3g_indic">3G</string>
+    <!-- temp added string end -->
+    <!-- video call drop back -->
+    <string name="callFailed_dsac_vt_incompatible_destination">לא ניתן להגדיר שיחת וידאו. טלפון הוידיאו אינו נתמך בטלפון אליו אתה מחייג, לחייג שיחה קולית?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">לא ניתן להגדיר שיחת וידא. הטלפון שחייגת אינו באזור קליטה של חיבור דור 3 (3G), לחייג שיחה קולית?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">לא ניתן להגדיר שיחת וידא. לחייג שיחה קולית?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">הטלפון מחוץ לאזור הקליטה של חיבור דור 3 (3G), לחייג שיחה קולית?</string>
+    <!-- voicemail notifications -->
+    <string name="notification_voicemail">"דואר קולי"</string>
+    <string name="turn_on_3g_service_message">שירות דור 3 כבוי כעת, להפעיל אותו?</string>
+    <string name="associate_sim_missing_message">"%1$s SIM אינו זמין. האם לחייג באמצעות %2$s"</string>
+    <string name="associate_sim_missing_other">"אחר"</string>
+    <string name="voicemail_settings_for">"הגדרות עבור <xliff:g id="provider_name">%s</xliff:g>"</string>
+    <!-- video call -->
+    <string name="card_title_incoming_vt_call">שיחת וידאו נכנסת</string>
+    <string name="vt_incoming_call">שיחת וידאו נכנסת</string>
+    <string name="vt_settings">הגדרות וידאו</string>
+    <string name="vt_local_video_zoom">וידאו מקומי - זום</string>
+    <string name="vt_local_video_brightness">וידאו מקומי - בהירות</string>
+    <string name="vt_local_video_effect">וידאו מקומי - אפקט</string>
+    <string name="vt_local_video_nightmode">וידאו מקומי - מצב לילה</string>
+    <string name="vt_peer_video_quality">איכות וידאו עמית</string>
+    <string name="vt_enable_back_camera">אפשר מצלמה אחורית</string>
+    <string name="vt_enable_back_camera_description">ניתן להחליף מצלמות אם פעיל</string>
+    <string name="vt_peer_video_bigger">וידאו עמית גדול יותר</string>  
+    <string name="vt_peer_video_bigger_description">הפעל כדי להפוך את וידאו העמית לגדול יותר מהוידיאו המקומי</string>  
+    <string name="vt_outgoing_call">שיחת וידאו יוצאת</string>
+    <string name="vt_outgoing_call_description">הצג וידאו מקומי במהלך שיחת וידאו</string>
+    <string name="vt_incoming_call_description">הצג וידאו מקומי בקבלת שיחת וידאו נכנסת</string>
+    <string name="vt_incoming_showme_always">תמיד</string>
+    <string name="vt_incoming_showme_ask">קח</string>
+    <string name="vt_incoming_showme_disable">חסום</string>
+    <string name="vt_pic_replace_local_default">תמונת ברירת מחדל</string>
+    <string name="vt_pic_replace_local_freezeme">הקפא אותי</string>
+    <string name="vt_pic_replace_local_mypic">התמונה שלי</string>
+    <string name="vt_local_video_display">וידאו מקומי - תצוגה</string>
+    <string name="vt_sd_null">כרטיס ה-SD\nאינו זמין</string>
+    <string name="vt_sd_not_enough">אין מקום\nבכרטיס ה-SD</string>
+    <string name="vt_peer_video_quality_normal">"רגיל"</string>
+    <string name="vt_peer_video_quality_sharp">חדות</string>
+    <string name="vt_ask_show_local">להציג וידאו מקומי לעמית?</string>
+    <string name="vt_ask_show_local_yes">כן</string>
+    <string name="vt_ask_show_local_no">לא</string>
+    <string name="vt_change_my_pic">שינוי</string>
+    <string name="vt_pic_saved_to_sd">צילום הבזק נשמר בכרטיס SD</string>
+    <string name="vt_pic_saved_to_sd_fail">שגיאה בשמירת צילום בזק</string>
+    <string name="vt_error_network">הרשת אינה זמינה. שיחת הוידיאו תתנתק.</string>
+    <string name="vt_error_media">לא ניתן להציג את הוידיאו בצורה תקינה. שיחת הוידיאו תתנתק.</string>
+    <string name="vt_swap_video">החלף וידאו</string>
+    <string name="vt_local_video_contrast">וידאו מקומי - ניגודיות</string>
+    <string name="vt_menu_switch">החלף מצלמה</string>
+    <string name="vt_menu_hide_me">הסתר וידאו מקומי</string>
+    <string name="vt_menu_show_me">הצג וידאו מקומי</string>
+    <string name="vt_menu_snapshot">צילום בזק של העמית</string>
+    <string name="vt_dis_peer_rep">הצג וידאו עמית</string>
+    <string name="vt_dis_peer_rep_des">הצג תמונה להחלפת וידאו העמית כאשר אינו זמין</string>
+    <string name="vt_peer_video_rep">החלפת וידאו עמית</string>
+    <string name="vt_peer_video_rep_des">קבע תמונה להצגה כאשר וידאו העמית אינו זמין</string>
+    <string name="vt_vocie_answer">מענה קולי</string>
+    <string name="vt_wait_voice">ממתין לחיבור השיחה הקולית</string>
+    <string name="vt_voice_connecting">חיבור שיחה קולית</string>
+    <string name="vt_auto_dropback">השמטה אוטומטית</string>
+    <string name="vt_auto_dropback_des">חזור לשיחה קולית אוטומטית</string>
+    <string name="vt_cannot_support_setting">המצלמה הנוכחית אינה תומכת בהגדרה זו</string>
+    <string name="vt_network_unreachable">הרשת אינה זמינה.</string>
+    <string name="vt_iot_error_01">לא ניתן להגדיר שיחת וידאו</string>
+    <string name="vt_iot_error_02">הטלפון תפוס</string>
+    <string name="vt_iot_error_03">אין תשובה</string>
+    <string name="vt_iot_error_04">הרשת עמוסה</string>
+    <string name="pref_camera_coloreffect_entry_none">ללא</string>
+    <string name="pref_camera_coloreffect_entry_mono">מונו</string>
+    <string name="pref_camera_coloreffect_entry_sepia">חום כהה (ספיה)</string>
+    <string name="pref_camera_coloreffect_entry_negative">נגטיב</string>
+    <string name="pref_camera_coloreffect_entry_solarize">סולארי</string>
+    <string name="pref_camera_coloreffect_entry_posterize">גודל פוסטר</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">לוח</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">לוח שחור</string>
+    <string name="pref_camera_coloreffect_entry_aqua">אקווה</string>
+    <string name="pref_camera_coloreffect_entry_pastel">פסטל</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">פסיפס</string>
+    <string name="pref_camera_coloreffect_entry_redtint">גוון אדום</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">גוון כחול</string>
+    <string name="pref_camera_coloreffect_entry_greentint">גוון ירוק</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">ספיה כחול</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">ספיה ירוק</string>
+    <!-- Currently below 2 bluetooth string only used in VT option menu -->
+    <!-- Added for CMCC Phase 2 of VT -->
+    <string name="vt_peer_camera_open">המצלמה המרוחקת פתוחה</string>
+    <string name="vt_peer_camera_close">המצלמה המרוחקת סגורה</string>
+    <string name="vt_recorder_start">התחל הקלטה</string>
+    <string name="vt_recorder_voice_and_peer_video">וידאו עמית וקול</string>
+    <string name="vt_recorder_only_voice">קול בלבד</string>
+    <string name="vt_recorder_only_peer_video">וידאו עמית בלבד</string>
+    <string name="vt_recording_saved">ההקלטה נשמרה.</string>
+    <string name="vt_recording_saved_sd_full">אין מקום בכרטיס ה-SD, ההקלטה נשמרה.</string>
+    <string name="vt_recording_error">שגיאת הקלטה.</string>
+    <string name="start_record_vt">התחל הקלטה</string>
+    <string name="stop_record_vt">הפסק הקלטה</string>
+    <!-- SIM ME Lock power on -->
+    <!--Video call or voice call cannot be answered -->
+    <string name="cannot_answered_Video_Call">לא ניתן לענות לשיחת הוידיאו משום שכבר מתקיימת שיחה קולית</string>
+    <string name="cannot_answered_Voice_Call">לא ניתן לענות לשיחה הקולית משום שכבר מתקיימת שיחת וידאו</string>
+    <string name="callDurationFormat">
+        <xliff:g id="minutes" example="42">%1$s</xliff:g> דקות 
+        <xliff:g id="seconds" example="28">%2$s</xliff:g> שניות
+    </string>
+    <string name="reminder">תזכורת</string>  
+    <string name="vt_media_occupied">המצלמה אינה זמינה, ולכן לא ניתן לחבר את שיחת הוידיאו. ודא שאין יישום נוסף שמשתמש במצלמה.</string>
+    <string name="vt_media_video_fail">לא ניתן להציג את הוידיאו בצורה תקינה. שיחת הוידיאו נותקה</string>
+    <string name="incall_toast_unhold">בטל החזקה</string>
+
+</resources>

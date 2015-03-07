@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Clock -->
+    <string name="keyguard_domestic_zone_name">"北京"</string>
+    <!-- GlowPadView -->
+    <!-- PowerOffAlarm -->
+    <string name="every_day">"每天"</string>
+    <string name="never">"永不"</string>
+    <string name="day_concat">", "</string>
+    <string name="default_label">"鬧鐘"</string>
+    <string name="voiceui_notify_string">您可以說</string>
+    <string name="voiceui_control_poweroff_alarm">控制關機鬧鐘.</string>
+    <string name="voiceui_comma">\uff0c</string>
+    <string name="voiceui_quota_start">\u201c</string>
+    <string name="voiceui_quota_end">\u201d</string>
+    <string name="voiceui_or">或</string>
+    <string name="keyguard_accessibility_alarm_unlock">關機警示</string>
+    <string name="alarm_alert_dismiss_text">跳過</string>
+    <string name="alarm_alert_snooze_text">"貪睡"</string>
+    <!-- Telephony -->
+    <string name="keyguard_password_entering_puk_code">"輸入 PUK 碼"</string>
+    <string name="keyguard_password_wrong_puk_code">"PUK 碼錯誤！"</string>
+    <string name="invalidPuk">"輸入 8 個數字。"</string>
+    <string name="pin_pass">代碼接受</string>
+    <string name="keyguard_password_enter_new_pin_code">"輸入新 PIN 碼"</string>
+    <string name="keyguard_password_Confirm_pin_code">"確認新 PIN 碼"</string>
+    <string name="sim_permanently_locked">"PUK 碼已輸入錯誤 10 次，SIM 卡已被永久鎖定"</string>
+    <string name="retries_left">"剩餘次數<xliff:g id="number">%d</xliff:g>"</string>
+    <string name="simlock_slot_locked_message">此插槽已永久上鎖。</string>
+    <string name="simlock_entersimmelock">"輸入 SIM ME 鎖"</string>
+    <string name="slot_id">插槽 <xliff:g id="number">%d</xliff:g>:</string>
+    <string name="new_simcard">新SIM卡</string>
+    <string name="lockscreen_missing_sim_dialog_message">"SIM 卡已取出。請將 SIM 卡妥善插入。"</string>
+    <string name="puk_pass">PIN碼解鎖</string>
+    <string name="sim_card_changed_dialog_title">SIM 卡已改</string>
+    <string name="change_setting_for_onenewsim">偵測到新的SIM，卡被命名為</string>
+    <string name="change_setting_for_twonewsim">偵測到新的SIM，卡被命名為</string>
+    <string name="sim_card_removed">SIM 卡已移除。</string>
+    <string name="sim_card_swapped">SIM 卡已交換。</string>
+    <string name="change_settings">變更設定</string>
+    <string name="keyguard_voice_call">語音通話：</string>
+    <string name="keyguard_sms">簡訊：</string>
+    <string name="keyguard_data">行動網路：</string>
+    <string name="dismiss">跳過</string>
+    <string name="keyguard_wrong_code_input">錯誤碼。</string>
+    <string name="keyguard_code_length_prompt">輸入4-8個數字。</string>
+    <string name="keyguard_code_donnot_mismatch">不符合。</string>
+    <string name="network_searching">搜尋新的網路</string>
+    <string name="searching_simcard">檢測中...</string>
+    <string name="keyguard_close">關閉</string>
+    <string name="default_sim_setting_prompt">目前預設SIM卡設定為：</string>
+    <string name="keyguard_video_call">視訊通話：</string>
+    <string name="invalid_sim_title">SIM 卡有誤</string>
+    <string name="invalid_sim_message">UIM/SIM 卡無法辨識</string>
+    <string name="lockscreen_sim_locked_message_short">"SIM 卡鎖定"</string>
+    <!-- UnreadEvent -->
+    <!-- Utils -->
+    <string name="keyguard_alwaysask">每次詢問</string>
+    <string name="keyguard_data_none">關閉</string>
+    <string name="keyguard_sim_auto">自動</string>
+    <string name="keyguard_internal_call">行動網路</string>
+    <string name="keyguard_not_set">未設定</string>
+    <!-- VoiceUnlock -->
+    <string name="voice_unlock_service_error">語音解鎖服務錯誤。</string>
+    <string name="voice_unlock_password_wrong">抱歉，無法辨識您的聲音。</string>
+    <string name="voice_unlock_noisy">太吵，聽不清楚您的聲音。</string>
+    <string name="voice_unlock_weak">聽不到您的聲音。</string>
+    <string name="voice_unlock_media_playing">媒體播放中會停用語音解鎖功能。</string>
+    <string name="voiceunlock_multiple_failures">超過語音解鎖次數上限</string>
+    <!-- DM Lock -->
+    <string name="dm_prompt">終端已鎖定</string>
+    <string name="ppl_prompt">請輸入防盜密碼</string>
+    <!-- Tablet -->
+    <string name="sd_accessing_swtich_user_title">切換用戶？</string>
+    <string name="sd_accessing_swtich_user_message">機主帳戶下尚未保存的數據可能會丟失或損壞。</string>
+    <!-- Misc -->
+</resources>

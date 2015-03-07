@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_advanced_settings">"Lisäasetukset"</string>
+    <string name="bluetooth_profile_ftp">"Tiedostonsiirto"</string>
+    <string name="bluetooth_ftp_profile_summary_use_for">Käytä tiedostonsiirtoon</string>
+    <string name="bluetooth_ftp_profile_summary_connected">"Yhdistetty tiedostonsiirtoon"</string>
+    <string name="mtp_transfer_unmount_error_text">SD-korttia ei voi poistaa käytöstä tiedostonsiirron aikana</string>
+    <string name="mtp_transfer_erase_error_text">SD-korttia ei voi tyhjentää tiedostonsiirron aikana</string>    
+    <string name="launch_error">"Sovellusta ei voi käynnistää!"</string>
+    <string name="dlg_confirm_unmount_usb_title" product="default">Otetaanko USB-tallennusväline pois käytöstä?</string>
+    <string name="dlg_confirm_unmount_usb_text" product="default">Jos otat USB-tallennusvälineen pois käytöstä, jotkin käyttämäsi sovellukset pysähtyvät etkä voi käyttää niitä ennen kuin otat USB-tallennusvälineen uudelleen käyttöön.</string>
+    <string name="dlg_error_unmount_usb_title" product="default"/>
+    <string name="dlg_error_unmount_usb_text" product="default">"USB-laitteen käytöstä poistaminen epäonnistui. Yritä myöhemmin uudelleen."</string>   
+    <string name="unmount_usb_inform_text" product="default">USB-tallennusväline otetaan pois käytöstä.</string>
+    <string name="sd_eject_usbstorage" product="default">"Poista USB-tila käytöstä"</string>
+    <string name="sd_eject_usbstorage_summary" product="default">Ota USB-tallennusväline pois käytöstä voidaksesi poistaa sen turvallisesti</string>
+    <string name="sd_mount_usbstorage" product="default">"Ota USB-tila käyttöön"</string>
+    <string name="sd_insert_usb_summary" product="default">"Liitä USB-tallennustila"</string>
+    <string name="usb_ums_title">"USB-tila"</string>
+    <string name="usb_ums_summary">"XP suositeltava. Antaa siirtää tiedostoja tietokoneen ja Android-laitteen välillä."</string>
+    <string name="usb_charge_title">Vain lataus</string>
+    <string name="usb_charge_summary">Pysäytä kaikki USB-toiminnot. Nopeuttaa USB-lataamista ja pienentää virrankulutusta.</string>
+    <string name="NI_Request_ID">Pyytäjän tunnus</string>
+    <string name="NI_Request_ClientName">Asiakkaan nimi</string>
+    <string name="agps_str_verify">Varmennus</string>
+    <string name="agps_str_notify">Ilmoitus</string>
+    <string name="agps_OK">"OK"</string>
+    <string name="agps_str_allow">"Salli"</string>
+    <string name="agps_str_deny">"Estä"</string>
+    <string name="AGPS_DEFAULT_STRING">A-GPS-oletusmerkkijono</string>
+    <string name="AGPS_NOTIFY_ONLY">Sijaintipyyntöilmoitus</string>
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">Sijaintipyyntö (Salli, jos ei vastausta)</string>
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">Sijaintipyyntö (Kiellä, jos ei vastausta)</string>
+    <string name="AGPS_NOTIFY_PRIVACY">Sijaintipyyntö (Tietosuoja)</string>    
+    <string name="ring_summary">Soita</string>
+    <string name="ring_vibrate_summary">Soitto ja värinä</string>
+    <string name="silent_summary">Vain äänetön</string>
+    <string name="meeting_summary">Vain värinä</string>
+    <string name="outdoor_summary">Voimakkain soitto ja värinä</string>
+    <string name="audio_profile_reset">"Palauta"</string>
+    <string name="audio_profile_add">"Lisää"</string>
+    <string name="audio_profile_enable">"Ota käyttöön"</string>
+    <string name="audio_profile_rename">"NIMEÄ UUDELLEEN"</string>
+    <string name="audio_profile_delete">"Poista"</string>
+    <string name="audio_profile_message_reset">Kaikki audioprofiiliasetukset nollataan oletuksiin</string>
+    <string name="audio_profile_message_rename">Syötä uusi profiilinimi</string>
+    <string name="audio_profile_message_name_error">Syötetty nimi on jo olemassa</string>  
+    <string name="audio_profile_message_name_length_wrong">Nimessä on oltava vähintään yksi kirjain</string>
+    <string name="audio_profile_message_delete">Profiili <xliff:g id="profile">%s</xliff:g> on poistettu</string>
+    <string name="audio_profile_message_overflow">Sinulle on sallittu vain 6 mukautetun profiilin lisääminen</string>
+    <string name="ok">"OK"</string>
+    <string name="audio_profile_category_custom_title">Käyttäjän määrittämät profiilit</string>
+    <string name="audio_profile_category_predefine_title">Esiasetetut profiilit</string>
+    <string name="general_settings_title">"Yleiset"</string>
+    <string name="silent_settings_title">"Äänetön"</string>
+    <string name="meeting_settings_title">Kokous</string>
+    <string name="outdoor_settings_title">Ulkoilma</string>
+    <string name="apn_predefine_change_dialog_notice">Haluatko varmasti tallentaa? Mukautukset oletus APN-nimiin voi aiheuttaa yhteysongelmia!"</string>    
+    <string name="sound_category_feedback_title">"Järjestelmä"</string>
+    <string name="sound_category_calls_title">Tulevat puhelut</string>
+    <string name="voice_call_title">Äänipuhelun soittoääni</string>
+    <string name="voice_call_summary">"Aseta äänipuheluiden oletussoittoääni"</string>
+    <string name="video_call_title">Videopuhelun soittoääni</string>
+    <string name="video_call_summary">Aseta videopuheluiden oletussoittoääni</string>
+    <string name="sip_call_title">SIP-puhelun soittoääni</string>
+    <string name="sip_call_summary">Aseta SIP-puheluiden oletussoittoääni</string>
+    <string name="Phone_vibrate_summary">Laitteen värinä puheluiden tullessa</string>
+    <string name="vibrate_title">"Värinä"</string>
+    <string name="audio_profile_settings_title">Audioprofiilit</string>
+    <string name="sim_status_title">SIM-tila</string>
+    <string name="sim_status_summary">SIM-korttiin liittyvät tiedot</string>
+    <string name="status_imei_slot1">IMEI (Paikka1)</string>
+    <string name="status_imei_sv_slot1">IMEI SV (Paikka1)</string>
+    <string name="status_imei_slot2">IMEI (Paikka2)</string>
+    <string name="status_imei_sv_slot2">IMEI SV (Paikka2)</string>
+    <string name="status_min_number_slot1">MIN (Paikka1)</string>
+    <string name="status_prl_version_slot1">PRL-versio (Paikka1)</string>
+    <string name="status_meid_number_slot1">MEID (Paikka1)</string>
+    <string name="status_min_number_slot2">MIN (Paikka2)</string>
+    <string name="status_prl_version_slot2">PRL-versio (Paikka2)</string>
+    <string name="status_meid_number_slot2">MEID (Paikka2)</string>
+    <string name="slot_status_title">"IMEI-tiedot"</string>
+    <string name="slot_status_summary">"IMEI-numeroon liittyvät tiedot"</string> 
+    <string name="custom_build_version">Mukautettu koontiversio</string>
+    <string name="software_update">Ohjelmistopäivityspalvelu</string>
+    <string name="mota_system_update_summary">"Tarkista järjestelmäpäivitys palvelimella"</string>
+    <string name="software_updates_more_title">Ohjelmistopäivitykset</string>
+    <string name="software_updates_more_summary">Tarkista ohjelmiston uusi versio</string>
+    <string name="software_updates_scomo_summary">Tarkista sovelluksen uusi versio</string>
+    <string name="scomo_settings_title">Ohjelmistopäivityspalvelu</string>
+    <string name="screen_timeout_CU">Näytön aikakatkaisu</string>
+    <string name="landscape_launcher_title">Landscape Launcher</string>
+    <string name="landscape_launcher_none">"-"</string>
+    <string name="tvout_settings">TV-lähtö</string>
+    <string name="tvout_settings_summary">TV out -asetukset</string>
+    <string name="tv_system_title">TV-järjestelmä</string>
+    <string name="hdmi_settings">HDMI-asetukset</string>
+    <string name="hdmi_settings_summary">Napsauta määrittääksesi HDMI:n</string>
+    <string name="hdmi_audio_toggler">Audio</string>
+    <string name="hdmi_video_toggler">"Video"</string>
+    <string name="hdmi_video_resolution">Videon resoluutio</string>
+    <string name="hdmi_auto">"auto"</string>
+    <string name="display_settings_scences_title">Näkymät</string>
+    <string name="mtk_thememanager_title">Teema</string>
+    <string name="default_name">"Oletus"</string>
+    <string name="custom_theme_name">Uusi [%1$s]</string>
+    <string name="loading">Ladataan…</string>
+    <string name="sim_enter_pin_hints">(Syötä 4–8 numeroa)</string>
+    <string name="sim_remain">(Jäljellä:<xliff:g id="remains">%d</xliff:g>)</string>  
+    <string name="gps_time_sync_attention_gps_on">GPS-kiinnityksen saaminen kestää enintään 1 minuutin. Lisäksi GPS ei ehkä pysty tarjoamaan aikaa heikon signaaliympäristön vuoksi.\n\nHaluatko varmasti käyttää GPS:n tarjoamaa aikaa?</string>
+    <string name="gps_time_sync_attention_gps_off">Voidaksesi käyttää GPS:n tarjoamaa aikaa, GPS on otettava ensin käyttöön. GPS-kiinnityksen saaminen kestää sen jälkeen enintään 1 minuutin. Lisäksi GPS ei ehkä pysty tarjoamaan aikaa heikon signaaliympäristön vuoksi. \n\nHaluatko varmasti ottaa  GPS:n nyt ja odottaa GPS:n tarjoamaa aikaa?</string>
+    <string name="drm_settings_title">DRM-nollaus</string>
+    <string name="drm_settings_summary">Poistaa kaikki DRM-lisenssit</string>
+    <string name="drm_reset_dialog_msg">Tämä toiminta poistaa kaikki lisenssit tältä laitteelta. Haluatko jatkaa?</string>
+    <string name="drm_reset_toast_msg">Lisenssien poistaminen onnistui.</string>
+    <string name="gemini_sim_management_title">SIM-hallinta</string>
+    <string name="gemini_sim_info_title">SIM-TIEDOT</string>  
+    <string name="gemini_default_sim_title">"Oletusasetukset"</string>  
+    <string name="gemini_general_settings_title">"Yleiset asetukset"</string>
+    <string name="gemini_roaming_settings_title">"Verkkovierailu"</string>    
+    <string name="gemini_data_roaming_title">"Verkkoyhteys roaming-tilassa"</string>  
+    <string name="gemini_data_roaming_summary">Yhdistä datapalveluihin verkkovierailtaessa</string>  
+    <string name="gemini_roaming_reminder_title">Näytä verkkovierailumuistutus</string>  
+    <string name="gemini_roaming_reminder_summary">Näytä SIM-käyttöön perustuva SIM-ehdotus</string>      
+    <string name="gemini_contacts_sim_title">"Yhteystiedon sidonta"</string>      
+    <string name="gemini_contacts_sim_summary">Sido yhteystiedot määrättyyn SIM-korttiin</string> 
+    <string name="gemini_voice_call">Äänipuhelu</string>        
+    <string name="gemini_video_call">Videopuhelu</string>   
+    <string name="gemini_data_connection">Datayhteys</string>   
+    <string name="gemini_msg">Viestintä</string>       
+    <string name="gemini_default_sim_always_ask">Kysy aina</string>    
+    <string name="gemini_intenet_call">Internet-puhelu</string>    
+    <string name="gemini_default_sim_never">"himmein"</string>       
+    <string name="gemini_default_sim_3g_off">"himmein"</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Verkkotila</string>
+    <string name="gemini_gsm_umts_network_preferneces_summary">Ei vielä otettu käyttöön!</string>
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">Verkkotila</string>
+    <string name="gemini_3g_service_settings">3G-palvelu</string>
+    <string name="gemini_sim_mode_progress_activating_message">Aktivoidaan\u2026</string>
+    <string name="gemini_sim_mode_progress_deactivating_message">Poistetaan aktivointia\u2026</string>
+    <string name="gemini_sim_mode_change_failed_message">Epäonnistui. Verkkovirhe.</string>
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">"Lentokonetila"</string>
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">Puhelin siirtyy lentokonetilaan. Kaikki langattomat yhteydet otetaan pois käytöstä. Haluatko jatkaa?</string>
+    <string name="gemini_sim_info_editor_name">Muokkaa SIM-nimeä</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Tallennus epäonnistui</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">SIM-kortin nimi on jo käytössä</string>  
+    <string name="gemini_sim_info_editor_number">Syötä puhelinnumero</string>  
+    <string name="gemini_sim_info_editor_color">Aseta taustan väri</string> 
+    <string name="gemini_sim_info_editor_number_display_format">Näytä numerot</string>    
+    <string name="gemini_no_sim_indicator">"Ei SIM-korttia"</string>     
+    <string name="gemini_sim_list_default_title">SIM-korttiluettelo</string>       
+    <string name="gemini_data_connection_progress_message">"SIM-kortin vaihtaminen kestää noin 10 sekuntia. Odota..."</string>
+    <string name="gemini_3g_modem_switching_message">"SIM-kortin vaihtaminen kestää noin 10 sekuntia. Odota..."</string>
+    <string name="gemini_3g_modem_switch_confirm_message">"Tämä vaihtaa myös 3G-palvelun tähän SIM-korttiin. Haluatko jatkaa? Varmista myös, että tämä valittu SIM-kortti tukee 3G-palvelua."</string>
+    <string name="gemini_3g_disable_warning">"3G-palvelu ei ole käytettävissä tässä valitussa SIM-kortissa. Tämä voi ladata dataa hitaammin. Voit muuttaa 3G-palveluasetuksia kohdassa Asetukset &gt; Langaton ja verkot &gt; Matkapuhelinverkot."</string>
+    <string name="gemini_3g_disable_warning_cu">"3G-palvelu ei ole käytettävissä tässä valitussa SIM-kortissa. Tämä voi ladata dataa hitaammin. Voit muuttaa 3G-palveluasetuksia kohdassa Asetukset &gt; SIM-hallinta."</string>
+    <string name="gemini_wap_push_permission_head">Kun olet ottanut käyttöön Auto-push-palvelun, voit vastaanottaa push-viestejä, saada aikaan paikallisten sovellusten toimintaa ja tuottaa dataliikennettä. Tavallisia auto-push-palveluja ovat sähköposti-ilmoitus, laitehallinta, palvelun ilmaisin, palvelun lataaminen ja valmistelu-push.</string>      
+    <string name="gemini_wap_push_permission_tail">Hyväksytkö tämän sopimuksen?</string>  
+    <string name="gemini_wap_push_permission_title">Auto-push-palvelusopimus</string>   
+    <string name="gemini_wap_push_permission">Auto-push-palvelu</string>   
+    <string name="gemini_3g_disable_warning_case0">"Sinun on otettava ensin käyttöön data-verkkovierailu tälle SIM-kortille, mikä voi aiheuttaa merkittäviä verkkovierailuveloituksia! Haluatko varmasti ottaa käyttöön data-verkkovierailun ja valita tämän SIM-kortin?"</string>
+    <string name="gemini_3g_disable_warning_case1">"3G-palvelu ei ole käytettävissä tässä valitussa SIM-kortissa. Tämä voi ladata dataa hitaammin. Voit muuttaa 3G-palveluasetuksia kohdassa Asetukset &gt; Langaton ja verkot &gt; Matkapuhelinverkot. Haluatko varmasti valita tämän SIM-kortin?"</string>
+    <string name="gemini_3g_disable_warning_case2">"3G-palvelu ei ole käytettävissä tällä valitulla SIM-kortilla. Tämä voi ladata dataa hitaammin. Voit muuttaa 3G-palveluasetuksia kohdassa Asetukset &gt; SIM-hallinta. Haluatko varmasti valita tämän SIM-kortin?"</string>
+    <string name="gemini_3g_disable_warning_case3">"Sinun on otettava ensin käyttöön data-verkkovierailu tälle SIM-kortille, mikä voi aiheuttaa merkittäviä verkkovierailuveloituksia! Lisäksi 3G-palvelu ei ole käytettävissä tällä valitulla SIM-kortilla. Tämä voi ladata dataa hitaammin. Voit muuttaa sitä kohdassa Asetukset &gt; Langaton ja verkot &gt; Matkapuhelinverkot. Haluatko varmasti ottaa käyttöön data-verkkovierailun ja valita tämän SIM-kortin?"</string>
+    <string name="gemini_3g_disable_warning_case4">"Sinun on otettava ensin käyttöön data-verkkovierailu tälle SIM-kortille, mikä voi aiheuttaa merkittäviä verkkovierailuveloituksia! Lisäksi 3G-palvelu ei ole käytettävissä tällä valitulla SIM-kortilla. Tämä voi ladata dataa hitaammin. Voit muuttaa sitä kohdassa Asetukset &gt; SIM-hallinta. Haluatko varmasti ottaa käyttöön data-verkkovierailun ja valita tämän SIM-kortin?"</string>
+    <string name="gemini_sim_tether_info_title">Yhteystiedot ja SIM</string>
+	<string name="gemini_sim_tether_add_record">Lisää yhteystietoja</string>
+    <string name="gemini_sim_add_title">"Yhteystiedot"</string>
+    <string name="gemini_sim_tether_norecord">"Sinulla ei ole yhtään nykyiseen SIM-korttiin liittyvää yhteystietonumeroa.\n\nKosketa Lisää yhteystietoja -painiketta valitaksesi yhteystiedot, jotka haluat sitoa tähän SIM-korttiin"</string>
+    <string name="gemini_sim_tether_nocontacts">"Puhelimessasi ei ole käytettävissä olevia yhteystietoja. Lisää ensin uusi yhteystieto tai tuo yhteystietoja"</string>
+    <string name="gemini_sim_tether_no_assc_contacts">"Yhteystietojen sitominen onnistui"</string>
+    <string name="gemini_sim_tether_disassociate">Poista liitäntä</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> valittu</string>
+    <string name="gemini_sim_tether_unselect_all">Poista valinta kaikista</string>
+    <string name="gemini_sim_tether_nocontact_confirm">"OK"</string>
+    <string name="gemini_sim_tether_select_all">"Valitse kaikki"</string>
+    <string name="gemini_sim_tether_select_ok">"Tallenna"</string>
+    <string name="gemini_sim_tether_select_cancel">"Peruuta"</string>
+    <string name="gemini_sim_tether_revert_title">"Huomio"</string>
+    <string name="gemini_sim_tether_revert_message">Määrityksiäsi on muutettu eikä niitä ole vielä tallennettu. Haluatko varmasti poistua tallentamatta?</string>
+    <string name="gemini_tether_saving_progress_message">Tallennetaan...</string>
+    <string name="gemini_sim_lock_sim1_tab_tag">SIM1</string>
+    <string name="gemini_sim_lock_sim1_tab_label">SIM1</string>
+    <string name="gemini_sim_lock_sim2_tab_tag">SIM2</string>
+    <string name="gemini_sim_lock_sim2_tab_label">SIM2</string>
+    <string name="gemini_sim_lock_simid_error">Epäonnistui. SIM-tunnus ei kelpaa.</string>
+    <string name="gemini_sim_lock_no_insert_message_sim">SIM-korttia ei ole liitetty.</string>
+    <string name="gemini_sim_lock_radio_off_message_sim1">Radio1 on pois päältä.</string>
+    <string name="gemini_sim_lock_radio_off_message_sim2">Radio2 on pois päältä.</string>
+    <string name="akp_installer_settings_title">APK-asennusohjelma</string>
+    <string name="akp_installer_settings_summary">Asenna APK puhelimen tallennustilasta ja SD-kortilta</string>
+    <string name="launch_main_label">Käynnistä sovellus</string>
+    <string name="launch_main">Käynnistä sovellus päätoiminnalla</string>
+    <string name="launch_activitie">Käynnistä</string>
+    <string name="move_app_to_where">Siirrä sijaintiin <xliff:g id="location">%s</xliff:g></string>
+    <string name="wifi_no_cert_for_wapi">Parhaillaan yhdistettävälle tukiasemalle ei löydy sertifikaattia</string>
+    <string name="sim_slot">SIM-korttipaikka</string>
+    <string name="eap_sim_slot_0">Sim-korttipaikka 1</string>
+    <string name="eap_sim_slot_1">Sim-korttipaikka 2</string>
+    <string name="eap_sim_aka_airplanemode">Kytke lentokonetila pois päältä käyttääksesi EAP-SIM/AKAa</string>
+    <string name="eap_sim_aka_no_sim_error">Sinun on liitettävä SIM-kortti voidaksesi käyttää EAP-SIM/AKAa</string>	
+    <string name="eap_sim_aka_no_sim_slot_selected">Sinun on valittava SIM-korttipaikka voidaksesi käyttää EAP-SIM/AKAa</string>
+    <string name="wifi_security_wapi_certificate">WAPI-sertifikaatti</string>
+    <string name="wapi_user_certificate">"Käyttäjävarmenne"</string>
+    <string name="wapi_as_certificate">ASE-sertifikaatti</string>   
+    <string name="wifi_hex_password">Heksadesimaalisalasana.</string>
+    <string name="wifi_WEP_transmit_key">Lähetysavain</string>
+    <string name="wifi_WEP_secury_key">Suojausavain</string>
+    <string name="wifi_tether_auto_disable_title">Pidä Wi-Fi-verkkopiste päällä</string>
+    <string name="wifi_tether_auto_channel_text">"auto"</string>
+    <string name="wifi_tether_auto_channel_width_text">Automaattinen 20/40 MHz</string>
+    <string name="wifi_channel">Ensisijainen kanava</string>
+    <string name="wifi_channel_width">Kanavanleveys</string>
+    <string name="pch_toggle_title">GPRS-siirron ensisijainen tila</string>
+    <string name="pch_data_prefer_summary_off">Datan ensisijaisuus</string>
+    <string name="pch_call_prefer_summary_on">Puhelun ensisijaisuus</string>
+    <string name="pch_warning_message">Datansiirtonopeus laskee.</string> 
+    <string name="schedule_power_on_off_settings_title">Ajastettu virta päälle ja pois päältä</string>
+    <string name="usb_bicr_title">Sisäinen CD-ROM</string>
+    <string name="usb_bicr_summary">Näytä virtuaalinen CD-ROM-asema, joka sisältää hyödyllisiä ohjelmistoja.</string>
+    <string name="select_memory">Oletuskirjoituslevy</string>
+    <string name="ipo_title">Pikakäynnistys</string>
+    <string name="ipo_summary_on">Ota pikakäynnistys pois käytöstä</string>
+    <string name="ipo_summary_off">Ota pikakäynnistys käyttöön</string>
+    <string name="agps_profile_select_Title">SUPL-profiili</string>
+    <string name="location_settings_label">Sijainti-insinööri-tila</string>
+    <string name="audio_profile_error">"Virhe"</string>  
+    <string name="battery_percent">Akun varausprosentti</string>
+    <string name="rcse_settings_title">Joyn settings</string>
+    <string name="MobileNetwork_SIM1_Active">SIM1 on aktiivinen</string>
+    <string name="MobileNetwork_SIM2_Active">SIM2 on aktiivinen</string>
+    <string name="dlg_mount_external_sd_title" product="default">Otetaanko SD-kortti käyttöön?</string>
+    <string name="dlg_mount_external_sd_summary" product="default">Jos otat SD-kortin käyttöön, jotkut käyttämäsi sovellukset pysähtyvät.</string>
+    <string name="tethered_ipv6_title">Verkkopiste- ja jakamisasetukset</string>
+    <string name="tethered_ipv4v6">(IPv6 käytettävissä)</string>
+    <string name="tethered_ipv6">(Vain IPv6 käytettävissä)</string>
+    <string name="tethered_ipv4">(IPv6 ei käytettävissä)</string>
+    <string name="tethering_apn_settings_title">APN-asetukset</string>
+    <string name="tethering_apn_settings_summary">Määritä APN jakamista varten</string> 
+    <string name="usb_tether_type_title">USB-jakamistyyppi</string> 
+    <string name="usb_connect_as_cdrom_category">"Yhdistä CD-ROM-asemana"</string>
+    <string name="wifi_tether_setting_title">Perusasetukset</string>
+    <string name="wifi_tether_wps_connect_title">Yhdistä WPS</string>
+    <string name="wifi_tether_wps_connect_summary">Valitse suojattu Wi-Fi-asetustila jatkaaksesi</string>
+    <string name="wifi_tether_wps_pin_error">PIN ei kelpaa</string>
+    <string name="wifi_tethering_title">Wi-Fi-verkkopiste</string>
+    <string name="wifi_ap_wps_dialog_title">Yhdistä WPS</string>
+    <string name="wifi_ap_wps_mode_title">WPS-tila</string>
+    <string name="wifi_ap_wps_pin_title">Näppäile PIN asiakkaasta</string>
+    <string name="wifi_ap_reset_OOB_title">Nollaa verkko-SSID, suojaus ja salasana oletuksiin (heti käytettävissä oleva WPS-määritys)</string>
+    <string name="wifi_ap_reset_OOB">Nollaa OOB</string>
+    <string name="wifi_ap_max_connection_title">Yhteyksien enimmäismäärä</string>
+    <string name="wifi_ap_connected_title">Yhdistetyt käyttäjät</string>
+    <string name="wifi_ap_blocked_title">Estetyt käyttäjät</string>
+    <string name="wifi_ap_client_block_title">Estä</string>
+    <string name="wifi_ap_client_unblock_title">Kumoa esto</string>
+    <string name="wifi_ap_client_details_title">Tiedot</string>
+    <string name="wifi_ap_client_mac_label">MAC-osoite:</string>
+    <string name="wifi_ap_client_ip_label">IP-osoite:</string>
+    <string name="usb_sharing_title">USB-internet</string>
+    <string name="usb_sharing_summary">Windows PC -internetin jakaminen USB-kaapelilla</string>
+    <string name="usb_sharing_info_title">Internet-läpäisy</string>
+    <string name="usb_sharing_info_step_1">"1. Avaa verkkoyhteydet Windows PC -tietokoneessa."</string>
+    <string name="usb_sharing_info_step_2">"2. Napsauta hiiren oikealla painikkeella yhteyttä, jonka haluat jakaa, ja napsauta sitten Ominaisuudet."</string>
+    <string name="usb_sharing_info_step_3">"3. Napsauta Jakaminen-välilehteä ja valitse 'Salli muiden verkkokäyttäjien muodostaa yhteys tämän tietokoneet internet-yhteydellä'(valitse äsken lisätty verkko, joka edustaa USB-internetiä, jos 'Kotiverkkoyhteys' tulee näkyviin)."</string>
+    <string name="wifi_ap_bandwidth_title">Kaistanleveyden käyttö</string>
+    <string name="wifi_ap_bandwidth_enable">Ota käyttöön kaistanleveyden rajoittaminen</string>
+    <string name="wifi_ap_bandwidth_chart_title">Reaaliaikainen datanopeus</string>
+    <string name="wifi_ap_bandwidth_chart_summary">Puhelimesi mittaama. Palveluntarjoajan datanopeustulokset voivat olla erilaisia.</string>
+    <string name="wifi_wps_fail_error">Wi-Fi-suojattu asetus epäonnistui. Yritä uudelleen.</string>
+    <string name="wifi_ap_title">Tilastot</string>
+    <string name="wifi_ap_time_duration">Kesto:<xliff:g id="time">%1$s</xliff:g></string>
+    <string name="wifi_ap_total_data">Käytetty data yhteensä:<xliff:g id="time">%1$s</xliff:g></string>
+    <string name="wifi_ap_bandwidth_megabyteShort">MB/s</string>
+    <string name="wifi_ap_bandwidth_KbyteShort">KB/s</string>
+    <string name="cpu_dtm_title">Suorittimen virransäästötila</string>
+    <string name="cpu_dtm_summary">Rajoita suorittimen enimmäissuorituskykyä pidentääksesi akkukestoa ja alentaaksesi laitteen lämpötilaa.</string>      
+    <string name="wifi_advanced_ipv4_address_title">IPv4-osoite</string>
+    <string name="wifi_advanced_ipv6_address_title">IPv6-osoite</string>
+    <string name="wifi_ipv4_address">IPv4-osoite</string>
+    <string name="wifi_ipv6_address">IPv6-osoite</string> 
+    <string name="mtk_datausage_show_on_lockscreen">Näytä lukitusnäytöllä</string>
+    <string name="mtk_datausage_update">Päivitä datankäyttö</string>
+    <string name="mtk_datausage_update_set">"Päivitä"</string>
+    <string name="mtk_datausage_amount_editor_title">Käytetyn datan määrä</string>
+    <string name="mtk_datausage_usage_list">Datankäyttö sovelluksen mukaan</string>
+    <string name="mtk_datausage_diff_byte">Datankäyttöerot</string>
+    <string name="mtk_datausage_overview_tab">Yleiskatsaus</string>
+    <string name="mtk_datausage_overview_wifi_today">"Tämä päivä"</string>
+    <string name="mtk_datausage_overview_wifi_total">Yhteensä</string>
+    <string name="mtk_datausage_overview_mobile_title">"Mobiili"</string>
+    <string name="mtk_datausage_overview_mobile_usage"><xliff:g id="actual">%s</xliff:g> pois <xliff:g id="limit">%s</xliff:g></string>
+    <string name="mtk_datausage_overview_mobile_usage_warning">Rajan ulkopuolella <xliff:g>%s</xliff:g></string>
+    <string name="display_personalize">Mukauta</string>
+    <string name="display_default">"Ruutu"</string>
+    <string name="sound_enhancement_title">Äänen parannus</string> 
+    <string name="music_plus_summary">Kuulokkeiden äänenparannus</string> 
+    <string name="auto_backlight_title">Säästävä taustavalo</string>
+    <string name="auto_backlight_summary">Sopeuta taustavalo automaattisesti virran säästämiseksi</string> 
+    <string name="beam_mgmt_tab_download_title">Lähetä edelleen tarkista SS-viesti vastaanotettu</string>
+    <string name="beam_mgmt_tab_upload_title">"Toiminto kerää tietoja nykyisestä laitteen tilasta ja lähettää ne sähköpostitse. Kestää hetken aikaa, ennen kuin virheraportti on valmis lähetettäväksi, ole kärsivällinen."</string>
+    <string name="beam_share_mgmt_notification_ticker">Langattoman jakamisen historia</string>
+	<string name="beam_share_mgmt_notification_title">Langattoman jakamisen historia</string>
+	<string name="beam_share_mgmt_notification_message">"Valitse näyttääksesi Langattoman jakamisen historian."</string>
+    <string name="beam_share_mgmt_tab_menu_clear">Tyhjennetäänkö koko historia?</string>
+    <string name="beam_share_open_file_dialog_title">Tiedostoa ei voida avata</string>
+    <string name="beam_share_open_file_unsupported_message">Tiedostomuoto ei ole tuettu.</string>
+	<string name="beam_share_open_file_not_found_message">"Tiedostoa ei löydy: <xliff:g id="file_name">%1$s</xliff:g></string>
+	<string name="beam_share_transfer_fail_dialog_title">"Langaton siirtäminen epäonnistui"</string>
+	<string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g>-kohteen lähettäminen epäonnistui."</string>
+	<string name="beam_share_resend_dialog_ok_button">"Yritä uudelleen"</string>
+	<string name="beam_share_show_received_files_menu">"Näytä vastaanotetut tiedostot"</string>
+	<string name="beam_share_history_title">Langattoman jakamisen historia</string>
+    <string name="beam_share_clear_confirm_dialog_title">Tyhjennä kaikki</string>
+    <string name="beam_share_clear_confirm_dialog_message">Tyhjennetäänkö koko historia?</string>
+    <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g>-kohteen vastaanottaminen epäonnistui."</string>        
+    <string name="beam_share_clear_item_dailog_title">"Poista"</string>
+    <string name="beam_share_clear_item_dailog_message">Kohde poistetaan.</string>
+    <string name="nfc_p2p_mode">P2P-tila</string>
+    <string name="nfc_p2p_mode_summary">Lähetä tai vastaanota Sovellus-sisältö</string>
+    <string name="nfc_tag_mode_category">Tunnistetila</string>
+    <string name="nfc_rw_tag_title">Tunnisteen lukeminen ja kirjoittaminen</string>
+    <string name="nfc_rw_tag_summary">Lue tai kirjoita tunnisteeseen</string>
+    <string name="nfc_card_emulation_category_title">kortin emulointitila</string>
+    <string name="nfc_card_emulation">Kortin emulointi</string>
+    <string name="card_emulation_settings_category_title">käytettävissä oleva turvallisuuselementti</string>
+    <string name="card_emulation_settings_no_element_found">Ei käytettävissä olevaa turvallisuuselementtiä.</string>
+    <string name="card_emulation_settings_off_text">Nähdäksesi käytettävissä olevat turvallisuuselementit, kytke Kortin emulointi päälle.</string>
+    <string name="card_emulation_turning_off_text">Kytketään Kortin emulointia pois päältä...</string>
+    <string name="card_emulation_turning_on_text">Kytketään Kortin emulointia päälle...</string>
+    <string name="card_emulation_switch_error_title">"Virhe"</string>
+    <string name="card_emulation_switch_error_message">Vaihtaminen <xliff:g id="card_mode">%1$s</xliff:g>-tilaan epäonnistui.</string>
+    <string name="card_emulation_sim_not_supported_message"><xliff:g id="sim_description">%1$s</xliff:g> ei tue NFC-kortin emulointitoimintoa.</string>
+    <string name="card_emulation_two_sim_not_supported_message">SIM1,SIM2 do not support NFC Card emulation function.</string>
+    <string name="voice_unlock_backup_info_summary">Kun Ääniavaus ei tunnista sinua, kuinka haluat avata?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">Ääniavaus</string>
+    <string name="voice_ui_title">"Ääniohjaus"</string>
+    <string name="voice_ui_app_category">"Sovelluksia varten"</string>
+    <string name="voice_ui_setting_category">"Yleiset asetukset"</string>
+    <string name="voice_ui_language_title">"Ääniohjauksen kieli"</string>
+    <string name="incoming_call_app_name">"Saapuva puhelu"</string>
+    <string name="alarm_app_name">"Herätykset"</string>
+    <string name="camera_app_name">Käytettävissä kameroiden vaihtamiseen, jos kytketty päälle</string>
+    <string name="music_app_name">"Piirtää soitettavan musiikkiraidan ääniaallot."</string>
+    <string name="incomming_command_summary_format">Voit sanoa <xliff:g id="first">%1$s</xliff:g> tai <xliff:g id="second">%2$s</xliff:g> vastataksesi tai hylätäksesi saapuvat puhelut.</string>
+    <string name="alarm_command_summary_format">Voit sanoa <xliff:g id="first">%1$s</xliff:g> tai <xliff:g id="second">%2$s</xliff:g> ohjataksesi hälytystä.</string>
+    <string name="camera_command_summary_format">Voit sanoa <xliff:g id="first">%1$s</xliff:g> tai <xliff:g id="second">%2$s</xliff:g> kuvataksesi.</string>
+    <string name="music_command_summary_format">Voit sanoa <xliff:g id="first">%1$s</xliff:g> ja <xliff:g id="second">%2$s</xliff:g> ohjataksesi musiikin toistoa.</string>
+    <string name="lock_screen_notifications_title">Lukitusnäytön ilmoitukset</string>
+    <string name="lock_screen_notifications_summary">Näytä ilmoitukset lukitusnäytöllä</string>
+    <string name="lock_screen_style_title">Lukitusnäytön tyyli</string>	
+    <string name="current_suffix">"(Nykyinen)"</string>
+	<string name="lockscreen_style_set">"Aseta lukitusnäyttö"</string>
+	<string name="lockscreen_style_default_desc">"Sovellusten pikakäyttö lukitusnäytössä"</string>
+    <string name="security_not_set">Suojausta ei ole asetettu</string>
+    <string name="status_imei_slot3">IMEI (Paikka3)</string>
+    <string name="status_imei_sv_slot3">IMEI SV (Paikka3)</string>
+    <string name="status_min_number_slot3">MIN (Paikka3)</string>
+    <string name="status_prl_version_slot3">PRL-versio (Paikka3)</string>
+    <string name="status_meid_number_slot3">MEID (Paikka3)</string>
+    <string name="lockdown_vpn_already_connected">VPN-aina päällä on jo otettu käyttöön yhteyttä varten.</string> 
+    <string name="wifi_ap_no_connected">0 yhdistettyä käyttäjää</string>
+    <string name="wifi_ap_no_blocked">0 estettyä käyttäjää</string>
+    <string name="mouse_primary_button_title">Vaihda ensisijaisia ja toissijaisia painikkeita</string>
+    <string name="mouse_primary_button_dialog_title">Vaihda ensisijainen painike</string>
+    <string name="double_click_title">Kaksoisnapsautusnopeus</string>
+    <string name="test_area">TESTIALUE:</string>
+    <string name="double_click_tip">Kaksoisnapsauta tässä</string>
+    <string name="apn_port_warning">Porttiarvon on oltava välillä 1–65535!</string>
+    <string name="usb_tethering_select_version">Valitse PC-järjestelmäversio</string>
+    <string name="oobe_sim_info_title">Hallitse SIM-korttia</string>
+    <string name="oobe_default_sim_title">Aseta oletus-SIM</string>
+    <string name="wfd_change_resolution_menu_title">Muuta kuvatarkkuutta</string>
+    <string name="wifi_hotspot_suspend_optimizations">Wi-Fi-verkkopisteen optimointi</string>
+    <string name="wifi_hotspot_suspend_optimizations_summary">Minimoi akun käyttö, kun Wi-Fi-verkkopiste on päällä</string>
+    <string name="clear_motion_summary">Videon sujuvuuden parannusohjelma</string>
+    <string name="hotknot_explained_description">Salli tietojen vaihto, kun näyttö koskettaa toista laitetta</string>
+    <string name="card_emulation_two_sim_not_supported_message">SIM1 ja SIM2 eivät tue NFC-kortin emulointitoimintoa.</string>
+
+    <string name="passpoint_summary">Yhdistä automaattisesti passpoint-tukiasemiin</string>
+    <string name="passpoint_append_summary">(Passpointin kautta)</string>
+    <string name="passpoint_config_credential_type">Tunnistetyyppi</string>
+    <string name="passpoint_config_eap_method">"EAP-tapa"</string>
+    <string name="passpoint_supported">Tuettu</string>
+    <string name="passpoint_username_pw">Käyttäjänimi/Salasana</string>
+    <string name="passpoint_certificate">Todistus</string>
+
+    <string name="audio_profile_bes_loudness_title">BesLoudness</string>
+    <string name="audio_profile_bes_loudness_summary">Tilavuus tehosterokotus kaiuttimelle</string>
+</resources>

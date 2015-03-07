@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+
+    <string name="onscreenHangupAll">Összes hívás vége</string>
+    <string name="onscreenHangupHolding">Tartott hívás vége</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Aktív hívás vége, várakozó fogadása</string>
+    <string name="onscreenECT">Átadás</string>
+
+    <string name="dm_lock">DM lezárva</string>
+    <string name="dm_unlock">DM kioldva</string>
+
+    <string name="mo_code_unconditional_cf_active">Hívástovábbítás\nfeltétel nélkül aktiválva</string>
+    <string name="mo_code_some_cf_active">Hívástovábbítás\nBe feltételesen</string>
+    <string name="mo_code_call_forwarded">Hívás továbbítva</string>
+    <string name="mo_code_call_is_waiting">Várakoztatott hívás</string>
+    <string name="mo_code_cug_call">Zárt felhasználói csoport</string>
+    <string name="mo_code_outgoing_calls_barred">Kimenő hívások tiltva</string>
+    <string name="mo_code_incoming_calls_barred">Bejövő hívások tiltva a másik félnél</string>
+    <string name="mo_code_clir_suppression_rejected">Hívószám-azonosító szolgáltatást ellenőrzése</string>
+    <string name="mo_code_call_deflected">Összes hívás átirányítva</string>
+    <string name="mt_code_forwarded_call">Továbbított hívás</string>
+    <string name="mt_code_cug_call">Zárt felhasználói csoport</string>
+    <string name="mt_code_call_on_hold">Tartott hívás</string>
+    <string name="mt_code_call_retrieved">Visszakapcsolt hívás</string>
+    <string name="mt_code_multi_party_call">Konferenciahívás</string>
+    <string name="mt_code_on_hold_call_released">Tartott hívás feloldva</string>
+    <string name="mt_code_forward_check_received">Továbbítás ellenőrzés SS üzenet fogadva</string>
+    <string name="mt_code_call_connecting_ect">Hívás átirányítása</string>
+    <string name="mt_code_call_connected_ect">Hívásátirányítás aktív</string>
+    <string name="mt_code_deflected_call">Átirányított hívás</string>
+    <string name="mt_code_additional_call_forwarded">További bejövő hívás továbbítva</string>
+    <string name="mt_code_forwarded_cf">Hívás továbbítva</string>
+    <string name="mt_code_forwarded_cf_uncond">Feltétel nélküli hívástovábbítás</string>
+    <string name="mt_code_forwarded_cf_cond">Feltételes hívástovábbítás</string>
+    <string name="mt_code_forwarded_cf_busy">Foglalt hívás továbbítva</string>
+    <string name="mt_code_forwarded_cf_no_reply">Hívástovábbítás, ha nincs válasz</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Hívástovábbítás, ha nem elérhető</string>
+    
+    <string name="start_record">Rögzítés indítása</string>
+    <string name="stop_record">Felvétel leállítása</string>
+    <string name="str_db_playlist_name">Saját felvételek</string>
+    <string name="alert_device_error">Hiba történt az audió eszközön</string>
+    <string name="ext_media_badremoval_notification_title">SD-kártya váratlanul eltávolítva</string>
+    <string name="error_sdcard_access">Az SD-kártya elérése nem lehetséges</string>
+    <string name="confirm_device_info_full">Az SD-kártyán kevés a hely. A felvétel mentése megtörtént.</string>
+    <string name="confirm_save_info_saved">A felvétel mentése megtörtént</string>
+    <string name="confirm_save_info_saved_to">A felvétel ide lett mentve:</string>
+   
+    <string name="activity_not_found">"Az alkalmazás már nincs telepítve a telefonján."</string>
+    <string name="confirm_3g_switch">Biztosan be akarja állítani a 3G szolgáltatást ezen a SIM-en? Ez a videohívás alapértelmezett SIM-jét is automatikusan ehhez a SIM-hez rendeli.</string>
+    <string name="modem_switching">A SIM váltása kb. 10 másodpercet vesz igénybe. Kérjük, várjon...</string>
+    <string name="confirm_3g_switch_to_off">Biztosan ki akarja kapcsolni a 3G szolgáltatást? Ez a videohívást is automatikusan kikapcsolja.</string>
+    <string name="enable_3G_service">3G engedélyezése</string>
+    <string name="network_forbidden">tiltott</string>
+    <string name="plmn_list_setting_title">Saját beállítások</string>
+    <string name="plmn_list_setting_add_plmn">Új PLMN hozzáadása</string>
+    <string name="callFailed_dsac_vt_incompatible_destination">A videohívás nem állítható be. A videotelefonálás nem támogatott a hívott készüléken. Tárcsázza beszédhívásként?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">A videohívás nem állítható be. A hívott készülék 3G területen kívül van. Tárcsázza beszédhívásként?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">A videohívás nem állítható be. Tárcsázza beszédhívásként?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">Az Ön készüléke 3G területen kívül van. Tárcsázza beszédhívásként?</string>
+    <string name="notification_voicemail">Hangposta</string>
+    <string name="turn_on_3g_service_message">A 3G szolgáltatás ki van kapcsolva. Szeretné most bekapcsolni?</string>
+    <string name="associate_sim_missing_message">"A(z) %1$s SIM nem elérhető. A hívást elindítja innen %2$s"</string>
+    <string name="associate_sim_missing_other">Egyéb</string>
+    <string name="vt_incoming_call">Bejövő videohívás</string>
+
+    <string name="vt_settings">Videó beállítások</string>
+    <string name="vt_local_video_zoom">Helyi videó zoom</string>
+    <string name="vt_local_video_brightness">Helyi videó fényerő</string>
+    <string name="vt_local_video_effect">Helyi videó effektus</string>
+    <string name="vt_local_video_nightmode">Helyi videó éjszakai üzemmód</string>
+    <string name="vt_peer_video_quality">Társ videó minősége</string>
+    <string name="vt_pic_replace_local_description">A kamera használaton kívüli állapotában megjelenítendő kép beállítása</string>
+    <string name="vt_enable_back_camera">Hátsó kamera engedélyezése</string>
+    <string name="vt_enable_back_camera_description">Elérhető a kamerák váltásához, ha be van kapcsolva</string>
+    <string name="vt_peer_video_bigger">A társ videó nagyobb, mint a helyi videó</string>
+    <string name="vt_peer_video_bigger_description">Kapcsolja be, hogy a társ videó nagyobb legyen, mint a helyi videó</string>
+    <string name="vt_outgoing_call">Kimenő videohívás</string>
+    <string name="vt_outgoing_call_description">Helyi videó megjelenítése videohívás közben</string>
+    <string name="vt_incoming_call_description">Helyi videó megjelenítése bejövő videohívás fogadása közben</string>
+    <string name="vt_incoming_showme_ask">Rákérdez</string>
+    <string name="vt_call_settings">Videohívás beállítások</string>
+    <string name="vt_pic_replace_local_default">Alapértelmezett kép</string>
+    <string name="vt_pic_replace_local_freezeme">Saját kép kimerevítése</string>
+    <string name="vt_pic_replace_local_mypic">Képek</string>
+    <string name="vt_local_video_display">Helyi videó megjelenítés</string>
+    <string name="vt_sd_null">Az SD-kártya\nnem elérhető</string>
+    <string name="vt_sd_not_enough">Az SD-kártyán\nkevés a hely</string>
+    <string name="vt_peer_video_quality_normal">Normál</string>
+    <string name="vt_ask_show_local">Mutatja a helyi videót a társnak?</string>
+    <string name="vt_change_my_pic">Módosít</string>
+    <string name="vt_pic_saved_to_sd">Pillanatkép mentve az SD-kártyára</string>
+    <string name="vt_pic_saved_to_sd_fail">Pillanatkép sikertelen mentése</string>
+    <string name="vt_error_network">A hálózat nem érhető el. A videohívás bontásra kerül.</string>
+    <string name="vt_error_media">A videót nem lehet helyesen megjeleníteni. A videohívás bontásra kerül.</string>
+    <string name="vt_swap_video">Videók felcserélése</string>
+    <string name="vt_local_video_contrast">Helyi videó kontraszt</string>
+    <string name="vt_menu_switch">Kameraváltás</string>
+    <string name="vt_menu_hide_me">Helyi videó elrejtése</string>
+    <string name="vt_menu_show_me">Helyi videó mutatása</string>
+    <string name="vt_menu_snapshot">Társ pillanatképe</string>
+    <string name="vt_local_video_rep">Helyi videó cseréje</string>
+    <string name="vt_dis_peer_rep">Társ cseréjének megjelenítése</string>
+    <string name="vt_dis_peer_rep_des">Kép megjelenítése a társ videó leváltásához, ha nem elérhető</string>
+    <string name="vt_peer_video_rep">Társ videó leváltása</string>
+    <string name="vt_peer_video_rep_des">Kép beállítása arra az esetre, ha a társ videó nem elérhető</string>
+    <string name="vt_vocie_answer">Beszédhívás fogadása</string>
+    <string name="vt_wait_voice">Várakozás beszédhívás kapcsolására</string>
+    <string name="vt_voice_connecting">Beszédhívás kapcsolása</string>
+    <string name="vt_auto_dropback">Automata visszatérés</string>
+    <string name="vt_auto_dropback_des">Automatikus visszatérés beszédhívás kapcsolásához</string>
+    <string name="vt_cannot_support_setting">Az aktuális kamera nem támogatja ezt a beállítást</string>
+    <string name="vt_network_unreachable">A hálózat nem érhető el.</string>
+    <string name="vt_iot_error_01">A videohívás nem állítható be</string>
+    <string name="vt_iot_error_02">A telefon foglalt</string>
+    <string name="vt_iot_error_03">Nincs válasz</string>
+    <string name="vt_iot_error_04">A hálózat foglalt</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"Expozíció"</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">Fehér tábla</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">Fekete tábla</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Akva</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Szépia kék</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Szépia zöld</string>
+    <string name="vt_peer_camera_open">A távoli kamera aktív</string>
+    <string name="vt_peer_camera_close">A távoli kamera kikapcsolva</string>
+    <string name="vt_recorder_start">Rögzítés indítása</string>
+    <string name="vt_recorder_voice_and_peer_video">Hang és társ videó</string>
+    <string name="vt_recorder_only_voice">Csak hang</string>
+    <string name="vt_recorder_only_peer_video">Csak társ videó</string>
+    <string name="vt_recording_saved">A felvétel mentése megtörtént.</string>
+    <string name="vt_recording_saved_sd_full">Az SD-kártyán kevés a hely. A felvétel mentése megtörtént.</string>
+    <string name="vt_recording_error">Rögzítési hiba.</string>
+    <string name="start_record_vt">Rögzítés indítása</string>
+    <string name="stop_record_vt">Felvétel leállítása</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> perc <xliff:g id="seconds" example="28">%2$s</xliff:g> mp</string>
+    <string name="reminder">Emlékeztető</string>
+    <string name="vt_media_occupied">A videohívás kapcsolása nem lehetséges, mert a kamera nem érhető el. Ellenőrizze, hogy más alkalmazás nem használja-e a kamerát.</string>
+    <string name="vt_media_video_fail">A videót nem lehet helyesen megjeleníteni. A videohívás bontva.</string>
+    <string name="incall_toast_unhold">Tartás feloldása</string>
+
+</resources>

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="bluetooth_advanced_settings">"Avanserte innstillinger"</string>
+    <string name="bluetooth_profile_ftp">"Filoverføring"</string>
+    <string name="bluetooth_ftp_profile_summary_use_for">Bruk til filoverføring</string>
+    <string name="bluetooth_ftp_profile_summary_connected">"Koblet til filoverføring"</string>
+    <string name="mtp_transfer_unmount_error_text">SD-kortet kan ikke demonteres under filoverføring</string>
+    <string name="mtp_transfer_erase_error_text">SD-kortet kan ikke slettes under filoverføring</string>    
+    <string name="launch_error">"Kunne ikke starte programmet!"</string>
+    <string name="dlg_confirm_unmount_usb_title" product="default">Demontere USB-lagring?</string>
+    <string name="dlg_confirm_unmount_usb_text" product="default">Hvis du demonterer fra USB-lagring, virker ikke lenger alle appene slik de skal, og de kan være utilgjengelige inntil du monterer USB-lagring på nytt.</string>
+    <string name="dlg_error_unmount_usb_title" product="default"/>
+    <string name="dlg_error_unmount_usb_text" product="default">"Kan ikke koble fra USB-lagring. Prøv på nytt senere."</string>   
+    <string name="unmount_usb_inform_text" product="default">USB-lagring vil demonteres.</string>
+    <string name="sd_eject_usbstorage" product="default">"Koble fra USB-lagring"</string>
+    <string name="sd_eject_usbstorage_summary" product="default">Demonter USB-lagring slik at du kan fjerne det sikkert</string>
+    <string name="sd_mount_usbstorage" product="default">"Koble til USB-lagring"</string>
+    <string name="sd_insert_usb_summary" product="default">"Sett inn USB-lagring"</string>
+    <string name="usb_ums_title">"USB-lagring"</string>
+    <string name="usb_ums_summary">"XP anbefales. Lar deg overføre filer mellom datamaskinen og Android-enheten din."</string>
+    <string name="usb_charge_title">Kun lading</string>
+    <string name="usb_charge_summary">Stopp alle USB-funksjoner. Gjør at du kan øke hastigheten for USB-lading og redusere strømforbruket.</string>
+    <string name="NI_Request_ID">Anmoder-ID</string>
+    <string name="NI_Request_ClientName">Klientnavn</string>
+    <string name="agps_str_verify">Verifisering</string>
+    <string name="agps_str_notify">Notifikasjon</string>
+    <string name="agps_OK">"OK"</string>
+    <string name="agps_str_allow">"Tillat"</string>
+    <string name="agps_str_deny">"Avvis"</string>
+    <string name="AGPS_DEFAULT_STRING">A-GPS standardstreng</string>
+    <string name="AGPS_NOTIFY_ONLY">Varsel om posisjonsforespørsel</string>
+    <string name="AGPS_NOTIFY_ALLOW_NO_ANSWER">Posisjonsforespørsel (Tillat hvis ingen svar)</string>
+    <string name="AGPS_NOTIFY_DENY_NO_ANSWER">Posisjonsforespørsel (Avslå hvis ingen svar)</string>
+    <string name="AGPS_NOTIFY_PRIVACY">Posisjonsforespørsel (Personvern)</string>    
+    <string name="ring_summary">Ring</string>
+    <string name="ring_vibrate_summary">Ring og vibrer</string>
+    <string name="silent_summary">Kun stille</string>
+    <string name="meeting_summary">Kun vibrasjon</string>
+    <string name="outdoor_summary">Høyest ringelyd og vibrering</string>
+    <string name="audio_profile_reset">"Tilbakestill"</string>
+    <string name="audio_profile_add">"Legg til"</string>
+    <string name="audio_profile_enable">"Aktiver"</string>
+    <string name="audio_profile_rename">"GI NYTT NAVN"</string>
+    <string name="audio_profile_delete">"Slett"</string>
+    <string name="audio_profile_message_reset">Alle lydprofilinnstillinger vil bli tilbakestilt til standard</string>
+    <string name="audio_profile_message_rename">Legg inn det nye profilnavnet</string>
+    <string name="audio_profile_message_name_error">Navnet eksisterer allerede</string>  
+    <string name="audio_profile_message_name_length_wrong">Navnet må inneholde minst ett tegn</string>
+    <string name="audio_profile_message_delete">Profilen <xliff:g id="profile">%s</xliff:g> vil bli slettet</string>
+    <string name="audio_profile_message_overflow">Du kan kun legge til seks egendefinerte profiler</string>
+    <string name="ok">"OK"</string>
+    <string name="audio_profile_category_custom_title">Brukerdefinerte profiler</string>
+    <string name="audio_profile_category_predefine_title">Forhåndsdefinerte profiler</string>
+    <string name="general_settings_title">"Generelt"</string>
+    <string name="silent_settings_title">"Stille"</string>
+    <string name="meeting_settings_title">Møte</string>
+    <string name="outdoor_settings_title">Utendørs</string>
+    <string name="apn_predefine_change_dialog_notice">Er du sikker på at du vil lagre? Endringer til standard APN kan føre til problemer!"</string>    
+    <string name="sound_category_feedback_title">"System"</string>
+    <string name="sound_category_calls_title">Innkommende anrop</string>
+    <string name="voice_call_title">Ringetone for taleanrop</string>
+    <string name="voice_call_summary">"Angi standard ringetone for taleanrop"</string>
+    <string name="video_call_title">Ringetone for videosamtale</string>
+    <string name="video_call_summary">Sett standard ringetone for videosamtaler</string>
+    <string name="sip_call_title">Ringetone for SIP-samtale</string>
+    <string name="sip_call_summary">Sett standard ringetone for SIP-samtaler</string>
+    <string name="Phone_vibrate_summary">Vibrer enheten ved innkommende samtaler</string>
+    <string name="vibrate_title">"Vibrer"</string>
+    <string name="audio_profile_settings_title">Lydprofiler</string>
+    <string name="sim_status_title">SIM-status</string>
+    <string name="sim_status_summary">SIM-relatert informasjon</string>
+    <string name="status_imei_slot1">IMEI (Spor1)</string>
+    <string name="status_imei_sv_slot1">IMEI SV (Spor1)</string>
+    <string name="status_imei_slot2">IMEI (Spor2)</string>
+    <string name="status_imei_sv_slot2">IMEI SV (Spor2)</string>
+    <string name="status_min_number_slot1">MIN (Spor1)</string>
+    <string name="status_prl_version_slot1">PRL-versjon (Spor1)</string>
+    <string name="status_meid_number_slot1">MEID (Spor1)</string>
+    <string name="status_min_number_slot2">MIN (Spor2)</string>
+    <string name="status_prl_version_slot2">PRL-versjon (Spor2)</string>
+    <string name="status_meid_number_slot2">MEID (Spor2)</string>
+    <string name="slot_status_title">"IMEI-informasjon"</string>
+    <string name="slot_status_summary">"IMEI-relativ informasjon"</string> 
+    <string name="custom_build_version">Tilpasset buildversjon</string>
+    <string name="software_update">Programvareoppdateringstjeneste</string>
+    <string name="mota_system_update_summary">"Sjekk systemoppdatering på serveren"</string>
+    <string name="software_updates_more_title">Programvareoppdateringer</string>
+    <string name="software_updates_more_summary">Se etter ny programvareversjon</string>
+    <string name="software_updates_scomo_summary">Se etter ny versjon for program</string>
+    <string name="scomo_settings_title">Programvareoppdateringstjeneste</string>
+    <string name="screen_timeout_CU">Skjermsparer</string>
+    <string name="landscape_launcher_title">Liggende programvelger</string>
+    <string name="landscape_launcher_none">"Ingen"</string>
+    <string name="tvout_settings">TV-utgang</string>
+    <string name="tvout_settings_summary">Innstillinger for TV-utgang</string>
+    <string name="tv_system_title">TV-system</string>
+    <string name="hdmi_settings">HDMI-innstillinger</string>
+    <string name="hdmi_settings_summary">Klikk for å konfigurere HDMI</string>
+    <string name="hdmi_audio_toggler">Lyd</string>
+    <string name="hdmi_video_toggler">"Video"</string>
+    <string name="hdmi_video_resolution">Videooppløsning</string>
+    <string name="hdmi_auto">"automatisk"</string>
+    <string name="display_settings_scences_title">Scener</string>
+    <string name="mtk_thememanager_title">Tema</string>
+    <string name="default_name">"Standard"</string>
+    <string name="custom_theme_name">Ny [%1$s]</string>
+    <string name="loading">Laster …</string>
+    <string name="sim_enter_pin_hints">(Angi 4–8 siffer)</string>
+    <string name="sim_remain">(Gjenstår:<xliff:g id="remains">%d</xliff:g>)</string>  
+    <string name="gps_time_sync_attention_gps_on">Det vil ta maksimalt ett minutt for å få GPS-peiling. Dessuten kan GPS kanskje ikke oppgi tidspunkt på grunn av svakt signal.\n\nEr du sikker på at du vil bruke tidspunkt fra GPS?</string>
+    <string name="gps_time_sync_attention_gps_off">For å bruke tid fra GPS må du først aktivere GPS. Det tar opp til 1 minutt å få GPS-peiling. Dessuten kan GPS kanskje ikke oppgi tidspunkt på grunn av svakt signal. \n\nEr du sikker på at du vil aktivere GPS nå og vente på tid fra GPS-en?</string>
+    <string name="drm_settings_title">Tilbakestill DRM</string>
+    <string name="drm_settings_summary">Sletter alle DRM-lisenser</string>
+    <string name="drm_reset_dialog_msg">Denne operasjonen vil slette alle lisenser på denne enheter. Fortsette?</string>
+    <string name="drm_reset_toast_msg">Lisenser har blitt slettet.</string>
+    <string name="gemini_sim_management_title">SIM-kortbehandling</string>
+    <string name="gemini_sim_info_title">SIM-KORTINFORMASJON</string>  
+    <string name="gemini_default_sim_title">"Standardvalg"</string>  
+    <string name="gemini_general_settings_title">"Generelle innstillinger"</string>
+    <string name="gemini_roaming_settings_title">"Roaming"</string>    
+    <string name="gemini_data_roaming_title">"Datastreifing"</string>  
+    <string name="gemini_data_roaming_summary">Koble til datatjenester ved roaming</string>  
+    <string name="gemini_roaming_reminder_title">Vis roamingpåminnelse</string>  
+    <string name="gemini_roaming_reminder_summary">Vis SIM-kortforslag basert på SIM-kort-bruk</string>      
+    <string name="gemini_contacts_sim_title">"Kontaktbinding"</string>      
+    <string name="gemini_contacts_sim_summary">Bind kontakter til et bestemt SIM-kort</string> 
+    <string name="gemini_voice_call">Talesamtale</string>        
+    <string name="gemini_video_call">Videosamtale</string>   
+    <string name="gemini_data_connection">Datatilkobling</string>   
+    <string name="gemini_msg">Meldinger</string>       
+    <string name="gemini_default_sim_always_ask">Spør alltid</string>    
+    <string name="gemini_intenet_call">Internett-anrop</string>    
+    <string name="gemini_default_sim_never">"av"</string>       
+    <string name="gemini_default_sim_3g_off">"av"</string>  
+    <string name="gemini_gsm_umts_network_preferences_title">Nettverksmodus</string>
+    <string name="gemini_gsm_umts_network_preferneces_summary">Ikke implementert ennå!</string>
+    <string name="gemini_gsm_umts_network_preferences_dialogtitle">Nettverksmodus</string>
+    <string name="gemini_3g_service_settings">3G-tjeneste</string>
+    <string name="gemini_sim_mode_progress_activating_message">Aktiverer\u2026</string>
+    <string name="gemini_sim_mode_progress_deactivating_message">Deaktiverer\u2026</string>
+    <string name="gemini_sim_mode_change_failed_message">Nettverksfeil.</string>
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_title">"Flymodus"</string>
+    <string name="gemini_sim_mode_enter_airplanemode_confirm_message">Telefonen vil gå inn Flymodus. Alle trådløse tilkoblinger vil deaktiveres. Fortsette?</string>
+    <string name="gemini_sim_info_editor_name">Rediger SIM-navn</string>  
+    <string name="gemini_sim_info_editor_name_dup_title">Lagring mislyktes</string>  
+    <string name="gemini_sim_info_editor_name_dup_msg">Duplikatnavn på SIM-kort</string>  
+    <string name="gemini_sim_info_editor_number">Angi telefonnummer</string>  
+    <string name="gemini_sim_info_editor_color">Sett bakgrunnsfarge</string> 
+    <string name="gemini_sim_info_editor_number_display_format">Vis numre</string>    
+    <string name="gemini_no_sim_indicator">"SIM-kortet mangler"</string>     
+    <string name="gemini_sim_list_default_title">SIM-kortliste</string>       
+    <string name="gemini_data_connection_progress_message">"Bytte av SIM-kort vil ta rundt 10 sekunder. Vent litt …"</string>
+    <string name="gemini_3g_modem_switching_message">"Bytte av SIM-kort vil ta rundt 10 sekunder. Vent litt …"</string>
+    <string name="gemini_3g_modem_switch_confirm_message">"Dette vil også bytte 3G-tjeneste til dette SIM-kortet. Fortsette? Påse også at det valgte SIM-kortet støtter 3G-tjeneste."</string>
+    <string name="gemini_3g_disable_warning">"3G-tjeneste er ikke tilgjengelig med valgt SIM-kort. Dette kan laste data tregere. Du kan endre innstillingen for 3G-tjeneste under Innstillinger &gt; Trådløst og nettverk &gt; Mobile nettverk."</string>
+    <string name="gemini_3g_disable_warning_cu">"3G-tjeneste er ikke tilgjengelig med valgt SIM-kort. Dette kan laste data tregere. Du kan endre innstillingen for 3G-tjeneste under Innstillinger &gt; SIM-kortbehandling."</string>
+    <string name="gemini_wap_push_permission_head">Når du har aktivert Auto-push-tjenesten, kan du motta push-meldinger, la lokale programmer kjøre og produsere datatrafikk. Vanlige auto-push-tjenester inkluderer e-postvarsling, enhetsbehandling, tjenesteindikasjon, tjenestelasting og klargjøring av push.</string>      
+    <string name="gemini_wap_push_permission_tail">Godta denne avtalen?</string>  
+    <string name="gemini_wap_push_permission_title">Auto-push-tjenesteavtale</string>   
+    <string name="gemini_wap_push_permission">Auto-push-tjeneste</string>   
+    <string name="gemini_3g_disable_warning_case0">"Du må aktivere dataroaming for dette SIM-kortet først. Dette kan være ekstremt dyrt! Er du sikker på at du vil aktivere dataroaming og velge dette SIM-kortet?"</string>
+    <string name="gemini_3g_disable_warning_case1">"3G-tjeneste er ikke tilgjengelig med valgt SIM-kort. Dette kan laste data tregere. Du kan endre innstillingen for 3G-tjeneste under Innstillinger &gt; Trådløst og nettverk &gt; Mobile nettverk. Er du sikker på at du vil velge dette SIM-kortet?"</string>
+    <string name="gemini_3g_disable_warning_case2">"3G-tjeneste er ikke tilgjengelig med valgt SIM-kort. Dette kan laste data tregere. Du kan endre innstillingen for 3G-tjeneste under Innstillinger &gt; SIM-kortbehandling. Er du sikker på at du vil velge dette SIM-kortet?"</string>
+    <string name="gemini_3g_disable_warning_case3">"Du må aktivere dataroaming for dette SIM-kortet først. Dette kan være ekstremt dyrt! Dessuten er ikke 3G-tjeneste ikke tilgjengelig med dette SIM-kortet. Dette kan laste data tregere. Du kan endre innstillingen under Innstillinger &gt; Trådløst og nettverk &gt; Mobile nettverk. Er du sikker på at du vil aktivere dataroaming og velge dette SIM-kortet?"</string>
+    <string name="gemini_3g_disable_warning_case4">"Du må aktivere dataroaming for dette SIM-kortet først. Dette kan være ekstremt dyrt! Dessuten er ikke 3G-tjeneste ikke tilgjengelig med dette SIM-kortet. Dette kan laste data tregere. Du kan endre innstillingen under Innstillinger &gt; SIM-kortbehandling. Er du sikker på at du vil aktivere dataroaming og velge dette SIM-kortet?"</string>
+    <string name="gemini_sim_tether_info_title">Kontakter og SIM-kort</string>
+	<string name="gemini_sim_tether_add_record">Legg til kontakter</string>
+    <string name="gemini_sim_add_title">"Kontakter"</string>
+    <string name="gemini_sim_tether_norecord">"Du har ikke noen kontaktnummer knyttet til SIM-kortet.\n\nTouch på Legg til kontakter for å velge kontaktene du ønsker å binde til dette SIM-kortet"</string>
+    <string name="gemini_sim_tether_nocontacts">"Ingen ledige kontakter på telefonen. Legg til en kontakt eller importer kontakter først"</string>
+    <string name="gemini_sim_tether_no_assc_contacts">"Kontaktene ble alle bundet"</string>
+    <string name="gemini_sim_tether_disassociate">Fjern tilknytning</string>
+    <string name="selected_item_count"><xliff:g id="count">%d</xliff:g> valgt</string>
+    <string name="gemini_sim_tether_unselect_all">Opphev all merking</string>
+    <string name="gemini_sim_tether_nocontact_confirm">"OK"</string>
+    <string name="gemini_sim_tether_select_all">"Velg alle"</string>
+    <string name="gemini_sim_tether_select_ok">"Lagre"</string>
+    <string name="gemini_sim_tether_select_cancel">"Avbryt"</string>
+    <string name="gemini_sim_tether_revert_title">"NB"</string>
+    <string name="gemini_sim_tether_revert_message">Konfigurasjonene ble endret, og ikke har blitt lagret. Er du sikker på at du vil forlate uten å lagre?</string>
+    <string name="gemini_tether_saving_progress_message">Lagrer …</string>
+    <string name="gemini_sim_lock_sim1_tab_tag">SIM-kort 1</string>
+    <string name="gemini_sim_lock_sim1_tab_label">SIM-kort 1</string>
+    <string name="gemini_sim_lock_sim2_tab_tag">SIM-kort 2</string>
+    <string name="gemini_sim_lock_sim2_tab_label">SIM-kort 2</string>
+    <string name="gemini_sim_lock_simid_error">Feil. Ugyldig SIM-ID.</string>
+    <string name="gemini_sim_lock_no_insert_message_sim">SIM-kort er ikke koblet til.</string>
+    <string name="gemini_sim_lock_radio_off_message_sim1">Radio1 er av.</string>
+    <string name="gemini_sim_lock_radio_off_message_sim2">Radio2 er av.</string>
+    <string name="akp_installer_settings_title">APK-installasjonsprogram</string>
+    <string name="akp_installer_settings_summary">Installer APK fra telefonlagring og SD-kort</string>
+    <string name="launch_main_label">Start program</string>
+    <string name="launch_main">Start programmet etter hovedaktivitet</string>
+    <string name="launch_activitie">Start</string>
+    <string name="move_app_to_where">Flytt til <xliff:g id="location">%s</xliff:g></string>
+    <string name="wifi_no_cert_for_wapi">Kunne ikke finne sertifisering for gjeldende tilkoblings-AP</string>
+    <string name="sim_slot">SIM-spor</string>
+    <string name="eap_sim_slot_0">SIM-spor 1</string>
+    <string name="eap_sim_slot_1">SIM-spor 2</string>
+    <string name="eap_sim_aka_airplanemode">Slå av flymodus for å bruke EAP-SIM/AKA</string>
+    <string name="eap_sim_aka_no_sim_error">Du må sette inn et SIM-kort for å bruke EAP-SIM/AKA</string>	
+    <string name="eap_sim_aka_no_sim_slot_selected">Du må velge et SIM-kortspor for å bruke EAP-SIM/AKA</string>
+    <string name="wifi_security_wapi_certificate">WAPI-sertifikat</string>
+    <string name="wapi_user_certificate">"Klientsertifikat"</string>
+    <string name="wapi_as_certificate">ASE-sertifikat</string>   
+    <string name="wifi_hex_password">Heksadesimalt passord.</string>
+    <string name="wifi_WEP_transmit_key">Overføringsnøkkel</string>
+    <string name="wifi_WEP_secury_key">Sikkerhetsnøkkel</string>
+    <string name="wifi_tether_auto_disable_title">Hold Wi-Fi-hotspot på</string>
+    <string name="wifi_tether_auto_channel_text">"automatisk"</string>
+    <string name="wifi_tether_auto_channel_width_text">Auto 20/40 MHz</string>
+    <string name="wifi_channel">Foretrukket kanal</string>
+    <string name="wifi_channel_width">Kanalbredde</string>
+    <string name="pch_toggle_title">Foretrukket GPRS-overføringsmodus</string>
+    <string name="pch_data_prefer_summary_off">Data foretrukket</string>
+    <string name="pch_call_prefer_summary_on">Anrop foretrukket</string>
+    <string name="pch_warning_message">Dataoverføringshastighet vil avta.</string> 
+    <string name="schedule_power_on_off_settings_title">Tidsplan for strøm av og på</string>
+    <string name="usb_bicr_title">Innebygd CD-ROM</string>
+    <string name="usb_bicr_summary">Vis en virtuell CD-ROM som inneholder en del nyttig programvare.</string>
+    <string name="select_memory">Standard skrivedisk</string>
+    <string name="ipo_title">Hurtig oppstart</string>
+    <string name="ipo_summary_on">Deaktiver hurtig oppstart</string>
+    <string name="ipo_summary_off">Aktiver hurtig oppstart</string>
+    <string name="agps_profile_select_Title">SUPL-profil</string>
+    <string name="location_settings_label">Plasseringsingeniørmodus</string>
+    <string name="audio_profile_error">"Feil"</string>  
+    <string name="battery_percent">Batteriprosent</string>
+    <string name="rcse_settings_title">Joyn settings</string>
+    <string name="MobileNetwork_SIM1_Active">SIM 1 er aktiv</string>
+    <string name="MobileNetwork_SIM2_Active">SIM 1 er aktiv</string>
+    <string name="dlg_mount_external_sd_title" product="default">Montere SD-kort?</string>
+    <string name="dlg_mount_external_sd_summary" product="default">Hvis du monterer SD-kort, vil noen programmer du bruker stoppe.</string>
+    <string name="tethered_ipv6_title">Innstillinger for hotspot og tilknytning</string>
+    <string name="tethered_ipv4v6">(IPv6 tilgjengelig)</string>
+    <string name="tethered_ipv6">(Kun IPv6 tilgjengelig)</string>
+    <string name="tethered_ipv4">(IPv6 utilgjengelig)</string>
+    <string name="tethering_apn_settings_title">APN-innstillinger</string>
+    <string name="tethering_apn_settings_summary">Konfigurer APN for tilknytning</string> 
+    <string name="usb_tether_type_title">USB-tilknytningstype</string> 
+    <string name="usb_connect_as_cdrom_category">"Koble til som CD-ROM"</string>
+    <string name="wifi_tether_setting_title">Basisinnstillinger</string>
+    <string name="wifi_tether_wps_connect_title">WPS-tilkobling</string>
+    <string name="wifi_tether_wps_connect_summary">Velg Wi-Fi Protected Setup-modus for å fortsette</string>
+    <string name="wifi_tether_wps_pin_error">Ugyldig PIN-kode</string>
+    <string name="wifi_tethering_title">Wi-Fi Hotspot</string>
+    <string name="wifi_ap_wps_dialog_title">WPS-tilkobling</string>
+    <string name="wifi_ap_wps_mode_title">WPS-modus</string>
+    <string name="wifi_ap_wps_pin_title">Skriv inn PIN-kode fra klient</string>
+    <string name="wifi_ap_reset_OOB_title">Tilbakestill nettverks-SSID, sikkerhet og passord til standard (standardkonfigurasjon for WPS)</string>
+    <string name="wifi_ap_reset_OOB">Tilbakestill OOB</string>
+    <string name="wifi_ap_max_connection_title">Maksimalt antall tilkoblinger</string>
+    <string name="wifi_ap_connected_title">Tilkoblede brukere</string>
+    <string name="wifi_ap_blocked_title">Blokkerte brukere</string>
+    <string name="wifi_ap_client_block_title">Blokker</string>
+    <string name="wifi_ap_client_unblock_title">Avblokker</string>
+    <string name="wifi_ap_client_details_title">Detaljer</string>
+    <string name="wifi_ap_client_mac_label">MAC-adresse:</string>
+    <string name="wifi_ap_client_ip_label">IP-adresse:</string>
+    <string name="usb_sharing_title">USB-Internett</string>
+    <string name="usb_sharing_summary">Dele Windows-PC-Internett via USB-kabel</string>
+    <string name="usb_sharing_info_title">Internett-gjennomgang</string>
+    <string name="usb_sharing_info_step_1">"1. Åpne nettverkstilkoblinger på Windows-PC-en."</string>
+    <string name="usb_sharing_info_step_2">"2. Høyreklikk på tilkoblingen du vil dele, og klikk deretter Egenskaper."</string>
+    <string name="usb_sharing_info_step_3">"3. Klikk kategorien Deling, og velg 'Tillat andre nettverksbrukere å koble seg til gjennom denne datamaskinens Internett-tilkobling' (velg nylig lagt til nettverk som representerer USB-Internett hvis 'Hjemmenettverkstilkobling' vises)."</string>
+    <string name="wifi_ap_bandwidth_title">Båndbreddebruk</string>
+    <string name="wifi_ap_bandwidth_enable">Aktiver båndbredderegulering</string>
+    <string name="wifi_ap_bandwidth_chart_title">Datahastighet i sanntid</string>
+    <string name="wifi_ap_bandwidth_chart_summary">Hastigheten som måles på telefonen kan være forskjellig fra operatørens regnemetode.</string>
+    <string name="wifi_wps_fail_error">Wi-Fi Protected Setup mislyktes. Prøv på nytt.</string>
+    <string name="wifi_ap_title">Statistikk</string>
+    <string name="wifi_ap_time_duration">Varighet:<xliff:g id="time">%1$s</xliff:g></string>
+    <string name="wifi_ap_total_data">Totalt brukte data:<xliff:g id="time">%1$s</xliff:g></string>
+    <string name="wifi_ap_bandwidth_megabyteShort">MB/s</string>
+    <string name="wifi_ap_bandwidth_KbyteShort">KB/s</string>
+    <string name="cpu_dtm_title">CPU-strømsparemodus</string>
+    <string name="cpu_dtm_summary">Begrens maksimal CPU-ytelse for å spare batterilevetid og lavere enhetstemperatur.</string>      
+    <string name="wifi_advanced_ipv4_address_title">IPv4-adresse</string>
+    <string name="wifi_advanced_ipv6_address_title">IPv6-adresse</string>
+    <string name="wifi_ipv4_address">IPv4-adresse</string>
+    <string name="wifi_ipv6_address">IPv6-adresse</string> 
+    <string name="mtk_datausage_show_on_lockscreen">Vis på låseskjerm</string>
+    <string name="mtk_datausage_update">Oppdater databruk</string>
+    <string name="mtk_datausage_update_set">"Oppdater"</string>
+    <string name="mtk_datausage_amount_editor_title">Mengden data brukt</string>
+    <string name="mtk_datausage_usage_list">Databruk etter app</string>
+    <string name="mtk_datausage_diff_byte">Forskjell i databruk</string>
+    <string name="mtk_datausage_overview_tab">Oversikt</string>
+    <string name="mtk_datausage_overview_wifi_today">"I dag"</string>
+    <string name="mtk_datausage_overview_wifi_total">Total</string>
+    <string name="mtk_datausage_overview_mobile_title">"Mobil"</string>
+    <string name="mtk_datausage_overview_mobile_usage"><xliff:g id="actual">%s</xliff:g> ut av <xliff:g id="limit">%s</xliff:g></string>
+    <string name="mtk_datausage_overview_mobile_usage_warning">Utenfor grensen <xliff:g>%s</xliff:g></string>
+    <string name="display_personalize">Personliggjør</string>
+    <string name="display_default">"Skjerm"</string>
+    <string name="sound_enhancement_title">Lydforbedring</string> 
+    <string name="music_plus_summary">Lydforbedring for øretelefon</string> 
+    <string name="auto_backlight_title">Økonomisk bakgrunnsbelysning</string>
+    <string name="auto_backlight_summary">Tilpass bakgrunnsbelysningen automatisk for å spare strøm</string> 
+    <string name="beam_mgmt_tab_download_title">Videre sjekk SS-melding mottatt</string>
+    <string name="beam_mgmt_tab_upload_title">"Informasjon om den nåværende tilstanden til enheten din samles inn og sendes som en e-post. Det tar litt tid fra du starter feilrapporten til e-posten er klar, så vær tålmodig."</string>
+    <string name="beam_share_mgmt_notification_ticker">Logg over trådløs deling</string>
+	<string name="beam_share_mgmt_notification_title">Logg over trådløs deling</string>
+	<string name="beam_share_mgmt_notification_message">"Velg for å vise logg over trådløs deling"</string>
+    <string name="beam_share_mgmt_tab_menu_clear">Slette hele loggen?</string>
+    <string name="beam_share_open_file_dialog_title">Kan ikke åpne filen</string>
+    <string name="beam_share_open_file_unsupported_message">Filformatet støttes ikke.</string>
+	<string name="beam_share_open_file_not_found_message">"Fil ikke funnet: <xliff:g id="file_name">%1$s</xliff:g></string>
+	<string name="beam_share_transfer_fail_dialog_title">"Trådløs overføring mislyktes"</string>
+	<string name="beam_share_resend_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> ble ikke sendt."</string>
+	<string name="beam_share_resend_dialog_ok_button">"Prøv på nytt"</string>
+	<string name="beam_share_show_received_files_menu">"Vis mottatte filer"</string>
+	<string name="beam_share_history_title">Logg over trådløs deling</string>
+    <string name="beam_share_clear_confirm_dialog_title">Slett alt</string>
+    <string name="beam_share_clear_confirm_dialog_message">Slette hele loggen?</string>
+    <string name="beam_share_receive_fail_dialog_message">"<xliff:g id="file_name">%1$s</xliff:g> ble ikke mottatt."</string>        
+    <string name="beam_share_clear_item_dailog_title">"Slett"</string>
+    <string name="beam_share_clear_item_dailog_message">Elementet blir slettet.</string>
+    <string name="nfc_p2p_mode">P2P-modus</string>
+    <string name="nfc_p2p_mode_summary">Send eller motta App-innhold</string>
+    <string name="nfc_tag_mode_category">Etikettmodus</string>
+    <string name="nfc_rw_tag_title">Etikettlesing og -skriving</string>
+    <string name="nfc_rw_tag_summary">Les fra eller skriv til en etikett</string>
+    <string name="nfc_card_emulation_category_title">kortemuleringsmodus</string>
+    <string name="nfc_card_emulation">Kortemulering</string>
+    <string name="card_emulation_settings_category_title">tilgjengelig sikkerhetselement</string>
+    <string name="card_emulation_settings_no_element_found">Ingen tilgjengelige sikkerhetselementer.</string>
+    <string name="card_emulation_settings_off_text">Du kan se tilgjengelige sikkerhetselementer ved å slå kortemulering på.</string>
+    <string name="card_emulation_turning_off_text">Slår av kortemulering …</string>
+    <string name="card_emulation_turning_on_text">Slår på kortemulering …</string>
+    <string name="card_emulation_switch_error_title">"Feil"</string>
+    <string name="card_emulation_switch_error_message">Klarte ikke å bytte til <xliff:g id="card_mode">%1$s</xliff:g>.</string>
+    <string name="card_emulation_sim_not_supported_message"><xliff:g id="sim_description">%1$s</xliff:g> støtter ikke NFC-kortemuleringsfunksjonen.</string>
+    <string name="card_emulation_two_sim_not_supported_message">SIM1,SIM2 do not support NFC Card emulation function.</string>
+    <string name="voice_unlock_backup_info_summary">Når opplåsing med tale ikke kan gjenkjenne deg, hvordan vil du låse opp?</string>
+    <string name="unlock_set_unlock_mode_voice_weak">Opplåsing med tale</string>
+    <string name="voice_ui_title">"Talestyring"</string>
+    <string name="voice_ui_app_category">"For apper"</string>
+    <string name="voice_ui_setting_category">"Generelle innstillinger"</string>
+    <string name="voice_ui_language_title">"Språk for talestyring"</string>
+    <string name="incoming_call_app_name">"Innkommende samtale"</string>
+    <string name="alarm_app_name">"Alarmer"</string>
+    <string name="camera_app_name">Slå på for å ha muligheten til å bytte kamera</string>
+    <string name="music_app_name">"Viser lydbølgen til sangen som spilles for øyeblikket."</string>
+    <string name="incomming_command_summary_format">Du kan si <xliff:g id="first">%1$s</xliff:g> eller <xliff:g id="second">%2$s</xliff:g> for å besvare eller avvise innkommende samtaler.</string>
+    <string name="alarm_command_summary_format">Du kan si <xliff:g id="first">%1$s</xliff:g> eller <xliff:g id="second">%2$s</xliff:g> for å kontrollere alarmen.</string>
+    <string name="camera_command_summary_format">Du kan si <xliff:g id="first">%1$s</xliff:g> eller <xliff:g id="second">%2$s</xliff:g> for å ta opp.</string>
+    <string name="music_command_summary_format">Du kan si <xliff:g id="first">%1$s</xliff:g> og <xliff:g id="second">%2$s</xliff:g> for å styre musikken.</string>
+    <string name="lock_screen_notifications_title">Låseskjermvarsler</string>
+    <string name="lock_screen_notifications_summary">Vis varsler på låseskjermen</string>
+    <string name="lock_screen_style_title">Stil for låseskjerm</string>	
+    <string name="current_suffix">"(Gjeldende)"</string>
+	<string name="lockscreen_style_set">"Still inn låseskjerm"</string>
+	<string name="lockscreen_style_default_desc">"Rask tilgang til programmer på låseskjermen"</string>
+    <string name="security_not_set">Sikkerhet er ikke satt</string>
+    <string name="status_imei_slot3">IMEI (Spor3)</string>
+    <string name="status_imei_sv_slot3">IMEI SV (Spor3)</string>
+    <string name="status_min_number_slot3">MIN (Spor3)</string>
+    <string name="status_prl_version_slot3">PRL-versjon (Spor3)</string>
+    <string name="status_meid_number_slot3">MEID (Spor3)</string>
+    <string name="lockdown_vpn_already_connected">Alltid på VPN har allerede blitt aktivert for tilkobling.</string> 
+    <string name="wifi_ap_no_connected">0 tilkoblet bruker</string>
+    <string name="wifi_ap_no_blocked">0 blokkert bruker</string>
+    <string name="mouse_primary_button_title">Bytt om primær- og sekundærknapper</string>
+    <string name="mouse_primary_button_dialog_title">Bytt primærknapp</string>
+    <string name="double_click_title">Dobbeltklikkhastighet</string>
+    <string name="test_area">TESTOMRÅDE:</string>
+    <string name="double_click_tip">Dobbeltklikk her</string>
+    <string name="apn_port_warning">Portverdien må være 1–65535!</string>
+    <string name="usb_tethering_select_version">Velg PC-systemversjon</string>
+    <string name="oobe_sim_info_title">Administrer SIM-kort</string>
+    <string name="oobe_default_sim_title">Sett standard SIM-kort</string>
+    <string name="wfd_change_resolution_menu_title">Endre oppløsning</string>
+    <string name="wifi_hotspot_suspend_optimizations">Wi-Fi-hotspotoptimalisering</string>
+    <string name="wifi_hotspot_suspend_optimizations_summary">Minimer batteribruk når Wi-Fi Hotspot er på</string>
+    <string name="clear_motion_summary">Videoflytforbedrer</string>
+    <string name="hotknot_explained_description">Tillat datautveksling når skjermen berører en annen enhet</string>  
+    <string name="card_emulation_two_sim_not_supported_message">SIM1, SIM2 støtter ikke NFC-kortemuleringsfunksjonen.</string>
+
+    <string name="passpoint_summary">Automatisk koble til Passpoint-aktiverte tilgangspunkt</string>
+    <string name="passpoint_append_summary">(via Passpoint)</string>
+    <string name="passpoint_config_credential_type">Legitimasjonstype</string>
+    <string name="passpoint_config_eap_method">"EAP-metode"</string>
+    <string name="passpoint_supported">Støttes</string>
+    <string name="passpoint_username_pw">Brukernavn/passord</string>
+    <string name="passpoint_certificate">Sertifikat</string>
+
+    <string name="audio_profile_bes_loudness_title">BesLoudness</string>
+    <string name="audio_profile_bes_loudness_summary">Volume booster for høyttaler</string>
+</resources>

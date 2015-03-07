@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:tools="http://schemas.android.com/tools">
+
+    
+    <string name="onscreenHangupAll">Baigti visus</string>
+    <string name="onscreenHangupHolding">Baigti sulaikytąjį</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">Baigti aktyvųjį, atsiliepti į laukiantįjį</string>
+    <string name="onscreenECT">Persiųsti</string>
+    
+    <string name="dm_lock">DM užrakintas</string>
+    <string name="dm_unlock">DM atrakintas</string>
+    
+    <string name="start_record">Pradėti įrašymą</string>
+    <string name="stop_record">Sustabdyti įrašymą</string>
+    <string name="str_db_playlist_name">"Mano įrašai"</string>
+    <string name="alert_device_error">Garso prietaise įvyko klaida</string>
+    <string name="ext_media_badremoval_notification_title">"SD kortelė netikėtai pašalinta"</string>
+    <string name="error_sdcard_access">Nepavyko gauti prieigos prie SD kortelės</string>
+    <string name="confirm_device_info_full">SD kortelėje neliko vietos; įrašas išsaugotas.</string>
+    <string name="confirm_save_info_saved">Įrašas išsaugotas</string>
+    <string name="confirm_save_info_saved_to">Įrašas išsaugotas</string>
+    
+	<string name="sim_toolkit">"SIM įrankių komplektas"</string>
+    <string name="activity_not_found">"Programa jūsų telefone neįdiegta."</string>
+    <string name="no_sim_card_inserted" product="default">Įdėkite SIM ir paleiskite SIM įrankių komplektą.</string>
+    <string name="airplane_mode_on" product="default">Nepavyko paleisti SIM įrankių komplektą, nes veikia skrydžio režimas.</string>
+    <string name="lable_sim_not_ready" product="default">SIM įrankių komplektas neparengtas arba nepalaikomas</string>
+    <string name="gemini_3g_indic">3G</string>
+    
+    
+    <string name="callFailed_dsac_vt_incompatible_destination">Nepavyko atlikti vaizdo skambučio. Telefonas, kuriuo skambinate, nepalaiko vaizdo skambučių; skambinti įprastu būdu?</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">Nepavyko atlikti vaizdo skambučio. Abonentas, kurio numerį surinkote, yra už 3G ryšio veikimo ribų; skambinti įprastu būdu?</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">Nepavyko atlikti vaizdo skambučio. Skambinti įprastu būdu?</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">Telefonas yra už 3G ryšio veikimo ribų; skambinti įprastu būdu?</string>
+    <string name="callFailed_dsac_vt_bear_not_authorized">Nepavyko atlikti vaizdo skambučio. Šioje SIM kortelėje nesuaktyvinta vaizdo skambučių paslauga; skambinti įprastu būdu?</string>
+    
+    <string name="notification_voicemail">"Balso paštas"</string>
+    <string name="turn_on_3g_service_message">Neveikia 3G ryšys; norite jį įjungti?</string>
+    <string name="associate_sim_missing_message">"%1$s SIM nepasiekiama. Ar norėtumėte paskambinti per %2$s"</string>
+    <string name="associate_sim_missing_other">"Kita"</string>
+    
+    <string name="vt_incoming_call">Įeinantis vaizdo skambutis</string>
+    <string name="vt_settings">Vaizdo nuostatos</string>
+    <string name="vt_local_video_zoom">Skambinančiojo vaizdo mastelis</string>
+    <string name="vt_local_video_brightness">Skambinančiojo vaizdo šviesumas</string>
+    <string name="vt_local_video_effect">Skambinančiojo vaizdo efektas</string>
+    <string name="vt_local_video_nightmode">Skambinančiojo vaizdo nakties režimas</string>
+    <string name="vt_peer_video_quality">Pašnekovo vaizdo kokybė</string>
+    <string name="vt_enable_back_camera">Įjungti galinę kamerą</string>
+    <string name="vt_enable_back_camera_description">Negalima sukeisti kamerų, jeigu įjungta</string>
+    <string name="vt_peer_video_bigger">Didesnis pašnekovo vaizdas</string>
+    <string name="vt_peer_video_bigger_description">Įjungti, kad pašnekovo vaizdas būtų didesnis už skambinančiojo vaizdą</string>
+    <string name="vt_outgoing_call">Išeinantis vaizdo skambutis</string>
+    <string name="vt_outgoing_call_description">Rodyti skambinančiojo vaizdą vaizdo skambučio metu</string>
+    <string name="vt_incoming_call_description">Rodyti skambinančiojo vaizdą atsiliepiant į įeinantį vaizdo skambutį</string>
+    <string name="vt_incoming_showme_always">Visada</string>
+    <string name="vt_incoming_showme_ask">"Klausti"</string>
+    <string name="vt_incoming_showme_disable">"Neleisti"</string>
+    <string name="vt_pic_replace_local_default">Numatytasis paveikslėlis</string>
+    <string name="vt_pic_replace_local_freezeme">Sustingdyti</string>
+    <string name="vt_pic_replace_local_mypic">Mano nuotrauka</string>
+    <string name="vt_local_video_display">Skambinančiojo vaizdo rodinys</string>
+    <string name="vt_sd_null">Ne\npasiekiama SD kortelė</string>
+    <string name="vt_sd_not_enough">SD kortelėje liko\nmažai vietos</string>
+    <string name="vt_peer_video_quality_normal">Normalus</string>
+    <string name="vt_peer_video_quality_sharp">Ryškus</string>
+    <string name="vt_ask_show_local">Rodyti pašnekovui skambinančiojo vaizdą?</string>
+    <string name="vt_ask_show_local_yes">"Taip"</string>
+    <string name="vt_ask_show_local_no">"Ne"</string>
+    <string name="vt_change_my_pic">Keisti</string>
+    <string name="vt_pic_saved_to_sd">Momentinė nuotrauka išsaugota SD kortelėje</string>
+    <string name="vt_pic_saved_to_sd_fail">Nepavyko išsaugoti momentinės nuotraukos</string>
+    <string name="vt_error_network">Tinklas nepasiekiamas. Vaizdo skambutis bus nutrauktas.</string>
+    <string name="vt_error_media">Nepavyksta tinkamai rodyti vaizdo. Vaizdo skambutis bus nutrauktas.</string>
+    <string name="vt_swap_video">Įrašyti vaizdo įrašus</string>
+    <string name="vt_local_video_contrast">Skambinančiojo vaizdo kontrastingumas</string>
+    <string name="vt_menu_switch">Perjungti kamerą</string>
+    <string name="vt_menu_hide_me">Slėpti skambinančiojo vaizdą</string>
+    <string name="vt_menu_show_me">Rodyti skambinančiojo vaizdą</string>
+    <string name="vt_menu_snapshot">Pašnekovo momentinė nuotrauka</string>
+    <string name="vt_dis_peer_rep">Rodyti pašnekovo vaizdą</string>
+    <string name="vt_dis_peer_rep_des">Rodyti nuotrauką vietos pašnekovo vaizdo, kai jis nepasiekiamas</string>
+    <string name="vt_peer_video_rep">Pašnekovo vaizdo pakeitimas</string>
+    <string name="vt_peer_video_rep_des">Nustatyti nuotrauką, kuri bus rodoma nesant pašnekovo vaizdo</string>
+    <string name="vt_vocie_answer">Atsiliepti balsu</string>
+    <string name="vt_wait_voice">Laukiama, kol bus atsiliepta į skambutį</string>
+    <string name="vt_voice_connecting">Skambinama</string>
+    <string name="vt_auto_dropback">Automatinis kartojimas</string>
+    <string name="vt_auto_dropback_des">Automatiškai kartoti numerio rinkimą</string>
+    <string name="vt_cannot_support_setting">Dabartinė kamera negali palaikyti šios nuostatos</string>
+    <string name="vt_network_unreachable">Tinklas nepasiekiamas.</string>
+    <string name="vt_iot_error_01">Nepavyko surinkti vaizdo skambučio.</string>
+    <string name="vt_iot_error_02">Telefonas užimtas</string>
+    <string name="vt_iot_error_03">Neatsako</string>
+    <string name="vt_iot_error_04">Tinklas užimtas</string>
+    <string name="pref_camera_coloreffect_entry_none">"Joks"</string>
+    <string name="pref_camera_coloreffect_entry_mono">Monofoninis</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"Tamsiai rusvas"</string>
+    <string name="pref_camera_coloreffect_entry_negative">Negatyvas</string>
+    <string name="pref_camera_coloreffect_entry_solarize">Perlaikytas</string>
+    <string name="pref_camera_coloreffect_entry_posterize">Reklaminis</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">Balta lenta</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">Juoda lenta</string>
+    <string name="pref_camera_coloreffect_entry_aqua">Vandens spalvos</string>
+    <string name="pref_camera_coloreffect_entry_pastel">Pastelinis</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">Mozaika</string>
+    <string name="pref_camera_coloreffect_entry_redtint">Raudonas atspalvis</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">Mėlynas atspalvis</string>
+    <string name="pref_camera_coloreffect_entry_greentint">Žalias atspalvis</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">Rudai mėlynas</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">Rudai žalias</string>
+    
+    
+    <string name="vt_peer_camera_open">Nuotolinė kamera įjungta</string>
+    <string name="vt_peer_camera_close">Nuotolinė kamera išjungta</string>
+    <string name="vt_recorder_start">Pradėti įrašymą</string>
+    <string name="vt_recorder_voice_and_peer_video">Balsas ir pašnekovo vaizdas</string>
+    <string name="vt_recorder_only_voice">Tik balsas</string>
+    <string name="vt_recorder_only_peer_video">Tik pašnekovo vaizdas</string>
+    <string name="vt_recording_saved">Įrašas išsaugotas.</string>
+    <string name="vt_recording_saved_sd_full">SD kortelėje neliko vietos; įrašas išsaugotas.</string>
+    <string name="vt_recording_error">Įrašymo klaida.</string>
+    <string name="start_record_vt">Pradėti įrašymą</string>
+    <string name="stop_record_vt">Sustabdyti įrašymą</string>
+    
+    
+    <string name="cannot_answered_Video_Call">Negalima atsiliepti į vaizdo skambutį, nes šiuo metu vyksta įprastas pokalbis telefonu</string>
+    <string name="cannot_answered_Voice_Call">Negalima atsiliepti į skambutį, nes šiuo metu vyksta vaizdo skambutis</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> min. <xliff:g id="seconds" example="28">%2$s</xliff:g> secs</string>
+    <string name="reminder">Priminimas</string>
+    <string name="vt_media_occupied">Negalima sujungti vaizdo skambučio, nes nepasiekiama kamera. Patikrinkite, ar kuri nors kita programa nenaudoja kameros.</string>
+    <string name="vt_media_video_fail">Nepavyksta tinkamai rodyti vaizdo. Vaizdo skambutis nutrauktas</string>
+    <string name="incall_toast_unhold">Anuliuoti užlaikymą</string>
+    
+    <string name="dualtalk_tip_accept_disconnect_current" tools:ignore="MissingTranslation">Priėmus šį skambutį, bus baigtas dabartinis skambutis.</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing" tools:ignore="MissingTranslation">Priėmus šį skambutį, bus baigtas išeinantis skambutis.</string>
+    <string name="dualtalk_tip_accept_disconnect_incoming" tools:ignore="MissingTranslation">Priėmus šį skambutį, bus atmestas kitas įeinantis skambutis.</string>
+    <string name="dualtalk_tip_accept_disconnect_voice">Priėmus šį skambutį, bus baigtas skambutis(-čiai).</string>
+    <string name="dualtalk_tip_accept_disconnect_outgoing_reject_incoming">Priėmus šį skambutį, bus baigtas išeinantis skambutis ir atmestas kitas įeinantis skambutis.</string>
+    <string name="dualtalk_tip_accept_disconnect_current_reject_incoming">Priėmus šį skambutį, bus baigtas dabartinis skambutis ir atmestas kitas įeinantis skambutis.</string>
+    
+    <string name="end_call_because_can_not_hold">Baigti dabartinį skambutį, nes jo negalima užlaikyti.</string>
+    <string name="ring_only_once_title">Suskambėti tik kartą</string>
+    <string name="ring_only_once_summary">Pasirinktus priimti vaizdo skambutį veikiant įprasto skambučio režimui, suskambės tik kartą</string>
+    
+    
+    <string name="fdn_contact_name_number_invalid">Vardas ir numeris negali būti tušti tuo pat metu.</string>
+    
+    <string name="fdn_contact_number_invalid">Neteisingas adresato numeris.</string>
+    <string name="fdn_phone_book_busy">Telefonų knyga dabar užimta; bandykite vėliau.</string>
+    
+    <string name="cdma_not_support">CDMA nepalaiko šios funkcijos</string>
+    <string name="cdma_cfu_title">China Telecom</string>
+    <string name="labelCFC">Atšaukti visus persiuntimus</string>
+    <string name="cdma_cfu_dialog_sum">"Visada naudoti šį numerį"</string>
+        
+    <string name="dual_mic_title">Triukšmo mažinimas</string>
+    <string name="dual_mic_summary">Slopinti foninį triukšmą skambučių metu</string>
+    
+    <string name="minutereminder_title">Minučių skaitlys</string>
+    <string name="minutereminder_summary">Priminti kiekvienos minutės 50-tą sekundę</string>
+    <string name="voice_call_settings">Skambučių nuostatos</string>
+    
+    <string name="enable_sip_dialog_message">Internetinis skambinimas išjungtas; norite jį įjungti?</string>
+    
+    <string name="ip_prefix_setting">IP priešdėlinis numeris</string>
+    <string name="ip_prefix_setting_sum">IP priešdėlinio numerio nuostatos</string>
+    <string name="enter_ip_prefix_number">Įvesti priešdėlinį numerį</string>
+    <string name="ip_dial_error_toast_for_no_ip_prefix_number">Pirmiausiai skambučių nuostatose įveskite IP priešdėlinį numerį.</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">IP rinkimo funkcija nepasiekiama internetiniam skambinimui.</string>
+    <string name="ip_prefix_edit_default_sum">Įveskite priešdėlinį numerį IP rinkimui</string>
+    
+    <string name="vt_cf_call_description">Vaizdo skambučio persiuntimo nuostatos</string>
+    <string name="vt_cb_call_description">Vaizdo skambučio uždraudimo nuostatos</string>
+    <string name="vt_addtional_call_description">Telefono numerio ir laukiančio skambučio nuostatos</string>
+    <string name="others">Kitos nuostatos</string>
+    
+    <string name="confirm_3g_switch">Ar tikrai norite nustatyti 3G ryšio paslaugą šiai SIM? Ši SIM bus automatiškai nustatyta kaip numatytoji SIM vaizdo skambučiams.</string>
+    <string name="modem_switching">"Il completamento dell'attivazione della SIM richiede circa 10 secondi. Attendere..."</string>
+    <string name="confirm_3g_switch_to_off">Ar tikrai norite išjungti 3G ryšio paslaugą? Automatiškai bus išjungta ir vaizdo skambučių paslauga.</string>
+    <string name="service_3g_off">"išjungta"</string>
+    <string name="enable_3G_service">Įjungti 3G</string>
+    <string name="setting_for_3G_service">3G paslauga</string>
+    
+    
+    <string name="network_forbidden">draudžiama</string>
+    <string name="voice_mail_dialog_text">Yra naujų balso pašto pranešimų iš <xliff:g id="voicemail_sim_display_name">%s</xliff:g>. Ar norite juos gauti dabar?</string>
+    <string name="lable_call_barring">"Skambučio paleidimas"</string>
+    <string name="lable_all_outgoing">Visi išeinantys skambučiai</string>
+    <string name="lable_all_outgoing_international">Tarptautiniai išeinantys skambučiai</string>
+    <string name="lable_all_out_except">Tarptautiniai išeinantys skambučiai, išskyrus į namų PLMN</string>
+    <string name="lable_all_incoming">Visi įeinantys skambučiai</string>
+    <string name="lable_incoming_calls_except">Įeinantys skambučiai naudojant tarptinklinį ryšį</string>
+    <string name="deactivate_all">Atšaukti visus</string>
+    <string name="change_password">Keisti uždraudimo slaptažodį</string>
+    <string name="call_barring_sum">Skambučio uždraudimo nuostatos</string>
+    
+    <string name="lable_disable">"Neleidžiama"</string>
+    <string name="lable_enable">Įjungta</string>
+    <string name="old_password_label">Senas slaptažodis (4 skaičiai)</string>
+    <string name="new_password_label">Naujas slaptažodis (4 skaičiai)</string>
+    <string name="invalid_password">Įrašykite 4 skaitmenų slaptažodį.</string>
+    <string name="confirm_password_label">Patvirtinti naują slaptažodį</string>
+    <string name="mismatch_password">Įvestas slaptažodis nesutampa. Bandykite dar kartą.</string>
+    <string name="password_changed">Slaptažodis sėkmingai pakeistas.</string>
+    <string name="enter_callbarring_password">Įveskite skambinimo draudimo slaptažodį (4 skaičius)</string>
+    <string name="wrong_password">Slaptažodžio klaida</string>
+    <string name="error_title">"Klaida"</string>
+    <string name="cell_broadcast">Korinė transliacija</string>
+    <string name="cell_broadcast_settings">Mobiliojo telefono transliavimo nuostatos</string>
+    <string name="cb_menu_language">"Kalba"</string>
+    <string name="cb_menu_add_channel">Pridėti kanalą</string>
+    <string name="cb_menu_channel_list">Kanalų sąrašas</string>
+    <string name="cb_dialog_title_language_choice">Pasirinkite kalbą</string>
+    <string name="cb_channel_dialog_channel_name">Kanalo pavadinimas (0–10 simbolių)</string>
+    <string name="cb_channel_dialog_channel_number">Kanalo numeris (0–65534)</string>
+    <string name="cb_channel_dialog_channel_state">Įjungti kanalą</string>
+    <string name="cb_channel_dialog_edit_channel">Redaguoti kanalą</string>
+    <string name="cb_menu_edit">"Redaguoti"</string>
+    <string name="cb_menu_delete">"Ištrinti"</string>
+    <string name="cb_error_channel_num">Įveskite kanalo numerį (0-65534).</string>
+    <string name="cb_error_channel_name">Netinkamas kanalo pavadinimo ilgis (1–10 simbolių).</string>
+    <string name="cb_error_language_select">Pasirinkite bent vieną kalbą.</string>
+    <string name="cb_error_channel_id_exist">Toks kanalo ID jau yra.</string>
+    <string name="cb_all_languages">"Visos kalbos"</string>
+    <string name="cb_default_new_channel_name">Naujas kanalas</string>
+    <string name="fdn_errorcode_unknown_info">Nepavyko: įvyko nežinoma klaida; bandykite vėliau.</string>
+    <string name="fdn_errorcode_number_info">Nepavyko: per ilgas adresato numeris.</string>
+    <string name="fdn_errorcode_name_info">Nepavyko: per ilgas adresato vardas.</string>
+    <string name="fdn_errorcode_storage_info">Nepavyko: atmintis pilna.</string>
+    <string name="fdn_errorcode_phb_info">Nepavyko: telefonų knyga dabar neparengta; bandykite vėliau.</string>
+    <string name="fdn_errorcode_pin2_info">Nepavyko: neteisingas PIN2.</string>
+    <string name="net_or_simcard_busy">Užimtas tinklas arba SIM kortelė; baldykite vėliau.</string>
+    
+    <string name="gsm_umts_network_preferences_title">Tinklo režimas</string>
+    <string name="gsm_umts_network_preferneces_summary">Dar neįdiegta!</string>
+    <string name="gsm_umts_network_preferences_dialogtitle">Tinklo režimas</string>
+    <string name="umts_preferred_network_mode_dialogtitle">Tinklo režimas</string>
+    
+    <string name="voice_call">Chiamata vocale</string>
+    <string name="video_call">"Vaizdo sk."</string>
+    <string name="internet_call">Chiamata Internet</string>
+    <string name="sum_voice_call">Su skambučiais susiję nuostatos</string>
+    <string name="sum_video_call">Su vaizdo skambučiais susiję nuostatos</string>
+    <string name="sum_internet_call">Su internetiniais skambučiais susiję nuostatos</string>
+    <string name="voice_mail">"Balso paštas"</string>
+    <string name="sum_voice_mail">Balso pašto paslauga ir numeris</string>
+    <string name="sum_cell_broadcast_control_on">Įjungti mobiliąją transliaciją</string>
+    <string name="sum_cell_broadcast_control_off">Išjungti mobiliąją transliaciją</string>
+    <string name="sum_cell_broadcast_setting">Mobiliosios transliacijos kalbos ir kanalo nustatymas</string>
+    <string name="call_additional_sum">Telefono numerio ir laukiančio skambučio nuostatos</string>
+    <string name="vt_call_settings">Vaizdo skambučių nuostatos</string>
+    <string name="vt_local_video_rep">Skambinančiojo vaizdo pakeitimas</string>
+    <string name="vt_pic_replace_local_description">Nustatyti nuotrauką, kuri bus rodoma, kai kamera nenaudojama</string>
+
+    
+    <string name="mo_code_unconditional_cf_active">Skambučio persiuntimas\nbesąlygiškai suaktyvintas</string>
+    <string name="mo_code_some_cf_active">Skambučio persiuntimas\nsąlyginis</string>
+    <string name="mo_code_call_forwarded">Skambutis persiųstas</string>
+    <string name="mo_code_call_is_waiting">Laukiantis skambutis</string>
+    <string name="mo_code_cug_call">Uždaroji vartotojų grupė</string>
+    <string name="mo_code_outgoing_calls_barred">Skambinti uždrausta</string>
+    <string name="mo_code_incoming_calls_barred">Įeinantis skambutis uždraustas kitoje pusėje</string>
+    <string name="mo_code_clir_suppression_rejected">Patikrinti skambinančiojo ID siuntimo paslaugą</string>
+    <string name="mo_code_call_deflected">Persiųstas skambutis</string>
+    
+    <string name="mt_code_forwarded_call">Tai persiųstas skambutis</string>
+    <string name="mt_code_cug_call">Uždaroji vartotojų grupė</string>
+    <string name="mt_code_call_on_hold">Skambutis sulaikytas</string>
+    <string name="mt_code_call_retrieved">Skambutis sugrąžintas</string>
+    <string name="mt_code_multi_party_call">Konferencinis skambutis</string>
+    <string name="mt_code_on_hold_call_released">Sulaikytas skambutis atlaisvintas</string>
+    <string name="mt_code_forward_check_received">Persiuntimo tikrinimo SS pranešimas gautas</string>
+    <string name="mt_code_call_connecting_ect">Skambutis persiunčiamas</string>
+    <string name="mt_code_call_connected_ect">Skambučio persiuntimas suaktyvintas</string>
+    <string name="mt_code_deflected_call">Tai atmestas skambutis</string>
+    <string name="mt_code_additional_call_forwarded">Persiųstas papildomas įeinantis skambutis</string>
+    <string name="mt_code_forwarded_cf">Skambutis persiųstas</string>
+    <string name="mt_code_forwarded_cf_uncond">Skambutis persiųstas besąlygiškai</string>
+    <string name="mt_code_forwarded_cf_cond">Skambutis persiųstas lygtinai</string>
+    <string name="mt_code_forwarded_cf_busy">Skambutis persiųstas</string>
+    <string name="mt_code_forwarded_cf_no_reply">Skambutis persiųstas, nes abonentas neatsiliepia</string>
+    <string name="mt_code_forwarded_cf_not_reachable">Skambutis persiųstas, nes abonentas nepasiekiamas</string>
+    <string name="sim_manage_sipcall">Chiamata Internet</string>
+    <string name="sim_manage_call_via">Skambinti per</string>
+    
+    
+	
+    <string name="manual_select_title">Pasirinkti rankiniu būdu</string>    
+	<string name="manual_select_dialog_msg">Pasirinkus rankinio pasirinkimo būdą, mobilusis telefonas neparinks kitų tinklų operatorių. Kartais, nesant pasirinkto tinklo operatoriaus ryšio, teks vėl atlikti rankinę paiešką arba vėl įjungti automatinio parinkimo režimą. Rekomenduojame jums naudoti \"Parinkti automatiškai\". Norite pasirinkti tinklą rankiniu būdu?</string>    
+	<string name="no_service_msg_gemini">Šiuo metu pasirinkto operatoriaus paslauga \"<xliff:g id="operator">%s</xliff:g>\" SIM kortelei neveikia.\nRekomenduojame jums naudoti \"Parinkti automatiškai\"; arba galite rankiniu būdu pasirinkti kitą operatorių.</string>    
+	<string name="no_service_msg">Šiuo metu pasirinkto operatoriaus paslauga neveikia.\nRekomenduojame jums naudoti \"Parinkti automatiškai\"; arba galite rankiniu būdu pasirinkti kitą operatorių.</string>    
+	<string name="show_always_title">Daugiau man ne\priminkite</string>    
+	<string name="no_service_msg_title_gemini">\"<xliff:g id="operator">%s</xliff:g>\" paslaugos nėra</string>    
+	<string name="no_service_msg_title">"Nėra paslaugos"</string>    
+    <string name="gemini_data_connection">Connessione dati</string>
+	
+    <string name="plmn_list_setting_title">Pageidaujami tinklai</string>
+    <string name="network_id">Tinklo ID</string>
+    <string name="dialog_network_priority_title">Pirmumas</string>
+    <string name="plmn_list_setting_add_plmn">Naujas PLMN</string>
+    
+    <string name="international_dialing_title">Tarptautinio skambinimo pagalba</string>
+    <string name="international_dialing_select_country">Aptikta, kad jūs skambinate į kitą šalį. Pasirinkite šalį.</string>
+    <string name="international_dialing_add_country_code">Aptikta, kad jūs renkate <xliff:g id="country_name">%s</xliff:g> numerį. Norite pridėti šios šalies kodą (+<xliff:g id="country_code">%s</xliff:g>)?</string>
+    <string name="international_dialing_add_country_code_and_area_code">Aptikta, kad jūs renkate numerį <xliff:g id="area_name">%1$s</xliff:g>, <xliff:g id="country_name">%2$s</xliff:g>. Norite pridėti šalies kodą ir rajono kodą (+<xliff:g id="prefix">%3$s</xliff:g>)?</string>
+    <string name="international_dialing_change_country_prefix">Aptikta, kad jūs skambinate iš <xliff:g id="country_name">%s</xliff:g> numerį. Pakeisti tarptautinio skambučio priešdėlį į \'+\'?</string>
+    <string name="international_dialing_add_country_code_input_area_code">Aptikta, kad jūs renkate numerį <xliff:g id="country_name">%s</xliff:g>. Jeigu taip, įveskite rajono kodą.</string>
+    <string name="international_dialing_add_country_code_default_input_area_code">Aptikta, kad jūs renkate numerį <xliff:g id="country_name">%s</xliff:g>. Jeigu skambinate ne į <xliff:g id="area_name">%s</xliff:g> miestą, įrašykite rajono kodą.</string>
+    <string name="international_dialing_need_area_code">Norint paskambinti, reikia miesto, į kurį skambinate, rajono kodo.</string>
+    <string name="international_dialing_input_area_code">Įveskite rajono kodą čia</string>
+    <string name="international_dialing_dialed_number">Numerio rinkimas:</string>
+    <string name="international_dialing_confirm_area_code">Jeigu skambinate ne į <xliff:g id="area_name">%s</xliff:g> miestą, įveskite apačioje miesto, į kurį skambinate, rajono kodą.</string>
+    <string name="international_dialing_click_below_button">Spustelėkite toliau esantį mygtuką, kad pakeistumėte šalies kodo numerį.</string>
+    <string name="international_dialing_yes">Taip. Naudoti toliau esantį numerį:</string>
+    <string name="international_dialing_no">Ne. Naudoti originalų numerį:</string>
+    <string name="international_dialing_call_button">"Skambinti"</string>
+    <string name="international_dialing_area_code">vietos kodas</string>
+    <string name="international_dialing_invalid_number">Neteisingas numeris. Ar vis tiek norite skambinti?</string>
+    <string name="international_dialing_add_country_code_and_area_code_without_prefix">Ar norite pridėti šalies ir rajono kodus?</string>
+    <string name="no_search_result">Paieškos rezultatų nėra</string>
+    <string name="which_call_to_activate">Kurį skambutį suaktyvinti?</string>
+    <string name="gemini_3g_disable_warning_case0">"Pirmiausiai privalote suaktyvinti šios SIM duomenų tarptinklinį ryšį, kuriam gali būti taikomi dideli tarptinklinio ryšio mokesčiai! Ar tikrai norite įjungti duomenų tarptinklinį ryšį ir pasirinkti šią SIM?</string>
+    <string name="gemini_3g_disable_warning_case1">"Pasirinkus šią SIM, 3G neveiks. Dėl to duomenys gali būtų įkeliami lėčiau. Galite pakeisti 3G paslaugos nuostatą: Parametrai &gt; Belaidis ryšys ir tinklai &gt; Mobilieji tinklai. Ar tikrai norite pasirinkti šią SIM?</string>
+    <string name="gemini_3g_disable_warning_case2">"Pirmiausiai privalote suaktyvinti šios SIM duomenų tarptinklinį ryšį, kuriam gali būti taikomi dideli tarptinklinio ryšio mokesčiai! Be to, pasirinkus šią SIM, 3G neveiks. Dėl to duomenys gali būtų įkeliami lėčiau. Galite ją pakeisti: Parametrai &gt; Belaidis ryšys ir tinklai &gt; Mobilieji tinklai. Ar tikrai norite įjungti duomenų tarptinklinį ryšį ir pasirinkti šią SIM?</string>
+    <string name="disable_data_connection_msg">Ieškant visų esamų tinklų, bus atjungtas naudojamas duomenų ryšys. Ar norite tęsti?</string>
+    
+    <string name="voice_command_notification_ticker">Galite pasakyti \"<xliff:g id="first_voice">%s</xliff:g>\" arba \"<xliff:g id="second_voice">%s</xliff:g>\", kad atsilieptumėte į įeinantį skambutį arba jį ignoruotumėte</string>
+    <string name="voice_command_notification_title">Valdymas balsu</string>
+    <string name="voice_command_notification_message">Telefone įjungtas valdymas balsu</string>
+
+    <string name="callFailed_simError_cdma">Nėra UIM/SIM arba UIM/SIM klaida</string>
+
+    
+    <string name="callFailed_simError_slotNumber">Nėra SIM arba <xliff:g id="slotNumber">%s</xliff:g> lizde esančios SIM klaida</string>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="callFailed_cdma_notEmergency">"Galimi tik pagalbos skambučiai."</string>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <string name="buttonTxtContinue">"Tęsti"</string>
+
+    <string name="fdn_only_error">Leidžiama skambinti tik fiksuoto rinkimo numeriais.</string>
+
+    <string name="network_setting_all_forbidden_dialog">Nėra tinklų. Pabandykite įjungti 3G paslaugą arba spustelėkite ant uždrausto tinklo, kad užsiregistruotumėte rankiniu būdu.</string>
+
+    
+    <string name="reset_data_usage">Atitaisyti duomenų kiekį</string>
+
+    
+    <string name="simContacts_emptyLoading_ex">Nuskaitomi adresatai nuo %s\u2026</string>
+
+    <string name="one_retry_left">Liko 1 bandymas</string>
+    <string name="retries_left">Liko <xliff:g id="number">%d</xliff:g> bandymų</string>
+    <string name="pin2_unblocked">PIN2 sėkmingai atblokuotas</string>
+    <string name="unblock_pin2">Atblokuoti PIN2</string>
+    <string name="sim_permanently_locked">SIM kortelė visam laikui užblokuota daugiau nei 10 kartų neteisingai įvedus PUK2 kodą</string>
+    <string name="pin_length_indicate">(4–8 skaitmenys)</string>
+    <string name="puk_length_indicate">(8 skaitmenys)</string>
+
+    
+    <string name="caller_manage_manage_done_text">"Atgal į skambinimą"</string>
+
+    
+    <string name="card_title_incoming_vt_call">Įeinantis vaizdo skambutis</string>
+
+    
+    <string name="voicemail_settings_for"><xliff:g id="provider_name">%s</xliff:g> nuostatos</string>
+
+    
+    <string name="sip_call_options_title_single_sim">Internetinio skambinimo parinktys</string>
+
+    
+    <string name="description_search_button">"Paieška"</string>
+
+    <string-array name="gsm_umts_network_preferences_choices">
+        <item>2G/3G (automatinis)</item>
+        <item>Tik 3G</item>
+        <item>Tik 2G</item>
+    </string-array>
+    
+
+    <string-array name="umts_network_preferences_choices">
+        <item>2G/3G (automatinis)</item>
+        <item>Tik 3G</item>
+    </string-array>
+
+    
+
+    
+    
+    
+    
+    <string-array name="lte_usim_prefer_network_mode_choices">
+        <item>4G/3G/2G (automatinis)</item>
+        <item>3G/2G (automatinis)</item>
+        <item>Tik 2G</item>
+    </string-array>
+        <string-array name="lte_usim_prefer_network_mode_values">
+        <item>"9"</item>
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+
+    <string-array name="lte_sim_prefer_network_mode_choices">
+        <item>3G/2G (automatinis)</item>
+        <item>Tik 2G</item>
+    </string-array>
+        <string-array name="lte_sim_prefer_network_mode_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <string name="cipher_indication_notification_title">Be balso užkodavimo</string>
+    <string name="cipher_indication_notification_message">Tinklas išjungė balso užkodavimą</string>
+
+    
+    <string name="network_type">Tinklo tipas</string>
+    <string name="network_type_2g">2G</string>
+    <string name="network_type_3g">3G</string>
+    <string name="network_type_4g">"4G"</string>
+    
+    
+
+    <string name="cancel">"Atšaukti"</string>
+</resources>

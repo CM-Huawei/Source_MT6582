@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- below are added by mediatek .inc-->
+    <string name="sim_manage_sipcall">"網際網路"</string>
+    <string name="sim_manage_call_via">"透過撥號"</string>
+    <!--Video call or voice call cannot be answered -->
+    <string name="cannot_answered_Video_Call">語音通話中，無法接聽視訊電話</string>
+    <string name="cannot_answered_Voice_Call">視訊通話中，無法接聽語音電話</string>
+    <!-- For CMCC phase 2 of VT -->
+    <string name="start_record_vt">開始錄製</string>
+    <string name="stop_record_vt">停止錄製</string>
+    <string name="vt_peer_camera_open">遠端相機已開啟</string>
+    <string name="vt_peer_camera_close">遠端相機已關閉</string>
+    <string name="vt_recorder_start">開始錄製</string>
+    <string name="vt_recorder_voice_and_peer_video">語音及遠端視訊</string>
+    <string name="vt_recorder_only_voice">僅限語音</string>
+    <string name="vt_recorder_only_peer_video">僅限遠端視訊</string>
+    <string name="vt_recording_saved">錄製內容已儲存。</string>
+    <string name="vt_recording_saved_sd_full">SD 卡空間不足，錄製內容已儲存。</string>
+    <string name="vt_recording_error">錄製出錯</string>
+
+    <!-- 3G switch -->
+    <string name="confirm_3g_switch">確定要將 3G 服務設定至此 SIM 卡？這會同時將視訊通話的預設 SIM 卡自動設至此 SIM 卡。</string>
+    <string name="modem_switching">切換 SIM 卡約需 10 秒。請稍候…</string>
+    <string name="confirm_3g_switch_to_off">確定要關閉 3G 服務？這會自動關閉視訊通話服務。</string>
+    <string name="service_3g_off">關閉</string>
+    <string name="enable_3G_service">啟用 3G 服務</string>
+    <string name="setting_for_3G_service">3G 服務</string>
+    <!-- video call settings part -->
+    <string name="voice_call">語音通話</string>
+    <string name="video_call">視訊通話</string>
+    <string name="internet_call">網路通話</string>
+    <string name="others">其他設定</string>
+    <string name="sum_voice_call">語音通話相關設定</string>
+    <string name="sum_video_call">視訊通話相關設定</string>
+    <string name="sum_internet_call">網路通話相關設定</string>
+    <string name="voice_call_settings">語音通話設定</string>
+    <string name="voice_mail">語音信箱</string>
+    <string name="sum_voice_mail">語音信箱服務與號碼</string>
+    <!-- Minute Reminder strings -->
+    <string name="minutereminder_title">分鐘提示音</string>
+    <string name="minutereminder_summary">在每分鐘的 50 秒提醒</string>
+    <string name="dual_mic_title">降噪</string>
+    <string name="dual_mic_summary">通話中壓制背景雜訊</string>
+
+    <!-- video call settings -->
+    <string name="vt_local_video_rep">本機視訊取代</string>
+    <string name="vt_dis_peer_rep">顯示遠端取代</string>
+    <string name="vt_dis_peer_rep_des">顯示無法使用遠端視訊時的取代圖片</string>
+    <string name="vt_peer_video_rep">遠端視訊取代</string>
+    <string name="vt_peer_video_rep_des">設定無法使用遠端視訊時的顯示圖片</string>
+    <string name="vt_pic_replace_local_description">設定攝影機未使用時的圖片</string>
+    <string name="vt_enable_back_camera">啟用後攝影機</string>
+    <string name="vt_enable_back_camera_description">開啟時可切換攝影機</string>
+    <string name="vt_peer_video_bigger">P2P視訊大於本機視訊</string>
+    <string name="vt_peer_video_bigger_description">開啟時可使P2P視訊大於本機視訊</string>
+    <string name="vt_outgoing_call">傳出的視訊撥號</string>
+    <string name="vt_outgoing_call_description">進行視訊撥號時，顯示本機視訊</string>
+    <string name="vt_incoming_call">傳入的視訊撥號</string>
+    <string name="vt_incoming_call_description">接受傳入的視訊撥號時，顯示本機視訊</string>
+    <string name="vt_auto_dropback">自動轉換</string>
+    <string name="vt_auto_dropback_des">自動轉換成語音通訊連線</string>
+    <string name="vt_local_video_display">本機視訊顯示</string>
+    <string name="fdn_phone_book_busy">电话簿忙碌中，请稍候再试。</string>
+    <string name="cell_broadcast">區域廣播</string>
+    <string name="cb_menu_edit">編輯</string>
+    <string name="cb_menu_delete">"刪除"</string>
+    <string name="cb_all_languages">所有語言</string>
+    <string name="sim_toolkit">"SIM卡應用"</string>
+    <string name="vt_incoming_showme_always">顯示</string>
+    <string name="vt_incoming_showme_disable">不顯示</string>
+    <string name="vt_peer_video_quality_sharp">高</string>
+    <string name="vt_ask_show_local_yes">顯示</string>
+    <string name="vt_ask_show_local_no">不顯示</string>
+    <string name="pref_camera_coloreffect_entry_none">"無"</string>
+    <string name="pref_camera_coloreffect_entry_mono">"單色效果"</string>
+    <string name="pref_camera_coloreffect_entry_sepia">"懷舊色調"</string>
+    <string name="pref_camera_coloreffect_entry_negative">"負片效果"</string>
+    <string name="pref_camera_coloreffect_entry_posterize">"色調分離"</string>
+    <string name="pref_camera_coloreffect_entry_pastel">"粉蠟筆效果"</string>
+    <string name="pref_camera_coloreffect_entry_mosaic">"馬賽克效果"</string>
+    <string name="pref_camera_coloreffect_entry_redtint">"紅色調"</string>
+    <string name="pref_camera_coloreffect_entry_bluetint">"藍色調"</string>
+    <string name="pref_camera_coloreffect_entry_greentint">"綠色調"</string>
+
+    <string name="onscreenHangupAll">掛斷所有通話</string>
+    <string name="onscreenHangupHolding">掛斷所有保留通話</string>
+    <string name="onscreenHangupActiveAndAnswerWaiting">掛斷通話中、等待接聽的電話</string>
+    <string name="onscreenECT">轉接</string>
+
+    <string name="dm_lock">DM 已上鎖</string>
+    <string name="dm_unlock">DM 解鎖</string>
+
+    <string name="mo_code_unconditional_cf_active">來電轉接\n無條件啟用</string>
+    <string name="mo_code_some_cf_active">依設定轉接</string>
+    <string name="mo_code_call_forwarded">通話轉接</string>
+    <string name="mo_code_call_is_waiting">等待中</string>
+    <string name="mo_code_cug_call">"封閉使用者群組"</string>
+    <string name="mo_code_outgoing_calls_barred">限制撥出</string>
+    <string name="mo_code_incoming_calls_barred">對方拒接來電</string>
+    <string name="mo_code_clir_suppression_rejected">確認來電顯示傳送服務</string>
+    <string name="mo_code_call_deflected">通話轉接</string>
+    <string name="mt_code_forwarded_call">此為轉接電話</string>
+    <string name="mt_code_cug_call">"封閉使用者群組"</string>
+    <string name="mt_code_call_on_hold">通話保留</string>
+    <string name="mt_code_call_retrieved">通話恢復</string>
+    <string name="mt_code_multi_party_call">電話會議</string>
+    <string name="mt_code_on_hold_call_released">保留通話結束</string>
+    <string name="mt_code_forward_check_received">轉接檢查 SS 訊息已接收</string>
+    <string name="mt_code_call_connecting_ect">通話轉接中</string>
+    <string name="mt_code_call_connected_ect">通話轉接啟用</string>
+    <string name="mt_code_deflected_call">此為轉接電話</string>
+    <string name="mt_code_additional_call_forwarded">來電轉接</string>
+    <string name="mt_code_forwarded_cf">通話轉接</string>
+    <string name="mt_code_forwarded_cf_uncond">所有來電轉接</string>
+    <string name="mt_code_forwarded_cf_cond">依設定轉接</string>
+    <string name="mt_code_forwarded_cf_busy">忙線時轉接</string>
+    <string name="mt_code_forwarded_cf_no_reply">無回應時轉接</string>
+    <string name="mt_code_forwarded_cf_not_reachable">無法撥通時轉接</string>
+
+    <string name="start_record">開始錄音</string>
+    <string name="stop_record">"停止錄音"</string>
+    <string name="str_db_playlist_name">我的錄音</string>
+    <string name="alert_device_error">音訊裝置發生錯誤</string>
+    <string name="ext_media_badremoval_notification_title">"SD 卡非正常移除"</string>
+    <string name="error_sdcard_access">"無法存取 SD 卡"</string>
+    <string name="confirm_device_info_full">SD 卡空間已用盡，錄音已儲存。</string>
+    <string name="confirm_save_info_saved">錄音已儲存</string>
+    <string name="confirm_save_info_saved_to">錄音已存儲到</string>
+    
+    <string name="activity_not_found">手機尚未安裝應用程式。</string>
+    <string name="no_sim_card_inserted" product="default">請插入SIM卡以啟動SIM卡應用</string>
+    <string name="airplane_mode_on" product="default">飛行模式開啟狀態下無法啟動SIM卡應用</string>
+    <string name="lable_sim_not_ready" product="default">SIM卡應用未就緒或不支援</string>
+    <string name="network_forbidden">停用</string>
+    <string name="callFailed_dsac_vt_bear_not_authorized">無法進行視訊通話。本 SIM 卡尚未啟用視訊通話服務，改撥語音通話？</string>
+    <string name="callFailed_dsac_vt_incompatible_destination">無法設定視訊通話，通話對象的手機不支援視訊電話。是否撥打語音通話？</string>
+    <string name="callFailed_dsac_vt_resource_unavailable">無法設定視訊通話，通話對象的手機不在 3G 服務範圍內。是否撥打語音通話？</string>
+    <string name="callFailed_dsac_vt_bearer_not_avail">無法設定視訊通話。是否撥打語音通話？</string>
+    <string name="callFailed_dsac_vt_out_of_3G_yourphone">您的手機不在 3G 服務範圍內。要撥打語音電話？</string>
+    <string name="notification_voicemail">語音信箱</string>
+    <string name="turn_on_3g_service_message">目前已停用 3G 服務，是否啟用此服務？</string>
+    <string name="associate_sim_missing_message">"%1$s SIM 卡無法使用。是否要透過 %2$s 撥打電話"</string>
+    <string name="associate_sim_missing_other">其他</string>
+
+    <string name="vt_settings">視訊設定</string>
+    <string name="vt_local_video_zoom">本機視訊縮放</string>
+    <string name="vt_local_video_brightness">本機視訊亮度</string>
+    <string name="vt_local_video_effect">本機視訊效果</string>
+    <string name="vt_local_video_nightmode">本機視訊夜間模式</string>
+    <string name="vt_peer_video_quality">P2P視訊品質</string>
+    <string name="vt_incoming_showme_ask">詢問</string>
+    <string name="vt_call_settings">視訊通話設定</string>
+    <string name="vt_pic_replace_local_default">預設圖片</string>
+    <string name="vt_pic_replace_local_freezeme">定格</string>
+    <string name="vt_pic_replace_local_mypic">我的圖片</string>
+    <string name="vt_sd_null">無法使用 SD 卡</string>
+    <string name="vt_sd_not_enough">SD 卡容量不足</string>
+    <string name="vt_peer_video_quality_normal">普通</string>
+    <string name="vt_ask_show_local">是否讓對方看見自己的影像?</string>
+    <string name="vt_change_my_pic">變更</string>
+    <string name="vt_pic_saved_to_sd">快照已儲存至 SD 卡</string>
+    <string name="vt_pic_saved_to_sd_fail">無法儲存快照</string>
+    <string name="vt_error_network">無法連接網路，即將中斷視訊通話。</string>
+    <string name="vt_error_media">視訊無法正確顯示，即將中斷視訊通話。</string>
+    <string name="vt_swap_video">切換視訊</string>
+    <string name="vt_local_video_contrast">本機視訊對比</string>
+    <string name="vt_menu_switch">切換相機</string>
+    <string name="vt_menu_hide_me">隱藏本機視訊</string>
+    <string name="vt_menu_show_me">顯示本機視訊</string>
+    <string name="vt_menu_snapshot">遠端快照</string>
+    <string name="vt_vocie_answer">語音接聽</string>
+    <string name="vt_wait_voice">等待語音通話連線</string>
+    <string name="vt_voice_connecting">語音通話連線中</string>
+    <string name="vt_cannot_support_setting">目前的相機不支援此設定</string>
+    <string name="vt_network_unreachable">無法連線至網路</string>
+    <string name="vt_iot_error_01">無法設定視訊通話</string>
+    <string name="vt_iot_error_02">手機忙線中</string>
+    <string name="vt_iot_error_03">沒有回應</string>
+    <string name="vt_iot_error_04">網路忙碌中</string>
+    <string name="pref_camera_coloreffect_entry_solarize">"曝光"</string>
+    <string name="pref_camera_coloreffect_entry_whiteboard">"白板效果"</string>
+    <string name="pref_camera_coloreffect_entry_blackboard">"黑板效果"</string>
+    <string name="pref_camera_coloreffect_entry_aqua">"水底效果"</string>
+    <string name="pref_camera_coloreffect_entry_sepiablue">"懷舊藍"</string>
+    <string name="pref_camera_coloreffect_entry_sepiagreen">"懷舊綠"</string>
+    <string name="enable_sip_dialog_message">網路電話功能已停用，是否要啟用？</string>
+    <string name="ip_dial_error_toast_for_sip_call_selected">IP 撥號功能不適用 Intent 通話。</string>
+    <string name="vt_addtional_call_description">電話號碼與插撥設定</string>
+    <string name="callDurationFormat"><xliff:g id="minutes" example="42">%1$s</xliff:g> 分 <xliff:g id="seconds" example="28">%2$s</xliff:g> 秒</string>
+    <string name="reminder">提醒</string>
+    <string name="vt_media_occupied">遠端相機不可用，無法接聽視訊電話，請檢查其他應用是否正在使用遠端相機。</string>
+    <string name="vt_media_video_fail">視訊無法正確顯示，視訊通話中斷。</string>
+    <!-- support for evdo call settings -->
+    <string name="cdma_not_support">"CDMA 不支援此功能。"</string>
+    <string name="cdma_cfu_title">中國電信</string>
+    <string name="labelCFC">取消所有轉接</string>
+    <string name="cdma_cfu_dialog_sum">始終使用這個號碼</string>
+    <string name="incall_toast_unhold">繼續</string>
+    <string name="ring_only_once_title">一次振鈴</string>
+    <string name="ring_only_once_summary">以語音形式接聽視頻電話時一次振鈴</string>
+    <string name="card_title_incoming_vt_call">傳入的視訊撥號</string>
+</resources>

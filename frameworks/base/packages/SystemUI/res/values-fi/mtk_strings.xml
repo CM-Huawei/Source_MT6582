@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="gemini_default_sim_always_ask">Kysy aina</string>
+    <string name="gemini_default_sim_auto">"AUTO"</string>
+    
+    <string name="accessibility_phone_four_bars">Puhelin, neljä palkkia.</string>
+    
+    <string name="sim_switch_tip">Tämä SIM asetettiin oletus-SIM-kortiksi kohteelle <xliff:g>%s</xliff:g>. Pidä ja vedä alasta tilapalkkia vaihtaaksesi oletus-SIM-kortin.</string>
+    <string name="remind_next_time">Muistuta minua ensi kerralla</string>
+    <string name="voice_call_service">äänipuhelupalvelu</string>
+    <string name="messages_service">Vistipalvelu</string>
+    <string name="data_connection_service">datayhteyspalvelu</string>
+
+    <string name="plmn_searching">"Haetaan"</string>
+
+    <string name="wifi">"Wifi"</string>
+    <string name="bluetooth">"Bluetooth"</string>
+    <string name="mobile">Datayhteys</string>
+    <string name="gps">"GPS"</string>
+    <string name="autorotate">Automaattinen kierto</string>
+    <string name="normal">Yleistä</string>
+    <string name="meeting">Kokous</string>
+    <string name="mute">"Äänetön"</string>
+    <string name="outdoor">Ulkoilma</string>
+
+    <string name="offline">"Lentokonetila"</string>
+    <string name="brightness">"Kirkkaus"</string>
+    <string name="timeout">"Aikaraja"</string>
+
+    <string name="data_connection_attach_timeout_error_msg">"Datayhteys epäonnistui tai nykyinen verkko on varattu."</string>
+    <string name="data_connection_dettach_timeout_error_msg">"Datayhteyden irrottaminen epäonnistui."</string>
+    <string name="data_connection_connected">[<xliff:g>%s</xliff:g>] SIM-kortin datayhteys on otettu käyttöön</string>
+
+    <string name="gemini_intenet_call">Internet-puhelu</string>  
+    <string name="gemini_default_sim_never">"Pois"</string>
+    
+    <string name="gemini_3g_disable_warning">"3G-palvelu ei ole käytettävissä tällä valitulla SIM-kortilla. Tämä voi ladata dataa hitaammin. Voit muuttaa 3G-palveluasetuksia kohdassa Asetukset &gt; Langaton ja verkot &gt; Matkapuhelinverkot. Haluatko varmasti valita tämän SIM-kortin?"</string>
+    <string name="gemini_3g_disable_warning_cu">"3G-palvelu ei ole käytettävissä tällä valitulla SIM-kortilla. Tämä voi ladata dataa hitaammin. Voit muuttaa 3G-palveluasetuksia kohdassa Asetukset &gt; SIM-hallinta. Haluatko varmasti valita tämän SIM-kortin?"</string>
+    <string name="gemini_3g_disable_warning_case0">"Sinun on otettava ensin käyttöön data-verkkovierailu tälle SIM-kortille, mikä voi aiheuttaa merkittäviä verkkovierailuveloituksia! Haluatko varmasti ottaa käyttöön data-verkkovierailun ja valita tämän SIM-kortin?"</string>
+    <string name="gemini_3g_disable_warning_case1">"3G-palvelu ei ole käytettävissä tällä valitulla SIM-kortilla. Tämä voi ladata dataa hitaammin. Voit muuttaa 3G-palveluasetuksia kohdassa Asetukset &gt; Langaton ja verkot &gt; Matkapuhelinverkot. Haluatko varmasti valita tämän SIM-kortin?"</string>
+    <string name="gemini_3g_disable_warning_case2">"3G-palvelu ei ole käytettävissä tällä valitulla SIM-kortilla. Tämä voi ladata dataa hitaammin. Voit muuttaa 3G-palveluasetuksia kohdassa Asetukset &gt; SIM-hallinta. Haluatko varmasti valita tämän SIM-kortin?"</string>
+    <string name="gemini_3g_disable_warning_case3">"Sinun on otettava ensin käyttöön data-verkkovierailu tälle SIM-kortille, mikä voi aiheuttaa merkittäviä verkkovierailuveloituksia! Lisäksi 3G-palvelu ei ole käytettävissä tällä valitulla SIM-kortilla. Tämä voi ladata dataa hitaammin. Voit muuttaa sitä kohdassa Asetukset &gt; Langaton ja verkot &gt; Matkapuhelinverkot. Haluatko varmasti ottaa käyttöön data-verkkovierailun ja valita tämän SIM-kortin?"</string>
+    <string name="gemini_3g_disable_warning_case4">"Sinun on otettava ensin käyttöön data-verkkovierailu tälle SIM-kortille, mikä voi aiheuttaa merkittäviä verkkovierailuveloituksia! Lisäksi 3G-palvelu ei ole käytettävissä tällä valitulla SIM-kortilla. Tämä voi ladata dataa hitaammin. Voit muuttaa sitä kohdassa Asetukset &gt; SIM-hallinta. Haluatko varmasti ottaa käyttöön data-verkkovierailun ja valita tämän SIM-kortin?"</string>
+
+    <string name="confirm_radio_title">SIM kytketty pois päältä</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> on nyt kytketty pois päältä. Haluatko kytkeä tämän SIM-kortin päälle?</string>
+    <string name="confirm_radio_msg_single">Lentokonetila on nyt kytketty päälle. Haluatko kytkeä sen pois päältä?</string>
+    <string name="confirm_radio_lbutton">Käynnistä</string>
+
+    <string name="builtin_installer_title_message">Sisäinen CD-ROM</string>
+    <string name="builtin_installer_dlg_message">Kytketään sisäinen CD-ROM päälle?</string>
+    <string name="builtin_installer_always_allowed">Älä näytä uudelleen</string>
+    <string name="dlg_no">"Ei"</string>
+    <string name="dlg_yes">"Kyllä"</string>
+
+    <string name="OK">"OK"</string>
+    <string name="application_guide_title">﻿Switch to default SIM card</string>
+    <string name="application_guide_content">"Liu'uta ilmoitusluettelo alas vaihtaaksesi oletus SIM-korttiin"</string>
+    
+    <string name="data_usage">"Tietojen käyttö"</string>
+    <string name="audio_profile">Audioprofiilit</string>
+    <string name="user_owner">"Omistaja"</string>
+
+    <string name="phone_battery_low_subtitle">Puhelimen akun varaus käymässä vähiin.</string>
+    <string name="smartbook_battery_low_subtitle">Smartbookin akun varaus käymässä vähiin.</string>
+
+    <string name="apn">TUKIASEMA</string>
+    <string name="sim_management">UIM/SIM-HALLINTA</string>
+    <string name="network_selection_settings">Verkon valinta</string>
+    <string name="quick_settings_roam_data">Verkkovierailu</string>
+
+    <string name="eco_backlight_title">Säästävä taustavalo</string>
+    <string name="eco_backlight_summary">Sopeuta taustavalo automaattisesti virran säästämiseksi</string> 
+</resources>

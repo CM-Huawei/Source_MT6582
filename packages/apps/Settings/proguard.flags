@@ -1,0 +1,44 @@
+# Keep all Fragments in this package, which are used by reflection.
+-keep class com.android.settings.*Fragment
+-keep class com.android.settings.*Picker
+-keep class com.android.settings.*Settings
+-keep class com.android.settings.wifi.*Settings
+-keep class com.android.settings.deviceinfo.*
+-keep class com.android.settings.bluetooth.*
+-keep class com.android.settings.applications.*
+-keep class com.android.settings.inputmethod.*
+-keep class com.android.settings.MasterClear
+-keep class com.android.settings.MasterClearConfirm
+-keep class com.android.settings.accounts.*
+-keep class com.android.settings.fuelgauge.*
+-keep class com.android.settings.users.*
+-keep class com.android.settings.NotificationStation
+-keep class com.android.settings.nfc.*
+
+# Keep click responders
+-keepclassmembers class com.android.settings.inputmethod.UserDictionaryAddWordActivity {
+  *** onClick*(...);
+}
+
+# MTK new added keep class 
+-keep class com.mediatek.gemini.*
+-keep class com.mediatek.gemini.SimManagement*{*;}
+-keep class com.mediatek.wifi.WifiGprsSelector*
+-keep class com.mediatek.wifi.WifiGprsSelector*{*;}
+-keep class com.mediatek.audioprofile.AudioProfileSettings*
+-keep class com.mediatek.audioprofile.AudioProfileSettings*{*;}
+-keep class com.mediatek.wifi.hotspot.TetherWifiSettings*
+-keep class com.mediatek.wifi.hotspot.TetherWifiSettings*{*;}
+-keep class com.mediatek.wifi.hotspot.BandwidthUsage*
+-keep class com.mediatek.wifi.hotspot.BandwidthUsage*{*;}
+-keep class com.mediatek.nfc.CardEmulationSettings*
+-keep class com.mediatek.nfc.CardEmulationSettings*{*;}
+-keep class com.mediatek.voicesettings.VoiceUiAvailableLanguageFragement*
+-keep class com.mediatek.voicesettings.VoiceUiAvailableLanguageFragement*{*;}
+-keep class com.mediatek.voicesettings.VoiceUiSettings*
+-keep class com.mediatek.voicesettings.VoiceUiSettings*{*;}
+-keep class com.mediatek.lbs.EPOSettings*
+-keep class com.mediatek.lbs.EPOSettings*{*;}
+-keep class com.android.settings.DataUsageSummary*
+-keep class com.android.settings.DataUsageSummary*{*;}
+-keep class com.mediatek.hdmi.HDMISettings*

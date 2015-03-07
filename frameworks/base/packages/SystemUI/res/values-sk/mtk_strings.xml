@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="gemini_default_sim_always_ask">Vždy sa opýtať</string>
+    <string name="gemini_default_sim_auto">"AUTOMATICKY"</string>
+    
+    <string name="accessibility_phone_four_bars">Sila signálu telefónu so štyrmi pásmi.</string>
+    
+    <string name="sim_switch_tip">Táto karta SIM bola nastavená ako predvolená karta SIM pre <xliff:g>%s</xliff:g>. Ak chcete zmeniť predvolenú kartu SIM, stavový riadok podržte a potiahnite dolu.</string>
+    <string name="remind_next_time">Pripomenúť mi nabudúce</string>
+    <string name="voice_call_service">služba hlasového hovoru </string>
+    <string name="messages_service">služba zasielania textových správ</string>
+    <string name="data_connection_service">služba dátového pripojenia</string>
+
+    <string name="plmn_searching">"Vyhľadávanie"</string>
+
+    <string name="wifi">"Wi-Fi"</string>
+    <string name="bluetooth">"Bluetooth"</string>
+    <string name="mobile">Dátové pripojenie</string>
+    <string name="gps">"GPS"</string>
+    <string name="autorotate">Automatické otáčanie</string>
+    <string name="normal">Všeobecné informácie</string>
+    <string name="meeting">Stretnutie</string>
+    <string name="mute">"Tichý"</string>
+    <string name="outdoor">Vonku</string>
+
+    <string name="offline">"Režim V lietadle"</string>
+    <string name="brightness">"Jas"</string>
+    <string name="timeout">"Časový limit vypršal"</string>
+
+    <string name="data_connection_attach_timeout_error_msg">"Dátové pripojenie zlyhalo alebo sieť je momentálne zaneprázdnená."</string>
+    <string name="data_connection_dettach_timeout_error_msg">"Dátové pripojenie sa nepodarilo odpojiť."</string>
+    <string name="data_connection_connected">[<xliff:g>%s</xliff:g>] Dátové pripojenie karty SIM je povolené</string>
+
+    <string name="gemini_intenet_call">Internetový hovor</string>  
+    <string name="gemini_default_sim_never">"Vypnuté"</string>
+    
+    <string name="gemini_3g_disable_warning">"Služba 3G nie je dostupná s touto vybranou kartou SIM. Údaje sa môžu načítavať pomalšie. Nastavenie služby 3G môžete zmeniť v časti Nastavenia&gt; Bezdrôtové pripojenie a siete&gt; Mobilné siete. Ste si istí, že chcete vyberať túto kartu SIM?"</string>
+    <string name="gemini_3g_disable_warning_cu">"Služba 3G nie je dostupná s touto vybranou kartou SIM. Údaje sa môžu načítavať pomalšie. Nastavenie služby 3G môžete zmeniť v časti Nastavenia&gt; Správa karty SIM. Ste si istí, že chcete vyberať túto kartu SIM?"</string>
+    <string name="gemini_3g_disable_warning_case0">"Pre túto kartu SIM musíte najskôr povoliť dátový roaming, za ktorý môžu byť účtované značné poplatky! Naozaj chcete povoliť dátový roaming a vyberať túto kartu SIM?"</string>
+    <string name="gemini_3g_disable_warning_case1">"Služba 3G nie je dostupná s touto vybranou kartou SIM. Údaje sa môžu načítavať pomalšie. Nastavenie služby 3G môžete zmeniť v časti Nastavenia&gt; Bezdrôtové pripojenie a siete&gt; Mobilné siete. Ste si istí, že chcete vyberať túto kartu SIM?"</string>
+    <string name="gemini_3g_disable_warning_case2">"Služba 3G nie je dostupná s touto vybranou kartou SIM. Údaje sa môžu načítavať pomalšie. Nastavenie služby 3G môžete zmeniť v časti Nastavenia&gt; Správa karty SIM. Ste si istí, že chcete vyberať túto kartu SIM?"</string>
+    <string name="gemini_3g_disable_warning_case3">"Pre túto kartu SIM musíte najskôr povoliť dátový roaming, za ktorý môžu byť účtované značné poplatky! Služba 3G nie je okrem toho dostupná s touto kartou SIM. Údaje sa môžu načítavať pomalšie. Môžete to zmeniť v časti Nastavenia&gt; Bezdrôtové pripojenie a siete&gt; Mobilné siete. Naozaj chcete zapnúť dátový roaming a vybrať túto kartu SIM?"</string>
+    <string name="gemini_3g_disable_warning_case4">"Najskôr musíte povoliť dátový roaming pre túto kartu SIM, za ktorý môžu byť účtované značné poplatky! Služba 3G nie je okrem toho dostupná s touto kartou SIM. Údaje sa môžu načítavať pomalšie. Nastavenie služby 3G môžete zmeniť v časti Nastavenia &gt; Správa karty SIM. Naozaj chcete povoliť dátový roaming a vybrať túto kartu SIM?"</string>
+
+    <string name="confirm_radio_title">Karta SIM je vypnutá</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> je teraz vypnutá. Chcete zapnúť túto kartu SIM?</string>
+    <string name="confirm_radio_msg_single">Režim Lietadlo je teraz zapnutý. Chcete ho vypnúť?</string>
+    <string name="confirm_radio_lbutton">Zapnúť</string>
+
+    <string name="builtin_installer_title_message">Vstavaná CD-ROM</string>
+    <string name="builtin_installer_dlg_message">Zapnúť vstavanú CD-ROM?</string>
+    <string name="builtin_installer_always_allowed">Nabudúce nezobrazovať </string>
+    <string name="dlg_no">"Nie"</string>
+    <string name="dlg_yes">"Áno"</string>
+
+    <string name="OK">"OK"</string>
+    <string name="application_guide_title">﻿Switch to default SIM card</string>
+    <string name="application_guide_content">Ak chcete prepnúť na predvolenú kartu SIM, zoznam oznámení posuňte nadol.</string>
+    
+    <string name="data_usage">"Využitie dát"</string>
+    <string name="audio_profile">Zvukové profily</string>
+    <string name="user_owner">"Vlastník"</string>
+
+    <string name="phone_battery_low_subtitle">Batéria v telefóne je takmer vybitá.</string>
+    <string name="smartbook_battery_low_subtitle">Batéria v smartfóne je takmer vybitá.</string>
+
+    <string name="apn">PRÍSTUPOVÝ BOD</string>
+    <string name="sim_management">SPRÁVA UIM/SIM</string>
+    <string name="network_selection_settings">Výber siete</string>
+    <string name="quick_settings_roam_data">Dátový roaming</string>
+
+    <string name="eco_backlight_title">Úsporné podsvietenie</string>
+    <string name="eco_backlight_summary">Podsvietenie prispôsobiť automaticky, aby sa šetrila energia</string> 
+</resources>

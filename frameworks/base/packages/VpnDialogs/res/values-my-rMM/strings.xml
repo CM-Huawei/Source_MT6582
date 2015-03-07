@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2011 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    
+    <string name="prompt"><xliff:g id="app">%s</xliff:g>သည် VPN ချိတ်ဆက်မှုတစ်ခု ဖန်တီးရန် ကြိုးစားသည်။</string>
+
+    
+    <string name="warning">ဆက်လုပ်နေခြင်းအားဖြင့်၊ သင်သည် ကွန်ရက်လမ်းကြောင်းအားလုံး ဖြတ်ယူရန် လုပ်ငန်းသုံး ပရိုဂရမ် ခွင့်ပြုချက်ကို ပေးနေသည်။ &lt;b&gt; သင် ယုံကြည်ရသော လုပ်ငန်းသုံး ပရိုဂရမ် မဖြစ်ခဲ့လျှင် လက်မခံပါနှင့်။ &lt;/b&gt; သို့မဟုတ်လျှင်  မကောင်းသော ဆော့(ဖ်)ဝဲ(လ်)ဖြင့် သင့်အချက်အလက် အထိအခိုက်ခံရပြီး ဘေးတွေ့နိုင်သည့် အလားအလာ ရှိသည်။</string>
+
+    
+    <string name="accept">ကျွန်ုပ် ဤလုပ်ငန်းသုံး ပရိုဂရမ်ကို ယုံကြည်သည်။</string>
+
+    
+    <string name="legacy_title">VPN ချိတ်ဆက်ခဲ့သည်</string>
+    
+    <string name="configure">စီစဉ်ထားရှိပါ</string>
+    
+    <string name="disconnect">ချိတ်ဆက်မှုဖြုတ်ရန်</string>
+
+    
+    <string name="session">အခန်းကဏ္ဍ -</string>
+    
+    <string name="duration">ကြာချိန် -</string>
+    
+    <string name="data_transmitted">ပေးပို့ခဲ့သည် -</string>
+    
+    <string name="data_received">လက်ခံရရှိခဲ့သည် - </string>
+
+    
+    <string name="data_value_format"><xliff:g id="number">%1$s</xliff:g> ဘိုက်(စ်)/ <xliff:g id="number">%2$s</xliff:g> အစုံများ</string>
+</resources>

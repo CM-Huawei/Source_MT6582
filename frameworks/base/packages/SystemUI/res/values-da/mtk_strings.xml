@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="gemini_default_sim_always_ask">Spørg altid</string>
+    <string name="gemini_default_sim_auto">"AUTO"</string>
+    
+    <string name="accessibility_phone_four_bars">Telefon fire linjer.</string>
+    
+    <string name="sim_switch_tip">Dette SIM-kort er indstillet som standard SIM-kort for <xliff:g>%s</xliff:g>. Hold og træk ned i Statuslinjen for at ændre standard SIM-kort.</string>
+    <string name="remind_next_time">Påmind mig næste gang</string>
+    <string name="voice_call_service">stemmeopkaldstjeneste</string>
+    <string name="messages_service">meddelelsestjeneste</string>
+    <string name="data_connection_service">dataforbindelsestjeneste</string>
+
+    <string name="plmn_searching">"Søger"</string>
+
+    <string name="wifi">"Wi-Fi"</string>
+    <string name="bluetooth">"Bluetooth"</string>
+    <string name="mobile">Dataforbindelse</string>
+    <string name="gps">"GPS"</string>
+    <string name="autorotate">Auto-rotation</string>
+    <string name="normal">Generelt</string>
+    <string name="meeting">Møde</string>
+    <string name="mute">"Lydløs"</string>
+    <string name="outdoor">Udendørs</string>
+
+    <string name="offline">"Flytilstand"</string>
+    <string name="brightness">"Lysstyrke"</string>
+    <string name="timeout">"Timeout"</string>
+
+    <string name="data_connection_attach_timeout_error_msg">"Dataforbindelse mislykkedes eller det aktuelle netværk er optaget."</string>
+    <string name="data_connection_dettach_timeout_error_msg">"Dataforbindelse mislykkedes."</string>
+    <string name="data_connection_connected">[<xliff:g>%s</xliff:g>] SIM-kort dataforbindelse er aktiveret</string>
+
+    <string name="gemini_intenet_call">Internetopkald</string>  
+    <string name="gemini_default_sim_never">"Fra"</string>
+    
+    <string name="gemini_3g_disable_warning">"3G-tjenesten er ikke tilgængelig med dette valgte SIM-kort. Dette kan bevirke, at data hentes langsommere. Du kan ændre indstillingerne for 3G-tjenesten under Indstillinger &gt; Trådløst og netværk &gt; Mobile netværk. Er du sikker på, at du vil vælge dette SIM-kort?"</string>
+    <string name="gemini_3g_disable_warning_cu">"3G-tjenesten er ikke tilgængelig med dette valgte SIM-kort. Dette kan bevirke, at data hentes langsommere. Du kan ændre indstillingerne for 3G-tjenesten under Indstillinger &gt; SIM-styring. Er du sikker på, at du vil vælge dette SIM-kort?"</string>
+    <string name="gemini_3g_disable_warning_case0">"Du skal først aktivere dataroaming for dette SIM-kort, hvilket kan medføre betydelige udgifter til roaming! Er du sikker på, at du vil aktivere dataroaming og vælge dette SIM-kort?"</string>
+    <string name="gemini_3g_disable_warning_case1">"3G-tjenesten er ikke tilgængelig med dette valgte SIM-kort. Dette kan bevirke, at data hentes langsommere. Du kan ændre indstillingerne for 3G-tjenesten under Indstillinger &gt; Trådløst og netværk &gt; Mobile netværk. Er du sikker på, at du vil vælge dette SIM-kort?"</string>
+    <string name="gemini_3g_disable_warning_case2">"3G-tjenesten er ikke tilgængelig med dette valgte SIM-kort. Dette kan bevirke, at data hentes langsommere. Du kan ændre indstillingerne for 3G-tjenesten under Indstillinger &gt; SIM-styring. Er du sikker på, at du vil vælge dette SIM-kort?"</string>
+    <string name="gemini_3g_disable_warning_case3">"Du skal først aktivere dataroaming for dette SIM-kort, hvilket kan medføre betydelige udgifter til roaming! Derudover er 3G-tjenesten ikke tilgængelig med dette SIM-kort. Dette kan bevirke, at data hentes langsommere. Du kan ændre det under Indstillinger &gt; Trådløst og netværk &gt; Mobile netværk. Er du sikker på, at du vil aktivere dataroaming og vælge dette SIM-kort?"</string>
+    <string name="gemini_3g_disable_warning_case4">"Du skal først aktivere dataroaming for dette SIM-kort, hvilket kan medføre betydelige udgifter til roaming! Derudover er 3G-tjenesten ikke tilgængelig med dette SIM-kort. Dette kan bevirke, at data hentes langsommere. Du kan ændre det under Indstillinger &gt; SIM-styring. Er du sikker på, at du vil aktivere dataroaming og vælge dette SIM-kort?"</string>
+
+    <string name="confirm_radio_title">SIM deaktiveret</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> er nu slået fra. Vil du aktivere dette SIM-kort?</string>
+    <string name="confirm_radio_msg_single">Flytilstand er nu aktiveret. Vil du deaktivere?</string>
+    <string name="confirm_radio_lbutton">Aktiver</string>
+
+    <string name="builtin_installer_title_message">Indbygget CD-ROM</string>
+    <string name="builtin_installer_dlg_message">Aktiver indbygget CD-ROM?</string>
+    <string name="builtin_installer_always_allowed">Vis ikke næste gang</string>
+    <string name="dlg_no">"Nej"</string>
+    <string name="dlg_yes">"Ja"</string>
+
+    <string name="OK">"OK"</string>
+    <string name="application_guide_title">﻿Switch to default SIM card</string>
+    <string name="application_guide_content">Træk meddelelsespanelet ned for at skifte til standard SIM-kort</string>
+    
+    <string name="data_usage">"Databrug"</string>
+    <string name="audio_profile">Lydprofiler</string>
+    <string name="user_owner">"Ejer"</string>
+
+    <string name="phone_battery_low_subtitle">Telefonbatteriet er ved at løbe tør.</string>
+    <string name="smartbook_battery_low_subtitle">Smartbook-batteriet er ved at løbe tør.</string>
+
+    <string name="apn">ADGANGSPUNKT</string>
+    <string name="sim_management">UIM/SIM-ADMINISTRATION</string>
+    <string name="network_selection_settings">Netværksvalg</string>
+    <string name="quick_settings_roam_data">Data Roam</string>
+
+    <string name="eco_backlight_title">Økonomisk baggrundslys</string>
+    <string name="eco_backlight_summary">Tilpas automatisk baggrundsbelysning for at spare strøm</string> 
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="mtk_notification_string">ចុចមើលបណ្ដាកំណត់លម្អិត</string>
+    <string name="mtk_beam_cancel_title">បោះបង់ការផ្ទេរ</string>    
+    <string name="mtk_beam_cancel">តើអ្នកប្រាកដជានឹងបោះបង់ការផ្ទេរចូលឬ?</string>
+    <string name="mtk_yes">"បាទ/ចាស"</string>
+    <string name="mtk_no">"ទេ"</string>
+    <string name="mtk_se_sim1">SIM1</string>
+    <string name="mtk_se_sim2">SIM2</string>
+    <string name="mtk_se_ssd">កាដ SD វៃឆ្លាត</string>
+    <string name="mtk_se_ese">SE ដែលបានបង្កប់</string>
+    <string name="mtk_se_na">"គ្មាន​ធាតុ​សុវត្ថិភាព​ទេ។ នឹង​បិទ​ការចម្លង​កាដ NFC។"</string>
+    <string name="mtk_se_alt">" មិន​មានទេ។ តើអ្នកចង់ប្ដូរទៅកាន់ " ឬ</string>
+    <string name="mtk_nfc_card_emulation">ការចម្លង​កាដ NFC</string>
+    
+<string name="mtk_disallow_in_wfd">មិនអាចដំណើរការបានទេ ខណៈកំពុងមានរូបភាព​បណ្ដាញ​ឥតខ្សែ</string>
+    <string name="mtk_disallow_in_wfd_KK">មិនអាចចាក់លេងរូបភាពវីដេអូនៃអេក្រង់ បានទេ</string>
+    </resources>

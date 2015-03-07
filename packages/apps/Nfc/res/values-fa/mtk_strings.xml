@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="mtk_notification_string">برای مشاهده جزییات تنظیمات لمس کنید</string>
+    <string name="mtk_beam_cancel_title">لغو انتقال</string>    
+    <string name="mtk_beam_cancel">آیا از لغو انتقال به ورودی مطمئن هستید؟</string>
+    <string name="mtk_yes">"بله"</string>
+    <string name="mtk_no">"خیر"</string>
+    <string name="mtk_se_sim1">سيم کارت 1</string>
+    <string name="mtk_se_sim2">سيم کارت 2</string>
+    <string name="mtk_se_ssd">کارت SD هوشمند</string>
+    <string name="mtk_se_ese">SE توکار</string>
+    <string name="mtk_se_na">"عنصر امنیتی وجود ندارد. شبیه‌سازی کارت NFC متوقف می‌شود."</string>
+    <string name="mtk_se_alt">" موجود نیست. آیا می‌خواهید به  جابجا شوید "</string>
+    <string name="mtk_nfc_card_emulation">شبیه‌سازی کارت NFC</string>
+    
+<string name="mtk_disallow_in_wfd">طی نمایش بی‌سیم اجرای این عملیات ممکن نیست</string>
+    <string name="mtk_disallow_in_wfd_KK">در مدت Cast Screen اجرای این عملیات ممکن نیست</string>
+    </resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="voice_call_service">ভয়েস কল সার্ভিস</string>
+    <string name="messages_service">মেসেজ সার্ভিস</string>
+    <string name="sim_switch_tip">এই সিম <xliff:g>%s</xliff:g>এর ডিফল্ট সিম কার্ড হিসেবে সেট করা হয়েছে। ডিফল্ট সিম কার্ড পরিবর্তন করতে স্ট্যাটাস বার ধরে নিচের দিকে টেনে আনুন।</string>
+    <string name="remind_next_time">পরবর্তী বার আমাকে মনে করিয়ে দিন।</string>
+	<string name="gemini_default_sim_always_ask">সবসময় জিজ্ঞাসা করুন</string> 
+    <string name="gemini_3g_disable_warning">"নির্বাচিত সিমের সাথে থ্রিজি সেবা নেই। এতে ডাটা লোড ধীরগতির হতে পারে। আপনি থ্রিজি সেবা সেটিং পরিবর্তন করতে পারেন সেটিং&gt;ওয়্যারলেস ও নেটওয়ার্ক&gt; মোবাইল নেটওয়ার্ক। আপনি কি নিশ্চিত আপনি এই সিম নির্বাচন করবেন?"</string>
+    <string name="gemini_3g_disable_warning_cu">"নির্বাচিত সিমের সাথে থ্রিজি সেবা নেই। এতে ডাটা লোড ধীরগতির হতে পারে। আপনি থ্রিজি সেবা সেটিং পরিবর্তন করতে পারেন সেটিং&gt; সিম ম্যানেজমেন্ট। আপনি কি নিশ্চিত আপনি এই সিম নির্বাচন করবেন?"</string>
+    <string name="gemini_3g_disable_warning_case0">" এই সিমের জন্য আপনাকে অবশ্যই প্রথমে ডাটা রোমিং সক্রিয় করতে হবে যার জন্য আপনাকে অনেক রোমিং চার্জ দিতে হতে পারে! আপনি কি নিশ্চিত আপনি ডাটা রোমিং সক্রিয় করতে এবং এই সিম নির্বাচন করতে চান?"</string>  
+    <string name="gemini_3g_disable_warning_case1">"নির্বাচিত সিমের সাথে থ্রিজি সেবা নেই। এতে ডাটা লোড ধীরগতির হতে পারে। আপনি থ্রিজি সেবা সেটিং পরিবর্তন করতে পারেন সেটিং&gt;ওয়্যারলেস ও নেটওয়ার্ক&gt; মোবাইল নেটওয়ার্ক। আপনি কি নিশ্চিত আপনি এই সিম নির্বাচন করবেন?"</string>  
+    <string name="gemini_3g_disable_warning_case2">"নির্বাচিত সিমের সাথে থ্রিজি সেবা নেই। এতে ডাটা লোড ধীরগতির হতে পারে। আপনি থ্রিজি সেবা সেটিং পরিবর্তন করতে পারেন সেটিং&gt; সিম ম্যানেজমেন্ট। আপনি কি নিশ্চিত আপনি এই সিম নির্বাচন করবেন?"</string>  
+    <string name="gemini_3g_disable_warning_case3">"আপনাকে প্রথমে এই সিমের জন্য ডাটা রোমিং সক্রিয় করতে হবে যাতে আপনার প্রচুর রোমিং চার্জ লাগতে পারে! এছাড়া থ্রিজি নির্বাচিত সিমের সাথে থ্রিজি সেবা নেই। এতে ডাটা লোড ধীরগতির হতে পারে। আপনি থ্রিজি সেবা সেটিং পরিবর্তন করতে পারেন সেটিং&gt;সেটিং&gt;ওয়্যারলেস ও নেটওয়ার্ক&gt; মোবাইল নেটওয়ার্ক। আপনি কি নিশ্চিত আপনি ডাটা রোমিং সক্রিয় করবেন এবং এই সিম নির্বাচন করবেন?"</string>  
+    <string name="gemini_3g_disable_warning_case4">"আপনাকে প্রথমে এই সিমের জন্য ডাটা রোমিং সক্রিয় করতে হবে যাতে আপনার প্রচুর রোমিং চার্জ লাগতে পারে! এছাড়া থ্রিজি নির্বাচিত সিমের সাথে থ্রিজি সেবা নেই। এতে ডাটা লোড ধীরগতির হতে পারে। আপনি থ্রিজি সেবা সেটিং পরিবর্তন করতে পারেন সেটিং&gt; সিম ম্যানেজমেন্ট। আপনি কি নিশ্চিত আপনি ডাটা রোমিং সক্রিয় করবেন এবং এই সিম নির্বাচন করবেন?"</string>  
+    <string name="brightness">উজ্জ্বলতা</string>
+    <string name="timeout">সময় শেষ</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="bluetooth">ব্লুটুথ</string>
+    <string name="mobile">ডাটা সংযোগ</string>
+    <string name="gps">জিপিএস</string>
+    <string name="autorotate">অটো রোটেশন</string>
+    <string name="normal">সাধারণ</string>
+    <string name="meeting">বৈঠক</string>
+    <string name="mute">নিঃশব্দ</string>
+    <string name="outdoor">আউটডোর</string>
+    <string name="offline">উড়োজাহাজ মোড</string>
+    <string name="OK">ঠিক আছে</string>  
+    <string name="application_guide_title">ডিফল্ট সিম কার্ড সুইচ করুন</string>  
+    <string name="application_guide_content">ডিফল্ট সিম কার্ড সুইচ করার জন্য নোটিফিকেশন তালিকা স্লাইড ডাউন করুন</string>
+    <string name="audio_profile">অডিও প্রোফাইল</string>
+    <string name="data_usage">ডাটা ব্যবহার</string>
+    <string name="user_owner">মালিক</string>
+    <string name="eco_backlight_title">ইকোনোমিকাল ব্যাকলাইট</string>
+    <string name="eco_backlight_summary">পাওয়ার সংরক্ষণের জন্য ব্যাকলাইট স্বয়ংক্রিয়ভাবে খাপখাওয়ান</string>
+    <string name="gemini_default_sim_auto">স্বয়ংক্রিয়</string>
+    <string name="accessibility_phone_four_bars">ফোন চার বারের।</string>
+    <string name="data_connection_service">ডাটা সংযোগ সেবা</string>
+    <string name="plmn_searching">অনুসন্ধান চলছে</string>
+    <string name="data_connection_attach_timeout_error_msg">“ডাটা সংযোগ ব্যর্থ হয়েছে বা বর্তমানে নেটওয়ার্ক ব্যস্ত”</string>
+    <string name="data_connection_dettach_timeout_error_msg">“ডাটা সংযোগ ডিটাচ ব্যর্থ”</string>
+    <string name="data_connection_connected">[<xliff:g>%s</xliff:g>] সিম কার্ডের ডাটা সংযোগ সক্রিয় রয়েছে</string>
+    <string name="gemini_intenet_call">ইন্টারনেট কল</string>
+    <string name="gemini_default_sim_never">বন্ধ করুন</string>
+    <string name="confirm_radio_title">সিম বন্ধ করা হয়েছে</string>
+    <string name="confirm_radio_msg"><xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> এখন বন্ধ আছে। আপনি কি এই সিম কার্ড চালু করতে চান?</string>
+    <string name="confirm_radio_msg_single">এখন উড়োজাহাজ মোড চালু রয়েছে, আপনি কি তা বন্ধ করতে চান?</string>
+    <string name="confirm_radio_lbutton">চালু করুন</string>
+    <string name="builtin_installer_title_message">বিল্ট-ইন সিডি-রম</string>
+    <string name="builtin_installer_dlg_message">বিল্ট-ইন সিডি-রম চালু করবেন?</string>
+    <string name="builtin_installer_always_allowed">পরবর্তী সময় আমাকে দেখাবেন না</string>
+    <string name="dlg_no">না</string>
+    <string name="dlg_yes">হ্যাঁ</string>
+    <string name="phone_battery_low_subtitle">ফোনের ব্যাটারি দুর্বল হয়ে যাচ্ছে</string>
+    <string name="smartbook_battery_low_subtitle">স্মাটবুকের ব্যাটারি দুর্বল হয়ে যাচ্ছে</string>
+    <string name="apn">অ্যাক্সেস পয়েন্ট</string>
+    <string name="sim_management">ইউআইএম/সিম ব্যবস্থাপনা</string>
+    <string name="network_selection_settings">নেটওয়ার্ক নির্বাচন</string>
+    <string name="quick_settings_roam_data">ডাটা রোমিং</string>
+</resources>

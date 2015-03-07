@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    
+    <string name="mtk_notification_string">Trykk for å vise detaljinnstillinger</string>
+    <string name="mtk_beam_cancel_title">Avbryt overføring</string>    
+    <string name="mtk_beam_cancel">Er du sikker på å avbryte innkommende overføring?</string>
+    <string name="mtk_yes">"Ja"</string>
+    <string name="mtk_no">"Nei"</string>
+    <string name="mtk_se_sim1">SIM-kort1</string>
+    <string name="mtk_se_sim2">SIM-kort2</string>
+    <string name="mtk_se_ssd">Smart SD-kort</string>
+    <string name="mtk_se_ese">Integrert SE</string>
+    <string name="mtk_se_na">"Ingen tilgjengelige sikkerhetselementer. NFC-kortemulering vil bli slått av."</string>
+    <string name="mtk_se_alt">" er ikke tilgjengelig. Vil du bytte til "</string>
+    <string name="mtk_nfc_card_emulation">NFC-kortemulering</string>
+    
+<string name="mtk_disallow_in_wfd">Denne operasjonen kan ikke gjøres under Trådløs visning</string>
+    <string name="mtk_disallow_in_wfd_KK">Denne operasjonen kan ikke gjøres under Hiv skjerm</string>    
+</resources>

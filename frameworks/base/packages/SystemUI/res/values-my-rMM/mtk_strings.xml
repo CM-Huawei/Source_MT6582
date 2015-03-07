@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">  
+    <!-- for always ask -->  
+    <string name="gemini_default_sim_always_ask">အမြဲတမ်း မေးပါ</string>  
+    <!-- The text for the button in the notification window-shade that turns
+         on do not disturb mode, where notifications no longer show their ticker,
+         no sound plays, and no icons are visible.  The windowshade continues to show
+         the notifications. [CHAR LIMIT=25]-->  
+    <string name="status_bar_do_not_disturb_button">မနှောင့်ယှက်ပါနှင့်</string>  
+    <!-- The text for the button in the notification window-shade that turns
+         off do not disturb mode.  After clicking this, notifications will be
+         shown again. [CHAR LIMIT=25] -->  
+    <string name="status_bar_please_disturb_button">အကြောင်းကြားချက်များကို ပြသည်</string>  
+    <!-- Compatibility mode help screen: header text. [CHAR LIMIT=50] -->  
+    <string name="compat_mode_help_header">လိုက်ဖက်သော မှန်ဘီးလူး</string>  
+    <!-- Compatibility mode help screen: body text. [CHAR LIMIT=150] -->  
+    <string name="compat_mode_help_body">ပိုသေးငယ်သော ဖန်သားပြင်အတွက် လုပ်ငန်းသုံးပရိုဂရမ်ကို ဒီဇိုင်းပြုလုပ်သောအခါ မှန်ဘီလူး ထိန်းချုပ်ခြင်းသည် ဒိုင်ခွက်ဖြင့် ပေါ်လာမည်။</string>  
+    <!-- Content description of the phone signal when it is three bars for accessibility (not shown on the screen). [CHAR LIMIT=NONE] -->  
+    <string name="accessibility_phone_four_bars">ဖုန်း လေးဘား။</string>  
+    <!-- Description of the desk dock action that invokes the Android Dreams screen saver feature -->  
+    <string name="dreams_dock_launcher">ဖန်သားပြင် ဆေဗာကို သက်ဝင်လှုပ်ရှားမှုရှိသည်</string>  
+    <!-- Title for the pseudo-notification shown when notifications are disabled (do-not-disturb
+         mode) -->  
+    <string name="notifications_off_title">အကြောင်းကြားချက်များကို ပိတ်ထားသည်</string>  
+    <!-- Content text for do-not-disturb mode notification -->  
+    <string name="notifications_off_text">အကြောင်းကြားချက်များကို ပြန်ဖွင့်ရန် ဤနေရာတွင် ထိပါ။</string>  
+    <string name="sim_switch_tip">  <xliff:g>%s</xliff:g> အတွက် SIM ကို သတ် မှတ်ထား သော SIM ကဒ် အဖြစ် တပ်ဆင်သည်။ သတ် မှတ်ထားသော SIM ကဒ် ကို ပြောင်းရန် အနေ အထားပြဘားကို ထိထားပြီး အောက်သို့ ဆွဲချပါ။ </string>  
+    <string name="remind_next_time">နောက်တစ်ကြိမ်တွင် ကျွန်ုပ်ကို သတိပေးပါ</string>  
+    <string name="voice_call_service">အသံ ခေါ်ဆိုခြင်း ဝန်ဆောင်မှု</string>  
+    <string name="messages_service">မက်ဆေ့(ခ်ျ) ဝန်ဆောင်မှု</string>  
+    <string name="data_connection_service">အချက်အလက် ချိတ်ဆက်ခြင်း ဝန်ဆောင်မှု</string>  
+    <string name="wifi">Wi-Fi</string>  
+    <string name="bluetooth">ဘလူးတု(သ်)</string>  
+    <string name="mobile">အချက်အလက် ချိတ်ဆက်ခြင်း။</string>  
+    <string name="gps">GPS</string>  
+    <string name="autorotate">အလိုအလျောက် လည်ပတ်ခြင်း</string>  
+    <string name="normal">ယေဘုယျ</string>  
+    <string name="meeting">အစည်းအဝေး</string>  
+    <string name="mute">အသံတိတ်</string>  
+    <string name="outdoor">ပြင်ပ</string>  
+    <string name="offline">လေယာဥ်ပျံသန်းစဥ် အသုံးပြုသည့် နည်းလမ်း</string>  
+    <string name="brightness">တောက်ပမှု</string>  
+    <string name="timeout">အချိန်ကုန်ပြီ</string>  
+    <string name="data_connection_attach_timeout_error_msg">"အချက်အလက် ချိတ်ဆက်မှု မအောင်မြင်ခြင်း သို့မဟုတ် လောလောဆယ် ကွန်ရက် အလုပ်များနေသည်။"</string>  
+    <string name="data_connection_dettach_timeout_error_msg">"အချက်အလက် ချိတ်ဆက်မှု ဖြုတ်ခြင်း မအောင်မြင်ပါ။"</string>  
+    <string name="data_connection_connected">[  <xliff:g>%s</xliff:g>] SIM ကဒ် အချက်အလက် ချိတ် ဆက်ခြင်းကို စတင် လုပ်ဆောင်စေသည် </string>  
+    <string name="gemini_intenet_call">အင်တာနက်အသုံးပြု ဖုန်းခေါ်ဆိုခြင်း</string>  
+    <string name="gemini_default_sim_never">ပိတ်သည်</string>  
+    <string name="gemini_3g_indic" translatable="false">3G</string>  
+    <string name="gemini_3g_disable_warning">"ရွေးချယ်လိုက်သော ဤ SIM တွင် 3G ဝန်ဆောင်မှုကို မရနိုင်ပါ။ ဒေတာကို နှေးကွေးစွာ တင်လိမ့်မည်။ 3G ဝန်ဆောင်မှုဆက်တင်ကို ဆက်တင်များ&gt; ဝါယာလက်(စ်) နှင့် ကွန်ယက်များ &gt; မိုဘိုင်း ကွန်ယက်များ အောက်တွင် သင်ပြောင်းလဲနိုင်သည်။ ဤ SIM ကို ရွေးချယ်ရန် သေချာပါသလား။"</string>  
+    <string name="gemini_3g_disable_warning_cu">"ရွေးချယ်လိုက်သော ဤ SIM တွင် 3G ဝန်ဆောင်မှုကို မရနိုင်ပါ။ ဒေတာကို နှေးကွေးစွာ တင်လိမ့်မည်။ 3G ဝန်ဆောင်မှုဆက်တင်ကို ဆက်တင်များ&gt;SIM စီမံခန့်ခွဲမှု အောက်တွင် သင်ပြောင်းလဲနိုင်သည်။ ဤ SIM ကို ရွေးချယ်ရန် သေချာပါသလား။"</string>  
+    <string name="gemini_3g_disable_warning_case0">"ဤ SIM အတွက် ဒေတာလှည်လည်ခြင်းကို ဦးစွာ လုပ်ဆောင်စေရမည်။ ယင်းသည် သိသာသော နိုင်ငံတကာလှည့်လည်မှု အဖိုးအခကို ကျသင့်စေနိုင်သည်။ ဒေတာလှည်လည်ခြင်းကို လုပ်ဆောင်စေပြီး ဤ SIM ကို ရွေးချယ်ရန် သေချာပါသလား။"</string>  
+    <string name="gemini_3g_disable_warning_case1">"ရွေးချယ်လိုက်သော ဤ SIM တွင် 3G ဝန်ဆောင်မှုကို မရနိုင်ပါ။ ဒေတာကို နှေးကွေးစွာ တင်လိမ့်မည်။ 3G ဝန်ဆောင်မှုဆက်တင်ကို ဆက်တင်များ&gt; ဝါယာလက်(စ်) နှင့် ကွန်ယက်များ &gt; မိုဘိုင်း ကွန်ယက်များ အောက်တွင် သင်ပြောင်းလဲနိုင်သည်။ ဤ SIM ကို ရွေးချယ်ရန် သေချာပါသလား။"</string>  
+    <string name="gemini_3g_disable_warning_case2">"ရွေးချယ်လိုက်သော ဤ SIM တွင် 3G ဝန်ဆောင်မှုကို မရနိုင်ပါ။ ဒေတာကို နှေးကွေးစွာ တင်လိမ့်မည်။ 3G ဝန်ဆောင်မှုဆက်တင်ကို ဆက်တင်များ&gt;SIM စီမံခန့်ခွဲမှု အောက်တွင် သင်ပြောင်းလဲနိုင်သည်။ ဤ SIM ကို ရွေးချယ်ရန် သေချာပါသလား။"</string>  
+    <string name="gemini_3g_disable_warning_case3">"ဤ SIM အတွက် ဒေတာလှည်လည်ခြင်းကို ဦးစွာ လုပ်ဆောင်စေရမည်။ ယင်းသည် သိသာသော နိုင်ငံတကာလှည့်လည်မှု အဖိုးအခကို ကျသင့်စေနိုင်သည်။ ထို့အပြင် ဤ SIM တွင် 3G ဝန်ဆောင်မှုကို မရနိုင်ပါ။ ဒေတာကို နှေးကွေးစွာ တင်လိမ့်မည်။ 3G ဝန်ဆောင်မှုဆက်တင်ကို ဆက်တင်များ&gt; ဝါယာလက်(စ်) နှင့် ကွန်ယက်များ &gt; မိုဘိုင်း ကွန်ယက်များ အောက်တွင် သင်ပြောင်းလဲနိုင်သည်။ ဒေတာလှည်လည်ခြင်းကို လုပ်ဆောင်စေပြီး ဤ SIM ကို ရွေးချယ်ရန် သေချာပါသလား။"</string>  
+    <string name="gemini_3g_disable_warning_case4">"ဤ SIM အတွက် ဒေတာလှည်လည်ခြင်းကို ဦးစွာ လုပ်ဆောင်စေရမည်။ ယင်းသည် သိသာသော နိုင်ငံတကာလှည့်လည်မှု အဖိုးအခကို ကျသင့်စေနိုင်သည်။ ထို့အပြင် ဤ SIM တွင် 3G ဝန်ဆောင်မှုကို မရနိုင်ပါ။ ဒေတာကို နှေးကွေးစွာ တင်လိမ့်မည်။ 3G ဝန်ဆောင်မှုဆက်တင်ကို ဆက်တင်များ&gt;SIM စီမံခန့်ခွဲမှု အောက်တွင် သင်ပြောင်းလဲနိုင်သည်။ ဒေတာလှည်လည်ခြင်းကို လုပ်ဆောင်စေပြီး ဤ SIM ကို ရွေးချယ်ရန် သေချာပါသလား။"</string>  
+    <string name="confirm_radio_title">SIM ပိတ်ထားသည်</string>  
+    <string name="confirm_radio_msg"> 
+        <xliff:g id="operator_name" example="CMCC">%1$s</xliff:g> ကို ယခု ပိတ်ထားသည်။ ထို SIM ကဒ်ကို သင်ဖွင့်လို သလား။
+    </string>  
+    <string name="confirm_radio_msg_single">လေယာဥ်ပျံသန်းစဥ် အသုံးပြုသည့် နည်းလမ်းကို ယခု ဖွင့်ထားသည်၊ သင် ပိတ်လိုပါသလား။</string>  
+    <string name="confirm_radio_lbutton">ဖွင့်ထားသည်</string>  
+    <string name="builtin_installer_title_message">စက်ထဲတွင် CD-ROM ပါပြီးသား</string>  
+    <string name="builtin_installer_dlg_message">စက်ထဲတွင် ပါပြီးသား CD-ROM ကို ဖွင့်မည်လား။</string>  
+    <string name="builtin_installer_always_allowed">နောက်အကြိမ်တွင် မပြပါနှင့်</string>  
+    <string name="dlg_no">မဟုတ်ပါ</string>  
+    <string name="dlg_yes">ဟုတ်ပါသည်</string> 
+    <string name="OK">OK</string>  
+    <string name="application_guide_title">မူလပုံစံ SIM ကဒ်သို့ ပြောင်းပါ</string>  
+    <string name="application_guide_content">မူလပုံစံ SIM ကဒ်သို့ ပြောင်းရန် သတိပေးချက်စာရင်းကို အောက်သို့ဆွဲချပါ</string> 
+    <string name="audio_profile">အသံပရိုဖိုင်းများ</string>
+    <string name="data_usage">အချက်အလက်အသုံးပြုမှု</string>
+    <string name="user_owner">ပိုင်ရှင်</string>
+    <string name="close_universe">ပိတ်ပါ</string>
+    <string name="jelly_bean_dream_name">BeanFlinger</string>
+    <string name="status_bar_help_title">အောက်သို့ ပွတ်ဆွဲချခြင်းဖြင့် ၎င်းတို့ထံ ဝင်ရောက်ပါ။ </string>
+    <string name="status_bar_help_text">အောက်သို့ ပွတ်ဆွဲချခြင်းဖြင့် ၎င်းတို့ထံ ဝင်ရောက်ပါ။\nစနစ်ထိန်းချုပ်ချက်များအတွက် အောက်သို့ တစ်ဖန်ပွတ်ဆွဲချပါ။</string>
+    <string name="eco_backlight_title">ချွေတာရေးနောက်ခံမီးရောင်</string>
+    <string name="eco_backlight_summary">ဓာတ်အားချွေတာရန် နောက်ခံမီးရောင်ကို အလိုအလျောက်ထိန်းညှိပါ</string>
+    <string name="phone_battery_low_subtitle">ဖုန်းဘက်ထရီ အားနည်းလာပြီ။</string>
+    <string name="smartbook_battery_low_subtitle">Smartbook ဘက်ထရီ အားနည်းလာပြီ။</string>
+    <string name="gemini_default_sim_auto">အလိုအလျောက်</string>
+    <string name="plmn_searching">ရှာနေသည်</string>
+    <string name="apn">အက်ဆက်ပွိုင့်</string>
+    <string name="sim_management">UIM/SIM စီမံခန့်ခွဲမှု</string>
+    <string name="network_selection_settings">ကွန်ရက်ရွေးချယ်မှု</string>
+    <string name="quick_settings_roam_data">ဒေတာလှည့်လည်သွားခြင်း</string>
+</resources>

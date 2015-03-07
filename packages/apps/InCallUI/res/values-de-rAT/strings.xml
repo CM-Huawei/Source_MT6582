@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2013 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  --><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    
+    <string name="phoneAppLabel" product="default">Telefon</string>
+
+    
+    <string name="inCallLabel" translate="false">InCallUI</string>
+
+    
+
+    
+    <string name="onHold">Wird gehalten</string>
+
+    
+    <string name="unknown">Unbekannt</string>
+    
+    <string name="private_num">Private Nummer</string>
+    
+    <string name="payphone">Pay-Phone</string>
+
+    
+    <string name="callFailed_userBusy">Leitung besetzt </string>
+    
+    <string name="callFailed_congestion">Netzwerk besetzt</string>
+    
+    <string name="callFailed_timedOut">Keine Antwort, Zeitüberschreitung</string>
+    
+    <string name="callFailed_server_unreachable">Dienst nicht erreichbar</string>
+    
+    <string name="callFailed_number_unreachable">Nummer nicht erreichbar</string>
+    
+    <string name="callFailed_invalid_credentials">Benutzername oder Kennwort ungültig</string>
+    
+    <string name="callFailed_out_of_network">Von außerhalb des Netzwerks angerufen</string>
+    
+    <string name="callFailed_server_error">Server-Fehler Versuchen Sie es später.</string>
+    
+    <string name="callFailed_noSignal">Kein Signal</string>
+    
+    <string name="callFailed_limitExceeded">ACM-Limit überschritten</string>
+    
+    <string name="callFailed_powerOff">Radio aus</string>
+    
+    <string name="callFailed_simError">Keine SIM oder SIM-Fehler</string>
+    
+    <string name="callFailed_outOfService">Außerhalb des Dienstebereichs</string>
+    
+    <string name="callFailed_fdn_only">Ausgehende Anrufe durch FDN eingeschränkt</string>
+    
+    <string name="callFailed_cb_enabled">Sie können keine ausgehenden Anrufe durchführen, wenn die Anrufsperre aktiviert ist.</string>
+    
+    <string name="callFailed_dsac_restricted">Alle Anrufe durch Zugriffskontrolle eingeschränkt</string>
+    
+    <string name="callFailed_dsac_restricted_emergency">Notrufe durch Zugriffskontrolle eingeschränkt</string>
+    
+    <string name="callFailed_dsac_restricted_normal">Normale Anrufe durch Zugriffskontrolle eingeschränkt</string>
+    
+    <string name="callFailed_unobtainable_number">Ungültige Nummer</string>
+    
+    <string name="confCall">Konferenzanruf</string>
+    
+    <string name="call_lost">Anruf ging verloren</string>
+
+    
+    <string name="ok">OK</string>
+
+    
+    
+
+    
+    <string name="audio_mode_speaker">Lautsprecher</string>
+    
+    <string name="audio_mode_earpiece">Handset Kopfhörer</string>
+    
+    <string name="audio_mode_wired_headset">Verdrahtete Kopfhörer</string>
+    
+    <string name="audio_mode_bluetooth">Bluetooth</string>
+
+    
+    
+    <string name="wait_prompt_str">Folgende Töne senden?\n</string>
+    
+    <string name="pause_prompt_str">Töne werden gesendet\n</string>
+    
+    <string name="send_button">Senden</string>
+    
+    <string name="pause_prompt_yes">Ja </string>
+    
+    <string name="pause_prompt_no">Nein </string>
+    
+    <string name="wild_prompt_str">Platzhalter ersetzen durch</string>
+
+    
+    
+    <string name="no_vm_number">Fehlende Voicemail-Nummer</string>
+    
+    <string name="no_vm_number_msg">Keine Voicemail-Nummer auf der Karte gespeichert.</string>
+    
+    <string name="add_vm_number_str">Nummer hinzufügen</string>
+
+    
+    <string name="puk_unlocked">Ihre SIM-Karte wurde entsperrt. Ihr Telefon durchläuft den Entsperrvorgang\u2026</string>
+    
+    
+    <string name="label_ndp">Netzwerk-Entsperr-PIN der SIM</string>
+    
+    <string name="sim_ndp_unlock_text">Entsperren</string>
+    
+    <string name="sim_ndp_dismiss_text">Ablehnen</string>
+    
+    <string name="requesting_unlock">Netzwerk entsperren anfordern\u2026</string>
+    
+    <string name="unlock_failed">Anforderung Netzwerk entsperren fehlgeschlagen</string>
+    
+    <string name="unlock_success">Netzwerk entsperren erfolgreich</string>
+
+    
+
+    
+    <string name="labelGSMMore">GSM-Anrufeinstellungen</string>
+    
+    <string name="labelCDMAMore">CDMA-Anrufeinstellungen</string>
+    
+    <string name="apn_settings">Zugangspunktbezeichnungen</string>
+    
+    <string name="settings_label">Netzwerkeinstellungen</string>
+    
+    <string name="voicemail">Voicemail</string>
+    
+    <string name="voicemail_abbreviated">VM:</string>
+    
+    <string name="networks">Netzwerkbetreiber</string>
+    
+    <string name="call_settings">Anrufeinstellungen</string>
+    
+    <string name="additional_gsm_call_settings">Zusätzliche Einstellungen</string>
+    
+    <string name="sum_gsm_call_settings">Zusätzliche Anrufeinstellungen nur GSM</string>
+    
+    <string name="additional_cdma_call_settings">Zusätzliche CDMA-Anrufeinstellungen</string>
+    
+    <string name="sum_cdma_call_settings">Zusätzliche Anrufeinstellungen nur CDMA</string>
+    
+    <string name="labelNwService">Netzwerkdiensteinstellungen</string>
+    
+    <string name="labelCallerId">Anruferkennung</string>
+    
+    <string name="sum_loading_settings">Einstellungen laden\u2026</string>
+    
+    <string name="sum_hide_caller_id">Nummer bei ausgehenden Anrufen verbergen</string>
+    
+    <string name="sum_show_caller_id">Nummer bei ausgehenden Anrufen anzeigen</string>
+    
+    <string name="sum_default_caller_id">Vorgaben des Betreibers bei der Anzeige der Rufnummer bei ausgehenden Anrufen verwenden</string>
+    
+    <string name="labelCW">Wartender Anruf</string>
+    
+    <string name="sum_cw_enabled">Während eines Anrufs über einen eingehenden Anruf informieren</string>
+    
+    <string name="sum_cw_disabled">Während eines Anrufs über einen eingehenden Anruf informieren</string>
+    
+    <string name="call_forwarding_settings">Sprachanruf-Umleitungseinstellungen</string>
+    
+    <string name="labelCF">Anruf weiterleiten</string>
+
+    
+    <string name="labelCFU">Immer weiterleiten</string>
+    
+    <string name="messageCFU">Immer diese Nummer verwenden</string>
+    
+    <string name="sum_cfu_enabled_indicator">Alle Anrufe weiterleiten</string>
+    
+    <string name="sum_cfu_enabled">Alle Anrufe nach <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g> weiterleiten</string>
+    
+    <string name="sum_cfu_enabled_no_number">Nummer nicht verfügbar</string>
+    
+    <string name="sum_cfu_disabled">Deaktiviert</string>
+
+    
+    <string name="labelCFB">Weiterleiten bei Besetzt</string>
+    
+    <string name="messageCFB">Nummer, wenn besetzt</string>
+    
+    <string name="sum_cfb_enabled">Weiterleiten nach <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
+    
+    <string name="sum_cfb_disabled">Deaktiviert</string>
+    
+    <string name="disable_cfb_forbidden">Ihr Betreiber unterstützt eine Deaktivierung der Weiterleitung bei Besetzt nicht.</string>
+
+    
+    <string name="labelCFNRy">Weiterleiten bei nicht antworten</string>
+    
+    <string name="messageCFNRy">Nummer bei nicht antworten</string>
+    
+    <string name="sum_cfnry_enabled">Weiterleiten nach <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
+    
+    <string name="sum_cfnry_disabled">Deaktiviert</string>
+    
+    <string name="disable_cfnry_forbidden">Ihr Betreiber unterstützt eine Deaktivierung der Weiterleitung bei Nicht-Antworten nicht.</string>
+
+    
+    <string name="labelCFNRc">Weiterleiten wenn nicht erreichbar</string>
+    
+    <string name="messageCFNRc">Nummer für nicht erreichbar</string>
+    
+    <string name="sum_cfnrc_enabled">Weiterleiten nach <xliff:g id="phonenumber" example="555-1212">{0}</xliff:g></string>
+    
+    <string name="sum_cfnrc_disabled">Deaktiviert</string>
+    
+    <string name="disable_cfnrc_forbidden">Ihr Betreiber unterstützt eine Deaktivierung der Weiterleitung bei Nicht-Erreichbar nicht.</string>
+
+    
+    <string name="updating_title">Anrufeinstellungen</string>
+    
+    <string name="error_updating_title">Anrufeinstellungsfehler</string>
+    
+    <string name="reading_settings">Einstellungen werden gelesen\u2026</string>
+    
+    <string name="updating_settings">Einstellungen werden aktualisiert\u2026</string>
+    
+    <string name="reverting_settings">Einstellungen werden zurückgesetzt\u2026</string>
+    
+    <string name="response_error">Unerwartete Netzwerkantwort</string>
+    
+    <string name="exception_error">Netzwerk- oder SIM-Kartenfehler</string>
+    
+    <string name="fdn_check_failure">Ihre Telefon-App Kurzwahlnummern ist aktiviert. Daher arbeiten einige Anruf-bezogene Funktionen nicht.</string>
+    
+    <string name="radio_off_error">Schalten Sie das Radio ein, bevor Sie die Einstellungen aufrufen.</string>
+    
+    <string name="close_dialog">OK</string>
+    
+    <string name="enable">Aktivieren</string>
+    
+    <string name="disable">Deaktivieren</string>
+    
+    <string name="change_num">Aktualisieren</string>
+    
+    <string-array name="clir_display_values">
+        
+        <item>Netzwerkvorgabe</item>
+        
+        <item>Nummer verbergen</item>
+        
+        <item>Nummer anzeigen</item>
+    </string-array>
+    
+    
+
+    <skip/>
+    
+    <string name="vm_changed">Voicemail-Nummer geändert</string>
+    
+    <string name="vm_change_failed">Kann Voicemail-Nummer nicht ändern.\nWenden Sie sich an Ihren Betreiber, wenn sich das Problem nicht beseitigen lässt.</string>
+    
+    <string name="fw_change_failed">Kann Weiterleitungsnummer nicht ändern.\nWenden Sie sich an Ihren Betreiber, wenn sich das Problem nicht beseitigen lässt.</string>
+    
+    <string name="fw_get_in_vm_failed">Kann aktuelle Weiterleitungsnummern-Einstellungen nicht abrufen und speichern.\nTrotzdem auf den neuen Betreiber umschalten?</string>
+    
+    <string name="no_change">Keine Änderungen vorgenommen</string>
+    
+    <string name="sum_voicemail_choose_provider">Voicemail-Dienst wählen</string>
+    
+    <string name="voicemail_default">Mein Betreiber</string>
+
+    <skip/>
+    
+    <string name="mobile_networks">Mobilen Netzwerk-Einstellungen</string>
+    
+    <string name="label_available">Verfügbare Netwerke</string>
+    
+    <string name="load_networks_progress">Suche\u2026</string>
+    
+    <string name="empty_networks_list">Keine Netzwerke gefunden</string>
+    
+    <string name="search_networks">Netzwerke suchen</string>
+    
+    <string name="network_query_error">Fehler bei Netzwerksuche</string>
+    
+    <string name="register_on_network">Registrieren auf <xliff:g id="network">%s</xliff:g>\u2026</string>
+    
+    <string name="not_allowed">Ihre SIM-Karte erlaubt keine Verbindung mit diesem Netzwerk.</string>
+    
+    <string name="connect_later">Kann mit diesem Netzwerk nicht verbinden. Versuchen Sie es später.</string>
+    
+    <string name="registration_done">In Netzwerk registriert</string>
+    
+    <string name="sum_carrier_select">Netzwerkbetreiber wählen</string>
+    
+    <string name="sum_search_networks">Nach verfügbaren Netzwerken suchen</string>
+    
+    <string name="select_automatically">Automatisch auswählen</string>
+    
+    <string name="sum_select_automatically">Automatisch bevorzugtes Netzwerk auswählen</string>
+    <string name="register_automatically">Automatische Registrierung\u2026</string>
+    <string name="preferred_network_mode_title">Netzwerk-Modus</string>
+    <string name="preferred_network_mode_summary">Netzwerk-Modus ändern</string>
+    <string name="preferred_network_mode_dialogtitle">Bevorzugte Netzwerk-Modus</string>
+    
+    <string name="preferred_network_mode_wcdma_perf_summary">Bevorzugte Netzwerk-Modus: WCDMA bevorzugt</string>
+    
+    <string name="preferred_network_mode_gsm_only_summary">Bevorzugte Netzwerk-Modus: Nur GSM</string>
+    
+    <string name="preferred_network_mode_wcdma_only_summary">Bevorzugte Netzwerk-Modus: Nur WCDMA</string>
+    
+    <string name="preferred_network_mode_gsm_wcdma_summary">Bevorzugte Netzwerk-Modus: GSM / WCDMA</string>
+    
+    <string name="preferred_network_mode_cdma_summary">Bevorzugte Netzwerk-Modus: CDMA</string>
+    
+    <string name="preferred_network_mode_cdma_evdo_summary">Bevorzugte Netzwerk-Modus: CDMA / EvDo</string>
+    
+    <string name="preferred_network_mode_cdma_only_summary">Bevorzugte Netzwerk-Modus: Nur CDMA</string>
+    
+    <string name="preferred_network_mode_evdo_only_summary">Bevorzugte Netzwerk-Modus: Nur EvDo</string>
+    
+    <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_summary">Bevorzugte Netzwerk-Modus: CDMA/EvDo/GSM/WCDMA</string>
+    
+    <string name="preferred_network_mode_lte_summary">Bevorzugte Netzwerk-Modus: LTE</string>
+    
+    <string name="preferred_network_mode_lte_gsm_wcdma_summary">Bevorzugte Netzwerk-Modus: GSM/WCDMA/LTE</string>
+    
+    <string name="preferred_network_mode_lte_cdma_evdo_summary">Bevorzugte Netzwerk-Modus: CDMA+LTE/EVDO</string>
+    
+    <string name="preferred_network_mode_global_summary">Bevorzugte Netzwerk-Modus: Global</string>
+    
+    <string name="preferred_network_mode_lte_wcdma_summary">Bevorzugte Netzwerk-Modus: LTE / WCDMA</string>
+
+
+    <string-array name="preferred_network_mode_choices">
+        <item>LTE / WCDMA</item>
+        <item>LTE</item>
+        <item>Global</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>Nur EvDo</item>
+        <item>CDMA ohne EvDo</item>
+        <item>CDMA/EvDo auto</item>
+        <item>GSM/WCDMA auto</item>
+        <item>Nur WCDMA</item>
+        <item>Nur GSM</item>
+        <item>GSM/WCDMA bevorzugt</item>
+    </string-array>
+    
+    
+    <string name="data_enabled">Daten aktivieren</string>
+    
+    <string name="data_enable_summary">Datenzugriff über mobiles Netzwerk aktivieren</string>
+    
+    <string name="roaming">Daten-Roaming</string>
+    
+    <string name="roaming_enable">Beim Roaming mit Daten-Dienst verbinden</string>
+    
+    <string name="roaming_disable">Beim Roaming mit Daten-Dienst verbinden</string>
+    
+    <string name="roaming_reenable_message">Die Datenverbindung wurde unterbrochen, da Sie ihr Home-Netzwerk verlassen haben und Daten-Roaming ausgeschaltet ist.</string>
+    
+    <string name="roaming_warning">Daten-Roaming erlauben? Dies kann mit hohen Kosten verbunden sein!</string>
+    <string name="gsm_umts_options">GSM/UMTS-Optionen</string>
+    <string name="cdma_options">CDMA-Optionen</string>
+
+    
+    <string name="throttle_data_usage">Datennutzung</string>
+    
+    <string name="throttle_current_usage">Datennutzung in laufender Periode</string>
+    
+    <string name="throttle_time_frame">Datennutzungsperiode</string>
+    
+    <string name="throttle_rate">Datenrate</string>
+    
+    <string name="throttle_help">Erfahren Sie mehr.</string>
+
+    <string name="throttle_status_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) von <xliff:g id="used">%3$s</xliff:g> Periode maximum\nNächste Periode startet in <xliff:g id="used">%4$d</xliff:g> Tagen (<xliff:g id="used">%5$s</xliff:g>)</string>
+
+    <string name="throttle_data_usage_subtext"><xliff:g id="used">%1$s</xliff:g> (<xliff:g id="used">%2$d</xliff:g>\u066A) von <xliff:g id="used">%3$s</xliff:g> Periode Maximum</string>
+
+    <string name="throttle_data_rate_reduced_subtext"><xliff:g id="used">%1$s</xliff:g> Maximum überschritten\nDatenübertragung reduziert auf <xliff:g id="used">%2$d</xliff:g> Kb/s</string>
+
+    <string name="throttle_time_frame_subtext"><xliff:g id="used">%1$d</xliff:g>\u066A des Zyklus abgelaufen\nNächste Periode beginnt in <xliff:g id="used">%2$d</xliff:g> Tagen (<xliff:g id="used">%3$s</xliff:g>)</string>
+
+    <string name="throttle_rate_subtext">Datenübertragung reduziert auf <xliff:g id="used">%1$d</xliff:g> Kb/s, wenn Daten-Limit überschritten wird</string>
+
+    <string name="throttle_help_subtext">Weitere Informationen über die Datennutzungsrichtlinien Ihres Betreibers</string>
+
+    <string name="cell_broadcast_sms">Cell-Broadcast-SMS</string>
+
+    <string name="enable_disable_cell_bc_sms">Cell-Broadcast-SMS</string>
+    <string name="cell_bc_sms_enable">Cell-Broadcast-SMS aktiviert</string>
+    <string name="cell_bc_sms_disable">Cell-Broadcast-SMS deaktiviert</string>
+
+    <string name="cb_sms_settings">Cell-Broadcast-SMS-Einstellungen</string>
+
+    <string name="enable_disable_emergency_broadcast">Notruf-Broadcast</string>
+    <string name="emergency_broadcast_enable">Notruf-Broadcast aktiviert</string>
+    <string name="emergency_broadcast_disable">Notruf-Broadcast deaktiviert</string>
+
+    <string name="enable_disable_administrative">Verwaltung</string>
+    <string name="administrative_enable">Verwaltung aktiviert</string>
+    <string name="administrative_disable">Verwaltung deaktiviert</string>
+
+    <string name="enable_disable_maintenance">Wartung</string>
+    <string name="maintenance_enable">Wartung aktiviert</string>
+    <string name="maintenance_disable">Wartung deaktiviert</string>
+
+    <string name="general_news_settings">Allgemeine Nachrichten</string>
+    <string name="bf_news_settings">Wirtschafts- und Finanznachrichten</string>
+    <string name="sports_news_settings">Sportnachrichten</string>
+    <string name="entertainment_news_settings">Unterhaltungsnachrichten</string>
+
+    <string name="enable_disable_local">Lokal</string>
+    <string name="local_enable">Lokale Nachrichten aktivieren</string>
+    <string name="local_disable">Lokale Nachrichten deaktivieren</string>
+
+    <string name="enable_disable_regional">Regional</string>
+    <string name="regional_enable">Regionale Nachrichten aktivieren</string>
+    <string name="regional_disable">Regionale Nachrichten deaktivieren</string>
+
+    <string name="enable_disable_national">National</string>
+    <string name="national_enable">Nationale Nachrichten aktivieren</string>
+    <string name="national_disable">Nationale Nachrichten deaktivieren</string>
+
+    <string name="enable_disable_international">International</string>
+    <string name="international_enable">Internationale Nachrichten aktivieren</string>
+    <string name="international_disable">Internationale Nachrichten deaktivieren</string>
+
+    <string name="list_language_title">Sprache</string>
+    <string name="list_language_summary">Nachrichtensprache wählen</string>
+    <string-array name="list_language_entries">
+        <item>Englisch</item>
+        <item>Französisch</item>
+        <item>Spanisch</item>
+        <item>Japanisch</item>
+        <item>Koreanisch</item>
+        <item>Chinesisch</item>
+        <item>Hebräisch</item>
+    </string-array>
+    <string-array name="list_language_values">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"3"</item>
+        <item>"4"</item>
+        <item>"5"</item>
+        <item>"6"</item>
+        <item>"7"</item>
+    </string-array>
+    <string name="list_language_dtitle">Sprachen</string>
+
+    <string name="enable_disable_local_weather">Lokales Wetter</string>
+    <string name="local_weather_enable">Lokales Wetter aktivieren</string>
+    <string name="local_weather_disable">Lokales Wetter deaktivieren</string>
+
+    <string name="enable_disable_atr">Verkehrsnachrichten</string>
+    <string name="atr_enable">Verkehrsnachrichten aktivieren</string>
+    <string name="atr_disable">Verkehrsnachrichten deaktivieren</string>
+
+    <string name="enable_disable_lafs">Flugplan lokaler Flughafen</string>
+    <string name="lafs_enable">Flugplan lokaler Flughafen aktivieren</string>
+    <string name="lafs_disable">Flugplan lokaler Flughafen deaktivieren</string>
+
+    <string name="enable_disable_restaurants">Restaurants</string>
+    <string name="restaurants_enable">Restaurants aktivieren</string>
+    <string name="restaurants_disable">Restaurants deaktivieren</string>
+
+    <string name="enable_disable_lodgings">Übernachtung</string>
+    <string name="lodgings_enable">Übernachtung aktivieren</string>
+    <string name="lodgings_disable">Übernachtung deaktivieren</string>
+
+    <string name="enable_disable_retail_directory">Einzelhandelsverzeichnis</string>
+    <string name="retail_directory_enable">Einzelhandelsverzeichnis aktivieren</string>
+    <string name="retail_directory_disable">Einzelhandelsverzeichnis deaktivieren</string>
+
+    <string name="enable_disable_advertisements">Werbung</string>
+    <string name="advertisements_enable">Werbung aktivieren</string>
+    <string name="advertisements_disable">Werbung deaktivieren</string>
+
+    <string name="enable_disable_stock_quotes">Aktienkurse</string>
+    <string name="stock_quotes_enable">Aktienkurse aktivieren</string>
+    <string name="stock_quotes_disable">Aktienkurse deaktivieren</string>
+
+    <string name="enable_disable_eo">Stellenanzeigen</string>
+    <string name="eo_enable">Stellenanzeigen aktivieren</string>
+    <string name="eo_disable">Stellenanzeigen deaktivieren</string>
+
+    <string name="enable_disable_mhh">Ärzte und Krankenhäuser</string>
+    <string name="mhh_enable">Ärzte und Krankenhäuser aktivieren</string>
+    <string name="mhh_disable">Ärzte und Krankenhäuser deaktivieren</string>
+
+    <string name="enable_disable_technology_news">Technologienachrichten</string>
+    <string name="technology_news_enable">Technologienachrichten aktivieren</string>
+    <string name="technology_news_disable">Technologienachrichten deaktivieren</string>
+
+    <string name="enable_disable_multi_category">Mehrfachkategorie</string>
+    <string name="multi_category_enable">Mehrfachkategorie aktivieren</string>
+    <string name="multi_category_disable">Mehrfachkategorie deaktivieren</string>
+
+    
+    <string name="prefer_2g">Systemauswahl</string>
+    
+    <string name="prefer_2g_summary">CDMA-Roaming-Modus ändern</string>
+
+    
+    
+    <string name="cdma_system_select_title">Systemauswahl</string>
+    
+    <string name="cdma_system_select_summary">CDMA-Roaming-Modus ändern</string>
+    
+    <string name="cdma_system_select_dialogtitle">Systemauswahl</string>
+    <string-array name="cdma_system_select_choices">
+        
+        <item>Nur Home</item>
+        
+        
+        
+        <item>Automatisch</item>
+    </string-array>
+    
+
+    <string name="cdma_subscription_title">CDMA-Abo</string>
+    <string name="cdma_subscription_summary">Zwischen RUIM/SIM und NV wechseln</string>
+    <string name="cdma_subscription_dialogtitle">Abo</string>
+    <string-array name="cdma_subscription_choices">
+        <item>RUIM/SIM</item>
+        <item>NV</item>
+    </string-array>
+    <string-array name="cdma_subscription_values">
+        <item>"0"</item>
+        <item>"1"</item>
+    </string-array>
+    
+    <string name="cdma_activate_device">Gerät aktivieren</string>
+    
+    <string name="cdma_lte_data_service">Datendienst einrichten</string>
+
+    
+    
+    <string name="fdn">Kurzwahlnummern</string>
+    
+    <string name="manage_fdn_list">FDN-Liste</string>
+    
+    <string name="fdn_activation">FDN-Aktivierung</string>
+    
+    <string name="fdn_enabled">Kurzwahlnummern sind aktiviert</string>
+    
+    <string name="fdn_disabled">Kurzwahlnummern sind deaktiviert</string>
+    
+    <string name="enable_fdn">FDN aktivieren</string>
+    
+    <string name="disable_fdn">FDN deaktivieren</string>
+    
+    <string name="change_pin2">PIN2 ändern</string>
+    
+    <string name="enable_fdn_ok">FDN deaktivieren</string>
+    
+    <string name="disable_fdn_ok">FDN aktivieren</string>
+    
+    <string name="sum_fdn">Kurzwahlnummern verwalten</string>
+    
+    <string name="sum_fdn_change_pin">PIN2 zum RB-Zugriff ändern</string>
+    
+    <string name="sum_fdn_manage_list">Telefonnummern verwalten</string>
+    
+    <string name="voice_privacy">Sprach-Datenschutz</string>
+    <string name="voice_privacy_summary">Erweiterten Datenschutz aktivieren</string>
+    <string name="tty_mode_option_title">TTY-Modus</string>
+    <string name="tty_mode_option_summary">TTY-Modus einrichten</string>
+    <string name="auto_retry_mode_title">Automatische Wiederholung</string>
+    <string name="auto_retry_mode_summary">Automatische Wiederholung aktivieren</string>
+
+    
+    <string name="menu_add">Kontakt hinzufügen</string>
+    
+    <string name="menu_edit">Kontakt editieren</string>
+    
+    <string name="menu_delete">Kontakt löschen</string>
+
+    
+    
+    <string name="get_pin2">PIN2-Typ</string>
+    
+    <string name="name">Name</string>
+    
+    <string name="number">Nummer</string>
+    
+    <string name="save">Speichern</string>
+    
+    <string name="add_fdn_contact">Kurzwahlnummer hinzufügen</string>
+    
+    <string name="adding_fdn_contact">Kurzwahlnummer wird hingezufügt\u2026</string>
+    
+    <string name="fdn_contact_added">Kurzwahlnummern hinzugefügt</string>
+    
+    <string name="edit_fdn_contact">Kurzwahlnummer editieren</string>
+    
+    <string name="updating_fdn_contact">Kurzwahlnummer wird aktualisiert\u2026</string>
+    
+    <string name="fdn_contact_updated">Kurzwahlnummern aktualisiert</string>
+    
+    <string name="delete_fdn_contact">Kurzwahlnummer löschen</string>
+    
+    <string name="deleting_fdn_contact">Kurzwahlnummer wird gelöscht\u2026</string>
+    
+    <string name="fdn_contact_deleted">Kurzwahlnummern gelöscht</string>
+    
+    <string name="pin2_invalid">FDN wurde nicht aktualisiert, da Sie einen falschen PIN eingegeben haben.</string>
+    
+    <string name="fdn_invalid_number">FDN wurde nicht aktualisiert, da die Nummer maximal 20 Stellen haben darf.</string>
+    
+    <string name="pin2_or_fdn_invalid">FDN wurde nicht aktualisiert. PIN2 war falsch oder die Rufnummer wurde zurückgewiesen.</string>
+
+    
+    
+    <string name="simContacts_emptyLoading">Lesen von SIM-Karte\u2026</string>
+    
+    <string name="simContacts_empty">Keine Kontakte auf SIM-Karte</string>
+    
+    <string name="simContacts_title">Zu importierende Kontakte wählen</string>
+    
+    <string name="simContacts_airplaneMode">Schalten Sie den Flugmodus aus, um Kontakte von der SIM-Karte zu exportieren.</string>
+
+    
+    
+    <string name="enable_pin">SIM-PIN aktivieren/deaktivieren</string>
+    
+    <string name="change_pin">SIM-PIN ändern</string>
+    
+    <string name="enter_pin_text">SIM-PIN:</string>
+    
+    <string name="oldPinLabel">Alter SIM-PIN</string>
+    
+    <string name="newPinLabel">Neuer PIN</string>
+    
+    <string name="confirmPinLabel">Neuen PIN bestätigen</string>
+    
+    <string name="badPin">Der alte PIN ist falsch. Versuchen Sie es erneut.</string>
+    
+    <string name="mismatchPin">PINs stimmen nicht überein. Versuchen Sie es erneut.</string>
+    
+    <string name="invalidPin">Einen PIN mit 4 bis 8 Ziffern eingeben.</string>
+    
+    <string name="disable_sim_pin">SIM-PIN deaktivieren</string>
+    
+    <string name="enable_sim_pin">SIM-PIN aktivieren</string>
+    
+    <string name="enable_in_progress">Bitte warten\u2026</string>
+    
+    <string name="enable_pin_ok">SIM-PIN aktiviert</string>
+    
+    <string name="disable_pin_ok">SIM-PIN deaktiviert</string>
+    
+    <string name="pin_failed">Der eingegebene PIN ist falsch.</string>
+    
+    <string name="pin_changed">SIM-PIN erfolgreich geändert</string>
+    
+    <string name="puk_requested">Kennwort falsch, SIM ist gesperrt! PUK2 erforderlich</string>
+
+    
+    
+    <string name="enter_pin2_text">PIN2</string>
+    
+    <string name="oldPin2Label">Alter PIN2</string>
+    
+    <string name="newPin2Label">Neuer PIN2</string>
+    
+    <string name="confirmPin2Label">Neuen PIN2 bestätigen</string>
+    
+    <string name="badPuk2">Die eingegebene PUK2 ist falsch. Versuchen Sie es erneut.</string>
+    
+    <string name="badPin2">Der alte PIN2 ist falsch. Versuchen Sie es erneut.</string>
+    
+    <string name="mismatchPin2">PIN2s stimmen nicht überein. Versuchen Sie es erneut.</string>
+    
+    <string name="invalidPin2">Einen PIN2 mit 4 bis 8 Ziffern eingeben.</string>
+    
+    <string name="invalidPuk2">Geben Sie PUK2 mit 8 Ziffern ein.</string>
+    
+    <string name="pin2_changed">PIN2 erfolgreich geändert</string>
+    
+    <string name="label_puk2_code">PUK2-Code eingeben</string>
+    
+    <string name="fdn_enable_puk2_requested">Ungültiges Kennwort PIN2 ändern und erneut versuchen</string>
+    
+    <string name="puk2_requested">Kennwort falsch, SIM ist gesperrt! PUK2 erforderlich</string>
+
+    
+    <string name="doneButton">Erledigt</string>
+
+    
+    <string name="caller_manage_header">Konferenzanruf <xliff:g id="conf_call_time">%s</xliff:g></string>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <string name="voicemail_settings_number_label">Voicemail-Nummer</string>
+
+    
+    
+    <string name="card_title_dialing">Wird gewählt</string>
+    
+    <string name="card_title_redialing">Wiederholen</string>
+    
+    <string name="card_title_conf_call">Konferenzanruf</string>
+    
+    <string name="card_title_incoming_call">Eingehender Anruf</string>
+    
+    <string name="card_title_call_ended">Anruf beendet</string>
+    
+    <string name="card_title_on_hold">Wird gehalten</string>
+    
+    <string name="card_title_hanging_up">Wird aufgelegt</string>
+    
+    <string name="card_title_in_call">In call</string>
+    
+    <string name="card_title_my_phone_number">Meine &gt;Rufnummer ist <xliff:g id="my_phone_number">%s</xliff:g></string>
+
+    
+    
+    <string name="notification_dialing">Wird gewählt</string>
+    
+    <string name="notification_missedCallTitle">Verpasster Anruf</string>
+    
+    <string name="notification_missedCallsTitle">Verpasste Anrufe</string>
+    
+    <string name="notification_missedCallsMsg"><xliff:g id="num_missed_calls">%s</xliff:g> verpasste Anrufe</string>
+    
+    <string name="notification_missedCallTicker">Verpasster Anruf von <xliff:g id="missed_call_from">%s</xliff:g></string>
+    
+    <string name="notification_ongoing_call">Laufender Anruf</string>
+    
+    <string name="notification_on_hold">Wird gehalten</string>
+    
+    <string name="notification_incoming_call">Eingehender Anruf</string>
+    
+    <string name="notification_voicemail_title">Neue Voicemail</string>
+    
+    <string name="notification_voicemail_title_count">Neue Voicemail (<xliff:g id="count">%d</xliff:g>)</string>
+    
+    <string name="notification_voicemail_text_format">Wähle <xliff:g id="voicemail_number">%s</xliff:g></string>
+    
+    <string name="notification_voicemail_no_vm_number">Voicemail-Nummer unbekannt</string>
+    
+    <string name="notification_network_selection_title">Kein Dienst</string>
+    
+    <string name="notification_network_selection_text">Gewähltes Netzwerk (<xliff:g id="operator_name">%s</xliff:g>) nicht verfügbar</string>
+    
+    <string name="notification_action_end_call">Auflegen</string>
+    
+    <string name="notification_missedCall_call_back">Rückruf</string>
+    
+    <string name="notification_missedCall_message">Nachricht</string>
+
+    
+    <string name="incall_error_power_off">Schalten Sie den Flugmodus aus, um telefonieren zu können.</string>
+    
+    <string name="incall_error_emergency_only">Nicht im Netzwerk registriert</string>
+    
+    <string name="incall_error_out_of_service">Mobiles Netzwerk nicht verfügbar</string>
+    
+    <string name="incall_error_no_phone_number_supplied">Anruf nicht gesendet, keine gültige Nummer eingegeben.</string>
+    
+    <string name="incall_error_call_failed">Anruf nicht gesendet.</string>
+    
+    <string name="incall_status_dialed_mmi">MMI-Sequenz wird gestartet\u2026</string>
+    
+    <string name="incall_error_supp_service_unknown">Dienst nicht unterstützt</string>
+    
+    <string name="incall_error_supp_service_switch">Umschalten der Anrufe nicht möglich</string>
+    
+    <string name="incall_error_supp_service_separate">Trennen der Anrufe nicht möglich</string>
+    
+    <string name="incall_error_supp_service_transfer">Übertragen der Anrufe nicht möglich</string>
+    
+    <string name="incall_error_supp_service_conference">Konferenzschaltung der Anrufe nicht möglich</string>
+    
+    <string name="incall_error_supp_service_reject">Zurückweisen des Anrufs nicht möglich</string>
+    
+    <string name="incall_error_supp_service_hangup">Freigabe des (der) Anrufs(e) nicht möglich</string>
+
+    
+    <string name="incall_call_type_label_sip">Internet-Anruf</string>
+
+    
+    <string name="emergency_enable_radio_dialog_title">Notruf</string>
+    
+    <string name="emergency_enable_radio_dialog_message">Radio wird eingeschaltet\u2026</string>
+    
+    <string name="emergency_enable_radio_dialog_retry">Außerhalb des Dienstebereichs, versuche erneut\u2026</string>
+
+    
+    
+    <string name="dial_emergency_error">Anruf nicht gesendet. <xliff:g id="non_emergency_number">%s</xliff:g> ist keine Notrufnummer!</string>
+    
+    <string name="dial_emergency_empty_error">Anruf nicht gesendet. Wählen Sie eine Notrufnummer!</string>
+
+    
+    <string name="dialerKeyboardHintText">Verwenden Sie zum Wählen die Tastatur.</string>
+
+    
+    <string name="onscreenHoldText">Halten</string>
+    
+    <string name="onscreenEndCallText">Ende</string>
+    
+    <string name="onscreenShowDialpadText">Wähltastatur</string>
+    
+    <string name="onscreenMuteText">Stumm schalten</string>
+    
+    <string name="onscreenAddCallText">Anruf hinzufügen</string>
+    
+    <string name="onscreenMergeCallsText">Anrufe zusammenfassen</string>
+    
+    <string name="onscreenSwapCallsText">Vertauschen</string>
+    
+    <string name="onscreenManageCallsText">Anrufe verwalten</string>
+    
+    <string name="onscreenManageConferenceText">Konferenz verwalten</string>
+    
+    <string name="onscreenAudioText">Audio</string>
+    
+    <string name="onscreenVideoCallText">Video-Anruf</string>
+
+    
+    <string name="importSimEntry">Importieren</string>
+    
+    <string name="importAllSimEntries">Alle importieren</string>
+    
+    <string name="importingSimContacts">SIM-Kontakte importieren</string>
+    
+    <string name="importToFDNfromContacts">Von Kontakten importieren</string>
+
+    
+    <string name="hac_mode_title">Hörhilfen</string>
+    <string name="hac_mode_summary">Kompatibilität mit Hörhilfe einschalten</string>
+
+    
+    <string-array name="tty_mode_entries">
+        <item>TTY Aus</item>
+        <item>TTY voll</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+
+    
+    
+
+    
+    
+    <string name="dtmf_tones_title">DTMF-Töne</string>
+    
+    <string name="dtmf_tones_summary">Länge der DTMF-Töne einrichten</string>
+    
+    <string-array name="dtmf_tone_entries">
+      <item>Normal</item>
+      <item>Lang</item>
+    </string-array>
+    
+    
+
+    
+    <string name="network_message">Netzwerknachricht</string>
+
+    
+    
+    <string name="ota_title_activate">Telefon aktivieren</string>
+    
+    <string name="ota_touch_activate">Ein spezieller Anruf ist erforderlich, um Ihr Telefon zu aktivieren. \n\nBefolgen Sie nach Drücken von \u201CActivate\u201D den Anweisungen zur Telefonaktivierung.</string>
+
+    
+    <string name="ota_skip_activation_dialog_title">Aktivierung überspringen?</string>
+    
+    <string name="ota_skip_activation_dialog_message">Wenn Sie die Aktivierung überspringen, können Sie keine Anrufe über das Internet tätigen oder sich mit einem mobilen Netzwerk verbinden (Verbindungen zu einem Wi-Fi-Netzwerk sind jedoch möglich). Wenn Sie Ihr Telefon nicht aktivieren, werden Sie jedes Mal, wenn Sie es einschalten, gefragt, es zu aktivieren.</string>
+    
+    <string name="ota_skip_activation_dialog_skip_label">Überspringen</string>
+
+    
+    <string name="ota_activate">Aktivieren</string>
+    
+    <string name="ota_title_activate_success">Telefon ist aktiviert.</string>
+    
+    <string name="ota_title_problem_with_activation">Aktivierungsproblem</string>
+    
+    <string name="ota_listen">Folgen Sie den gesprochenen Instruktion, bis Sie hören, dass Ihr Telefon aktiviert ist.</string>
+
+    
+    <string name="ota_speaker">Lautsprecher</string>
+    
+    <string name="ota_progress">Bitte warten Sie ab, während Ihr Telefon programmiert wird.</string>
+    
+    <string name="ota_failure">Programmierung fehlgeschlagen</string>
+    
+    <string name="ota_successful">Ihr Telefon ist jetzt aktiviert. Es kann 15 Minuten dauern, bist der Dienst startet.</string>
+    
+    <string name="ota_unsuccessful">In Ihrem Telefon konnte nicht aktiviert werden. \nSuchen Sie einen Bereich mit besserem Netzempfang (nahe am Fenster oder draußen). \n\nVersuchen Sie es erneut oder wenden Sie sich an den Kundendienst.</string>
+    
+    <string name="ota_spc_failure">ÜBERMÄSSIGE SPC-FEHLER</string>
+    
+    <string name="ota_call_end">Zurück</string>
+    
+    <string name="ota_try_again">Erneut versuchen</string>
+    
+    <string name="ota_next">Nächste</string>
+
+    
+    <string name="ecm_exit_dialog">EcmExitDialog</string>
+    
+    <string name="phone_entered_ecm_text">Not-Rückrufmodus gestartet</string>
+    
+    <string name="phone_in_ecm_notification_title">Not-Rückrufmodus</string>
+    
+    <string name="phone_in_ecm_call_notification_text">Datenverbindung: deaktiviert</string>
+    <plurals name="phone_in_ecm_notification_time">
+        
+        <item quantity="one">Keine Datenverbindung für <xliff:g id="count">%s</xliff:g> Minute</item>
+        
+        <item quantity="other">Keine Datenverbindung für <xliff:g id="count">%s</xliff:g> Minuten</item>
+    </plurals>
+    
+    <plurals name="alert_dialog_exit_ecm">
+        
+        <item quantity="one">Telefon schaltet in Not-Rückrufmodus für <xliff:g id="count">%s</xliff:g> Minute In diesem Modus können keine Apps, die eine Datenverbindung benötigen, verwendet werden. Wollen Sie abbrechen?</item>
+        
+        <item quantity="other">Telefon schaltet in Not-Rückrufmodus für <xliff:g id="count">%s</xliff:g> Minuten. In diesem Modus können keine Anwendungen, die eine Datenverbindung benötigen, verwendet werden. Wollen Sie abbrechen?</item>
+    </plurals>
+    
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        
+        <item quantity="one">Die ausgewählte Aktion ist im Not-Rückrufmodus nicht verfügbar. Telefon schaltet in diesen Modus für <xliff:g id="count">%s</xliff:g> Minute. Wollen Sie abbrechen?</item>
+        
+        <item quantity="other">Die ausgewählte Aktion ist im Not-Rückrufmodus nicht verfügbar. Telefon schaltet in diesen Modus für <xliff:g id="count">%s</xliff:g> Minuten. Wollen Sie abbrechen?</item>
+    </plurals>
+    
+    <string name="alert_dialog_in_ecm_call">Die ausgewählte Aktion ist bei einem Notruf nicht verfügbar.</string>
+    
+    <string name="progress_dialog_exiting_ecm">Not-Rückrufmodus verlassen</string>
+    
+    <string name="alert_dialog_yes">Ja</string>
+    
+    <string name="alert_dialog_no">Nein</string>
+    
+    <string name="alert_dialog_dismiss">Ablehnen</string>
+
+    
+    
+
+    
+    <string name="voicemail_provider">Dienst</string>
+
+    
+    <string name="voicemail_settings">Setup</string>
+
+    
+    <string name="voicemail_number_not_set">&lt;Not set&gt;</string>
+
+    
+    <string name="other_settings">Andere Rufeinstellungen</string>
+
+    
+    <string name="calling_via_template">Anrufen über <xliff:g id="provider_name">%s</xliff:g></string>
+
+    
+    <string name="contactPhoto">Kontaktfoto</string>
+    
+    <string name="goPrivate">Nach Privat wechseln</string>
+    
+    <string name="selectContact">Kontakt wählen</string>
+
+
+    
+
+    
+    <string name="sip_settings">Einstellungen für Internet-Anrufe</string>
+    
+    <string name="sip_accounts">Internet-Anrufkonten (SIP)</string>
+    
+    <string name="sip_accounts_title">Konten</string>
+    
+    <string name="sip_receive_calls">Eingehende Anrufe empfangen</string>
+    
+    <string name="sip_receive_calls_summary">Reduziert Batteriestandzeit</string>
+    
+    <string name="sip_call_options_title">Internet-Anruf verwenden</string>
+    
+    <string name="sip_call_options_wifi_only_title">Internet-Anruf verwenden (nur Wi-Fi)</string>
+
+    
+    <string name="sip_call_options_entry_1">Für alle Anrufe bei verfügbarem Datennetzwerk</string>
+    
+    <string name="sip_call_options_entry_2">Nur für Internet-Anrufe</string>
+    
+    <string name="sip_call_options_entry_3">Bei jedem Anruf fragen</string>
+    
+    <string name="sip_call_options_wifi_only_entry_1">Für alle Anrufe</string>
+
+    
+    <string name="pick_outgoing_call_phone_type">Anrufen</string>
+
+    
+    <string name="pick_outgoing_sip_phone">Internet-Anruf-Konto verwenden:</string>
+
+    
+    <string name="remember_my_choice">Immer für Internet-Anrufe verwenden</string>
+
+    
+    <string name="reset_my_choice_hint">Sie können wir folgt einstellen, welches Internet-Anruf-Konto als Vorgabe für Ihr Telefon verwendet werden soll: Telefon &gt; Einstellungen &gt; Internet-Anrufeinstellungen &gt; Konten-Seite.</string>
+
+    
+    <string name="pstn_phone">Cell-Anruf</string>
+
+    
+    <string name="internet_phone">Internet-Anruf</string>
+
+    
+    <string name="no_sip_account_found_title">Kein Internet-Anruf-Konto</string>
+    
+    <string name="no_sip_account_found">Es gibt noch keine Internetanrufkonten in diesem Telefon. Jetzt zufügen?</string>
+    
+    <string name="sip_menu_add">Hinzufügen</string>
+
+    
+    <string name="add_sip_account">Konto hinzufügen</string>
+    
+    <string name="remove_sip_account">Konto löschen</string>
+    
+    <string name="sip_account_list">SIP-Konten</string>
+    
+    <string name="saving_account">Konto wird gespeichert \u2026</string>
+    
+    <string name="removing_account">Konto wird gelöscht\u2026</string>
+
+    
+    <string name="sip_menu_save">Speichern</string>
+    
+    <string name="sip_menu_discard">Verwerfen</string>
+
+    
+    <string name="alert_dialog_close">Profil schließen</string>
+    
+    <string name="alert_dialog_ok">OK</string>
+    
+    <string name="close_profile">Schließen</string>
+
+    
+    <string name="primary_account_summary_with">Hauptkonto <xliff:g id="registration_status" example="Registering...">%s</xliff:g></string>
+    
+    <string name="registration_status_checking_status">Status wird geprüft...</string>
+    
+    <string name="registration_status_registering">Wird registriert\u2026</string>
+    
+    <string name="registration_status_still_trying">Versuche weiter\u2026</string>
+    
+    <string name="registration_status_not_receiving">Empfange keine Anrufe</string>
+    
+    <string name="registration_status_no_data">Kontenregistrierung gestoppt, da keine Internet-Verbindung besteht.</string>
+    
+    <string name="registration_status_no_wifi_data">Kontenregistrierung gestoppt, da keine Wi-Fi-Verbindung besteht.</string>
+    
+    <string name="registration_status_not_running">Kontenregistrierung fehlgeschlagen</string>
+    
+    <string name="registration_status_done">Empfange Anrufe</string>
+    
+    <string name="registration_status_failed_try_later">Kontenregistrierung fehlgeschlagen: (<xliff:g id="registration_error_message" example="timedout">%s</xliff:g>); versuche es später</string>
+    
+    <string name="registration_status_invalid_credentials">Kontenregistrierung fehlgeschlagen: Benutzername oder Kennwort ungültig</string>
+    
+    <string name="registration_status_server_unreachable">Kontenregistrierung fehlgeschlagen: Server-Name prüfen</string>
+    
+    <string name="third_party_account_summary">Dieses Konto wird zur Zeit von <xliff:g id="account_owner" example="GoogleTalk">%s</xliff:g>-App verwendet.</string>
+
+
+    
+    <string name="sip_edit_title">SIP-Kontendetails</string>
+    
+    <string name="sip_edit_new_title">SIP-Kontendetails</string>
+
+    
+    <string name="domain_address_title">Server</string>
+    
+    <string name="username_title">Benutzername</string>
+    
+    <string name="password_title">Kennwort</string>
+    
+    <string name="display_name_title">Angezeigter Name</string>
+    
+    <string name="proxy_address_title">Ausgehende Proxy-Adresse</string>
+    
+    <string name="port_title">Port-Nummer</string>
+    
+    <string name="transport_title">Transportart</string>
+    
+    <string name="send_keepalive_title">Keep-Alive senden</string>
+    
+    <string name="set_primary_title">Als Hauptkonto einrichten</string>
+    
+    <string name="set_primary_summary">Für ausgehende Anrufe verwenden</string>
+    
+    <string name="advanced_settings">Optionale Einstellungen</string>
+    
+    <string name="auth_username_title">Benutzername-Authentifizierung</string>
+    
+    <string name="auth_username_summary">Benutzername für Authentifizierung</string>
+
+    
+    <string name="default_preference_summary">&lt;Not set&gt;</string>
+    
+    <string name="display_name_summary">&lt;Same as username&gt;</string>
+    
+    <string name="optional_summary">&lt;Optional&gt;</string>
+
+    
+    
+    
+    
+
+
+    
+    <string name="advanced_settings_show">▷ Touch to show all</string>
+    
+    <string name="advanced_settings_hide">▽ Touch to hide all</string>
+
+    
+    <string name="empty_alert"><xliff:g id="input_field_name" example="Username,Password...">%s</xliff:g> ist erforderlich und darf nicht leer sein.</string>
+    
+    <string name="not_a_valid_port">Die Port-Nummer muss zwischen 1000 und 65534 liegen.</string>
+
+    
+    <string name="no_internet_available_title">Keine Internet-Verbindung</string>
+    
+    <string name="no_wifi_available_title">Keine Wi-Fi-Verbindung</string>
+    
+    <string name="no_internet_available">Prüfen Sie zuerst Ihre Internet-Verbindung, wenn Sie über das Internet anrufen wollen.</string>
+    
+    <string name="no_wifi_available">Für einen Internet-Anruf müssen Sie mit einem Wi-Fi-Netzwerk verbunden sein (verwenden Sie Drahtlos &amp; Netzwerk-Einstellungen).</string>
+    
+    <string name="no_voip">Internet-Anruf nicht unterstützt</string>
+
+    
+    <string translatable="true" name="sip_system_decide">Automatisch</string>
+    
+    <string translatable="true" name="sip_always_send_keepalive">Immer senden</string>
+
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    
+    <string name="not_voice_capable">Sprachanruf nicht unterstützt</string>
+
+    
+    <string name="respond_via_sms_canned_response_1">Kann nicht sprechen. Was ist?</string>
+    
+    <string name="respond_via_sms_canned_response_2">Rufe gleich zurück.</string>
+    
+    <string name="respond_via_sms_canned_response_3">Rufe Dich später an.</string>
+    
+    <string name="respond_via_sms_canned_response_4">Kann nicht sprechen. Rufst Du später an?</string>
+    
+    <string name="respond_via_sms_custom_message">Schreiben Sie Ihre eigenen...</string>
+    
+    <string name="custom_message_cancel">Abbrechen</string>
+    
+    <string name="custom_message_send">Senden</string>
+
+    
+    <string name="respond_via_sms_setting_title">Schnellantworten</string>
+    
+    <string name="respond_via_sms_setting_title_2">Schnellantworten editieren</string>
+    
+    <string name="respond_via_sms_setting_summary"/>
+    
+    <string name="respond_via_sms_edittext_dialog_title">Schnellantwort</string>
+    
+    <string name="respond_via_sms_menu_reset_default_activity">Standardeinstellungen wiederherstellen</string>
+
+    
+    <string name="respond_via_sms_confirmation_format">Nachricht gesendet an <xliff:g id="phone_number">%s</xliff:g>.</string>
+
+    
+    <string name="description_image_button_one">eins</string>
+
+    
+    <string name="description_image_button_two">zwei</string>
+
+    
+    <string name="description_image_button_three">drei</string>
+
+    
+    <string name="description_image_button_four">vier</string>
+
+    
+    <string name="description_image_button_five">fünf</string>
+
+    
+    <string name="description_image_button_six">sechs</string>
+
+    
+    <string name="description_image_button_seven">sieben</string>
+
+    
+    <string name="description_image_button_eight">acht</string>
+
+    
+    <string name="description_image_button_nine">neun</string>
+
+    
+    <string name="description_image_button_star">Stern</string>
+
+    
+    <string name="description_image_button_zero">Null</string>
+
+    
+    <string name="description_image_button_pound">Pfund</string>
+
+    
+    <string name="description_dial_button">Wählen</string>
+
+    
+    <string name="description_delete_button">Zurück</string>
+
+    
+    <string name="accessibility_speakerphone_enabled">Lautsprecher aktiviert</string>
+
+    
+    <string name="accessibility_call_muted">Anruf stumm geschaltet</string>
+
+    
+    <string name="description_target_answer">Antwort</string>
+    
+    <string name="description_target_send_sms">SMS senden</string>
+    
+    <string name="description_target_decline">Ablehnen</string>
+
+    
+    <string name="voicemail_notification_vibrate_when_title" msgid="8731372580674292759">Vibrieren</string>
+    
+    <string name="voicemail_notification_vibarte_when_dialog_title" msgid="8995274609647451109">Vibrieren</string>
+
+    
+    <string name="voicemail_notification_ringtone_title">Ton</string>
+
+    
+    <string name="default_notification_description">Standardton (<xliff:g id="default_sound_title">%1$s</xliff:g>)</string>
+
+    
+    
+
+    
+    
+
+    
+    <string name="ringtone_title" msgid="5379026328015343686">Klingelton</string>
+
+    
+    <string name="vibrate_on_ring_title">Beim Klingeln vibrieren</string>
+
+    
+    <string name="dtmf_tone_enable_title">Wahlblockton</string>
+
+    
+    <string name="dial_pad_autocomplete">Wähltastatur-Autovervollständigen</string>
+
+    
+    <string name="preference_category_ringtone">Klingelton &amp; Vibration</string>
+
+    
+    <string name="manageConferenceLabel">Konferenzanruf verwalten</string>
+</resources>
